@@ -1,0 +1,15 @@
+[project]
+name = "music-visualizer-workers"
+version = "0.1.0"
+description = "Audio_Worker: transcription, lyric alignment, SRT export, and audio analysis."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.hypothesis]
+# Each property-based test runs a minimum of 100 iterations (design Testing Strategy).
+max_examples = 100

@@ -1,0 +1,43 @@
+{
+  "title": "AudioAnalysisJson",
+  "description": "Audio analysis artifact audio-analysis.json (Req 6, Req 15.4).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "duration",
+    "interval",
+    "sampleRate",
+    "rms",
+    "bass",
+    "bands",
+    "bandCount",
+    "beats"
+  ],
+  "properties": {
+    "version": { "const": 1 },
+    "duration": { "type": "number", "minimum": 0 },
+    "interval": { "type": "number", "exclusiveMinimum": 0 },
+    "sampleRate": { "type": "number", "exclusiveMinimum": 0 },
+    "rms": {
+      "type": "array",
+      "items": { "type": "number", "minimum": 0, "maximum": 1 }
+    },
+    "bass": {
+      "type": "array",
+      "items": { "type": "number", "minimum": 0, "maximum": 1 }
+    },
+    "bands": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "bandCount": { "type": "integer", "minimum": 0 },
+    "beats": {
+      "type": "array",
+      "items": { "type": "number", "minimum": 0 }
+    }
+  }
+}

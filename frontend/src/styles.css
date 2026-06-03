@@ -1,0 +1,246 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.app-header h1 {
+  margin: 0 0 0.25rem;
+}
+
+.active-project code {
+  font-weight: 600;
+}
+
+.app-nav {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.5rem;
+}
+
+.nav-item {
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+}
+
+.nav-item[aria-current="page"] {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.nav-item:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+  max-width: 28rem;
+}
+
+fieldset.field {
+  border: 1px solid currentColor;
+}
+
+.radio {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-right: 1rem;
+}
+
+.asset-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.profile-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.profile-item {
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.profile-item.selected {
+  outline: 2px solid #2c6fbb;
+  outline-offset: 2px;
+}
+
+.profile-item > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.profile-item p {
+  margin: 0;
+}
+
+.profile-check {
+  margin-top: 1rem;
+}
+
+.detected-files {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.5rem 1rem;
+}
+
+.detected-files div {
+  min-width: 0;
+}
+
+.detected-files dt {
+  font-weight: 700;
+}
+
+.detected-files dd {
+  margin: 0.15rem 0 0;
+  overflow-wrap: anywhere;
+}
+
+.metadata-fields {
+  gap: 0.45rem;
+}
+
+.letter-grid {
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+}
+
+.asset-control {
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.badge {
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  padding: 0 0.4rem;
+  border-radius: 999px;
+}
+
+.badge.present {
+  background: #1b7f3b;
+  color: #fff;
+}
+
+.badge.missing {
+  background: #8a8a8a;
+  color: #fff;
+}
+
+.status.success,
+.success,
+.ready {
+  color: #1b7f3b;
+}
+
+.status.error,
+.error,
+.not-ready {
+  color: #c0392b;
+}
+
+.readiness-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.page-actions {
+  margin-top: 1rem;
+}
+
+.job-triggers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.5rem;
+  margin: 0.75rem 0;
+}
+
+.job-triggers .render-format {
+  margin-bottom: 0;
+}
+
+.job-list,
+.artifact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.job-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.badge.job-status {
+  color: #fff;
+  background: #8a8a8a;
+}
+
+.badge.job-status.running {
+  background: #2c6fbb;
+}
+
+.badge.job-status.completed {
+  background: #1b7f3b;
+}
+
+.badge.job-status.failed {
+  background: #c0392b;
+}
+
+.preview-format {
+  flex-direction: row;
+  align-items: center;
+  max-width: none;
+}
+
+.preview-player {
+  margin-top: 1rem;
+  background: #000;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.preview-needs-config,
+.preview-error {
+  margin-top: 1rem;
+}

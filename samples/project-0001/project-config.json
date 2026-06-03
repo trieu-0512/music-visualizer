@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "projectId": "project-0001",
+  "metadata": {
+    "songName": "Twinkle Twinkle Little Star",
+    "singerName": "Kids Choir"
+  },
+  "videoFormat": "both",
+  "assets": {
+    "background": "assets/background.png",
+    "songLogo": "assets/song-logo.png",
+    "channelLogo": "assets/channel-logo.png",
+    "audio": "assets/audio.wav",
+    "letters": {
+      "A": "assets/letters/A.svg",
+      "B": "assets/letters/B.svg",
+      "C": "assets/letters/C.svg",
+      "D": "assets/letters/D.svg",
+      "E": "assets/letters/E.svg",
+      "F": "assets/letters/F.svg",
+      "G": "assets/letters/G.svg",
+      "H": "assets/letters/H.svg",
+      "I": "assets/letters/I.svg",
+      "J": "assets/letters/J.svg",
+      "K": "assets/letters/K.svg",
+      "L": "assets/letters/L.svg",
+      "M": "assets/letters/M.svg",
+      "N": "assets/letters/N.svg",
+      "O": "assets/letters/O.svg",
+      "P": "assets/letters/P.svg",
+      "Q": "assets/letters/Q.svg",
+      "R": "assets/letters/R.svg",
+      "S": "assets/letters/S.svg",
+      "T": "assets/letters/T.svg",
+      "U": "assets/letters/U.svg",
+      "V": "assets/letters/V.svg",
+      "W": "assets/letters/W.svg",
+      "X": "assets/letters/X.svg",
+      "Y": "assets/letters/Y.svg",
+      "Z": "assets/letters/Z.svg"
+    }
+  },
+  "artifacts": {
+    "lyrics": "artifacts/lyrics.json",
+    "audioAnalysis": "artifacts/audio-analysis.json"
+  },
+  "layout": {
+    "template": "classic-landscape",
+    "lyricBox": { "maxLines": 2 },
+    "bars": { "left": true, "right": true }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "title": "ProjectConfigJson",
+  "description": "Project configuration artifact project-config.json (Req 7, Req 15.4).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "projectId",
+    "metadata",
+    "videoFormat",
+    "assets",
+    "artifacts",
+    "layout"
+  ],
+  "properties": {
+    "version": { "const": 1 },
+    "projectId": { "type": "string", "minLength": 1 },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["songName", "singerName"],
+      "properties": {
+        "songName": { "type": "string" },
+        "singerName": { "type": "string" }
+      }
+    },
+    "videoFormat": {
+      "type": "string",
+      "enum": ["landscape", "portrait", "both"]
+    },
+    "assets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["background", "songLogo", "channelLogo", "audio", "letters"],
+      "properties": {
+        "background": { "type": "string", "minLength": 1 },
+        "songLogo": { "type": "string", "minLength": 1 },
+        "channelLogo": { "type": "string", "minLength": 1 },
+        "audio": { "type": "string", "minLength": 1 },
+        "letters": {
+          "type": "object",
+          "propertyNames": { "pattern": "^[A-Z]$" },
+          "additionalProperties": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lyrics", "audioAnalysis"],
+      "properties": {
+        "lyrics": { "type": "string", "minLength": 1 },
+        "audioAnalysis": { "type": "string", "minLength": 1 }
+      }
+    },
+    "layout": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["template", "lyricBox", "bars"],
+      "properties": {
+        "template": { "type": "string", "minLength": 1 },
+        "lyricBox": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["maxLines"],
+          "properties": {
+            "maxLines": { "enum": [1, 2] }
+          }
+        },
+        "bars": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["left", "right"],
+          "properties": {
+            "left": { "type": "boolean" },
+            "right": { "type": "boolean" }
+          }
+        }
+      }
+    }
+  }
+}

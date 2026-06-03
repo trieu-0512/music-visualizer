@@ -1,0 +1,47 @@
+{
+  "title": "LyricsJson",
+  "description": "Standardized lyric artifact lyrics.json (Req 4, Req 15.4).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "source", "lines"],
+  "properties": {
+    "version": { "const": 1 },
+    "source": {
+      "type": "string",
+      "enum": ["transcriber", "original+transcriber"]
+    },
+    "lines": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/lyricLine" }
+    }
+  },
+  "$defs": {
+    "wordTiming": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "start", "end"],
+      "properties": {
+        "text": { "type": "string" },
+        "start": { "type": "number", "minimum": 0 },
+        "end": { "type": "number", "minimum": 0 }
+      }
+    },
+    "lyricLine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end", "text", "line1", "line2"],
+      "properties": {
+        "start": { "type": "number", "minimum": 0 },
+        "end": { "type": "number", "minimum": 0 },
+        "text": { "type": "string" },
+        "line1": { "type": "string" },
+        "line2": { "type": "string" },
+        "words": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/wordTiming" }
+        },
+        "letter": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "@music-visualizer/remotion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./Video": {
+      "types": "./dist/Video.d.ts",
+      "import": "./dist/Video.js"
+    },
+    "./defaultProps": {
+      "types": "./dist/defaultProps.d.ts",
+      "import": "./dist/defaultProps.js"
+    },
+    "./templates": {
+      "types": "./dist/templates/index.d.ts",
+      "import": "./dist/templates/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "render-worker": "vite-node src/renderWorkerMain.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "studio": "remotion studio",
+    "compositions": "remotion compositions src/index.ts"
+  },
+  "dependencies": {
+    "@music-visualizer/backend": "*",
+    "@music-visualizer/shared": "*",
+    "@remotion/bundler": "4.0.471",
+    "@remotion/renderer": "4.0.471",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "remotion": "4.0.471"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.471",
+    "@types/react": "19.2.16",
+    "@types/react-dom": "19.2.3",
+    "jsdom": "26.1.0"
+  }
+}

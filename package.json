@@ -1,0 +1,27 @@
+{
+  "name": "music-visualizer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first system that turns a song plus visual assets into lyric-synchronized, audio-reactive music videos.",
+  "workspaces": [
+    "shared",
+    "backend",
+    "remotion",
+    "frontend"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "build": "tsc -b",
+    "typecheck": "tsc -b",
+    "dev:api": "npm run dev --workspace @music-visualizer/backend",
+    "dev:web": "npm run dev --workspace @music-visualizer/frontend",
+    "worker": "cd workers && python -m src.worker",
+    "render-worker": "npm run render-worker --workspace @music-visualizer/remotion"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "fast-check": "^3.23.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}
