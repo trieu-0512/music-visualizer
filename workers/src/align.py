@@ -227,12 +227,13 @@ def load_original_lyrics(store: Any, project_id: str) -> Optional[OriginalLyrics
     """
     rel_txt = "assets/original-lyrics.txt"
     rel_json = "assets/original-lyrics.json"
+    rel_md = "assets/original-lyrics.md"
 
     reader = getattr(store, "read_text", None) or getattr(store, "read", None)
     if reader is None:
         return None
 
-    for rel, is_json in ((rel_json, True), (rel_txt, False)):
+    for rel, is_json in ((rel_json, True), (rel_txt, False), (rel_md, False)):
         try:
             raw = reader(project_id, rel)
         except Exception:

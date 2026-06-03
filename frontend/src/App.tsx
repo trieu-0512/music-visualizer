@@ -22,11 +22,16 @@ export interface AppProps {
   initialProjectId?: string | null;
 }
 
-export function App({ client, initialPageId, initialProjectId = null }: AppProps = {}): JSX.Element {
+export function App({ client, initialPageId, initialProjectId }: AppProps = {}): JSX.Element {
   const apiClient = useMemo(() => client ?? new ApiClient(), [client]);
-  const [projectId, setProjectId] = useState<string | null>(initialProjectId);
+  const urlState = useMemo(readUrlState, []);
+  const [projectId, setProjectId] = useState<string | null>(
+    initialProjectId !== undefined ? initialProjectId : urlState.projectId,
+  );
   const firstPageId = pages[0]?.id ?? "create";
-  const [activePageId, setActivePageId] = useState<string>(initialPageId ?? firstPageId);
+  const [activePageId, setActivePageId] = useState<string>(
+    initialPageId ?? urlState.pageId ?? firstPageId,
+  );
 
   // If the active page disappears (shouldn't happen at runtime) fall back.
   useEffect(() => {
@@ -87,4 +92,18 @@ export function App({ client, initialPageId, initialProjectId = null }: AppProps
       </main>
     </div>
   );
+}
+
+function readUrlState(): { pageId: string | null; projectId: string | null } {
+  if (typeof window === "undefined") return { pageId: null, projectId: null };
+  const params = new URLSearchParams(window.location.search);
+  return {
+    pageId: cleanParam(params.get("page")),
+    projectId: cleanParam(params.get("projectId")),
+  };
+}
+
+function cleanParam(value: string | null): string | null {
+  const trimmed = value?.trim();
+  return trimmed ? trimmed : null;
 }

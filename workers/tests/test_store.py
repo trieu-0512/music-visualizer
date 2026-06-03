@@ -65,6 +65,17 @@ def test_read_to_temp_copies_bytes_and_preserves_suffix(tmp_path: Path) -> None:
         Path(temp).unlink()
 
 
+def test_read_to_temp_resolves_extension_variant_for_role_stem(tmp_path: Path) -> None:
+    store = AssetStore(tmp_path)
+    store.write_bytes("p", "assets/audio.mp3", b"mp3-data")
+    temp = store.read_to_temp("p", "assets/audio")
+    try:
+        assert temp.endswith(".mp3")
+        assert Path(temp).read_bytes() == b"mp3-data"
+    finally:
+        Path(temp).unlink()
+
+
 def test_read_to_temp_missing_asset_raises(tmp_path: Path) -> None:
     store = AssetStore(tmp_path)
     with pytest.raises(FileNotFoundError):

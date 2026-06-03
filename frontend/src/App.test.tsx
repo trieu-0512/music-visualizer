@@ -11,7 +11,10 @@ import { cleanup, render, screen } from "@testing-library/react";
 import { App } from "./App.js";
 import { ApiClient } from "./api/index.js";
 
-afterEach(cleanup);
+afterEach(() => {
+  cleanup();
+  window.history.replaceState(null, "", "/");
+});
 
 function testClient(): ApiClient {
   // A client whose fetch is never called in these tests.
@@ -38,5 +41,12 @@ describe("App shell", () => {
   it("enables the assets slot when a project is active", () => {
     render(<App client={testClient()} initialProjectId="p1" />);
     expect(screen.getByRole("button", { name: "Assets" })).toBeEnabled();
+  });
+
+  it("can adopt the active project from the URL query", () => {
+    window.history.replaceState(null, "", "/?projectId=p-from-url&page=create");
+    render(<App client={testClient()} />);
+    expect(screen.getByText("p-from-url")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Preview" })).toBeEnabled();
   });
 });

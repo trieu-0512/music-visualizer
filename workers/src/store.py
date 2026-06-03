@@ -139,7 +139,7 @@ class AssetStore:
         tools (WhisperX, librosa) that expect a real file on disk. The suffix is
         preserved so format detection by those tools still works.
         """
-        source = self.resolve_path(project_id, relative_path)
+        source = self._resolve_existing_source(project_id, relative_path)
         if not source.is_file():
             raise FileNotFoundError(
                 f"asset not found: ({project_id!r}, {relative_path!r})"
@@ -148,6 +148,25 @@ class AssetStore:
         os.close(fd)
         shutil.copyfile(source, tmp_name)
         return tmp_name
+
+    def _resolve_existing_source(self, project_id: str, relative_path: str) -> Path:
+        """Resolve an exact path, or a single-extension variant for role stems.
+
+        The Node API stores role uploads with their real extension
+        (``assets/audio.mp3`` / ``assets/audio.wav``), while worker handlers use
+        role stems like ``assets/audio``. When the exact file is absent and the
+        requested path has no suffix, pick the first existing same-stem file.
+        """
+        target = self.resolve_path(project_id, relative_path)
+        if target.is_file() or target.suffix:
+            return target
+
+        parent = target.parent
+        if not parent.is_dir():
+            return target
+
+        candidates = sorted(path for path in parent.glob(f"{target.name}.*") if path.is_file())
+        return candidates[0] if candidates else target
 
     # -- delete ------------------------------------------------------------
 

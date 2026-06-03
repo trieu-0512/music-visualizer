@@ -13,6 +13,7 @@ from src.align import (
     build_lyrics,
     clamp_interval,
     clamp_words,
+    load_original_lyrics,
     pair_by_order,
     parse_original_lyrics,
     pick_letter,
@@ -211,3 +212,16 @@ def test_parse_original_lyrics_txt_and_json() -> None:
 
     obj = parse_original_lyrics('{"lines": ["x", "y"]}', is_json=True)
     assert obj.lines == ["x", "y"]
+
+
+def test_load_original_lyrics_accepts_markdown_asset() -> None:
+    class FakeStore:
+        def read_text(self, project_id: str, relative_path: str) -> str:
+            assert project_id == "p1"
+            if relative_path == "assets/original-lyrics.md":
+                return "# title\n\nLine one\nLine two"
+            raise FileNotFoundError(relative_path)
+
+    lyrics = load_original_lyrics(FakeStore(), "p1")
+    assert lyrics is not None
+    assert lyrics.lines == ["# title", "Line one", "Line two"]
