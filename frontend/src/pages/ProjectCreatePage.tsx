@@ -384,9 +384,11 @@ function buildProfiles(files: File[]): SongProfile[] {
             item.relativePath === "project.json",
         ),
         optionalLyrics: items.find((item) =>
-          ["assets/original-lyrics.txt", "assets/original-lyrics.json"].includes(
-            item.relativePath,
-          ),
+          [
+            "assets/original-lyrics.txt",
+            "assets/original-lyrics.json",
+            "assets/original-lyrics.md",
+          ].includes(item.relativePath),
         ),
       };
     })
@@ -455,7 +457,10 @@ function looseAssetPath(fileName: string): string | null {
   if (parsed === null) return null;
   const { stem, ext } = parsed;
 
-  if ((ext === ".mp3" || ext === ".wav") && ["audio", "song", "track", "music"].includes(stem)) {
+  if (
+    (ext === ".mp3" || ext === ".wav") &&
+    (["audio", "song", "track", "music"].includes(stem) || /^\d{4}$/.test(stem))
+  ) {
     return `assets/audio${ext}`;
   }
   if (
@@ -481,8 +486,9 @@ function looseAssetPath(fileName: string): string | null {
   if (letterPath !== null) return letterPath;
 
   if (
-    (ext === ".txt" || ext === ".json") &&
-    ["original-lyrics", "original-lyric", "lyrics", "lyric"].includes(stem)
+    (ext === ".txt" || ext === ".json" || ext === ".md") &&
+    (["original-lyrics", "original-lyric", "lyrics", "lyric"].includes(stem) ||
+      /^\d{4}-lyrics$/.test(stem))
   ) {
     return `assets/original-lyrics${ext}`;
   }

@@ -282,7 +282,7 @@ function looseAssetPath(fileName: string): string | null {
 
   if (
     (ext === ".mp3" || ext === ".wav") &&
-    ["audio", "song", "track", "music"].includes(stem)
+    (["audio", "song", "track", "music"].includes(stem) || /^\d{4}$/.test(stem))
   ) {
     return `assets/audio${ext}`;
   }
@@ -309,8 +309,9 @@ function looseAssetPath(fileName: string): string | null {
   if (letterPath !== null) return letterPath;
 
   if (
-    (ext === ".txt" || ext === ".json") &&
-    ["original-lyrics", "original-lyric", "lyrics", "lyric"].includes(stem)
+    (ext === ".txt" || ext === ".json" || ext === ".md") &&
+    (["original-lyrics", "original-lyric", "lyrics", "lyric"].includes(stem) ||
+      /^\d{4}-lyrics$/.test(stem))
   ) {
     return `assets/original-lyrics${ext}`;
   }

@@ -33,7 +33,7 @@ const BASE_ROLES: AssetRole[] = [
   {
     role: "originalLyrics",
     label: "Original lyrics (optional)",
-    accept: ".txt,.json",
+    accept: ".txt,.json,.md",
     required: false,
   },
 ];

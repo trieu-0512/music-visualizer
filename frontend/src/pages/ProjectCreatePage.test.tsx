@@ -78,11 +78,11 @@ function directSongFiles(prefix: string): File[] {
       singerName: "Direct Choir",
       videoFormat: "landscape",
     })),
-    fileAt(`${prefix}/audio.wav`),
+    fileAt(`${prefix}/0001.mp3`),
     fileAt(`${prefix}/background.png`),
     fileAt(`${prefix}/song-logo.svg`),
     fileAt(`${prefix}/channel-logo.svg`),
-    fileAt(`${prefix}/lyrics.txt`, "A is for apple"),
+    fileAt(`${prefix}/0001_lyrics.md`, "A is for apple"),
     ...LETTERS.map((letter) => fileAt(`${prefix}/${letter}.svg`)),
   ];
 }
@@ -162,6 +162,7 @@ describe("ProjectCreatePage folder import", () => {
     expect(screen.getByDisplayValue("Direct Choir")).toBeInTheDocument();
     expect(screen.getByRole("combobox", { name: "Export format" })).toHaveValue("landscape");
     expect(screen.getByText("All required files are present.")).toBeInTheDocument();
+    expect(screen.getByText("assets/original-lyrics.md")).toBeInTheDocument();
 
     await user.click(screen.getByRole("button", { name: "Load selected song" }));
     await waitFor(() => expect(importFolder).toHaveBeenCalledTimes(1));

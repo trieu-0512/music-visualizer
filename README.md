@@ -36,7 +36,7 @@ nhac-thieu-nhi/
     background.png
     song-logo.svg
     channel-logo.svg
-    original-lyrics.txt
+    original-lyrics.md
     A.svg
     ...
     Z.svg
@@ -58,7 +58,9 @@ review missing files, edit metadata, then click `Load selected song`.
 
 Files may live directly inside each song folder, as shown above, or inside the
 standard `assets/` layout (`assets/audio.wav`, `assets/letters/A.svg`, etc.).
-The backend normalizes both forms into the same internal project layout.
+The backend normalizes both forms into the same internal project layout. Direct
+song folders can use names such as `audio.wav`, `0001.mp3`, `0001_lyrics.md`,
+and `A.svg` through `Z.svg`.
 
 Required per song:
 
@@ -70,7 +72,7 @@ Required per song:
 
 Optional:
 
-- `assets/original-lyrics.txt|json`
+- `assets/original-lyrics.txt|json|md`
 - `metadata.json` or `project.json`
 - `artifacts/lyrics.json`
 - `artifacts/audio-analysis.json`

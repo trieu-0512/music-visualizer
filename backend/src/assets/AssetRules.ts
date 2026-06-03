@@ -27,7 +27,10 @@ export interface RoleRule {
  */
 export const ROLE_RULES: Record<string, RoleRule> = {
   audio: { exts: [".mp3", ".wav"], mimes: ["audio/mpeg", "audio/wav", "audio/x-wav"] },
-  originalLyrics: { exts: [".txt", ".json"], mimes: ["text/plain", "application/json"] },
+  originalLyrics: {
+    exts: [".txt", ".json", ".md"],
+    mimes: ["text/plain", "application/json", "text/markdown"],
+  },
   background: {
     exts: [".png", ".jpg", ".jpeg", ".webp"],
     mimes: ["image/png", "image/jpeg", "image/webp"],

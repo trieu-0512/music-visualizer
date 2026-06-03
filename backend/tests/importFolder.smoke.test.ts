@@ -119,7 +119,7 @@ describe("folder import endpoint", () => {
     expect(
       await store.exists({
         projectId: "p_imported",
-        relativePath: "assets/original-lyrics.txt",
+        relativePath: "assets/original-lyrics.md",
       }),
     ).toBe(true);
   });
@@ -194,7 +194,7 @@ function attachCompleteFolder(
 
 function attachDirectFolder(req: Test): Test {
   const files: { path: string; data: string; contentType: string }[] = [
-    { path: "direct-song/audio.wav", data: "fake wav bytes", contentType: "audio/wav" },
+    { path: "direct-song/0001.mp3", data: "fake mp3 bytes", contentType: "audio/mpeg" },
     { path: "direct-song/background.png", data: "fake png bytes", contentType: "image/png" },
     {
       path: "direct-song/song-logo.svg",
@@ -207,9 +207,9 @@ function attachDirectFolder(req: Test): Test {
       contentType: "image/svg+xml",
     },
     {
-      path: "direct-song/lyrics.txt",
+      path: "direct-song/0001_lyrics.md",
       data: "A is for apple",
-      contentType: "text/plain",
+      contentType: "text/markdown",
     },
     ...LETTERS.map((letter) => ({
       path: `direct-song/${letter}.svg`,
