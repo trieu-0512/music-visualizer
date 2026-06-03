@@ -71,6 +71,22 @@ function songFiles(prefix: string): File[] {
   ];
 }
 
+function directSongFiles(prefix: string): File[] {
+  return [
+    fileAt(`${prefix}/metadata.json`, JSON.stringify({
+      songName: "Direct Song",
+      singerName: "Direct Choir",
+      videoFormat: "landscape",
+    })),
+    fileAt(`${prefix}/audio.wav`),
+    fileAt(`${prefix}/background.png`),
+    fileAt(`${prefix}/song-logo.svg`),
+    fileAt(`${prefix}/channel-logo.svg`),
+    fileAt(`${prefix}/lyrics.txt`, "A is for apple"),
+    ...LETTERS.map((letter) => fileAt(`${prefix}/${letter}.svg`)),
+  ];
+}
+
 describe("ProjectCreatePage folder import", () => {
   it("shows song profiles, checks one folder, loads metadata, and imports that song", async () => {
     const selectedFiles = songFiles("nhac-thieu-nhi/alphabet-song");
@@ -128,6 +144,28 @@ describe("ProjectCreatePage folder import", () => {
     expect(missing.getByText("background")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Load selected song" })).toBeDisabled();
     expect(importFolder).not.toHaveBeenCalled();
+  });
+
+  it("accepts a song folder whose required files are directly inside the folder", async () => {
+    const files = directSongFiles("nhac-thieu-nhi/direct-song");
+    const importFolder = vi.fn<ApiClient["importFolder"]>(async () =>
+      importResult("proj-direct"),
+    );
+    const { context } = makeContext({ importFolder });
+
+    render(<ProjectCreatePage context={context} />);
+    const user = userEvent.setup();
+
+    await user.upload(screen.getByLabelText("Music library folder"), files);
+
+    await screen.findByDisplayValue("Direct Song");
+    expect(screen.getByDisplayValue("Direct Choir")).toBeInTheDocument();
+    expect(screen.getByRole("combobox", { name: "Export format" })).toHaveValue("landscape");
+    expect(screen.getByText("All required files are present.")).toBeInTheDocument();
+
+    await user.click(screen.getByRole("button", { name: "Load selected song" }));
+    await waitFor(() => expect(importFolder).toHaveBeenCalledTimes(1));
+    expect(importFolder.mock.calls[0]![0]).toEqual(files);
   });
 
   it("shows the API error message when import fails", async () => {

@@ -45,6 +45,23 @@ Thu muc cha co nhieu thu muc bai hat:
 nhac-thieu-nhi/
   alphabet-song/
     metadata.json
+    audio.wav
+    background.png
+    song-logo.svg
+    channel-logo.svg
+    original-lyrics.txt
+    A.svg
+    B.svg
+    ...
+    Z.svg
+```
+
+Hoac dung layout chuan noi bo:
+
+```text
+nhac-thieu-nhi/
+  alphabet-song/
+    metadata.json
     assets/
       audio.wav
       background.png
@@ -56,18 +73,9 @@ nhac-thieu-nhi/
         B.svg
         ...
         Z.svg
-  counting-song/
-    metadata.json
-    assets/
-      audio.mp3
-      background.jpg
-      song-logo.png
-      channel-logo.png
-      letters/
-        A.svg
-        ...
-        Z.svg
 ```
+
+Backend se tu chuan hoa ca hai dang ve layout noi bo `assets/...`.
 
 ## File bat buoc trong moi bai hat
 
@@ -76,6 +84,10 @@ nhac-thieu-nhi/
 - `assets/song-logo.png|svg`
 - `assets/channel-logo.png|svg`
 - `assets/letters/A.svg` den `assets/letters/Z.svg`
+
+Neu file dat truc tiep trong thu muc bai hat, app cung nhan cac ten tuong duong
+nhu `audio.wav`, `background.png`, `song-logo.svg`, `channel-logo.svg`, va
+`A.svg` den `Z.svg`.
 
 Moi file chu cai A-Z nen la SVG nen trong suot, gom chu cai va object minh hoa.
 Ung dung hien check thieu/du theo ten file; viec kiem tra noi dung SVG la trach

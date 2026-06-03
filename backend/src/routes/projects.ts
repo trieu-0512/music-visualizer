@@ -231,7 +231,7 @@ function normalizeFolderPath(
   if (assetIndex >= 0) {
     return {
       relativePath: parts.slice(assetIndex).join("/"),
-      rootName: assetIndex > 0 ? parts[0]! : null,
+      rootName: assetIndex > 0 ? parts[assetIndex - 1]! : null,
     };
   }
 
@@ -239,7 +239,7 @@ function normalizeFolderPath(
   if (artifactIndex >= 0) {
     return {
       relativePath: parts.slice(artifactIndex).join("/"),
-      rootName: artifactIndex > 0 ? parts[0]! : null,
+      rootName: artifactIndex > 0 ? parts[artifactIndex - 1]! : null,
     };
   }
 
@@ -251,7 +251,93 @@ function normalizeFolderPath(
     };
   }
 
+  const lettersIndex = parts.lastIndexOf("letters");
+  if (lettersIndex >= 0 && last) {
+    const letterPath = looseLetterPath(last);
+    if (letterPath !== null) {
+      return {
+        relativePath: letterPath,
+        rootName: lettersIndex > 0 ? parts[lettersIndex - 1]! : null,
+      };
+    }
+  }
+
+  if (last) {
+    const relativePath = looseAssetPath(last);
+    if (relativePath !== null) {
+      return {
+        relativePath,
+        rootName: parts.length > 1 ? parts.at(-2)! : null,
+      };
+    }
+  }
+
   return null;
+}
+
+function looseAssetPath(fileName: string): string | null {
+  const parsed = parseLooseName(fileName);
+  if (parsed === null) return null;
+  const { stem, ext } = parsed;
+
+  if (
+    (ext === ".mp3" || ext === ".wav") &&
+    ["audio", "song", "track", "music"].includes(stem)
+  ) {
+    return `assets/audio${ext}`;
+  }
+  if (
+    [".png", ".jpg", ".jpeg", ".webp"].includes(ext) &&
+    ["background", "bg", "backdrop", "cover"].includes(stem)
+  ) {
+    return `assets/background${ext}`;
+  }
+  if (
+    (ext === ".png" || ext === ".svg") &&
+    ["song-logo", "logo-song", "logo-bai-hat", "songlogo", "title-logo"].includes(stem)
+  ) {
+    return `assets/song-logo${ext}`;
+  }
+  if (
+    (ext === ".png" || ext === ".svg") &&
+    ["channel-logo", "logo-channel", "logo-kenh", "channellogo", "channel"].includes(stem)
+  ) {
+    return `assets/channel-logo${ext}`;
+  }
+
+  const letterPath = looseLetterPath(fileName);
+  if (letterPath !== null) return letterPath;
+
+  if (
+    (ext === ".txt" || ext === ".json") &&
+    ["original-lyrics", "original-lyric", "lyrics", "lyric"].includes(stem)
+  ) {
+    return `assets/original-lyrics${ext}`;
+  }
+  if (ext === ".json" && stem === "audio-analysis") {
+    return "artifacts/audio-analysis.json";
+  }
+  return null;
+}
+
+function looseLetterPath(fileName: string): string | null {
+  const parsed = parseLooseName(fileName);
+  if (parsed === null || parsed.ext !== ".svg" || !/^[a-z]$/.test(parsed.stem)) {
+    return null;
+  }
+  return `assets/letters/${parsed.stem.toUpperCase()}.svg`;
+}
+
+function parseLooseName(fileName: string): { stem: string; ext: string } | null {
+  const dot = fileName.lastIndexOf(".");
+  if (dot <= 0) return null;
+  const ext = fileName.slice(dot).toLowerCase();
+  const stem = fileName
+    .slice(0, dot)
+    .trim()
+    .toLowerCase()
+    .replace(/[\s_]+/g, "-");
+  return stem.length > 0 ? { stem, ext } : null;
 }
 
 function displayName(raw: string): string {

@@ -98,6 +98,32 @@ describe("folder import endpoint", () => {
     expect(res.body.artifacts).toEqual([]);
   });
 
+  it("loads a song folder whose required files are directly inside the folder", async () => {
+    const res = await attachDirectFolder(request(app).post("/projects/import-folder"));
+
+    expect(res.status, JSON.stringify(res.body)).toBe(201);
+    expect(res.body.project.songName).toBe("direct song");
+    expect(res.body.readiness.ready).toBe(true);
+    expect(
+      await store.exists({
+        projectId: "p_imported",
+        relativePath: "assets/background.png",
+      }),
+    ).toBe(true);
+    expect(
+      await store.exists({
+        projectId: "p_imported",
+        relativePath: "assets/letters/Z.svg",
+      }),
+    ).toBe(true);
+    expect(
+      await store.exists({
+        projectId: "p_imported",
+        relativePath: "assets/original-lyrics.txt",
+      }),
+    ).toBe(true);
+  });
+
   it("rejects an incomplete folder before creating a project", async () => {
     const res = await attachCompleteFolder(
       request(app).post("/projects/import-folder"),
@@ -164,4 +190,42 @@ function attachCompleteFolder(
         contentType: file.contentType,
       });
   }, req);
+}
+
+function attachDirectFolder(req: Test): Test {
+  const files: { path: string; data: string; contentType: string }[] = [
+    { path: "direct-song/audio.wav", data: "fake wav bytes", contentType: "audio/wav" },
+    { path: "direct-song/background.png", data: "fake png bytes", contentType: "image/png" },
+    {
+      path: "direct-song/song-logo.svg",
+      data: "<svg xmlns=\"http://www.w3.org/2000/svg\"/>",
+      contentType: "image/svg+xml",
+    },
+    {
+      path: "direct-song/channel-logo.svg",
+      data: "<svg xmlns=\"http://www.w3.org/2000/svg\"/>",
+      contentType: "image/svg+xml",
+    },
+    {
+      path: "direct-song/lyrics.txt",
+      data: "A is for apple",
+      contentType: "text/plain",
+    },
+    ...LETTERS.map((letter) => ({
+      path: `direct-song/${letter}.svg`,
+      data: `<svg xmlns="http://www.w3.org/2000/svg"><text>${letter}</text></svg>`,
+      contentType: "image/svg+xml",
+    })),
+  ];
+
+  return files.reduce(
+    (chain, file) =>
+      chain
+        .field("paths", file.path)
+        .attach("files", Buffer.from(file.data), {
+          filename: file.path.split("/").at(-1),
+          contentType: file.contentType,
+        }),
+    req,
+  );
 }

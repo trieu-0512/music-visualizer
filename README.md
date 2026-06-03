@@ -32,16 +32,14 @@ music library folder, for example:
 nhac-thieu-nhi/
   alphabet-song/
     metadata.json
-    assets/
-      audio.wav
-      background.png
-      song-logo.svg
-      channel-logo.svg
-      original-lyrics.txt
-      letters/
-        A.svg
-        ...
-        Z.svg
+    audio.wav
+    background.png
+    song-logo.svg
+    channel-logo.svg
+    original-lyrics.txt
+    A.svg
+    ...
+    Z.svg
   counting-song/
     metadata.json
     assets/
@@ -57,6 +55,10 @@ nhac-thieu-nhi/
 
 The app groups each song folder as a profile. Pick one profile, click `Check`,
 review missing files, edit metadata, then click `Load selected song`.
+
+Files may live directly inside each song folder, as shown above, or inside the
+standard `assets/` layout (`assets/audio.wav`, `assets/letters/A.svg`, etc.).
+The backend normalizes both forms into the same internal project layout.
 
 Required per song:
 

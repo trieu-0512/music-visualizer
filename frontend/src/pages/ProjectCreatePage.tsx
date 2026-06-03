@@ -331,8 +331,8 @@ function ProjectCreatePage({ context }: PageProps): JSX.Element {
 
       {files.length > 0 && profiles.length === 0 && (
         <p className="error" role="status">
-          No song folders were detected. Each song folder should contain an
-          assets directory.
+          No song folders were detected. Put each song's files in its own
+          folder, either directly or inside an assets directory.
         </p>
       )}
 
@@ -426,7 +426,90 @@ function normalizeProfilePath(
     };
   }
 
+  const lettersIndex = parts.lastIndexOf("letters");
+  if (lettersIndex >= 0 && last) {
+    const letterPath = looseLetterPath(last);
+    if (letterPath !== null) {
+      return {
+        profileId: profileId(parts.slice(0, lettersIndex)),
+        relativePath: letterPath,
+      };
+    }
+  }
+
+  if (last) {
+    const relativePath = looseAssetPath(last);
+    if (relativePath !== null) {
+      return {
+        profileId: profileId(parts.slice(0, -1)),
+        relativePath,
+      };
+    }
+  }
+
   return null;
+}
+
+function looseAssetPath(fileName: string): string | null {
+  const parsed = parseLooseName(fileName);
+  if (parsed === null) return null;
+  const { stem, ext } = parsed;
+
+  if ((ext === ".mp3" || ext === ".wav") && ["audio", "song", "track", "music"].includes(stem)) {
+    return `assets/audio${ext}`;
+  }
+  if (
+    [".png", ".jpg", ".jpeg", ".webp"].includes(ext) &&
+    ["background", "bg", "backdrop", "cover"].includes(stem)
+  ) {
+    return `assets/background${ext}`;
+  }
+  if (
+    (ext === ".png" || ext === ".svg") &&
+    ["song-logo", "logo-song", "logo-bai-hat", "songlogo", "title-logo"].includes(stem)
+  ) {
+    return `assets/song-logo${ext}`;
+  }
+  if (
+    (ext === ".png" || ext === ".svg") &&
+    ["channel-logo", "logo-channel", "logo-kenh", "channellogo", "channel"].includes(stem)
+  ) {
+    return `assets/channel-logo${ext}`;
+  }
+
+  const letterPath = looseLetterPath(fileName);
+  if (letterPath !== null) return letterPath;
+
+  if (
+    (ext === ".txt" || ext === ".json") &&
+    ["original-lyrics", "original-lyric", "lyrics", "lyric"].includes(stem)
+  ) {
+    return `assets/original-lyrics${ext}`;
+  }
+  if (ext === ".json" && stem === "audio-analysis") {
+    return "artifacts/audio-analysis.json";
+  }
+  return null;
+}
+
+function looseLetterPath(fileName: string): string | null {
+  const parsed = parseLooseName(fileName);
+  if (parsed === null || parsed.ext !== ".svg" || !/^[a-z]$/.test(parsed.stem)) {
+    return null;
+  }
+  return `assets/letters/${parsed.stem.toUpperCase()}.svg`;
+}
+
+function parseLooseName(fileName: string): { stem: string; ext: string } | null {
+  const dot = fileName.lastIndexOf(".");
+  if (dot <= 0) return null;
+  const ext = fileName.slice(dot).toLowerCase();
+  const stem = fileName
+    .slice(0, dot)
+    .trim()
+    .toLowerCase()
+    .replace(/[\s_]+/g, "-");
+  return stem.length > 0 ? { stem, ext } : null;
 }
 
 function profileId(parts: string[]): string {
