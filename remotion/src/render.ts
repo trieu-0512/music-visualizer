@@ -43,6 +43,7 @@
  */
 import { Buffer } from "node:buffer";
 import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { createRequire } from "node:module";
 import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -119,6 +120,12 @@ export interface RenderTarget {
   /** Output height in pixels. */
   height: number;
 }
+
+export type RenderTargetSelector =
+  | RenderTarget["compositionId"]
+  | RenderTarget["quality"]
+  | `${RenderTarget["format"]}-${RenderTarget["quality"]}`
+  | RenderTarget["fileName"];
 
 /** Landscape (16x9) Full HD output target. */
 export const LANDSCAPE_FULLHD_TARGET: RenderTarget = {
@@ -234,6 +241,28 @@ export function collectAssetPaths(assets: ProjectConfigJson["assets"]): string[]
   return [...new Set(paths)];
 }
 
+function targetMatchesSelector(
+  target: RenderTarget,
+  selector: RenderTargetSelector,
+): boolean {
+  return (
+    selector === target.compositionId ||
+    selector === target.quality ||
+    selector === `${target.format}-${target.quality}` ||
+    selector === target.fileName
+  );
+}
+
+export function filterRenderTargets(
+  targets: readonly RenderTarget[],
+  selectors: readonly RenderTargetSelector[],
+): RenderTarget[] {
+  if (selectors.length === 0) return [...targets];
+  return targets.filter((target) =>
+    selectors.some((selector) => targetMatchesSelector(target, selector)),
+  );
+}
+
 /** Select the orientation-specific template for a concrete render target. */
 function configForTarget(
   config: ProjectConfigJson,
@@ -276,8 +305,67 @@ export interface SelectCompositionOptions {
   inputProps: Record<string, unknown>;
 }
 
+export type X264Preset =
+  | "ultrafast"
+  | "superfast"
+  | "veryfast"
+  | "faster"
+  | "fast"
+  | "medium"
+  | "slow"
+  | "slower"
+  | "veryslow"
+  | "placebo";
+
+export type Bitrate = `${number}k` | `${number}K` | `${number}M`;
+export type FrameRange = number | [number, number] | [number, null];
+export type EncoderMode = "x264" | "amf";
+export type HardwareAccelerationMode = "disable" | "if-possible" | "required";
+export type ChromeMode = "headless-shell" | "chrome-for-testing";
+export type OpenGlRenderer =
+  | "swangle"
+  | "angle"
+  | "egl"
+  | "swiftshader"
+  | "vulkan"
+  | "angle-egl";
+
+export interface RemotionRenderSettings {
+  encoder?: EncoderMode;
+  binariesDirectory?: string | null;
+  crf?: number | null;
+  videoBitrate?: Bitrate | null;
+  encodingMaxRate?: Bitrate | null;
+  encodingBufferSize?: Bitrate | null;
+  x264Preset?: X264Preset | null;
+  concurrency?: number | string | null;
+  audioBitrate?: Bitrate | null;
+  frameRange?: FrameRange | null;
+  offthreadVideoThreads?: number | null;
+  hardwareAcceleration?: HardwareAccelerationMode | null;
+  chromeMode?: ChromeMode | null;
+  gl?: OpenGlRenderer | null;
+}
+
+export const DEFAULT_REMOTION_RENDER_SETTINGS: Required<RemotionRenderSettings> = {
+  encoder: "x264",
+  binariesDirectory: null,
+  crf: 12,
+  videoBitrate: null,
+  encodingMaxRate: null,
+  encodingBufferSize: null,
+  x264Preset: "medium",
+  concurrency: 6,
+  audioBitrate: "192k",
+  frameRange: null,
+  offthreadVideoThreads: 8,
+  hardwareAcceleration: "if-possible",
+  chromeMode: "headless-shell",
+  gl: "angle",
+};
+
 /** Options for {@link RenderBackend.renderMedia}. */
-export interface RenderMediaOptions {
+export interface RenderMediaOptions extends RemotionRenderSettings {
   serveUrl: string;
   composition: SelectedComposition;
   outputLocation: string;
@@ -309,6 +397,81 @@ type RemotionComposition = Awaited<
   ReturnType<RendererModule["selectComposition"]>
 >;
 
+const require = createRequire(import.meta.url);
+let nativeAacOverrideInstalled = false;
+
+function removeOption(args: string[], flag: string): string[] {
+  const out: string[] = [];
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === flag) {
+      i += 1;
+      continue;
+    }
+    out.push(args[i]!);
+  }
+  return out;
+}
+
+function createAmfFfmpegOverride(): (info: {
+  type: "pre-stitcher" | "stitcher";
+  args: string[];
+}) => string[] {
+  return ({ type, args }) => {
+    const argsWithNativeAac = args.map((arg) =>
+      arg === "libfdk_aac" ? "aac" : arg,
+    );
+    if (type !== "stitcher") return argsWithNativeAac;
+
+    const cleaned = removeOption(
+      removeOption(removeOption(argsWithNativeAac, "-crf"), "-preset"),
+      "-x264-params",
+    );
+    const out: string[] = [];
+    for (let i = 0; i < cleaned.length; i++) {
+      const arg = cleaned[i]!;
+      const next = cleaned[i + 1];
+      if (
+        (arg === "-c:v" || arg === "-codec:v" || arg === "-vcodec") &&
+        next === "libx264"
+      ) {
+        out.push(
+          arg,
+          "h264_amf",
+          "-usage",
+          "high_quality",
+          "-quality",
+          "quality",
+          "-rc",
+          "hqcbr",
+          "-profile:v",
+          "high",
+          "-async_depth",
+          "16",
+          "-preanalysis",
+          "true",
+        );
+        i += 1;
+        continue;
+      }
+      out.push(arg);
+    }
+    return out;
+  };
+}
+
+function installNativeAacAudioCodecOverride(): void {
+  if (nativeAacOverrideInstalled) return;
+  const rendererEntry = require.resolve("@remotion/renderer");
+  const audioCodecPath = join(dirname(rendererEntry), "options", "audio-codec.js");
+  const audioCodecModule = require(audioCodecPath) as {
+    mapAudioCodecToFfmpegAudioCodecName: (audioCodec: string) => string;
+  };
+  const original = audioCodecModule.mapAudioCodecToFfmpegAudioCodecName;
+  audioCodecModule.mapAudioCodecToFfmpegAudioCodecName = (audioCodec: string) =>
+    audioCodec === "aac" ? "aac" : original(audioCodec);
+  nativeAacOverrideInstalled = true;
+}
+
 /**
  * Default {@link RenderBackend} backed by Remotion. The bundler/renderer are
  * imported dynamically so importing this module (e.g. for the pure helpers or
@@ -324,7 +487,7 @@ export function createRemotionRenderBackend(): RenderBackend {
       });
     },
     async selectComposition(options) {
-      const { selectComposition } = await import("@remotion/renderer");
+      const { selectComposition } = require("@remotion/renderer") as RendererModule;
       return selectComposition({
         serveUrl: options.serveUrl,
         id: options.id,
@@ -332,12 +495,56 @@ export function createRemotionRenderBackend(): RenderBackend {
       });
     },
     async renderMedia(options) {
-      const { renderMedia } = await import("@remotion/renderer");
+      const requestedEncoder =
+        options.encoder ?? DEFAULT_REMOTION_RENDER_SETTINGS.encoder;
+      if (requestedEncoder === "amf") {
+        installNativeAacAudioCodecOverride();
+      }
+      const { renderMedia } = require("@remotion/renderer") as RendererModule;
+      const crf =
+        options.videoBitrate === undefined || options.videoBitrate === null
+          ? (options.crf ?? DEFAULT_REMOTION_RENDER_SETTINGS.crf)
+          : null;
+      const renderSettings = {
+        ...DEFAULT_REMOTION_RENDER_SETTINGS,
+        encoder: requestedEncoder,
+        binariesDirectory: options.binariesDirectory ?? null,
+        crf,
+        videoBitrate: options.videoBitrate ?? null,
+        encodingMaxRate: options.encodingMaxRate ?? null,
+        encodingBufferSize: options.encodingBufferSize ?? null,
+        x264Preset:
+          options.x264Preset ?? DEFAULT_REMOTION_RENDER_SETTINGS.x264Preset,
+        concurrency:
+          options.concurrency ?? DEFAULT_REMOTION_RENDER_SETTINGS.concurrency,
+        audioBitrate:
+          options.audioBitrate ?? DEFAULT_REMOTION_RENDER_SETTINGS.audioBitrate,
+        frameRange: options.frameRange ?? null,
+        offthreadVideoThreads:
+          options.offthreadVideoThreads ??
+          DEFAULT_REMOTION_RENDER_SETTINGS.offthreadVideoThreads,
+        hardwareAcceleration:
+          options.hardwareAcceleration ??
+          (crf === null ? "if-possible" : "disable"),
+        chromeMode: options.chromeMode ?? "headless-shell",
+        gl: options.gl ?? "angle",
+      };
+      const {
+        encoder,
+        gl,
+        ...remotionSettings
+      } = renderSettings;
       await renderMedia({
         serveUrl: options.serveUrl,
         composition: options.composition as RemotionComposition,
         codec: "h264",
         audioCodec: "aac", // mux the Audio_Asset on the timeline (Req 9.4)
+        pixelFormat: "yuv420p",
+        colorSpace: "bt709",
+        chromiumOptions: gl === null ? undefined : { gl },
+        ffmpegOverride: encoder === "amf" ? createAmfFfmpegOverride() : undefined,
+        overwrite: true,
+        ...remotionSettings,
         outputLocation: options.outputLocation,
         inputProps: options.inputProps,
       });
@@ -372,11 +579,65 @@ export interface RenderProjectDeps {
    * the OS temp dir. The created subdirectory is always removed afterwards.
    */
   workDir?: string;
+  targetSelectors?: RenderTargetSelector[];
+  renderSettings?: RemotionRenderSettings;
+  outputTag?: string;
 }
 
 /** Already-resolved asset locations are loaded directly, not staged. */
 const ALREADY_RESOLVED =
   /^(https?:)?\/\/|^(data|blob|file):|^\/|^[a-zA-Z]:[\\/]/;
+
+function taggedPath(path: string, tag?: string): string {
+  if (!tag) return path;
+  const safeTag = tag.replace(/[^a-zA-Z0-9._-]/g, "-");
+  return path.replace(/\.mp4$/i, `-${safeTag}.mp4`);
+}
+
+function doubleBitrate(rate: Bitrate): Bitrate {
+  const match = /^(\d+(?:\.\d+)?)([kKM])$/.exec(rate);
+  if (!match) return rate;
+  const value = Number(match[1]) * 2;
+  return `${Number.isInteger(value) ? value : value.toFixed(1)}${match[2]}` as Bitrate;
+}
+
+function defaultAmfBitrate(target: RenderTarget): Bitrate {
+  if (target.quality === "4k") return "100M";
+  if (target.quality === "2k") return "60M";
+  return "35M";
+}
+
+function settingsForTarget(
+  settings: RemotionRenderSettings | undefined,
+  target: RenderTarget,
+): RemotionRenderSettings {
+  const encoder =
+    settings?.encoder ??
+    (settings?.crf !== undefined && settings.crf !== null
+      ? "x264"
+      : DEFAULT_REMOTION_RENDER_SETTINGS.encoder);
+  if (encoder !== "amf") {
+    return { ...settings, encoder };
+  }
+
+  if (settings?.crf !== undefined && settings.crf !== null) {
+    throw new RenderError(
+      "CRF is not supported with AMD AMF. Use x264 for CRF or use AMF bitrate settings.",
+    );
+  }
+
+  const videoBitrate = settings?.videoBitrate ?? defaultAmfBitrate(target);
+  return {
+    ...settings,
+    encoder,
+    crf: null,
+    videoBitrate,
+    encodingMaxRate: settings?.encodingMaxRate ?? videoBitrate,
+    encodingBufferSize: settings?.encodingBufferSize ?? doubleBitrate(videoBitrate),
+    x264Preset: null,
+    hardwareAcceleration: settings?.hardwareAcceleration ?? "disable",
+  };
+}
 
 /** Default Remotion entry: the `index.js` sibling of this compiled module. */
 function defaultEntryPoint(): string {
@@ -464,7 +725,15 @@ export async function renderProject(
   const entryPoint = deps.entryPoint ?? defaultEntryPoint();
   const baseDir = deps.workDir ?? tmpdir();
 
-  const targets = expandRenderTargets(config.videoFormat);
+  const targets = filterRenderTargets(
+    expandRenderTargets(config.videoFormat),
+    deps.targetSelectors ?? [],
+  );
+  if (targets.length === 0) {
+    throw new RenderError(
+      `No render targets matched selectors: ${(deps.targetSelectors ?? []).join(", ")}`,
+    );
+  }
 
   // Load the artifacts the composition is driven by (Req 8.x parity with preview).
   const lyrics: LyricsJson = await loadArtifact(
@@ -507,7 +776,9 @@ export async function renderProject(
     const produced: string[] = [];
 
     for (const target of targets) {
-      const outputLocation = join(outDir, target.fileName);
+      const fileName = taggedPath(target.fileName, deps.outputTag);
+      const relativePath = taggedPath(target.relativePath, deps.outputTag);
+      const outputLocation = join(outDir, fileName);
       const targetConfig = configForTarget(config, target);
       const inputProps: Record<string, unknown> = {
         config: targetConfig,
@@ -525,6 +796,7 @@ export async function renderProject(
           composition,
           outputLocation,
           inputProps,
+          ...settingsForTarget(deps.renderSettings, target),
         });
       } catch (cause) {
         throw new RenderError(
@@ -538,15 +810,15 @@ export async function renderProject(
         bytes = await readFile(outputLocation);
       } catch (cause) {
         throw new RenderError(
-          `Render of ${target.fileName} produced no output file`,
+          `Render of ${fileName} produced no output file`,
           { cause },
         );
       }
       await store.write(
-        { projectId: config.projectId, relativePath: target.relativePath },
+        { projectId: config.projectId, relativePath },
         bytes,
       );
-      produced.push(target.relativePath);
+      produced.push(relativePath);
     }
 
     return produced;

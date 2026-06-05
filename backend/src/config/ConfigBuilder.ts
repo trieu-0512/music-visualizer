@@ -171,7 +171,7 @@ function defaultLayout(videoFormat: VideoFormat): LayoutDefinition {
   return {
     template,
     lyricBox: { maxLines: 2 },
-    bars: { left: true, right: true },
+    bars: { left: false, right: false },
   };
 }
 

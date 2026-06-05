@@ -1,8 +1,8 @@
 /**
  * Top-left information box (Req 10.7).
  *
- * Shows the Song_Logo_Asset alongside the song name and singer name from the
- * project metadata. Purely presentational.
+ * Shows the square Song_Logo_Asset alongside the song name and singer name in
+ * a blurred panel, matching the production frame reference.
  */
 import { Img } from "remotion";
 import { resolveAssetSrc } from "./assets.js";
@@ -46,14 +46,17 @@ export const InfoBox: React.FC<InfoBoxProps> = ({
         left: margin,
         display: "flex",
         alignItems: "center",
-        gap: padding,
+        gap: padding + 8,
         padding,
-        borderRadius: 16,
-        background: "rgba(0,0,0,0.4)",
-        backdropFilter: "blur(6px)",
+        borderRadius: 20,
+        background: "rgba(70,70,70,0.52)",
+        backdropFilter: "blur(14px)",
+        WebkitBackdropFilter: "blur(14px)",
+        boxShadow: "0 10px 26px rgba(0,0,0,0.22), inset 0 1px 0 rgba(255,255,255,0.35)",
+        border: "1px solid rgba(255,255,255,0.22)",
         color: "#fff",
         fontFamily: "Arial, Helvetica, sans-serif",
-        maxWidth: "60%",
+        maxWidth: "46%",
       }}
     >
       <Img
@@ -61,8 +64,11 @@ export const InfoBox: React.FC<InfoBoxProps> = ({
         style={{
           width: logoSize,
           height: logoSize,
-          objectFit: "contain",
+          objectFit: "cover",
           flexShrink: 0,
+          borderRadius: 16,
+          boxShadow: "0 5px 14px rgba(0,0,0,0.25)",
+          background: "rgba(255,255,255,0.2)",
         }}
       />
       <div style={{ display: "flex", flexDirection: "column", minWidth: 0 }}>

@@ -2,8 +2,8 @@
  * Blurred, audio-reactive background layer (Req 10.1, 10.2).
  *
  * Renders the Background_Asset full-frame with a blur effect, an RMS-driven
- * zoom (`scale`) and brightness, and a dark overlay on top so the foreground
- * letter and lyrics stay readable. `scale`/`brightness` come from the
+ * zoom (`scale`) and brightness, and a contrast overlay on top so the
+ * foreground letter and lyrics stay readable. `scale`/`brightness` come from the
  * `backgroundDynamics` selector so this component stays purely presentational.
  */
 import { AbsoluteFill, Img } from "remotion";
@@ -21,6 +21,8 @@ export interface BackgroundProps {
   brightness: number;
   /** Whether to draw the darkening overlay (Req 10.1). */
   overlay?: boolean;
+  /** Whether the overlay should brighten or darken the scene. */
+  overlayTone?: "light" | "dark";
 }
 
 export const Background: React.FC<BackgroundProps> = ({
@@ -29,7 +31,13 @@ export const Background: React.FC<BackgroundProps> = ({
   scale,
   brightness,
   overlay = true,
+  overlayTone = "dark",
 }) => {
+  const overlayBackground =
+    overlayTone === "light"
+      ? "linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.78) 54%, rgba(255,249,244,0.88) 100%)"
+      : "radial-gradient(ellipse at center, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.6) 100%)";
+
   return (
     <AbsoluteFill data-layer="background">
       <Img
@@ -41,15 +49,14 @@ export const Background: React.FC<BackgroundProps> = ({
           // Slight base zoom so the blur edges never reveal the canvas as the
           // RMS scale animates around 1.0.
           transform: `scale(${1.06 * scale})`,
-          filter: `blur(${blur}px) brightness(${brightness})`,
+          filter: `blur(${blur}px) brightness(${brightness}) saturate(1.08)`,
         }}
       />
       {overlay && (
         <AbsoluteFill
           data-layer="background-overlay"
           style={{
-            background:
-              "radial-gradient(ellipse at center, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.6) 100%)",
+            background: overlayBackground,
           }}
         />
       )}

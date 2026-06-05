@@ -131,14 +131,15 @@ function makeConfig(template: string): ProjectConfigJson {
 const line1: LyricLine = {
   start: 1.0,
   end: 3.0,
-  text: "Hello bright world",
-  line1: "Hello bright",
-  line2: "world",
+  text: "H is for horse",
+  line1: "H is for",
+  line2: "horse",
   letter: "H",
   words: [
-    { text: "Hello", start: 1.0, end: 1.7 },
-    { text: "bright", start: 1.8, end: 2.4 },
-    { text: "world", start: 2.5, end: 3.0 },
+    { text: "H", start: 1.0, end: 1.3 },
+    { text: "is", start: 1.4, end: 1.7 },
+    { text: "for", start: 1.8, end: 2.2 },
+    { text: "horse", start: 2.5, end: 3.0 },
   ],
 };
 
@@ -179,8 +180,6 @@ const analysis: AudioAnalysisJson = {
 // Times: one inside line 1 (active) and one in the 3s..5s gap (no line).
 const T_ACTIVE = 2.0;
 const T_GAP = 4.0;
-
-const LIT_COLOR = "#ffe14d";
 
 /**
  * Render a template at playback time `t` (seconds) and return a detached jsdom
@@ -238,6 +237,10 @@ describe("ClassicLandscape snapshot/visual layout (Req 10.1, 10.3, 10.5, 10.7, 1
     const img = letterLayer!.querySelector("img");
     expect(img).not.toBeNull();
     expect(img!.getAttribute("src")).toBe("assets/letters/H.svg");
+
+    const objectWord = letterLayer!.querySelector('[data-layer="object-word"]');
+    expect(objectWord).not.toBeNull();
+    expect(objectWord!.textContent).toBe("horse");
   });
 
   it("renders the bottom lyric box with one row per display line (Req 10.5)", () => {
@@ -245,31 +248,32 @@ describe("ClassicLandscape snapshot/visual layout (Req 10.1, 10.3, 10.5, 10.7, 1
 
     const lyricBox = root.querySelector('[data-layer="lyric-box"]');
     expect(lyricBox).not.toBeNull();
-    // Pinned to the bottom of the frame (landscape marginBottom = 90px).
-    expect(lyricBox!.getAttribute("style")).toContain("bottom:90px");
+    // Pinned to the bottom of the frame (landscape marginBottom = 56px).
+    expect(lyricBox!.getAttribute("style")).toContain("bottom:56px");
 
-    // line1 "Hello bright" + line2 "world" -> two rows, three words total.
+    // line1 "H is for" + line2 "horse" -> two rows, four words total.
     const rows = lyricBox!.querySelectorAll("[data-lyric-row]");
     expect(rows.length).toBe(2);
     const words = lyricBox!.querySelectorAll("[data-word]");
-    expect(words.length).toBe(3);
+    expect(words.length).toBe(4);
     expect(Array.from(words).map((w) => w.textContent)).toEqual([
-      "Hello",
-      "bright",
-      "world",
+      "H",
+      "is",
+      "for",
+      "horse",
     ]);
   });
 
-  it("advances karaoke coloring across words by playback time (Req 10.5/10.6)", () => {
+  it("keeps word timing and semantic letter/object coloring (Req 10.5/10.6)", () => {
     const root = renderAt(ClassicLandscape, config, T_ACTIVE);
     const words = Array.from(
       root.querySelectorAll('[data-layer="lyric-box"] [data-word]'),
     );
-    // At t=2.0 the first two words (start 1.0, 1.8) are lit; "world" (2.5) not.
-    const litCount = words.filter((w) =>
-      (w.getAttribute("style") ?? "").includes(LIT_COLOR),
-    ).length;
-    expect(litCount).toBe(2);
+    // At t=2.0 the first three words (1.0, 1.4, 1.8) are lit; "horse" (2.5) not.
+    const litCount = words.filter((w) => w.getAttribute("data-lit") === "true").length;
+    expect(litCount).toBe(3);
+    expect(words[0].getAttribute("data-role")).toBe("letter");
+    expect(words[3].getAttribute("data-role")).toBe("object");
   });
 
   it("renders the top-left info box with song logo and metadata (Req 10.7)", () => {
@@ -278,10 +282,10 @@ describe("ClassicLandscape snapshot/visual layout (Req 10.1, 10.3, 10.5, 10.7, 1
     const infoBox = root.querySelector('[data-layer="info-box"]');
     expect(infoBox).not.toBeNull();
 
-    // Anchored to the top-left corner (landscape margin = 48px).
+    // Anchored to the top-left corner (landscape margin = 24px).
     const style = infoBox!.getAttribute("style") ?? "";
-    expect(style).toContain("top:48px");
-    expect(style).toContain("left:48px");
+    expect(style).toContain("top:24px");
+    expect(style).toContain("left:24px");
 
     expect(
       infoBox!.querySelector('[data-field="song-name"]')!.textContent,
@@ -302,10 +306,10 @@ describe("ClassicLandscape snapshot/visual layout (Req 10.1, 10.3, 10.5, 10.7, 1
     expect(channel).not.toBeNull();
 
     const style = channel!.getAttribute("style") ?? "";
-    // Circular (50% radius) and pinned to the top-right (landscape margin 48px).
+    // Circular (50% radius) and pinned to the top-right (landscape margin 24px).
     expect(style).toContain("border-radius:50%");
-    expect(style).toContain("top:48px");
-    expect(style).toContain("right:48px");
+    expect(style).toContain("top:24px");
+    expect(style).toContain("right:24px");
 
     const img = channel!.querySelector("img");
     expect(img).not.toBeNull();
@@ -360,22 +364,22 @@ describe("ClassicPortrait snapshot/visual layout (Req 10.1, 10.3, 10.5, 10.7, 10
     expect(root.querySelector('[data-layer="channel-logo"]')).not.toBeNull();
 
     // Portrait placement differs from landscape: lyric box sits higher
-    // (marginBottom 220px) and corner margins are 36px.
+    // (marginBottom 180px) and corner margins are 26px.
     const lyricBox = root.querySelector('[data-layer="lyric-box"]');
     expect(lyricBox).not.toBeNull();
-    expect(lyricBox!.getAttribute("style")).toContain("bottom:220px");
+    expect(lyricBox!.getAttribute("style")).toContain("bottom:180px");
 
     const channel = root.querySelector('[data-layer="channel-logo"]');
     const channelStyle = channel!.getAttribute("style") ?? "";
     expect(channelStyle).toContain("border-radius:50%");
-    expect(channelStyle).toContain("top:36px");
-    expect(channelStyle).toContain("right:36px");
+    expect(channelStyle).toContain("top:26px");
+    expect(channelStyle).toContain("right:26px");
 
     const infoStyle =
       root.querySelector('[data-layer="info-box"]')!.getAttribute("style") ??
       "";
-    expect(infoStyle).toContain("top:36px");
-    expect(infoStyle).toContain("left:36px");
+    expect(infoStyle).toContain("top:26px");
+    expect(infoStyle).toContain("left:26px");
 
     // Reset shared state for any later landscape renders.
     remotionState.width = 1920;

@@ -22,53 +22,22 @@ transcribe/analyze/render bang worker.
 
 ## Renderer va hieu ung ngoai
 
-Remotion van la renderer san xuat co san trong app. Neu can thu pipeline
-`html-video`, dung handoff CLI de bien artifact chuan cua project thanh scene
-data:
-
-```bash
-npm run handoff -- storage/projects/project-0001-render
-```
-
-Lenh nay tao:
-
-- `artifacts/html-video-storyboard.json`: storyboard/timeline cho template
-  `html-video`.
-- `artifacts/openreel-effects-manifest.json`: danh sach hieu ung tham khao tu
-  `Augani/openreel-video`.
-
-OpenReel khong duoc dung lam renderer va khong tao `openreel-project.json`.
-OpenReel chi la nguon tham khao de port hieu ung vao template HTML: beat letter
-pop, karaoke word highlight, audio bars, background breathe, scene crossfade.
-
-De cai `html-video` lam renderer core:
-
-```powershell
-cd F:\MMO\Nhac
-git clone https://github.com/nexu-io/html-video.git
-cd html-video
-npx pnpm@9.15.0 install
-npx pnpm@9.15.0 build
-npx pnpm@9.15.0 --filter @html-video/adapter-hyperframes exec playwright install chromium
-```
-
-Render MP4 that bang `html-video` tu project hien tai:
+Remotion la renderer san xuat chinh trong app. Render truc tiep tu project
+folder:
 
 ```powershell
 cd F:\MMO\Nhac\music-visualizer
-npm run handoff -- storage/projects/project-0001-render
-npm run render:html-video -- storage/projects/project-0001-render --target landscape-fullhd --max-duration 3
+npm run render:remotion -- storage/projects/project-0001-render --target landscape-fullhd
 ```
 
-Bo `--max-duration 3` de render full song. File MP4 se nam trong
-`storage/projects/<project-id>/artifacts/`. Mac dinh renderer dung frame mode
-chat luong cao: Playwright render tung frame HTML co dinh, frame PNG duoc pipe
-thang vao ffmpeg, sau do mux audio goc vao MP4. Cach nay tranh WebM trung gian
-nen net hon browser recording.
+Mac dinh Remotion encode H.264/AAC voi cau hinh chat luong cao, BT.709,
+concurrency `6` va `offthreadVideoThreads=8`. Tren Windows, CLI uu tien AMD
+AMF neu FFmpeg ho tro; dung `--encoder x264 --crf 12` neu muon ep CPU x264.
+Neu can bitrate co dinh:
 
-Neu can render nhap nhanh, them `--mode recorder`. Neu render final, giu frame
-mode mac dinh va co the chinh chat luong H.264 bang `--crf`; so cang thap file
-cang lon va cang net, mac dinh la `12`.
+```powershell
+npm run render:remotion -- storage/projects/project-0001-render --target landscape-4k --video-bitrate 80M --maxrate 80M --bufsize 160M
+```
 
 ## Workflow hien tai
 
@@ -149,6 +118,52 @@ nhiem cua nguoi tao asset.
 - `metadata.json` hoac `project.json`
 - `artifacts/lyrics.json`
 - `artifacts/audio-analysis.json`
+- `<ma_bai>_prompt_gen.txt`: file JSONL chua prompt tao visual asset cho tung
+  chu cai, background va song logo.
+
+## Quy tac tao prompt visual
+
+Voi moi bai ABC, tao file `<ma_bai>_prompt_gen.txt` trong thu muc bai hat neu
+can sinh anh bang AI. Moi dong la mot JSON object hop le, bat dau bang `{` va
+ket thuc bang `}`.
+
+Quy uoc id:
+
+- `<ma_bai>A` den `<ma_bai>Z`: prompt foreground cho tung chu cai.
+- `<ma_bai>background`: prompt background rieng.
+- `<ma_bai>song_logo`: prompt logo bai hat rieng.
+
+Quy tac foreground A-Z:
+
+- Lay cap chu cai/object tu block `Object set:` trong `<ma_bai>_prompt.md`.
+- Anh foreground chi gom chu cai ben trai, object ben phai va label object ben
+  duoi object.
+- Khong co background, phong hoc, tuong, san, khung, nguoi, watermark hay chu
+  phu.
+- Moi prompt foreground chi dung invisible placement/safe area. Prompt phai noi
+  ro cac vung nay chi la layout instruction va khong duoc ve ra anh.
+- Moi prompt foreground phai co negative instruction manh: `No visible
+  placement boxes, no rectangle, no border, no outline, no frame, no black guide
+  lines, no bounding box, no checkerboard pattern, no classroom scene, no floor,
+  no wall, no scenery, no extra text, no watermark.`
+- Neu dung Google Flow voi nen chroma green `#00FF00`, prompt foreground phai
+  noi ngan gon rang mau chu cai, object va label khac ro mau nen chroma green.
+- Prompt phai khoa layout bang invisible placement area de render video on
+  dinh: canvas `2048x1152`, letter area `x=180..760 y=245..825`, object area
+  `x=1110..1810 y=180..760`, label text area `x=1040..1880 y=800..930`, gutter
+  `x=820..1030`. Tranh cac cum nhu `fixed box`, `inside x=...`, hoac
+  `do not exceed the box`.
+- Chu cai trong label trung voi chu cai lon dung cung mau voi chu cai lon; cac
+  chu con lai dung mau khac de de doc.
+
+Prompt background la anh nen binh thuong, tach rieng voi foreground. No phai
+hop chu de bai hat va chua khoang trong cho info box, channel logo, foreground
+asset va lyric box. Khong yeu cau SVG tru khi nguoi dung noi ro.
+
+Phong cach visual khong co dinh cho moi bai. Moi bai phai lay material, bang
+mau, mood va cach ve object tu chu de rieng cua bai do. Vi du bai classroom co
+the dung paper-craft/school supplies, nhung bai farm/ocean/space/bedtime phai
+co phong cach phu hop chu de do.
 
 ## Metadata
 

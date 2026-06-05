@@ -24,10 +24,12 @@ import {
   RenderError,
   collectAssetPaths,
   expandRenderTargets,
+  filterRenderTargets,
   renderProject,
   type AssetRef,
   type RenderAssetStore,
   type RenderBackend,
+  type RemotionRenderSettings,
 } from "../src/render.js";
 
 /* -------------------------------------------------------------------------- */
@@ -129,9 +131,19 @@ function seedFor(config: ProjectConfigJson): Record<string, Buffer> {
  * the requested output location so `renderProject` can read + store it.
  */
 function makeBackend(): RenderBackend & {
-  calls: { bundle: number; select: string[]; render: string[] };
+  calls: {
+    bundle: number;
+    select: string[];
+    render: string[];
+    renderSettings: RemotionRenderSettings[];
+  };
 } {
-  const calls = { bundle: 0, select: [] as string[], render: [] as string[] };
+  const calls = {
+    bundle: 0,
+    select: [] as string[],
+    render: [] as string[],
+    renderSettings: [] as RemotionRenderSettings[],
+  };
   return {
     calls,
     async bundle() {
@@ -144,6 +156,15 @@ function makeBackend(): RenderBackend & {
     },
     async renderMedia(options) {
       calls.render.push(options.outputLocation);
+      calls.renderSettings.push({
+        crf: options.crf,
+        videoBitrate: options.videoBitrate,
+        encodingMaxRate: options.encodingMaxRate,
+        encodingBufferSize: options.encodingBufferSize,
+        x264Preset: options.x264Preset,
+        concurrency: options.concurrency,
+        audioBitrate: options.audioBitrate,
+      });
       const { writeFile } = await import("node:fs/promises");
       await writeFile(options.outputLocation, Buffer.from(`video:${options.outputLocation}`));
     },
@@ -197,6 +218,15 @@ describe("expandRenderTargets (Req 9.2, 9.3)", () => {
       ...PORTRAIT_TARGETS,
     ]);
   });
+
+  it("filters targets by quality or explicit composition id", () => {
+    expect(filterRenderTargets(LANDSCAPE_TARGETS, ["fullhd"])).toEqual([
+      LANDSCAPE_TARGET,
+    ]);
+    expect(filterRenderTargets(LANDSCAPE_TARGETS, ["landscape-4k"])).toEqual([
+      LANDSCAPE_TARGETS[2],
+    ]);
+  });
 });
 
 /* -------------------------------------------------------------------------- */
@@ -247,6 +277,38 @@ describe("renderProject", () => {
     for (const target of LANDSCAPE_TARGETS) {
       expect(store.files.has(`p_test/${target.relativePath}`)).toBe(true);
     }
+  });
+
+  it("can render one selected target with custom Remotion quality settings", async () => {
+    const config = makeConfig("landscape");
+    const store = makeStore(seedFor(config));
+    const backend = makeBackend();
+
+    const produced = await renderProject(config, store, {
+      backend,
+      entryPoint: "/fake/index.js",
+      targetSelectors: ["landscape-fullhd"],
+      renderSettings: {
+        crf: 10,
+        x264Preset: "slow",
+        concurrency: 2,
+        audioBitrate: "256k",
+      },
+    });
+
+    expect(produced).toEqual([LANDSCAPE_TARGET.relativePath]);
+    expect(backend.calls.select).toEqual([LANDSCAPE_TARGET.compositionId]);
+    expect(backend.calls.renderSettings).toEqual([
+      {
+        crf: 10,
+        videoBitrate: undefined,
+        encodingMaxRate: undefined,
+        encodingBufferSize: undefined,
+        x264Preset: "slow",
+        concurrency: 2,
+        audioBitrate: "256k",
+      },
+    ]);
   });
 
   it("renders all six outputs in order with the correct composition ids", async () => {

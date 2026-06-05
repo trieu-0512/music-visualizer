@@ -19,6 +19,8 @@ export interface ClassicLayout {
   letterSize: number;
   /** Letter vertical offset from center in px (negative = up). */
   letterOffsetY: number;
+  /** Optional object word rendered next to the letter when no object image exists. */
+  objectWordFontSize: number;
   /** Left/right audio-bar column geometry (Req 10.9). */
   bars: {
     /** Number of bars stacked per side. */
@@ -57,10 +59,11 @@ export interface ClassicLayout {
 
 /** Landscape (1920x1080) placement constants. */
 export const LANDSCAPE_LAYOUT: ClassicLayout = {
-  bgBlur: 24,
+  bgBlur: 10,
   beatWindow: 0.25,
-  letterSize: 460,
-  letterOffsetY: -40,
+  letterSize: 410,
+  letterOffsetY: -54,
+  objectWordFontSize: 118,
   bars: {
     count: 16,
     maxLength: 220,
@@ -69,31 +72,32 @@ export const LANDSCAPE_LAYOUT: ClassicLayout = {
     edgeInset: 48,
   },
   infoBox: {
-    margin: 48,
-    logoSize: 96,
-    songFontSize: 40,
+    margin: 24,
+    logoSize: 132,
+    songFontSize: 38,
     singerFontSize: 28,
-    padding: 20,
+    padding: 16,
   },
   channelLogo: {
-    margin: 48,
-    size: 120,
+    margin: 24,
+    size: 164,
   },
   lyricBox: {
-    marginBottom: 90,
-    maxWidth: 1500,
-    fontSize: 54,
-    lineGap: 12,
-    padding: 28,
+    marginBottom: 56,
+    maxWidth: 1740,
+    fontSize: 56,
+    lineGap: 14,
+    padding: 30,
   },
 };
 
 /** Portrait (1080x1920) placement constants. */
 export const PORTRAIT_LAYOUT: ClassicLayout = {
-  bgBlur: 20,
+  bgBlur: 10,
   beatWindow: 0.25,
-  letterSize: 560,
-  letterOffsetY: -120,
+  letterSize: 430,
+  letterOffsetY: -180,
+  objectWordFontSize: 88,
   bars: {
     count: 24,
     maxLength: 150,
@@ -102,21 +106,21 @@ export const PORTRAIT_LAYOUT: ClassicLayout = {
     edgeInset: 28,
   },
   infoBox: {
-    margin: 36,
-    logoSize: 84,
-    songFontSize: 38,
-    singerFontSize: 26,
-    padding: 18,
+    margin: 26,
+    logoSize: 118,
+    songFontSize: 34,
+    singerFontSize: 24,
+    padding: 14,
   },
   channelLogo: {
-    margin: 36,
-    size: 110,
+    margin: 26,
+    size: 142,
   },
   lyricBox: {
-    marginBottom: 220,
-    maxWidth: 980,
-    fontSize: 52,
-    lineGap: 12,
-    padding: 26,
+    marginBottom: 180,
+    maxWidth: 1000,
+    fontSize: 50,
+    lineGap: 14,
+    padding: 28,
   },
 };

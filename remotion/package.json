@@ -25,8 +25,7 @@
   },
   "scripts": {
     "build": "tsc -b",
-    "handoff": "vite-node src/handoff/cli.ts",
-    "render:html-video": "vite-node src/html-video-render/cli.ts",
+    "render:remotion": "vite-node src/renderCli.ts",
     "render-worker": "vite-node src/renderWorkerMain.ts",
     "test": "vitest run",
     "test:watch": "vitest",

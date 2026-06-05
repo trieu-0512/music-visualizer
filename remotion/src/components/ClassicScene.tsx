@@ -58,6 +58,7 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
   const rms = sampleSeries(analysis.rms, analysis.interval, t);
   const bass = sampleSeries(analysis.bass, analysis.interval, t);
   const pulse = beatPulse(analysis.beats, t, layout.beatWindow);
+  const wobble = Math.sin(frame * 0.18) * (0.7 + 2.8 * pulse);
   const bands = sampleBands(analysis, t);
   const { scale, brightness } = backgroundDynamics(rms);
 
@@ -72,6 +73,7 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
     letterKey && config.assets.letters[letterKey]
       ? config.assets.letters[letterKey]
       : undefined;
+  const objectWord = line ? resolveObjectWord(line, letterKey) : undefined;
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }} data-template={config.layout.template}>
@@ -81,6 +83,7 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
         blur={layout.bgBlur}
         scale={scale}
         brightness={brightness}
+        overlayTone="light"
         overlay
       />
 
@@ -114,9 +117,13 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
       {letterSrc && (
         <CenterLetter
           src={letterSrc}
+          letter={letterKey ?? ""}
+          objectWord={objectWord}
           size={layout.letterSize}
+          objectWordFontSize={layout.objectWordFontSize}
           scale={letterScale(bass, pulse)}
           glow={pulse}
+          wobble={wobble}
           offsetY={layout.letterOffsetY}
         />
       )}
@@ -146,6 +153,8 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
           line1={line.line1}
           line2={line.line2}
           litWords={litWordCount(line, t)}
+          letter={letterKey}
+          objectWord={objectWord}
           maxLines={config.layout.lyricBox.maxLines}
           marginBottom={layout.lyricBox.marginBottom}
           maxWidth={layout.lyricBox.maxWidth}
@@ -180,3 +189,55 @@ function firstAlpha(text: string): string {
   const match = text.match(/[A-Za-z]/);
   return match ? match[0] : "";
 }
+
+/**
+ * Resolve the object keyword to highlight/render from an ABC lyric line.
+ *
+ * The current artifact schema has no separate `object` field, so this uses
+ * common ABC sentence shapes first ("A is for Apple", "A la Apple", "with the
+ * armchair") and falls back to the first meaningful word that is not the active
+ * letter.
+ */
+function resolveObjectWord(
+  line: { text: string; line1: string; line2: string },
+  letterKey?: string,
+): string | undefined {
+  const text = `${line.line1} ${line.line2}`.trim() || line.text;
+  const pattern =
+    /\b(?:is\s+for|stands\s+for|là|la|with)\s+(?:the\s+)?([\p{L}][\p{L}'-]*)/iu;
+  const explicit = text.match(pattern)?.[1];
+  if (explicit && normalizeToken(explicit) !== normalizeToken(letterKey ?? "")) {
+    return explicit;
+  }
+
+  const words = text.match(/[\p{L}][\p{L}'-]*/gu) ?? [];
+  const activeLetter = normalizeToken(letterKey ?? "");
+  return words.find((word) => {
+    const normalized = normalizeToken(word);
+    return normalized && normalized !== activeLetter && !FILLER_WORDS.has(normalized);
+  });
+}
+
+function normalizeToken(word: string): string {
+  return word
+    .replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, "")
+    .toLowerCase();
+}
+
+const FILLER_WORDS = new Set([
+  "a",
+  "an",
+  "and",
+  "are",
+  "be",
+  "for",
+  "here",
+  "is",
+  "la",
+  "là",
+  "or",
+  "stands",
+  "the",
+  "to",
+  "with",
+]);

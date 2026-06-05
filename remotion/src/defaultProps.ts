@@ -47,7 +47,7 @@ const defaultConfig: ProjectConfigJson = {
   layout: {
     template: "classic-landscape",
     lyricBox: { maxLines: 2 },
-    bars: { left: true, right: true },
+    bars: { left: false, right: false },
   },
 };
 

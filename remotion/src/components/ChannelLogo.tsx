@@ -1,8 +1,8 @@
 /**
  * Top-right circular channel logo (Req 10.8).
  *
- * Renders the Channel_Logo_Asset clipped to a circle in the top-right corner.
- * Purely presentational.
+ * Renders the Channel_Logo_Asset clipped to a circle in the top-right corner
+ * with a visible ring, matching the production frame reference.
  */
 import { Img } from "remotion";
 import { resolveAssetSrc } from "./assets.js";
@@ -33,9 +33,10 @@ export const ChannelLogo: React.FC<ChannelLogoProps> = ({
         height: size,
         borderRadius: "50%",
         overflow: "hidden",
-        border: "3px solid rgba(255,255,255,0.85)",
-        boxShadow: "0 4px 16px rgba(0,0,0,0.45)",
-        background: "rgba(0,0,0,0.35)",
+        border: "5px solid rgba(255,255,255,0.95)",
+        outline: "4px solid rgba(246,154,42,0.92)",
+        boxShadow: "0 8px 22px rgba(0,0,0,0.24)",
+        background: "rgba(255,255,255,0.88)",
       }}
     >
       <Img

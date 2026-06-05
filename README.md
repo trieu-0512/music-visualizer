@@ -76,6 +76,9 @@ Optional:
 - `metadata.json` or `project.json`
 - `artifacts/lyrics.json`
 - `artifacts/audio-analysis.json`
+- `<song_code>_prompt_gen.txt` with JSONL prompts for A-Z foreground assets,
+  the song background, and the song logo. Visual style should be derived from
+  that song's theme, not reused as a fixed global style.
 
 `metadata.json` can contain:
 
@@ -103,59 +106,22 @@ Render jobs produce 60fps MP4s:
 `both` renders all six files. `landscape` or `portrait` renders the three
 matching outputs.
 
-## html-video Handoff
-
-The existing Remotion renderer remains the built-in production renderer. For an
-alternate automated HTML renderer, generate handoff artifacts from any project
-that already has `project-config.json`, `lyrics.json`, and
-`audio-analysis.json`:
-
-```bash
-npm run handoff -- storage/projects/project-0001-render
-```
-
-This writes:
-
-- `artifacts/html-video-storyboard.json` - timed scene data for `html-video`
-  templates and batch rendering.
-- `artifacts/openreel-effects-manifest.json` - reference-only effect notes
-  inspired by `Augani/openreel-video`.
-
-OpenReel is not used as a renderer or project export target in this workflow.
-It is only a source for effects to port into the HTML templates, such as beat
-letter pops, karaoke word highlighting, audio-reactive bars, and soft scene
-crossfades.
-
-## html-video Render
-
-Install `nexu-io/html-video` as a sibling of this repo:
-
-```powershell
-cd F:\MMO\Nhac
-git clone https://github.com/nexu-io/html-video.git
-cd html-video
-npx pnpm@9.15.0 install
-npx pnpm@9.15.0 build
-npx pnpm@9.15.0 --filter @html-video/adapter-hyperframes exec playwright install chromium
-```
-
-Then render from this project:
+Use Remotion for production renders:
 
 ```powershell
 cd F:\MMO\Nhac\music-visualizer
-npm run handoff -- storage/projects/project-0001-render
-npm run render:html-video -- storage/projects/project-0001-render --target landscape-fullhd --max-duration 3
+npm run render:remotion -- storage/projects/project-0001-render --target landscape-fullhd
 ```
 
-Remove `--max-duration 3` to render the full song. The renderer writes MP4s to
-the project `artifacts/` folder. By default it uses a high-quality frame mode:
-Playwright renders deterministic HTML frames, PNG frames are piped directly to
-ffmpeg, and the original audio is muxed into the MP4. This avoids the lossy WebM
-intermediate used by browser recording.
+The direct Remotion CLI writes MP4s to the project `artifacts/` folder. By
+default it renders H.264/AAC with high quality settings, BT.709 color,
+concurrency `6`, and `offthreadVideoThreads=8`. On Windows, the CLI will use
+AMD AMF when a compatible FFmpeg is available; pass `--encoder x264 --crf 12`
+to force CPU x264 CRF mode. To force a fixed bitrate:
 
-For faster low-quality drafts, add `--mode recorder`. For final output, keep
-the default frame mode and optionally tune H.264 quality with `--crf`; lower
-values are larger and sharper, and the default is `12`.
+```powershell
+npm run render:remotion -- storage/projects/project-0001-render --target landscape-4k --video-bitrate 80M --maxrate 80M --bufsize 160M
+```
 
 ## Prerequisites
 
