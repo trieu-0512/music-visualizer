@@ -41,6 +41,29 @@ OpenReel khong duoc dung lam renderer va khong tao `openreel-project.json`.
 OpenReel chi la nguon tham khao de port hieu ung vao template HTML: beat letter
 pop, karaoke word highlight, audio bars, background breathe, scene crossfade.
 
+De cai `html-video` lam renderer core:
+
+```powershell
+cd F:\MMO\Nhac
+git clone https://github.com/nexu-io/html-video.git
+cd html-video
+npx pnpm@9.15.0 install
+npx pnpm@9.15.0 build
+npx pnpm@9.15.0 --filter @html-video/adapter-hyperframes exec playwright install chromium
+```
+
+Render MP4 that bang `html-video` tu project hien tai:
+
+```powershell
+cd F:\MMO\Nhac\music-visualizer
+npm run handoff -- storage/projects/project-0001-render
+npm run render:html-video -- storage/projects/project-0001-render --target landscape-fullhd --max-duration 3
+```
+
+Bo `--max-duration 3` de render full song. File MP4 se nam trong
+`storage/projects/<project-id>/artifacts/`. Video duoc capture bang
+`html-video` Hyperframes adapter, sau do ffmpeg mux audio goc vao output.
+
 ## Workflow hien tai
 
 1. Mo Web App tai `http://localhost:5173`.

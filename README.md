@@ -126,6 +126,31 @@ It is only a source for effects to port into the HTML templates, such as beat
 letter pops, karaoke word highlighting, audio-reactive bars, and soft scene
 crossfades.
 
+## html-video Render
+
+Install `nexu-io/html-video` as a sibling of this repo:
+
+```powershell
+cd F:\MMO\Nhac
+git clone https://github.com/nexu-io/html-video.git
+cd html-video
+npx pnpm@9.15.0 install
+npx pnpm@9.15.0 build
+npx pnpm@9.15.0 --filter @html-video/adapter-hyperframes exec playwright install chromium
+```
+
+Then render from this project:
+
+```powershell
+cd F:\MMO\Nhac\music-visualizer
+npm run handoff -- storage/projects/project-0001-render
+npm run render:html-video -- storage/projects/project-0001-render --target landscape-fullhd --max-duration 3
+```
+
+Remove `--max-duration 3` to render the full song. The renderer writes MP4s to
+the project `artifacts/` folder, using `html-video`'s Hyperframes adapter for
+the browser capture and ffmpeg to mux the original audio.
+
 ## Prerequisites
 
 - Node.js 20+ and npm.

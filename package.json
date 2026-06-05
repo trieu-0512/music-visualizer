@@ -16,7 +16,8 @@
     "dev:api": "npm run dev --workspace @music-visualizer/backend",
     "dev:web": "npm run dev --workspace @music-visualizer/frontend",
     "worker": "cd workers && python -m src.worker",
-    "handoff": "npm run handoff --workspace @music-visualizer/remotion",
+    "handoff": "npm run handoff --workspace @music-visualizer/remotion --",
+    "render:html-video": "npm run render:html-video --workspace @music-visualizer/remotion --",
     "render-worker": "npm run render-worker --workspace @music-visualizer/remotion"
   },
   "devDependencies": {
