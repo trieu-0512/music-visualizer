@@ -148,8 +148,14 @@ npm run render:html-video -- storage/projects/project-0001-render --target lands
 ```
 
 Remove `--max-duration 3` to render the full song. The renderer writes MP4s to
-the project `artifacts/` folder, using `html-video`'s Hyperframes adapter for
-the browser capture and ffmpeg to mux the original audio.
+the project `artifacts/` folder. By default it uses a high-quality frame mode:
+Playwright renders deterministic HTML frames, PNG frames are piped directly to
+ffmpeg, and the original audio is muxed into the MP4. This avoids the lossy WebM
+intermediate used by browser recording.
+
+For faster low-quality drafts, add `--mode recorder`. For final output, keep
+the default frame mode and optionally tune H.264 quality with `--crf`; lower
+values are larger and sharper, and the default is `12`.
 
 ## Prerequisites
 

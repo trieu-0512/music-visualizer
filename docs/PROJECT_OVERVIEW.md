@@ -61,8 +61,14 @@ npm run render:html-video -- storage/projects/project-0001-render --target lands
 ```
 
 Bo `--max-duration 3` de render full song. File MP4 se nam trong
-`storage/projects/<project-id>/artifacts/`. Video duoc capture bang
-`html-video` Hyperframes adapter, sau do ffmpeg mux audio goc vao output.
+`storage/projects/<project-id>/artifacts/`. Mac dinh renderer dung frame mode
+chat luong cao: Playwright render tung frame HTML co dinh, frame PNG duoc pipe
+thang vao ffmpeg, sau do mux audio goc vao MP4. Cach nay tranh WebM trung gian
+nen net hon browser recording.
+
+Neu can render nhap nhanh, them `--mode recorder`. Neu render final, giu frame
+mode mac dinh va co the chinh chat luong H.264 bang `--crf`; so cang thap file
+cang lon va cang net, mac dinh la `12`.
 
 ## Workflow hien tai
 

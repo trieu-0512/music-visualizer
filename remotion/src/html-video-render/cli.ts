@@ -11,6 +11,8 @@ interface CliArgs {
   outputDir?: string;
   targetId?: string;
   maxDuration?: number;
+  mode?: "frames" | "recorder";
+  crf?: number;
   muxAudio: boolean;
 }
 
@@ -34,6 +36,8 @@ async function main(): Promise<void> {
     ...(args.outputDir !== undefined && { outputDir: resolve(args.outputDir) }),
     ...(args.targetId !== undefined && { targetId: args.targetId }),
     ...(args.maxDuration !== undefined && { maxDuration: args.maxDuration }),
+    ...(args.mode !== undefined && { mode: args.mode }),
+    ...(args.crf !== undefined && { crf: args.crf }),
     muxAudio: args.muxAudio,
   });
 
@@ -51,6 +55,8 @@ function parseArgs(argv: string[]): CliArgs | null {
   let outputDir: string | undefined;
   let targetId: string | undefined;
   let maxDuration: number | undefined;
+  let mode: "frames" | "recorder" | undefined;
+  let crf: number | undefined;
   let muxAudio = true;
 
   for (let i = 0; i < argv.length; i++) {
@@ -77,6 +83,18 @@ function parseArgs(argv: string[]): CliArgs | null {
       maxDuration = value;
       continue;
     }
+    if (arg === "--mode") {
+      const value = requireValue(argv, ++i, arg);
+      if (value !== "frames" && value !== "recorder") return null;
+      mode = value;
+      continue;
+    }
+    if (arg === "--crf") {
+      const value = Number(requireValue(argv, ++i, arg));
+      if (!Number.isInteger(value) || value < 0 || value > 51) return null;
+      crf = value;
+      continue;
+    }
     if (arg === "--no-audio") {
       muxAudio = false;
       continue;
@@ -96,6 +114,8 @@ function parseArgs(argv: string[]): CliArgs | null {
         ...(outputDir !== undefined && { outputDir }),
         ...(targetId !== undefined && { targetId }),
         ...(maxDuration !== undefined && { maxDuration }),
+        ...(mode !== undefined && { mode }),
+        ...(crf !== undefined && { crf }),
         muxAudio,
       }
     : null;
@@ -139,6 +159,8 @@ function printUsage(): void {
       "Options:",
       "  --target <id|all>          Target from html-video-storyboard.json (default: all)",
       "  --max-duration <seconds>   Render a short preview instead of the full song",
+      "  --mode <frames|recorder>   frames is high-quality default; recorder is faster/lossier",
+      "  --crf <0..51>              H.264 quality for frames mode (default: 12)",
       "  --html-video-root <dir>    Path to sibling nexu-io/html-video repo",
       "  --storyboard <file>        Override storyboard JSON path",
       "  --out <dir>                Output directory (default: project artifacts)",

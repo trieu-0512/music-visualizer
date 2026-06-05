@@ -67,6 +67,9 @@ describe("html-video render template", () => {
     expect(html).toContain("file:///F:/MMO/Nhac/music-visualizer/storage/projects/p1/assets/background.png");
     expect(html).toContain("scene-0001-A");
     expect(html).toContain('"duration":2');
+    expect(html).toContain("window.__MV_READY__");
+    expect(html).toContain("window.__MV_RENDER_AT__");
+    expect(html).toContain("frame-render");
   });
 
   it("converts project-relative assets to file URLs", () => {

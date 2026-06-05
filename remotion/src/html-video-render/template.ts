@@ -78,7 +78,7 @@ export function buildHtmlVideoDocument(
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>${escapeHtml(storyboard.project.songName)} · html-video</title>
+  <title>${escapeHtml(storyboard.project.songName)} - html-video</title>
   <style>
     :root {
       color-scheme: dark;
@@ -87,8 +87,8 @@ export function buildHtmlVideoDocument(
       --yellow: #ffd95c;
       --cyan: #48d7ff;
       --ink: #101318;
-      --panel: rgba(8, 10, 14, 0.62);
-      --panel-strong: rgba(8, 10, 14, 0.76);
+      --panel: rgba(8, 10, 14, 0.56);
+      --panel-strong: rgba(8, 10, 14, 0.7);
       --white: #fff8e7;
     }
     * { box-sizing: border-box; }
@@ -108,12 +108,12 @@ export function buildHtmlVideoDocument(
     }
     #background {
       position: absolute;
-      inset: -4%;
-      width: 108%;
-      height: 108%;
+      inset: -2%;
+      width: 104%;
+      height: 104%;
       object-fit: cover;
       transform-origin: center;
-      filter: brightness(0.72) saturate(1.08) blur(10px);
+      filter: brightness(0.86) saturate(1.12) contrast(1.04) blur(2px);
       transition: transform 120ms linear, filter 120ms linear;
       z-index: 0;
     }
@@ -122,8 +122,8 @@ export function buildHtmlVideoDocument(
       inset: 0;
       z-index: 1;
       background:
-        radial-gradient(circle at 50% 42%, rgba(255, 255, 255, 0.1), transparent 30%),
-        linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.72));
+        radial-gradient(circle at 50% 42%, rgba(255, 255, 255, 0.12), transparent 34%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.54));
     }
     #info {
       position: absolute;
@@ -202,6 +202,7 @@ export function buildHtmlVideoDocument(
       max-width: 100%;
       max-height: 58vh;
       object-fit: contain;
+      image-rendering: auto;
       filter: drop-shadow(0 28px 30px rgba(0, 0, 0, 0.34));
     }
     #bars-left,
@@ -336,6 +337,21 @@ export function buildHtmlVideoDocument(
     }
     let activeId = "";
     let startMs = performance.now();
+    const imageUrls = [
+      STORYBOARD.assets.backgroundUrl,
+      STORYBOARD.assets.songLogoUrl,
+      STORYBOARD.assets.channelLogoUrl,
+      ...STORYBOARD.scenes.map((scene) => scene.letterAssetUrl).filter(Boolean),
+    ];
+    window.__MV_READY__ = Promise.all(imageUrls.map((url) => new Promise((resolve) => {
+      const image = new Image();
+      image.onload = resolve;
+      image.onerror = resolve;
+      image.src = url;
+    }))).then(() => {
+      renderAt(0);
+      return true;
+    });
     function clamp(value, min, max) {
       return Math.min(max, Math.max(min, value));
     }
@@ -376,8 +392,8 @@ export function buildHtmlVideoDocument(
         bar.style.height = height.toFixed(1) + "px";
       });
     }
-    function tick() {
-      const t = Math.min(STORYBOARD.duration, (performance.now() - startMs) / 1000);
+    function renderAt(rawTime) {
+      const t = Math.min(STORYBOARD.duration, Math.max(0, rawTime));
       const scene = activeScene(t);
       if (scene && scene.id !== activeId) {
         activeId = scene.id;
@@ -391,15 +407,22 @@ export function buildHtmlVideoDocument(
       const letterScale = 1 + 0.22 * clamp(bass, 0, 1) + 0.12 * beat;
       els.background.style.transform = "scale(" + scale.toFixed(4) + ")";
       els.background.style.filter =
-        "brightness(" + (0.7 + 0.3 * clamp(rms, 0, 1)).toFixed(3) + ") saturate(1.08) blur(10px)";
+        "brightness(" + (0.82 + 0.18 * clamp(rms, 0, 1)).toFixed(3) + ") saturate(1.12) contrast(1.04) blur(2px)";
       els.letterCard.style.transform = "scale(" + letterScale.toFixed(4) + ")";
       els.letterCard.style.filter =
         "drop-shadow(0 0 " + (18 + beat * 24).toFixed(0) + "px rgba(255, 217, 92, 0.45))";
       renderLyric(scene, t);
       renderBars(scene, t);
+    }
+    window.__MV_RENDER_AT__ = renderAt;
+    function tick() {
+      const t = (performance.now() - startMs) / 1000;
+      renderAt(t);
       if (t < STORYBOARD.duration) requestAnimationFrame(tick);
     }
-    requestAnimationFrame(tick);
+    if (!new URLSearchParams(window.location.search).has("frame-render")) {
+      requestAnimationFrame(tick);
+    }
   </script>
 </body>
 </html>
