@@ -103,6 +103,29 @@ Render jobs produce 60fps MP4s:
 `both` renders all six files. `landscape` or `portrait` renders the three
 matching outputs.
 
+## html-video Handoff
+
+The existing Remotion renderer remains the built-in production renderer. For an
+alternate automated HTML renderer, generate handoff artifacts from any project
+that already has `project-config.json`, `lyrics.json`, and
+`audio-analysis.json`:
+
+```bash
+npm run handoff -- storage/projects/project-0001-render
+```
+
+This writes:
+
+- `artifacts/html-video-storyboard.json` - timed scene data for `html-video`
+  templates and batch rendering.
+- `artifacts/openreel-effects-manifest.json` - reference-only effect notes
+  inspired by `Augani/openreel-video`.
+
+OpenReel is not used as a renderer or project export target in this workflow.
+It is only a source for effects to port into the HTML templates, such as beat
+letter pops, karaoke word highlighting, audio-reactive bars, and soft scene
+crossfades.
+
 ## Prerequisites
 
 - Node.js 20+ and npm.

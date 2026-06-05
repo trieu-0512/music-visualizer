@@ -25,6 +25,7 @@
   },
   "scripts": {
     "build": "tsc -b",
+    "handoff": "vite-node src/handoff/cli.ts",
     "render-worker": "vite-node src/renderWorkerMain.ts",
     "test": "vitest run",
     "test:watch": "vitest",

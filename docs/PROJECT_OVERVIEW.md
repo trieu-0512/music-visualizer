@@ -20,6 +20,27 @@ transcribe/analyze/render bang worker.
 - `storage/`: local storage mac dinh. Khong can database, object store hay
   message broker cho MVP.
 
+## Renderer va hieu ung ngoai
+
+Remotion van la renderer san xuat co san trong app. Neu can thu pipeline
+`html-video`, dung handoff CLI de bien artifact chuan cua project thanh scene
+data:
+
+```bash
+npm run handoff -- storage/projects/project-0001-render
+```
+
+Lenh nay tao:
+
+- `artifacts/html-video-storyboard.json`: storyboard/timeline cho template
+  `html-video`.
+- `artifacts/openreel-effects-manifest.json`: danh sach hieu ung tham khao tu
+  `Augani/openreel-video`.
+
+OpenReel khong duoc dung lam renderer va khong tao `openreel-project.json`.
+OpenReel chi la nguon tham khao de port hieu ung vao template HTML: beat letter
+pop, karaoke word highlight, audio bars, background breathe, scene crossfade.
+
 ## Workflow hien tai
 
 1. Mo Web App tai `http://localhost:5173`.
