@@ -25,6 +25,7 @@
   },
   "scripts": {
     "build": "tsc -b",
+    "render:abc-preview": "vite-node src/renderAbcPreviewCli.ts",
     "render:remotion": "vite-node src/renderCli.ts",
     "render-worker": "vite-node src/renderWorkerMain.ts",
     "test": "vitest run",

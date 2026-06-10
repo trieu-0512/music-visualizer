@@ -364,12 +364,23 @@ export const DEFAULT_REMOTION_RENDER_SETTINGS: Required<RemotionRenderSettings> 
   gl: "angle",
 };
 
+export interface RenderProgress {
+  renderedFrames: number;
+  encodedFrames: number;
+  encodedDoneIn: number | null;
+  renderedDoneIn: number | null;
+  renderEstimatedTime: number;
+  progress: number;
+  stitchStage: "encoding" | "muxing";
+}
+
 /** Options for {@link RenderBackend.renderMedia}. */
 export interface RenderMediaOptions extends RemotionRenderSettings {
   serveUrl: string;
   composition: SelectedComposition;
   outputLocation: string;
   inputProps: Record<string, unknown>;
+  onProgress?: (progress: RenderProgress) => void;
 }
 
 /**
@@ -544,6 +555,7 @@ export function createRemotionRenderBackend(): RenderBackend {
         chromiumOptions: gl === null ? undefined : { gl },
         ffmpegOverride: encoder === "amf" ? createAmfFfmpegOverride() : undefined,
         overwrite: true,
+        onProgress: options.onProgress,
         ...remotionSettings,
         outputLocation: options.outputLocation,
         inputProps: options.inputProps,

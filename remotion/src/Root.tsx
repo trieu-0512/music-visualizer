@@ -13,6 +13,12 @@
  */
 import { Composition } from "remotion";
 import type { CalculateMetadataFunction } from "remotion";
+import {
+  AbcPreviewVideo,
+  abcPreviewDurationInFrames,
+  defaultAbcPreviewProps,
+} from "./AbcPreviewVideo.js";
+import type { AbcPreviewProps } from "./AbcPreviewVideo.js";
 import { FPS, defaultProps, durationInFrames } from "./defaultProps.js";
 import { Video } from "./Video.js";
 import type { VideoProps } from "./Video.js";
@@ -32,6 +38,13 @@ const calculateMetadata: CalculateMetadataFunction<VideoProps> = ({ props }) => 
   durationInFrames: durationInFrames(props, FPS),
 });
 
+const calculateAbcPreviewMetadata: CalculateMetadataFunction<AbcPreviewProps> = ({
+  props,
+}) => ({
+  fps: FPS,
+  durationInFrames: abcPreviewDurationInFrames(props, FPS),
+});
+
 export const RemotionRoot: React.FC = () => {
   return (
     <>
@@ -48,6 +61,16 @@ export const RemotionRoot: React.FC = () => {
           calculateMetadata={calculateMetadata}
         />
       ))}
+      <Composition
+        id="abc-preview-landscape"
+        component={AbcPreviewVideo}
+        width={1920}
+        height={1080}
+        fps={FPS}
+        durationInFrames={abcPreviewDurationInFrames(defaultAbcPreviewProps, FPS)}
+        defaultProps={defaultAbcPreviewProps}
+        calculateMetadata={calculateAbcPreviewMetadata}
+      />
     </>
   );
 };
