@@ -181,11 +181,15 @@ def test_transcribe_pipeline_through_worker_writes_all_artifacts(
     store.write_bytes(project_id, transcribe.AUDIO_ROLE, FAKE_AUDIO_BYTES)
     assert store.exists(project_id, transcribe.AUDIO_ROLE)
 
-    # 2+3) Enqueue and run the transcribe job through the real worker dispatch,
-    #      with the mocked WhisperX runner injected at the handler's seam.
+    # 2+3) Enqueue, claim, and run the transcribe job through the real worker
+    #      dispatch with the mocked WhisperX runner at the handler's seam.
+    #      Hybrid claim must set ownership before process_job (PR-04 fencing).
+    worker_id = "test-transcribe-int"
     job = queue.enqueue(project_id, "transcribe")
+    claimed = queue.claim_next(["transcribe"], worker_id)
+    assert claimed is not None and claimed.id == job.id
     _register_transcribe_with(_mocked_whisperx_result)
-    worker.process_job(job, queue, store)
+    worker.process_job(claimed, queue, store, worker_id=worker_id)
 
     # The queue records completion and the produced artifact references (Req 12.3).
     done = queue.get(job.id)
@@ -266,9 +270,12 @@ def test_transcribe_pipeline_uses_original_lyrics_text_when_present(
         "Bay qua bau troi rong\nta duoi theo anh sang\nmai mai khong phai roi",
     )
 
+    worker_id = "test-transcribe-orig"
     job = queue.enqueue(project_id, "transcribe")
+    claimed = queue.claim_next(["transcribe"], worker_id)
+    assert claimed is not None and claimed.id == job.id
     _register_transcribe_with(_mocked_whisperx_result)
-    worker.process_job(job, queue, store)
+    worker.process_job(claimed, queue, store, worker_id=worker_id)
 
     done = queue.get(job.id)
     assert done is not None and done.status == "completed", f"job failed: {done.error!r}"
@@ -302,9 +309,12 @@ def test_transcribe_pipeline_records_failure_through_worker(env) -> None:
     def boom(_audio_path: str) -> dict:
         raise RuntimeError("whisperx failed to decode audio")
 
+    worker_id = "test-transcribe-fail"
     job = queue.enqueue(project_id, "transcribe")
+    claimed = queue.claim_next(["transcribe"], worker_id)
+    assert claimed is not None and claimed.id == job.id
     _register_transcribe_with(boom)
-    worker.process_job(job, queue, store)
+    worker.process_job(claimed, queue, store, worker_id=worker_id)
 
     failed = queue.get(job.id)
     assert failed is not None

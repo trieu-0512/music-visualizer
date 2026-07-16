@@ -149,6 +149,12 @@ def process_job(
         heartbeat_thread.start()
 
     try:
+        if job.status != "running" or not job.claimed_by:
+            raise RuntimeError(
+                f"process_job requires a claimed running job "
+                f"(got status={job.status!r}, claimed_by={job.claimed_by!r}); "
+                "call queue.claim_next(...) first"
+            )
         # No-op rewrite when claim_next already transitioned to running (PR-03).
         queue.mark_running(job.id)
         handler = DISPATCH.get(job.type)

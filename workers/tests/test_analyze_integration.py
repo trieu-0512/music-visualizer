@@ -105,10 +105,14 @@ def test_analyze_on_sample_clip_produces_wellshaped_artifact(
 
     # 2) Run the analyze job through the real worker dispatch + queue, so the
     #    decode (librosa/FFmpeg), analysis, and artifact write all run as in prod.
+    #    Hybrid claim must set ownership before process_job (PR-04 fencing).
+    worker_id = "test-analyze-int"
     job = queue.enqueue(project_id, "analyze")
+    claimed = queue.claim_next(["analyze"], worker_id)
+    assert claimed is not None and claimed.id == job.id
     worker.register_handler("analyze", _analyze_handler())
     try:
-        worker.process_job(job, queue, store)
+        worker.process_job(claimed, queue, store, worker_id=worker_id)
     finally:
         worker.DISPATCH.pop("analyze", None)
 
