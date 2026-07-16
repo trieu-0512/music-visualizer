@@ -23,6 +23,8 @@ import type {
   Job,
   JobType,
   ProjectConfigJson,
+  ProjectJobList,
+  ProjectList,
   ProjectMetadata,
   ProjectRecord,
   ProjectView,
@@ -86,11 +88,32 @@ export class ApiClient {
   }
 
   /**
+   * List all projects with metadata (`GET /projects`, Architecture Upgrade PR-09).
+   * Sorted newest-first by the API.
+   */
+  async listProjects(): Promise<ProjectRecord[]> {
+    const body = await this.requestJson<ProjectList>("GET", "/projects");
+    return body.projects;
+  }
+
+  /**
    * Fetch a project's metadata, assets, and artifacts
    * (`GET /projects/:id`, Req 1.4). Throws `NOT_FOUND` for an unknown id.
    */
   async getProject(projectId: string): Promise<ProjectView> {
     return this.requestJson<ProjectView>("GET", `/projects/${enc(projectId)}`);
+  }
+
+  /**
+   * List jobs for a project (`GET /projects/:id/jobs`, Architecture Upgrade PR-09).
+   * Throws `NOT_FOUND` for an unknown project id.
+   */
+  async listProjectJobs(projectId: string): Promise<Job[]> {
+    const body = await this.requestJson<ProjectJobList>(
+      "GET",
+      `/projects/${enc(projectId)}/jobs`,
+    );
+    return body.jobs;
   }
 
   /**

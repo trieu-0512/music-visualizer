@@ -40,6 +40,21 @@ export function App({ client, initialPageId, initialProjectId }: AppProps = {}):
     }
   }, [activePageId, firstPageId]);
 
+  // Persist page + projectId in the URL so refresh/share restores state (PR-14).
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams();
+    if (activePageId) params.set("page", activePageId);
+    if (projectId) params.set("projectId", projectId);
+    const search = params.toString();
+    const path = window.location.pathname || "/";
+    const nextUrl = search ? `${path}?${search}` : path;
+    const currentUrl = `${window.location.pathname}${window.location.search}`;
+    if (currentUrl !== nextUrl) {
+      window.history.replaceState(null, "", nextUrl);
+    }
+  }, [activePageId, projectId]);
+
   const context: PageContext = {
     client: apiClient,
     projectId,

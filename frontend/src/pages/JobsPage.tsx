@@ -78,16 +78,37 @@ function JobsPage({ context }: PageProps): JSX.Element {
     }
   }, [client, projectId]);
 
-  // Reset state and load the current artifacts when the active project changes.
+  // Reset state and load artifacts + existing jobs when the active project changes.
   useEffect(() => {
     setJobs([]);
     setArtifacts([]);
     setTriggerError(null);
     setArtifactError(null);
-    if (projectId) {
-      void refreshArtifacts();
-    }
-  }, [projectId, refreshArtifacts]);
+    if (!projectId) return;
+
+    void refreshArtifacts();
+
+    let cancelled = false;
+    void (async () => {
+      try {
+        const existing = await client.listProjectJobs(projectId);
+        if (!cancelled) {
+          // Newest first for display; API order is not specified.
+          setJobs(
+            [...existing].sort((a, b) =>
+              a.createdAt < b.createdAt ? 1 : a.createdAt > b.createdAt ? -1 : 0,
+            ),
+          );
+        }
+      } catch {
+        // Listing is optional hydration — ignore failures (e.g. offline API).
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [projectId, refreshArtifacts, client]);
 
   // Poll every tracked, non-terminal job once and merge the fresh status in.
   const pollOnce = useCallback(async (): Promise<void> => {

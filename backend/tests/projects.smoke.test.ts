@@ -51,4 +51,33 @@ describe("project endpoints smoke (Req 1)", () => {
     expect(res.body.error.code).toBe("NOT_FOUND");
     expect(res.body.error.message).toContain("does-not-exist");
   });
+
+  it("lists projects newest-first (GET /projects, PR-09)", async () => {
+    const empty = await request(app).get("/projects");
+    expect(empty.status).toBe(200);
+    expect(empty.body.projects).toEqual([]);
+
+    const first = await request(app)
+      .post("/projects")
+      .send({ songName: "Older", singerName: "A", videoFormat: "landscape" });
+    // Ensure a distinguishable createdAt ordering on coarse clocks.
+    await new Promise((r) => setTimeout(r, 5));
+    const second = await request(app)
+      .post("/projects")
+      .send({ songName: "Newer", singerName: "B", videoFormat: "portrait" });
+
+    const listed = await request(app).get("/projects");
+    expect(listed.status).toBe(200);
+    expect(listed.body.projects).toHaveLength(2);
+    expect(listed.body.projects[0].projectId).toBe(second.body.projectId);
+    expect(listed.body.projects[0].songName).toBe("Newer");
+    expect(listed.body.projects[1].projectId).toBe(first.body.projectId);
+    expect(listed.body.projects[1]).toMatchObject({
+      projectId: first.body.projectId,
+      songName: "Older",
+      singerName: "A",
+      videoFormat: "landscape",
+    });
+    expect(listed.body.projects[0].createdAt).toBeTruthy();
+  });
 });

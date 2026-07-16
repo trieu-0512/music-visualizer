@@ -1,31 +1,20 @@
 import type { ErrorRequestHandler, NextFunction, Request, RequestHandler, Response } from "express";
+import type { ApiErrorCode, ApiErrorEnvelope } from "@music-visualizer/shared";
 
 /**
  * Uniform API error model (`backend`).
  *
  * Every failure the API surfaces is expressed as an {@link ApiError} and
  * serialized through a single error envelope so the Web_App can handle errors
- * consistently. This task introduces the model plus the `NOT_FOUND` and
- * `VALIDATION_ERROR` codes (Req 1.5); later tasks extend it with the remaining
- * documented codes (upload, precondition, missing-requirements, not-ready).
- *
- * Envelope shape (design "API Error Envelope"):
+ * consistently. Error codes and the envelope shape are defined in
+ * `@music-visualizer/shared` (PR-08 / design "API Error Envelope").
  *
  * ```json
  * { "error": { "code": "NOT_FOUND", "message": "human readable", "details": { } } }
  * ```
  */
 
-/** Documented API error codes and the HTTP status each maps to. */
-export type ApiErrorCode =
-  | "VALIDATION_ERROR"
-  | "NOT_FOUND"
-  | "UNSUPPORTED_FORMAT"
-  | "TYPE_MISMATCH"
-  | "PRECONDITION_FAILED"
-  | "MISSING_REQUIREMENTS"
-  | "ARTIFACT_NOT_READY"
-  | "INTERNAL_ERROR";
+export type { ApiErrorCode, ApiErrorEnvelope };
 
 /** Map each {@link ApiErrorCode} to its HTTP status (design Error Handling table). */
 export const ERROR_STATUS: Record<ApiErrorCode, number> = {
@@ -41,15 +30,6 @@ export const ERROR_STATUS: Record<ApiErrorCode, number> = {
 
 /** Optional structured context attached to an error (e.g. `{ missing: [...] }`). */
 export type ApiErrorDetails = Record<string, unknown>;
-
-/** The serialized error envelope returned to clients. */
-export interface ApiErrorEnvelope {
-  error: {
-    code: ApiErrorCode;
-    message: string;
-    details?: ApiErrorDetails;
-  };
-}
 
 /**
  * A failure carrying an API error code, a human-readable message, and optional

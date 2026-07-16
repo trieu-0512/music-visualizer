@@ -15,33 +15,19 @@ import { isAbsolute, join, resolve } from "node:path";
 import { workspaceRoot } from "@music-visualizer/shared/config";
 import type { QueueConfig } from "@music-visualizer/shared/config";
 import { QUEUE_CONFIG_DEFAULTS } from "@music-visualizer/shared/config";
+import type { Job, JobStatus, JobType } from "@music-visualizer/shared";
 
 /**
  * Job_Queue (`backend`).
  *
  * Hybrid claim + ownership fencing + staged stale recovery
  * (Architecture Upgrade KD-1..KD-22 / PR-02..PR-04c).
+ *
+ * Transport types (`Job`, `JobType`, `JobStatus`) are shared with the frontend
+ * via `@music-visualizer/shared` (PR-08).
  */
 
-export type JobType = "transcribe" | "analyze" | "render";
-export type JobStatus = "pending" | "running" | "completed" | "failed";
-
-export interface Job {
-  id: string;
-  projectId: string;
-  type: JobType;
-  status: JobStatus;
-  params: Record<string, unknown>;
-  artifacts: string[];
-  error?: string;
-  createdAt: string;
-  updatedAt: string;
-  claimedAt?: string;
-  heartbeatAt?: string;
-  claimedBy?: string;
-  claimGeneration?: number;
-  requeueCount?: number;
-}
+export type { Job, JobStatus, JobType };
 
 export interface ClaimOptions {
   workerId: string;

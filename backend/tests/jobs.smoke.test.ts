@@ -116,4 +116,26 @@ describe("job endpoints smoke (Req 3, 6, 9, 12)", () => {
     expect(res.status).toBe(404);
     expect(res.body.error.code).toBe("NOT_FOUND");
   });
+
+  it("lists jobs for a project (GET /projects/:id/jobs, PR-09)", async () => {
+    await store.write({ projectId, relativePath: "assets/audio.mp3" }, Buffer.from("au"));
+    const a = await request(app).post(`/projects/${projectId}/jobs`).send({ type: "transcribe" });
+    const b = await request(app).post(`/projects/${projectId}/jobs`).send({ type: "analyze" });
+    expect(a.status).toBe(201);
+    expect(b.status).toBe(201);
+
+    const listed = await request(app).get(`/projects/${projectId}/jobs`);
+    expect(listed.status).toBe(200);
+    expect(listed.body.jobs).toHaveLength(2);
+    const ids = listed.body.jobs.map((j: { id: string }) => j.id);
+    expect(ids).toEqual(expect.arrayContaining([a.body.id, b.body.id]));
+    for (const job of listed.body.jobs) {
+      expect(job.projectId).toBe(projectId);
+      expect(["transcribe", "analyze"]).toContain(job.type);
+    }
+
+    const missing = await request(app).get(`/projects/does-not-exist/jobs`);
+    expect(missing.status).toBe(404);
+    expect(missing.body.error.code).toBe("NOT_FOUND");
+  });
 });

@@ -49,4 +49,10 @@ describe("App shell", () => {
     expect(screen.getByText("p-from-url")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Preview" })).toBeEnabled();
   });
+
+  it("writes page and projectId back into the URL (PR-14)", () => {
+    render(<App client={testClient()} initialProjectId="p1" initialPageId="assets" />);
+    expect(window.location.search).toContain("page=assets");
+    expect(window.location.search).toContain("projectId=p1");
+  });
 });

@@ -9,6 +9,7 @@ import { createArtifactsRouter } from "./routes/artifacts.js";
 import { createConfigRouter } from "./routes/config.js";
 import { createJobsRouter } from "./routes/jobs.js";
 import { errorHandler, notFoundHandler } from "./http/errors.js";
+import { loggingMiddleware } from "./http/logging.js";
 
 /**
  * API_Service application factory.
@@ -34,12 +35,21 @@ export function createApp(deps: AppDependencies = {}): Express {
   const jobQueue = deps.jobQueue ?? createJobQueue(config.queue);
 
   const app = express();
+
+  // Correlation id + JSON access logs (Architecture Upgrade PR-13).
+  for (const mw of loggingMiddleware()) {
+    app.use(mw);
+  }
+
   app.use((req, res, next) => {
     const origin = req.header("Origin") ?? "*";
     res.setHeader("Access-Control-Allow-Origin", origin);
     res.setHeader("Vary", "Origin");
     res.setHeader("Access-Control-Allow-Methods", "GET,POST,OPTIONS");
-    res.setHeader("Access-Control-Allow-Headers", "Content-Type,Authorization");
+    res.setHeader(
+      "Access-Control-Allow-Headers",
+      "Content-Type,Authorization,x-request-id",
+    );
     if (req.method === "OPTIONS") {
       res.status(204).end();
       return;
@@ -53,7 +63,7 @@ export function createApp(deps: AppDependencies = {}): Express {
     res.status(200).json({ status: "ok" });
   });
 
-  app.use(createProjectsRouter(projectService, store));
+  app.use(createProjectsRouter(projectService, store, jobQueue));
   app.use(createAssetsRouter(projectService, store));
   app.use(createArtifactsRouter(projectService, store));
   app.use(createConfigRouter(projectService, store));

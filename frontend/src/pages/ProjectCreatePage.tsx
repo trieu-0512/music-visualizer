@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { ChangeEvent, FormEvent, JSX } from "react";
 import { ApiClientError } from "../api/index.js";
-import type { FolderImportResult, VideoFormat } from "../api/index.js";
+import type { FolderImportResult, ProjectRecord, VideoFormat } from "../api/index.js";
 import type { PageProps, PageRegistration } from "./types.js";
 
 const LETTERS = Array.from({ length: 26 }, (_, i) => String.fromCharCode(65 + i));
@@ -68,7 +68,7 @@ interface ImportedMetadata {
 }
 
 function ProjectCreatePage({ context }: PageProps): JSX.Element {
-  const { client, setProjectId, navigate } = context;
+  const { client, projectId, setProjectId, navigate } = context;
   const [files, setFiles] = useState<File[]>([]);
   const [checkedProfileId, setCheckedProfileId] = useState<string | null>(null);
   const [songName, setSongName] = useState("");
@@ -78,12 +78,29 @@ function ProjectCreatePage({ context }: PageProps): JSX.Element {
   const [submitting, setSubmitting] = useState(false);
   const [imported, setImported] = useState<FolderImportResult | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [existingProjects, setExistingProjects] = useState<ProjectRecord[]>([]);
 
   const profiles = useMemo(() => buildProfiles(files), [files]);
   const selectedProfile = useMemo(
     () => profiles.find((profile) => profile.id === checkedProfileId) ?? null,
     [profiles, checkedProfileId],
   );
+
+  // Optional project picker (PR-09): hydrate existing projects for quick switch.
+  useEffect(() => {
+    let cancelled = false;
+    void (async () => {
+      try {
+        const projects = await client.listProjects();
+        if (!cancelled) setExistingProjects(projects);
+      } catch {
+        if (!cancelled) setExistingProjects([]);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [client, imported]);
 
   useEffect(() => {
     if (profiles.length === 1 && checkedProfileId === null) {
@@ -168,6 +185,31 @@ function ProjectCreatePage({ context }: PageProps): JSX.Element {
     <section className="page project-create-page">
       <h2>Load music folder</h2>
       <p>Select a music library folder, then check and import one song profile.</p>
+
+      {existingProjects.length > 0 && (
+        <div className="field">
+          <label htmlFor="existing-project">Open existing project</label>
+          <select
+            id="existing-project"
+            name="existing-project"
+            value={projectId ?? ""}
+            onChange={(event) => {
+              const next = event.currentTarget.value;
+              if (next) {
+                setProjectId(next);
+                navigate("assets");
+              }
+            }}
+          >
+            <option value="">Select a project…</option>
+            {existingProjects.map((project) => (
+              <option key={project.projectId} value={project.projectId}>
+                {project.songName} ({project.projectId})
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
 
       <div className="field">
         <label htmlFor="folder">Music library folder</label>

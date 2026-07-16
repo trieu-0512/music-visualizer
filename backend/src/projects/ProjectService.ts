@@ -63,6 +63,32 @@ export class ProjectService {
   }
 
   /**
+   * List every project with a readable `project.json`, newest first
+   * (Architecture Upgrade PR-09 / `GET /projects`).
+   *
+   * Directories without a record are skipped so partial/corrupt folders do not
+   * break the listing.
+   */
+  async list(): Promise<ProjectRecord[]> {
+    const ids = await this.store.listProjects();
+    const records: ProjectRecord[] = [];
+    for (const projectId of ids) {
+      try {
+        const record = await this.get(projectId);
+        if (record !== null) records.push(record);
+      } catch {
+        // Skip unreadable / malformed project.json entries.
+      }
+    }
+    return records.sort((a, b) => {
+      if (a.createdAt === b.createdAt) {
+        return a.projectId < b.projectId ? 1 : a.projectId > b.projectId ? -1 : 0;
+      }
+      return a.createdAt < b.createdAt ? 1 : -1;
+    });
+  }
+
+  /**
    * Return the project metadata, the list of stored assets, and the list of
    * generated artifacts for `projectId` (Req 1.4). Rejects an unknown id with a
    * `NOT_FOUND` error naming the missing `Project_Id` (Req 1.5).

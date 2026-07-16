@@ -18,7 +18,10 @@ function makeContext(client: Partial<ApiClient>): {
   const navigate = vi.fn();
   const setProjectId = vi.fn();
   const context: PageContext = {
-    client: client as ApiClient,
+    client: {
+      listProjects: async () => [],
+      ...client,
+    } as ApiClient,
     projectId: null,
     setProjectId,
     navigate,

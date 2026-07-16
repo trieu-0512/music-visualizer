@@ -16,3 +16,4 @@ export * from "./types/index.js";
 export * from "./schema/objects.js";
 export * from "./result.js";
 export * from "./validate.js";
+export * from "./api/index.js";

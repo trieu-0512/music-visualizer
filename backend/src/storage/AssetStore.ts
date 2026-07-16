@@ -43,6 +43,13 @@ export interface AssetStore {
   /** List the relative paths of all files under `projectId`, optionally filtered by `prefix`. */
   list(projectId: string, prefix?: string): Promise<string[]>;
   /**
+   * List project ids under the storage root (Architecture Upgrade PR-09).
+   *
+   * Local backends return only real directories under `projects/` (no files,
+   * no symlinks/junctions) whose resolved path stays inside the projects root.
+   */
+  listProjects(): Promise<string[]>;
+  /**
    * Resolve `ref` to a location a consumer can read.
    *
    * The local backend resolves to an absolute file-system path; a cloud
@@ -177,6 +184,52 @@ export class LocalAssetStore implements AssetStore {
       }
     }
     return results.sort();
+  }
+
+  /**
+   * List project directory basenames under `projects/` (PR-09 / KD list rules).
+   *
+   * Skips non-directories and symbolic links / junctions; resolves each entry
+   * and requires it to stay under the projects root (same containment idea as
+   * {@link resolveWithinProject}).
+   */
+  async listProjects(): Promise<string[]> {
+    let entries: Dirent[];
+    try {
+      entries = await readdir(this.projectsDir, { withFileTypes: true });
+    } catch (cause) {
+      if ((cause as NodeJS.ErrnoException).code === "ENOENT") return [];
+      throw cause;
+    }
+
+    const base =
+      this.projectsDir.endsWith(sep) ? this.projectsDir : this.projectsDir + sep;
+    const ids: string[] = [];
+
+    for (const entry of entries) {
+      // Skip symlinks/junctions even when they report as directories on Windows.
+      if (typeof entry.isSymbolicLink === "function" && entry.isSymbolicLink()) {
+        continue;
+      }
+      if (!entry.isDirectory()) continue;
+
+      const name = entry.name;
+      try {
+        assertSafeProjectId(name);
+      } catch {
+        continue;
+      }
+
+      const absolute = resolve(this.projectsDir, name);
+      // Containment: resolved path must stay under projectsDir (no escapes).
+      if (absolute !== this.projectsDir && !absolute.startsWith(base)) {
+        continue;
+      }
+
+      ids.push(name);
+    }
+
+    return ids.sort();
   }
 
   async resolveUrl(ref: AssetRef): Promise<string> {

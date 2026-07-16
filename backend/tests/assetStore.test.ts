@@ -63,6 +63,13 @@ describe("LocalAssetStore (Req 13.1, 13.2)", () => {
     ).rejects.toThrow();
   });
 
+  it("lists project ids under the storage root (PR-09 listProjects)", async () => {
+    expect(await store.listProjects()).toEqual([]);
+    await store.write({ projectId: "alpha", relativePath: "project.json" }, Buffer.from("{}"));
+    await store.write({ projectId: "beta", relativePath: "assets/a.txt" }, Buffer.from("x"));
+    expect(await store.listProjects()).toEqual(["alpha", "beta"]);
+  });
+
   it("lists project-relative paths with POSIX separators and prefix filtering", async () => {
     await store.write({ projectId: "0001", relativePath: "assets/letters/A.svg" }, Buffer.from("a"));
     await store.write({ projectId: "0001", relativePath: "assets/letters/B.svg" }, Buffer.from("b"));

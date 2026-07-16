@@ -257,5 +257,9 @@ def handle_analyze(job: "Job", store: "AssetStore") -> list[str]:
             pass
 
     analysis = analyze_signal(y, int(sr))
+    # Production schema gate (PR-10): fail the job before mark_completed.
+    from src.validate_artifacts import validate_audio_analysis_payload
+
+    validate_audio_analysis_payload(analysis)
     store.write_json(job.project_id, "artifacts/audio-analysis.json", analysis)  # Req 6.1
     return ["artifacts/audio-analysis.json"]

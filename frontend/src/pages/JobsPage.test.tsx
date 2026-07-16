@@ -26,7 +26,10 @@ afterEach(cleanup);
 
 function makeContext(client: Partial<ApiClient>, projectId: string | null): PageContext {
   return {
-    client: client as ApiClient,
+    client: {
+      listProjectJobs: async () => [],
+      ...client,
+    } as ApiClient,
     projectId,
     setProjectId: vi.fn(),
     navigate: vi.fn(),
@@ -67,7 +70,11 @@ describe("JobsPage", () => {
       projectId: "p1",
       artifacts: [],
     }));
-    const context = makeContext({ createJob, getJob, listArtifacts }, "p1");
+    const listProjectJobs = vi.fn<() => Promise<Job[]>>(async () => []);
+    const context = makeContext(
+      { createJob, getJob, listArtifacts, listProjectJobs },
+      "p1",
+    );
 
     render(<JobsPage context={context} />);
     const user = userEvent.setup();
