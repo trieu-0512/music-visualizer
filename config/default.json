@@ -5,6 +5,11 @@
   },
   "queue": {
     "backend": "file",
-    "dir": "storage/jobs"
+    "dir": "storage/jobs",
+    "leaseMs": 120000,
+    "heartbeatIntervalMs": 15000,
+    "maxRequeuesAudio": 1,
+    "maxRequeuesRender": 0,
+    "leaseRecoveryEnabled": true
   }
 }

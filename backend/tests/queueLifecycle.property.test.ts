@@ -89,7 +89,9 @@ describe("Property 14: Queue lifecycle invariants hold for any number of jobs (R
             // Bound the loop generously to guard against an unexpected infinite claim.
             for (let guard = 0; guard <= enqueued.length + 1; guard++) {
               const expected = pendingModel.find((j) => claimTypes.includes(j.type));
-              const claimed = await queue.claimNext(claimTypes);
+              const claimed = await queue.claimNext(claimTypes, {
+                workerId: `prop-worker-${guard}`,
+              });
 
               if (expected === undefined) {
                 // No pending job matches the requested types -> nothing to claim.

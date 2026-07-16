@@ -20,12 +20,18 @@ from __future__ import annotations
 
 import logging
 import os
+import threading
 import time
 from typing import Callable, Protocol
 
-from src.queue import Job, JobQueue
+from src.queue import (
+    Job,
+    JobQueue,
+    OwnershipError,
+    create_job_queue,
+    default_worker_id,
+)
 from src.store import AssetStore, create_asset_store
-from src.queue import create_job_queue
 
 logger = logging.getLogger(__name__)
 
@@ -98,14 +104,50 @@ def _load_default_handlers() -> None:
             register_handler("analyze", _failing_handler("analyze", str(exc)))
 
 
-def process_job(job: Job, queue: JobQueue, store: AssetStore) -> None:
+def _ownership_from_job(job: Job, worker_id: str) -> tuple[str, int]:
+    return (job.claimed_by or worker_id, job.claim_generation or 0)
+
+
+def process_job(
+    job: Job,
+    queue: JobQueue,
+    store: AssetStore,
+    *,
+    worker_id: str | None = None,
+) -> None:
     """Run a single claimed job, recording success or failure on it.
 
     Hybrid claim already set status to ``running`` under lock; ``mark_running``
-    is a no-op when already running. Dispatches to the handler for its type and
-    on success marks completed with the produced artifacts. Any exception is
-    caught and recorded via ``mark_failed`` (Req 3.6, 6.7, 12.4).
+    is a no-op when already running. Ownership opts come from the claimed job
+    (KD-22). A heartbeat loop runs while the handler executes (PR-04c).
     """
+    wid = worker_id or job.claimed_by or default_worker_id()
+    own_worker_id, claim_generation = _ownership_from_job(job, wid)
+
+    stop_heartbeat = threading.Event()
+    interval_ms = getattr(queue, "heartbeat_interval_ms", 15_000) or 0
+
+    def _heartbeat_loop() -> None:
+        # First beat after one interval (claim already set heartbeatAt).
+        while not stop_heartbeat.wait(interval_ms / 1000.0):
+            try:
+                queue.heartbeat(job.id, own_worker_id, claim_generation)
+            except OwnershipError:
+                break
+            except Exception:
+                logger.warning(
+                    "heartbeat failed for job %s", job.id, exc_info=True
+                )
+
+    heartbeat_thread: threading.Thread | None = None
+    if interval_ms > 0:
+        heartbeat_thread = threading.Thread(
+            target=_heartbeat_loop,
+            name=f"heartbeat-{job.id}",
+            daemon=True,
+        )
+        heartbeat_thread.start()
+
     try:
         # No-op rewrite when claim_next already transitioned to running (PR-03).
         queue.mark_running(job.id)
@@ -113,9 +155,19 @@ def process_job(job: Job, queue: JobQueue, store: AssetStore) -> None:
         if handler is None:
             raise KeyError(f"no handler registered for job type: {job.type}")
         artifacts = handler(job, store)
-        queue.mark_completed(job.id, artifacts)
+        queue.mark_completed(job.id, artifacts, own_worker_id, claim_generation)
     except Exception as exc:  # Req 3.6, 6.7, 12.4 failure handling
-        queue.mark_failed(job.id, str(exc))
+        try:
+            queue.mark_failed(job.id, str(exc), own_worker_id, claim_generation)
+        except OwnershipError:
+            # Claim stolen after recover — do not clobber the new owner.
+            logger.warning(
+                "mark_failed ownership lost for job %s: %s", job.id, exc
+            )
+    finally:
+        stop_heartbeat.set()
+        if heartbeat_thread is not None:
+            heartbeat_thread.join(timeout=1.0)
 
 
 def run_worker(
@@ -125,28 +177,39 @@ def run_worker(
     job_types: list[str] | None = None,
     poll_interval: float = POLL_INTERVAL,
     stop: Callable[[], bool] | None = None,
+    worker_id: str | None = None,
 ) -> None:
     """Run the claim/dispatch loop until ``stop`` returns ``True``.
 
     ``queue`` and ``store`` default to instances built from startup config
     (Req 13.4). ``stop`` is an optional predicate that lets callers and tests
     end the loop deterministically; when omitted the loop runs forever.
+
+    Boot calls ``recover_stale`` once (PR-04b). Claims pass a stable
+    ``worker_id`` and handlers heartbeats while running (PR-04c).
     """
     queue = queue or create_job_queue()
     store = store or create_asset_store()
     types = job_types or WORKER_JOB_TYPES
+    wid = worker_id or default_worker_id()
     _load_default_handlers()
+
+    # Boot recover (orphanOnly or full depending on queue config) — KD-15.
+    try:
+        queue.recover_stale()
+    except Exception:
+        logger.warning("boot recover_stale failed", exc_info=True)
 
     while True:
         if stop is not None and stop():
             return
-        job = queue.claim_next(types)
+        job = queue.claim_next(types, wid)
         if job is None:
             if stop is not None and stop():
                 return
             time.sleep(poll_interval)
             continue
-        process_job(job, queue, store)
+        process_job(job, queue, store, worker_id=wid)
 
 
 if __name__ == "__main__":  # pragma: no cover - manual entry point

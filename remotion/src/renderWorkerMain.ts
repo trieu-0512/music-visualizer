@@ -74,6 +74,7 @@ export async function main(): Promise<void> {
     // Forward job-scoped deps (e.g. videoFormatOverride from params.format).
     renderProject: (cfg, st, deps) =>
       renderProject(cfg, st, { ...deps, entryPoint }),
+    heartbeatIntervalMs: config.queue.heartbeatIntervalMs ?? 15_000,
   });
 }
 

@@ -67,6 +67,18 @@ export interface RenderJob {
    * which overrides `config.videoFormat` for this job only (KD-6).
    */
   params?: Record<string, unknown>;
+  /** Set by hybrid claim (fencing). */
+  claimedBy?: string;
+  claimGeneration?: number;
+}
+
+export interface RenderClaimOptions {
+  workerId: string;
+}
+
+export interface RenderOwnershipOpts {
+  workerId: string;
+  claimGeneration: number;
 }
 
 /**
@@ -74,17 +86,27 @@ export interface RenderJob {
  *
  * Declared locally (rather than importing the backend `JobQueue`) so the
  * Render_Engine stays decoupled from the backend package. The backend
- * `FileJobQueue` satisfies this structurally — its `claimNext` already
- * transitions the claimed job `pending -> running` atomically, so the worker
- * only needs to claim and then record the terminal state.
+ * `FileJobQueue` satisfies this structurally.
  */
 export interface RenderJobQueue {
   /** Atomically claim the oldest pending job whose type is in `types`. */
-  claimNext(types: string[]): Promise<RenderJob | null>;
-  /** Record completion plus the produced artifact paths (Req 9.1, 12.3). */
-  markCompleted(jobId: string, artifacts: string[]): Promise<unknown>;
-  /** Record failure and retain the error message (Req 9.6, 12.4). */
-  markFailed(jobId: string, error: string): Promise<unknown>;
+  claimNext(types: string[], opts: RenderClaimOptions): Promise<RenderJob | null>;
+  /** Ownership-fenced completion (Req 9.1, 12.3). */
+  markCompleted(
+    jobId: string,
+    artifacts: string[],
+    opts: RenderOwnershipOpts,
+  ): Promise<unknown>;
+  /** Ownership-fenced failure (Req 9.6, 12.4). */
+  markFailed(
+    jobId: string,
+    error: string,
+    opts: RenderOwnershipOpts,
+  ): Promise<unknown>;
+  /** Optional heartbeat for long renders (PR-04c). */
+  heartbeat?(jobId: string, opts: RenderOwnershipOpts): Promise<unknown>;
+  /** Boot / opportunistic recover (PR-04b). */
+  recoverStale?(opts?: { now?: Date }): Promise<unknown>;
 }
 
 /** The {@link renderProject} contract the worker depends on (injectable for tests). */
@@ -195,6 +217,15 @@ export interface RenderWorkerDeps {
   renderProject?: RenderProjectFn;
   /** Location of the config artifact. Defaults to {@link CONFIG_RELATIVE_PATH}. */
   configPath?: string;
+  /** Heartbeat interval ms; 0 disables. Defaults to 15_000. */
+  heartbeatIntervalMs?: number;
+}
+
+function ownershipFromJob(job: RenderJob, workerId: string): RenderOwnershipOpts {
+  return {
+    workerId: job.claimedBy ?? workerId,
+    claimGeneration: job.claimGeneration ?? 0,
+  };
 }
 
 /**
@@ -211,19 +242,36 @@ export async function processRenderJob(
   queue: RenderJobQueue,
   store: RenderAssetStore,
   deps: RenderWorkerDeps = {},
+  workerId = "render-worker",
 ): Promise<void> {
   const render = deps.renderProject ?? defaultRenderProject;
   const configPath = deps.configPath ?? CONFIG_RELATIVE_PATH;
+  const opts = ownershipFromJob(job, workerId);
+  const heartbeatMs = deps.heartbeatIntervalMs ?? 15_000;
+  let heartbeatTimer: ReturnType<typeof setInterval> | undefined;
+  if (heartbeatMs > 0 && queue.heartbeat) {
+    heartbeatTimer = setInterval(() => {
+      void queue.heartbeat?.(job.id, opts).catch(() => {
+        /* late/stolen claim — ignore */
+      });
+    }, heartbeatMs);
+  }
   try {
     const config = await loadProjectConfig(store, job.projectId, configPath);
     const videoFormatOverride = formatOverrideFromParams(job.params);
     const artifacts = await render(config, store, {
       ...(videoFormatOverride !== undefined ? { videoFormatOverride } : {}),
     });
-    await queue.markCompleted(job.id, artifacts);
+    await queue.markCompleted(job.id, artifacts, opts);
   } catch (err) {
     // Req 9.6: record a descriptive failure message and keep the loop alive.
-    await queue.markFailed(job.id, errorMessage(err));
+    try {
+      await queue.markFailed(job.id, errorMessage(err), opts);
+    } catch {
+      /* ownership lost after steal — swallow */
+    }
+  } finally {
+    if (heartbeatTimer) clearInterval(heartbeatTimer);
   }
 }
 
@@ -250,6 +298,8 @@ export interface RunRenderWorkerOptions extends RenderWorkerDeps {
   stop?: () => boolean;
   /** Sleep function used on empty polls. Defaults to a `setTimeout` delay. */
   sleep?: (ms: number) => Promise<void>;
+  /** Stable worker id for claim/fencing. Defaults to a process-based id. */
+  workerId?: string;
 }
 
 /**
@@ -288,19 +338,31 @@ export async function runRenderWorker(
   const pollIntervalMs = options.pollIntervalMs ?? POLL_INTERVAL_MS;
   const sleep = options.sleep ?? delay;
   const stop = options.stop;
+  const workerId =
+    options.workerId ?? `render-worker:pid:${process.pid}`;
   const deps: RenderWorkerDeps = {
     renderProject: options.renderProject,
     configPath: options.configPath,
+    heartbeatIntervalMs: options.heartbeatIntervalMs,
   };
+
+  // Boot recover (orphanOnly or full depending on queue config).
+  if (queue.recoverStale) {
+    try {
+      await queue.recoverStale();
+    } catch {
+      /* non-fatal */
+    }
+  }
 
   while (true) {
     if (stop?.()) return;
-    const job = await queue.claimNext(types);
+    const job = await queue.claimNext(types, { workerId });
     if (job === null) {
       if (stop?.()) return;
       await sleep(pollIntervalMs);
       continue;
     }
-    await processRenderJob(job, queue, store, deps);
+    await processRenderJob(job, queue, store, deps, workerId);
   }
 }

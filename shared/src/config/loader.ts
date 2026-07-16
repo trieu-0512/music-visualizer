@@ -1,7 +1,12 @@
 import { readFileSync } from "node:fs";
 import { dirname, isAbsolute, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import type { AppConfig, QueueConfig, StorageConfig } from "./types.js";
+import {
+  QUEUE_CONFIG_DEFAULTS,
+  type AppConfig,
+  type QueueConfig,
+  type StorageConfig,
+} from "./types.js";
 
 const STORAGE_BACKENDS = new Set(["local"]);
 const QUEUE_BACKENDS = new Set(["file"]);
@@ -38,6 +43,20 @@ function assertStorageConfig(value: unknown): StorageConfig {
   return { backend: storage.backend as StorageConfig["backend"], rootDir: storage.rootDir };
 }
 
+function optionalPositiveInt(value: unknown, fallback: number): number {
+  if (typeof value === "number" && Number.isFinite(value) && value > 0) {
+    return Math.floor(value);
+  }
+  return fallback;
+}
+
+function optionalNonNegInt(value: unknown, fallback: number): number {
+  if (typeof value === "number" && Number.isFinite(value) && value >= 0) {
+    return Math.floor(value);
+  }
+  return fallback;
+}
+
 function assertQueueConfig(value: unknown): QueueConfig {
   if (typeof value !== "object" || value === null) {
     throw new Error("config.queue must be an object");
@@ -49,7 +68,27 @@ function assertQueueConfig(value: unknown): QueueConfig {
   if (typeof queue.dir !== "string" || queue.dir.length === 0) {
     throw new Error("config.queue.dir must be a non-empty string");
   }
-  return { backend: queue.backend as QueueConfig["backend"], dir: queue.dir };
+  return {
+    backend: queue.backend as QueueConfig["backend"],
+    dir: queue.dir,
+    leaseMs: optionalPositiveInt(queue.leaseMs, QUEUE_CONFIG_DEFAULTS.leaseMs),
+    heartbeatIntervalMs: optionalPositiveInt(
+      queue.heartbeatIntervalMs,
+      QUEUE_CONFIG_DEFAULTS.heartbeatIntervalMs,
+    ),
+    maxRequeuesAudio: optionalNonNegInt(
+      queue.maxRequeuesAudio,
+      QUEUE_CONFIG_DEFAULTS.maxRequeuesAudio,
+    ),
+    maxRequeuesRender: optionalNonNegInt(
+      queue.maxRequeuesRender,
+      QUEUE_CONFIG_DEFAULTS.maxRequeuesRender,
+    ),
+    leaseRecoveryEnabled:
+      typeof queue.leaseRecoveryEnabled === "boolean"
+        ? queue.leaseRecoveryEnabled
+        : QUEUE_CONFIG_DEFAULTS.leaseRecoveryEnabled,
+  };
 }
 
 /** Parse and validate raw config data into a typed {@link AppConfig}. */

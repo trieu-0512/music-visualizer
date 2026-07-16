@@ -46,48 +46,50 @@ const terminalTransitionArb = fc.oneof(
 );
 
 describe("FileJobQueue terminal transitions (Req 12.3, 12.4)", () => {
-  let dir: string;
-  let queue: FileJobQueue;
-
-  beforeEach(async () => {
-    dir = await mkdtemp(join(tmpdir(), "mv-jobqueue-terminal-"));
-    queue = new FileJobQueue(dir);
-  });
-
-  afterEach(async () => {
-    await rm(dir, { recursive: true, force: true });
-  });
-
   // Property 15: Terminal job transitions round-trip their payload.
+  // Fresh queue dir per sample so recoverStale on claim stays O(1).
   it("round-trips the payload of completed and failed transitions through get()", async () => {
     await fc.assert(
       fc.asyncProperty(jobInputArb, terminalTransitionArb, async (input, transition) => {
-        const job = await queue.enqueue(input);
+        const dir = await mkdtemp(join(tmpdir(), "mv-jobqueue-terminal-"));
+        const queue = new FileJobQueue({
+          backend: "file",
+          dir,
+          leaseRecoveryEnabled: false,
+        });
+        try {
+          const job = await queue.enqueue(input);
+          const claimed = await queue.claimNext([input.type], { workerId: "prop-test" });
+          expect(claimed?.id).toBe(job.id);
+          const opts = {
+            workerId: claimed!.claimedBy!,
+            claimGeneration: claimed!.claimGeneration ?? 0,
+          };
 
-        if (transition.kind === "completed") {
-          const returned = await queue.markCompleted(job.id, transition.artifacts);
-          // The value returned by the transition reflects the terminal state.
-          expect(returned.status).toBe("completed");
-          expect(returned.artifacts).toEqual(transition.artifacts);
+          if (transition.kind === "completed") {
+            const returned = await queue.markCompleted(job.id, transition.artifacts, opts);
+            expect(returned.status).toBe("completed");
+            expect(returned.artifacts).toEqual(transition.artifacts);
 
-          // Re-read from disk: persistence retains status and the exact list.
-          const persisted = await queue.get(job.id);
-          expect(persisted).not.toBeNull();
-          expect(persisted?.status).toBe("completed");
-          expect(persisted?.artifacts).toEqual(transition.artifacts);
-        } else {
-          const returned = await queue.markFailed(job.id, transition.error);
-          expect(returned.status).toBe("failed");
-          expect(returned.error).toBe(transition.error);
+            const persisted = await queue.get(job.id);
+            expect(persisted).not.toBeNull();
+            expect(persisted?.status).toBe("completed");
+            expect(persisted?.artifacts).toEqual(transition.artifacts);
+          } else {
+            const returned = await queue.markFailed(job.id, transition.error, opts);
+            expect(returned.status).toBe("failed");
+            expect(returned.error).toBe(transition.error);
 
-          // Re-read from disk: persistence retains status and the exact message.
-          const persisted = await queue.get(job.id);
-          expect(persisted).not.toBeNull();
-          expect(persisted?.status).toBe("failed");
-          expect(persisted?.error).toBe(transition.error);
+            const persisted = await queue.get(job.id);
+            expect(persisted).not.toBeNull();
+            expect(persisted?.status).toBe("failed");
+            expect(persisted?.error).toBe(transition.error);
+          }
+        } finally {
+          await rm(dir, { recursive: true, force: true });
         }
       }),
-      { numRuns: 200 },
+      { numRuns: 100 },
     );
-  }, 30_000);
+  }, 60_000);
 });

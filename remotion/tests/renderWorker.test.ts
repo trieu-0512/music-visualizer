@@ -113,15 +113,21 @@ function makeQueue(jobs: RenderJob[]): RenderJobQueue & {
     completed,
     failed,
     claims: 0,
-    async claimNext() {
+    async claimNext(_types, opts) {
       this.claims += 1;
-      return queue.shift() ?? null;
+      const next = queue.shift() ?? null;
+      if (next === null) return null;
+      return {
+        ...next,
+        claimedBy: next.claimedBy ?? opts.workerId,
+        claimGeneration: next.claimGeneration ?? 0,
+      };
     },
-    async markCompleted(jobId, artifacts) {
+    async markCompleted(jobId, artifacts, _opts) {
       completed.push({ id: jobId, artifacts });
       return undefined;
     },
-    async markFailed(jobId, error) {
+    async markFailed(jobId, error, _opts) {
       failed.push({ id: jobId, error });
       return undefined;
     },
@@ -135,9 +141,23 @@ function renderJob(
 ): RenderJob {
   // Overload: renderJob(projectId, jobId) still works for multi-job tests.
   if (typeof paramsOrId === "string") {
-    return { id: paramsOrId, projectId, type: "render", params: {} };
+    return {
+      id: paramsOrId,
+      projectId,
+      type: "render",
+      params: {},
+      claimedBy: "test-worker",
+      claimGeneration: 0,
+    };
   }
-  return { id, projectId, type: "render", params: paramsOrId };
+  return {
+    id,
+    projectId,
+    type: "render",
+    params: paramsOrId,
+    claimedBy: "test-worker",
+    claimGeneration: 0,
+  };
 }
 
 /* -------------------------------------------------------------------------- */
@@ -162,7 +182,7 @@ describe("processRenderJob", () => {
       return produced;
     });
 
-    await processRenderJob(job, queue, store, { renderProject: render });
+    await processRenderJob(job, queue, store, { renderProject: render, heartbeatIntervalMs: 0 });
 
     expect(render).toHaveBeenCalledTimes(1);
     expect(render).toHaveBeenCalledWith(config, store, {});
@@ -177,7 +197,7 @@ describe("processRenderJob", () => {
     const queue = makeQueue([]);
     const render: RenderProjectFn = vi.fn(async () => ["artifacts/final-16x9-fullhd-60fps.mp4"]);
 
-    await processRenderJob(job, queue, store, { renderProject: render });
+    await processRenderJob(job, queue, store, { renderProject: render, heartbeatIntervalMs: 0 });
 
     expect(render).toHaveBeenCalledWith(config, store, {
       videoFormatOverride: "landscape",
@@ -195,7 +215,7 @@ describe("processRenderJob", () => {
       throw new Error("chromium crashed");
     });
 
-    await processRenderJob(job, queue, store, { renderProject: render });
+    await processRenderJob(job, queue, store, { renderProject: render, heartbeatIntervalMs: 0 });
 
     expect(queue.completed).toEqual([]);
     expect(queue.failed).toEqual([{ id: "job_1", error: "chromium crashed" }]);
@@ -207,7 +227,7 @@ describe("processRenderJob", () => {
     const queue = makeQueue([]);
     const render: RenderProjectFn = vi.fn(async () => []);
 
-    await processRenderJob(job, queue, store, { renderProject: render });
+    await processRenderJob(job, queue, store, { renderProject: render, heartbeatIntervalMs: 0 });
 
     expect(render).not.toHaveBeenCalled();
     expect(queue.completed).toEqual([]);
@@ -226,7 +246,7 @@ describe("processRenderJob", () => {
     const queue = makeQueue([]);
     const render: RenderProjectFn = vi.fn(async () => []);
 
-    await processRenderJob(job, queue, store, { renderProject: render });
+    await processRenderJob(job, queue, store, { renderProject: render, heartbeatIntervalMs: 0 });
 
     expect(render).not.toHaveBeenCalled();
     expect(queue.failed).toHaveLength(1);
@@ -254,6 +274,7 @@ describe("runRenderWorker", () => {
     await runRenderWorker(queue, store, {
       renderProject: render,
       pollIntervalMs: 0,
+      heartbeatIntervalMs: 0,
       stop,
     });
 
@@ -269,15 +290,16 @@ describe("runRenderWorker", () => {
     const queue = makeQueue([renderJob("p_test")]);
     const claimedTypes: string[][] = [];
     const originalClaim = queue.claimNext.bind(queue);
-    queue.claimNext = async (types: string[]) => {
+    queue.claimNext = async (types, opts) => {
       claimedTypes.push(types);
-      return originalClaim(types);
+      return originalClaim(types, opts);
     };
 
     const stop = () => queue.completed.length > 0;
     await runRenderWorker(queue, store, {
       renderProject: vi.fn(async () => []),
       pollIntervalMs: 0,
+      heartbeatIntervalMs: 0,
       stop,
     });
 
@@ -349,6 +371,7 @@ describe("runRenderWorker", () => {
     await runRenderWorker(queue, store, {
       renderProject: render,
       pollIntervalMs: 0,
+      heartbeatIntervalMs: 0,
       stop,
     });
 
