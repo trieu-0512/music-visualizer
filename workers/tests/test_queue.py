@@ -57,6 +57,12 @@ def test_claim_next_returns_oldest_matching_type(tmp_path: Path) -> None:
     # Oldest pending job (by createdAt then id) is claimed first.
     assert claimed.id in {first.id, second.id}
     assert claimed.created_at <= second.created_at
+    # Hybrid claim: disk status is running and lock is held.
+    assert claimed.status == "running"
+    assert (tmp_path / f"{claimed.id}.lock").exists()
+    reloaded = queue.get(claimed.id)
+    assert reloaded is not None
+    assert reloaded.status == "running"
 
 
 def test_claim_next_filters_by_type(tmp_path: Path) -> None:
@@ -83,6 +89,9 @@ def test_lifecycle_pending_running_completed(tmp_path: Path) -> None:
     job = queue.enqueue("p", "analyze")
     claimed = queue.claim_next(["analyze"])
     assert claimed is not None
+    assert claimed.status == "running"
+    assert (tmp_path / f"{job.id}.lock").exists()
+    # mark_running is a no-op rewrite when already running.
     running = queue.mark_running(job.id)
     assert running.status == "running"
     completed = queue.mark_completed(job.id, ["artifacts/audio-analysis.json"])

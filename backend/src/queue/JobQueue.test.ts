@@ -1,8 +1,18 @@
-import { mkdtemp, rm } from "node:fs/promises";
+import { access, mkdtemp, rm } from "node:fs/promises";
+import { constants as fsConstants } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { FileJobQueue, createJobQueue, type JobQueue } from "./JobQueue.js";
+
+async function lockExists(dir: string, jobId: string): Promise<boolean> {
+  try {
+    await access(join(dir, `${jobId}.lock`), fsConstants.F_OK);
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 /**
  * Minimal sanity unit tests for the Job_Queue (Req 12.1–12.4, 15.3).
@@ -52,6 +62,8 @@ describe("FileJobQueue", () => {
     const claimed = await queue.claimNext(["transcribe", "analyze"]);
     expect(claimed?.id).toBe(transcribe.id);
     expect(claimed?.status).toBe("running");
+    // Hybrid claim: lock is held for the whole run (PR-02).
+    expect(await lockExists(dir, transcribe.id)).toBe(true);
 
     // Already running, so a second claim of the same types finds nothing.
     expect(await queue.claimNext(["transcribe", "analyze"])).toBeNull();
@@ -67,9 +79,11 @@ describe("FileJobQueue", () => {
     expect(claimed).toHaveLength(1);
   });
 
-  it("records produced artifacts on completion (Req 12.3)", async () => {
+  it("records produced artifacts on completion and releases the lock (Req 12.3)", async () => {
     const job = await queue.enqueue({ projectId: "p1", type: "render", params: {} });
-    await queue.markRunning(job.id);
+    const claimed = await queue.claimNext(["render"]);
+    expect(claimed?.id).toBe(job.id);
+    expect(await lockExists(dir, job.id)).toBe(true);
     const done = await queue.markCompleted(job.id, [
       "artifacts/final-16x9-fullhd-60fps.mp4",
       "artifacts/final-9x16-fullhd-60fps.mp4",
@@ -79,13 +93,17 @@ describe("FileJobQueue", () => {
       "artifacts/final-16x9-fullhd-60fps.mp4",
       "artifacts/final-9x16-fullhd-60fps.mp4",
     ]);
+    expect(await lockExists(dir, job.id)).toBe(false);
   });
 
-  it("retains the error message on failure (Req 12.4)", async () => {
+  it("retains the error message on failure and releases the lock (Req 12.4)", async () => {
     const job = await queue.enqueue({ projectId: "p1", type: "analyze", params: {} });
+    await queue.claimNext(["analyze"]);
+    expect(await lockExists(dir, job.id)).toBe(true);
     const failed = await queue.markFailed(job.id, "decode error");
     expect(failed.status).toBe("failed");
     expect(failed.error).toBe("decode error");
+    expect(await lockExists(dir, job.id)).toBe(false);
   });
 
   it("createJobQueue builds a FileJobQueue from config", () => {

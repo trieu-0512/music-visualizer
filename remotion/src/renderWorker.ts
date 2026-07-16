@@ -37,9 +37,12 @@ import {
   type ProjectConfigJson,
 } from "@music-visualizer/shared";
 
+import type { VideoFormat } from "@music-visualizer/shared";
+
 import {
   renderProject as defaultRenderProject,
   type RenderAssetStore,
+  type RenderProjectDeps,
 } from "./render.js";
 
 /* -------------------------------------------------------------------------- */
@@ -59,7 +62,10 @@ export interface RenderJob {
   projectId: string;
   /** Job type (always `"render"` for jobs this worker claims). */
   type: string;
-  /** Caller-supplied params (e.g. `{ format: "both" }`); unused here. */
+  /**
+   * Caller-supplied params. For render jobs the UI sends `{ format: VideoFormat }`
+   * which overrides `config.videoFormat` for this job only (KD-6).
+   */
   params?: Record<string, unknown>;
 }
 
@@ -85,7 +91,21 @@ export interface RenderJobQueue {
 export type RenderProjectFn = (
   config: ProjectConfigJson,
   store: RenderAssetStore,
+  deps?: RenderProjectDeps,
 ) => Promise<string[]>;
+
+const VIDEO_FORMATS = new Set<VideoFormat>(["landscape", "portrait", "both"]);
+
+/** Parse a job-scoped format override from job params; invalid values are ignored. */
+export function formatOverrideFromParams(
+  params: Record<string, unknown> | undefined,
+): VideoFormat | undefined {
+  const format = params?.format;
+  if (typeof format === "string" && VIDEO_FORMATS.has(format as VideoFormat)) {
+    return format as VideoFormat;
+  }
+  return undefined;
+}
 
 /* -------------------------------------------------------------------------- */
 /* Constants                                                                  */
@@ -196,7 +216,10 @@ export async function processRenderJob(
   const configPath = deps.configPath ?? CONFIG_RELATIVE_PATH;
   try {
     const config = await loadProjectConfig(store, job.projectId, configPath);
-    const artifacts = await render(config, store);
+    const videoFormatOverride = formatOverrideFromParams(job.params);
+    const artifacts = await render(config, store, {
+      ...(videoFormatOverride !== undefined ? { videoFormatOverride } : {}),
+    });
     await queue.markCompleted(job.id, artifacts);
   } catch (err) {
     // Req 9.6: record a descriptive failure message and keep the loop alive.

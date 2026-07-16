@@ -10,20 +10,24 @@ recorded on the job via ``mark_failed`` with a descriptive message (Req 3.6 for
 transcription, Req 6.7-style failure handling for analysis, Req 12.4 for the
 queue retaining the error), rather than crashing the loop.
 
-The concrete WhisperX/librosa handlers are implemented in later tasks (6.7,
-7.1). This module owns the dispatch structure and a registration seam so those
-handlers can attach without changing the loop. Handlers are resolved lazily so
-importing this module never pulls in heavy audio dependencies.
+Handler modules are loaded lazily. Import failures are **not** swallowed: they
+are logged and a failing stub is registered so jobs get a clear error message
+(Architecture Upgrade KD-11 / PR-03b). Set ``MV_STRICT_HANDLERS=1`` to fail
+fast on worker boot when a default handler cannot be imported.
 """
 
 from __future__ import annotations
 
+import logging
+import os
 import time
 from typing import Callable, Protocol
 
 from src.queue import Job, JobQueue
 from src.store import AssetStore, create_asset_store
 from src.queue import create_job_queue
+
+logger = logging.getLogger(__name__)
 
 # Seconds to sleep when the queue has no claimable job, before polling again.
 POLL_INTERVAL = 1.0
@@ -50,39 +54,60 @@ def register_handler(job_type: str, handler: Handler) -> None:
     DISPATCH[job_type] = handler
 
 
+def _failing_handler(job_type: str, reason: str) -> Handler:
+    """Return a handler that always fails with an install/import guidance message."""
+
+    def handler(_job: Job, _store: AssetStore) -> list[str]:
+        raise RuntimeError(
+            f"Handler for '{job_type}' is unavailable: {reason}. "
+            "Install worker dependencies (see workers/requirements.txt) and restart."
+        )
+
+    return handler
+
+
 def _load_default_handlers() -> None:
     """Lazily wire the real handlers from their modules if not yet registered.
 
     Imports are performed inside the function so that the dispatch seam stays
-    usable (and testable) before tasks 6.7 / 7.1 land their dependencies. A
-    missing handler module is tolerated here; an unregistered type surfaces as a
-    clear failure recorded on the job in :func:`process_job`.
+    usable (and testable) without always loading heavy audio stacks. Import
+    failures log at error level and register a failing stub (KD-11).
     """
+    strict = os.environ.get("MV_STRICT_HANDLERS", "").strip() in {"1", "true", "TRUE", "yes"}
+
     if "transcribe" not in DISPATCH:
         try:
             from src.transcribe import handle_transcribe  # type: ignore
 
             register_handler("transcribe", handle_transcribe)
-        except Exception:
-            pass
+        except Exception as exc:
+            logger.error("Failed to load transcribe handler: %s", exc, exc_info=True)
+            if strict:
+                raise
+            register_handler("transcribe", _failing_handler("transcribe", str(exc)))
+
     if "analyze" not in DISPATCH:
         try:
             from src.analyze import handle_analyze  # type: ignore
 
             register_handler("analyze", handle_analyze)
-        except Exception:
-            pass
+        except Exception as exc:
+            logger.error("Failed to load analyze handler: %s", exc, exc_info=True)
+            if strict:
+                raise
+            register_handler("analyze", _failing_handler("analyze", str(exc)))
 
 
 def process_job(job: Job, queue: JobQueue, store: AssetStore) -> None:
     """Run a single claimed job, recording success or failure on it.
 
-    Marks the job running, dispatches to the handler for its type, and on
-    success marks it completed with the produced artifacts. Any exception is
-    caught and recorded via ``mark_failed`` so the queue retains a descriptive
-    error message (Req 3.6, 6.7, 12.4).
+    Hybrid claim already set status to ``running`` under lock; ``mark_running``
+    is a no-op when already running. Dispatches to the handler for its type and
+    on success marks completed with the produced artifacts. Any exception is
+    caught and recorded via ``mark_failed`` (Req 3.6, 6.7, 12.4).
     """
     try:
+        # No-op rewrite when claim_next already transitioned to running (PR-03).
         queue.mark_running(job.id)
         handler = DISPATCH.get(job.type)
         if handler is None:
@@ -125,4 +150,5 @@ def run_worker(
 
 
 if __name__ == "__main__":  # pragma: no cover - manual entry point
+    logging.basicConfig(level=logging.INFO)
     run_worker()

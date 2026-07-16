@@ -77,6 +77,9 @@ function makeStore(seed: Record<string, Buffer> = {}): RenderAssetStore & {
     async write(ref, data) {
       files.set(key(ref), data);
     },
+    async delete(ref) {
+      files.delete(key(ref));
+    },
     async exists(ref) {
       return files.has(key(ref));
     },
@@ -125,8 +128,16 @@ function makeQueue(jobs: RenderJob[]): RenderJobQueue & {
   };
 }
 
-function renderJob(projectId = "p_test", id = "job_1"): RenderJob {
-  return { id, projectId, type: "render", params: {} };
+function renderJob(
+  projectId = "p_test",
+  paramsOrId: Record<string, unknown> | string = {},
+  id = "job_1",
+): RenderJob {
+  // Overload: renderJob(projectId, jobId) still works for multi-job tests.
+  if (typeof paramsOrId === "string") {
+    return { id: paramsOrId, projectId, type: "render", params: {} };
+  }
+  return { id, projectId, type: "render", params: paramsOrId };
 }
 
 /* -------------------------------------------------------------------------- */
@@ -154,8 +165,24 @@ describe("processRenderJob", () => {
     await processRenderJob(job, queue, store, { renderProject: render });
 
     expect(render).toHaveBeenCalledTimes(1);
+    expect(render).toHaveBeenCalledWith(config, store, {});
     expect(queue.completed).toEqual([{ id: "job_1", artifacts: produced }]);
     expect(queue.failed).toEqual([]);
+  });
+
+  it("forwards params.format as videoFormatOverride to renderProject (KD-6)", async () => {
+    const config = makeConfig("p_test", "both");
+    const store = storeWithConfig(config);
+    const job = renderJob("p_test", { format: "landscape" });
+    const queue = makeQueue([]);
+    const render: RenderProjectFn = vi.fn(async () => ["artifacts/final-16x9-fullhd-60fps.mp4"]);
+
+    await processRenderJob(job, queue, store, { renderProject: render });
+
+    expect(render).toHaveBeenCalledWith(config, store, {
+      videoFormatOverride: "landscape",
+    });
+    expect(queue.completed).toHaveLength(1);
   });
 
   it("marks the job failed with the renderProject error message (Req 9.6)", async () => {

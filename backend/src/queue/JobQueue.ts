@@ -51,10 +51,14 @@ export interface JobQueue {
 /**
  * File-based Job_Queue. Each job is one JSON file `{jobId}.json` under `dir`.
  *
- * The `pending → running` claim is made atomic with a per-job O_EXCL lock
- * file (`{jobId}.lock`): a worker that wins the exclusive create owns the
- * claim, re-reads the job under the lock to confirm it is still pending, then
- * transitions it. Two workers therefore never claim the same job.
+ * Hybrid claim protocol (Architecture Upgrade KD-1 / PR-02):
+ * the `pending → running` transition is atomic under a per-job O_EXCL lock
+ * file (`{jobId}.lock`). The lock is **held until** `markCompleted` /
+ * `markFailed` so other workers cannot reclaim an in-flight job. Claim write
+ * failures always release the lock before continuing.
+ *
+ * Release train: do not run production Python workers against this protocol
+ * until the matching Python claim changes (PR-03) are also deployed.
  */
 export class FileJobQueue implements JobQueue {
   private readonly dir: string;
@@ -106,36 +110,56 @@ export class FileJobQueue implements JobQueue {
 
     for (const candidate of candidates) {
       if (!(await this.tryLock(candidate.id))) {
-        // Another worker is mid-claim on this job; try the next candidate.
+        // Another worker owns this job; try the next candidate.
         continue;
       }
       try {
         const fresh = await this.get(candidate.id);
-        if (fresh === null || fresh.status !== "pending") continue;
+        if (fresh === null || fresh.status !== "pending") {
+          await this.releaseLock(candidate.id);
+          continue;
+        }
         const claimed: Job = {
           ...fresh,
           status: "running",
           updatedAt: new Date().toISOString(),
         };
         await this.writeJob(claimed);
+        // Hold the lock until markCompleted / markFailed.
         return claimed;
-      } finally {
-        await rm(this.lockPath(candidate.id), { force: true });
+      } catch (err) {
+        // Never leave an orphan lock after a failed claim write.
+        await this.releaseLock(candidate.id);
+        throw err;
       }
     }
     return null;
   }
 
   markRunning(jobId: string): Promise<Job> {
-    return this.update(jobId, (job) => ({ ...job, status: "running" }));
+    return this.update(jobId, (job) =>
+      job.status === "running" ? job : { ...job, status: "running" },
+    );
   }
 
-  markCompleted(jobId: string, artifacts: string[]): Promise<Job> {
-    return this.update(jobId, (job) => ({ ...job, status: "completed", artifacts }));
+  async markCompleted(jobId: string, artifacts: string[]): Promise<Job> {
+    const next = await this.update(jobId, (job) => ({
+      ...job,
+      status: "completed",
+      artifacts,
+    }));
+    await this.releaseLock(jobId);
+    return next;
   }
 
-  markFailed(jobId: string, error: string): Promise<Job> {
-    return this.update(jobId, (job) => ({ ...job, status: "failed", error }));
+  async markFailed(jobId: string, error: string): Promise<Job> {
+    const next = await this.update(jobId, (job) => ({
+      ...job,
+      status: "failed",
+      error,
+    }));
+    await this.releaseLock(jobId);
+    return next;
   }
 
   // --- internals -----------------------------------------------------------
@@ -197,10 +221,17 @@ export class FileJobQueue implements JobQueue {
     }
   }
 
+  private async releaseLock(jobId: string): Promise<void> {
+    await rm(this.lockPath(jobId), { force: true });
+  }
+
   private async update(jobId: string, mutate: (job: Job) => Job): Promise<Job> {
     const current = await this.get(jobId);
     if (current === null) throw new Error(`Job not found: ${jobId}`);
-    const next: Job = { ...mutate(current), updatedAt: new Date().toISOString() };
+    const mutated = mutate(current);
+    // Avoid a no-op rewrite when markRunning is called on an already-running job.
+    if (mutated === current) return current;
+    const next: Job = { ...mutated, updatedAt: new Date().toISOString() };
     await this.writeJob(next);
     return next;
   }

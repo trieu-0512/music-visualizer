@@ -83,8 +83,40 @@ export interface RenderAssetStore {
   read(ref: AssetRef): Promise<Buffer>;
   /** Persist `data` at `ref`, creating any missing parent directories. */
   write(ref: AssetRef, data: Buffer): Promise<void>;
+  /**
+   * Remove the file at `ref`. Implementations should no-op or resolve when the
+   * file is absent (Architecture Upgrade KD-23).
+   */
+  delete(ref: AssetRef): Promise<void>;
   /** Report whether a file exists at `ref` (optional; enables clearer errors). */
   exists?(ref: AssetRef): Promise<boolean>;
+}
+
+/** Standardized final MP4 artifact paths produced by {@link expandRenderTargets}. */
+export const STANDARD_FINAL_MP4_PATHS: readonly string[] = [
+  "artifacts/final-16x9-fullhd-60fps.mp4",
+  "artifacts/final-9x16-fullhd-60fps.mp4",
+  "artifacts/final-16x9-2k-60fps.mp4",
+  "artifacts/final-9x16-2k-60fps.mp4",
+  "artifacts/final-16x9-4k-60fps.mp4",
+  "artifacts/final-9x16-4k-60fps.mp4",
+];
+
+/**
+ * Best-effort delete of all standardized final MP4s for a project so a new
+ * render (or format override) does not leave mixed outputs (KD-6).
+ */
+export async function clearStandardFinalMp4s(
+  store: RenderAssetStore,
+  projectId: string,
+): Promise<void> {
+  for (const relativePath of STANDARD_FINAL_MP4_PATHS) {
+    try {
+      await store.delete({ projectId, relativePath });
+    } catch {
+      // Missing files or store quirks must not block the render.
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -594,6 +626,12 @@ export interface RenderProjectDeps {
   targetSelectors?: RenderTargetSelector[];
   renderSettings?: RemotionRenderSettings;
   outputTag?: string;
+  /**
+   * Job-scoped video format override (Architecture Upgrade KD-6 / PR-06).
+   * When set, expands targets from this value instead of `config.videoFormat`
+   * without rewriting `project-config.json`.
+   */
+  videoFormatOverride?: VideoFormat;
 }
 
 /** Already-resolved asset locations are loaded directly, not staged. */
@@ -737,8 +775,11 @@ export async function renderProject(
   const entryPoint = deps.entryPoint ?? defaultEntryPoint();
   const baseDir = deps.workDir ?? tmpdir();
 
+  // Precedence: videoFormatOverride → config.videoFormat → expand → targetSelectors.
+  const effectiveFormat: VideoFormat =
+    deps.videoFormatOverride ?? config.videoFormat;
   const targets = filterRenderTargets(
-    expandRenderTargets(config.videoFormat),
+    expandRenderTargets(effectiveFormat),
     deps.targetSelectors ?? [],
   );
   if (targets.length === 0) {
@@ -746,6 +787,16 @@ export async function renderProject(
       `No render targets matched selectors: ${(deps.targetSelectors ?? []).join(", ")}`,
     );
   }
+
+  // eslint-disable-next-line no-console
+  console.log(
+    `[render] project=${config.projectId} effectiveFormat=${effectiveFormat} targets=${targets
+      .map((t) => t.compositionId)
+      .join(",")}`,
+  );
+
+  // Clear prior finals so format overrides / retries do not leave mixed MP4s (KD-6).
+  await clearStandardFinalMp4s(store, config.projectId);
 
   // Load the artifacts the composition is driven by (Req 8.x parity with preview).
   const lyrics: LyricsJson = await loadArtifact(

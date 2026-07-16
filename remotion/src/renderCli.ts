@@ -1,5 +1,5 @@
 import { existsSync } from "node:fs";
-import { copyFile, mkdir, readFile, readdir, stat, writeFile } from "node:fs/promises";
+import { copyFile, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
 import { execFile } from "node:child_process";
 import { dirname, isAbsolute, join, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -50,6 +50,10 @@ class ProjectDirectoryStore implements RenderAssetStore {
     const target = this.absolutePath(ref);
     await mkdir(dirname(target), { recursive: true });
     await writeFile(target, data);
+  }
+
+  async delete(ref: AssetRef): Promise<void> {
+    await rm(this.absolutePath(ref), { force: true });
   }
 
   async exists(ref: AssetRef): Promise<boolean> {

@@ -199,6 +199,9 @@ function makeStore(config: ProjectConfigJson): RenderAssetStore & {
     async write(ref, data) {
       files.set(key(ref), data);
     },
+    async delete(ref) {
+      files.delete(key(ref));
+    },
     async exists(ref) {
       return files.has(key(ref));
     },

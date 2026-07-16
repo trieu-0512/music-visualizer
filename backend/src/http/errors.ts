@@ -24,7 +24,8 @@ export type ApiErrorCode =
   | "TYPE_MISMATCH"
   | "PRECONDITION_FAILED"
   | "MISSING_REQUIREMENTS"
-  | "ARTIFACT_NOT_READY";
+  | "ARTIFACT_NOT_READY"
+  | "INTERNAL_ERROR";
 
 /** Map each {@link ApiErrorCode} to its HTTP status (design Error Handling table). */
 export const ERROR_STATUS: Record<ApiErrorCode, number> = {
@@ -35,6 +36,7 @@ export const ERROR_STATUS: Record<ApiErrorCode, number> = {
   PRECONDITION_FAILED: 409,
   MISSING_REQUIREMENTS: 422,
   ARTIFACT_NOT_READY: 409,
+  INTERNAL_ERROR: 500,
 };
 
 /** Optional structured context attached to an error (e.g. `{ missing: [...] }`). */
@@ -111,14 +113,52 @@ export const notFoundHandler: RequestHandler = (req, res) => {
 /**
  * Express error handler that serializes {@link ApiError} into the uniform
  * envelope and maps anything unexpected to a generic 500 without leaking
- * internals.
+ * internals. Multer limit errors become {@link VALIDATION_ERROR} (400).
  */
 export const errorHandler: ErrorRequestHandler = (err, _req, res, _next) => {
   if (err instanceof ApiError) {
     res.status(err.status).json(err.toEnvelope());
     return;
   }
-  res.status(500).json({
-    error: { code: "VALIDATION_ERROR", message: "Internal server error" },
+  if (isMulterError(err)) {
+    const mapped = validationError(multerMessage(err), {
+      multerCode: err.code,
+      field: err.field,
+    });
+    res.status(mapped.status).json(mapped.toEnvelope());
+    return;
+  }
+  res.status(ERROR_STATUS.INTERNAL_ERROR).json({
+    error: { code: "INTERNAL_ERROR", message: "Internal server error" },
   });
 };
+
+/** Structural check for multer's error class (avoids a hard import cycle). */
+function isMulterError(
+  err: unknown,
+): err is Error & { code: string; field?: string; name: string } {
+  return (
+    typeof err === "object" &&
+    err !== null &&
+    (err as { name?: string }).name === "MulterError" &&
+    typeof (err as { code?: unknown }).code === "string"
+  );
+}
+
+function multerMessage(err: Error & { code: string }): string {
+  switch (err.code) {
+    case "LIMIT_FILE_SIZE":
+      return "Uploaded file exceeds the maximum allowed size";
+    case "LIMIT_FILE_COUNT":
+    case "LIMIT_UNEXPECTED_FILE":
+      return "Too many files in the upload, or an unexpected field name";
+    case "LIMIT_PART_COUNT":
+      return "Upload has too many parts";
+    case "LIMIT_FIELD_KEY":
+    case "LIMIT_FIELD_VALUE":
+    case "LIMIT_FIELD_COUNT":
+      return "Upload field limits exceeded";
+    default:
+      return err.message || "Upload rejected";
+  }
+}

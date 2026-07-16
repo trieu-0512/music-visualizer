@@ -140,7 +140,8 @@ export type ApiErrorCode =
   | "TYPE_MISMATCH"
   | "PRECONDITION_FAILED"
   | "MISSING_REQUIREMENTS"
-  | "ARTIFACT_NOT_READY";
+  | "ARTIFACT_NOT_READY"
+  | "INTERNAL_ERROR";
 
 /** The uniform error envelope returned by the API on any failure. */
 export interface ApiErrorEnvelope {

@@ -1,6 +1,6 @@
 import { Router } from "express";
-import multer from "multer";
 import { asyncHandler, notFound, validationError } from "../http/errors.js";
+import { createMemoryUpload } from "../http/upload.js";
 import type { ProjectService } from "../projects/index.js";
 import type { AssetStore } from "../storage/index.js";
 import {
@@ -38,8 +38,8 @@ const ASSETS_PREFIX = "assets/";
 export function createAssetsRouter(service: ProjectService, store: AssetStore): Router {
   const router = Router();
   // Buffer uploads in memory so the bytes can be handed straight to the
-  // Asset_Store; MVP assets (logos, letters, a single track) are small.
-  const upload = multer({ storage: multer.memoryStorage() });
+  // Asset_Store; hard size/count limits prevent unbounded RAM use (PR-07).
+  const upload = createMemoryUpload({ files: 1 });
 
   router.post(
     "/projects/:id/assets/:role",

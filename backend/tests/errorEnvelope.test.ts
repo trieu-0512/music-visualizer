@@ -11,6 +11,7 @@ import { ProjectService } from "../src/projects/index.js";
 import {
   ApiError,
   ERROR_STATUS,
+  errorHandler,
   notFound,
   validationError,
   type ApiErrorCode,
@@ -61,6 +62,29 @@ describe("ApiError model and envelope (unit)", () => {
     expect(ERROR_STATUS.PRECONDITION_FAILED).toBe(409);
     expect(ERROR_STATUS.MISSING_REQUIREMENTS).toBe(422);
     expect(ERROR_STATUS.ARTIFACT_NOT_READY).toBe(409);
+    expect(ERROR_STATUS.INTERNAL_ERROR).toBe(500);
+  });
+
+  it("maps unexpected errors to INTERNAL_ERROR (not VALIDATION_ERROR)", () => {
+    const unexpected = new Error("boom");
+    // Drive the handler directly with a minimal res stub.
+    const statusCodes: number[] = [];
+    const bodies: unknown[] = [];
+    const res = {
+      status(code: number) {
+        statusCodes.push(code);
+        return this;
+      },
+      json(body: unknown) {
+        bodies.push(body);
+        return this;
+      },
+    };
+    errorHandler(unexpected, {} as never, res as never, (() => undefined) as never);
+    expect(statusCodes).toEqual([500]);
+    expect(bodies[0]).toEqual({
+      error: { code: "INTERNAL_ERROR", message: "Internal server error" },
+    });
   });
 
   it("derives status from code and serializes details when present", () => {

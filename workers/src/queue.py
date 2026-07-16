@@ -165,9 +165,10 @@ class JobQueue:
     def claim_next(self, types: list[str] | tuple[str, ...]) -> Job | None:
         """Claim the oldest pending job of one of ``types`` (Req 12.1).
 
-        The claim is made atomic by creating a per-job ``O_EXCL`` lock file:
-        only one worker can create it, so two workers never claim the same job.
-        Returns the claimed job, or ``None`` when nothing is claimable.
+        Hybrid claim protocol (Architecture Upgrade KD-1 / PR-03): create a
+        per-job ``O_EXCL`` lock, re-read to confirm still ``pending``, write
+        ``status=running``, and **hold the lock** until ``mark_completed`` /
+        ``mark_failed``. Claim write failures always release the lock.
         """
         allowed = set(types)
         candidates = [
@@ -179,21 +180,39 @@ class JobQueue:
         ]
         candidates.sort(key=lambda j: (j.created_at, j.id))
 
-        for job in candidates:
+        for candidate in candidates:
             try:
                 fd = os.open(
-                    self._lock_path(job.id), os.O_CREAT | os.O_EXCL | os.O_WRONLY
+                    self._lock_path(candidate.id),
+                    os.O_CREAT | os.O_EXCL | os.O_WRONLY,
                 )
             except FileExistsError:
                 # Another worker already holds the claim; try the next candidate.
                 continue
             os.close(fd)
-            return job
+            try:
+                fresh = self._read_record(candidate.id)
+                if fresh is None or fresh.status != "pending":
+                    self._release_lock(candidate.id)
+                    continue
+                fresh.status = "running"
+                fresh.updated_at = _now_iso()
+                self._write_record(fresh)
+                return fresh
+            except BaseException:
+                self._release_lock(candidate.id)
+                raise
         return None
 
     def mark_running(self, job_id: str) -> Job:
-        """Transition a job to ``running`` (Req 12.2)."""
+        """No-op when already ``running``; otherwise transition (Req 12.2).
+
+        After hybrid claim, ``claim_next`` already wrote ``running``, so callers
+        that still invoke this must not rewrite the record unnecessarily.
+        """
         job = self._require(job_id)
+        if job.status == "running":
+            return job
         job.status = "running"
         job.updated_at = _now_iso()
         self._write_record(job)

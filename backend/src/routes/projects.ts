@@ -1,6 +1,5 @@
 import { Buffer } from "node:buffer";
 import { Router } from "express";
-import multer from "multer";
 import {
   validateAudioAnalysis,
   validateLyrics,
@@ -12,6 +11,7 @@ import { buildConfig } from "../config/index.js";
 import { listPresentArtifacts } from "../artifacts/index.js";
 import { candidatePaths, computeReadiness } from "../assets/index.js";
 import { ApiError, asyncHandler, validationError } from "../http/errors.js";
+import { createMemoryUpload } from "../http/upload.js";
 import type { ProjectService } from "../projects/index.js";
 import type { AssetStore } from "../storage/index.js";
 
@@ -30,10 +30,7 @@ import type { AssetStore } from "../storage/index.js";
  */
 export function createProjectsRouter(service: ProjectService, store: AssetStore): Router {
   const router = Router();
-  const upload = multer({
-    storage: multer.memoryStorage(),
-    preservePath: true,
-  });
+  const upload = createMemoryUpload({ preservePath: true });
 
   router.post(
     "/projects/import-folder",

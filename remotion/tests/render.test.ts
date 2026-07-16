@@ -104,6 +104,9 @@ function makeStore(seed: Record<string, Buffer> = {}): RenderAssetStore & {
     async write(ref, data) {
       files.set(key(ref), data);
     },
+    async delete(ref) {
+      files.delete(key(ref));
+    },
     async exists(ref) {
       return files.has(key(ref));
     },
@@ -277,6 +280,30 @@ describe("renderProject", () => {
     for (const target of LANDSCAPE_TARGETS) {
       expect(store.files.has(`p_test/${target.relativePath}`)).toBe(true);
     }
+  });
+
+  it("honors videoFormatOverride over config.videoFormat and clears prior finals", async () => {
+    const config = makeConfig("both");
+    const store = makeStore(seedFor(config));
+    // Stale portrait artifact from a prior both-render.
+    store.files.set(
+      "p_test/artifacts/final-9x16-fullhd-60fps.mp4",
+      Buffer.from("stale"),
+    );
+    const backend = makeBackend();
+
+    const produced = await renderProject(config, store, {
+      backend,
+      entryPoint: "/fake/index.js",
+      videoFormatOverride: "landscape",
+    });
+
+    expect(produced).toEqual(LANDSCAPE_TARGETS.map((target) => target.relativePath));
+    expect(backend.calls.select).toEqual(
+      LANDSCAPE_TARGETS.map((target) => target.compositionId),
+    );
+    // Prior portrait final was cleared; only landscape outputs remain.
+    expect(store.files.has("p_test/artifacts/final-9x16-fullhd-60fps.mp4")).toBe(false);
   });
 
   it("can render one selected target with custom Remotion quality settings", async () => {

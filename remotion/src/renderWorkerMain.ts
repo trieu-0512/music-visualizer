@@ -71,7 +71,9 @@ export async function main(): Promise<void> {
 
   await runRenderWorker(queue, store, {
     // Pin the composition entry so the bundler finds it from either src or dist.
-    renderProject: (cfg, st) => renderProject(cfg, st, { entryPoint }),
+    // Forward job-scoped deps (e.g. videoFormatOverride from params.format).
+    renderProject: (cfg, st, deps) =>
+      renderProject(cfg, st, { ...deps, entryPoint }),
   });
 }
 
