@@ -2,7 +2,7 @@
   "mcpServers": {
     "bitwize-music-mcp": {
       "type": "stdio",
-      "command": "python",
+      "command": "C:\\Users\\Trieu\\.bitwize-music\\venv\\Scripts\\python.exe",
       "args": [
         "${CLAUDE_PLUGIN_ROOT}/servers/bitwize-music-server/run.py"
       ]

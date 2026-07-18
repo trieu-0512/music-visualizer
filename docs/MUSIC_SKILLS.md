@@ -20,21 +20,30 @@ Tests suite from upstream was **not** vendored (keeps the monorepo small). Every
 
 Reload plugins/skills after pull (`/plugins` → `r`, or restart TUI).
 
-## Optional MCP + audio tools (Python)
+## MCP + audio tools (Python) — installed
 
-Upstream MCP defaults to `~/.bitwize-music/venv`. On this Windows machine you can use the monorepo venv or create a dedicated one:
+Dedicated venv on this machine:
 
-```powershell
-# From repo root
-py -3.12 -m venv $env:USERPROFILE\.bitwize-music\venv
-& "$env:USERPROFILE\.bitwize-music\venv\Scripts\python.exe" -m pip install -U pip
-& "$env:USERPROFILE\.bitwize-music\venv\Scripts\python.exe" -m pip install -r .grok\plugins\bitwize-music\requirements.txt
+```text
+C:\Users\Trieu\.bitwize-music\venv
 ```
 
-MCP config in plugin: `.grok/plugins/bitwize-music/.mcp.json`  
-(Linux original path kept as `.mcp.linux.json`.)
+Installed from `.grok/plugins/bitwize-music/requirements.txt` (mcp, matchering, librosa, playwright, boto3, …) plus Playwright Chromium.
 
-Mastering / browser tools may need extra system deps (FFmpeg already used by the visualizer). Prefer WSL if matchering/playwright paths are painful on native Windows.
+MCP config (Windows): `.grok/plugins/bitwize-music/.mcp.json` points at that venv’s `python.exe`.  
+Linux original path kept as `.mcp.linux.json`.
+
+Reinstall / refresh:
+
+```powershell
+$py = "$env:USERPROFILE\.bitwize-music\venv\Scripts\python.exe"
+py -3.12 -m venv $env:USERPROFILE\.bitwize-music\venv
+& $py -m pip install -U pip
+& $py -m pip install -r .grok\plugins\bitwize-music\requirements.txt
+& $py -m playwright install chromium
+```
+
+Mastering / browser tools may still need system FFmpeg (already used by the visualizer). Prefer WSL if matchering/playwright paths misbehave on native Windows.
 
 ## Configure workspace
 
