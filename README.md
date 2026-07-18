@@ -8,6 +8,10 @@ MVP.
 See [docs/PROJECT_OVERVIEW.md](docs/PROJECT_OVERVIEW.md) for the Vietnamese
 project summary, folder contract, workflow, and output list.
 
+**AI music production skills** (Suno lyrics/prompts, mastering, album pipeline)
+are vendored from [bitwize-music](https://github.com/bitwize-music-studio/claude-ai-music-skills).
+See [docs/MUSIC_SKILLS.md](docs/MUSIC_SKILLS.md) and Grok skill `/music-production`.
+
 ## Project Structure
 
 ```text
@@ -21,6 +25,8 @@ music-visualizer/
   storage/    # local project files and job records
   samples/    # sample project assets/artifacts
   docs/       # project documentation
+  .grok/      # Grok project skills + bitwize-music plugin
+  .claude/    # Claude-compatible skill copies (same music skills)
 ```
 
 ## Folder Workflow

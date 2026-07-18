@@ -22,3 +22,9 @@ storage/jobs/
 *.log
 .DS_Store
 Thumbs.db
+
+# Keep project skills/plugins under .grok and .claude (committed)
+# Do not ignore .grok/plugins or .claude/skills
+
+# Optional local bitwize data outside repo
+.bitwize-music/
