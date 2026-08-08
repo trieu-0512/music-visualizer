@@ -20,6 +20,8 @@ export interface LyricBoxProps {
   letter?: string;
   /** Derived object keyword, used to color object words. */
   objectWord?: string;
+  /** False during a retrieval gap so the lyric box does not visually spoil the answer. */
+  objectRevealed?: boolean;
   /** Max display rows from `layout.lyricBox.maxLines`. */
   maxLines: 1 | 2;
   /** Distance from the bottom canvas edge in px. */
@@ -53,8 +55,11 @@ function wordRole(word: string, letter?: string, objectWord?: string): "letter" 
   if (!normalized) return "normal";
   const normalizedLetter = normalizeWord(letter ?? "");
   if (normalizedLetter && normalized === normalizedLetter) return "letter";
-  const normalizedObject = normalizeWord(objectWord ?? "");
-  if (normalizedObject && normalized === normalizedObject) return "object";
+  const objectTokens = (objectWord ?? "")
+    .split(/\s+/)
+    .map(normalizeWord)
+    .filter(Boolean);
+  if (objectTokens.includes(normalized)) return "object";
   return "normal";
 }
 
@@ -71,6 +76,7 @@ function Row({
   litWords,
   letter,
   objectWord,
+  objectRevealed,
   fontSize,
 }: {
   words: string[];
@@ -78,6 +84,7 @@ function Row({
   litWords: number;
   letter?: string;
   objectWord?: string;
+  objectRevealed: boolean;
   fontSize: number;
 }): React.ReactElement {
   return (
@@ -113,7 +120,7 @@ function Row({
               transform: role === "normal" ? undefined : "translateY(-1px)",
             }}
           >
-            {word}
+            {role === "object" && !objectRevealed ? "____" : word}
           </span>
         );
       })}
@@ -127,6 +134,7 @@ export const LyricBox: React.FC<LyricBoxProps> = ({
   litWords,
   letter,
   objectWord,
+  objectRevealed = true,
   maxLines,
   marginBottom,
   maxWidth,
@@ -182,6 +190,7 @@ export const LyricBox: React.FC<LyricBoxProps> = ({
           litWords={litWords}
           letter={letter}
           objectWord={objectWord}
+          objectRevealed={objectRevealed}
           fontSize={fontSize}
         />
       )}
@@ -192,6 +201,7 @@ export const LyricBox: React.FC<LyricBoxProps> = ({
           litWords={litWords}
           letter={letter}
           objectWord={objectWord}
+          objectRevealed={objectRevealed}
           fontSize={fontSize}
         />
       )}

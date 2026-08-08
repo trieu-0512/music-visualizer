@@ -1,6 +1,6 @@
 {
   "title": "LyricsJson",
-  "description": "Standardized lyric artifact lyrics.json (Req 4, Req 15.4).",
+  "description": "Standardized timed lyric artifact consumed by preview/render.",
   "type": "object",
   "additionalProperties": false,
   "required": ["version", "source", "lines"],
@@ -13,6 +13,28 @@
     "lines": {
       "type": "array",
       "items": { "$ref": "#/$defs/lyricLine" }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["audioSha256"],
+      "properties": {
+        "audioSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "mappingRevision": { "type": "integer", "minimum": 1 },
+        "songScriptMappingRevision": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "alignment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode", "status", "canonicalLineCount", "segmentCount"],
+      "properties": {
+        "mode": { "enum": ["asr-only", "canonical-order"] },
+        "status": { "enum": ["clean", "review-required"] },
+        "canonicalLineCount": { "type": "integer", "minimum": 0 },
+        "segmentCount": { "type": "integer", "minimum": 0 },
+        "averageTextSimilarity": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
     }
   },
   "$defs": {
@@ -40,8 +62,15 @@
           "type": "array",
           "items": { "$ref": "#/$defs/wordTiming" }
         },
+        "id": { "type": "string", "minLength": 1 },
+        "targetId": { "type": "string", "pattern": "^[A-Z]$" },
+        "objective": {
+          "enum": ["narration", "lexical-semantic", "verbatim", "retrieval-action", "phonics"]
+        },
         "letter": { "type": "string", "pattern": "^[A-Z]$" },
-        "object": { "type": "string", "minLength": 1 }
+        "object": { "type": "string", "minLength": 1 },
+        "objectRevealAt": { "type": "number", "minimum": 0 },
+        "alignmentConfidence": { "type": "number", "minimum": 0, "maximum": 1 }
       }
     }
   }

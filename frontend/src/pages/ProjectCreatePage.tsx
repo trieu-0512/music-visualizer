@@ -11,7 +11,7 @@ interface RequiredGroup {
   paths: string[];
 }
 
-const REQUIRED_GROUPS: RequiredGroup[] = [
+const CORE_REQUIRED_GROUPS: RequiredGroup[] = [
   { label: "audio", paths: ["assets/audio.mp3", "assets/audio.wav"] },
   {
     label: "background",
@@ -27,11 +27,55 @@ const REQUIRED_GROUPS: RequiredGroup[] = [
     label: "channelLogo",
     paths: ["assets/channel-logo.png", "assets/channel-logo.svg"],
   },
-  ...LETTERS.map((letter) => ({
-    label: `letter:${letter}`,
-    paths: [`assets/letters/${letter}.svg`],
-  })),
 ];
+
+function keyedPaths(kind: "letters" | "objects" | "source-images", letter: string): string[] {
+  const exts = kind === "source-images" ? ["png", "jpg", "jpeg", "webp"] : ["svg", "png", "webp"];
+  return exts.map((ext) => `assets/${kind}/${letter}.${ext}`);
+}
+
+function hasKeyedAsset(present: Set<string>, kind: "letters" | "objects" | "source-images", letter: string): boolean {
+  const prefix = `assets/${kind}/${letter}`.toLowerCase();
+  return [...present].some((path) => {
+    const normalized = path.toLowerCase();
+    if (!normalized.startsWith(prefix)) return false;
+    const tail = normalized.slice(prefix.length);
+    return /^(?:[_.-][^/]*)?\.(?:png|jpe?g|webp|svg)$/.test(tail);
+  });
+}
+
+function requiredGroupsForProfile(present: Set<string>): RequiredGroup[] {
+  const groups = [...CORE_REQUIRED_GROUPS];
+  const themeFirst = present.has("authoring/mapping.json");
+  for (const letter of LETTERS) {
+    if (themeFirst) {
+      const processed = hasKeyedAsset(present, "letters", letter) && hasKeyedAsset(present, "objects", letter);
+      const source = hasKeyedAsset(present, "source-images", letter);
+      if (!processed && !source) {
+        groups.push({
+          label: `target:${letter}`,
+          paths: [
+            ...keyedPaths("source-images", letter),
+            ...keyedPaths("letters", letter),
+            ...keyedPaths("objects", letter),
+          ],
+        });
+      }
+    } else if (!hasKeyedAsset(present, "letters", letter)) {
+      groups.push({ label: `letter:${letter}`, paths: keyedPaths("letters", letter) });
+    }
+  }
+  return groups;
+}
+
+function missingGroupsForProfile(present: Set<string>): RequiredGroup[] {
+  return requiredGroupsForProfile(present).filter(
+    (group) =>
+      group.label.startsWith("target:") ||
+      group.label.startsWith("letter:") ||
+      !group.paths.some((path) => present.has(path)),
+  );
+}
 
 const DIRECTORY_INPUT_PROPS = {
   webkitdirectory: "",
@@ -291,19 +335,19 @@ function ProjectCreatePage({ context }: PageProps): JSX.Element {
             <dl className="detected-files">
               <div>
                 <dt>Audio</dt>
-                <dd>{firstPresent(selectedProfile, REQUIRED_GROUPS[0]!) ?? "Missing"}</dd>
+                <dd>{firstPresent(selectedProfile, CORE_REQUIRED_GROUPS[0]!) ?? "Missing"}</dd>
               </div>
               <div>
                 <dt>Background</dt>
-                <dd>{firstPresent(selectedProfile, REQUIRED_GROUPS[1]!) ?? "Missing"}</dd>
+                <dd>{firstPresent(selectedProfile, CORE_REQUIRED_GROUPS[1]!) ?? "Missing"}</dd>
               </div>
               <div>
                 <dt>Song logo</dt>
-                <dd>{firstPresent(selectedProfile, REQUIRED_GROUPS[2]!) ?? "Missing"}</dd>
+                <dd>{firstPresent(selectedProfile, CORE_REQUIRED_GROUPS[2]!) ?? "Missing"}</dd>
               </div>
               <div>
                 <dt>Channel logo</dt>
-                <dd>{firstPresent(selectedProfile, REQUIRED_GROUPS[3]!) ?? "Missing"}</dd>
+                <dd>{firstPresent(selectedProfile, CORE_REQUIRED_GROUPS[3]!) ?? "Missing"}</dd>
               </div>
               <div>
                 <dt>Lyrics</dt>
@@ -417,9 +461,7 @@ function buildProfiles(files: File[]): SongProfile[] {
         files: items.map((item) => item.file),
         items,
         present,
-        missing: REQUIRED_GROUPS.filter(
-          (group) => !group.paths.some((path) => present.has(path)),
-        ),
+        missing: missingGroupsForProfile(present),
         metadataFile: items.find(
           (item) =>
             item.relativePath === "metadata.json" ||
@@ -451,6 +493,14 @@ function normalizeProfilePath(
     return {
       profileId: profileId(parts.slice(0, assetIndex)),
       relativePath: parts.slice(assetIndex).join("/"),
+    };
+  }
+
+  const authoringIndex = parts.lastIndexOf("authoring");
+  if (authoringIndex >= 0) {
+    return {
+      profileId: profileId(parts.slice(0, authoringIndex)),
+      relativePath: parts.slice(authoringIndex).join("/"),
     };
   }
 
@@ -542,10 +592,14 @@ function looseAssetPath(fileName: string): string | null {
 
 function looseLetterPath(fileName: string): string | null {
   const parsed = parseLooseName(fileName);
-  if (parsed === null || parsed.ext !== ".svg" || !/^[a-z]$/.test(parsed.stem)) {
+  if (
+    parsed === null ||
+    ![".svg", ".png", ".webp"].includes(parsed.ext) ||
+    !/^[a-z]$/.test(parsed.stem)
+  ) {
     return null;
   }
-  return `assets/letters/${parsed.stem.toUpperCase()}.svg`;
+  return `assets/letters/${parsed.stem.toUpperCase()}${parsed.ext}`;
 }
 
 function parseLooseName(fileName: string): { stem: string; ext: string } | null {
@@ -607,7 +661,13 @@ function displayName(raw: string): string {
 }
 
 function countLetters(present: Set<string>): number {
-  return LETTERS.filter((letter) => present.has(`assets/letters/${letter}.svg`)).length;
+  const themeFirst = present.has("authoring/mapping.json");
+  return LETTERS.filter((letter) =>
+    themeFirst
+      ? hasKeyedAsset(present, "source-images", letter) ||
+        (hasKeyedAsset(present, "letters", letter) && hasKeyedAsset(present, "objects", letter))
+      : hasKeyedAsset(present, "letters", letter),
+  ).length;
 }
 
 function firstPresent(profile: SongProfile, group: RequiredGroup): string | null {

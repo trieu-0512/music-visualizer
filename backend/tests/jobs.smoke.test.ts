@@ -48,9 +48,24 @@ describe("job endpoints smoke (Req 3, 6, 9, 12)", () => {
     expect(missing.status).toBe(409);
     expect(missing.body.error.code).toBe("PRECONDITION_FAILED");
 
+    const mapping = {
+      version: 1,
+      revision: 1,
+      state: "LOCKED",
+      theme: {
+        name: "Test Theme",
+        scope: "guided",
+        mappingAuthority: "project-locked",
+        ageBand: "mixed-2-6",
+        mode: "LETTER_NAME",
+      },
+      letters: Object.fromEntries(
+        [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].map((letter) => [letter, { object: `Object ${letter}` }]),
+      ),
+    };
     await store.write(
       { projectId, relativePath: "authoring/mapping.json" },
-      Buffer.from("{}"),
+      Buffer.from(JSON.stringify(mapping)),
     );
     const created = await request(app)
       .post(`/projects/${projectId}/jobs`)

@@ -6,11 +6,18 @@ export type { AudioAnalysisJson } from "./audioAnalysis.js";
 export type {
   ThemeScope,
   MappingAuthority,
+  MappingState,
   LearningMode,
   AgeBand,
   LearningMapEntry,
   LearningMapJson,
 } from "./learningMap.js";
+export type {
+  LearningObjective,
+  ObjectRevealPolicy,
+  SongScriptLine,
+  SongScriptJson,
+} from "./songScript.js";
 export type {
   VideoFormat,
   AssetPaths,

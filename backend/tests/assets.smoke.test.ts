@@ -63,6 +63,8 @@ describe("asset endpoints smoke (Req 2)", () => {
     );
     const mapping = {
       version: 1,
+      revision: 1,
+      state: "LOCKED",
       theme: {
         name: "Test Theme",
         scope: "guided",

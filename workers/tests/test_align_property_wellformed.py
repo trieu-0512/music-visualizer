@@ -28,7 +28,7 @@ import jsonschema
 from hypothesis import given, settings
 from hypothesis import strategies as st
 
-from src.align import OriginalLyrics, build_lyrics
+from src.align import AlignmentMismatchError, OriginalLyrics, build_lyrics
 
 # --- Canonical shared schema (Req 15.4: one schema consumed by all components) ---
 _SCHEMA_PATH = (
@@ -115,6 +115,14 @@ _original = st.one_of(
 @settings(max_examples=100, deadline=None)
 @given(whisperx=_whisperx, original=_original)
 def test_lyrics_json_is_well_formed(whisperx: dict, original) -> None:
+    segments = whisperx.get("segments", []) or []
+    if original is not None and len(original.lines) != len(segments):
+        try:
+            build_lyrics(whisperx, original)
+            raise AssertionError("expected count mismatch to fail closed")
+        except AlignmentMismatchError:
+            return
+
     out = build_lyrics(whisperx, original)
 
     # Conforms to the canonical shared schema: required start/end/text/line1/line2

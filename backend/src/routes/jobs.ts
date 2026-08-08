@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { validateLearningMap } from "@music-visualizer/shared";
 import { ApiError, asyncHandler, notFound, validationError } from "../http/errors.js";
 import type { ProjectService } from "../projects/index.js";
 import type { AssetStore } from "../storage/index.js";
@@ -46,12 +47,30 @@ export function createJobsRouter(
 
       // Gate each job type on its inputs so a doomed job is never enqueued.
       if (type === "prepare-assets") {
-        const hasMapping = await store.exists({ projectId, relativePath: "authoring/mapping.json" });
-        if (!hasMapping) {
+        const mappingRef = { projectId, relativePath: "authoring/mapping.json" };
+        if (!(await store.exists(mappingRef))) {
           throw new ApiError(
             "PRECONDITION_FAILED",
-            "authoring/mapping.json is required before preparing ABC assets",
+            "canonical LOCKED authoring/mapping.json is required before preparing ABC assets",
             { projectId, type },
+          );
+        }
+        let parsed: unknown;
+        try {
+          parsed = JSON.parse((await store.read(mappingRef)).toString("utf-8"));
+        } catch {
+          throw new ApiError(
+            "PRECONDITION_FAILED",
+            "authoring/mapping.json must be valid JSON before preparing ABC assets",
+            { projectId, type },
+          );
+        }
+        const validation = validateLearningMap(parsed);
+        if (!validation.ok) {
+          throw new ApiError(
+            "PRECONDITION_FAILED",
+            "authoring/mapping.json must be LOCKED and schema-valid before preparing ABC assets",
+            { projectId, type, errors: validation.error },
           );
         }
       } else if (type === "transcribe" || type === "analyze") {
@@ -78,6 +97,7 @@ export function createJobsRouter(
       }
 
       const params = parseParams(req.body);
+      if (type === "prepare-assets") validatePrepareAssetParams(params);
       const job = await queue.enqueue({ projectId, type, params });
       res.status(201).json(job);
     }),
@@ -116,6 +136,19 @@ function parseJobType(body: unknown): JobType {
 }
 
 /** Pass through caller-supplied job params (e.g. `{ format: "both" }`), or `{}`. */
+function validatePrepareAssetParams(params: Record<string, unknown>): void {
+  if (params.target !== undefined) {
+    const target = String(params.target).trim().toUpperCase();
+    if (!/^[A-Z]$/.test(target)) {
+      throw validationError("prepare-assets params.target must be one A-Z letter", { target: params.target });
+    }
+    params.target = target;
+  }
+  if (params.force !== undefined && typeof params.force !== "boolean") {
+    throw validationError("prepare-assets params.force must be boolean", { force: params.force });
+  }
+}
+
 function parseParams(body: unknown): Record<string, unknown> {
   const params = (body as { params?: unknown } | null)?.params;
   if (params !== null && typeof params === "object" && !Array.isArray(params)) {

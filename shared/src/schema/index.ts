@@ -20,6 +20,7 @@ export {
   audioAnalysisSchema,
   projectConfigSchema,
   learningMapSchema,
+  songScriptSchema,
 } from "./objects.js";
 
 /** Absolute path to the directory containing the schema `.json` files. */

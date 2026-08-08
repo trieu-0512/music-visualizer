@@ -1,4 +1,5 @@
 import { Buffer } from "node:buffer";
+import { createHash } from "node:crypto";
 import { mkdtemp, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -19,6 +20,19 @@ import { ApiError } from "../src/http/errors.js";
  */
 
 const LETTERS = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+const LOCKED_MAPPING = {
+  version: 1,
+  revision: 1,
+  state: "LOCKED",
+  theme: {
+    name: "Test Theme",
+    scope: "guided",
+    mappingAuthority: "project-locked",
+    ageBand: "mixed-2-6",
+    mode: "LETTER_NAME",
+  },
+  letters: Object.fromEntries(LETTERS.map((letter) => [letter, { object: `Object ${letter}` }])),
+};
 
 const PROJECT: ProjectRecord = {
   projectId: "p_0001",
@@ -101,7 +115,7 @@ describe("buildConfig (Req 7)", () => {
     await seedComplete(store, PROJECT.projectId);
     await store.write(
       { projectId: PROJECT.projectId, relativePath: "authoring/mapping.json" },
-      Buffer.from("{}"),
+      Buffer.from(JSON.stringify(LOCKED_MAPPING)),
     );
     for (const letter of LETTERS) {
       await store.write(
@@ -129,7 +143,7 @@ describe("buildConfig (Req 7)", () => {
     await seedComplete(store, PROJECT.projectId);
     await store.write(
       { projectId: PROJECT.projectId, relativePath: "authoring/mapping.json" },
-      Buffer.from("{}"),
+      Buffer.from(JSON.stringify(LOCKED_MAPPING)),
     );
     for (const letter of LETTERS.filter((value) => value !== "Q")) {
       await store.write(
@@ -141,6 +155,101 @@ describe("buildConfig (Req 7)", () => {
     expect(result.ok).toBe(false);
     if (result.ok) return;
     expect((result.error.details?.missing ?? []) as string[]).toContain("object:Q");
+  });
+
+  it("rejects structured theme-first artifacts after the audio input changes", async () => {
+    await seedComplete(store, PROJECT.projectId);
+    await store.write(
+      { projectId: PROJECT.projectId, relativePath: "authoring/mapping.json" },
+      Buffer.from(JSON.stringify(LOCKED_MAPPING)),
+    );
+    await store.write(
+      { projectId: PROJECT.projectId, relativePath: "authoring/song-script.json" },
+      Buffer.from(JSON.stringify({
+        version: 1,
+        mappingRevision: 1,
+        lines: [
+          {
+            id: "r1-A",
+            text: "A is for Object A",
+            targetId: "A",
+            objective: "lexical-semantic",
+            objectReveal: "line-start",
+          },
+        ],
+      })),
+    );
+    for (const letter of LETTERS) {
+      await store.write(
+        { projectId: PROJECT.projectId, relativePath: `assets/objects/${letter}.png` },
+        Buffer.from(`object-${letter}`),
+      );
+    }
+    const audioHash = createHash("sha256").update(Buffer.from("au")).digest("hex");
+    await store.write(
+      { projectId: PROJECT.projectId, relativePath: "artifacts/lyrics.json" },
+      Buffer.from(JSON.stringify({
+        version: 1,
+        source: "original+transcriber",
+        lines: [
+          {
+            start: 0,
+            end: 1,
+            text: "A is for Object A",
+            line1: "A is for Object A",
+            line2: "",
+            id: "r1-A",
+            targetId: "A",
+            objective: "lexical-semantic",
+            letter: "A",
+            object: "Object A",
+            objectRevealAt: 0,
+            alignmentConfidence: 1,
+          },
+        ],
+        alignment: {
+          mode: "canonical-order",
+          status: "clean",
+          canonicalLineCount: 1,
+          segmentCount: 1,
+          averageTextSimilarity: 1,
+        },
+        provenance: {
+          audioSha256: audioHash,
+          mappingRevision: 1,
+          songScriptMappingRevision: 1,
+        },
+      })),
+    );
+    await store.write(
+      { projectId: PROJECT.projectId, relativePath: "artifacts/audio-analysis.json" },
+      Buffer.from(JSON.stringify({
+        version: 1,
+        duration: 1,
+        interval: 0.04,
+        sampleRate: 48000,
+        rms: [],
+        bass: [],
+        bands: [],
+        bandCount: 0,
+        beats: [],
+        provenance: { audioSha256: audioHash },
+      })),
+    );
+
+    const first = await buildConfig(PROJECT.projectId, store, PROJECT);
+    expect(first.ok).toBe(true);
+
+    await store.write(
+      { projectId: PROJECT.projectId, relativePath: "assets/audio.mp3" },
+      Buffer.from("changed-audio"),
+    );
+    const stale = await buildConfig(PROJECT.projectId, store, PROJECT);
+    expect(stale.ok).toBe(false);
+    if (!stale.ok) {
+      expect(stale.error.code).toBe("PRECONDITION_FAILED");
+      expect(stale.error.message).toContain("stale");
+    }
   });
 
   it("selects the portrait template for portrait projects (Req 7.3)", async () => {

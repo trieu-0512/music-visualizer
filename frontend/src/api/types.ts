@@ -51,6 +51,8 @@ export interface AssetUploadResult {
 }
 
 /** Response of `GET /projects/:id/readiness` (Req 2.8). */
+export type ReadinessStage = "ready" | "blocked" | "not-applicable";
+
 export interface ReadinessReport {
   projectId: string;
   /** True when every required role has a stored file. */
@@ -59,6 +61,13 @@ export interface ReadinessReport {
   present: string[];
   /** Required roles with no stored file. */
   missing: string[];
+  stages?: {
+    prepareAssets: ReadinessStage;
+    transcribe: ReadinessStage;
+    analyze: ReadinessStage;
+    buildConfig: ReadinessStage;
+    render: ReadinessStage;
+  };
 }
 
 /**
@@ -70,6 +79,7 @@ export const ARTIFACT_NAMES = [
   "lyrics.srt",
   "whisperx.json",
   "audio-analysis.json",
+  "asset-prep-report.json",
   "project-config.json",
   "final-16x9-fullhd-60fps.mp4",
   "final-9x16-fullhd-60fps.mp4",

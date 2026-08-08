@@ -35,6 +35,19 @@ export function ReadinessDisplay({ readiness, loading }: ReadinessDisplayProps):
           : `Missing ${readiness.missing.length} required asset role(s).`}
       </p>
 
+      {readiness.stages && (
+        <section aria-labelledby="pipeline-readiness-heading">
+          <h4 id="pipeline-readiness-heading">Pipeline stages</h4>
+          <ul aria-label="Pipeline stage readiness">
+            {Object.entries(readiness.stages).map(([stage, status]) => (
+              <li key={stage} data-stage={stage} data-status={status}>
+                <strong>{stage}</strong>: {status}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <div className="readiness-columns">
         <section aria-labelledby="present-heading">
           <h4 id="present-heading">Present ({readiness.present.length})</h4>

@@ -3,9 +3,11 @@
   "description": "Theme-first A-Z mapping used as the canonical authoring source for lyric, image prompts, alignment metadata and object assets.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["version", "theme", "letters"],
+  "required": ["version", "revision", "state", "theme", "letters"],
   "properties": {
     "version": { "const": 1 },
+    "revision": { "type": "integer", "minimum": 1 },
+    "state": { "const": "LOCKED" },
     "theme": {
       "type": "object",
       "additionalProperties": false,
@@ -13,7 +15,7 @@
       "properties": {
         "name": { "type": "string", "minLength": 1 },
         "scope": { "enum": ["strict", "guided", "open"] },
-        "mappingAuthority": { "enum": ["user-locked", "project-locked", "generated"] },
+        "mappingAuthority": { "enum": ["user-locked", "project-locked"] },
         "ageBand": { "enum": ["2-3", "4-6", "mixed-2-6"] },
         "mode": { "enum": ["LETTER_NAME", "PHONICS"] }
       }

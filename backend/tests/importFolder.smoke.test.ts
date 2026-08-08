@@ -104,6 +104,7 @@ describe("folder import endpoint", () => {
     expect(res.body.config).toBeNull();
     expect(res.body.readiness.ready).toBe(false);
     expect(res.body.readiness.present).toContain("learningMap");
+    expect(res.body.readiness.stages.prepareAssets).toBe("ready");
     expect(res.body.readiness.missing).toContain("letter:A");
     expect(res.body.readiness.missing).toContain("object:A");
     expect(
@@ -114,6 +115,9 @@ describe("folder import endpoint", () => {
     ).toBe(true);
     expect(
       await store.exists({ projectId: "p_imported", relativePath: "authoring/display-lyrics.txt" }),
+    ).toBe(true);
+    expect(
+      await store.exists({ projectId: "p_imported", relativePath: "authoring/song-script.json" }),
     ).toBe(true);
     expect(
       await store.exists({ projectId: "p_imported", relativePath: "assets/original-lyrics.txt" }),
@@ -260,6 +264,8 @@ function attachDirectFolder(req: Test): Test {
 function attachThemeFirstRawFolder(req: Test): Test {
   const mapping = {
     version: 1,
+    revision: 1,
+    state: "LOCKED",
     theme: {
       name: "Theme First Test",
       scope: "guided",
@@ -275,6 +281,23 @@ function attachThemeFirstRawFolder(req: Test): Test {
     { path: "theme-song/assets/song-logo.svg", data: "<svg/>", contentType: "image/svg+xml" },
     { path: "theme-song/assets/channel-logo.svg", data: "<svg/>", contentType: "image/svg+xml" },
     { path: "theme-song/authoring/mapping.json", data: JSON.stringify(mapping), contentType: "application/json" },
+    {
+      path: "theme-song/authoring/song-script.json",
+      data: JSON.stringify({
+        version: 1,
+        mappingRevision: 1,
+        lines: [
+          {
+            id: "r1-A",
+            text: "A is for Object A",
+            targetId: "A",
+            objective: "lexical-semantic",
+            objectReveal: "line-start",
+          },
+        ],
+      }),
+      contentType: "application/json",
+    },
     { path: "theme-song/authoring/display-lyrics.txt", data: "A is for Object A", contentType: "text/plain" },
     ...LETTERS.map((letter) => ({
       path: `theme-song/assets/source-images/${letter}_object-${letter}.png`,

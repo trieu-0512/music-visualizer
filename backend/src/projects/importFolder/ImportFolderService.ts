@@ -3,8 +3,10 @@ import {
   validateAudioAnalysis,
   validateLyrics,
   validateLearningMap,
+  validateSongScript,
   type AudioAnalysisJson,
   type LearningMapJson,
+  type SongScriptJson,
   type LyricsJson,
   type VideoFormat,
 } from "@music-visualizer/shared";
@@ -58,6 +60,20 @@ export class ImportFolderService {
           "authoring/mapping.json",
         )
       : null;
+
+    const songScriptFile = folder.authoringFiles.get("authoring/song-script.json");
+    const songScript = songScriptFile
+      ? parseArtifact<SongScriptJson>(songScriptFile, validateSongScript, "authoring/song-script.json")
+      : null;
+    if (songScript && !mapping) {
+      throw validationError("authoring/song-script.json requires canonical authoring/mapping.json");
+    }
+    if (songScript && mapping && songScript.mappingRevision !== mapping.revision) {
+      throw validationError("authoring/song-script.json mappingRevision must match mapping.json revision", {
+        mappingRevision: mapping.revision,
+        scriptRevision: songScript.mappingRevision,
+      });
+    }
 
     const importedMetadata = folder.metadataFile
       ? parseMetadataFile(folder.metadataFile)

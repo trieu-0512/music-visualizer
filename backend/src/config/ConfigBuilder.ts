@@ -1,4 +1,5 @@
 import { Buffer } from "node:buffer";
+import { createHash } from "node:crypto";
 import type {
   AssetPaths,
   LayoutDefinition,
@@ -6,7 +7,14 @@ import type {
   Result,
   VideoFormat,
 } from "@music-visualizer/shared";
-import { err, ok } from "@music-visualizer/shared";
+import {
+  err,
+  ok,
+  validateLearningMap,
+  validateLyrics,
+  validateAudioAnalysis,
+  validateSongScript,
+} from "@music-visualizer/shared";
 import type { AssetRef, AssetStore } from "../storage/index.js";
 import type { ProjectRecord } from "../projects/index.js";
 import { ApiError } from "../http/errors.js";
@@ -59,6 +67,7 @@ const ASSETS_PREFIX = "assets/";
 const LETTERS_PREFIX = "assets/letters/";
 const OBJECTS_PREFIX = "assets/objects/";
 const LEARNING_MAP_PATH = "authoring/mapping.json";
+const SONG_SCRIPT_PATH = "authoring/song-script.json";
 /** Standardized location of the generated config artifact. */
 const CONFIG_PATH = "artifacts/project-config.json";
 
@@ -87,6 +96,7 @@ export async function buildConfig(
   const letterAssets = indexKeyedAssets(assetPaths, LETTERS_PREFIX);
   const objectAssets = indexKeyedAssets(assetPaths, OBJECTS_PREFIX);
   const hasLearningMap = await store.exists({ projectId, relativePath: LEARNING_MAP_PATH });
+  const hasSongScript = await store.exists({ projectId, relativePath: SONG_SCRIPT_PATH });
 
   const missing: string[] = [];
   for (const role of REQUIRED_ASSETS) {
@@ -109,6 +119,83 @@ export async function buildConfig(
         missing,
       }),
     );
+  }
+
+  if (hasLearningMap) {
+    const mappingRaw = JSON.parse((await store.read({ projectId, relativePath: LEARNING_MAP_PATH })).toString("utf-8"));
+    const mappingResult = validateLearningMap(mappingRaw);
+    if (!mappingResult.ok) {
+      return err(new ApiError(
+        "PRECONDITION_FAILED",
+        "Cannot build config: canonical mapping is not LOCKED/schema-valid",
+        { errors: mappingResult.error },
+      ));
+    }
+
+    if (hasSongScript) {
+      const scriptRaw = JSON.parse((await store.read({ projectId, relativePath: SONG_SCRIPT_PATH })).toString("utf-8"));
+      const scriptResult = validateSongScript(scriptRaw);
+      if (!scriptResult.ok) {
+        return err(new ApiError(
+          "PRECONDITION_FAILED",
+          "Cannot build config: song-script.json is invalid",
+          { errors: scriptResult.error },
+        ));
+      }
+      if (scriptResult.value.mappingRevision !== mappingResult.value.revision) {
+        return err(new ApiError(
+          "PRECONDITION_FAILED",
+          "Cannot build config: song-script mapping revision is stale",
+          { mappingRevision: mappingResult.value.revision, scriptRevision: scriptResult.value.mappingRevision },
+        ));
+      }
+
+      const lyricsRaw = JSON.parse((await store.read({ projectId, relativePath: REQUIRED_ARTIFACTS[0] })).toString("utf-8"));
+      const lyricsResult = validateLyrics(lyricsRaw);
+      if (!lyricsResult.ok) {
+        return err(new ApiError("PRECONDITION_FAILED", "Cannot build config: lyrics.json is invalid", { errors: lyricsResult.error }));
+      }
+      if (lyricsResult.value.alignment?.status !== "clean") {
+        return err(new ApiError(
+          "PRECONDITION_FAILED",
+          "Cannot build config: structured song alignment requires review before render",
+          { alignment: lyricsResult.value.alignment ?? null },
+        ));
+      }
+      if (
+        lyricsResult.value.provenance?.mappingRevision !== mappingResult.value.revision ||
+        lyricsResult.value.provenance?.songScriptMappingRevision !== scriptResult.value.mappingRevision
+      ) {
+        return err(new ApiError(
+          "PRECONDITION_FAILED",
+          "Cannot build config: lyrics provenance is stale relative to mapping/song-script",
+          { provenance: lyricsResult.value.provenance ?? null },
+        ));
+      }
+
+      const analysisRaw = JSON.parse((await store.read({ projectId, relativePath: REQUIRED_ARTIFACTS[1] })).toString("utf-8"));
+      const analysisResult = validateAudioAnalysis(analysisRaw);
+      if (!analysisResult.ok) {
+        return err(new ApiError("PRECONDITION_FAILED", "Cannot build config: audio-analysis.json is invalid", { errors: analysisResult.error }));
+      }
+      const audioPath = topLevelAssets.get(ASSET_FILE_STEMS.audio)!;
+      const currentAudioHash = createHash("sha256")
+        .update(await store.read({ projectId, relativePath: audioPath }))
+        .digest("hex");
+      if (
+        lyricsResult.value.provenance?.audioSha256 !== currentAudioHash ||
+        analysisResult.value.provenance?.audioSha256 !== currentAudioHash
+      ) {
+        return err(new ApiError(
+          "PRECONDITION_FAILED",
+          "Cannot build config: audio-derived artifacts are stale for the current audio asset",
+          {
+            lyricsAudioSha256: lyricsResult.value.provenance?.audioSha256 ?? null,
+            analysisAudioSha256: analysisResult.value.provenance?.audioSha256 ?? null,
+          },
+        ));
+      }
+    }
   }
 
   const config: ProjectConfigJson = {

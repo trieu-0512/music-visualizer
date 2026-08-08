@@ -24,6 +24,7 @@ describe("shared artifact schemas (Req 15.4)", () => {
       "learningMap",
       "lyrics",
       "projectConfig",
+      "songScript",
     ]);
     for (const schema of Object.values(SCHEMAS)) {
       expect(schema).toHaveProperty("type", "object");
@@ -53,7 +54,7 @@ describe("shared artifact schemas (Req 15.4)", () => {
   });
 
   it("learning-map schema locks theme context and A-Z entries", () => {
-    expect(learningMapSchema.required).toEqual(["version", "theme", "letters"]);
+    expect(learningMapSchema.required).toEqual(["version", "revision", "state", "theme", "letters"]);
     expect((learningMapSchema as any).properties.letters.required).toHaveLength(26);
   });
 
@@ -93,6 +94,8 @@ describe("shared artifact schemas (Req 15.4)", () => {
     };
     const mapping: LearningMapJson = {
       version: 1,
+      revision: 1,
+      state: "LOCKED",
       theme: {
         name: "General ABC",
         scope: "open",

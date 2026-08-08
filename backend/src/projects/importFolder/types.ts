@@ -18,6 +18,13 @@ export interface FolderImportResult {
     ready: boolean;
     present: string[];
     missing: string[];
+    stages: {
+      prepareAssets: "ready" | "blocked" | "not-applicable";
+      transcribe: "ready" | "blocked" | "not-applicable";
+      analyze: "ready" | "blocked" | "not-applicable";
+      buildConfig: "ready" | "blocked" | "not-applicable";
+      render: "ready" | "blocked" | "not-applicable";
+    };
   };
   config: ProjectConfigJson | null;
   artifacts: ArtifactName[];

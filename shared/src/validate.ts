@@ -1,11 +1,6 @@
 /**
- * Artifact validators — one per canonical artifact — built directly from the
- * JSON Schemas in `shared/src/schema/` so the schemas remain the single source
- * of truth shared with the Python Audio_Worker (Req 15.4).
- *
- * Each validator returns a {@link Result} carrying either the typed, validated
- * artifact or a list of structured {@link ValidationError}s, so callers can
- * handle malformed artifacts without exception handling.
+ * Artifact validators built directly from the canonical JSON Schemas in
+ * shared/src/schema so Node/browser and Python workers share one contract.
  */
 import Ajv from "ajv";
 import type { ErrorObject, ValidateFunction } from "ajv";
@@ -16,30 +11,21 @@ import {
   lyricsSchema,
   projectConfigSchema,
   learningMapSchema,
+  songScriptSchema,
 } from "./schema/objects.js";
 import type {
   AudioAnalysisJson,
   LyricsJson,
   ProjectConfigJson,
   LearningMapJson,
+  SongScriptJson,
 } from "./types/index.js";
 
-/** A single structured validation failure. */
 export interface ValidationError {
-  /**
-   * JSON Pointer to the offending value within the validated data
-   * (e.g. `"/lines/0/start"`); `"/"` denotes the root document.
-   */
   path: string;
-  /** Human-readable description of why the value is invalid. */
   message: string;
 }
 
-/**
- * Shared Ajv instance. `strict` is disabled because the schemas use keywords
- * (`$defs`, `const`, `propertyNames`) intended to stay portable to the Python
- * validator; `allErrors` lets a single call report every problem at once.
- */
 const ajv = new Ajv({ allErrors: true, strict: false });
 
 const validateLyricsSchema: ValidateFunction<LyricsJson> =
@@ -50,8 +36,9 @@ const validateProjectConfigSchema: ValidateFunction<ProjectConfigJson> =
   ajv.compile<ProjectConfigJson>(projectConfigSchema);
 const validateLearningMapSchema: ValidateFunction<LearningMapJson> =
   ajv.compile<LearningMapJson>(learningMapSchema);
+const validateSongScriptSchema: ValidateFunction<SongScriptJson> =
+  ajv.compile<SongScriptJson>(songScriptSchema);
 
-/** Convert raw Ajv errors into structured {@link ValidationError}s. */
 function toValidationErrors(
   errors: ErrorObject[] | null | undefined,
 ): ValidationError[] {
@@ -61,11 +48,9 @@ function toValidationErrors(
   return errors.map((error) => {
     const path = error.instancePath === "" ? "/" : error.instancePath;
     let message = error.message ?? "is invalid";
-    // Surface the most useful parameter for the common keyword failures.
     if (
       error.keyword === "additionalProperties" &&
-      typeof (error.params as { additionalProperty?: unknown })
-        .additionalProperty === "string"
+      typeof (error.params as { additionalProperty?: unknown }).additionalProperty === "string"
     ) {
       message += ` '${(error.params as { additionalProperty: string }).additionalProperty}'`;
     } else if (
@@ -78,50 +63,42 @@ function toValidationErrors(
   });
 }
 
-/** Run a compiled validator and wrap the outcome in a {@link Result}. */
 function runValidator<T>(
   validate: ValidateFunction<T>,
   data: unknown,
 ): Result<T, ValidationError[]> {
-  if (validate(data)) {
-    return ok(data);
-  }
+  if (validate(data)) return ok(data);
   return err(toValidationErrors(validate.errors));
 }
 
-/**
- * Validate an unknown value as a {@link LyricsJson} artifact (Req 15.4).
- * @returns the typed artifact on success, otherwise the structured errors.
- */
 export function validateLyrics(
   data: unknown,
 ): Result<LyricsJson, ValidationError[]> {
   return runValidator(validateLyricsSchema, data);
 }
 
-/**
- * Validate an unknown value as an {@link AudioAnalysisJson} artifact (Req 15.4).
- * @returns the typed artifact on success, otherwise the structured errors.
- */
 export function validateAudioAnalysis(
   data: unknown,
 ): Result<AudioAnalysisJson, ValidationError[]> {
   return runValidator(validateAudioAnalysisSchema, data);
 }
 
-/**
- * Validate an unknown value as a {@link ProjectConfigJson} artifact (Req 15.4).
- * @returns the typed artifact on success, otherwise the structured errors.
- */
 export function validateProjectConfig(
   data: unknown,
 ): Result<ProjectConfigJson, ValidationError[]> {
   return runValidator(validateProjectConfigSchema, data);
 }
 
-/** Validate the canonical theme-first A-Z authoring map. */
+/** Canonical mapping.json is production-authoritative only after LOCKED. */
 export function validateLearningMap(
   data: unknown,
 ): Result<LearningMapJson, ValidationError[]> {
   return runValidator(validateLearningMapSchema, data);
+}
+
+/** Structured authoring script used by alignment and visual reveal timing. */
+export function validateSongScript(
+  data: unknown,
+): Result<SongScriptJson, ValidationError[]> {
+  return runValidator(validateSongScriptSchema, data);
 }

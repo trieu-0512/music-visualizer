@@ -33,7 +33,9 @@ series lengths equal ``round(duration / interval)``; every ``bands[i]`` has
 
 from __future__ import annotations
 
+import hashlib
 import os
+from pathlib import Path
 from typing import TYPE_CHECKING, Any, Sequence
 
 import numpy as np
@@ -248,6 +250,7 @@ def handle_analyze(job: "Job", store: "AssetStore") -> list[str]:
     import librosa  # lazy: avoid importing the heavy decoder until a job runs
 
     audio_path = store.read_to_temp(job.project_id, "assets/audio")
+    audio_sha256 = hashlib.sha256(Path(audio_path).read_bytes()).hexdigest()
     try:
         y, sr = librosa.load(audio_path, sr=None, mono=True)  # FFmpeg-backed decode
     finally:
@@ -257,6 +260,7 @@ def handle_analyze(job: "Job", store: "AssetStore") -> list[str]:
             pass
 
     analysis = analyze_signal(y, int(sr))
+    analysis["provenance"] = {"audioSha256": audio_sha256}
     # Production schema gate (PR-10): fail the job before mark_completed.
     from src.validate_artifacts import validate_audio_analysis_payload
 

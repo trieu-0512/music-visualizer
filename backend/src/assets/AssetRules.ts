@@ -82,6 +82,8 @@ export interface UploadedFile {
 }
 
 /** Readiness report for a project (Req 2.8). */
+export type ReadinessStage = "ready" | "blocked" | "not-applicable";
+
 export interface ReadinessReport {
   projectId: string;
   /** True when every required role has a stored file. */
@@ -90,6 +92,14 @@ export interface ReadinessReport {
   present: string[];
   /** Required roles with no stored file. */
   missing: string[];
+  /** Stage-aware readiness for theme-first and legacy workflows. */
+  stages: {
+    prepareAssets: ReadinessStage;
+    transcribe: ReadinessStage;
+    analyze: ReadinessStage;
+    buildConfig: ReadinessStage;
+    render: ReadinessStage;
+  };
 }
 
 /**
@@ -257,5 +267,33 @@ export async function computeReadiness(
     }
   }
   if (hasLearningMap) present.push("learningMap");
-  return { projectId, ready: missing.length === 0, present, missing };
+
+  const hasAudio = present.includes("audio");
+  const prepareInputsReady = hasLearningMap && LETTERS.every((letter) => {
+    const hasProcessedPair =
+      candidatePaths(`letter:${letter}`).some((path) => stored.has(path)) &&
+      candidatePaths(`object:${letter}`).some((path) => stored.has(path));
+    const hasSource = candidatePaths(`source:${letter}`).some((path) => stored.has(path));
+    return hasProcessedPair || hasSource;
+  });
+  const renderAssetsReady = missing.length === 0;
+  const [hasLyrics, hasAnalysis, hasConfig] = await Promise.all([
+    store.exists({ projectId, relativePath: "artifacts/lyrics.json" }),
+    store.exists({ projectId, relativePath: "artifacts/audio-analysis.json" }),
+    store.exists({ projectId, relativePath: "artifacts/project-config.json" }),
+  ]);
+
+  return {
+    projectId,
+    ready: renderAssetsReady,
+    present,
+    missing,
+    stages: {
+      prepareAssets: hasLearningMap ? (prepareInputsReady ? "ready" : "blocked") : "not-applicable",
+      transcribe: hasAudio ? "ready" : "blocked",
+      analyze: hasAudio ? "ready" : "blocked",
+      buildConfig: renderAssetsReady && hasLyrics && hasAnalysis ? "ready" : "blocked",
+      render: hasConfig ? "ready" : "blocked",
+    },
+  };
 }

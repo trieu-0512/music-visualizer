@@ -150,15 +150,19 @@ def test_build_lyrics_omits_words_when_count_mismatch() -> None:
     assert "words" not in line
 
 
-def test_align_text_to_timing_handles_count_mismatch() -> None:
-    # pair_by_order is robust: pairs as many as both sides provide.
+def test_align_text_to_timing_rejects_count_mismatch() -> None:
+    # V2 fails closed instead of silently truncating canonical lines or ASR segments.
+    from src.align import AlignmentMismatchError
+
     segments = [
         {"start": 0.0, "end": 1.0, "text": "a"},
         {"start": 1.0, "end": 2.0, "text": "b"},
     ]
-    out = align_text_to_timing(["only one"], segments)
-    assert len(out) == 1
-    assert out[0]["text"] == "only one"
+    try:
+        align_text_to_timing(["only one"], segments)
+        raise AssertionError("expected mismatch to fail")
+    except AlignmentMismatchError as exc:
+        assert "refusing positional truncation" in str(exc)
 
 
 def test_build_lyrics_empty_segments() -> None:
@@ -166,6 +170,12 @@ def test_build_lyrics_empty_segments() -> None:
         "version": 1,
         "source": "transcriber",
         "lines": [],
+        "alignment": {
+            "mode": "asr-only",
+            "status": "clean",
+            "canonicalLineCount": 0,
+            "segmentCount": 0,
+        },
     }
     assert build_lyrics({}, None)["lines"] == []
 
@@ -176,6 +186,80 @@ def test_split_two_lines_examples() -> None:
     assert split_two_lines("one two") == ("one", "two")
     assert split_two_lines("a b c") == ("a b", "c")
     assert split_two_lines("a b c d") == ("a b", "c d")
+
+
+def test_song_script_controls_target_identity_and_retrieval_object_reveal() -> None:
+    mapping = {
+        "revision": 2,
+        "letters": {"A": {"object": "Apple"}},
+    }
+    script = {
+        "version": 1,
+        "mappingRevision": 2,
+        "lines": [
+            {
+                "id": "r2-A",
+                "text": "A ... apple! Crunch a bite.",
+                "targetId": "A",
+                "objective": "retrieval-action",
+                "objectReveal": "target-word",
+            }
+        ],
+    }
+    raw = {
+        "segments": [
+            {
+                "start": 10.0,
+                "end": 13.0,
+                "text": "A apple crunch a bite",
+                "words": [
+                    {"text": "A", "start": 10.0, "end": 10.2},
+                    {"text": "apple", "start": 10.9, "end": 11.3},
+                    {"text": "crunch", "start": 11.4, "end": 11.8},
+                    {"text": "a", "start": 11.9, "end": 12.0},
+                    {"text": "bite", "start": 12.1, "end": 12.5},
+                ],
+            }
+        ]
+    }
+
+    result = build_lyrics(raw, None, mapping, script)
+    line = result["lines"][0]
+    assert line["id"] == "r2-A"
+    assert line["targetId"] == "A"
+    assert line["letter"] == "A"
+    assert line["object"] == "Apple"
+    assert line["objective"] == "retrieval-action"
+    assert line["objectRevealAt"] == 10.9
+    assert result["alignment"]["status"] == "clean"
+
+
+def test_song_script_rejects_stale_mapping_revision() -> None:
+    from src.align import AlignmentMismatchError
+
+    mapping = {"revision": 2, "letters": {"A": {"object": "Apple"}}}
+    script = {
+        "version": 1,
+        "mappingRevision": 1,
+        "lines": [
+            {
+                "id": "A1",
+                "text": "A is for apple",
+                "targetId": "A",
+                "objective": "lexical-semantic",
+            }
+        ],
+    }
+    try:
+        build_lyrics(
+            {"segments": [{"start": 0, "end": 1, "text": "A is for apple"}]},
+            None,
+            mapping,
+            script,
+        )
+        raise AssertionError("expected stale script to fail")
+    except AlignmentMismatchError as exc:
+        assert "mappingRevision" in str(exc)
 
 
 def test_pick_letter_examples() -> None:
@@ -208,10 +292,14 @@ def test_clamp_words_orders_and_bounds() -> None:
         assert 0.0 <= w["start"] <= w["end"] <= 2.0
 
 
-def test_pair_by_order_zips_to_shortest() -> None:
-    assert pair_by_order(["x", "y", "z"], [{"start": 0, "end": 1, "text": "t"}]) == [
-        ("x", {"start": 0, "end": 1, "text": "t"})
-    ]
+def test_pair_by_order_requires_equal_counts() -> None:
+    from src.align import AlignmentMismatchError
+
+    try:
+        pair_by_order(["x", "y", "z"], [{"start": 0, "end": 1, "text": "t"}])
+        raise AssertionError("expected mismatch to fail")
+    except AlignmentMismatchError:
+        pass
 
 
 def test_seg_to_line_keeps_segment_text() -> None:

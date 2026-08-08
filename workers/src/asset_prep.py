@@ -1,11 +1,13 @@
-"""Theme-first A-Z asset preparation with a pluggable segmentation adapter.
+"""Theme-first composite-image preparation with pluggable segmentation.
 
-If processed ``assets/letters/{A-Z}.*`` and ``assets/objects/{A-Z}.*`` already
-exist, this handler is idempotent and does no model work. Otherwise it consumes
-``assets/source-images/{A-Z}.*`` and invokes an external segmentation command.
+Source images are extraction-only composites. The final renderer consumes the
+separate video background plus transparent letter/object foreground assets.
+This stage is idempotent, supports target-level forced reruns, and writes a
+provenance/QC report for every A-Z target.
 """
 from __future__ import annotations
 
+import hashlib
 import os
 import shlex
 import subprocess
@@ -19,9 +21,11 @@ from src.validate_artifacts import validate_learning_map_payload
 
 LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 MAPPING_PATH = "authoring/mapping.json"
+REPORT_PATH = "artifacts/asset-prep-report.json"
 LETTER_EXTS = (".png", ".webp", ".svg")
 OBJECT_EXTS = (".png", ".webp", ".svg")
 SOURCE_EXTS = (".png", ".jpg", ".jpeg", ".webp")
+PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
 
 Segmenter = Callable[[str, str, str], tuple[bytes, bytes]]
 
@@ -32,6 +36,26 @@ def _first_existing(store: AssetStore, project_id: str, stem: str, exts: tuple[s
         if store.exists(project_id, rel):
             return rel
     return None
+
+
+def _sha256(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def _asset_record(store: AssetStore, project_id: str, relative_path: str | None) -> dict | None:
+    if relative_path is None:
+        return None
+    data = store.read_bytes(project_id, relative_path)
+    return {
+        "path": relative_path,
+        "sha256": _sha256(data),
+        "bytes": len(data),
+    }
+
+
+def _validate_generated_png(data: bytes, label: str) -> None:
+    if len(data) <= len(PNG_SIGNATURE) or not data.startswith(PNG_SIGNATURE):
+        raise RuntimeError(f"{label}: segmentation output is not a non-empty PNG")
 
 
 def _run_external_segmenter(source_path: str, letter: str, object_name: str) -> tuple[bytes, bytes]:
@@ -59,46 +83,101 @@ def _run_external_segmenter(source_path: str, letter: str, object_name: str) -> 
         return letter_path.read_bytes(), object_path.read_bytes()
 
 
+def _requested_letters(job: Job) -> tuple[str, bool]:
+    target = job.params.get("target") if isinstance(job.params, dict) else None
+    force = bool(job.params.get("force", False)) if isinstance(job.params, dict) else False
+    if target is None:
+        return LETTERS, force
+    key = str(target).strip().upper()
+    if key not in LETTERS or len(key) != 1:
+        raise RuntimeError("prepare-assets params.target must be one A-Z letter")
+    return key, force
+
+
+def _load_existing_report(store: AssetStore, project_id: str, mapping_revision: int) -> dict:
+    try:
+        report = store.read_json(project_id, REPORT_PATH)
+    except FileNotFoundError:
+        report = None
+    if (
+        isinstance(report, dict)
+        and report.get("version") == 1
+        and report.get("mappingRevision") == mapping_revision
+        and isinstance(report.get("targets"), dict)
+    ):
+        return report
+    return {"version": 1, "mappingRevision": mapping_revision, "targets": {}}
+
+
 def handle_prepare_assets(
     job: Job,
     store: AssetStore,
     *,
     run_segmenter: Segmenter | None = None,
 ) -> list[str]:
-    """Ensure every mapped letter has processed letter + object assets."""
+    """Ensure mapped source composites become QC-tracked letter + object foregrounds."""
     try:
         mapping = store.read_json(job.project_id, MAPPING_PATH)
     except Exception as exc:
-        raise RuntimeError("prepare-assets requires authoring/mapping.json") from exc
+        raise RuntimeError("prepare-assets requires canonical LOCKED authoring/mapping.json") from exc
     if not isinstance(mapping, dict):
         raise RuntimeError("authoring/mapping.json must be a JSON object")
     validate_learning_map_payload(mapping)
 
     runner = run_segmenter or _run_external_segmenter
+    selected, force = _requested_letters(job)
     produced: list[str] = []
     entries = mapping["letters"]
-    for letter in LETTERS:
+    mapping_revision = int(mapping["revision"])
+    report = _load_existing_report(store, job.project_id, mapping_revision)
+    targets = report["targets"]
+
+    for letter in selected:
         letter_existing = _first_existing(store, job.project_id, f"assets/letters/{letter}", LETTER_EXTS)
         object_existing = _first_existing(store, job.project_id, f"assets/objects/{letter}", OBJECT_EXTS)
-        if letter_existing and object_existing:
-            continue
-
         source_rel = _first_existing(store, job.project_id, f"assets/source-images/{letter}", SOURCE_EXTS)
-        if source_rel is None:
-            raise RuntimeError(
-                f"{letter}: missing processed asset(s) and no raw source image under assets/source-images/{letter}.*"
-            )
-        source_path = store.resolve_url(job.project_id, source_rel)
         object_name = str(entries[letter]["object"])
-        letter_bytes, object_bytes = runner(source_path, letter, object_name)
 
-        if not letter_existing:
+        generated = force or not (letter_existing and object_existing)
+        if generated:
+            if source_rel is None:
+                raise RuntimeError(
+                    f"{letter}: segmentation requested but no source composite exists under assets/source-images/{letter}.*"
+                )
+            source_path = store.resolve_url(job.project_id, source_rel)
+            letter_bytes, object_bytes = runner(source_path, letter, object_name)
+            _validate_generated_png(letter_bytes, f"{letter} letter")
+            _validate_generated_png(object_bytes, f"{letter} object")
+
             letter_rel = f"assets/letters/{letter}.png"
-            store.write_bytes(job.project_id, letter_rel, letter_bytes)
-            produced.append(letter_rel)
-        if not object_existing:
             object_rel = f"assets/objects/{letter}.png"
+            store.write_bytes(job.project_id, letter_rel, letter_bytes)
             store.write_bytes(job.project_id, object_rel, object_bytes)
-            produced.append(object_rel)
+            produced.extend([letter_rel, object_rel])
+            letter_existing = letter_rel
+            object_existing = object_rel
+            status = "generated"
+        else:
+            status = "reused"
 
+        targets[letter] = {
+            "object": object_name,
+            "status": status,
+            "source": _asset_record(store, job.project_id, source_rel),
+            "letter": _asset_record(store, job.project_id, letter_existing),
+            "objectAsset": _asset_record(store, job.project_id, object_existing),
+            "qc": {
+                "outputsPresent": bool(letter_existing and object_existing),
+                "manualReviewRequired": False,
+            },
+        }
+
+    # A full pass is render-ready only when every target has a report entry and both outputs.
+    report["complete"] = all(
+        isinstance(targets.get(letter), dict)
+        and bool(targets[letter].get("qc", {}).get("outputsPresent"))
+        for letter in LETTERS
+    )
+    store.write_json(job.project_id, REPORT_PATH, report)
+    produced.append(REPORT_PATH)
     return produced

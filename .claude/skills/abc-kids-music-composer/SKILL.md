@@ -680,8 +680,9 @@ THEME
 -> A-Z MAPPING
 -> MAPPING LOCK
 -> LEARNING BLOCKS
+-> STRUCTURED SONG SCRIPT
 -> LYRICS + MUSIC PROMPT
--> OBJECT IMAGE PROMPTS
+-> SOURCE-COMPOSITE IMAGE PROMPTS
 -> HUMAN AUDIO/IMAGE GENERATION
 -> AUTOMATIC ASSET PREP / ALIGN / RENDER
 ```
@@ -700,7 +701,7 @@ Never use a lyric draft to decide the canonical object mapping. Never let image 
 5. Run the context-conditioned Mapping Quality Gate. Do not use a universal word leaderboard.
 6. Check A-Z completeness, theme coherence, age familiarity, imageability, actionability, pronunciation/stress risk, distinctiveness, and support cost.
 7. Output the proposed A-Z mapping + concise warnings/fallback rationale.
-8. **Do not write full lyrics or object image prompts yet.**
+8. **Do not write full lyrics or source-composite image prompts yet.**
 
 ### GATE G1 — Mapping Lock
 
@@ -710,7 +711,18 @@ The mapping state must be explicit:
 PROPOSED -> REVIEWED -> LOCKED
 ```
 
-Only a `LOCKED` mapping may become the canonical `authoring/mapping.json` source for downstream artifacts.
+Only a `LOCKED` mapping may become the canonical `authoring/mapping.json` source for downstream artifacts. A proposal is **not** `authoring/mapping.json`.
+
+Canonical runtime mapping metadata must include:
+
+```text
+version: 1
+revision: integer >= 1
+state: LOCKED
+mappingAuthority: user-locked / project-locked
+```
+
+`generated` may describe a proposal's origin, but it is not a valid production mapping authority until a human/project lock promotes it. Every mapping change after lock increments `revision`.
 
 If an object changes after lock, reopen G1 and treat the old lyrics/image prompts/manifests as stale. Regenerate or re-audit every dependent artifact that referenced the changed target.
 
@@ -727,29 +739,33 @@ If an object changes after lock, reopen G1 and treat the old lyrics/image prompt
 14. Draft Round 1 lexical-semantic phrases, stable hook/refrain, and Round 2 retrieval/action material when used.
 15. Run pronunciation, lexical-stress, prosody, homograph, sequence-boundary, rhyme-pocket, density and tempo passes.
 16. Define motif family, prosodic variants, participation/retrieval spaces and novelty budget.
-17. Produce:
+17. Produce a structured line contract alongside the provider/display views:
 
 ```text
+authoring/song-script.json
 authoring/generation-lyrics.txt
 authoring/display-lyrics.txt
 authoring/style-prompt.txt
 authoring/exclude-styles.txt (optional)
 ```
 
+`authoring/song-script.json` is the machine-readable line source: `mappingRevision` must equal the locked mapping revision; each line has a stable `id`, `text`, `objective`, and optional `targetId`. Retrieval lines normally declare `objectReveal: target-word`; lexical teaching normally uses `line-start`. `display-lyrics.txt` is a human/provider-friendly view, not the semantic database.
+
 All target objects must exactly follow the locked mapping.
 
-### PHASE 5 — Object Image Prompt Package
+### PHASE 5 — Source-Composite Image Prompt Package
 
-18. Generate one image prompt per canonical A-Z target from the locked mapping + Learning Block visual metadata, not by reverse-engineering the lyric.
-19. Keep visual identity consistent within the song theme while allowing theme-specific art direction across different songs.
-20. Produce a canonical `authoring/object-prompts.json`-style package keyed by A-Z.
-21. Prompt edits may change composition/style/action, but **must not change the canonical object identity** without reopening G1.
+18. Generate one prompt per canonical A-Z target from the locked mapping + Learning Block visual metadata, not by reverse-engineering the lyric.
+19. Each generated source image is an **extraction composite**: normally the stylized target letter plus its mapped object in the same art direction. Keep both complete, visually separable, non-overlapping when practical, with safe margins and no unrelated text/objects that make segmentation ambiguous.
+20. The generated source-image background is temporary extraction context, **not the final video background**. The final video background is a separate project/series asset composed later by Remotion.
+21. Produce a canonical `authoring/object-prompts.json` package keyed by A-Z. Its outputs are intended for `assets/source-images/{A-Z}.*`; segmentation produces transparent `assets/letters/{A-Z}.png` + `assets/objects/{A-Z}.png`.
+22. Prompt edits may change composition/style/action, but **must not change the canonical object identity** without reopening G1.
 
 ### GATE G2 — Human Generation Handoff
 
-22. Human uses generation lyrics/style prompt in Suno and selects the audio.
-23. Human uses object prompt pack in an image generator and selects A-Z source images.
-24. Human copies only the selected provider outputs into the prepared song folder:
+23. Human uses generation lyrics/style prompt in Suno and selects the audio.
+24. Human uses the source-composite prompt pack in an image generator and selects A-Z source images.
+25. Human copies only the selected provider outputs into the prepared song folder:
 
 ```text
 assets/audio.mp3|wav
@@ -760,13 +776,13 @@ The agent-authored package already contains `authoring/display-lyrics.txt`. Fold
 
 ### PHASE 6 — Automatic Project Pipeline
 
-25. Import song folder.
-26. `prepare-assets`: reuse manual processed cuts or invoke the configured segmentation adapter to produce `assets/letters/{A-Z}.*` + `assets/objects/{A-Z}.*`.
-27. `transcribe`: produce timed `lyrics.json`; enrich each learning line with canonical `letter` + `object` from mapping.
-28. `analyze`: produce audio analysis.
-29. Build config; mapping projects require processed A-Z objects in addition to letters.
-30. Render with Remotion using explicit timed learning identity.
-31. Run L1/audio/video QC before release claims.
+26. Import song folder.
+27. `prepare-assets`: reuse manual processed cuts or invoke the configured segmentation adapter to produce `assets/letters/{A-Z}.*` + `assets/objects/{A-Z}.*`; write `artifacts/asset-prep-report.json` with source/output hashes and per-target status. Use target-level forced rerun for a bad cut instead of regenerating A-Z.
+28. `transcribe`: use `song-script.json` when present; produce timed `lyrics.json` with stable line id, objective, target identity, alignment confidence, canonical object, and `objectRevealAt`. Never silently truncate canonical lines on ASR segment-count mismatch.
+29. `analyze`: produce audio analysis with current-audio provenance.
+30. Build config only when mapping/script revisions match, structured-song alignment is clean, and audio-derived artifact hashes match the current audio file.
+31. Render with Remotion: the cut letter foreground may appear at cue onset; in retrieval mode the cut object foreground and answer text appear only at `objectRevealAt`.
+32. Run L1/audio/video QC before release claims.
 
 ### Repair discipline
 
@@ -852,7 +868,7 @@ Z -> ...
 Mapping State: PROPOSED / REVIEWED / LOCKED
 ```
 
-Do not include full lyrics or A-Z image prompts while the generated mapping is still `PROPOSED`.
+Do not include full lyrics or A-Z source-composite image prompts while the generated mapping is still `PROPOSED`.
 
 ### Phase 3–5 output — only from a locked mapping
 
@@ -869,7 +885,7 @@ Lexical Novelty Tiers:
 Educational Goal:
 Theme:
 Theme Scope: strict / guided / open
-Mapping Authority: user-locked / project-locked / generated
+Mapping Authority: user-locked / project-locked
 Language / Locale:
 Mode: Letter Name / Phonics
 Tempo / Feel:
@@ -892,13 +908,16 @@ Novelty Budget:
 ## Section Manifest
 (compact when useful)
 
+## Structured Song Script
+(mappingRevision + stable line id / objective / targetId / objectReveal)
+
 ## Mapping Warnings
 (none or concise warnings)
 
-## Object Image Prompt Pack
-A -> prompt for the locked A object
+## Source-Composite Image Prompt Pack
+A -> prompt for stylized A + the locked A object, segmentation-friendly
 ...
-Z -> prompt for the locked Z object
+Z -> prompt for stylized Z + the locked Z object, segmentation-friendly
 
 ## Display Lyrics
 

@@ -346,7 +346,7 @@ THEME -> MAPPING -> LYRICS
 
 When the mapping is generated, finish mapping review **before** full lyric/image-prompt authoring. A downstream artifact may not silently substitute another object. If a locked mapping changes, mark dependent lyrics, image prompts and manifests stale and regenerate/re-audit them.
 
-Object image prompts are derived from the canonical mapping plus visual/action metadata. They are not derived by parsing whatever noun happens to rhyme in a lyric line.
+Source-composite image prompts are derived from the canonical mapping plus visual/action metadata. They are not derived by parsing whatever noun happens to rhyme in a lyric line. For the current video pipeline, each source composite normally contains the stylized target letter + mapped object for segmentation; its generated background is temporary extraction context, not the final Remotion background.
 
 ### Letter Difficulty Profile
 
@@ -1723,8 +1723,9 @@ When asked to create a project ABC/preschool educational song, preserve dependen
 ```text
 THEME -> A-Z MAPPING -> MAPPING LOCK
       -> LEARNING DESIGN
+      -> STRUCTURED SONG SCRIPT
       -> LYRICS / MUSIC PROMPT
-      -> OBJECT IMAGE PROMPTS
+      -> SOURCE-COMPOSITE IMAGE PROMPTS
       -> PROVIDER HANDOFF
       -> AUTOMATIC PROJECT PIPELINE
 ```
@@ -1756,9 +1757,10 @@ A locked mapping is the semantic source for every downstream artifact. Changing 
 12. Draft letter phrases from the locked mapping; never substitute a target to make rhyme easier.
 13. Design macro hook, micro-hook, motion cues, retrieval/turn-taking and motif family.
 14. Run semantic/rhyme, child-repeatability, prosody/stress, density/space, pronunciation/sequence and generation-reliability passes.
-15. Build generator-facing lyric/style package and clean display lyrics.
-16. Generate A-Z object image prompts from the locked mapping + visual/action metadata, not by parsing lyric nouns.
-17. Run L0 deterministic/heuristic QC and present the locked package.
+15. Build `authoring/song-script.json` with stable line ids, objectives, target ids and reveal policy; `mappingRevision` must match the locked mapping.
+16. Build generator-facing lyric/style package and clean display lyrics as views of the structured script.
+17. Generate A-Z source-composite prompts from the locked mapping + visual/action metadata. Each composite should keep stylized letter + mapped object segmentation-friendly; its generated background is not the final video background.
+18. Run L0 deterministic/heuristic QC and present the locked package.
 
 ## Stage C — Provider handoff + automatic processing
 
@@ -1850,10 +1852,10 @@ Melodic Direction:
 ## Mapping Quality / Warnings
 ...
 
-## Object Image Prompt Pack
-A -> prompt for locked A object
+## Source-Composite Image Prompt Pack
+A -> segmentation-friendly prompt for stylized A + locked A object
 ...
-Z -> prompt for locked Z object
+Z -> segmentation-friendly prompt for stylized Z + locked Z object
 
 ## Display Lyrics
 (clean human-readable/canonical alignment lyrics)

@@ -74,6 +74,36 @@ function songFiles(prefix: string): File[] {
   ];
 }
 
+function themeFirstFiles(prefix: string): File[] {
+  const mapping = {
+    version: 1,
+    revision: 1,
+    state: "LOCKED",
+    theme: {
+      name: "Ocean ABC",
+      scope: "strict",
+      mappingAuthority: "project-locked",
+      ageBand: "mixed-2-6",
+      mode: "LETTER_NAME",
+    },
+    letters: Object.fromEntries(LETTERS.map((letter) => [letter, { object: `Object ${letter}` }])),
+  };
+  return [
+    fileAt(`${prefix}/metadata.json`, JSON.stringify({
+      songName: "Ocean ABC",
+      singerName: "Kids Choir",
+      videoFormat: "landscape",
+    })),
+    fileAt(`${prefix}/authoring/mapping.json`, JSON.stringify(mapping)),
+    fileAt(`${prefix}/authoring/display-lyrics.txt`, "A is for Object A"),
+    fileAt(`${prefix}/assets/audio.wav`),
+    fileAt(`${prefix}/assets/background.png`),
+    fileAt(`${prefix}/assets/song-logo.svg`),
+    fileAt(`${prefix}/assets/channel-logo.svg`),
+    ...LETTERS.map((letter) => fileAt(`${prefix}/assets/source-images/${letter}_object.png`)),
+  ];
+}
+
 function directSongFiles(prefix: string): File[] {
   return [
     fileAt(`${prefix}/metadata.json`, JSON.stringify({
@@ -170,6 +200,21 @@ describe("ProjectCreatePage folder import", () => {
     await user.click(screen.getByRole("button", { name: "Load selected song" }));
     await waitFor(() => expect(importFolder).toHaveBeenCalledTimes(1));
     expect(importFolder.mock.calls[0]![0]).toEqual(files);
+  });
+
+  it("accepts a theme-first folder with locked mapping plus 26 raw composite images", async () => {
+    const files = themeFirstFiles("nhac-thieu-nhi/ocean-abc");
+    const importFolder = vi.fn<ApiClient["importFolder"]>(async () => importResult("proj-theme"));
+    const { context } = makeContext({ importFolder });
+
+    render(<ProjectCreatePage context={context} />);
+    const user = userEvent.setup();
+    await user.upload(screen.getByLabelText("Music library folder"), files);
+
+    await screen.findByDisplayValue("Ocean ABC");
+    expect(screen.getByText("All required files are present.")).toBeInTheDocument();
+    expect(screen.getByText(/26\/26 letters/)).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Load selected song" })).toBeEnabled();
   });
 
   it("shows the API error message when import fails", async () => {

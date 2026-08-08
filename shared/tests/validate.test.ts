@@ -4,11 +4,15 @@ import {
   validateLyrics,
   validateAudioAnalysis,
   validateProjectConfig,
+  validateLearningMap,
+  validateSongScript,
 } from "../src/validate.js";
 import type {
   LyricsJson,
   AudioAnalysisJson,
   ProjectConfigJson,
+  LearningMapJson,
+  SongScriptJson,
 } from "../src/types/index.js";
 
 const validLyrics: LyricsJson = {
@@ -41,6 +45,36 @@ const validAnalysis: AudioAnalysisJson = {
   ],
   bandCount: 2,
   beats: [0.5, 1.5],
+};
+
+const validMapping: LearningMapJson = {
+  version: 1,
+  revision: 3,
+  state: "LOCKED",
+  theme: {
+    name: "Ocean",
+    scope: "guided",
+    mappingAuthority: "project-locked",
+    ageBand: "mixed-2-6",
+    mode: "LETTER_NAME",
+  },
+  letters: Object.fromEntries(
+    [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].map((letter) => [letter, { object: `Object ${letter}` }]),
+  ),
+};
+
+const validSongScript: SongScriptJson = {
+  version: 1,
+  mappingRevision: 3,
+  lines: [
+    {
+      id: "r2-A",
+      text: "A ... apple!",
+      targetId: "A",
+      objective: "retrieval-action",
+      objectReveal: "target-word",
+    },
+  ],
 };
 
 const validConfig: ProjectConfigJson = {
@@ -83,6 +117,21 @@ describe("shared validators (Req 15.4)", () => {
   it("accepts a well-formed project-config artifact", () => {
     const result = validateProjectConfig(validConfig);
     expect(result.ok).toBe(true);
+  });
+
+  it("accepts a LOCKED mapping and matching structured song script", () => {
+    expect(validateLearningMap(validMapping).ok).toBe(true);
+    expect(validateSongScript(validSongScript).ok).toBe(true);
+  });
+
+  it("rejects a generated/unlocked value as canonical mapping", () => {
+    expect(validateLearningMap({ ...validMapping, state: "PROPOSED" }).ok).toBe(false);
+    expect(
+      validateLearningMap({
+        ...validMapping,
+        theme: { ...validMapping.theme, mappingAuthority: "generated" },
+      }).ok,
+    ).toBe(false);
   });
 
   it("rejects lyrics with the wrong version and reports a structured error", () => {

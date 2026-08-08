@@ -7,6 +7,38 @@
 
 ---
 
+## 0. Production Architecture V2 — Theme -> Locked Mapping -> Structured Script -> Composite Assets
+
+Đối với project video hiện tại, dependency order bắt buộc là:
+
+```text
+THEME
+-> A-Z MAPPING PROPOSAL
+-> HUMAN/PROJECT LOCK
+-> canonical mapping.json (revision, state=LOCKED)
+-> learning design
+-> song-script.json (stable line id + objective + targetId + reveal policy)
+-> generation lyrics + Suno prompt
+-> source-composite image prompts
+-> human Suno/image generation
+-> segmentation: stylized LETTER + OBJECT foregrounds
+-> alignment + audio analysis
+-> provenance/config gates
+-> Remotion over a SEPARATE final background
+```
+
+`authoring/mapping.json` chỉ tồn tại ở production khi mapping đã LOCKED. Proposal không được masquerade thành canonical mapping. Mỗi thay đổi mapping sau lock tăng `revision`; `song-script.json.mappingRevision` phải trùng revision hiện tại.
+
+Image generation mặc định tạo **source composite để extraction**: stylized target capital letter + mapped object trong cùng art direction. Background trong source composite chỉ là context tạm cho generation; final video background là asset riêng. Model/adapter tách composite thành transparent `assets/letters/{A-Z}.png` và `assets/objects/{A-Z}.png`. Không bỏ letter segmentation trong default architecture vì stylized letter là một phần của visual identity.
+
+Trong retrieval/action line, `objectReveal=target-word`: letter có thể hiện ở cue onset, nhưng object foreground và answer token không được hiện trước target-word onset. Timed artifact lưu `objectRevealAt` để renderer thực thi rule này.
+
+Alignment không được im lặng truncate khi canonical-line count lệch ASR segment count. Structured artifact phải ghi alignment diagnostics/confidence; config chỉ được build khi mapping/script revisions đúng, alignment sạch, và audio provenance khớp file audio hiện tại.
+
+Chi tiết runtime contract: `docs/ABC_SONG_PIPELINE.md`.
+
+---
+
 ## 1. Mục tiêu nội dung
 
 Series tập trung vào việc giúp trẻ:
@@ -1474,8 +1506,9 @@ THEME
 -> A-Z OBJECT MAPPING
 -> MAPPING LOCK
 -> LEARNING BLOCKS
+-> STRUCTURED SONG SCRIPT
 -> LYRICS + SUNO PROMPT
--> OBJECT IMAGE PROMPTS
+-> SOURCE-COMPOSITE IMAGE PROMPTS
 -> HUMAN SUNO / IMAGE GENERATION
 -> SONG FOLDER HANDOFF
 -> PREPARE-ASSETS / SEGMENTATION
@@ -1503,7 +1536,7 @@ educational goal
 
 Agent tạo `LETTER -> OBJECT` phù hợp theme và chạy Mapping Quality Gate theo context.
 
-Ở bước này **chưa viết full lyric và chưa viết 26 image prompts**.
+Ở bước này **chưa viết full lyric và chưa viết 26 source-composite image prompts**.
 
 ### GATE G1 — Mapping Lock
 
@@ -1513,7 +1546,7 @@ Mapping state:
 PROPOSED -> REVIEWED -> LOCKED
 ```
 
-Chỉ mapping `LOCKED` mới trở thành `authoring/mapping.json` và source-of-truth cho mọi downstream artifact.
+Chỉ mapping `LOCKED` mới trở thành `authoring/mapping.json` và source-of-truth cho mọi downstream artifact. Canonical mapping phải có `revision >= 1`, `state: LOCKED`; proposal generated không được dùng trực tiếp như production mapping. Thay mapping sau lock phải tăng `revision`.
 
 Nếu đổi object sau lock:
 
@@ -1541,9 +1574,17 @@ retrieval plan
 pronunciation/stress notes
 ```
 
-### STEP 4 — Lyric + Music Package
+### STEP 4 — Structured Song Script + Lyric/Music Package
 
-Chỉ dùng locked mapping để tạo:
+Từ locked mapping, agent tạo machine-readable line contract trước:
+
+```text
+authoring/song-script.json
+```
+
+Script có `mappingRevision` trùng mapping hiện tại; mỗi line có stable `id`, `text`, `objective`, optional `targetId`, và reveal policy. Retrieval/action line mặc định `objectReveal: target-word`; lexical teaching thường `line-start`.
+
+Sau đó tạo các provider/display views:
 
 ```text
 authoring/generation-lyrics.txt
@@ -1554,10 +1595,9 @@ authoring/exclude-styles.txt (optional)
 
 Sau đó chạy rhyme/prosody/pronunciation/density/hook/retrieval QC theo các section rules của tài liệu này.
 
-`generation-lyrics.txt` dành cho AI music provider.
-`display-lyrics.txt` là canonical sung lines; khi handoff vào visualizer, normalize/copy thành `assets/original-lyrics.txt`.
+`generation-lyrics.txt` dành cho AI music provider. `display-lyrics.txt` là human/provider-friendly sung-lines view; runtime semantic identity nằm ở `mapping.json + song-script.json`. Khi handoff vào visualizer, importer có thể normalize/copy display lyrics thành `assets/original-lyrics.txt`.
 
-### STEP 5 — Object Image Prompt Package
+### STEP 5 — Source-Composite Image Prompt Package
 
 Agent sinh 26 prompt A-Z từ **locked mapping + Learning Block visual metadata**.
 
@@ -1567,7 +1607,7 @@ Canonical authoring artifact:
 authoring/object-prompts.json
 ```
 
-Prompt có thể đổi style/composition/action nhưng không được đổi canonical object identity.
+Mỗi prompt tạo source composite chứa **stylized target letter + mapped object** trong cùng art direction, giữ hai foreground complete/separable, safe margin, hạn chế overlap và unrelated text/object. Background do image model sinh ở bước này chỉ là extraction context tạm; final video background là asset riêng. Prompt có thể đổi style/composition/action nhưng không được đổi canonical object identity.
 
 ### GATE G2 — Human Generation Handoff
 
@@ -3577,14 +3617,14 @@ Z -> ...
 Mapping State: PROPOSED / REVIEWED / LOCKED
 ```
 
-Nếu generated mapping vẫn `PROPOSED`, dừng ở đây. Không sinh full lyric hay A-Z image prompts trước khi lock.
+Nếu generated mapping vẫn `PROPOSED`, dừng ở đây. Không sinh full lyric hay A-Z source-composite image prompts trước khi lock.
 
 ### Phase B — chỉ sau Mapping Lock
 
 ```text
 # SONG PLAN
 Theme Scope: strict / guided / open
-Mapping Authority: user-locked / project-locked / generated
+Mapping Authority: user-locked / project-locked
 Theme:
 Audience:
 Age Band: 2–3 / 4–6 / mixed 2–6
@@ -3630,10 +3670,13 @@ B -> ...
 # MAPPING QUALITY / WARNINGS
 ...
 
-# OBJECT IMAGE PROMPT PACK
-A -> prompt for locked A object
+# STRUCTURED SONG SCRIPT
+authoring/song-script.json: stable line id / objective / targetId / reveal policy
+
+# SOURCE-COMPOSITE IMAGE PROMPT PACK
+A -> segmentation-friendly prompt for stylized A + locked A object
 ...
-Z -> prompt for locked Z object
+Z -> segmentation-friendly prompt for stylized Z + locked Z object
 
 # CANONICAL LYRICS
 ...

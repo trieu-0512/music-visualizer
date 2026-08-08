@@ -23,6 +23,7 @@ export const ARTIFACT_NAMES = [
   "lyrics.srt",
   "whisperx.json",
   "audio-analysis.json",
+  "asset-prep-report.json",
   "project-config.json",
   "final-16x9-fullhd-60fps.mp4",
   "final-9x16-fullhd-60fps.mp4",

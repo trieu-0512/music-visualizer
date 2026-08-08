@@ -305,6 +305,8 @@ def test_transcribe_copies_mapping_object_into_timed_lyrics(store: AssetStore) -
     _write_audio(store, project_id)
     mapping = {
         "version": 1,
+        "revision": 1,
+        "state": "LOCKED",
         "theme": {
             "name": "General ABC",
             "scope": "open",

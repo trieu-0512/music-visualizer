@@ -28,11 +28,12 @@ via ``mark_failed`` (Req 3.6, 12.4). The temp audio file is always cleaned up.
 
 from __future__ import annotations
 
+import hashlib
 import os
 from pathlib import Path
 from typing import Any, Callable, Optional
 
-from src.align import build_lyrics, load_learning_map, load_original_lyrics
+from src.align import build_lyrics, load_learning_map, load_original_lyrics, load_song_script
 from src.queue import Job
 from src.srt import lyrics_to_srt
 from src.store import AssetStore
@@ -76,6 +77,7 @@ def handle_transcribe(
     runner = run_whisperx or _run_whisperx
 
     audio_path = store.read_to_temp(job.project_id, AUDIO_ROLE)  # Req 3.1
+    audio_sha256 = hashlib.sha256(Path(audio_path).read_bytes()).hexdigest()
     try:
         # WhisperX transcribe + align -> segments with optional word timing.
         whisperx_result = runner(audio_path)
@@ -85,7 +87,26 @@ def handle_transcribe(
         # Chain alignment + SRT so lyrics.json/srt are ready after transcription.
         original = load_original_lyrics(store, job.project_id)
         learning_map = load_learning_map(store, job.project_id)
-        lyrics = build_lyrics(whisperx_result, original, learning_map)  # Req 4
+        song_script = load_song_script(store, job.project_id)
+        lyrics = build_lyrics(
+            whisperx_result,
+            original,
+            learning_map,
+            song_script,
+        )  # Req 4 + theme-first structured timing
+        lyrics["provenance"] = {
+            "audioSha256": audio_sha256,
+            **(
+                {"mappingRevision": int(learning_map["revision"])}
+                if learning_map is not None
+                else {}
+            ),
+            **(
+                {"songScriptMappingRevision": int(song_script["mappingRevision"])}
+                if song_script is not None
+                else {}
+            ),
+        }
         # Production schema gate (PR-10): fail the job before mark_completed.
         validate_lyrics_payload(lyrics)
         store.write_json(job.project_id, LYRICS_ARTIFACT, lyrics)

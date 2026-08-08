@@ -30,7 +30,7 @@ For non-preschool music work, use the normal Bitwize routing and rules.
 
 The ABC `Learning Block Manifest` and `Section Manifest` are currently **authoring/composer contracts**. Their schemas live under `.claude/skills/abc-kids-music-composer/` and are not yet part of the app's shared runtime artifact contract.
 
-The current runtime source of truth remains the schemas under `shared/src/schema/` plus the worker/backend/remotion contracts. Do not claim the app consumes composer manifests unless that integration is implemented.
+The current runtime source of truth remains the schemas under `shared/src/schema/` plus the worker/backend/remotion contracts. `authoring/mapping.json` and `authoring/song-script.json` are the two intentional authoring→runtime bridge artifacts: mapping locks target identity/revision; song-script locks stable line identity, objective, target id and reveal policy. Learning Block/Section manifests remain authoring-only. Do not claim the app consumes other composer manifests unless that integration is implemented.
 
 ## Change discipline
 

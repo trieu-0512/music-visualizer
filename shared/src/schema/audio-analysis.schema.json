@@ -38,6 +38,14 @@
     "beats": {
       "type": "array",
       "items": { "type": "number", "minimum": 0 }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["audioSha256"],
+      "properties": {
+        "audioSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
     }
   }
 }

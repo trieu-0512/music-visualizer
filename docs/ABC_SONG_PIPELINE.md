@@ -1,94 +1,94 @@
-# ABC Theme-First Song-to-Video Pipeline
+# ABC Theme-First Song-to-Video Pipeline V2
 
-## 1. Muc tieu
+## 1. Mục tiêu
 
-Pipeline nay bien mot y tuong chu de thanh video ABC hoan chinh theo thu tu bat buoc:
+V2 dùng một dependency flow duy nhất:
 
 ```text
 THEME
-  -> A-Z OBJECT MAPPING
-  -> MAPPING LOCK
-  -> LYRICS + MUSIC PROMPT + IMAGE PROMPTS
-  -> HUMAN GENERATION (Suno + image generator)
-  -> SONG FOLDER HANDOFF
-  -> PREPARE ASSETS / SEGMENTATION
+  -> A-Z OBJECT MAPPING PROPOSAL
+  -> HUMAN/PROJECT REVIEW
+  -> LOCKED MAPPING (revisioned)
+  -> LEARNING DESIGN
+  -> STRUCTURED SONG SCRIPT
+  -> SUNO LYRICS/PROMPT + SOURCE-COMPOSITE IMAGE PROMPTS
+  -> HUMAN PROVIDER GENERATION/SELECTION
+  -> COPY AUDIO + 26 SOURCE COMPOSITES
+  -> ASSET PREP / SEGMENTATION
   -> TRANSCRIBE + ALIGN
   -> AUDIO ANALYSIS
-  -> BUILD CONFIG
-  -> REMOTION RENDER
+  -> CONFIG GATE
+  -> REMOTION COMPOSITING
+  -> HUMAN FINAL QC
 ```
 
-Nguyen tac quan trong nhat:
+Nguyen tac trung tam:
 
-> Theme va `LETTER -> OBJECT` mapping duoc quyet dinh truoc. Lyric, prompt anh, alignment va renderer deu phai tham chieu cung mot mapping da khoa.
-
-Khong reverse-engineer object tu lyric neu `authoring/mapping.json` ton tai.
+> `mapping.json` khoa **target identity**; `song-script.json` khoa **line identity + objective + reveal policy**. Audio/image processing chi enrich timing/assets, khong duoc tu y doi semantic target.
 
 ---
 
-## 2. Phan chia trach nhiem
+## 2. Ownership: Agent / Human / Automatic
 
-| Phase | Agent | Human | Automatic tool |
+| Cong doan | Agent | Human | Automatic tool |
 |---|---|---|---|
-| Theme brief | Tao/phan tich theme, age, mode, scope | Chon/duyet theme neu can | Validate schema sau khi luu |
-| A-Z mapping | De xuat candidate theo theme, QC context-conditioned | **Duyet/lock mapping** | Validate A-Z completeness |
-| Learning design | Tao action, visual hint, risk flag, teaching support | Review target dac biet neu can | Lint schema/rules |
-| Lyrics/music | Viet lyric, rhyme architecture, Suno style prompt tu mapping da khoa | Co the duyet lyric | L0 lint/QC |
-| Image prompts | Tao 26 prompt tu mapping/manifests | Co the chon style/anh dep | Prompt pack generation khi co agent |
-| Audio generation | Chuan bi Suno inputs | **Dung Suno va chon file audio** | Chua tu dong hoa provider generation |
-| Image generation | Chuan bi image prompts | **Dung image generator va chon 26 raw images** | Chua tu dong hoa provider generation |
-| File handoff | Huong dan naming/manifest | **Copy MP3 + raw images vao song folder** | Folder importer normalize |
-| Asset segmentation | Khong can agent neu adapter da cau hinh | Review/correct bad cuts; co the cat thu cong | `prepare-assets` job; external model adapter |
-| Transcription/alignment | Khong can agent | Nghe/check neu target nghi ngo | WhisperX + canonical lyric alignment + mapping enrichment |
-| Audio analysis | Khong can agent | Khong | Python analyze worker |
-| Config | Khong can agent | Khong | Backend ConfigBuilder |
-| Video render | Khong can agent | Preview/QC final | Remotion render worker |
-| Failure repair | Agent co the chan doan lyric/prompt | Quyet dinh regenerate neu can | Local section/asset rerun khi phu hop |
+| Theme | Tao/phan tich theme, audience, mode, scope | Duyet neu can | Schema/lint |
+| A-Z mapping proposal | De xuat candidate theo context | **Duyet va lock** | Validate A-Z completeness |
+| Mapping revision | Tao proposal moi khi can | **Chap nhan thay doi** | Enforce `state=LOCKED`, revision |
+| Learning design | Learning blocks, objective, action, risk | Review target dac biet | Lint |
+| Song script | Stable IDs, targetId, objective, reveal policy | Co the review | Schema validation |
+| Lyrics + Suno prompt | Viet tu locked mapping/script | Co the duyet | L0 QC |
+| Source-composite prompts | Tao 26 prompt tu locked mapping | Chon style/anh | Prompt package |
+| Suno generation | Chuan bi input | **Generate + chon audio** | Chua provider-automate |
+| Image generation | Chuan bi prompt | **Generate + chon 26 source images** | Chua provider-automate |
+| Handoff | Naming/folder contract | **Copy audio + images** | Import normalize |
+| Segmentation | Khong can agent khi adapter on | Sua target cut loi neu can | `prepare-assets` |
+| Alignment | Diagnose neu fail | Nghe/check low confidence | Worker |
+| Analysis | Khong | Khong | Worker |
+| Config/render | Khong | Preview/QC | Backend + Remotion |
 
-### Quy tac ownership
-
-- **Agent decides creative structure, not final human acceptance.**
-- **Human owns provider generation and selection** cho Suno/image generation trong workflow hien tai.
-- **Automatic pipeline owns deterministic processing** sau khi file duoc copy vao folder.
-- Mapping da `LOCKED` la contract. Doi object sau lock phai mo lai Mapping Gate va regenerate cac artifact phu thuoc.
+Human van giu hai creative selection gate: **chon ban Suno** va **chon anh AI**.
+Sau khi provider outputs duoc copy vao song folder, phan con lai duoc thiet ke de tu dong hoa.
 
 ---
 
-## 3. Gate G1 — Theme & Mapping Lock
+## 3. Gate G1 — Theme + Mapping Lock
 
-### Input
+### 3.1 Proposal
 
-```text
-theme idea
-age band
-language/locale
-LETTER_NAME or PHONICS
-strict / guided / open theme scope
-```
-
-### Agent output dau tien
-
-Chi tao:
+Agent dau tien chi tao:
 
 ```text
 Theme Plan
-A-Z Mapping
+A-Z Mapping Proposal
 Mapping QC / warnings
 ```
 
-**Khong viet lyric va khong viet image prompts truoc khi mapping duoc chap nhan/khoa.**
+Khong viet full lyric va khong sinh 26 image prompts khi mapping con `PROPOSED`.
 
-### Canonical file
+Proposal co the duoc mo ta la generated, nhung **proposal khong phai** `authoring/mapping.json`.
 
-`authoring/mapping.json`
+### 3.2 Canonical locked mapping
 
-Schema: `shared/src/schema/learning-map.schema.json`.
+File production:
 
-Vi du toi gian:
+```text
+authoring/mapping.json
+```
+
+Schema:
+
+```text
+shared/src/schema/learning-map.schema.json
+```
+
+Contract toi thieu:
 
 ```json
 {
   "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
   "theme": {
     "name": "Ocean Adventure",
     "scope": "strict",
@@ -97,18 +97,33 @@ Vi du toi gian:
     "mode": "LETTER_NAME"
   },
   "letters": {
-    "A": { "object": "Anchor", "action": "drop", "familiarityTier": "B" },
-    "B": { "object": "Boat", "action": "sail", "familiarityTier": "A" },
-    "C": { "object": "Coral", "action": "wave", "familiarityTier": "B" }
+    "A": { "object": "Anchor", "action": "drop" },
+    "B": { "object": "Boat", "action": "sail" }
   }
 }
 ```
 
-File thuc te phai co du A-Z.
+File thuc te co du A-Z.
 
-### Mapping selection policy
+Production mapping chi chap nhan:
 
-Khong co universal word leaderboard. Candidate duoc so sanh theo context:
+```text
+mappingAuthority = user-locked | project-locked
+state            = LOCKED
+revision         >= 1
+```
+
+Moi lan thay object sau lock:
+
+```text
+reopen mapping gate
+-> increment revision
+-> regenerate/re-audit song-script, lyrics, prompts, cuts va alignment lien quan
+```
+
+### 3.3 Context-conditioned mapping
+
+Khong co universal word leaderboard. Chon target dua tren:
 
 ```text
 LETTER FIT
@@ -119,199 +134,300 @@ IMAGEABILITY
 ACTIONABILITY
 PRONUNCIATION / STRESS RISK
 DISTINCTIVENESS
+LETTER DIFFICULTY
 SUPPORT COST
 ```
 
-Tier A/B/C la **teaching-support requirement**, khong phai bang xep hang object toan cuc.
+Tier A/B/C la muc teaching support, khong phai global ranking.
 
 ---
 
-## 4. Gate G2 — Dependent Authoring Package
+## 4. Gate G2 — Structured Authoring Package
 
-Sau khi mapping LOCKED, agent moi duoc tao cac artifact phu thuoc.
-
-### Lyrics package
+Sau khi mapping LOCKED, agent tao:
 
 ```text
-authoring/generation-lyrics.txt  # dua vao Suno, co section tags neu can
-authoring/display-lyrics.txt     # canonical sung lines cho visual alignment
-authoring/style-prompt.txt       # Suno style prompt
-authoring/exclude-styles.txt     # optional
+authoring/
+  mapping.json
+  song-script.json
+  generation-lyrics.txt
+  display-lyrics.txt
+  style-prompt.txt
+  exclude-styles.txt
+  object-prompts.json
+  learning-blocks.json
+  sections.json
 ```
 
-Sau khi copy vao runtime song folder, `display-lyrics.txt` nen duoc dat/normalize thanh:
+### 4.1 `song-script.json`
+
+Schema:
 
 ```text
-assets/original-lyrics.txt
+shared/src/schema/song-script.schema.json
 ```
 
-`assets/original-lyrics.txt` chi chua sung lines. Khong chua Markdown title, `[Verse]`, `[Chorus]`, production instructions.
+No la machine-readable line source-of-truth:
 
-### Image prompt package
+```json
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "lines": [
+    {
+      "id": "r1-A",
+      "sectionId": "round1-a-d",
+      "text": "A is for apple, crunchy and sweet.",
+      "targetId": "A",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r2-A",
+      "sectionId": "round2-a-d",
+      "text": "A ... apple! Crunch a tasty bite.",
+      "targetId": "A",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    }
+  ]
+}
+```
+
+`mappingRevision` phai trung `mapping.json.revision`.
+
+Objective:
+
+```text
+narration
+lexical-semantic
+verbatim
+retrieval-action
+phonics
+```
+
+Reveal policy:
+
+```text
+line-start
+ target-word
+line-end
+none
+```
+
+Default educational intent:
+
+```text
+Round 1 lexical teaching -> line-start
+Round 2 retrieval         -> target-word
+```
+
+`display-lyrics.txt` la view de human/provider doc; no khong con la semantic database duy nhat.
+
+---
+
+## 5. Source-Composite Image Architecture
+
+### 5.1 Ly do van tach ca LETTER va OBJECT
+
+Stylized letter la mot phan cua art direction do AI tao, khong phai glyph font thuong.
+Vi vay pipeline dung:
+
+```text
+AI SOURCE COMPOSITE
+  = stylized letter + mapped object + temporary generation background
+
+        ↓ segmentation
+
+LETTER FOREGROUND RGBA   OBJECT FOREGROUND RGBA
+        \                 /
+         \               /
+          + FINAL VIDEO BACKGROUND
+                  ↓
+               REMOTION
+```
+
+Khong thay letter segmentation bang font/vector trong default workflow.
+
+### 5.2 Ba asset class phai tach ro
+
+```text
+1. Source Composite
+   assets/source-images/A_apple.png
+   -> chi dung cho extraction
+   -> KHONG render truc tiep vao final video
+
+2. Processed Foregrounds
+   assets/letters/A.png
+   assets/objects/A.png
+   -> transparent foreground assets
+
+3. Final Scene Background
+   assets/background.png
+   -> background video thuc su
+```
+
+Source image prompt nen:
+
+- chua dung target capital letter + mapped object;
+- giu full contour;
+- safe margin quanh hai foreground;
+- han che letter/object overlap;
+- khong them unrelated text/object;
+- art direction nhat quan voi theme;
+- co background tam de model gen anh, nhung background nay se bi loai.
+
+### 5.3 Prompt package
 
 ```text
 authoring/object-prompts.json
 ```
 
-Moi A-Z prompt phai lay object tu `mapping.json`, khong tu y thay object de de ve hon.
+Ten file duoc giu de backward compatibility, nhung semantic V2 la **Source-Composite Prompt Pack**.
 
-Raw image convention (ca hai kieu ten duoc folder importer normalize theo letter key):
-
-```text
-assets/source-images/A.png
-assets/source-images/B.png
-...
-assets/source-images/Z.png
-
-# hoac ten de human nhan dien hon
-assets/source-images/A_apple.png
-assets/source-images/B_book.png
-...
-```
-
-Trong `source-images/` va `objects/`, ten co the bat dau bang `A_`/`A-`, `B_`/`B-`...; importer normalize ve runtime key A-Z. Processed `letters/` van nen dung ten mot chu cai de tranh nham glyph.
-
-Raw image co the la combined foreground `target capital letter + object` neu segmentation model duoc thiet ke de tach ca hai.
+Moi prompt lay object tu locked mapping, khong tu lyric va khong duoc tu y doi object.
 
 ---
 
-## 5. Human generation handoff
+## 6. Human Provider Handoff
 
-### Human task: Suno
+### Suno
 
-Dung:
+Human dung:
 
 ```text
 authoring/generation-lyrics.txt
 authoring/style-prompt.txt
 ```
 
-Chon generation tot va copy thanh:
+chon generation tot va copy:
 
 ```text
 assets/audio.mp3
+# hoac
+assets/audio.wav
 ```
 
-hoac `assets/audio.wav`.
+### Images
 
-### Human task: images
-
-Dung 26 prompts trong `authoring/object-prompts.json`, chon 26 anh phu hop va copy:
+Human dung 26 source-composite prompts, chon anh va copy:
 
 ```text
-assets/source-images/A.png
+assets/source-images/A_apple.png
+assets/source-images/B_book.png
 ...
-assets/source-images/Z.png
+assets/source-images/Z_zipper.png
 ```
 
-Human khong can cat anh neu segmentation adapter da cau hinh. Neu model cut khong tot, human co the sua/cat thu cong va dat truc tiep:
+Importer normalize friendly filename ve A-Z runtime key.
+
+Agent package da co `display-lyrics.txt`; importer co the bridge sang:
 
 ```text
-assets/letters/A.png
-assets/objects/A.png
+assets/original-lyrics.txt
 ```
 
-Neu processed letter + object da co, `prepare-assets` se bo qua target do.
-
-Agent package da co `authoring/display-lyrics.txt`. Khi import folder, backend preserve file nay va neu ban khong dat san `assets/original-lyrics.*`, no tu dong bridge thanh `assets/original-lyrics.txt`. Vi vay handoff thu cong binh thuong chi can **audio Suno + 26 raw source images**.
+Nen handoff thuong ngay cua human chi can **audio + 26 source composites**.
 
 ---
 
-## 6. Gate G3 — Asset Preparation
+## 7. Gate G3 — Asset Preparation / Segmentation
 
-### Job
+Job:
 
 ```text
 prepare-assets
 ```
 
-### Input
+Input:
 
 ```text
 authoring/mapping.json
 assets/source-images/{A-Z}.*
 ```
 
-hoac processed assets co san:
+Output:
 
 ```text
-assets/letters/{A-Z}.*
-assets/objects/{A-Z}.*
+assets/letters/{A-Z}.png
+assets/objects/{A-Z}.png
+artifacts/asset-prep-report.json
 ```
 
-### Output canonical
+### 7.1 Adapter seam
 
-Default model adapter output duoc normalize thanh:
-
-```text
-assets/letters/A.png
-assets/objects/A.png
-...
-assets/letters/Z.png
-assets/objects/Z.png
-```
-
-Letter processed asset chap nhan SVG/PNG/WebP. Object processed asset chap nhan PNG/WebP/SVG.
-
-### Segmentation adapter seam
-
-Worker khong hard-code model/vendor. Cau hinh:
+Worker khong hard-code vendor/model:
 
 ```text
 ABC_SEGMENTER_COMMAND=<command>
 ```
 
-Worker se goi:
+Contract:
 
 ```text
 <command>
-  --input <raw-image>
+  --input <source-composite>
   --letter A
   --object Apple
   --letter-out <temp-letter.png>
   --object-out <temp-object.png>
 ```
 
-Adapter chi can tao hai transparent PNG output.
+Co the adapter SAM/SAM2, YOLO-seg, local model, custom script hoac remote bridge.
 
-Co the thay adapter bang:
+### 7.2 Idempotency + target rerun
 
-```text
-SAM/SAM2 wrapper
-YOLO-seg wrapper
-custom vision model
-local Python segmentation script
-remote-model CLI bridge
-```
-
-ma khong sua backend/Remotion.
-
-### Idempotency
-
-Neu `letter + object` da co cho target:
+Neu letter/object processed da ton tai:
 
 ```text
-prepare-assets -> skip target
+prepare-assets -> reuse
 ```
 
-Do do human co the mix manual cut va model cut trong cung mot bai.
+Neu rieng B cut loi:
+
+```json
+{
+  "type": "prepare-assets",
+  "params": { "target": "B", "force": true }
+}
+```
+
+chi rerun B.
+
+### 7.3 Provenance/QC report
+
+Moi target ghi:
+
+```text
+mapping revision
+object name
+source path/hash/bytes
+letter output path/hash/bytes
+object output path/hash/bytes
+generated | reused
+outputsPresent
+```
+
+Generated output phai co PNG signature va khong rong. Pixel-level alpha/bbox/mask quality van la adapter-QC upgrade tiep theo; V2 khong tu nhan da kiem pixel neu chua co decoder/model QC.
 
 ---
 
-## 7. Gate G4 — Audio Transcription & Learning Target Alignment
+## 8. Gate G4 — Audio Alignment
 
-### Job
+Jobs:
 
 ```text
 transcribe
+analyze
 ```
 
-Worker doc:
+### 8.1 Transcribe inputs
 
 ```text
 assets/audio.*
-assets/original-lyrics.* (neu co)
-authoring/mapping.json (neu co)
+authoring/mapping.json
+authoring/song-script.json
+assets/original-lyrics.*   # legacy/fallback
 ```
 
 Output:
@@ -322,135 +438,208 @@ artifacts/lyrics.json
 artifacts/lyrics.srt
 ```
 
-Theme-first `lyrics.json` line co the co:
+Structured timed line:
 
 ```json
 {
-  "start": 12.4,
-  "end": 15.1,
-  "text": "A is for apple, crunchy and sweet.",
-  "line1": "A is for apple,",
-  "line2": "crunchy and sweet.",
+  "start": 100.0,
+  "end": 103.0,
+  "text": "A ... apple! Crunch a tasty bite.",
+  "line1": "A ... apple! Crunch a tasty bite.",
+  "line2": "",
+  "id": "r2-A",
+  "targetId": "A",
+  "objective": "retrieval-action",
   "letter": "A",
-  "object": "Apple"
+  "object": "Apple",
+  "objectRevealAt": 100.9,
+  "alignmentConfidence": 0.93
 }
 ```
 
-`object` den truc tiep tu `authoring/mapping.json`; renderer khong can doan object tu lyric.
+### 8.2 No silent truncation
 
-### Current alignment limitation
-
-MVP hien van pair canonical original lyric lines voi WhisperX segments theo order khi original lyrics ton tai. Vi vay production ABC can verify:
+Legacy implementation tung dung `zip(canonicalLines, asrSegments)`, co the am tham mat du lieu.
+V2 fail closed:
 
 ```text
-line count
-target occurrence count
-timestamps
-missing/skipped targets
+canonical count != ASR segment count
+-> transcribe job FAIL
+-> khong tao mot timeline co ve hop le nhung thieu line
 ```
 
-Two-round A-Z thuong ky vong 52 learning-target occurrences, nhung chi co 26 canonical object assets.
+Khi count khop, worker ghi text-similarity confidence tung line va top-level:
+
+```json
+{
+  "alignment": {
+    "mode": "canonical-order",
+    "status": "clean",
+    "canonicalLineCount": 64,
+    "segmentCount": 64,
+    "averageTextSimilarity": 0.91
+  }
+}
+```
+
+Structured project chi build config khi `alignment.status = clean`.
+
+Day la **fail-safe V2**, khong phai forced-aligner cuoi cung. Semantic/word-level forced alignment xu ly split/merge ASR segment la phase tiep theo.
+
+### 8.3 Retrieval reveal timing
+
+Voi:
+
+```text
+A ... apple!
+```
+
+renderer khong duoc show Apple tai line start.
+
+Worker resolve:
+
+```text
+letter cue starts
+-> retrieval gap
+-> target word onset
+-> objectRevealAt
+```
+
+Neu aligned word `apple` co timestamp, dung onset that.
+Neu word timing thieu, fallback de lai gap bao thu thay vi reveal ngay tai cue.
 
 ---
 
-## 8. Audio analysis
+## 9. Audio Analysis + Artifact Lineage
 
-Job:
-
-```text
-analyze
-```
-
-Output:
+`analyze` output:
 
 ```text
 artifacts/audio-analysis.json
 ```
 
-Remotion dung RMS/bass/beat/band data cho background/letter/object motion.
+V2 them SHA-256 provenance cua audio input.
+`lyrics.json` cung ghi:
+
+```text
+audioSha256
+mappingRevision
+songScriptMappingRevision
+```
+
+Config Builder so:
+
+```text
+current audio bytes SHA-256
+== lyrics.provenance.audioSha256
+== audio-analysis.provenance.audioSha256
+```
+
+va:
+
+```text
+mapping.revision
+== song-script.mappingRevision
+== lyrics provenance revisions
+```
+
+Vi vay neu human thay MP3 Suno sau khi da transcribe/analyze:
+
+```text
+old artifacts -> STALE -> config build blocked
+```
+
+khong render nham timing/audio cu.
 
 ---
 
-## 9. Gate G5 — Build Config / Render Readiness
+## 10. Stage-Aware Readiness
 
-### Legacy project
-
-Khong co `authoring/mapping.json`:
+Readiness khong chi la mot boolean. Backend tra them stage state:
 
 ```text
-26 processed letter assets required
-object assets optional/not used
+prepareAssets: ready | blocked | not-applicable
+transcribe:    ready | blocked
+analyze:       ready | blocked
+buildConfig:   ready | blocked
+render:        ready | blocked
 ```
 
-### Theme-first project
-
-Co `authoring/mapping.json`:
+Theme-first project co mapping + 26 raw source composites co the la:
 
 ```text
-26 processed letters required
-26 processed objects required
+prepareAssets = ready
+render assets = not complete yet
 ```
 
-Config moi co the chua:
-
-```json
-{
-  "assets": {
-    "letters": { "A": "assets/letters/A.png" },
-    "objects": { "A": "assets/objects/A.png" }
-  }
-}
-```
-
-ConfigBuilder khong khoa extension `.svg`; no resolve extension thuc te.
+Day la trang thai hop le, khong phai project "hong".
 
 ---
 
-## 10. Remotion render contract
+## 11. Gate G5 — Config
+
+Theme-first ConfigBuilder yeu cau:
+
+```text
+core assets
+26 processed letters
+26 processed objects
+lyrics.json
+audio-analysis.json
+```
+
+Neu co `song-script.json`, them gate:
+
+```text
+mapping schema/state valid
+script schema valid
+script mappingRevision current
+lyrics alignment clean
+lyrics mapping/script provenance current
+lyrics + analysis audio hash == current audio bytes
+```
+
+Bat ky gate nao fail -> khong tao config moi.
+
+---
+
+## 12. Remotion Compositing Contract
 
 Moi frame:
 
 ```text
 current time
-  -> active lyrics.json line
-  -> line.letter
-  -> line.object
-  -> config.assets.letters[letter]
-  -> config.assets.objects[letter]
-  -> render letter + object + timed lyric
+  -> active timed line
+  -> targetId / letter
+  -> letter foreground
+  -> canonical object + object foreground
+  -> objectRevealAt
+  -> separate final background
+  -> lyric display
 ```
 
-Theme-first path:
+### Round 1
 
 ```text
-mapping.json -> lyrics.object -> object asset key
+line start
+-> letter + object co the cung appear
 ```
 
-Legacy path:
+### Round 2 retrieval
 
 ```text
-lyrics without object -> fallback object-word parser
+cue onset:      LETTER visible
+retrieval gap:  OBJECT hidden, answer token masked
+word onset:     OBJECT reveal + answer token reveal
 ```
 
-Renderer do do backward-compatible.
+Renderer hien dung `objectRevealAt` cho ca object image va object token trong lyric box.
 
-### Visual stage
-
-```text
-LEFT                    RIGHT
-processed letter        processed object
-A                       APPLE IMAGE
-                        APPLE label (controlled text, optional/current)
-
-BOTTOM
-karaoke lyric
-```
-
-Object image thay the viec chi render object word text o project theme-first.
+Legacy project khong co reveal timing van giu behavior cu.
 
 ---
 
-## 11. Canonical song folder
+## 13. Canonical Song Folder
 
 ```text
 song-slug/
@@ -458,11 +647,14 @@ song-slug/
 
   authoring/
     mapping.json
+    song-script.json
     generation-lyrics.txt
     display-lyrics.txt
     style-prompt.txt
     exclude-styles.txt
     object-prompts.json
+    learning-blocks.json
+    sections.json
 
   assets/
     audio.mp3
@@ -472,9 +664,9 @@ song-slug/
     channel-logo.png
 
     source-images/
-      A.png
+      A_apple.png
       ...
-      Z.png
+      Z_zipper.png
 
     letters/
       A.png
@@ -487,6 +679,7 @@ song-slug/
       Z.png
 
   artifacts/
+    asset-prep-report.json
     whisperx.json
     lyrics.json
     lyrics.srt
@@ -495,115 +688,78 @@ song-slug/
     final-*.mp4
 ```
 
-`source-images/` co the xoa/archive sau khi processed assets duoc verify, nhung nen giu trong production source project de co the re-run segmentation.
+`source-images/` nen duoc giu nhu production source de co the rerun segmentation.
 
 ---
 
-## 12. Operational run order
-
-### Theme-first project with raw images
-
-Sau khi import, Web App co nut **Run full pipeline**. Nut nay tu detect `learningMap` va orchestration:
+## 14. Operational Run Order
 
 ```text
-mapping project:
-prepare-assets
--> transcribe + analyze (parallel)
--> build config
--> render
-
-legacy project:
-transcribe + analyze (parallel)
--> build config
--> render
+1. Agent     Theme Plan
+2. Agent     A-Z proposal
+3. Human     Review/lock -> mapping.json revision N
+4. Agent     learning design + song-script.json
+5. Agent     generation lyrics + Suno prompt + source-composite prompts
+6. Human     Suno generate/select
+7. Human     image generate/select
+8. Human     copy audio + source images
+9. Tool      import/validate
+10. Tool     prepare-assets
+11. Tool     transcribe + analyze
+12. Tool     config gates / provenance gates
+13. Tool     Remotion render
+14. Human    final preview/QC
 ```
 
-Neu mot job `failed`, orchestration dung tai stage do va hien error; khong tiep tuc render tren artifact loi.
-
-Luồng vận hành đầy đủ:
-
-```text
-1. Agent: Theme Plan
-2. Agent: A-Z Mapping
-3. Human/Project: LOCK Mapping
-4. Agent: Lyrics + Suno Prompt + Image Prompt Pack
-5. Human: Suno generate + select audio
-6. Human: image generate + select A-Z images
-7. Human: copy song folder
-8. Web App: Import folder
-9. Job: Prepare ABC assets
-10. Job: Transcribe
-11. Job: Analyze
-12. Build config
-13. Job: Render
-14. Human: final preview/QC
-```
-
-### Theme-first project with manual cuts
-
-Same flow, nhung human dat processed `letters/` + `objects/`; `prepare-assets` se no-op.
-
-### Legacy project
-
-Khong mapping/object pipeline. 26 letter assets + audio/bg/logo tiep tuc dung flow cu.
+Current Web App van co one-click sequencing, nhung orchestration hien duoc khoi dong tu browser. Durable backend `PipelineRun` la upgrade tiep theo de viec dong/reload tab khong anh huong dependency continuation.
 
 ---
 
-## 13. Failure ownership
+## 15. Failure Ownership
 
-| Failure | Owner dau tien | Xu ly |
+| Failure | Owner dau tien | Repair |
 |---|---|---|
-| Mapping off-theme/wrong object | Agent + human mapping gate | Reopen mapping, regenerate dependent authoring artifacts |
-| Lyric wrong object | Agent | Must conform to locked mapping |
-| Image wrong object/style | Human/provider generation | Regenerate source image only |
-| Bad letter/object cut | Segmentation adapter/human | Re-run target or provide manual processed assets |
-| Missing processed A-Z asset | Automatic readiness | Block config/render |
-| Wrong `object` in timed lyric | Mapping/alignment worker | Validate mapping + re-transcribe/repair artifact |
-| Whisper segmentation mismatch | Alignment pipeline/human QC | Verify/repair `lyrics.json`; future semantic aligner |
-| Render shows wrong visual | Runtime contract | Check `line.letter/object` and config asset map, never re-parse mapping from prose |
+| Wrong/off-theme mapping | Agent + human G1 | Reopen mapping, bump revision |
+| Script target differs mapping | Agent/schema | Regenerate script |
+| Image wrong semantic | Human/provider | Regenerate target source image |
+| Bad letter/object cut | Segmentation/human | `target + force` rerun or manual cut |
+| Segmentation output malformed | Worker QC | Fail target, do not continue |
+| ASR/canonical count mismatch | Alignment | Fail closed; repair/use stronger aligner |
+| Low text alignment confidence | Alignment/human | Review before config |
+| Replaced audio after alignment | Provenance gate | Re-transcribe + re-analyze |
+| Retrieval object appears early | Script/alignment/render | Check `objectReveal=target-word` + `objectRevealAt` |
 | Suno pronunciation/rush | Agent + human | Local lyric/prompt/generation repair |
 
 ---
 
-## 14. What is intentionally NOT automated yet
-
-Provider generation is intentionally manual for now:
+## 16. What remains intentionally manual
 
 ```text
-Suno song generation/selection
-AI image generation/selection
-final visual taste approval
-final audio/listener approval
+Suno generation/selection
+AI source-composite generation/selection
+final listening approval
+final visual/taste approval
 ```
 
-Reasons:
-
-```text
-provider credentials/API availability vary
-human must choose the best generation
-creative quality cannot be reduced to file-exists checks
-```
-
-Everything after the selected audio/images enter the project folder is designed to be automatable.
+Do not replace these creative decisions with file-exists checks.
 
 ---
 
-## 15. Future upgrades
+## 17. Next Architecture Upgrades
 
-The architecture keeps explicit seams for:
+V2 deliberately keeps seams for:
 
 ```text
-semantic/word-level forced alignment instead of positional line pairing
-programmatic letter rendering instead of segmented letter image
-multiple object visual states per letter/round
-automatic provider generation connectors
-segmentation quality scoring
-alpha/mask validation
-object bounding-box normalization
-batch series generation
-mapping/version dependency hashes
+P1  semantic/word-level forced alignment handling split/merge automatically
+P1  durable backend PipelineRun DAG instead of browser-owned sequencing
+P2  pixel-level segmentation QC: alpha coverage, bbox, edge crop, confidence
+P2  transactional/streaming folder import
+P2  full dependency DAG invalidation for every asset, not only mapping/audio lineage
+P2  Brand/Series preset for shared background/logo/style assets
+P2  review/publish render presets instead of rendering all six outputs by default
+P3  provider connectors when generation APIs/credentials are intentionally enabled
 ```
 
-These can be added without changing the central rule:
+Khong upgrade nao o tren duoc phep pha quy tac trung tam:
 
-> `authoring/mapping.json` is the semantic source-of-truth; all downstream artifacts are derived from it.
+> Locked mapping defines what is taught; structured song script defines when/how it is taught; processed foreground assets define what is shown; audio alignment defines when it is shown.

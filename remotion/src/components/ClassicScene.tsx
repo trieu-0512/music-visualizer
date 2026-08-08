@@ -76,7 +76,8 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
       : undefined;
   const objectWord =
     line && letterKey ? (line.object?.trim() || resolveObjectWord(line, letterKey)) : undefined;
-  const objectSrc = letterKey ? config.assets.objects?.[letterKey] : undefined;
+  const objectRevealed = line ? isObjectRevealed(line, t) : false;
+  const objectSrc = objectRevealed && letterKey ? config.assets.objects?.[letterKey] : undefined;
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }} data-template={config.layout.template}>
@@ -122,7 +123,7 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
           src={letterSrc}
           letter={letterKey ?? ""}
           objectSrc={objectSrc}
-          objectWord={objectWord}
+          objectWord={objectRevealed ? objectWord : undefined}
           size={layout.letterSize}
           objectWordFontSize={layout.objectWordFontSize}
           scale={letterScale(bass, pulse)}
@@ -159,6 +160,7 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
           litWords={litWordCount(line, t)}
           letter={letterKey}
           objectWord={objectWord}
+          objectRevealed={objectRevealed}
           maxLines={config.layout.lyricBox.maxLines}
           marginBottom={layout.lyricBox.marginBottom}
           maxWidth={layout.lyricBox.maxWidth}
@@ -173,6 +175,14 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
     </AbsoluteFill>
   );
 };
+
+/** Whether the separated object foreground/answer may be visible at time t. */
+export function isObjectRevealed(
+  line: { objectRevealAt?: number },
+  t: number,
+): boolean {
+  return line.objectRevealAt === undefined || t >= line.objectRevealAt;
+}
 
 /** Resolve the A–Z key for a centered learning-letter asset. */
 export function resolveLetter(

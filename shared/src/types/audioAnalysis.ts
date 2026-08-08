@@ -23,4 +23,6 @@ export interface AudioAnalysisJson {
   bandCount: number;
   /** Beat_Event timestamps in seconds, ascending (Req 6.3). */
   beats: number[];
+  /** Optional input lineage; production handlers populate this for new artifacts. */
+  provenance?: { audioSha256: string };
 }

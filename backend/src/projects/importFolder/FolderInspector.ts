@@ -20,6 +20,7 @@ const AUTHORING_FILE_NAMES = new Set([
   "object-prompts.json",
   "learning-blocks.json",
   "sections.json",
+  "song-script.json",
 ]);
 
 export const REQUIRED_IMPORT_PATHS = [

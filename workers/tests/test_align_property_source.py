@@ -17,7 +17,7 @@ from typing import Optional
 from hypothesis import given, settings
 from hypothesis import strategies as st
 
-from src.align import OriginalLyrics, build_lyrics
+from src.align import AlignmentMismatchError, OriginalLyrics, build_lyrics
 
 # Non-negative, finite, bounded timestamps so that ``clamp_interval`` (start >= 0,
 # end >= start) is a no-op for generated segments. That lets the test assert the
@@ -62,6 +62,13 @@ def test_property_3_lyric_text_and_timing_come_from_correct_source(
     """Property 3: lyric text and timing come from the correct source."""
     whisperx = {"segments": segments}
 
+    if original is not None and len(original.lines) != len(segments):
+        try:
+            build_lyrics(whisperx, original)
+            raise AssertionError("expected count mismatch to fail closed")
+        except AlignmentMismatchError:
+            return
+
     result = build_lyrics(whisperx, original)
     lines = result["lines"]
 
@@ -81,8 +88,8 @@ def test_property_3_lyric_text_and_timing_come_from_correct_source(
     else:
         # Req 4.1: with original lyrics present, display text comes from the
         # original lines while start/end still come from a transcriber segment.
-        # The aligner pairs originals to segments positionally (zip), so the
-        # produced triples equal that pairing.
+        # V2 only uses positional pairing after proving the counts are equal;
+        # unequal counts fail closed instead of silently truncating.
         assert result["source"] == "original+transcriber"
         expected = sorted(
             (text, float(seg["start"]), float(seg["end"]))
