@@ -1,0 +1,19 @@
+{
+  "songId": "0152",
+  "theme": "City Places",
+  "macroDomain": "City & Community",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> X-crossing: verify-pronunciation",
+    "Z -> Zone Sign: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 10
+  },
+  "riskCounts": {
+    "verify-pronunciation": 1,
+    "guided-theme-fallback-review": 1
+  }
+}

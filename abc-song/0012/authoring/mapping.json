@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Barn & Fields",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Barn",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cow",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Donkey",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Ewe",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Farmer",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goat",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hay",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice Chest",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jar",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kernel",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Ladder",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Milk",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nectarine",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orchard",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pitchfork",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rake",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scarecrow",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tractor",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Udder",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vegetable Basket",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wagon",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Vet Image",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yam",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zebu",
+      "familiarityTier": "A"
+    }
+  }
+}

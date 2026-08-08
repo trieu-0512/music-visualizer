@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0104",
+  "theme": {
+    "name": "Classroom Learning",
+    "semanticFocus": "Classroom Learning",
+    "macroDomain": "School & Classroom",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Alphabet Chart"
+    },
+    "B": {
+      "object": "Book"
+    },
+    "C": {
+      "object": "Calculator"
+    },
+    "D": {
+      "object": "Desk"
+    },
+    "E": {
+      "object": "Envelope"
+    },
+    "F": {
+      "object": "Flashcard"
+    },
+    "G": {
+      "object": "Globe"
+    },
+    "H": {
+      "object": "Hole Punch"
+    },
+    "I": {
+      "object": "Ink"
+    },
+    "J": {
+      "object": "Jigsaw Map"
+    },
+    "K": {
+      "object": "Knowledge Card"
+    },
+    "L": {
+      "object": "Lunchbox"
+    },
+    "M": {
+      "object": "Marker"
+    },
+    "N": {
+      "object": "Notebook"
+    },
+    "O": {
+      "object": "Organizer"
+    },
+    "P": {
+      "object": "Pencil"
+    },
+    "Q": {
+      "object": "Quiz Card"
+    },
+    "R": {
+      "object": "Ruler"
+    },
+    "S": {
+      "object": "Stapler"
+    },
+    "T": {
+      "object": "Textbook"
+    },
+    "U": {
+      "object": "Uniform"
+    },
+    "V": {
+      "object": "Violin Case"
+    },
+    "W": {
+      "object": "Whiteboard"
+    },
+    "X": {
+      "object": "X-axis Graph"
+    },
+    "Y": {
+      "object": "Yellow Pencil"
+    },
+    "Z": {
+      "object": "Zero Card"
+    }
+  }
+}

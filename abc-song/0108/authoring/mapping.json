@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Drawing & Painting",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Art Board",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Brush",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Canvas",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drawing",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Easel",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Felt",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glitter",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Handprint",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Illustration",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jar",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knitting Needle",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Leaf Print",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Modeling Clay",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Needle",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "O": {
+      "object": "Oil Pastel",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Paint",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilling Paper",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Roller",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scissors",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "T": {
+      "object": "Tempera Paint",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Utility Brush",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Varnish",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wax Crayon",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-shaped Sticker",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yarn",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zigzag Scissors",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "safety-context-only"
+      ]
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Fairy Tale World",
+  "globalStyle": "bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Armor",
+      "prompt": "Preschool source-composite extraction image for letter A and Armor. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase A on the left and exactly one clear Armor on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Bridge",
+      "prompt": "Preschool source-composite extraction image for letter B and Bridge. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase B on the left and exactly one clear Bridge on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Castle",
+      "prompt": "Preschool source-composite extraction image for letter C and Castle. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase C on the left and exactly one clear Castle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dwarf",
+      "prompt": "Preschool source-composite extraction image for letter D and Dwarf. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase D on the left and exactly one clear Dwarf on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Enchanted Mirror",
+      "prompt": "Preschool source-composite extraction image for letter E and Enchanted Mirror. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase E on the left and exactly one clear Enchanted Mirror on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fairy",
+      "prompt": "Preschool source-composite extraction image for letter F and Fairy. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase F on the left and exactly one clear Fairy on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Goblet",
+      "prompt": "Preschool source-composite extraction image for letter G and Goblet. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase G on the left and exactly one clear Goblet on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Horse",
+      "prompt": "Preschool source-composite extraction image for letter H and Horse. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase H on the left and exactly one clear Horse on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Ivy Tower",
+      "prompt": "Preschool source-composite extraction image for letter I and Ivy Tower. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase I on the left and exactly one clear Ivy Tower on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jester",
+      "prompt": "Preschool source-composite extraction image for letter J and Jester. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase J on the left and exactly one clear Jester on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "King",
+      "prompt": "Preschool source-composite extraction image for letter K and King. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase K on the left and exactly one clear King on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lantern",
+      "prompt": "Preschool source-composite extraction image for letter L and Lantern. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase L on the left and exactly one clear Lantern on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Mermaid",
+      "prompt": "Preschool source-composite extraction image for letter M and Mermaid. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase M on the left and exactly one clear Mermaid on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Nymph",
+      "prompt": "Preschool source-composite extraction image for letter N and Nymph. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase N on the left and exactly one clear Nymph on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Ogre",
+      "prompt": "Preschool source-composite extraction image for letter O and Ogre. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase O on the left and exactly one clear Ogre on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Princess",
+      "prompt": "Preschool source-composite extraction image for letter P and Princess. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase P on the left and exactly one clear Princess on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quest Map",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quest Map. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase Q on the left and exactly one clear Quest Map on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Ring",
+      "prompt": "Preschool source-composite extraction image for letter R and Ring. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase R on the left and exactly one clear Ring on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Shield",
+      "prompt": "Preschool source-composite extraction image for letter S and Shield. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase S on the left and exactly one clear Shield on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Treasure Chest",
+      "prompt": "Preschool source-composite extraction image for letter T and Treasure Chest. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase T on the left and exactly one clear Treasure Chest on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Urn",
+      "prompt": "Preschool source-composite extraction image for letter U and Urn. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase U on the left and exactly one clear Urn on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Village",
+      "prompt": "Preschool source-composite extraction image for letter V and Village. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase V on the left and exactly one clear Village on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Wizard",
+      "prompt": "Preschool source-composite extraction image for letter W and Wizard. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase W on the left and exactly one clear Wizard on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xylophone",
+      "prompt": "Preschool source-composite extraction image for letter X and Xylophone. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase X on the left and exactly one clear Xylophone on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yellow Brick",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yellow Brick. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase Y on the left and exactly one clear Yellow Brick on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zigzag Path",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zigzag Path. bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door. Show one large stylized uppercase Z on the left and exactly one clear Zigzag Path on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

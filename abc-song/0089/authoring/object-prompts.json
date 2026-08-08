@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Cooking Together",
+  "globalStyle": "cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "prompt": "Preschool source-composite extraction image for letter A and Apron. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase A on the left and exactly one clear Apron on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Bowl",
+      "prompt": "Preschool source-composite extraction image for letter B and Bowl. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase B on the left and exactly one clear Bowl on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Cutting Board",
+      "prompt": "Preschool source-composite extraction image for letter C and Cutting Board. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase C on the left and exactly one clear Cutting Board on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dish",
+      "prompt": "Preschool source-composite extraction image for letter D and Dish. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase D on the left and exactly one clear Dish on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Egg Timer",
+      "prompt": "Preschool source-composite extraction image for letter E and Egg Timer. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase E on the left and exactly one clear Egg Timer on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Frying Pan",
+      "prompt": "Preschool source-composite extraction image for letter F and Frying Pan. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase F on the left and exactly one clear Frying Pan on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Grapes",
+      "prompt": "Preschool source-composite extraction image for letter G and Grapes. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase G on the left and exactly one clear Grapes on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Hot Pot",
+      "prompt": "Preschool source-composite extraction image for letter H and Hot Pot. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase H on the left and exactly one clear Hot Pot on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Ice Tray",
+      "prompt": "Preschool source-composite extraction image for letter I and Ice Tray. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase I on the left and exactly one clear Ice Tray on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Juicer",
+      "prompt": "Preschool source-composite extraction image for letter J and Juicer. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase J on the left and exactly one clear Juicer on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Knife",
+      "prompt": "Preschool source-composite extraction image for letter K and Knife. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase K on the left and exactly one clear Knife on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Ladle",
+      "prompt": "Preschool source-composite extraction image for letter L and Ladle. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase L on the left and exactly one clear Ladle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Mixer",
+      "prompt": "Preschool source-composite extraction image for letter M and Mixer. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase M on the left and exactly one clear Mixer on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Noodles",
+      "prompt": "Preschool source-composite extraction image for letter N and Noodles. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase N on the left and exactly one clear Noodles on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Oven",
+      "prompt": "Preschool source-composite extraction image for letter O and Oven. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase O on the left and exactly one clear Oven on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Pan",
+      "prompt": "Preschool source-composite extraction image for letter P and Pan. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase P on the left and exactly one clear Pan on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quiche",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quiche. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase Q on the left and exactly one clear Quiche on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Rice",
+      "prompt": "Preschool source-composite extraction image for letter R and Rice. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase R on the left and exactly one clear Rice on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Spatula",
+      "prompt": "Preschool source-composite extraction image for letter S and Spatula. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase S on the left and exactly one clear Spatula on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Tongs",
+      "prompt": "Preschool source-composite extraction image for letter T and Tongs. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase T on the left and exactly one clear Tongs on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Utensil",
+      "prompt": "Preschool source-composite extraction image for letter U and Utensil. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase U on the left and exactly one clear Utensil on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vegetable Peeler",
+      "prompt": "Preschool source-composite extraction image for letter V and Vegetable Peeler. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase V on the left and exactly one clear Vegetable Peeler on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Waffle",
+      "prompt": "Preschool source-composite extraction image for letter W and Waffle. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase W on the left and exactly one clear Waffle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "X-shaped Cookie Cutter",
+      "prompt": "Preschool source-composite extraction image for letter X and X-shaped Cookie Cutter. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase X on the left and exactly one clear X-shaped Cookie Cutter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yam",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yam. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase Y on the left and exactly one clear Yam on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zester",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zester. cozy 3D preschool family-kitchen storybook, warm colors, safe supervised cooking cues, uncluttered foregrounds. Show one large stylized uppercase Z on the left and exactly one clear Zester on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

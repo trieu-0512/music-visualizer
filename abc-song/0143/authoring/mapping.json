@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Watercraft World",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Airboat",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Buoy",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Catamaran",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dock",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Engine",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Ferry",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gondola",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Houseboat",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Island Ferry",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jet Ski",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Keel",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lighthouse",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Motorboat",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Navigation Light",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Ocean Liner",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Paddleboat",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quarterdeck",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rescue Boat",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Sailboat",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trimaran",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underwater Scooter",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vessel",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Water Taxi",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-ray Sonar Screen",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yacht",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zodiac Boat",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Creative Tools",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Brush",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Canvas",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drawing",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eraser",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Frame",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glitter",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Handprint",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ink",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jewel Sticker",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Knitting Needle",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Loom",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Marker",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Needle",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "O": {
+      "object": "Origami",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Paint",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilling Paper",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Ribbon",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sponge",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tempera Paint",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Utility Brush",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Velvet Paper",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Watercolor",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Sticker",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Paint",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zipper Craft",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

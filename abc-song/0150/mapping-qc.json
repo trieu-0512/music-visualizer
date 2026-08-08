@@ -1,0 +1,23 @@
+{
+  "songId": "0150",
+  "theme": "Build & Repair",
+  "macroDomain": "Construction & Tools",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "A -> Axe: safety-context-only",
+    "D -> Drill: safety-context-only",
+    "H -> Hammer: safety-context-only",
+    "K -> Keyhole Saw: safety-context-only",
+    "Q -> Quick Clamp: guided-theme-fallback-review",
+    "Z -> Zinc Screw: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 17,
+    "B": 9
+  },
+  "riskCounts": {
+    "safety-context-only": 4,
+    "guided-theme-fallback-review": 2
+  }
+}

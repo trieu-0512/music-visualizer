@@ -1,0 +1,534 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "lines": [
+    {
+      "id": "intro-1",
+      "sectionId": "intro",
+      "text": "Come explore dinosaur world with me!",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
+      "id": "intro-2",
+      "sectionId": "intro",
+      "text": "Dino stomp—A-B-C!",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-A",
+      "sectionId": "r1-a-d",
+      "text": "A meets Ankylosaurus in our dinosaur world.",
+      "targetId": "A",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-B",
+      "sectionId": "r1-a-d",
+      "text": "B meets Bone in our dinosaur world.",
+      "targetId": "B",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-C",
+      "sectionId": "r1-a-d",
+      "text": "C meets Ceratopsian in our dinosaur world.",
+      "targetId": "C",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-D",
+      "sectionId": "r1-a-d",
+      "text": "D meets Deinonychus in our dinosaur world.",
+      "targetId": "D",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-E",
+      "sectionId": "r1-e-h",
+      "text": "E meets Egg in our dinosaur world.",
+      "targetId": "E",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-F",
+      "sectionId": "r1-e-h",
+      "text": "F meets Fossil in our dinosaur world.",
+      "targetId": "F",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-G",
+      "sectionId": "r1-e-h",
+      "text": "G meets Gastonia in our dinosaur world.",
+      "targetId": "G",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-H",
+      "sectionId": "r1-e-h",
+      "text": "H meets Hadrosaur in our dinosaur world.",
+      "targetId": "H",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "chorus-r1-2-1",
+      "sectionId": "chorus-r1-2",
+      "text": "Dino stomp—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-2-2",
+      "sectionId": "chorus-r1-2",
+      "text": "Ancient friends, come stomp with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-I",
+      "sectionId": "r1-i-l",
+      "text": "I meets Iguanodon in our dinosaur world.",
+      "targetId": "I",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-J",
+      "sectionId": "r1-i-l",
+      "text": "J meets Jawbone in our dinosaur world.",
+      "targetId": "J",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-K",
+      "sectionId": "r1-i-l",
+      "text": "K meets Kritosaurus in our dinosaur world.",
+      "targetId": "K",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-L",
+      "sectionId": "r1-i-l",
+      "text": "L meets Lesothosaurus in our dinosaur world.",
+      "targetId": "L",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-M",
+      "sectionId": "r1-m-p",
+      "text": "M meets Maiasaura in our dinosaur world.",
+      "targetId": "M",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-N",
+      "sectionId": "r1-m-p",
+      "text": "N meets Nodosaurus in our dinosaur world.",
+      "targetId": "N",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-O",
+      "sectionId": "r1-m-p",
+      "text": "O meets Oviraptor in our dinosaur world.",
+      "targetId": "O",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-P",
+      "sectionId": "r1-m-p",
+      "text": "P meets Pteranodon in our dinosaur world.",
+      "targetId": "P",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "chorus-r1-4-1",
+      "sectionId": "chorus-r1-4",
+      "text": "Dino stomp—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-4-2",
+      "sectionId": "chorus-r1-4",
+      "text": "Ancient friends, come stomp with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-Q",
+      "sectionId": "r1-q-t",
+      "text": "Q meets Qianzhousaurus in our dinosaur world.",
+      "targetId": "Q",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-R",
+      "sectionId": "r1-q-t",
+      "text": "R meets Raptor in our dinosaur world.",
+      "targetId": "R",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-S",
+      "sectionId": "r1-q-t",
+      "text": "S meets Stegosaurus in our dinosaur world.",
+      "targetId": "S",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-T",
+      "sectionId": "r1-q-t",
+      "text": "T meets Triceratops in our dinosaur world.",
+      "targetId": "T",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-U",
+      "sectionId": "r1-u-x",
+      "text": "U meets Unenlagia in our dinosaur world.",
+      "targetId": "U",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-V",
+      "sectionId": "r1-u-x",
+      "text": "V meets Volcano in our dinosaur world.",
+      "targetId": "V",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-W",
+      "sectionId": "r1-u-x",
+      "text": "W meets Wuerhosaurus in our dinosaur world.",
+      "targetId": "W",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-X",
+      "sectionId": "r1-u-x",
+      "text": "X meets Xenoceratops in our dinosaur world.",
+      "targetId": "X",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "chorus-r1-6-1",
+      "sectionId": "chorus-r1-6",
+      "text": "Dino stomp—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-6-2",
+      "sectionId": "chorus-r1-6",
+      "text": "Ancient friends, come stomp with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-Y",
+      "sectionId": "r1-y-z",
+      "text": "Y meets Yinlong in our dinosaur world.",
+      "targetId": "Y",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-Z",
+      "sectionId": "r1-y-z",
+      "text": "Z meets Zephyrosaurus in our dinosaur world.",
+      "targetId": "Z",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r2-A",
+      "sectionId": "r2-a-d",
+      "text": "A ... Ankylosaurus! Point and say the word.",
+      "targetId": "A",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-B",
+      "sectionId": "r2-a-d",
+      "text": "B ... Bone! Point and say the word.",
+      "targetId": "B",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-C",
+      "sectionId": "r2-a-d",
+      "text": "C ... Ceratopsian! Point and say the word.",
+      "targetId": "C",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-D",
+      "sectionId": "r2-a-d",
+      "text": "D ... Deinonychus! Point and say the word.",
+      "targetId": "D",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-E",
+      "sectionId": "r2-e-h",
+      "text": "E ... Egg! Point and say the word.",
+      "targetId": "E",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-F",
+      "sectionId": "r2-e-h",
+      "text": "F ... Fossil! Point and say the word.",
+      "targetId": "F",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-G",
+      "sectionId": "r2-e-h",
+      "text": "G ... Gastonia! Point and say the word.",
+      "targetId": "G",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-H",
+      "sectionId": "r2-e-h",
+      "text": "H ... Hadrosaur! Point and say the word.",
+      "targetId": "H",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "chorus-r2-2-1",
+      "sectionId": "chorus-r2-2",
+      "text": "Dino stomp—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-2-2",
+      "sectionId": "chorus-r2-2",
+      "text": "Ancient friends, come stomp with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r2-I",
+      "sectionId": "r2-i-l",
+      "text": "I ... Iguanodon! Point and say the word.",
+      "targetId": "I",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-J",
+      "sectionId": "r2-i-l",
+      "text": "J ... Jawbone! Point and say the word.",
+      "targetId": "J",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-K",
+      "sectionId": "r2-i-l",
+      "text": "K ... Kritosaurus! Point and say the word.",
+      "targetId": "K",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-L",
+      "sectionId": "r2-i-l",
+      "text": "L ... Lesothosaurus! Point and say the word.",
+      "targetId": "L",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-M",
+      "sectionId": "r2-m-p",
+      "text": "M ... Maiasaura! Point and say the word.",
+      "targetId": "M",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-N",
+      "sectionId": "r2-m-p",
+      "text": "N ... Nodosaurus! Point and say the word.",
+      "targetId": "N",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-O",
+      "sectionId": "r2-m-p",
+      "text": "O ... Oviraptor! Point and say the word.",
+      "targetId": "O",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-P",
+      "sectionId": "r2-m-p",
+      "text": "P ... Pteranodon! Point and say the word.",
+      "targetId": "P",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "chorus-r2-4-1",
+      "sectionId": "chorus-r2-4",
+      "text": "Dino stomp—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-4-2",
+      "sectionId": "chorus-r2-4",
+      "text": "Ancient friends, come stomp with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r2-Q",
+      "sectionId": "r2-q-t",
+      "text": "Q ... Qianzhousaurus! Point and say the word.",
+      "targetId": "Q",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-R",
+      "sectionId": "r2-q-t",
+      "text": "R ... Raptor! Point and say the word.",
+      "targetId": "R",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-S",
+      "sectionId": "r2-q-t",
+      "text": "S ... Stegosaurus! Point and say the word.",
+      "targetId": "S",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-T",
+      "sectionId": "r2-q-t",
+      "text": "T ... Triceratops! Point and say the word.",
+      "targetId": "T",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-U",
+      "sectionId": "r2-u-x",
+      "text": "U ... Unenlagia! Point and say the word.",
+      "targetId": "U",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-V",
+      "sectionId": "r2-u-x",
+      "text": "V ... Volcano! Point and say the word.",
+      "targetId": "V",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-W",
+      "sectionId": "r2-u-x",
+      "text": "W ... Wuerhosaurus! Point and say the word.",
+      "targetId": "W",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-X",
+      "sectionId": "r2-u-x",
+      "text": "X ... Xenoceratops! Point and say the word.",
+      "targetId": "X",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "chorus-r2-6-1",
+      "sectionId": "chorus-r2-6",
+      "text": "Dino stomp—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-6-2",
+      "sectionId": "chorus-r2-6",
+      "text": "Ancient friends, come stomp with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r2-Y",
+      "sectionId": "r2-y-z",
+      "text": "Y ... Yinlong! Point and say the word.",
+      "targetId": "Y",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-Z",
+      "sectionId": "r2-y-z",
+      "text": "Z ... Zephyrosaurus! Point and say the word.",
+      "targetId": "Z",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "outro-1",
+      "sectionId": "outro",
+      "text": "Dino stomp—A-B-C!",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
+      "id": "outro-2",
+      "sectionId": "outro",
+      "text": "Great pointing, great saying—A to Z!",
+      "objective": "narration",
+      "objectReveal": "none"
+    }
+  ]
+}

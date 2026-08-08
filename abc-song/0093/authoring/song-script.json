@@ -1,0 +1,534 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "lines": [
+    {
+      "id": "intro-1",
+      "sectionId": "intro",
+      "text": "Come explore market produce with me!",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
+      "id": "intro-2",
+      "sectionId": "intro",
+      "text": "Market basket—A-B-C!",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-A",
+      "sectionId": "r1-a-d",
+      "text": "A shows Apricot in our market basket row.",
+      "targetId": "A",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-B",
+      "sectionId": "r1-a-d",
+      "text": "B shows Banana in our market basket row.",
+      "targetId": "B",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-C",
+      "sectionId": "r1-a-d",
+      "text": "C shows Cherry in our market basket row.",
+      "targetId": "C",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-D",
+      "sectionId": "r1-a-d",
+      "text": "D shows Date in our market basket row.",
+      "targetId": "D",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-E",
+      "sectionId": "r1-e-h",
+      "text": "E shows Eggplant in our market basket row.",
+      "targetId": "E",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-F",
+      "sectionId": "r1-e-h",
+      "text": "F shows Fig in our market basket row.",
+      "targetId": "F",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-G",
+      "sectionId": "r1-e-h",
+      "text": "G shows Guava in our market basket row.",
+      "targetId": "G",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-H",
+      "sectionId": "r1-e-h",
+      "text": "H shows Horseradish in our market basket row.",
+      "targetId": "H",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "chorus-r1-2-1",
+      "sectionId": "chorus-r1-2",
+      "text": "Market basket—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-2-2",
+      "sectionId": "chorus-r1-2",
+      "text": "Fresh produce, look with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-I",
+      "sectionId": "r1-i-l",
+      "text": "I shows Indian Fig in our market basket row.",
+      "targetId": "I",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-J",
+      "sectionId": "r1-i-l",
+      "text": "J shows Jackfruit in our market basket row.",
+      "targetId": "J",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-K",
+      "sectionId": "r1-i-l",
+      "text": "K shows Kale in our market basket row.",
+      "targetId": "K",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-L",
+      "sectionId": "r1-i-l",
+      "text": "L shows Leek in our market basket row.",
+      "targetId": "L",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-M",
+      "sectionId": "r1-m-p",
+      "text": "M shows Melon in our market basket row.",
+      "targetId": "M",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-N",
+      "sectionId": "r1-m-p",
+      "text": "N shows Nectarine in our market basket row.",
+      "targetId": "N",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-O",
+      "sectionId": "r1-m-p",
+      "text": "O shows Okra in our market basket row.",
+      "targetId": "O",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-P",
+      "sectionId": "r1-m-p",
+      "text": "P shows Peach in our market basket row.",
+      "targetId": "P",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "chorus-r1-4-1",
+      "sectionId": "chorus-r1-4",
+      "text": "Market basket—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-4-2",
+      "sectionId": "chorus-r1-4",
+      "text": "Fresh produce, look with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-Q",
+      "sectionId": "r1-q-t",
+      "text": "Q shows Quince in our market basket row.",
+      "targetId": "Q",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-R",
+      "sectionId": "r1-q-t",
+      "text": "R shows Raspberry in our market basket row.",
+      "targetId": "R",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-S",
+      "sectionId": "r1-q-t",
+      "text": "S shows Strawberry in our market basket row.",
+      "targetId": "S",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-T",
+      "sectionId": "r1-q-t",
+      "text": "T shows Turnip in our market basket row.",
+      "targetId": "T",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-U",
+      "sectionId": "r1-u-x",
+      "text": "U shows Ugli Fruit in our market basket row.",
+      "targetId": "U",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-V",
+      "sectionId": "r1-u-x",
+      "text": "V shows Vanilla Bean in our market basket row.",
+      "targetId": "V",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-W",
+      "sectionId": "r1-u-x",
+      "text": "W shows Watercress in our market basket row.",
+      "targetId": "W",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-X",
+      "sectionId": "r1-u-x",
+      "text": "X shows Xoconostle in our market basket row.",
+      "targetId": "X",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "chorus-r1-6-1",
+      "sectionId": "chorus-r1-6",
+      "text": "Market basket—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-6-2",
+      "sectionId": "chorus-r1-6",
+      "text": "Fresh produce, look with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-Y",
+      "sectionId": "r1-y-z",
+      "text": "Y shows Yam in our market basket row.",
+      "targetId": "Y",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-Z",
+      "sectionId": "r1-y-z",
+      "text": "Z shows Zucchini in our market basket row.",
+      "targetId": "Z",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r2-A",
+      "sectionId": "r2-a-d",
+      "text": "A ... Apricot! Point and say what you know.",
+      "targetId": "A",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-B",
+      "sectionId": "r2-a-d",
+      "text": "B ... Banana! Point and say what you know.",
+      "targetId": "B",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-C",
+      "sectionId": "r2-a-d",
+      "text": "C ... Cherry! Point and say what you know.",
+      "targetId": "C",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-D",
+      "sectionId": "r2-a-d",
+      "text": "D ... Date! Point and say what you know.",
+      "targetId": "D",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-E",
+      "sectionId": "r2-e-h",
+      "text": "E ... Eggplant! Point and say what you know.",
+      "targetId": "E",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-F",
+      "sectionId": "r2-e-h",
+      "text": "F ... Fig! Point and say what you know.",
+      "targetId": "F",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-G",
+      "sectionId": "r2-e-h",
+      "text": "G ... Guava! Point and say what you know.",
+      "targetId": "G",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-H",
+      "sectionId": "r2-e-h",
+      "text": "H ... Horseradish! Point and say what you know.",
+      "targetId": "H",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "chorus-r2-2-1",
+      "sectionId": "chorus-r2-2",
+      "text": "Market basket—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-2-2",
+      "sectionId": "chorus-r2-2",
+      "text": "Fresh produce, look with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r2-I",
+      "sectionId": "r2-i-l",
+      "text": "I ... Indian Fig! Point and say what you know.",
+      "targetId": "I",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-J",
+      "sectionId": "r2-i-l",
+      "text": "J ... Jackfruit! Point and say what you know.",
+      "targetId": "J",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-K",
+      "sectionId": "r2-i-l",
+      "text": "K ... Kale! Point and say what you know.",
+      "targetId": "K",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-L",
+      "sectionId": "r2-i-l",
+      "text": "L ... Leek! Point and say what you know.",
+      "targetId": "L",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-M",
+      "sectionId": "r2-m-p",
+      "text": "M ... Melon! Point and say what you know.",
+      "targetId": "M",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-N",
+      "sectionId": "r2-m-p",
+      "text": "N ... Nectarine! Point and say what you know.",
+      "targetId": "N",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-O",
+      "sectionId": "r2-m-p",
+      "text": "O ... Okra! Point and say what you know.",
+      "targetId": "O",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-P",
+      "sectionId": "r2-m-p",
+      "text": "P ... Peach! Point and say what you know.",
+      "targetId": "P",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "chorus-r2-4-1",
+      "sectionId": "chorus-r2-4",
+      "text": "Market basket—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-4-2",
+      "sectionId": "chorus-r2-4",
+      "text": "Fresh produce, look with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r2-Q",
+      "sectionId": "r2-q-t",
+      "text": "Q ... Quince! Point and say what you know.",
+      "targetId": "Q",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-R",
+      "sectionId": "r2-q-t",
+      "text": "R ... Raspberry! Point and say what you know.",
+      "targetId": "R",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-S",
+      "sectionId": "r2-q-t",
+      "text": "S ... Strawberry! Point and say what you know.",
+      "targetId": "S",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-T",
+      "sectionId": "r2-q-t",
+      "text": "T ... Turnip! Point and say what you know.",
+      "targetId": "T",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-U",
+      "sectionId": "r2-u-x",
+      "text": "U ... Ugli Fruit! Point and say what you know.",
+      "targetId": "U",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-V",
+      "sectionId": "r2-u-x",
+      "text": "V ... Vanilla Bean! Point and say what you know.",
+      "targetId": "V",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-W",
+      "sectionId": "r2-u-x",
+      "text": "W ... Watercress! Point and say what you know.",
+      "targetId": "W",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-X",
+      "sectionId": "r2-u-x",
+      "text": "X ... Xoconostle! Point and say what you know.",
+      "targetId": "X",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "chorus-r2-6-1",
+      "sectionId": "chorus-r2-6",
+      "text": "Market basket—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-6-2",
+      "sectionId": "chorus-r2-6",
+      "text": "Fresh produce, look with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r2-Y",
+      "sectionId": "r2-y-z",
+      "text": "Y ... Yam! Point and say what you know.",
+      "targetId": "Y",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-Z",
+      "sectionId": "r2-y-z",
+      "text": "Z ... Zucchini! Point and say what you know.",
+      "targetId": "Z",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "outro-1",
+      "sectionId": "outro",
+      "text": "Market basket—A-B-C!",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
+      "id": "outro-2",
+      "sectionId": "outro",
+      "text": "Great pointing, great saying—A to Z!",
+      "objective": "narration",
+      "objectReveal": "none"
+    }
+  ]
+}

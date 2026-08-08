@@ -1,0 +1,22 @@
+{
+  "songId": "0004",
+  "theme": "Ocean Nature & Travel",
+  "macroDomain": "Ocean & Coast",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Queen Angelfish: guided-theme-fallback-review",
+    "V -> Violet Sea Snail: support-required, verify-pronunciation",
+    "X -> X-ray Fish: guided-theme-fallback-review, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "B": 4,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 2
+  }
+}

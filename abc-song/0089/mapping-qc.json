@@ -1,0 +1,25 @@
+{
+  "songId": "0089",
+  "theme": "Cooking Together",
+  "macroDomain": "Food & Kitchen",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "F -> Frying Pan: safety-context-only",
+    "K -> Knife: safety-context-only",
+    "O -> Oven: safety-context-only",
+    "X -> X-shaped Cookie Cutter: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zester: safety-context-only"
+  ],
+  "tierCounts": {
+    "A": 19,
+    "B": 6,
+    "C": 1
+  },
+  "riskCounts": {
+    "safety-context-only": 4,
+    "guided-theme-fallback-review": 1,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

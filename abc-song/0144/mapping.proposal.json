@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0144",
+  "theme": {
+    "name": "Marina & Rescue Boats",
+    "semanticFocus": "Marina & Rescue Boats",
+    "macroDomain": "Boats & Harbor",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Anchor"
+    },
+    "B": {
+      "object": "Buoy"
+    },
+    "C": {
+      "object": "Catamaran"
+    },
+    "D": {
+      "object": "Dock"
+    },
+    "E": {
+      "object": "Echo Sounder"
+    },
+    "F": {
+      "object": "Fishing Boat"
+    },
+    "G": {
+      "object": "Gondola"
+    },
+    "H": {
+      "object": "Houseboat"
+    },
+    "I": {
+      "object": "Inflatable Boat"
+    },
+    "J": {
+      "object": "Jolly Boat"
+    },
+    "K": {
+      "object": "Keel"
+    },
+    "L": {
+      "object": "Lifeboat"
+    },
+    "M": {
+      "object": "Marina"
+    },
+    "N": {
+      "object": "Navigation Light"
+    },
+    "O": {
+      "object": "Oar"
+    },
+    "P": {
+      "object": "Paddleboat"
+    },
+    "Q": {
+      "object": "Quarterdeck"
+    },
+    "R": {
+      "object": "Raft"
+    },
+    "S": {
+      "object": "Submarine"
+    },
+    "T": {
+      "object": "Trimaran"
+    },
+    "U": {
+      "object": "Underwater Scooter"
+    },
+    "V": {
+      "object": "Voyage Map"
+    },
+    "W": {
+      "object": "Wake"
+    },
+    "X": {
+      "object": "X-ray Sonar Screen"
+    },
+    "Y": {
+      "object": "Yawl"
+    },
+    "Z": {
+      "object": "Zephyr Sail"
+    }
+  }
+}

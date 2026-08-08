@@ -1,0 +1,534 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "lines": [
+    {
+      "id": "intro-1",
+      "sectionId": "intro",
+      "text": "Come explore classroom learning with me!",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
+      "id": "intro-2",
+      "sectionId": "intro",
+      "text": "Learn and look—A-B-C!",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-A",
+      "sectionId": "r1-a-d",
+      "text": "Look at A; Alphabet Chart is our learning clue.",
+      "targetId": "A",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-B",
+      "sectionId": "r1-a-d",
+      "text": "Look at B; Book is our learning clue.",
+      "targetId": "B",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-C",
+      "sectionId": "r1-a-d",
+      "text": "Look at C; Calculator is our learning clue.",
+      "targetId": "C",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-D",
+      "sectionId": "r1-a-d",
+      "text": "Look at D; Desk is our learning clue.",
+      "targetId": "D",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-E",
+      "sectionId": "r1-e-h",
+      "text": "Look at E; Envelope is our learning clue.",
+      "targetId": "E",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-F",
+      "sectionId": "r1-e-h",
+      "text": "Look at F; Flashcard is our learning clue.",
+      "targetId": "F",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-G",
+      "sectionId": "r1-e-h",
+      "text": "Look at G; Globe is our learning clue.",
+      "targetId": "G",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-H",
+      "sectionId": "r1-e-h",
+      "text": "Look at H; Hole Punch is our learning clue.",
+      "targetId": "H",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "chorus-r1-2-1",
+      "sectionId": "chorus-r1-2",
+      "text": "Learn and look—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-2-2",
+      "sectionId": "chorus-r1-2",
+      "text": "Find the classroom clue with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-I",
+      "sectionId": "r1-i-l",
+      "text": "Look at I; Ink is our learning clue.",
+      "targetId": "I",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-J",
+      "sectionId": "r1-i-l",
+      "text": "Look at J; Jigsaw Map is our learning clue.",
+      "targetId": "J",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-K",
+      "sectionId": "r1-i-l",
+      "text": "Look at K; Knowledge Card is our learning clue.",
+      "targetId": "K",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-L",
+      "sectionId": "r1-i-l",
+      "text": "Look at L; Lunchbox is our learning clue.",
+      "targetId": "L",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-M",
+      "sectionId": "r1-m-p",
+      "text": "Look at M; Marker is our learning clue.",
+      "targetId": "M",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-N",
+      "sectionId": "r1-m-p",
+      "text": "Look at N; Notebook is our learning clue.",
+      "targetId": "N",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-O",
+      "sectionId": "r1-m-p",
+      "text": "Look at O; Organizer is our learning clue.",
+      "targetId": "O",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-P",
+      "sectionId": "r1-m-p",
+      "text": "Look at P; Pencil is our learning clue.",
+      "targetId": "P",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "chorus-r1-4-1",
+      "sectionId": "chorus-r1-4",
+      "text": "Learn and look—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-4-2",
+      "sectionId": "chorus-r1-4",
+      "text": "Find the classroom clue with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-Q",
+      "sectionId": "r1-q-t",
+      "text": "Look at Q; Quiz Card is our learning clue.",
+      "targetId": "Q",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-R",
+      "sectionId": "r1-q-t",
+      "text": "Look at R; Ruler is our learning clue.",
+      "targetId": "R",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-S",
+      "sectionId": "r1-q-t",
+      "text": "Look at S; Stapler is our learning clue.",
+      "targetId": "S",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-T",
+      "sectionId": "r1-q-t",
+      "text": "Look at T; Textbook is our learning clue.",
+      "targetId": "T",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-U",
+      "sectionId": "r1-u-x",
+      "text": "Look at U; Uniform is our learning clue.",
+      "targetId": "U",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-V",
+      "sectionId": "r1-u-x",
+      "text": "Look at V; Violin Case is our learning clue.",
+      "targetId": "V",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-W",
+      "sectionId": "r1-u-x",
+      "text": "Look at W; Whiteboard is our learning clue.",
+      "targetId": "W",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-X",
+      "sectionId": "r1-u-x",
+      "text": "Look at X; X-axis Graph is our learning clue.",
+      "targetId": "X",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "chorus-r1-6-1",
+      "sectionId": "chorus-r1-6",
+      "text": "Learn and look—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-6-2",
+      "sectionId": "chorus-r1-6",
+      "text": "Find the classroom clue with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-Y",
+      "sectionId": "r1-y-z",
+      "text": "Look at Y; Yellow Pencil is our learning clue.",
+      "targetId": "Y",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-Z",
+      "sectionId": "r1-y-z",
+      "text": "Look at Z; Zero Card is our learning clue.",
+      "targetId": "Z",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r2-A",
+      "sectionId": "r2-a-d",
+      "text": "Show A ... then Alphabet Chart! Say the pair when you know.",
+      "targetId": "A",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-B",
+      "sectionId": "r2-a-d",
+      "text": "Show B ... then Book! Say the pair when you know.",
+      "targetId": "B",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-C",
+      "sectionId": "r2-a-d",
+      "text": "Show C ... then Calculator! Say the pair when you know.",
+      "targetId": "C",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-D",
+      "sectionId": "r2-a-d",
+      "text": "Show D ... then Desk! Say the pair when you know.",
+      "targetId": "D",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-E",
+      "sectionId": "r2-e-h",
+      "text": "Show E ... then Envelope! Say the pair when you know.",
+      "targetId": "E",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-F",
+      "sectionId": "r2-e-h",
+      "text": "Show F ... then Flashcard! Say the pair when you know.",
+      "targetId": "F",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-G",
+      "sectionId": "r2-e-h",
+      "text": "Show G ... then Globe! Say the pair when you know.",
+      "targetId": "G",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-H",
+      "sectionId": "r2-e-h",
+      "text": "Show H ... then Hole Punch! Say the pair when you know.",
+      "targetId": "H",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "chorus-r2-2-1",
+      "sectionId": "chorus-r2-2",
+      "text": "Learn and look—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-2-2",
+      "sectionId": "chorus-r2-2",
+      "text": "Find the classroom clue with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r2-I",
+      "sectionId": "r2-i-l",
+      "text": "Show I ... then Ink! Say the pair when you know.",
+      "targetId": "I",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-J",
+      "sectionId": "r2-i-l",
+      "text": "Show J ... then Jigsaw Map! Say the pair when you know.",
+      "targetId": "J",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-K",
+      "sectionId": "r2-i-l",
+      "text": "Show K ... then Knowledge Card! Say the pair when you know.",
+      "targetId": "K",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-L",
+      "sectionId": "r2-i-l",
+      "text": "Show L ... then Lunchbox! Say the pair when you know.",
+      "targetId": "L",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-M",
+      "sectionId": "r2-m-p",
+      "text": "Show M ... then Marker! Say the pair when you know.",
+      "targetId": "M",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-N",
+      "sectionId": "r2-m-p",
+      "text": "Show N ... then Notebook! Say the pair when you know.",
+      "targetId": "N",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-O",
+      "sectionId": "r2-m-p",
+      "text": "Show O ... then Organizer! Say the pair when you know.",
+      "targetId": "O",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-P",
+      "sectionId": "r2-m-p",
+      "text": "Show P ... then Pencil! Say the pair when you know.",
+      "targetId": "P",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "chorus-r2-4-1",
+      "sectionId": "chorus-r2-4",
+      "text": "Learn and look—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-4-2",
+      "sectionId": "chorus-r2-4",
+      "text": "Find the classroom clue with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r2-Q",
+      "sectionId": "r2-q-t",
+      "text": "Show Q ... then Quiz Card! Say the pair when you know.",
+      "targetId": "Q",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-R",
+      "sectionId": "r2-q-t",
+      "text": "Show R ... then Ruler! Say the pair when you know.",
+      "targetId": "R",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-S",
+      "sectionId": "r2-q-t",
+      "text": "Show S ... then Stapler! Say the pair when you know.",
+      "targetId": "S",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-T",
+      "sectionId": "r2-q-t",
+      "text": "Show T ... then Textbook! Say the pair when you know.",
+      "targetId": "T",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-U",
+      "sectionId": "r2-u-x",
+      "text": "Show U ... then Uniform! Say the pair when you know.",
+      "targetId": "U",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-V",
+      "sectionId": "r2-u-x",
+      "text": "Show V ... then Violin Case! Say the pair when you know.",
+      "targetId": "V",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-W",
+      "sectionId": "r2-u-x",
+      "text": "Show W ... then Whiteboard! Say the pair when you know.",
+      "targetId": "W",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-X",
+      "sectionId": "r2-u-x",
+      "text": "Show X ... then X-axis Graph! Say the pair when you know.",
+      "targetId": "X",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "chorus-r2-6-1",
+      "sectionId": "chorus-r2-6",
+      "text": "Learn and look—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-6-2",
+      "sectionId": "chorus-r2-6",
+      "text": "Find the classroom clue with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r2-Y",
+      "sectionId": "r2-y-z",
+      "text": "Show Y ... then Yellow Pencil! Say the pair when you know.",
+      "targetId": "Y",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-Z",
+      "sectionId": "r2-y-z",
+      "text": "Show Z ... then Zero Card! Say the pair when you know.",
+      "targetId": "Z",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "outro-1",
+      "sectionId": "outro",
+      "text": "Learn and look—A-B-C!",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
+      "id": "outro-2",
+      "sectionId": "outro",
+      "text": "Great pointing, great saying—A to Z!",
+      "objective": "narration",
+      "objectReveal": "none"
+    }
+  ]
+}

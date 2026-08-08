@@ -1,0 +1,26 @@
+{
+  "songId": "0181",
+  "theme": "My Daily Routine",
+  "macroDomain": "Daily Routine",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "G -> Getting-dressed Chart: support-required, verify-pronunciation",
+    "K -> Kettle: safety-context-only",
+    "Q -> Quiet Book: guided-theme-fallback-review, visual-clarity-review",
+    "R -> Routine Chart: visual-clarity-review",
+    "Z -> Zip Pajamas: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 20,
+    "C": 1,
+    "B": 5
+  },
+  "riskCounts": {
+    "support-required": 1,
+    "verify-pronunciation": 1,
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 2,
+    "visual-clarity-review": 2
+  }
+}

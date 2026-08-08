@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Railway Journey",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Arrival Board",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Brake",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Coach",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Diesel Engine",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Electric Train",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Freight Car",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Goods Wagon",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "High-speed Train",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "I": {
+      "object": "Intercity Train",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Junction Box",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Key Switch",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Level Crossing",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Metro",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Night Train",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Observation Car",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Passenger Car",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quiet Car",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Railway Signal",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Sleeper Car",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Ticket",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utility Car",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Viaduct",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Waiting Room",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xpress Train",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Signal",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zone Map",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "songId": "0088",
+  "theme": "Meals & Snacks",
+  "macroDomain": "Food & Kitchen",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Knife: safety-context-only",
+    "X -> X-shaped Cookie Cutter: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "B": 4,
+    "C": 1
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 1,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

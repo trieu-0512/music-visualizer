@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Games & Toys",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alphabet Blocks",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Ball",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Car Toy",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Doll",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Etch-a-Sketch",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "F": {
+      "object": "Frisbee",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gyroscope",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hobby Horse",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Interlocking Blocks",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jump Rope",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kaleidoscope",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Letter Tiles",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Model Car",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nesting Blocks",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Octopus Toy",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Puzzle",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quoits Ring",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rattle",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scooter",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toy Train",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Unicycle",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vehicle Toy",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wooden Blocks",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-shaped Puzzle",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yo-yo",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zipper Toy Bag",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

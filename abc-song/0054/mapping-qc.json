@@ -1,0 +1,30 @@
+{
+  "songId": "0054",
+  "theme": "Moon & Galaxy",
+  "macroDomain": "Space & Astronomy",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "F -> Fuel Tank: safety-context-only",
+    "I -> International Space Station: support-required, verify-pronunciation",
+    "K -> Krypton Tank: support-required, verify-pronunciation",
+    "O -> Orbit: visual-clarity-review",
+    "Q -> Quasar: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "U -> Universe: visual-clarity-review",
+    "W -> World: visual-clarity-review",
+    "X -> Xenon Thruster: guided-theme-fallback-review",
+    "Z -> Zero-gravity Chair: guided-theme-fallback-review, verify-pronunciation, visual-clarity-review"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 7,
+    "C": 3
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "support-required": 3,
+    "verify-pronunciation": 4,
+    "visual-clarity-review": 4,
+    "guided-theme-fallback-review": 3
+  }
+}

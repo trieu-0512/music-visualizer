@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0127",
+  "theme": {
+    "name": "Cars Trucks & Machines",
+    "semanticFocus": "Cars Trucks & Machines",
+    "macroDomain": "Vehicles & Roads",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Ambulance"
+    },
+    "B": {
+      "object": "Bus"
+    },
+    "C": {
+      "object": "Car"
+    },
+    "D": {
+      "object": "Delivery Van"
+    },
+    "E": {
+      "object": "Electric Car"
+    },
+    "F": {
+      "object": "Forklift"
+    },
+    "G": {
+      "object": "Garbage Truck"
+    },
+    "H": {
+      "object": "Helicopter"
+    },
+    "I": {
+      "object": "Intercity Bus"
+    },
+    "J": {
+      "object": "Jet"
+    },
+    "K": {
+      "object": "Kayak"
+    },
+    "L": {
+      "object": "Loader"
+    },
+    "M": {
+      "object": "Motorcycle"
+    },
+    "N": {
+      "object": "Night Bus"
+    },
+    "O": {
+      "object": "Oil Tanker"
+    },
+    "P": {
+      "object": "Pickup"
+    },
+    "Q": {
+      "object": "Quadcopter"
+    },
+    "R": {
+      "object": "Road Roller"
+    },
+    "S": {
+      "object": "Scooter"
+    },
+    "T": {
+      "object": "Train"
+    },
+    "U": {
+      "object": "Utility Truck"
+    },
+    "V": {
+      "object": "Van"
+    },
+    "W": {
+      "object": "Wagon"
+    },
+    "X": {
+      "object": "Xpress Bus"
+    },
+    "Y": {
+      "object": "Yard Tractor"
+    },
+    "Z": {
+      "object": "Zero-emission Bus"
+    }
+  }
+}

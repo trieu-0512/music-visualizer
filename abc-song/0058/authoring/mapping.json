@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Prehistoric Life",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Ankylosaurus",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Brachiosaurus",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Carnotaurus",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Diplodocus",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egg",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fossil",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gastonia",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Herrerasaurus",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Irritator",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jurassic Fern",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kritosaurus",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lambeosaurus",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Maiasaura",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Ornithomimus",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pteranodon",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quetzalcoatlus",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rib Bone",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Stegosaurus",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tyrannosaurus",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Utahraptor",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Velociraptor",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wannanosaurus",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xixiasaurus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yutyrannus",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zuniceratops",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

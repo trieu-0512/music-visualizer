@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Ice & Tundra",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Arctic Fox",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Beluga",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Caribou",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dovekie",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Ermine",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Floe",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goose",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harp Seal",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Icefish",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jaeger",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Krill",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lynx",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Musk Ox",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Northern Fulmar",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Owl",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Puffin",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quartz",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Ringed Seal",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Snowy Owl",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Tundra",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umiak",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vole",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Walrus",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Fish",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow-billed Loon",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zoarcid Fish",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

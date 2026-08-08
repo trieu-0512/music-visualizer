@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Circuits & Gadgets",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Android",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Beaker",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Computer",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drone",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Experiment Tube",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Flask",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goggles",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hydraulic Arm",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "I": {
+      "object": "Insulator",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jumper Wire",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kit",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lab Coat",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Motor",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nut",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Optical Sensor",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pipette",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Q": {
+      "object": "QR Code",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Resistor",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sensor",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Transistor",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "USB Cable",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Voltmeter",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "W": {
+      "object": "Wire",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-axis Plotter",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Wire",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zener Diode",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

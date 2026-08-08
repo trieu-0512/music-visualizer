@@ -83,6 +83,41 @@ Same chorus text repeated twice:
 - Two full A–Z rounds -> Round 1 teaching, Round 2 retrieval/action; not twin paraphrase.
 - Two A–Z rounds -> 26 canonical learning-block specs, 52 letter timeline occurrences.
 
+## Creative variation / anti-template
+
+- `A — Apple!` -> valid short target-entry form when the letter-word association is explicit.
+- `A ... A ... A ... Apple!` -> valid repeated-letter chant only when each A is a separate audible event; concatenated `AAA` remains invalid.
+- `A is for Apple, red and round.` -> valid classic association form.
+- `A? Apple!` -> valid question-answer micro-hook when the target remains intelligible.
+- A long line with 2–3 natural phraselets and adequate bars/rests -> may PASS; do not fail from word count alone.
+- A 2–4-word target line -> may PASS; do not pad solely for symmetry.
+- 26 Round-1 lines that differ only by `{letter}` / `{object}` substitution -> WARN/REWORK in catalog-quality creative mode unless exact repetition is explicitly declared as the chant hook.
+- Generic suffix attached to unrelated targets (`... in our world today`) across most of A–Z -> WARN unless it is an intentional refrain and semantically fits.
+- 26 Round-2 lines using exactly `Point and say` -> WARN/REWORK when object-specific actions/echo/search grammar could provide better participation.
+- 22+ of 26 Round-1 lines using varied target entries but restarting the semantic continuation with the same `It ...` frame -> semantic-follow-up REWORK unless deliberately designed.
+- A song declares `internal` or `refrain-driven` rhyme but the 26 lexical-learning lines contain no audible rhyme-bearing phraselets/endings -> creative REWORK; metadata is not evidence of heard rhyme.
+- Natural phraselet rhyme such as `Glide with the tide | tall fins open wide` -> preferred when it keeps the target early and preserves semantic clarity.
+- Forcing a mapped object into an unnatural rhyme position or changing its pronunciation/stress to rhyme -> FAIL/REWORK.
+- 26 completely unrelated syntactic forms -> also WARN when the target arrival becomes unpredictable. Controlled palette beats random novelty.
+- Intentional song-level palette of 3–6 target-entry families -> preferred creative behavior.
+- Nearby catalog songs all opening with `Come explore THEME with me` -> catalog diversity WARN unless a fixed series ritual is intentional.
+- Ten creative catalog songs all inserting the chorus after the exact same Round-1/2 chunks with no deliberate series reason -> form-diversity WARN; vary chorus/refrain placement and/or interlude/turnaround behavior while preserving learning order.
+- Nearby songs that differ only by instrument swaps but share opening, groove, Round-1 grammar, chorus function and Round-2 grammar -> style-fingerprint WARN.
+
+## Cross-genre craft transfer
+
+- Pop/folk/musical-theatre/hip-hop/swing/call-response techniques may inform structure, phrasing, rhyme, hook, POV and rhythm.
+- Do not import adult themes, unsafe content, copyrighted lyrics, distinctive melody, named-artist imitation or cultural caricature.
+- Internal rhyme or light syncopation may be used; rapid rap delivery must not compromise target clarity.
+- Verse/refrain, cumulative, question-answer, scene-setting and speak-sing forms are valid when educational contracts remain intact.
+
+## Suno / AI-music performance blueprint
+
+- Full style prompt containing only `genre + 3 instruments + mood` -> WARN for serious generation handoff when section behavior matters.
+- Prompt that specifies opening, Round-1 phrasing, chorus lift, Round-2 cue/gap behavior and target-word mix protection -> preferred when relevant.
+- Prompted one-beat retrieval gap -> `PENDING AUDIO`, never L0 PASS.
+- Section-level provider repair is preferred over flattening the whole song when one localized passage fails.
+
 ## Sequence boundary
 
 `L M N O P`:
@@ -127,6 +162,12 @@ For ages 2–6:
 - Visualizer `original-lyrics.*` -> display/sung lines only; Markdown headings and `[Verse]/[Chorus]` structure tags are not alignment lines.
 - One full A–Z round -> 26 learning-letter timeline occurrences; two full rounds -> 52; chorus/refrain lines are excluded from this count.
 - Composer Learning Block / Section Manifests are authoring contracts until runtime integration is explicitly implemented.
+
+## Audit-version integrity
+
+- A legacy batch audit with `status = PASS` but no current `auditVersion` -> STALE for a current-standard cross audit.
+- Revalidating 0001-0010 under creative-v4 -> must not promote untouched 0011-0200 legacy audits to creative-v4 PASS.
+- Progress may report all 200 authoring packages exist while separately reporting only the current-standard validated song count.
 
 ## Output integrity
 

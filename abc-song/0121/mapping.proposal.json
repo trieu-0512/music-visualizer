@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0121",
+  "theme": {
+    "name": "Sports & Games",
+    "semanticFocus": "Sports & Games",
+    "macroDomain": "Sports & Movement",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Athlete"
+    },
+    "B": {
+      "object": "Bicycle"
+    },
+    "C": {
+      "object": "Cone"
+    },
+    "D": {
+      "object": "Diving Board"
+    },
+    "E": {
+      "object": "Exercise Mat"
+    },
+    "F": {
+      "object": "Football"
+    },
+    "G": {
+      "object": "Goggles"
+    },
+    "H": {
+      "object": "Hoop"
+    },
+    "I": {
+      "object": "Inline Skates"
+    },
+    "J": {
+      "object": "Jersey"
+    },
+    "K": {
+      "object": "Kayak"
+    },
+    "L": {
+      "object": "Lacrosse Stick"
+    },
+    "M": {
+      "object": "Mat"
+    },
+    "N": {
+      "object": "Number Bib"
+    },
+    "O": {
+      "object": "Oar"
+    },
+    "P": {
+      "object": "Paddle"
+    },
+    "Q": {
+      "object": "Quad Skates"
+    },
+    "R": {
+      "object": "Racket"
+    },
+    "S": {
+      "object": "Soccer Ball"
+    },
+    "T": {
+      "object": "Tennis Ball"
+    },
+    "U": {
+      "object": "Unicycle"
+    },
+    "V": {
+      "object": "Vault"
+    },
+    "W": {
+      "object": "Whistle"
+    },
+    "X": {
+      "object": "X-shaped Agility Marker"
+    },
+    "Y": {
+      "object": "Yellow Jersey"
+    },
+    "Z": {
+      "object": "Zigzag Cone"
+    }
+  }
+}

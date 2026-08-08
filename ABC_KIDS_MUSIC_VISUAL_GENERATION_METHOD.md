@@ -279,7 +279,7 @@ HARD GATE
 
 **Objective-Specific Rule** chỉ áp theo learning mode: lexical-semantic, verbatim/sequence, retrieval/action hoặc phonics.
 
-**Default Heuristic** gồm các vùng như 6–12 words/line, 8–14 syllables, 4–6 lines/section, khoảng 80–100 BPM như broad preschool envelope, narrow range, four-beat response. Có thể override nếu generation/child evidence chứng minh lựa chọn khác tốt hơn.
+**Default Heuristic** dùng phraselet-aware density thay vì quota độ dài câu: physical line có thể rất ngắn hoặc dài nhiều phraselet nếu stress, bars, breath và clarity vẫn tự nhiên. Các heuristic còn lại gồm 4–6 learning targets/section, khoảng 80–100 BPM như broad preschool envelope, narrow range và four-beat response khi phù hợp. Có thể override nếu generation/child evidence chứng minh lựa chọn khác tốt hơn.
 
 **Creative Preference** gồm instrument palette, decorative transition, optional backing vocal, genre modifier.
 
@@ -296,7 +296,7 @@ Mỗi chữ cái là một module giáo dục độc lập:
 - 1 chữ cái duy nhất;
 - 1 từ vựng/đồ vật chính;
 - 1 **complete singable phrase**;
-- 1–2 internal phraselets typical; 3 chỉ khi thật sự cần;
+- 1–3 internal phraselets khi musical phrasing tự nhiên; short hit có thể chỉ 1, extended line có thể dùng 2–3;
 - 1 cảnh hình ảnh/video riêng;
 - thời lượng **linh hoạt theo prosody, bars và breathing space**, không khóa theo số giây.
 
@@ -426,7 +426,9 @@ refrain-driven
 intentionally-unrhymed
 ```
 
-Default cho catchy ABC learning sections là **paired rhyme khi mapping cho phép**:
+Không có một rhyme engine mặc định duy nhất cho mọi catchy ABC section. Chọn theo creative fingerprint và objective: paired/end rhyme, alternating, internal, family/near rhyme, assonance, consonance, refrain-tail, delayed payoff hoặc intentionally-unrhymed rhythmic writing.
+
+Paired rhyme vẫn là option mạnh khi tự nhiên:
 
 ```text
 4 lines -> AABB
@@ -452,20 +454,22 @@ Nếu chỉ vần ở cuối nhưng rhythmic pocket khác hẳn thì chưa đạ
 
 Default mới là **adaptive phrase mode**. Mỗi chữ phải tạo thành một musical sentence hoàn chỉnh, dễ hát và có chỗ thở.
 
-Vùng gợi ý cho một letter block:
+Không dùng một word-count/syllable-count target làm khuôn cho mọi letter line. Một learning event có thể là short hit (`A — Apple!`), repeated-letter chant (`A ... A ... A ... Apple!`), câu classic (`A is for Apple`), question-answer (`A? Apple!`) hoặc multi-phrase line dài hơn nếu có đủ bars/rests.
+
+Đánh giá theo:
 
 ```text
-6–12 sung words preferred per physical letter line
-roughly 8–14 sung syllables preferred per physical letter line
-up to ~16 syllables only with a strong natural internal pause
-1–2 internal phraselets typical; 3 only when clearly needed
-usually 2–4 bars; extend when needed
-low lyric density
-clear breathing points
-flexible duration
+natural speech stress
+phraselet boundaries
+breath / rests
+bar allocation
+semantic usefulness
+provider rushing/skip risk
 ```
 
-Đây là heuristic, **không phải hard minimum/maximum**. Một phrase 9 từ vẫn PASS nếu hoàn chỉnh và rõ; một phrase 18 từ phải FAIL hoặc mở rộng bars nếu singer buộc phải chạy chữ.
+Physical line ngắn không cần padding cho cân câu. Physical line dài không tự động fail; nếu có 2–3 natural phraselets và đủ musical space thì có thể PASS. Nếu không vừa, mở rộng bars/split phraselets/simplify wording — không tăng vocal speed.
+
+Với catalog-quality writing, mỗi bài phải có controlled target-entry palette (thường 3–6 families tương thích), line-length contour và semantic verbs/images riêng; tránh 26 câu chỉ thay `{letter}` / `{object}` trong cùng một frame.
 
 Template mô tả điển hình:
 
@@ -639,21 +643,20 @@ Thứ tự kiểm tra:
 ```text
 1. Is the sentence natural when spoken?
 2. Is natural stress preserved?
-3. Can it be divided into 1–2 clear phraselets, or 3 only when genuinely needed?
+3. Can it be divided into 1–3 clear natural phraselets, with bars/rests allocated to each rather than compressed?
 4. Does it fit the chosen bars without rushing?
 5. Is there breathing space?
 6. Only then observe the resulting duration.
 ```
 
-Typical letter phrase:
+Typical letter phrase is **phraselet-aware rather than quota-based**:
 
 ```text
-6–12 sung words preferred per physical letter line
-roughly 8–14 sung syllables preferred
-up to ~16 only with a strong natural pause
-1–2 phraselets typical; 3 when clearly needed
-2–4 bars typical
-more bars allowed for longer words or slower delivery
+short / medium / extended physical line all allowed
+1–3 phraselets when musically natural
+bars expand to fit language, not the reverse
+clear breath/rest points
+stable lexical stress and target onset
 ```
 
 Không tăng vocal speed chỉ để giữ bar count hoặc duration.
@@ -2388,28 +2391,46 @@ Khoảng nghỉ giúp trẻ:
 - chuẩn bị chữ tiếp theo;
 - tránh auditory overload.
 
-### 29.5. Letter phrase density profile
+### 29.5. Letter phrase density + controlled variation profile
 
-Default heuristic cho Adaptive Phrase Mode:
-
-```text
-6–12 sung words preferred per physical letter line
-roughly 8–14 sung syllables preferred
-up to ~16 only with a strong natural pause
-1–2 internal phraselets typical; 3 when clearly needed
-2–4 bars typical
-more bars allowed when needed
-low density
-clear breathing points
-```
-
-Không PASS/FAIL chỉ bằng word count. Đánh giá theo tổng hợp:
+Adaptive Phrase Mode không có default word-count target. Dùng physical line length như một expressive variable:
 
 ```text
-syllables + stress + bars + breath + cadence + clarity
+SHORT HIT      -> 1–5 sung words can be valid
+CORE LINE      -> ordinary compact teaching phrase
+EXTENDED LINE  -> 2–3 natural phraselets across extra bars can be valid
 ```
 
-Một line ngoài vùng 6–12 words vẫn có thể PASS nếu prosody, pause và pacing thực sự tốt; một line nằm trong vùng vẫn FAIL nếu tongue-twister, stress sai hoặc buộc phải rush. Word count là heuristic, không phải quality substitute.
+Không PASS/FAIL bằng word count. Đánh giá:
+
+```text
+stress + phraselets + bars + breath + cadence + semantic clarity + provider risk
+```
+
+Một 3-word line có thể hay; một 20-word line cũng có thể PASS nếu nó unfold tự nhiên và không rush. Không padding line ngắn chỉ để đối xứng.
+
+Với catalog-quality authoring, mỗi bài phải định nghĩa **creative fingerprint** gồm opening type, target-entry palette, line-length contour, rhyme engine, POV/image world, hook function, Round-1 grammar, Round-2 participation grammar, groove/meter, section contrast và signature rhythmic/instrumental color.
+
+Controlled variation rule:
+
+- giữ mapping, pronunciation, learning objective, motif family và target intelligibility ổn định;
+- cho phép đổi syntax, line length, semantic verb, rhyme position, pickup/downbeat, internal rhythm và phraselet count;
+- ưu tiên 3–6 compatible target-entry families thay vì 1 frame cho cả A–Z hoặc 26 tricks ngẫu nhiên;
+- severe template monotony (`{letter} + {object} + same generic tail` trên gần toàn bộ round) = design REWORK trừ khi exact repetition là chant hook được khai báo;
+- generic tail phải thực sự mang chức năng refrain hoặc semantic fit, không dùng để lấp dòng.
+
+Ví dụ entry palette hợp lệ:
+
+```text
+A — Apple!
+A ... A ... A ... Apple!
+A is for Apple.
+A? Apple!
+Tap A — find Apple.
+Here comes A with an Apple.
+```
+
+Repeated letters luôn là separate audible events.
 
 ### 29.6. Local density quan trọng hơn global word count — nhưng global length vẫn là risk signal
 
@@ -2427,17 +2448,14 @@ Kiểm tra trước hết:
 Sau đó kiểm tra tổng lyric:
 
 ```text
-< ~700 sung words  -> generally manageable if local density is low
-~700–800 words      -> caution; review section density carefully
-> ~800 words         -> HIGH GENERATION RISK for a single Suno-style generation
+< ~800 sung words   -> normal working range when local density is healthy
+~800–950 words      -> acceptable long-form range; inspect phrasing, breathing, and provider behavior
+> ~950–1000 words   -> long-generation caution; verify one-pass reliability
 ```
 
-Các ngưỡng này là **risk heuristic**, không phải pedagogical hard fail. Nếu bài trên ~800 words nhưng nội dung giáo dục vẫn cần thiết:
+Các ngưỡng này chỉ là **provider-risk heuristic**, không phải pedagogical hard fail và **800 words tự nó không phải warning**. Một bài 800–900+ words vẫn có thể PASS nếu section thoáng, phraselet rõ, target không bị rush và generation thực tế không skip/compress.
 
-- rút ngắn Round 2 trước khi cắt Round 1;
-- rút chorus/bridge/filler;
-- giảm số lần chorus lặp;
-- hoặc generate theo parts/rounds rồi stitch nếu workflow/provider cho phép.
+Chỉ rút nội dung khi có bằng chứng density/generation problem. Nếu cần rút, ưu tiên bỏ filler hoặc repetition ít giá trị trước; không cắt semantic teaching hữu ích chỉ để ép bài xuống một word-count đẹp.
 
 Không được giải quyết global length bằng cách tăng vocal speed.
 
@@ -2493,8 +2511,10 @@ Mục tiêu:
 Guideline:
 
 ```text
-6–12 sung words per letter line preferred
-1–2 phraselets typical
+variable short/medium/extended target lines
+1–3 natural phraselets when needed
+object-conditioned semantic wording
+no fixed sentence skeleton across A–Z
 ```
 
 Ví dụ:
@@ -3569,8 +3589,8 @@ Ví dụ:
 Ví dụ:
 
 - phrase hơi dày hoặc thiếu breathing space nhưng vẫn có thể sửa bằng phrasing;
-- tổng lyric ~700–800 words cần caution;
-- tổng lyric >~800 words nếu vẫn định single-generation;
+- tổng lyric chỉ đáng chú ý khi độ dài đi kèm local density/rushing hoặc provider bắt đầu skip/compress;
+- khoảng 800 words tự nó không phải warning; chỉ các draft rất dài (xấp xỉ >950–1000 words) mới cần review thêm cho single-generation;
 - Round 2 còn quá giống/paraphrase Round 1;
 - instrument hơi nhiều;
 - prompt hơi dày descriptor;
@@ -3927,7 +3947,7 @@ EDUCATIONAL CORRECTNESS + LEARNING-OBJECTIVE FIT
 Master instruction bằng tiếng Anh để dùng trực tiếp cho AI composer:
 
 ```text
-Write for a preschool learner, not for an adult music critic. For theme-first projects, define the theme and lock the A-Z object mapping before writing full lyrics or image prompts; downstream artifacts must never silently substitute a different object. After mapping lock, classify each section by learning objective: lexical-semantic teaching, verbatim/sequence memory, retrieval/action, or phonics. Apply different rhyme and melody priorities to each objective instead of optimizing every section the same way. Classify target words by lexical familiarity and use teach-then-sing, narrow-contour treatment for low-familiarity words. Preserve the supplied learning targets exactly. Make every target letter and vocabulary word easy to hear, imitate and remember. Natural pronunciation and word stress must survive the melody. Treat one letter as one complete singable phrase, not as a fixed number of seconds. Use low lyric density, natural internal phraselets, breathing space, a narrow memorable melody and a steady gentle groove. If a phrase does not fit, add bars or simplify wording instead of rushing the vocal. Never place all 26 letter lines in one mega-verse; chunk A–Z into short musical sections. If using two complete A–Z rounds, make Round 1 lexical-semantic teaching, keep refrain/chorus as stable verbatim/sequence memory, and make Round 2 retrieval/action with a brief cue gap before confirmation so the repetition has a different learning function rather than becoming a twin verse. Prefer local singability over arbitrary global word-count caps, but treat very long drafts (especially >~800 sung words in a single Suno-style generation) as a generator-capacity risk that must be handled. Prefer clarity over rhyme and a simple vocal-forward arrangement over production complexity. Define a reusable melodic motif contract, keep paired rhyme lines in the same rhythmic pocket, validate rhyme in the declared locale, and leave real response space after calls so a child can participate before knowing the full lyric. For mixed ages 2–6, separate the adult information layer from the child participation layer. Use predictable turn-taking, preferably a stable four-beat call/response grammar where appropriate, and control novelty so each new letter does not also trigger unnecessary melodic, rhythmic, vocal, and instrumentation changes. Never silently change the user's mapping or add unrelated lyrics. Before finalizing, review educational correctness, prosody, pronunciation, hook memorability, rhythmic predictability, response space, section density, pacing, child suitability and generation-prompt quality. If a critical issue remains, mark the song NOT READY rather than hiding the problem.
+Write for a preschool learner while using the full craft discipline of professional songwriting. For theme-first projects, lock the A-Z mapping before lyrics/image prompts and never let downstream craft substitute a different object. Separate lexical-semantic teaching, verbatim/sequence memory, retrieval/action and phonics objectives. Preserve pronunciation, lexical stress, target intelligibility, child safety and mapping as hard contracts. Then maximize controlled creativity: define a song-level creative fingerprint before drafting—opening type, 3–6 compatible target-entry families, line-length contour, rhyme engine, point of view/image world, hook function, Round-1 grammar, Round-2 participation grammar, groove/meter, section contrast and signature rhythmic/instrumental color. Do not force every letter into one sentence template or one word-count target. A target may be `A — Apple!`, `A ... A ... A ... Apple!`, `A is for Apple`, `A? Apple!`, an action-first line, a narrative line, or a longer 2–3-phraselet sentence when bars/rests make it natural. Keep a recognizable motif/rhythmic family while varying syntax, semantic verbs, pickup/downbeat placement, internal rhythm, rhyme position and phrase length. Use object-specific imagery/function/action instead of generic filler tails. Borrow abstract craft techniques from pop, folk, musical theatre/story song, call-and-response traditions, rhythmic spoken-word/hip-hop craft, swing/jazz phrasing and global groove families without copying copyrighted lyrics/melodies, named artists, adult themes or cultural caricature. Rhyme may be paired, alternating, internal, family/near, assonant, consonant, refrain-tail, delayed-payoff or intentionally unrhymed; never bend grammar or stress for rhyme. Do not place A–Z in one mega-verse; use short sections, and if two rounds are used make Round 1 teach meaning while Round 2 retrieves/acts with a predictable gap. Low-familiarity targets get teach-then-sing/narrow-contour treatment. For Suno/AI-music handoff, write a performance blueprint, not merely genre + instruments: specify voice/diction, groove/tempo, melodic contour, opening behavior, Round-1 delivery, chorus behavior, Round-2 cue/gap response, target-word mix protection, arrangement/energy arc, signature color and ending. Prompted behavior is not proof; L1 must verify stress, intelligibility, gaps, density and mix. Prefer local section repair for localized provider failures. Before READY_FOR_GENERATION_TEST, reject severe accidental template monotony, generic-tail saturation, repetitive `Point and say` Round 2 behavior, generic repeated intros across adjacent catalog songs, or style prompts that differ only by instrument swaps.
 ```
 
 ---

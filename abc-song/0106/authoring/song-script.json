@@ -1,0 +1,534 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "lines": [
+    {
+      "id": "intro-1",
+      "sectionId": "intro",
+      "text": "Come explore art studio with me!",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
+      "id": "intro-2",
+      "sectionId": "intro",
+      "text": "Art studio—A-B-C!",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-A",
+      "sectionId": "r1-a-d",
+      "text": "A shows Art Board on our art-studio table.",
+      "targetId": "A",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-B",
+      "sectionId": "r1-a-d",
+      "text": "B shows Bead on our art-studio table.",
+      "targetId": "B",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-C",
+      "sectionId": "r1-a-d",
+      "text": "C shows Crayon on our art-studio table.",
+      "targetId": "C",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-D",
+      "sectionId": "r1-a-d",
+      "text": "D shows Dot Marker on our art-studio table.",
+      "targetId": "D",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-E",
+      "sectionId": "r1-e-h",
+      "text": "E shows Easel on our art-studio table.",
+      "targetId": "E",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-F",
+      "sectionId": "r1-e-h",
+      "text": "F shows Felt on our art-studio table.",
+      "targetId": "F",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-G",
+      "sectionId": "r1-e-h",
+      "text": "G shows Glitter on our art-studio table.",
+      "targetId": "G",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-H",
+      "sectionId": "r1-e-h",
+      "text": "H shows Hole Punch on our art-studio table.",
+      "targetId": "H",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "chorus-r1-2-1",
+      "sectionId": "chorus-r1-2",
+      "text": "Art studio—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-2-2",
+      "sectionId": "chorus-r1-2",
+      "text": "Shapes and colors, paint with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-I",
+      "sectionId": "r1-i-l",
+      "text": "I shows Ink on our art-studio table.",
+      "targetId": "I",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-J",
+      "sectionId": "r1-i-l",
+      "text": "J shows Jewel Sticker on our art-studio table.",
+      "targetId": "J",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-K",
+      "sectionId": "r1-i-l",
+      "text": "K shows Knitting Needle on our art-studio table.",
+      "targetId": "K",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-L",
+      "sectionId": "r1-i-l",
+      "text": "L shows Loom on our art-studio table.",
+      "targetId": "L",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-M",
+      "sectionId": "r1-m-p",
+      "text": "M shows Modeling Clay on our art-studio table.",
+      "targetId": "M",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-N",
+      "sectionId": "r1-m-p",
+      "text": "N shows Notebook on our art-studio table.",
+      "targetId": "N",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-O",
+      "sectionId": "r1-m-p",
+      "text": "O shows Origami on our art-studio table.",
+      "targetId": "O",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-P",
+      "sectionId": "r1-m-p",
+      "text": "P shows Paint on our art-studio table.",
+      "targetId": "P",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "chorus-r1-4-1",
+      "sectionId": "chorus-r1-4",
+      "text": "Art studio—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-4-2",
+      "sectionId": "chorus-r1-4",
+      "text": "Shapes and colors, paint with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-Q",
+      "sectionId": "r1-q-t",
+      "text": "Q shows Quilt Square on our art-studio table.",
+      "targetId": "Q",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-R",
+      "sectionId": "r1-q-t",
+      "text": "R shows Ribbon on our art-studio table.",
+      "targetId": "R",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-S",
+      "sectionId": "r1-q-t",
+      "text": "S shows Scissors on our art-studio table.",
+      "targetId": "S",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-T",
+      "sectionId": "r1-q-t",
+      "text": "T shows Tape on our art-studio table.",
+      "targetId": "T",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-U",
+      "sectionId": "r1-u-x",
+      "text": "U shows Unfinished Wood on our art-studio table.",
+      "targetId": "U",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-V",
+      "sectionId": "r1-u-x",
+      "text": "V shows Velvet Paper on our art-studio table.",
+      "targetId": "V",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-W",
+      "sectionId": "r1-u-x",
+      "text": "W shows Watercolor on our art-studio table.",
+      "targetId": "W",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-X",
+      "sectionId": "r1-u-x",
+      "text": "X shows Xylophone Stamp on our art-studio table.",
+      "targetId": "X",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "chorus-r1-6-1",
+      "sectionId": "chorus-r1-6",
+      "text": "Art studio—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-6-2",
+      "sectionId": "chorus-r1-6",
+      "text": "Shapes and colors, paint with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r1-Y",
+      "sectionId": "r1-y-z",
+      "text": "Y shows Yellow Paint on our art-studio table.",
+      "targetId": "Y",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r1-Z",
+      "sectionId": "r1-y-z",
+      "text": "Z shows Zipper Craft on our art-studio table.",
+      "targetId": "Z",
+      "objective": "lexical-semantic",
+      "objectReveal": "line-start"
+    },
+    {
+      "id": "r2-A",
+      "sectionId": "r2-a-d",
+      "text": "A ... Art Board! Point when you are able.",
+      "targetId": "A",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-B",
+      "sectionId": "r2-a-d",
+      "text": "B ... Bead! Point when you are able.",
+      "targetId": "B",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-C",
+      "sectionId": "r2-a-d",
+      "text": "C ... Crayon! Point when you are able.",
+      "targetId": "C",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-D",
+      "sectionId": "r2-a-d",
+      "text": "D ... Dot Marker! Point when you are able.",
+      "targetId": "D",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-E",
+      "sectionId": "r2-e-h",
+      "text": "E ... Easel! Point when you are able.",
+      "targetId": "E",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-F",
+      "sectionId": "r2-e-h",
+      "text": "F ... Felt! Point when you are able.",
+      "targetId": "F",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-G",
+      "sectionId": "r2-e-h",
+      "text": "G ... Glitter! Point when you are able.",
+      "targetId": "G",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-H",
+      "sectionId": "r2-e-h",
+      "text": "H ... Hole Punch! Point when you are able.",
+      "targetId": "H",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "chorus-r2-2-1",
+      "sectionId": "chorus-r2-2",
+      "text": "Art studio—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-2-2",
+      "sectionId": "chorus-r2-2",
+      "text": "Shapes and colors, paint with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r2-I",
+      "sectionId": "r2-i-l",
+      "text": "I ... Ink! Point when you are able.",
+      "targetId": "I",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-J",
+      "sectionId": "r2-i-l",
+      "text": "J ... Jewel Sticker! Point when you are able.",
+      "targetId": "J",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-K",
+      "sectionId": "r2-i-l",
+      "text": "K ... Knitting Needle! Point when you are able.",
+      "targetId": "K",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-L",
+      "sectionId": "r2-i-l",
+      "text": "L ... Loom! Point when you are able.",
+      "targetId": "L",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-M",
+      "sectionId": "r2-m-p",
+      "text": "M ... Modeling Clay! Point when you are able.",
+      "targetId": "M",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-N",
+      "sectionId": "r2-m-p",
+      "text": "N ... Notebook! Point when you are able.",
+      "targetId": "N",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-O",
+      "sectionId": "r2-m-p",
+      "text": "O ... Origami! Point when you are able.",
+      "targetId": "O",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-P",
+      "sectionId": "r2-m-p",
+      "text": "P ... Paint! Point when you are able.",
+      "targetId": "P",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "chorus-r2-4-1",
+      "sectionId": "chorus-r2-4",
+      "text": "Art studio—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-4-2",
+      "sectionId": "chorus-r2-4",
+      "text": "Shapes and colors, paint with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r2-Q",
+      "sectionId": "r2-q-t",
+      "text": "Q ... Quilt Square! Point when you are able.",
+      "targetId": "Q",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-R",
+      "sectionId": "r2-q-t",
+      "text": "R ... Ribbon! Point when you are able.",
+      "targetId": "R",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-S",
+      "sectionId": "r2-q-t",
+      "text": "S ... Scissors! Point when you are able.",
+      "targetId": "S",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-T",
+      "sectionId": "r2-q-t",
+      "text": "T ... Tape! Point when you are able.",
+      "targetId": "T",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-U",
+      "sectionId": "r2-u-x",
+      "text": "U ... Unfinished Wood! Point when you are able.",
+      "targetId": "U",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-V",
+      "sectionId": "r2-u-x",
+      "text": "V ... Velvet Paper! Point when you are able.",
+      "targetId": "V",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-W",
+      "sectionId": "r2-u-x",
+      "text": "W ... Watercolor! Point when you are able.",
+      "targetId": "W",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-X",
+      "sectionId": "r2-u-x",
+      "text": "X ... Xylophone Stamp! Point when you are able.",
+      "targetId": "X",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "chorus-r2-6-1",
+      "sectionId": "chorus-r2-6",
+      "text": "Art studio—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-6-2",
+      "sectionId": "chorus-r2-6",
+      "text": "Shapes and colors, paint with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "r2-Y",
+      "sectionId": "r2-y-z",
+      "text": "Y ... Yellow Paint! Point when you are able.",
+      "targetId": "Y",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "r2-Z",
+      "sectionId": "r2-y-z",
+      "text": "Z ... Zipper Craft! Point when you are able.",
+      "targetId": "Z",
+      "objective": "retrieval-action",
+      "objectReveal": "target-word"
+    },
+    {
+      "id": "outro-1",
+      "sectionId": "outro",
+      "text": "Art studio—A-B-C!",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
+      "id": "outro-2",
+      "sectionId": "outro",
+      "text": "Great pointing, great saying—A to Z!",
+      "objective": "narration",
+      "objectReveal": "none"
+    }
+  ]
+}

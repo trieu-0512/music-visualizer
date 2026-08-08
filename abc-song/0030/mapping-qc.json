@@ -1,0 +1,21 @@
+{
+  "songId": "0030",
+  "theme": "Canopy & River",
+  "macroDomain": "Jungle & Rainforest",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "U -> Uakari: support-required, verify-pronunciation",
+    "Z -> Zingiber Plant: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 20,
+    "B": 5,
+    "C": 1
+  },
+  "riskCounts": {
+    "support-required": 1,
+    "verify-pronunciation": 1,
+    "guided-theme-fallback-review": 1
+  }
+}

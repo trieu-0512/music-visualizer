@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Watercraft World",
+  "globalStyle": "friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Airboat",
+      "prompt": "Preschool source-composite extraction image for letter A and Airboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase A on the left and exactly one clear Airboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Buoy",
+      "prompt": "Preschool source-composite extraction image for letter B and Buoy. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase B on the left and exactly one clear Buoy on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Catamaran",
+      "prompt": "Preschool source-composite extraction image for letter C and Catamaran. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase C on the left and exactly one clear Catamaran on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dock",
+      "prompt": "Preschool source-composite extraction image for letter D and Dock. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase D on the left and exactly one clear Dock on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Engine",
+      "prompt": "Preschool source-composite extraction image for letter E and Engine. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase E on the left and exactly one clear Engine on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Ferry",
+      "prompt": "Preschool source-composite extraction image for letter F and Ferry. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase F on the left and exactly one clear Ferry on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Gondola",
+      "prompt": "Preschool source-composite extraction image for letter G and Gondola. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase G on the left and exactly one clear Gondola on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Houseboat",
+      "prompt": "Preschool source-composite extraction image for letter H and Houseboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase H on the left and exactly one clear Houseboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Island Ferry",
+      "prompt": "Preschool source-composite extraction image for letter I and Island Ferry. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase I on the left and exactly one clear Island Ferry on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jet Ski",
+      "prompt": "Preschool source-composite extraction image for letter J and Jet Ski. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase J on the left and exactly one clear Jet Ski on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Keel",
+      "prompt": "Preschool source-composite extraction image for letter K and Keel. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase K on the left and exactly one clear Keel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lighthouse",
+      "prompt": "Preschool source-composite extraction image for letter L and Lighthouse. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase L on the left and exactly one clear Lighthouse on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Motorboat",
+      "prompt": "Preschool source-composite extraction image for letter M and Motorboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase M on the left and exactly one clear Motorboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Navigation Light",
+      "prompt": "Preschool source-composite extraction image for letter N and Navigation Light. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase N on the left and exactly one clear Navigation Light on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Ocean Liner",
+      "prompt": "Preschool source-composite extraction image for letter O and Ocean Liner. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase O on the left and exactly one clear Ocean Liner on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Paddleboat",
+      "prompt": "Preschool source-composite extraction image for letter P and Paddleboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase P on the left and exactly one clear Paddleboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quarterdeck",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quarterdeck. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase Q on the left and exactly one clear Quarterdeck on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Rescue Boat",
+      "prompt": "Preschool source-composite extraction image for letter R and Rescue Boat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase R on the left and exactly one clear Rescue Boat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Sailboat",
+      "prompt": "Preschool source-composite extraction image for letter S and Sailboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase S on the left and exactly one clear Sailboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Trimaran",
+      "prompt": "Preschool source-composite extraction image for letter T and Trimaran. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase T on the left and exactly one clear Trimaran on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Underwater Scooter",
+      "prompt": "Preschool source-composite extraction image for letter U and Underwater Scooter. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase U on the left and exactly one clear Underwater Scooter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vessel",
+      "prompt": "Preschool source-composite extraction image for letter V and Vessel. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase V on the left and exactly one clear Vessel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Water Taxi",
+      "prompt": "Preschool source-composite extraction image for letter W and Water Taxi. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase W on the left and exactly one clear Water Taxi on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "X-ray Sonar Screen",
+      "prompt": "Preschool source-composite extraction image for letter X and X-ray Sonar Screen. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase X on the left and exactly one clear X-ray Sonar Screen on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yacht",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yacht. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase Y on the left and exactly one clear Yacht on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zodiac Boat",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zodiac Boat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z. Show one large stylized uppercase Z on the left and exactly one clear Zodiac Boat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "range": "0101-0110",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "maxLyricSimilarity": 0.1659,
+  "mostSimilarPair": [
+    "0102",
+    "0103"
+  ],
+  "songsDetail": [
+    {
+      "songId": "0101",
+      "theme": "Classroom Supplies",
+      "targetLines": 52,
+      "lyricWordCount": 537,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0102",
+      "theme": "School Learning Tools",
+      "targetLines": 52,
+      "lyricWordCount": 538,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0103",
+      "theme": "School Day",
+      "targetLines": 52,
+      "lyricWordCount": 511,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0104",
+      "theme": "Classroom Learning",
+      "targetLines": 52,
+      "lyricWordCount": 617,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0105",
+      "theme": "Classroom Activities",
+      "targetLines": 52,
+      "lyricWordCount": 529,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0106",
+      "theme": "Art Studio",
+      "targetLines": 52,
+      "lyricWordCount": 511,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0107",
+      "theme": "Colors & Crafts",
+      "targetLines": 52,
+      "lyricWordCount": 620,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0108",
+      "theme": "Drawing & Painting",
+      "targetLines": 52,
+      "lyricWordCount": 622,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0109",
+      "theme": "Creative Tools",
+      "targetLines": 52,
+      "lyricWordCount": 551,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0110",
+      "theme": "Make & Create",
+      "targetLines": 52,
+      "lyricWordCount": 564,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

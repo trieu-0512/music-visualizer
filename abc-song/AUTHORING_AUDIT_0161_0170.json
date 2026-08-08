@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "range": "0161-0170",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "maxLyricSimilarity": 0.0705,
+  "mostSimilarPair": [
+    "0162",
+    "0164"
+  ],
+  "songsDetail": [
+    {
+      "songId": "0161",
+      "theme": "Around the House",
+      "targetLines": 52,
+      "lyricWordCount": 634,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0162",
+      "theme": "Home Rooms & Things",
+      "targetLines": 52,
+      "lyricWordCount": 557,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0163",
+      "theme": "Everyday Home",
+      "targetLines": 52,
+      "lyricWordCount": 545,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0164",
+      "theme": "Home Helpers & Objects",
+      "targetLines": 52,
+      "lyricWordCount": 597,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0165",
+      "theme": "Cozy House",
+      "targetLines": 52,
+      "lyricWordCount": 575,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0166",
+      "theme": "Clothes & Accessories",
+      "targetLines": 52,
+      "lyricWordCount": 588,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0167",
+      "theme": "Getting Dressed",
+      "targetLines": 52,
+      "lyricWordCount": 649,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0168",
+      "theme": "Shoes Hats & Coats",
+      "targetLines": 52,
+      "lyricWordCount": 493,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0169",
+      "theme": "Wardrobe World",
+      "targetLines": 52,
+      "lyricWordCount": 529,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0170",
+      "theme": "Clothes for Weather",
+      "targetLines": 52,
+      "lyricWordCount": 610,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

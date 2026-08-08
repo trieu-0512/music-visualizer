@@ -1,0 +1,25 @@
+{
+  "songId": "0104",
+  "theme": "Classroom Learning",
+  "macroDomain": "School & Classroom",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "J -> Jigsaw Map: safety-context-only",
+    "K -> Knowledge Card: visual-clarity-review",
+    "Q -> Quiz Card: guided-theme-fallback-review",
+    "S -> Stapler: safety-context-only",
+    "X -> X-axis Graph: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zero Card: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 9,
+    "A": 17
+  },
+  "riskCounts": {
+    "safety-context-only": 2,
+    "visual-clarity-review": 1,
+    "guided-theme-fallback-review": 3,
+    "verify-pronunciation": 1
+  }
+}

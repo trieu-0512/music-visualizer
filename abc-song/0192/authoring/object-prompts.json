@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Lab & Machines",
+  "globalStyle": "friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Atom Model",
+      "prompt": "Preschool source-composite extraction image for letter A and Atom Model. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase A on the left and exactly one clear Atom Model on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Beaker",
+      "prompt": "Preschool source-composite extraction image for letter B and Beaker. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase B on the left and exactly one clear Beaker on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Circuit",
+      "prompt": "Preschool source-composite extraction image for letter C and Circuit. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase C on the left and exactly one clear Circuit on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dynamo",
+      "prompt": "Preschool source-composite extraction image for letter D and Dynamo. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase D on the left and exactly one clear Dynamo on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Electromagnet",
+      "prompt": "Preschool source-composite extraction image for letter E and Electromagnet. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase E on the left and exactly one clear Electromagnet on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fuse",
+      "prompt": "Preschool source-composite extraction image for letter F and Fuse. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase F on the left and exactly one clear Fuse on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Gear",
+      "prompt": "Preschool source-composite extraction image for letter G and Gear. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase G on the left and exactly one clear Gear on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Headset",
+      "prompt": "Preschool source-composite extraction image for letter H and Headset. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase H on the left and exactly one clear Headset on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Insulator",
+      "prompt": "Preschool source-composite extraction image for letter I and Insulator. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase I on the left and exactly one clear Insulator on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jumper Wire",
+      "prompt": "Preschool source-composite extraction image for letter J and Jumper Wire. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase J on the left and exactly one clear Jumper Wire on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Keyboard",
+      "prompt": "Preschool source-composite extraction image for letter K and Keyboard. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase K on the left and exactly one clear Keyboard on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lab Coat",
+      "prompt": "Preschool source-composite extraction image for letter L and Lab Coat. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase L on the left and exactly one clear Lab Coat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Microscope",
+      "prompt": "Preschool source-composite extraction image for letter M and Microscope. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase M on the left and exactly one clear Microscope on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Notebook",
+      "prompt": "Preschool source-composite extraction image for letter N and Notebook. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase N on the left and exactly one clear Notebook on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Optical Sensor",
+      "prompt": "Preschool source-composite extraction image for letter O and Optical Sensor. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase O on the left and exactly one clear Optical Sensor on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Processor",
+      "prompt": "Preschool source-composite extraction image for letter P and Processor. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase P on the left and exactly one clear Processor on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quantum Model",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quantum Model. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase Q on the left and exactly one clear Quantum Model on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Resistor",
+      "prompt": "Preschool source-composite extraction image for letter R and Resistor. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase R on the left and exactly one clear Resistor on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Sensor",
+      "prompt": "Preschool source-composite extraction image for letter S and Sensor. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase S on the left and exactly one clear Sensor on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Test Tube",
+      "prompt": "Preschool source-composite extraction image for letter T and Test Tube. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase T on the left and exactly one clear Test Tube on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "USB Cable",
+      "prompt": "Preschool source-composite extraction image for letter U and USB Cable. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase U on the left and exactly one clear USB Cable on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Voltmeter",
+      "prompt": "Preschool source-composite extraction image for letter V and Voltmeter. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase V on the left and exactly one clear Voltmeter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Wheel",
+      "prompt": "Preschool source-composite extraction image for letter W and Wheel. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase W on the left and exactly one clear Wheel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "X-axis Plotter",
+      "prompt": "Preschool source-composite extraction image for letter X and X-axis Plotter. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase X on the left and exactly one clear X-axis Plotter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yoke Robot",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yoke Robot. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase Y on the left and exactly one clear Yoke Robot on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zero-gravity Robot",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zero-gravity Robot. friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC. Show one large stylized uppercase Z on the left and exactly one clear Zero-gravity Robot on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

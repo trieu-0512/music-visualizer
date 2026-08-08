@@ -1,0 +1,25 @@
+{
+  "songId": "0053",
+  "theme": "Rockets & Astronauts",
+  "macroDomain": "Space & Astronomy",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Krypton Tank: support-required, verify-pronunciation",
+    "Q -> Quasar: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "U -> Universe: visual-clarity-review",
+    "X -> Xenon Thruster: guided-theme-fallback-review",
+    "Z -> Zodiac Chart: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 8,
+    "C": 2
+  },
+  "riskCounts": {
+    "support-required": 2,
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 3,
+    "visual-clarity-review": 1
+  }
+}

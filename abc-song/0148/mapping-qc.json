@@ -1,0 +1,29 @@
+{
+  "songId": "0148",
+  "theme": "Builders at Work",
+  "macroDomain": "Construction & Tools",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "A -> Auger: safety-context-only",
+    "D -> Drill: safety-context-only",
+    "I -> I-beam: verify-pronunciation",
+    "J -> Jackhammer: safety-context-only",
+    "K -> Keyhole Saw: safety-context-only",
+    "P -> Pliers: safety-context-only",
+    "Q -> Quick Clamp: guided-theme-fallback-review",
+    "S -> Saw: safety-context-only",
+    "U -> Utility Knife: safety-context-only",
+    "X -> X-brace: verify-pronunciation",
+    "Z -> Zip Tie: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 19,
+    "B": 7
+  },
+  "riskCounts": {
+    "safety-context-only": 7,
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 2
+  }
+}

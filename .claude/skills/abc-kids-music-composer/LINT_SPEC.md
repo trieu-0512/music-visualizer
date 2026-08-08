@@ -105,6 +105,18 @@ Repeated chorus/refrain instances must point to the same canonical identity unle
 
 Each target learning line belongs to exactly one section occurrence. Prevent accidental duplicated/missing letters caused by editing.
 
+### H-SEC-005 — intro/opening template diversity
+
+For multi-song catalog work, flag adjacent songs that repeatedly open with the same generic invitation skeleton (for example `Come explore THEME with me`) unless a deliberate series format requires it.
+
+Use a diverse opening palette: cold-open hook, question/mystery, movement pickup, scene drop, sound-image, spoken/chant pickup, countdown/ritual, character/guide POV, or instrument-first entry.
+
+### H-SEC-006 — catalog form diversity
+
+For a creative catalog batch, do not reuse one identical macro form automatically merely because all songs teach A-Z. Compare meaningful form variables such as chorus/refrain placement within each round, mid-song interlude/turnaround presence, opening type, and ending behavior.
+
+A fixed series ritual is allowed, but nearby songs should not all feel like the same arrangement with nouns swapped. As a working 10-song batch heuristic, fewer than about 6 distinct chorus/interlude layouts deserves review. This is a catalog creative heuristic, not a pedagogical hard gate.
+
 ## Generation-facing lyrics
 
 ### D-LYR-001 — technical prose separation
@@ -129,20 +141,74 @@ The list is extensible; context/pronunciation notes may resolve a flag.
 
 Repeated letters must be represented as separate tokens/events, not concatenated forms such as `AAA`.
 
-### H-LYR-004 — physical line density
+### H-LYR-004 — phraselet-aware density
 
-Default warning when a physical letter line exceeds roughly:
+Do **not** warn merely because a physical line exceeds 12 words or 14 syllables. Physical line length is not the governing metric.
+
+Evaluate the sung event as phraselets:
 
 ```text
-12 sung words
-14 sung syllables
+natural stress
+number of phraselets
+planned bars/rests
+breath point
+semantic load
+provider rushing risk
 ```
 
-Allow up to ~16 syllables only with an explicit natural internal pause/phraselet. This is a heuristic, not a hard fail by itself.
+Warnings:
+
+- long line with no explicit natural internal pause/phraselet plan;
+- multiple low-familiarity targets or competing ideas packed into one line;
+- wording that requires rapid syllable compression to fit the section's groove;
+- repeated evidence that the provider skips/rushes comparable late-section lines.
+
+Short lines are also valid and should not be padded merely to match neighboring lines.
 
 ### D-LYR-005 — target presence
 
 Each target block must explicitly contain the intended target letter and target word in the generation-facing learning content unless the section is a deliberate retrieval cue whose confirmation occurs immediately after the gap.
+
+### H-LYR-006 — syntactic template monotony
+
+For catalog-quality creative songs, normalize target/object tokens and inspect Round-1 sentence skeletons.
+
+Warn when one non-deliberate full sentence skeleton dominates the great majority of target lines, especially when 20+ of 26 lines differ only by `{letter}` / `{object}` substitution.
+
+Exact repetition is allowed when the section explicitly declares chant/refrain repetition as the hook mechanism.
+
+### H-LYR-007 — generic-tail saturation
+
+Warn when a generic suffix such as `in our world today`, `on our explorer trail`, or equivalent appears across many unrelated objects without adding object-specific meaning.
+
+A repeated tail may pass when it is a deliberate refrain and semantically fits every line.
+
+### H-LYR-008 — target-entry palette
+
+For creative/adaptive songs, prefer a coherent palette of roughly 3–6 target-entry families across A–Z rather than one fixed frame or 26 unrelated forms.
+
+Examples include direct naming, repeated-letter chant, `is for`, question-answer, action-first, object-first inversion, and narrative entry.
+
+Warn when:
+
+- one frame is used almost everywhere without declared chant intent; or
+- syntax changes so randomly that the child cannot predict where letter/word targets arrive.
+
+### H-LYR-009 — line-shape monotony
+
+Warn when nearly every target line has the same word count, phraselet count, and cadence **and** there is no deliberate chant/meter reason.
+
+Creative songs should normally contain intentional short/medium/long or pickup/downbeat contrast while preserving a recognizable motif family.
+
+### H-LYR-010 — semantic-tail quality
+
+Round-1 lexical-semantic lines should preferably use object-conditioned verbs, functions, locations, sensory details, or simple visible facts. Warn when most lines contain only generic theme filler and teach no additional meaning beyond the noun.
+
+### H-LYR-011 — semantic follow-up monotony
+
+Target-entry variation is not enough if nearly every semantic continuation restarts with the same pronoun or discourse frame. For a 26-target creative round, a very high concentration such as about 22+ lines restarting the second sentence with `It ...` deserves REWORK unless that repetition is an intentional chant device.
+
+Mix natural reinforcement forms: repeat the noun when useful, use a pronoun continuation on other lines, or restructure the target entry so the semantic fact lands in a different grammatical shape. Do not add empty transition phrases merely to game this check.
 
 ## Rhyme and rhythm
 
@@ -154,11 +220,25 @@ For song-format preschool learning sections, require an explicit rhyme mode:
 paired
 alternating
 internal
+mixed-internal-phraselet
 refrain-driven
 intentionally-unrhymed
 ```
 
-When `intentionally-unrhymed` is used, require a concrete semantic/prosody/pronunciation/phonics justification. Do not accept accidental prose as a declared rhyme strategy.
+When `intentionally-unrhymed` is used, require a concrete semantic/prosody/pronunciation/phonics justification. Do not accept accidental prose as a declared rhyme strategy. For catalog-quality preschool song work, a fully unrhymed lexical round is an exception rather than the default: prefer audible rhyme-bearing moments elsewhere in the learning verse when they can preserve meaning and target clarity.
+
+### H-RHY-000A — audible rhyme presence in learning verses
+
+A declared rhyme architecture is not enough if the child cannot hear any rhyme in the actual lexical-learning lines. For a 26-target catalog-quality Round 1, normally require repeated audible rhyme-bearing events distributed through the round. Rhyme may land at line endings, internally, or across phraselets separated by a deliberate bar/rest marker such as `|`.
+
+Useful shapes:
+
+```text
+TARGET early | rhyme-bearing semantic phraselet
+TARGET + phraselet A | phraselet B with a natural rhyme payoff
+```
+
+Do not force the mapped object itself to rhyme. Never distort pronunciation, lexical stress, grammar, or object meaning just to create a rhyme. Rhyme-count is only a review signal: a verse may use fewer explicit rhymes when melody, cadence, repetition, imagery, alliteration, groove, or another mnemonic device makes it musical. **Never rewrite a good line merely to increase a rhyme count.**
 
 ### D-RHY-001 — scheme completeness
 
@@ -260,11 +340,38 @@ If the provider/user specifies a character limit, the style prompt must fit it e
 
 Warn when the prompt stacks many synonymous descriptors or too many instruments; clarity and delivery instructions take priority.
 
+### H-STY-004 — performance-blueprint completeness
+
+For a full Suno/AI-music generation handoff, warn when the style prompt is only genre + mood + instrument names and omits the song's important performance behavior.
+
+When relevant, include a compact subset of:
+
+```text
+voice/diction
+meter/groove + tempo
+melodic contour/range
+opening behavior
+Round-1 delivery
+chorus behavior
+Round-2 cue/gap response
+target-word mix protection
+arrangement/energy arc
+ending behavior
+```
+
+Do not require irrelevant fields. Prompted behavior remains `PENDING AUDIO` until realized.
+
+### H-STY-005 — catalog style-fingerprint diversity
+
+Across nearby songs, warn when style prompts differ only by swapping one or two instruments while sharing the same groove, opening, vocal behavior, chorus function, Round-1 phrasing, and Round-2 grammar.
+
+Series voice/brand consistency is allowed; creative differentiation should come from meaningful musical/section behavior rather than adjective churn.
+
 ## Generation length
 
 ### H-LEN-001 — global risk
 
-Global word count is a risk signal, not an educational hard fail. For a single Suno-style generation, very long lyrics—especially around/above ~800 sung words—require explicit risk handling.
+Global word count is a provider-risk signal, not a songwriting score. Do not warn merely because a song is around 800 words. Review local density, breathing, phrase structure, and actual provider behavior. Only substantially longer drafts or observed compression/skipping need length-driven repair.
 
 ## Runtime handoff lint
 

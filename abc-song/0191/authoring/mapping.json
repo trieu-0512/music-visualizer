@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Science & Robots",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Android",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Battery",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "C": {
+      "object": "Circuit",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dynamo",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Experiment Tube",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Flask",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goggles",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Headset",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Indicator Light",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jet Robot",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kit",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Laser",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "M": {
+      "object": "Motor",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Notebook",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oscilloscope",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "P": {
+      "object": "Pipette",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Q": {
+      "object": "Quantum Model",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Robot",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sensor",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Test Tube",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Ultrasonic Sensor",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Vacuum Tube",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wheel",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Image",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoke Robot",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zero-gravity Robot",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

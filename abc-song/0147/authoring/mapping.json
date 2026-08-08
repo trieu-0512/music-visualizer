@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Tools & Machines",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Axe",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "B": {
+      "object": "Bolt",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crane",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dozer",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Extension Ladder",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Framing Hammer",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "G": {
+      "object": "Goggles",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hammer",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "I": {
+      "object": "I-beam",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "J": {
+      "object": "Jackhammer",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "K": {
+      "object": "Kneepad",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Level",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Measuring Tape",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nut",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oil Can",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Plywood",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quoin Brick",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Rivet",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Saw",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "T": {
+      "object": "Toolbox",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utility Knife",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "V": {
+      "object": "Vise",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wrench",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-brace",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Vest",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zinc Screw",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

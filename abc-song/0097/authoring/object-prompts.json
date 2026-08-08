@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Bread & Pastries",
+  "globalStyle": "bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Apple Pie",
+      "prompt": "Preschool source-composite extraction image for letter A and Apple Pie. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase A on the left and exactly one clear Apple Pie on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Bread",
+      "prompt": "Preschool source-composite extraction image for letter B and Bread. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase B on the left and exactly one clear Bread on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Cupcake",
+      "prompt": "Preschool source-composite extraction image for letter C and Cupcake. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase C on the left and exactly one clear Cupcake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Danish",
+      "prompt": "Preschool source-composite extraction image for letter D and Danish. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase D on the left and exactly one clear Danish on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Egg Tart",
+      "prompt": "Preschool source-composite extraction image for letter E and Egg Tart. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase E on the left and exactly one clear Egg Tart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fruitcake",
+      "prompt": "Preschool source-composite extraction image for letter F and Fruitcake. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase F on the left and exactly one clear Fruitcake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Gingerbread",
+      "prompt": "Preschool source-composite extraction image for letter G and Gingerbread. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase G on the left and exactly one clear Gingerbread on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Honey Bun",
+      "prompt": "Preschool source-composite extraction image for letter H and Honey Bun. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase H on the left and exactly one clear Honey Bun on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Ice Cream",
+      "prompt": "Preschool source-composite extraction image for letter I and Ice Cream. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase I on the left and exactly one clear Ice Cream on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jam Tart",
+      "prompt": "Preschool source-composite extraction image for letter J and Jam Tart. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase J on the left and exactly one clear Jam Tart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kaiser Roll",
+      "prompt": "Preschool source-composite extraction image for letter K and Kaiser Roll. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase K on the left and exactly one clear Kaiser Roll on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lemon Tart",
+      "prompt": "Preschool source-composite extraction image for letter L and Lemon Tart. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase L on the left and exactly one clear Lemon Tart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Muffin",
+      "prompt": "Preschool source-composite extraction image for letter M and Muffin. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase M on the left and exactly one clear Muffin on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Napoleon Pastry",
+      "prompt": "Preschool source-composite extraction image for letter N and Napoleon Pastry. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase N on the left and exactly one clear Napoleon Pastry on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Orange Cake",
+      "prompt": "Preschool source-composite extraction image for letter O and Orange Cake. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase O on the left and exactly one clear Orange Cake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Pie",
+      "prompt": "Preschool source-composite extraction image for letter P and Pie. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase P on the left and exactly one clear Pie on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quiche",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quiche. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase Q on the left and exactly one clear Quiche on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Raisin Bread",
+      "prompt": "Preschool source-composite extraction image for letter R and Raisin Bread. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase R on the left and exactly one clear Raisin Bread on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Scone",
+      "prompt": "Preschool source-composite extraction image for letter S and Scone. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase S on the left and exactly one clear Scone on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Tart",
+      "prompt": "Preschool source-composite extraction image for letter T and Tart. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase T on the left and exactly one clear Tart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Upside-down Cake",
+      "prompt": "Preschool source-composite extraction image for letter U and Upside-down Cake. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase U on the left and exactly one clear Upside-down Cake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vanilla Cake",
+      "prompt": "Preschool source-composite extraction image for letter V and Vanilla Cake. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase V on the left and exactly one clear Vanilla Cake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Waffle",
+      "prompt": "Preschool source-composite extraction image for letter W and Waffle. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase W on the left and exactly one clear Waffle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "X-shaped Pretzel",
+      "prompt": "Preschool source-composite extraction image for letter X and X-shaped Pretzel. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase X on the left and exactly one clear X-shaped Pretzel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yule Log",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yule Log. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase Y on the left and exactly one clear Yule Log on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zucchini Bread",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zucchini Bread. bright 3D bread-and-pastry storybook, golden crusts and soft pastel bakery colors, clean isolated baked goods. Show one large stylized uppercase Z on the left and exactly one clear Zucchini Bread on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

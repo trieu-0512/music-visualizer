@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "range": "0001-0100",
+  "songs": 100,
+  "songsWithErrors": 0,
+  "songsWithWarnings": 0,
+  "uniqueHooks": 100,
+  "uniqueStyles": 100,
+  "uniqueLyrics": 100,
+  "duplicateHookGroups": [],
+  "duplicateStyleGroups": [],
+  "duplicateLyricGroups": [],
+  "maxAuthoringFingerprintSimilarity": 0.7826,
+  "mostSimilarFingerprintPair": [
+    "0056",
+    "0079"
+  ],
+  "fingerprintReviewThreshold": 0.82,
+  "nearFingerprintPairs": [],
+  "failures": [],
+  "warnings": []
+}

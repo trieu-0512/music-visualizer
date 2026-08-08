@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Coast Explorer",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anchor",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Buoy",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crab",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dolphin",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eel",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fish",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gull",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harbor",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Island",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jetty",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kayak",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lagoon",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Manatee",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nautilus",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oyster",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pufferfish",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen Angelfish",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Reef",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Seal",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Turtle",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Undersea Cave",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vessel",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wave",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Tetra",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellowfin Tuna",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zooplankton",
+      "familiarityTier": "A"
+    }
+  }
+}

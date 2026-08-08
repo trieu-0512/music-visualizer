@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Cakes & Cookies",
+  "globalStyle": "colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Angel Cake",
+      "prompt": "Preschool source-composite extraction image for letter A and Angel Cake. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase A on the left and exactly one clear Angel Cake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Bread",
+      "prompt": "Preschool source-composite extraction image for letter B and Bread. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase B on the left and exactly one clear Bread on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Cookie",
+      "prompt": "Preschool source-composite extraction image for letter C and Cookie. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase C on the left and exactly one clear Cookie on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Donut",
+      "prompt": "Preschool source-composite extraction image for letter D and Donut. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase D on the left and exactly one clear Donut on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Eclair",
+      "prompt": "Preschool source-composite extraction image for letter E and Eclair. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase E on the left and exactly one clear Eclair on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Frosting",
+      "prompt": "Preschool source-composite extraction image for letter F and Frosting. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase F on the left and exactly one clear Frosting on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Glaze",
+      "prompt": "Preschool source-composite extraction image for letter G and Glaze. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase G on the left and exactly one clear Glaze on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Hot Cross Bun",
+      "prompt": "Preschool source-composite extraction image for letter H and Hot Cross Bun. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase H on the left and exactly one clear Hot Cross Bun on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Ice Cream",
+      "prompt": "Preschool source-composite extraction image for letter I and Ice Cream. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase I on the left and exactly one clear Ice Cream on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jam Tart",
+      "prompt": "Preschool source-composite extraction image for letter J and Jam Tart. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase J on the left and exactly one clear Jam Tart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kolache",
+      "prompt": "Preschool source-composite extraction image for letter K and Kolache. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase K on the left and exactly one clear Kolache on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lemon Tart",
+      "prompt": "Preschool source-composite extraction image for letter L and Lemon Tart. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase L on the left and exactly one clear Lemon Tart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Macaron",
+      "prompt": "Preschool source-composite extraction image for letter M and Macaron. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase M on the left and exactly one clear Macaron on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Nut Bread",
+      "prompt": "Preschool source-composite extraction image for letter N and Nut Bread. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase N on the left and exactly one clear Nut Bread on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Orange Cake",
+      "prompt": "Preschool source-composite extraction image for letter O and Orange Cake. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase O on the left and exactly one clear Orange Cake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Pretzel",
+      "prompt": "Preschool source-composite extraction image for letter P and Pretzel. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase P on the left and exactly one clear Pretzel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Queen Cake",
+      "prompt": "Preschool source-composite extraction image for letter Q and Queen Cake. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase Q on the left and exactly one clear Queen Cake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Raisin Bread",
+      "prompt": "Preschool source-composite extraction image for letter R and Raisin Bread. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase R on the left and exactly one clear Raisin Bread on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Scone",
+      "prompt": "Preschool source-composite extraction image for letter S and Scone. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase S on the left and exactly one clear Scone on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Toast",
+      "prompt": "Preschool source-composite extraction image for letter T and Toast. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase T on the left and exactly one clear Toast on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Upside-down Cake",
+      "prompt": "Preschool source-composite extraction image for letter U and Upside-down Cake. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase U on the left and exactly one clear Upside-down Cake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vanilla Cake",
+      "prompt": "Preschool source-composite extraction image for letter V and Vanilla Cake. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase V on the left and exactly one clear Vanilla Cake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Wholegrain Bread",
+      "prompt": "Preschool source-composite extraction image for letter W and Wholegrain Bread. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase W on the left and exactly one clear Wholegrain Bread on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "X-shaped Pretzel",
+      "prompt": "Preschool source-composite extraction image for letter X and X-shaped Pretzel. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase X on the left and exactly one clear X-shaped Pretzel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yeast Roll",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yeast Roll. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase Y on the left and exactly one clear Yeast Roll on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zebra Cake",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zebra Cake. colorful 3D cakes-and-cookies storybook, playful icing colors, simple serving table, clear single-item foregrounds. Show one large stylized uppercase Z on the left and exactly one clear Zebra Cake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

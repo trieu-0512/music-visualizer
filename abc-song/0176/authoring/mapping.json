@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Feelings & Faces",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Affection Heart",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "B": {
+      "object": "Bashful Bunny",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Calm Cloud",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Disappointed Face",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Excited Eyes",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Friendship Bracelet",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "G": {
+      "object": "Gentle Hands",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Happy Face",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Inside Voice",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "J": {
+      "object": "Jealous Face",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kind Hands",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Love Letter",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mad Face",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Note of Thanks",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "O": {
+      "object": "Optimism Sun",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "P": {
+      "object": "Proud Star",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Question Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Relaxation Pillow",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Sharing Box",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Thank-you Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "U": {
+      "object": "Understanding Heart",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Voice Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "W": {
+      "object": "Worry Box",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "XOXO Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Card",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Breath Card",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0002",
+  "theme": {
+    "name": "Sea Life & Shores",
+    "semanticFocus": "Sea Life & Shores",
+    "macroDomain": "Ocean & Coast",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Anchor"
+    },
+    "B": {
+      "object": "Boat"
+    },
+    "C": {
+      "object": "Coral"
+    },
+    "D": {
+      "object": "Dock"
+    },
+    "E": {
+      "object": "Estuary"
+    },
+    "F": {
+      "object": "Flipper"
+    },
+    "G": {
+      "object": "Gull"
+    },
+    "H": {
+      "object": "Harbor"
+    },
+    "I": {
+      "object": "Isopod"
+    },
+    "J": {
+      "object": "Jellyfish"
+    },
+    "K": {
+      "object": "Kelp"
+    },
+    "L": {
+      "object": "Lagoon"
+    },
+    "M": {
+      "object": "Manatee"
+    },
+    "N": {
+      "object": "Narwhal"
+    },
+    "O": {
+      "object": "Oyster"
+    },
+    "P": {
+      "object": "Pufferfish"
+    },
+    "Q": {
+      "object": "Quahog"
+    },
+    "R": {
+      "object": "Reef"
+    },
+    "S": {
+      "object": "Seahorse"
+    },
+    "T": {
+      "object": "Turtle"
+    },
+    "U": {
+      "object": "Urchin"
+    },
+    "V": {
+      "object": "Vessel"
+    },
+    "W": {
+      "object": "Whale"
+    },
+    "X": {
+      "object": "X-ray Fish"
+    },
+    "Y": {
+      "object": "Yellowfin Tuna"
+    },
+    "Z": {
+      "object": "Zooplankton"
+    }
+  }
+}

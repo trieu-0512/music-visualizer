@@ -1,0 +1,25 @@
+{
+  "songId": "0087",
+  "theme": "Cooking Tools & Ingredients",
+  "macroDomain": "Food & Kitchen",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "F -> Frying Pan: safety-context-only",
+    "K -> Kettle: safety-context-only",
+    "Q -> Quart Cup: guided-theme-fallback-review",
+    "X -> X-shaped Cookie Cutter: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zester: safety-context-only"
+  ],
+  "tierCounts": {
+    "A": 20,
+    "B": 5,
+    "C": 1
+  },
+  "riskCounts": {
+    "safety-context-only": 3,
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

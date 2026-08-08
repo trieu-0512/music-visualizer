@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Pet Shop Day",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Aquarium",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bowl",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Collar",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dog",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Exercise Wheel",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fish",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Guinea Pig",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hamster",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iguana",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jingle Ball",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kibble",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Litter Box",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mouse",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Outdoor Kennel",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Perch",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rope Toy",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Seed Mix",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Turtle",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "UV Lamp",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vet Kit",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wheel",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone Toy",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Canary",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zip Carrier",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

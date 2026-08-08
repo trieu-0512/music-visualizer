@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Baking Day",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple Pie",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Brownie",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cookie",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Donut",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eclair",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Frosting",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gingerbread",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Honey Bun",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Icing",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jelly Donut",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kolache",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lemon Tart",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Muffin",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nut Bread",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Orange Cake",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pie",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen Cake",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Raisin Bread",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Sprinkles",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tart",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ube Roll",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vanilla Cake",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wholegrain Bread",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xmas Cookie",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yule Log",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zucchini Bread",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Clothes & Accessories",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anorak",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Belt",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Coat",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Denim Jacket",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Earmuffs",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flip-flops",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "G": {
+      "object": "Gown",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hat",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Indoor Shoes",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jeans",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knit Cap",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Leggings",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Moccasins",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Necktie",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Overcoat",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pajamas",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quarter Socks",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Raincoat",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Socks",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "T-shirt",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "U": {
+      "object": "Ugg Boots",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Velcro Shoes",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wool Hat",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-shaped Suspenders",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Pants",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zori Sandals",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

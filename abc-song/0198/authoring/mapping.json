@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Seasonal Things",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "April Flower",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Beach Ball",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Cloud",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Daisy",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Evergreen",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Firework",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "G": {
+      "object": "Gloves",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Holly",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Icicle",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jacket",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knitted Scarf",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lantern",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "May Flower",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "October Pumpkin",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pumpkin",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Ribbon",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Snowman",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toboggan",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrella",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Valentine Card",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Watermelon",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Leaf",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zinnia",
+      "familiarityTier": "A"
+    }
+  }
+}

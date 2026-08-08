@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0152",
+  "theme": {
+    "name": "City Places",
+    "semanticFocus": "City Places",
+    "macroDomain": "City & Community",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Ambulance"
+    },
+    "B": {
+      "object": "Bakery"
+    },
+    "C": {
+      "object": "Crosswalk"
+    },
+    "D": {
+      "object": "Department Store"
+    },
+    "E": {
+      "object": "Exit Sign"
+    },
+    "F": {
+      "object": "Fountain"
+    },
+    "G": {
+      "object": "Grocery Store"
+    },
+    "H": {
+      "object": "Hospital"
+    },
+    "I": {
+      "object": "Intersection"
+    },
+    "J": {
+      "object": "Juice Shop"
+    },
+    "K": {
+      "object": "Kiosk"
+    },
+    "L": {
+      "object": "Laundromat"
+    },
+    "M": {
+      "object": "Mailbox"
+    },
+    "N": {
+      "object": "Neighborhood"
+    },
+    "O": {
+      "object": "Overpass"
+    },
+    "P": {
+      "object": "Park"
+    },
+    "Q": {
+      "object": "Queue"
+    },
+    "R": {
+      "object": "Road"
+    },
+    "S": {
+      "object": "School"
+    },
+    "T": {
+      "object": "Taxi"
+    },
+    "U": {
+      "object": "Underground Train"
+    },
+    "V": {
+      "object": "Van"
+    },
+    "W": {
+      "object": "Water Fountain"
+    },
+    "X": {
+      "object": "X-crossing"
+    },
+    "Y": {
+      "object": "Yoga Studio"
+    },
+    "Z": {
+      "object": "Zone Sign"
+    }
+  }
+}

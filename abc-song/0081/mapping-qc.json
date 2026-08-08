@@ -1,0 +1,23 @@
+{
+  "songId": "0081",
+  "theme": "Reptile & Amphibian World",
+  "macroDomain": "Reptiles & Amphibians",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Queensland Frog: guided-theme-fallback-review",
+    "U -> Urutu Snake: support-required, verify-pronunciation",
+    "Y -> Yellow-bellied Slider: support-required, verify-pronunciation",
+    "Z -> Zigzag Salamander: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 12,
+    "B": 12,
+    "C": 2
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 2,
+    "verify-pronunciation": 2
+  }
+}

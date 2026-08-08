@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Band & Orchestra",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Acoustic Guitar",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Bell",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Clarinet",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drum",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Euphonium",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flute",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gong",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harp",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Irish Whistle",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jingle Bells",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kazoo",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lute",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mandolin",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Note Card",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Organ",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Piano",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quena",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rhythm Sticks",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Saxophone",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trumpet",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ukulele",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Violin",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wood Block",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xaphoon",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yidaki",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zither",
+      "familiarityTier": "A"
+    }
+  }
+}

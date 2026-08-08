@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Wardrobe World",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boots",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cap",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dress",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Espadrilles",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "F": {
+      "object": "Fleece",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gown",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hoodie",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Indoor Shoes",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jeans",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knit Cap",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Leggings",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mittens",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nightgown",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Overcoat",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pajamas",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilted Jacket",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Raincoat",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scarf",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trainers",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Velcro Shoes",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wool Hat",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xmas Sweater",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Pants",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zori Sandals",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

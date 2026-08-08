@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Pond & River Life",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alder",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boat",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Catfish",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dam",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eel",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Frog",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Green Algae",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Heron",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iris",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "June Bug",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kingfisher",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lily Pad",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Muskrat",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Otter",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pond",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quillwort",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Reed",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Salamander",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trout",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underwater Plant",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vallisneria",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "W": {
+      "object": "Waterfall",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Tetra",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Water Lily",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zooplankton",
+      "familiarityTier": "A"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "range": "0071-0080",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "maxLyricSimilarity": 0.1503,
+  "mostSimilarPair": [
+    "0071",
+    "0074"
+  ],
+  "songsDetail": [
+    {
+      "songId": "0071",
+      "theme": "Pet Care",
+      "targetLines": 52,
+      "lyricWordCount": 497,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0072",
+      "theme": "Home Pets",
+      "targetLines": 52,
+      "lyricWordCount": 531,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0073",
+      "theme": "Pet Playtime",
+      "targetLines": 52,
+      "lyricWordCount": 569,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0074",
+      "theme": "Small Animal Friends",
+      "targetLines": 52,
+      "lyricWordCount": 540,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0075",
+      "theme": "Pet Shop Day",
+      "targetLines": 52,
+      "lyricWordCount": 546,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0076",
+      "theme": "Zoo Animals",
+      "targetLines": 52,
+      "lyricWordCount": 491,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0077",
+      "theme": "Safari Wildlife",
+      "targetLines": 52,
+      "lyricWordCount": 493,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0078",
+      "theme": "Animal Habitats",
+      "targetLines": 52,
+      "lyricWordCount": 515,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0079",
+      "theme": "Wild Animal World",
+      "targetLines": 52,
+      "lyricWordCount": 530,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0080",
+      "theme": "Zoo Explorer",
+      "targetLines": 52,
+      "lyricWordCount": 515,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

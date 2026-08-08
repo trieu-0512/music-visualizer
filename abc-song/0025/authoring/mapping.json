@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Autumn Forest",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Acorn",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Birch",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chipmunk",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Deer",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Evergreen",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fox",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grass",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hedgehog",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ivy",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Juniper",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knot",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lynx",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mushroom",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oak",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pine",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "River",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Spruce",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tree",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Upland Fern",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Violet",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wolf",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Warbler",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zebra Swallowtail",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

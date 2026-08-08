@@ -1,0 +1,21 @@
+{
+  "songId": "0156",
+  "theme": "Community Helpers",
+  "macroDomain": "Community Helpers",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quality Inspector: guided-theme-fallback-review, visual-clarity-review",
+    "X -> X-ray Technician: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zumba Instructor: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 10
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "visual-clarity-review": 1,
+    "verify-pronunciation": 1
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Shoes Hats & Coats",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anorak",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boots",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cap",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dress",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Earmuffs",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flip-flops",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "G": {
+      "object": "Gown",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hoodie",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Infinity Scarf",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jacket",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knit Cap",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lace-up Shoes",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "M": {
+      "object": "Moccasins",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nightgown",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Overall",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pajamas",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilted Jacket",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Running Shoes",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Socks",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trainers",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vest",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wellies",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xmas Sweater",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Jacket",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zipper Jacket",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

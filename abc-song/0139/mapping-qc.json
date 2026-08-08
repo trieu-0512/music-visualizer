@@ -1,0 +1,25 @@
+{
+  "songId": "0139",
+  "theme": "Planes & Helicopters",
+  "macroDomain": "Aircraft & Airport",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Kerosene Tank: safety-context-only",
+    "X -> X-ray Scanner: guided-theme-fallback-review, verify-pronunciation",
+    "Y -> Yellow Taxiway Sign: support-required, verify-pronunciation",
+    "Z -> Zero-gravity Plane: guided-theme-fallback-review, verify-pronunciation, visual-clarity-review"
+  ],
+  "tierCounts": {
+    "A": 15,
+    "B": 10,
+    "C": 1
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 2,
+    "verify-pronunciation": 3,
+    "support-required": 1,
+    "visual-clarity-review": 1
+  }
+}

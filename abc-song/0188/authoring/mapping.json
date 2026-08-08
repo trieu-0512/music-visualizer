@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Dragons Knights & Fairies",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Armor",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Broom",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crown",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dragon",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Enchanted Mirror",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fairy",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goblet",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harp",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice Palace",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jewel",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "King",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lute",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mermaid",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Noble Crown",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Owl",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Princess",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Royal Robe",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Shield",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tower",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Unicorn",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Velvet Cape",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wand",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-marked Treasure Map",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yarn",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zodiac Scroll",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

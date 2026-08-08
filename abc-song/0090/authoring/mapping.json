@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Tasty Kitchen",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Blender",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "C": {
+      "object": "Cutting Board",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Dish",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egg",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fork",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grater",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Honey",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice Tray",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Juicer",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knife",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Lemon",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mixer",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Noodles",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orange",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pancake",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiche",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rolling Pin",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Spatula",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toast",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Under-counter Drawer",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Vanilla",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Whisk",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yam",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zester",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    }
+  }
+}

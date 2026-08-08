@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Mountain Animals",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Aspen",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bighorn Sheep",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Cliff",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Douglas Fir",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Eagle",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fir",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glacier",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hawk",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ibex",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Juniper",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kettle Lake",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Ledge",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mountain",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Owl",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pine",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Ridge",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Summit",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trail",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Urial",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vulture",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Waterfall",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Bell",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Trail",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "songId": "0046",
+  "theme": "Weather Watch",
+  "macroDomain": "Weather & Sky",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "A -> Altocumulus: support-required, verify-pronunciation",
+    "B -> Breeze: visual-clarity-review",
+    "G -> Gust: visual-clarity-review",
+    "Q -> Quiet Sky: guided-theme-fallback-review, visual-clarity-review",
+    "U -> Updraft: visual-clarity-review",
+    "Z -> Zephyr: visual-clarity-review"
+  ],
+  "tierCounts": {
+    "C": 1,
+    "A": 20,
+    "B": 5
+  },
+  "riskCounts": {
+    "support-required": 1,
+    "verify-pronunciation": 1,
+    "visual-clarity-review": 5,
+    "guided-theme-fallback-review": 1
+  }
+}

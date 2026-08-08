@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0143",
+  "theme": {
+    "name": "Watercraft World",
+    "semanticFocus": "Watercraft World",
+    "macroDomain": "Boats & Harbor",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Airboat"
+    },
+    "B": {
+      "object": "Buoy"
+    },
+    "C": {
+      "object": "Catamaran"
+    },
+    "D": {
+      "object": "Dock"
+    },
+    "E": {
+      "object": "Engine"
+    },
+    "F": {
+      "object": "Ferry"
+    },
+    "G": {
+      "object": "Gondola"
+    },
+    "H": {
+      "object": "Houseboat"
+    },
+    "I": {
+      "object": "Island Ferry"
+    },
+    "J": {
+      "object": "Jet Ski"
+    },
+    "K": {
+      "object": "Keel"
+    },
+    "L": {
+      "object": "Lighthouse"
+    },
+    "M": {
+      "object": "Motorboat"
+    },
+    "N": {
+      "object": "Navigation Light"
+    },
+    "O": {
+      "object": "Ocean Liner"
+    },
+    "P": {
+      "object": "Paddleboat"
+    },
+    "Q": {
+      "object": "Quarterdeck"
+    },
+    "R": {
+      "object": "Rescue Boat"
+    },
+    "S": {
+      "object": "Sailboat"
+    },
+    "T": {
+      "object": "Trimaran"
+    },
+    "U": {
+      "object": "Underwater Scooter"
+    },
+    "V": {
+      "object": "Vessel"
+    },
+    "W": {
+      "object": "Water Taxi"
+    },
+    "X": {
+      "object": "X-ray Sonar Screen"
+    },
+    "Y": {
+      "object": "Yacht"
+    },
+    "Z": {
+      "object": "Zodiac Boat"
+    }
+  }
+}

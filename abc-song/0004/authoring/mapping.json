@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Ocean Nature & Travel",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anchor",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boat",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crab",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dolphin",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Estuary",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flipper",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grouper",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hermit Crab",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Island",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jetty",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kayak",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lobster",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Manatee",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nautilus",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Octopus",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pelican",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen Angelfish",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Ray",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Seal",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tidepool",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Urchin",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Violet Sea Snail",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "W": {
+      "object": "Whale",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Fish",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellowfin Tuna",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zooplankton",
+      "familiarityTier": "A"
+    }
+  }
+}

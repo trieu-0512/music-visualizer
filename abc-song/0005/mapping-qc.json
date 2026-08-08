@@ -1,0 +1,19 @@
+{
+  "songId": "0005",
+  "theme": "Coast Explorer",
+  "macroDomain": "Ocean & Coast",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Queen Angelfish: guided-theme-fallback-review",
+    "X -> X-ray Tetra: guided-theme-fallback-review, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 22,
+    "B": 4
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "verify-pronunciation": 1
+  }
+}

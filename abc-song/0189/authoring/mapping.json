@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Storybook Kingdom",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Broom",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crown",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dragon",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Elf",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Frog Prince",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Goblet",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harp",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ivy Tower",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jester",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "King",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lantern",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Magic Wand",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Noble Crown",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Ogre",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Princess",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Ring",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Spell Book",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Tower",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Unicorn",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Village",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wizard",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-marked Treasure Map",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Brick",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Path",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Celebrations & Seasons",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Acorn",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Blossom",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cloud",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Daisy",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Evergreen",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Firework",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "G": {
+      "object": "Gift",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hat",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice Skate",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "June Sun",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Knitted Scarf",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lantern",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mittens",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "October Pumpkin",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Picnic",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Ribbon",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sunflower",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tulip",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Under-sun Hat",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Valentine Card",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Watermelon",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xmas Bell",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yarn Scarf",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zip Coat",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

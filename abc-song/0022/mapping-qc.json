@@ -1,0 +1,19 @@
+{
+  "songId": "0022",
+  "theme": "Trees & Forest Floor",
+  "macroDomain": "Forest & Woodland",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quartz Rock: guided-theme-fallback-review",
+    "X -> Xeric Shrub: guided-theme-fallback-review",
+    "Z -> Zebra Swallowtail: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "B": 5
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3
+  }
+}

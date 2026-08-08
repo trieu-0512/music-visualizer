@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Healthy Produce",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Banana",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cherry",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Date",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Endive",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fennel",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Guava",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Horseradish",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iceberg Lettuce",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jalapeno",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kale",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lemon",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mango",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nectarine",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orange",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Peach",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quince",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Radish",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Spinach",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Turnip",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ugli Fruit",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vidalia Onion",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Watermelon",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xoconostle",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Pepper",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zinfandel Grape",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

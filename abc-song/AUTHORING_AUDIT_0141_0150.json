@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "range": "0141-0150",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "maxLyricSimilarity": 0.0528,
+  "mostSimilarPair": [
+    "0141",
+    "0144"
+  ],
+  "songsDetail": [
+    {
+      "songId": "0141",
+      "theme": "Boats & Harbor",
+      "targetLines": 52,
+      "lyricWordCount": 576,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0142",
+      "theme": "Sailing & Sea Travel",
+      "targetLines": 52,
+      "lyricWordCount": 595,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0143",
+      "theme": "Watercraft World",
+      "targetLines": 52,
+      "lyricWordCount": 533,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0144",
+      "theme": "Marina & Rescue Boats",
+      "targetLines": 52,
+      "lyricWordCount": 665,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0145",
+      "theme": "Boat Day",
+      "targetLines": 52,
+      "lyricWordCount": 633,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0146",
+      "theme": "Building Site",
+      "targetLines": 52,
+      "lyricWordCount": 717,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0147",
+      "theme": "Tools & Machines",
+      "targetLines": 52,
+      "lyricWordCount": 538,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0148",
+      "theme": "Builders at Work",
+      "targetLines": 52,
+      "lyricWordCount": 606,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0149",
+      "theme": "Construction Gear",
+      "targetLines": 52,
+      "lyricWordCount": 643,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0150",
+      "theme": "Build & Repair",
+      "targetLines": 52,
+      "lyricWordCount": 638,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

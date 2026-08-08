@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Garden Foods",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Banana",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Carrot",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Daikon",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Endive",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fennel",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grapes",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Honeydew",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Indian Fig",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jackfruit",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kiwi",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Leek",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mango",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Napa Cabbage",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Okra",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pumpkin",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quandong",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Raspberry",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Strawberry",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tomato",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ugli Fruit",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vanilla Bean",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Watermelon",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xoconostle",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Pepper",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zinfandel Grape",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

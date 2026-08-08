@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Getting Dressed",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boots",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Coat",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Denim Jacket",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Espadrilles",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "F": {
+      "object": "Fleece",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gloves",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hat",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Infinity Scarf",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jacket",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knee Socks",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lace-up Shoes",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "M": {
+      "object": "Mittens",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Necktie",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Overall",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Poncho",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quarter Socks",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Running Shoes",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Socks",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "T-shirt",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vest",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wool Hat",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xmas Sweater",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Pants",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zori Sandals",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

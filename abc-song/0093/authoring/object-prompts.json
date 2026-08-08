@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Market Produce",
+  "globalStyle": "bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Apricot",
+      "prompt": "Preschool source-composite extraction image for letter A and Apricot. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase A on the left and exactly one clear Apricot on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Banana",
+      "prompt": "Preschool source-composite extraction image for letter B and Banana. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase B on the left and exactly one clear Banana on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Cherry",
+      "prompt": "Preschool source-composite extraction image for letter C and Cherry. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase C on the left and exactly one clear Cherry on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Date",
+      "prompt": "Preschool source-composite extraction image for letter D and Date. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase D on the left and exactly one clear Date on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Eggplant",
+      "prompt": "Preschool source-composite extraction image for letter E and Eggplant. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase E on the left and exactly one clear Eggplant on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fig",
+      "prompt": "Preschool source-composite extraction image for letter F and Fig. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase F on the left and exactly one clear Fig on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Guava",
+      "prompt": "Preschool source-composite extraction image for letter G and Guava. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase G on the left and exactly one clear Guava on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Horseradish",
+      "prompt": "Preschool source-composite extraction image for letter H and Horseradish. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase H on the left and exactly one clear Horseradish on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Indian Fig",
+      "prompt": "Preschool source-composite extraction image for letter I and Indian Fig. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase I on the left and exactly one clear Indian Fig on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jackfruit",
+      "prompt": "Preschool source-composite extraction image for letter J and Jackfruit. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase J on the left and exactly one clear Jackfruit on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kale",
+      "prompt": "Preschool source-composite extraction image for letter K and Kale. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase K on the left and exactly one clear Kale on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Leek",
+      "prompt": "Preschool source-composite extraction image for letter L and Leek. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase L on the left and exactly one clear Leek on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Melon",
+      "prompt": "Preschool source-composite extraction image for letter M and Melon. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase M on the left and exactly one clear Melon on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Nectarine",
+      "prompt": "Preschool source-composite extraction image for letter N and Nectarine. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase N on the left and exactly one clear Nectarine on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Okra",
+      "prompt": "Preschool source-composite extraction image for letter O and Okra. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase O on the left and exactly one clear Okra on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Peach",
+      "prompt": "Preschool source-composite extraction image for letter P and Peach. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase P on the left and exactly one clear Peach on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quince",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quince. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase Q on the left and exactly one clear Quince on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Raspberry",
+      "prompt": "Preschool source-composite extraction image for letter R and Raspberry. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase R on the left and exactly one clear Raspberry on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Strawberry",
+      "prompt": "Preschool source-composite extraction image for letter S and Strawberry. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase S on the left and exactly one clear Strawberry on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Turnip",
+      "prompt": "Preschool source-composite extraction image for letter T and Turnip. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase T on the left and exactly one clear Turnip on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Ugli Fruit",
+      "prompt": "Preschool source-composite extraction image for letter U and Ugli Fruit. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase U on the left and exactly one clear Ugli Fruit on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vanilla Bean",
+      "prompt": "Preschool source-composite extraction image for letter V and Vanilla Bean. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase V on the left and exactly one clear Vanilla Bean on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Watercress",
+      "prompt": "Preschool source-composite extraction image for letter W and Watercress. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase W on the left and exactly one clear Watercress on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xoconostle",
+      "prompt": "Preschool source-composite extraction image for letter X and Xoconostle. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase X on the left and exactly one clear Xoconostle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yam",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yam. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase Y on the left and exactly one clear Yam on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zucchini",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zucchini. bright 3D produce-market storybook, neat baskets and stalls without readable signs, colorful isolated foods. Show one large stylized uppercase Z on the left and exactly one clear Zucchini on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

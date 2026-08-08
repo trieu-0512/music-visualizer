@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Sailing & Sea Travel",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anchor",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Buoy",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Canoe",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dinghy",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Echo Sounder",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fishing Boat",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Gangway",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harbor",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Island Ferry",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jet Ski",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kayak",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lighthouse",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Marina",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Narrowboat",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Ocean Liner",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pier",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quay",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rescue Boat",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Sailboat",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tugboat",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underwater Scooter",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vessel",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wake",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Sonar Screen",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yawl",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zephyr Sail",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

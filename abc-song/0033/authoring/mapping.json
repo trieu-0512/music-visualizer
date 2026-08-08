@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Desert Plants & Rocks",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Agave",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Beetle",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Camel",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dune",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eagle",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fox",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gila Monster",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Horned Lizard",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Iguana",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jackrabbit",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kestrel",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Limestone",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mesquite",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nighthawk",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oasis",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Prickly Pear",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rattlesnake",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scorpion",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tumbleweed",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Urial",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vulture",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wadi",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xerophyte",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yucca",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zebra Finch",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

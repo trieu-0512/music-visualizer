@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Colorful Foods",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Beet",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cherry",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Date",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eggplant",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fig",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grapes",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Honeydew",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iceberg Lettuce",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jalapeno",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kale",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Leek",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mango",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nectarine",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Okra",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pumpkin",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quince",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Raspberry",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Spinach",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tomato",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ulluco",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Vanilla Bean",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Watercress",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xigua",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Pepper",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zinfandel Grape",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

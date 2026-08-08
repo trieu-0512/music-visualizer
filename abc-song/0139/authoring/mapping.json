@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Planes & Helicopters",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Airplane",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boarding Pass",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Cargo Plane",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Drone",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Elevator Trim",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fuselage",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gate",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hangar",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Instrument Panel",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jetway",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kerosene Tank",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Landing Gear",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Monoplane",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nose Wheel",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Oxygen Mask",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Propeller",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quadcopter",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Runway",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Seaplane",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Turboprop",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ultralight",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Visor",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wing",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Scanner",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Taxiway Sign",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zero-gravity Plane",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

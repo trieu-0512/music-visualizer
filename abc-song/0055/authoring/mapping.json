@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Space Science",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Astronaut",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Black Hole",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Capsule",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dish Antenna",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Earth",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flag",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Galaxy",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Helmet",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "International Space Station",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "J": {
+      "object": "Jet Pack",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Krypton Tank",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "L": {
+      "object": "Lunar Rover",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Moon",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nebula",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Observatory",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Probe",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quasar",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Rover",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Spacesuit",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Telescope",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uranus",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Venus",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "White Dwarf",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-ray Telescope",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoke",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zero-gravity Chair",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Move & Feel",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Arm",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Back",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chin",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dimple",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eye",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Finger",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gum",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hand",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iris",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Joint",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knuckle",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lips",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mouth",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nose",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Outer Ear",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pupil",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quadriceps",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Retina",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Skin",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tongue",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Upper Arm",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Voice",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "W": {
+      "object": "Waist",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Y-shaped Bone Model",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zinc Bandage",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

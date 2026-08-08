@@ -1,0 +1,23 @@
+{
+  "songId": "0027",
+  "theme": "Tropical Jungle",
+  "macroDomain": "Jungle & Rainforest",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "E -> Emerald Tree Boa: support-required, verify-pronunciation",
+    "Q -> Queen Butterfly: guided-theme-fallback-review",
+    "X -> Xenops: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zingiber Plant: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 18,
+    "C": 2,
+    "B": 6
+  },
+  "riskCounts": {
+    "support-required": 2,
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 3
+  }
+}

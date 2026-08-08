@@ -1,0 +1,28 @@
+{
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
+  "status": "PASS",
+  "range": "0001-0010",
+  "songs": 10,
+  "songsWithErrors": 0,
+  "songsWithWarnings": 0,
+  "creativeAuditCoverageSongs": 10,
+  "staleBatchAudits": [],
+  "creativeReworkSongs": 0,
+  "creativeReworkSongIds": [],
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "uniqueLyrics": 10,
+  "duplicateHookGroups": [],
+  "duplicateStyleGroups": [],
+  "duplicateLyricGroups": [],
+  "maxAuthoringFingerprintSimilarity": 0.7855,
+  "mostSimilarFingerprintPair": [
+    "0006",
+    "0008"
+  ],
+  "fingerprintReviewThreshold": 0.82,
+  "nearFingerprintPairs": [],
+  "failures": [],
+  "warnings": []
+}

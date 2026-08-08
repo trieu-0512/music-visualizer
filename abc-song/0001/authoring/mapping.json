@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Ocean Animals & Coast",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Angelfish",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Buoy",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Coral",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dock",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eel",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fish",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grouper",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harbor",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Island",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jetty",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kayak",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lobster",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mussel",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Narwhal",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Octopus",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pelican",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quahog",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Ray",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Seahorse",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Turtle",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Undersea Cave",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Violet Sea Snail",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "W": {
+      "object": "Whale",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Tetra",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellowfin Tuna",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zooplankton",
+      "familiarityTier": "A"
+    }
+  }
+}

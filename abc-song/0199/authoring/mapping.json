@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Year-Round Fun",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Acorn",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Beach Ball",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Cloud",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Daisy",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Easter Egg",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fallen Leaf",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Gloves",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Holly",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice Skate",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "June Sun",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Knitted Scarf",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Leaf",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mittens",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Ornament",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pumpkin",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Raincoat",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sunflower",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toboggan",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrella",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Violet",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wreath",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yarn Scarf",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zip Coat",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

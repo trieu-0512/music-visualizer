@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Healthy Body",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Ankle",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Belly",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chin",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dimple",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eye",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Finger",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grip",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Heart",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Incisor",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jaw",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knuckle",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lips",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Muscle",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nose",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Outer Ear",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Palm",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quadriceps",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Retina",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Shoulder",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toe",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uvula",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Voice",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "W": {
+      "object": "Waist",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xiphoid Bone",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yawn",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zygomatic Bone",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

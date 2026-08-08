@@ -1,0 +1,84 @@
+{
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
+  "status": "PASS_WITH_REVIEW",
+  "range": "0001-0050",
+  "songs": 50,
+  "songsWithErrors": 0,
+  "songsWithWarnings": 4,
+  "creativeAuditCoverageSongs": 50,
+  "staleBatchAudits": [],
+  "creativeReworkSongs": 0,
+  "creativeReworkSongIds": [],
+  "uniqueHooks": 50,
+  "uniqueStyles": 50,
+  "uniqueLyrics": 50,
+  "duplicateHookGroups": [],
+  "duplicateStyleGroups": [],
+  "duplicateLyricGroups": [],
+  "maxAuthoringFingerprintSimilarity": 0.8662,
+  "mostSimilarFingerprintPair": [
+    "0021",
+    "0041"
+  ],
+  "fingerprintReviewThreshold": 0.82,
+  "nearFingerprintPairs": [
+    {
+      "similarity": 0.8662,
+      "a": "0021",
+      "b": "0041"
+    },
+    {
+      "similarity": 0.8588,
+      "a": "0018",
+      "b": "0023"
+    },
+    {
+      "similarity": 0.8516,
+      "a": "0016",
+      "b": "0021"
+    },
+    {
+      "similarity": 0.8497,
+      "a": "0016",
+      "b": "0041"
+    },
+    {
+      "similarity": 0.831,
+      "a": "0031",
+      "b": "0033"
+    },
+    {
+      "similarity": 0.8214,
+      "a": "0018",
+      "b": "0043"
+    }
+  ],
+  "failures": [],
+  "warnings": [
+    {
+      "songId": "CATALOG",
+      "warnings": [
+        "batch 0011-0020 requires design review"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "warnings": [
+        "batch 0021-0030 requires design review"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "warnings": [
+        "batch 0031-0040 requires design review"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "warnings": [
+        "batch 0041-0050 requires design review"
+      ]
+    }
+  ]
+}

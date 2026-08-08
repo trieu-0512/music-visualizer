@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Future Science",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Atom Model",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Battery",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "C": {
+      "object": "Computer",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drone",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Experiment Tube",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Flask",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gear",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Headset",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Indicator Light",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jet Robot",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kit",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lab Coat",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Microscope",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nut",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Optical Sensor",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Processor",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "QR Code",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Resistor",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Switch",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Test Tube",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Ultrasonic Sensor",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Voltmeter",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "W": {
+      "object": "Wire",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Image",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoke Robot",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zero-gravity Robot",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

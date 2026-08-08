@@ -1,0 +1,63 @@
+{
+  "songId": "0042",
+  "title": "Peaks and Valleys A-Z",
+  "theme": "Peaks & Valleys",
+  "mappingRevision": 1,
+  "tempoBpm": 84,
+  "motifFamily": "peak-valley",
+  "hook": [
+    "Peaks up high—A-B-C!",
+    "Valleys low—come sing with me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "two supportive beats for retrieval",
+  "visualStyle": "soft 3D peaks-and-valleys storybook, blue mountains and green valleys, rounded nature shapes, uncluttered",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "rise-fall movement pickup",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "is-for",
+      "question-answer",
+      "narrative"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "refrain-driven",
+    "pointOfView": "a trail observer following echoes, slopes, alpine plants and wildlife",
+    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
+    "grooveMeter": "gentle 6/8 sway",
+    "round1Grammar": "Round 1 follows rise-and-fall imagery, rock, trail, trees and wildlife, with natural breath between longer phrases.",
+    "round2Grammar": "Round 2 uses echo-like cue-gap-answer timing and one safe gesture tied to slope, flight, walking, shape or plant movement.",
+    "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. small echo responses after targets, with acoustic walking pulse",
+    "signatureColor": "small echo responses after targets, with acoustic walking pulse",
+    "chorusAfterRound1": [
+      3,
+      6
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 19,
+    "usedRound1": 10,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

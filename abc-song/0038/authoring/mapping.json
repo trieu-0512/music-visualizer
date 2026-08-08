@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Frozen Ocean",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Auk",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Beluga",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cod",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dog Sled",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Eider",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fur Seal",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Glacier",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Husky",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Icefish",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jaeger",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kittiwake",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lynx",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Murre",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Narwhal",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Owl",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Polar Bear",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Qajaq",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Ringed Seal",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Snowy Owl",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Tern",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umiak",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vole",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Whale",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Fish",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yak",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zooplankton",
+      "familiarityTier": "A"
+    }
+  }
+}

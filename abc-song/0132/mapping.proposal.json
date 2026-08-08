@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0132",
+  "theme": {
+    "name": "Railway World",
+    "semanticFocus": "Railway World",
+    "macroDomain": "Trains & Stations",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Arrival Board"
+    },
+    "B": {
+      "object": "Boxcar"
+    },
+    "C": {
+      "object": "Caboose"
+    },
+    "D": {
+      "object": "Dining Car"
+    },
+    "E": {
+      "object": "Engine"
+    },
+    "F": {
+      "object": "Footbridge"
+    },
+    "G": {
+      "object": "Goods Wagon"
+    },
+    "H": {
+      "object": "High-speed Train"
+    },
+    "I": {
+      "object": "Information Board"
+    },
+    "J": {
+      "object": "Junction"
+    },
+    "K": {
+      "object": "Kiosk"
+    },
+    "L": {
+      "object": "Level Crossing"
+    },
+    "M": {
+      "object": "Metro"
+    },
+    "N": {
+      "object": "Number Sign"
+    },
+    "O": {
+      "object": "Observation Car"
+    },
+    "P": {
+      "object": "Passenger Car"
+    },
+    "Q": {
+      "object": "Queue Barrier"
+    },
+    "R": {
+      "object": "Railway Signal"
+    },
+    "S": {
+      "object": "Subway"
+    },
+    "T": {
+      "object": "Ticket"
+    },
+    "U": {
+      "object": "Underground Train"
+    },
+    "V": {
+      "object": "Viaduct"
+    },
+    "W": {
+      "object": "Wagon"
+    },
+    "X": {
+      "object": "X-crossing Sign"
+    },
+    "Y": {
+      "object": "Yellow Signal"
+    },
+    "Z": {
+      "object": "Zone Map"
+    }
+  }
+}

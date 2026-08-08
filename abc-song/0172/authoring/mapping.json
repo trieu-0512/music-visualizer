@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Body & Senses",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Arm",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Belly",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cheek",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Digestive System",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Elbow",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Foot",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gum",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hand",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Incisor",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jaw",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knee",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lips",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mouth",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nail",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Outer Ear",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pupil",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quick Pulse",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Retina",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Shoulder",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tongue",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uvula",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Voice",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "W": {
+      "object": "Wrist",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xiphoid Bone",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Y-shaped Bone Model",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zinc Bandage",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

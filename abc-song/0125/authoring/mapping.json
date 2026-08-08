@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Playground Sports",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Archery Target",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Bicycle",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cricket Bat",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Dumbbell",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Exercise Mat",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Football",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goal",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hoop",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inline Skates",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jersey",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kayak",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lane Marker",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Medal",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Net",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Obstacle",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Puck",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quoits Ring",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Relay Baton",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Skateboard",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tennis Ball",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Unicycle",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Volleyball",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Water Bottle",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-shaped Agility Marker",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Jersey",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Cone",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

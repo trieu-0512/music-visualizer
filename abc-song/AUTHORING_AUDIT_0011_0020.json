@@ -1,0 +1,428 @@
+{
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
+  "status": "PASS_WITH_REVIEW",
+  "range": "0011-0020",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 23,
+  "designReworkSongs": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "uniqueSectionForms": 7,
+  "uniqueCreativeFingerprints": 10,
+  "maxLyricSimilarity": 0.0766,
+  "mostSimilarPair": [
+    "0011",
+    "0016"
+  ],
+  "batchWarnings": [],
+  "songsDetail": [
+    {
+      "songId": "0011",
+      "theme": "Farm Animals",
+      "targetLines": 52,
+      "lyricWordCount": 819,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "is-for",
+        "narrative-or-other",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "C",
+        "E",
+        "K",
+        "M",
+        "O",
+        "Q",
+        "W"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0012",
+      "theme": "Barn & Fields",
+      "targetLines": 52,
+      "lyricWordCount": 869,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "C",
+        "E",
+        "G",
+        "Q",
+        "W"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          7
+        ],
+        "round2ChorusAfter": [
+          3,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 has only 5/26 explicit rhyme-bearing phraselets; review by ear whether the verse still feels musical",
+        "Round 1 chunk IJKL has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk MNOP has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0013",
+      "theme": "Farm Tools & Crops",
+      "targetLines": 52,
+      "lyricWordCount": 896,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "C",
+        "E",
+        "K",
+        "M",
+        "Q"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 has only 5/26 explicit rhyme-bearing phraselets; review by ear whether the verse still feels musical",
+        "Round 1 chunk UVWX has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0014",
+      "theme": "Country Farm Life",
+      "targetLines": 52,
+      "lyricWordCount": 829,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "is-for",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "C",
+        "E",
+        "K",
+        "O",
+        "Q",
+        "S",
+        "W"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          6
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0015",
+      "theme": "Harvest & Orchard",
+      "targetLines": 52,
+      "lyricWordCount": 841,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "direct-letter-object",
+        "narrative-or-other",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "C",
+        "E",
+        "G",
+        "K",
+        "Q",
+        "S"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5
+        ],
+        "round2ChorusAfter": [
+          3,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk MNOP has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk UVWX has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0016",
+      "theme": "Garden Plants",
+      "targetLines": 52,
+      "lyricWordCount": 818,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "is-for",
+        "narrative-or-other",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "I",
+        "Q",
+        "S",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          6
+        ],
+        "round2ChorusAfter": [
+          3,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk EFGH has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk MNOP has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk UVWX has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0017",
+      "theme": "Flowers & Bugs",
+      "targetLines": 52,
+      "lyricWordCount": 788,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "C",
+        "I",
+        "M",
+        "O",
+        "Q",
+        "S",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          5
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk EFGH has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0018",
+      "theme": "Garden Equipment",
+      "targetLines": 52,
+      "lyricWordCount": 811,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "I",
+        "O",
+        "S",
+        "U",
+        "W"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk EFGH has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0019",
+      "theme": "Vegetables & Seeds",
+      "targetLines": 52,
+      "lyricWordCount": 810,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "is-for",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "I",
+        "M",
+        "S",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          7
+        ],
+        "round2ChorusAfter": [
+          3,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 has only 5/26 explicit rhyme-bearing phraselets; review by ear whether the verse still feels musical",
+        "Round 1 chunk ABCD has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk EFGH has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0020",
+      "theme": "Backyard Garden",
+      "targetLines": 52,
+      "lyricWordCount": 834,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "direct-letter-object",
+        "narrative-or-other",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "I",
+        "M",
+        "O",
+        "S",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk ABCD has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk EFGH has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    }
+  ]
+}

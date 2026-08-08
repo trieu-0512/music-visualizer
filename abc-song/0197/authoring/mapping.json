@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Weather & Seasons",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Acorn",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Beach Ball",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Costume",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drum",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Easter Egg",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fallen Leaf",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Gift",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hat",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Icicle",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jacket",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kite",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lantern",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mittens",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "New Year Clock",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "O": {
+      "object": "October Pumpkin",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Picnic",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiet Snow",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Ribbon",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Snowman",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tulip",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrella",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Valentine Card",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wreath",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yarn Scarf",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zip Coat",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

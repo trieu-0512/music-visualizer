@@ -1,0 +1,63 @@
+{
+  "songId": "0006",
+  "title": "Ripple River ABC",
+  "theme": "Pond & River Life",
+  "mappingRevision": 1,
+  "tempoBpm": 84,
+  "motifFamily": "ripple-folk",
+  "hook": [
+    "Ripple, ripple—A-B-C!",
+    "River words come back to me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "two-beat supportive pause before target",
+  "visualStyle": "gentle freshwater 3D storybook, lily greens and river blues, friendly wildlife, soft rounded forms, clear isolated subjects",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "ripple onomatopoeia",
+    "targetEntryFamilies": [
+      "direct",
+      "is-for",
+      "object-first",
+      "question-answer",
+      "narrative"
+    ],
+    "lineLengthContour": [
+      "medium",
+      "long",
+      "short",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "quiet observer following a ripple from pond edge into the river",
+    "chorusFunction": "flowing memory refrain with gentle rise and fall",
+    "grooveMeter": "relaxed 6/8 river folk",
+    "round1Grammar": "facts flow as two-phrase lines around occasional short labels; difficult plant names stay deliberate",
+    "round2Grammar": "two-beat supportive gap then action tied to swimming, growing, flowing or shape",
+    "sectionContrast": "Round 1 acoustic and pizzicato; chorus adds glockenspiel shimmer; Round 2 leaves woodblock pulse and voice",
+    "signatureColor": "pizzicato ripple followed by one soft bell",
+    "chorusAfterRound1": [
+      2,
+      5,
+      7
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": true,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 26,
+    "usedRound1": 13,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

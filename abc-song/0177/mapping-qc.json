@@ -1,0 +1,29 @@
+{
+  "songId": "0177",
+  "theme": "Friendship & Kindness",
+  "macroDomain": "Feelings & Friendship",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "G -> Gratitude Jar: visual-clarity-review",
+    "I -> Interest Card: visual-clarity-review",
+    "K -> Kindness Card: visual-clarity-review",
+    "N -> Note of Thanks: support-required, verify-pronunciation",
+    "P -> Patience Timer: visual-clarity-review",
+    "Q -> Question Card: guided-theme-fallback-review",
+    "R -> Respect Badge: visual-clarity-review",
+    "T -> Thank-you Card: verify-pronunciation",
+    "X -> Xylophone Calm Toy: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zigzag Breath Card: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "B": 23,
+    "C": 3
+  },
+  "riskCounts": {
+    "visual-clarity-review": 5,
+    "support-required": 3,
+    "verify-pronunciation": 4,
+    "guided-theme-fallback-review": 3
+  }
+}

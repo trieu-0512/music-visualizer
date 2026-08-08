@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "My Body",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Ankle",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Back",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cheek",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Digestive System",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Eye",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Finger",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grip",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hand",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iris",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Joint",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knuckle",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Leg",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Muscle",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nail",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Organ",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Palm",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quick Pulse",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rib",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Shoulder",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tongue",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Upper Arm",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vision",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "W": {
+      "object": "Wrist",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Y-shaped Bone Model",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zinc Bandage",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "songId": "0043",
+  "theme": "Alpine Nature",
+  "macroDomain": "Mountains",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Kettle Lake: safety-context-only",
+    "X -> Xeric Shrub: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 22,
+    "B": 4
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 1
+  }
+}

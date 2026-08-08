@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Tropical Jungle",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anaconda",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Banana",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chameleon",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drongo",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Emerald Tree Boa",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "F": {
+      "object": "Frog",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gorilla",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hornbill",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Insect",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jaguar",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kapok Tree",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Liana",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Monkey",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nectar Bat",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Ocelot",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Palm",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen Butterfly",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rattan",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Snake",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toucan",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrella Leaf",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vine",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Waterfall",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xenops",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Anaconda",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zingiber Plant",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

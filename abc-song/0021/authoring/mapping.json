@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Woodland Animals",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Aspen",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Birch",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cedar",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Douglas Fir",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Evergreen",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fox",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grouse",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hedgehog",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ivy",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Juniper",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knot",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Log",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Maple",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Newt",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Owl",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pinecone",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quartz Rock",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rabbit",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Squirrel",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tree",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Upland Fern",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vine",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Woodpecker",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Warbler",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zebra Swallowtail",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

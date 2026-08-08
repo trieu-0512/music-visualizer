@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Sharing & Caring",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Angry Face",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Brave Badge",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Caring Card",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Delight Star",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "E": {
+      "object": "Emotion Cards",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Feelings Wheel",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Gentle Hands",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Heart",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inside Voice",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "J": {
+      "object": "Jealous Face",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kind Hands",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Love Letter",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mood Meter",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nervous Face",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Optimism Sun",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "P": {
+      "object": "Proud Star",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quiet Corner",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Relaxation Pillow",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Smile",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tired Face",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Upset Face",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Voice Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "W": {
+      "object": "Worry Box",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xylophone Calm Toy",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Card",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Breath Card",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

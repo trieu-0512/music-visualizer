@@ -1,0 +1,63 @@
+{
+  "songId": "0031",
+  "title": "Desert Tracks ABC",
+  "theme": "Desert Animals",
+  "mappingRevision": 1,
+  "tempoBpm": 88,
+  "motifFamily": "desert-step",
+  "hook": [
+    "Follow the tracks—A-B-C!",
+    "Desert friends walk on with me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "one clear beat before target",
+  "visualStyle": "sunny 3D desert storybook, sand gold and sky blue, friendly wildlife, soft cactus shapes, crisp isolated subjects",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "footprint mystery",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "is-for",
+      "question-answer",
+      "narrative"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "a gentle field-guide walk following tracks, shade, plants and desert wildlife",
+    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
+    "grooveMeter": "light 4/4 bounce",
+    "round1Grammar": "Round 1 uses heat, shade, tracks, spines, stone and animal motion as concrete images, with short lines beside longer scene phrases.",
+    "round2Grammar": "Round 2 uses short search cues, one recall beat and a safe motion—step, glide, point, spread, trace or sway.",
+    "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. dry shaker footsteps and sparse marimba echoes with open space",
+    "signatureColor": "dry shaker footsteps and sparse marimba echoes with open space",
+    "chorusAfterRound1": [
+      3,
+      5
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 15,
+    "usedRound1": 9,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

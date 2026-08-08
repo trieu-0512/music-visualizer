@@ -1,0 +1,62 @@
+{
+  "songId": "0002",
+  "title": "Shoreline ABC",
+  "theme": "Sea Life & Shores",
+  "mappingRevision": 1,
+  "tempoBpm": 90,
+  "motifFamily": "shore-skip",
+  "hook": [
+    "Shoreline letters, one-two-three!",
+    "Name the coast from A to Z!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "brief predictable pause before the answer",
+  "visualStyle": "cheerful coastal storybook 3D, sandy shore plus blue water accents, rounded toy-like forms, crisp silhouettes",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "shoreline question",
+    "targetEntryFamilies": [
+      "object-first",
+      "action-first",
+      "letter-led",
+      "question-answer",
+      "direct"
+    ],
+    "lineLengthContour": [
+      "medium",
+      "short",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "child beachcomber naming what appears at the shoreline",
+    "chorusFunction": "name-the-coast refrain, never phonics language",
+    "grooveMeter": "gentle 6/8 surf sway",
+    "round1Grammar": "mix object-first discoveries, spot/find cues and direct letter naming with concrete coast facts",
+    "round2Grammar": "search cue, brief gap, answer, then one small gesture",
+    "sectionContrast": "Round 1 guitar-forward and airy; chorus adds glockenspiel; Round 2 strips to bass pulse and hand taps",
+    "signatureColor": "soft surf-guitar upstroke with glockenspiel answer",
+    "chorusAfterRound1": [
+      3,
+      7
+    ],
+    "chorusAfterRound2": [
+      3,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 26,
+    "usedRound1": 13,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

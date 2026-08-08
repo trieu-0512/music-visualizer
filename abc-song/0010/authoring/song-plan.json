@@ -1,0 +1,63 @@
+{
+  "songId": "0010",
+  "title": "Riverbank Explorer A-Z",
+  "theme": "Riverbank Explorer",
+  "mappingRevision": 1,
+  "tempoBpm": 89,
+  "motifFamily": "river-walk",
+  "hook": [
+    "Step by step beside the stream!",
+    "A to Z—name what we've seen!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "one-beat cue gap before answer",
+  "visualStyle": "warm 3D riverbank explorer storybook, golden afternoon light, river blues, natural greens, clear toy-like subjects",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "walking-step count-in",
+    "targetEntryFamilies": [
+      "repeated-letter",
+      "action-first",
+      "direct",
+      "object-first",
+      "question-answer"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "riverbank explorer taking small observational steps",
+    "chorusFunction": "step-and-name hook with clean natural rhyme",
+    "grooveMeter": "easy 4/4 walking folk",
+    "round1Grammar": "footstep pickups rotate with direct names, object-first clues and longer natural-history snapshots",
+    "round2Grammar": "one-beat cue gap and a compact gesture; no generic tale/point formula",
+    "sectionContrast": "Round 1 guitar/shaker walking pulse; chorus adds glockenspiel; Round 2 strips to stomps and bass",
+    "signatureColor": "two soft footstep taps before every new section",
+    "chorusAfterRound1": [
+      2,
+      5
+    ],
+    "chorusAfterRound2": [
+      3,
+      6,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 26,
+    "usedRound1": 13,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

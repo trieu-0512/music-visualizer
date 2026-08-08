@@ -1,0 +1,20 @@
+{
+  "songId": "0155",
+  "theme": "Town Explorer",
+  "macroDomain": "City & Community",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quilt Shop: guided-theme-fallback-review",
+    "X -> X-ray Clinic: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zone Sign: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 10
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "verify-pronunciation": 1
+  }
+}

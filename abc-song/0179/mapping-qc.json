@@ -1,0 +1,27 @@
+{
+  "songId": "0179",
+  "theme": "Sharing & Caring",
+  "macroDomain": "Feelings & Friendship",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "D -> Delight Star: visual-clarity-review",
+    "I -> Inside Voice: visual-clarity-review",
+    "O -> Optimism Sun: visual-clarity-review",
+    "Q -> Quiet Corner: guided-theme-fallback-review, visual-clarity-review",
+    "V -> Voice Card: visual-clarity-review",
+    "X -> Xylophone Calm Toy: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zigzag Breath Card: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "B": 22,
+    "A": 2,
+    "C": 2
+  },
+  "riskCounts": {
+    "visual-clarity-review": 5,
+    "guided-theme-fallback-review": 3,
+    "support-required": 2,
+    "verify-pronunciation": 2
+  }
+}

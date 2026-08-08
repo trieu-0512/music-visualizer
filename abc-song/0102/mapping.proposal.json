@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0102",
+  "theme": {
+    "name": "School Learning Tools",
+    "semanticFocus": "School Learning Tools",
+    "macroDomain": "School & Classroom",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Alphabet Chart"
+    },
+    "B": {
+      "object": "Book"
+    },
+    "C": {
+      "object": "Crayon"
+    },
+    "D": {
+      "object": "Dictionary"
+    },
+    "E": {
+      "object": "Envelope"
+    },
+    "F": {
+      "object": "Flashcard"
+    },
+    "G": {
+      "object": "Glue"
+    },
+    "H": {
+      "object": "Highlighter"
+    },
+    "I": {
+      "object": "Index Card"
+    },
+    "J": {
+      "object": "Journal"
+    },
+    "K": {
+      "object": "Keyboard"
+    },
+    "L": {
+      "object": "Library Book"
+    },
+    "M": {
+      "object": "Marker"
+    },
+    "N": {
+      "object": "Number Chart"
+    },
+    "O": {
+      "object": "Origami Paper"
+    },
+    "P": {
+      "object": "Paintbrush"
+    },
+    "Q": {
+      "object": "Question Card"
+    },
+    "R": {
+      "object": "Reading Book"
+    },
+    "S": {
+      "object": "Scissors"
+    },
+    "T": {
+      "object": "Tape"
+    },
+    "U": {
+      "object": "Uniform"
+    },
+    "V": {
+      "object": "Vocabulary Card"
+    },
+    "W": {
+      "object": "Whiteboard"
+    },
+    "X": {
+      "object": "X-axis Graph"
+    },
+    "Y": {
+      "object": "Yellow Pencil"
+    },
+    "Z": {
+      "object": "Zero Card"
+    }
+  }
+}

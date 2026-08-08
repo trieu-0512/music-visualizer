@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0155",
+  "theme": {
+    "name": "Town Explorer",
+    "semanticFocus": "Town Explorer",
+    "macroDomain": "City & Community",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Ambulance"
+    },
+    "B": {
+      "object": "Bus Stop"
+    },
+    "C": {
+      "object": "City Hall"
+    },
+    "D": {
+      "object": "Doctor"
+    },
+    "E": {
+      "object": "Elevator"
+    },
+    "F": {
+      "object": "Fire Station"
+    },
+    "G": {
+      "object": "Grocery Store"
+    },
+    "H": {
+      "object": "Hospital"
+    },
+    "I": {
+      "object": "Information Sign"
+    },
+    "J": {
+      "object": "Junction"
+    },
+    "K": {
+      "object": "Kindergarten"
+    },
+    "L": {
+      "object": "Laundromat"
+    },
+    "M": {
+      "object": "Mailbox"
+    },
+    "N": {
+      "object": "Newsstand"
+    },
+    "O": {
+      "object": "Overpass"
+    },
+    "P": {
+      "object": "Park"
+    },
+    "Q": {
+      "object": "Quilt Shop"
+    },
+    "R": {
+      "object": "Road"
+    },
+    "S": {
+      "object": "Subway"
+    },
+    "T": {
+      "object": "Taxi"
+    },
+    "U": {
+      "object": "University"
+    },
+    "V": {
+      "object": "Van"
+    },
+    "W": {
+      "object": "Walkway"
+    },
+    "X": {
+      "object": "X-ray Clinic"
+    },
+    "Y": {
+      "object": "Yoga Studio"
+    },
+    "Z": {
+      "object": "Zone Sign"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "songId": "0007",
+  "theme": "Lakes & Waterways",
+  "macroDomain": "Freshwater",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quillwort: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "X -> Xiphophorus: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Y -> Yellow Water Lily: support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "B": 2,
+    "C": 3
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 3,
+    "verify-pronunciation": 3
+  }
+}

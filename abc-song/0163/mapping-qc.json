@@ -1,0 +1,20 @@
+{
+  "songId": "0163",
+  "theme": "Everyday Home",
+  "macroDomain": "Home & Rooms",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Kettle: safety-context-only",
+    "X -> X-shaped Shelf: guided-theme-fallback-review, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 22,
+    "B": 4
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 1,
+    "verify-pronunciation": 1
+  }
+}

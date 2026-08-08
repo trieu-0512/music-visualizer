@@ -1,0 +1,24 @@
+{
+  "songId": "0118",
+  "theme": "Games & Toys",
+  "macroDomain": "Toys & Games",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "E -> Etch-a-Sketch: verify-pronunciation",
+    "Q -> Quoits Ring: guided-theme-fallback-review",
+    "X -> X-shaped Puzzle: guided-theme-fallback-review, verify-pronunciation",
+    "Y -> Yo-yo: verify-pronunciation",
+    "Z -> Zipper Toy Bag: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "B": 16,
+    "A": 9,
+    "C": 1
+  },
+  "riskCounts": {
+    "verify-pronunciation": 4,
+    "guided-theme-fallback-review": 3,
+    "support-required": 1
+  }
+}

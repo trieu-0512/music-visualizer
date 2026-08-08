@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Market Produce",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apricot",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Banana",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cherry",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Date",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eggplant",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fig",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Guava",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Horseradish",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Indian Fig",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jackfruit",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kale",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Leek",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Melon",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nectarine",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Okra",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Peach",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quince",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Raspberry",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Strawberry",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Turnip",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ugli Fruit",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vanilla Bean",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Watercress",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xoconostle",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yam",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zucchini",
+      "familiarityTier": "A"
+    }
+  }
+}

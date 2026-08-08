@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Rainforest Explorer",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anaconda",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Banana",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Ceiba Tree",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Dragonfly",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Emerald Tree Boa",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "F": {
+      "object": "Frog",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gecko",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Howler Monkey",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Iguana",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jungle Vine",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kinkajou",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Leopard",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Monkey",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orchid",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Parrot",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quetzal",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rainforest Frog",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Sloth",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tapir",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrella Leaf",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Viper",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Waterfall",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xenops",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Anaconda",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zingiber Plant",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

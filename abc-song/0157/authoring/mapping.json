@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Jobs Around Town",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Ambulance",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Baker",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chef",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dentist",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "EMT",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Farmer",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gardener",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hairdresser",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Interpreter",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Janitor",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kindergarten Teacher",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "L": {
+      "object": "Lifeguard",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mail Carrier",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "News Reporter",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Officer",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Plumber",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quality Inspector",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Receptionist",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Scientist",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Teacher",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umpire",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Veterinarian",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Waiter",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone Teacher",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yard Worker",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zumba Instructor",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "songId": "0166",
+  "theme": "Clothes & Accessories",
+  "macroDomain": "Clothes & Getting Ready",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "F -> Flip-flops: verify-pronunciation",
+    "Q -> Quarter Socks: guided-theme-fallback-review",
+    "T -> T-shirt: verify-pronunciation",
+    "X -> X-shaped Suspenders: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zori Sandals: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 10
+  },
+  "riskCounts": {
+    "verify-pronunciation": 3,
+    "guided-theme-fallback-review": 3
+  }
+}

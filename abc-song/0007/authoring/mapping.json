@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Lakes & Waterways",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alligator",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Beaver",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Catfish",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dam",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egret",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fishing Rod",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Goose",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Heron",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Insect",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jetty",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kayak",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lake",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Minnow",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oar",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pike",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quillwort",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "River",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Salamander",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trout",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrella Sedge",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Valley",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Waterfall",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xiphophorus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Water Lily",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zooplankton",
+      "familiarityTier": "A"
+    }
+  }
+}

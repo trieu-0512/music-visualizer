@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Backyard Birds",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Avocet",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bluebird",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crane",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Duck",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eagle",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Finch",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goldfinch",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hummingbird",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Indian Roller",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jay",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kiwi",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lorikeet",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Magpie",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nuthatch",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "O": {
+      "object": "Ostrich",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Parrot",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Raven",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sparrow",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tern",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrellabird",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Vulture",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wren",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xantus Hummingbird",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellowhammer",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "Z": {
+      "object": "Zebra Finch",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

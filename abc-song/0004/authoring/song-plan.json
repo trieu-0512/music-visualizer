@@ -1,0 +1,62 @@
+{
+  "songId": "0004",
+  "title": "Sail and See A to Z",
+  "theme": "Ocean Nature & Travel",
+  "mappingRevision": 1,
+  "tempoBpm": 86,
+  "motifFamily": "sail-glide",
+  "hook": [
+    "Sail and see from A to Z!",
+    "Every letter finds a clue!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "soft two-beat retrieval space for older preschoolers",
+  "visualStyle": "soft cinematic 3D preschool travel-ocean art, turquoise sky-water gradient, warm sunlight, simple rounded detail",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "cinematic scene drop",
+    "targetEntryFamilies": [
+      "narrative",
+      "object-first",
+      "question-answer",
+      "direct",
+      "is-for"
+    ],
+    "lineLengthContour": [
+      "long",
+      "medium",
+      "short",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "refrain-driven",
+    "pointOfView": "gentle traveler watching sea and shore pass by",
+    "chorusFunction": "wide sailing hook that opens the arrangement",
+    "grooveMeter": "floating 6/8 travel sway",
+    "round1Grammar": "scene-led phrases with internal images and occasional short target landing",
+    "round2Grammar": "quiet cue-gap-answer with show/trace/glide gestures",
+    "sectionContrast": "verses intimate kalimba; chorus expands marimba/ukulele; Round 2 removes pads and leaves spacious pulse",
+    "signatureColor": "kalimba ripple into warm marimba cadence",
+    "chorusAfterRound1": [
+      3,
+      7
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": true,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 26,
+    "usedRound1": 13,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

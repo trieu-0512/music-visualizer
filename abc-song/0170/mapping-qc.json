@@ -1,0 +1,23 @@
+{
+  "songId": "0170",
+  "theme": "Clothes for Weather",
+  "macroDomain": "Clothes & Getting Ready",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "F -> Flip-flops: verify-pronunciation",
+    "L -> Lace-up Shoes: verify-pronunciation",
+    "Q -> Quilted Jacket: guided-theme-fallback-review",
+    "T -> T-shirt: verify-pronunciation",
+    "X -> X-shaped Suspenders: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zori Sandals: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 17,
+    "B": 9
+  },
+  "riskCounts": {
+    "verify-pronunciation": 4,
+    "guided-theme-fallback-review": 3
+  }
+}

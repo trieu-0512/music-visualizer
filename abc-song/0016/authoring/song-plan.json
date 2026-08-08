@@ -1,0 +1,63 @@
+{
+  "songId": "0016",
+  "title": "Grow With Letters",
+  "theme": "Garden Plants",
+  "mappingRevision": 1,
+  "tempoBpm": 87,
+  "motifFamily": "garden-grow",
+  "hook": [
+    "Grow, grow—A-B-C!",
+    "Garden words sprout up with me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "one beat of quiet before confirmation",
+  "visualStyle": "fresh 3D garden storybook, leaf green and flower colors, rounded plants, clean simple background and isolated subjects",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "seed mystery",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "is-for",
+      "question-answer",
+      "narrative"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "a small-garden observer noticing growth, color, insects and safe tools",
+    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
+    "grooveMeter": "light 4/4 bounce",
+    "round1Grammar": "Round 1 alternates growth images, color, shape, insects and safe garden-object functions; never say every object is growing.",
+    "round2Grammar": "Round 2 leaves a recall beat and uses object-specific grow, open, wiggle, pour, point or shape gestures; tools stay safe.",
+    "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. marimba seed-to-sprout answer figures and tiny shaker breaths",
+    "signatureColor": "marimba seed-to-sprout answer figures and tiny shaker breaths",
+    "chorusAfterRound1": [
+      2,
+      6
+    ],
+    "chorusAfterRound2": [
+      3,
+      7
+    ],
+    "hasMidInterlude": true,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 12,
+    "usedRound1": 6,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

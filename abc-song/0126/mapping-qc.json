@@ -1,0 +1,23 @@
+{
+  "songId": "0126",
+  "theme": "Things That Go",
+  "macroDomain": "Vehicles & Roads",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "I -> Ice Cream Truck: support-required, verify-pronunciation",
+    "O -> Off-road Car: verify-pronunciation",
+    "X -> X-ray Van: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zero-emission Bus: guided-theme-fallback-review, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 15,
+    "B": 10,
+    "C": 1
+  },
+  "riskCounts": {
+    "support-required": 1,
+    "verify-pronunciation": 4,
+    "guided-theme-fallback-review": 2
+  }
+}

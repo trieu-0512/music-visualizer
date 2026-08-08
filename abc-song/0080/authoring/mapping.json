@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Zoo Explorer",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Antelope",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bison",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Camel",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Deer",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Elephant",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flamingo",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Giraffe",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hippo",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ibex",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jackal",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Koala",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lemur",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Monkey",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nyala",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Ostrich",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Puma",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quokka",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Red Panda",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Serval",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tiger",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uakari",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Vulture",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Walrus",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xerus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Mongoose",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zebu",
+      "familiarityTier": "A"
+    }
+  }
+}

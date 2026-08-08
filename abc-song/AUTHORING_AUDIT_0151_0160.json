@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "range": "0151-0160",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "maxLyricSimilarity": 0.0959,
+  "mostSimilarPair": [
+    "0151",
+    "0157"
+  ],
+  "songsDetail": [
+    {
+      "songId": "0151",
+      "theme": "Around Town",
+      "targetLines": 52,
+      "lyricWordCount": 617,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0152",
+      "theme": "City Places",
+      "targetLines": 52,
+      "lyricWordCount": 639,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0153",
+      "theme": "Streets & Buildings",
+      "targetLines": 52,
+      "lyricWordCount": 638,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0154",
+      "theme": "Neighborhood Life",
+      "targetLines": 52,
+      "lyricWordCount": 553,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0155",
+      "theme": "Town Explorer",
+      "targetLines": 52,
+      "lyricWordCount": 627,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0156",
+      "theme": "Community Helpers",
+      "targetLines": 52,
+      "lyricWordCount": 605,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0157",
+      "theme": "Jobs Around Town",
+      "targetLines": 52,
+      "lyricWordCount": 614,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0158",
+      "theme": "People Who Help",
+      "targetLines": 52,
+      "lyricWordCount": 606,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0159",
+      "theme": "Work & Service",
+      "targetLines": 52,
+      "lyricWordCount": 666,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0160",
+      "theme": "Helping Hands",
+      "targetLines": 52,
+      "lyricWordCount": 625,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

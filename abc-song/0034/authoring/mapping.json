@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Desert Explorer",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Armadillo",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Beetle",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Camel",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dune",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Euphorbia",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fennec",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gila Monster",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Horned Lizard",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Ibex",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Joshua Tree",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kestrel",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lizard",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Meerkat",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nighthawk",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oryx",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Prickly Pear",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Roadrunner",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sand",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tumbleweed",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Urial",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Viper",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wren",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xerophyte",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Scorpion",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Ziziphus Shrub",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

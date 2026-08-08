@@ -1,0 +1,64 @@
+{
+  "songId": "0034",
+  "title": "Dune Explorer ABC",
+  "theme": "Desert Explorer",
+  "mappingRevision": 1,
+  "tempoBpm": 91,
+  "motifFamily": "dune-walk",
+  "hook": [
+    "Across the dunes—A-B-C!",
+    "Explorer eyes, come look with me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "one beat of silence before confirmation",
+  "visualStyle": "friendly 3D desert explorer storybook, dune paths and oasis hints, warm gold palette, child-safe adventure, clean objects",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "dune-count pickup",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "is-for",
+      "question-answer",
+      "narrative"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "refrain-driven",
+    "pointOfView": "a gentle field-guide walk following tracks, shade, plants and desert wildlife",
+    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
+    "grooveMeter": "walking 4/4 folk",
+    "round1Grammar": "Round 1 uses heat, shade, tracks, spines, stone and animal motion as concrete images, with short lines beside longer scene phrases.",
+    "round2Grammar": "Round 2 uses short search cues, one recall beat and a safe motion—step, glide, point, spread, trace or sway.",
+    "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. dry shaker footsteps and sparse marimba echoes with open space",
+    "signatureColor": "dry shaker footsteps and sparse marimba echoes with open space",
+    "chorusAfterRound1": [
+      2,
+      5,
+      7
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": true,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 15,
+    "usedRound1": 9,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

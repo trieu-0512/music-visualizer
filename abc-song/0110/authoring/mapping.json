@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Make & Create",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bead",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Canvas",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drawing",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Easel",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Felt",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glue",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hole Punch",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Ink",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jewel Sticker",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Knitting Needle",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Leaf Print",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Marker",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Needle",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "O": {
+      "object": "Oil Pastel",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pencil",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilling Paper",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Roller",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sponge",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tape",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Unfinished Wood",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Varnish",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wax Crayon",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xylophone Stamp",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Paint",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zipper Craft",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

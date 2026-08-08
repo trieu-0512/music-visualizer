@@ -1,0 +1,17 @@
+{
+  "songId": "0025",
+  "theme": "Autumn Forest",
+  "macroDomain": "Forest & Woodland",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Z -> Zebra Swallowtail: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 23,
+    "B": 3
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 1
+  }
+}

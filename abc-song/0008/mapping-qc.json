@@ -1,0 +1,23 @@
+{
+  "songId": "0008",
+  "theme": "Freshwater Animals",
+  "macroDomain": "Freshwater",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "H -> Hydrilla: safety-context-only",
+    "X -> Xiphophorus: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zebra Danio: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 20,
+    "B": 5,
+    "C": 1
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

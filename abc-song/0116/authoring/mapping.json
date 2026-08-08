@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Toy Box",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alphabet Blocks",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Blocks",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crayon",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dominoes",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Etch-a-Sketch",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "F": {
+      "object": "Frisbee",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gyroscope",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hoop",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inflatable Ball",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jigsaw",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "K": {
+      "object": "Kaleidoscope",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lego Brick",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Model Car",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Number Puzzle",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Origami",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Puzzle",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiz Game",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Robot",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scooter",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Teddy Bear",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Uno Cards",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Velcro Ball",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wagon",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone Toy",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yarn Doll",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zoom Car",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

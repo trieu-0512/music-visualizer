@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Tasty Kitchen",
+  "globalStyle": "bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "prompt": "Preschool source-composite extraction image for letter A and Apron. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase A on the left and exactly one clear Apron on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Blender",
+      "prompt": "Preschool source-composite extraction image for letter B and Blender. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase B on the left and exactly one clear Blender on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Cutting Board",
+      "prompt": "Preschool source-composite extraction image for letter C and Cutting Board. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase C on the left and exactly one clear Cutting Board on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dish",
+      "prompt": "Preschool source-composite extraction image for letter D and Dish. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase D on the left and exactly one clear Dish on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Egg",
+      "prompt": "Preschool source-composite extraction image for letter E and Egg. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase E on the left and exactly one clear Egg on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fork",
+      "prompt": "Preschool source-composite extraction image for letter F and Fork. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase F on the left and exactly one clear Fork on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Grater",
+      "prompt": "Preschool source-composite extraction image for letter G and Grater. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase G on the left and exactly one clear Grater on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Honey",
+      "prompt": "Preschool source-composite extraction image for letter H and Honey. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase H on the left and exactly one clear Honey on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Ice Tray",
+      "prompt": "Preschool source-composite extraction image for letter I and Ice Tray. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase I on the left and exactly one clear Ice Tray on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Juicer",
+      "prompt": "Preschool source-composite extraction image for letter J and Juicer. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase J on the left and exactly one clear Juicer on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Knife",
+      "prompt": "Preschool source-composite extraction image for letter K and Knife. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase K on the left and exactly one clear Knife on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lemon",
+      "prompt": "Preschool source-composite extraction image for letter L and Lemon. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase L on the left and exactly one clear Lemon on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Mixer",
+      "prompt": "Preschool source-composite extraction image for letter M and Mixer. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase M on the left and exactly one clear Mixer on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Noodles",
+      "prompt": "Preschool source-composite extraction image for letter N and Noodles. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase N on the left and exactly one clear Noodles on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Orange",
+      "prompt": "Preschool source-composite extraction image for letter O and Orange. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase O on the left and exactly one clear Orange on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Pancake",
+      "prompt": "Preschool source-composite extraction image for letter P and Pancake. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase P on the left and exactly one clear Pancake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quiche",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quiche. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase Q on the left and exactly one clear Quiche on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Rolling Pin",
+      "prompt": "Preschool source-composite extraction image for letter R and Rolling Pin. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase R on the left and exactly one clear Rolling Pin on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Spatula",
+      "prompt": "Preschool source-composite extraction image for letter S and Spatula. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase S on the left and exactly one clear Spatula on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Toast",
+      "prompt": "Preschool source-composite extraction image for letter T and Toast. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase T on the left and exactly one clear Toast on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Under-counter Drawer",
+      "prompt": "Preschool source-composite extraction image for letter U and Under-counter Drawer. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase U on the left and exactly one clear Under-counter Drawer on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vanilla",
+      "prompt": "Preschool source-composite extraction image for letter V and Vanilla. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase V on the left and exactly one clear Vanilla on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Whisk",
+      "prompt": "Preschool source-composite extraction image for letter W and Whisk. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase W on the left and exactly one clear Whisk on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xylophone",
+      "prompt": "Preschool source-composite extraction image for letter X and Xylophone. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase X on the left and exactly one clear Xylophone on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yam",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yam. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase Y on the left and exactly one clear Yam on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zester",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zester. bright 3D tasty-kitchen storybook, fresh food colors, friendly cookware, clean high-contrast composition. Show one large stylized uppercase Z on the left and exactly one clear Zester on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

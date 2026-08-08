@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "My Daily Routine",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bath",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Comb",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Door",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eggs",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fork",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Getting-dressed Chart",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "H": {
+      "object": "Hairbrush",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Indoor Shoes",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jacket",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kettle",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Lunchbox",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Morning Chart",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nightlight",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oatmeal",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pajamas",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiet Book",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Routine Chart",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "S": {
+      "object": "Soap",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toothbrush",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utensils",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vacuum",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Washcloth",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yawn",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zip Pajamas",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

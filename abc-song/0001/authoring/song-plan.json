@@ -1,0 +1,62 @@
+{
+  "songId": "0001",
+  "title": "Ocean Letter Splash",
+  "theme": "Ocean Animals & Coast",
+  "mappingRevision": 1,
+  "tempoBpm": 88,
+  "motifFamily": "splash-step",
+  "hook": [
+    "Splash the letters, A-B-C!",
+    "Ocean words roll back to me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "one beat of quiet after the letter cue",
+  "visualStyle": "friendly polished 3D storybook ocean art, aqua and coral palette, soft rounded shapes, clean preschool character design",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "sound-image cold open",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "is-for",
+      "question-answer",
+      "narrative"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "playful reef guide following splashes and movement",
+    "chorusFunction": "two-line splash hook that resets attention",
+    "grooveMeter": "syncopation-light 4/4 island bounce",
+    "round1Grammar": "rotate five target-entry forms; attach one object-specific visible fact",
+    "round2Grammar": "cue-gap-answer plus object-conditioned gesture; rotate direct, repeated, question and find forms",
+    "sectionContrast": "Round 1 sparse marimba/ukulele; chorus wider; Round 2 stop-start with percussion dropouts",
+    "signatureColor": "marimba splash answer after each target",
+    "chorusAfterRound1": [
+      2,
+      5
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": true,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 26,
+    "usedRound1": 13,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

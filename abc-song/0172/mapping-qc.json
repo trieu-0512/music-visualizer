@@ -1,0 +1,25 @@
+{
+  "songId": "0172",
+  "theme": "Body & Senses",
+  "macroDomain": "Body & Senses",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quick Pulse: guided-theme-fallback-review",
+    "V -> Voice: visual-clarity-review",
+    "X -> Xiphoid Bone: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Y -> Y-shaped Bone Model: support-required, verify-pronunciation",
+    "Z -> Zinc Bandage: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 20,
+    "B": 4,
+    "C": 2
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "visual-clarity-review": 1,
+    "support-required": 2,
+    "verify-pronunciation": 2
+  }
+}

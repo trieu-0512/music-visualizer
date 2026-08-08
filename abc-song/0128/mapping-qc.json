@@ -1,0 +1,18 @@
+{
+  "songId": "0128",
+  "theme": "Road Vehicles",
+  "macroDomain": "Vehicles & Roads",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quad Bike: guided-theme-fallback-review",
+    "X -> Xpress Bus: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 10
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2
+  }
+}

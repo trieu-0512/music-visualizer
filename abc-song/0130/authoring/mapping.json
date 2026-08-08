@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Moving Machines",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Ambulance",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bulldozer",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cement Mixer",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Dump Truck",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Excavator",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fire Engine",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Garbage Truck",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Helicopter",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice Cream Truck",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "J": {
+      "object": "Jeep",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kart",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Loader",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Motorcycle",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Narrowboat",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oil Tanker",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pickup",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quad Bike",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Road Roller",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Snowplow",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Train",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underground Train",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Van",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wrecker",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Van",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yard Tractor",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zero-emission Bus",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

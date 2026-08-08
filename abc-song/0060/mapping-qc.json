@@ -1,0 +1,23 @@
+{
+  "songId": "0060",
+  "theme": "Museum of Dinosaurs",
+  "macroDomain": "Dinosaurs & Fossils",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quetzalcoatlus: guided-theme-fallback-review",
+    "X -> Xenoceratops: guided-theme-fallback-review",
+    "Z -> Zephyrosaurus: guided-theme-fallback-review, support-required, verify-pronunciation, visual-clarity-review"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 9,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "support-required": 1,
+    "verify-pronunciation": 1,
+    "visual-clarity-review": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "songId": "0010",
+  "theme": "Riverbank Explorer",
+  "macroDomain": "Freshwater",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> X-ray Tetra: guided-theme-fallback-review, verify-pronunciation",
+    "Y -> Yellow Water Lily: support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "B": 4,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 1,
+    "verify-pronunciation": 2,
+    "support-required": 1
+  }
+}

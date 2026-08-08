@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "range": "0111-0120",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "maxLyricSimilarity": 0.2372,
+  "mostSimilarPair": [
+    "0117",
+    "0118"
+  ],
+  "songsDetail": [
+    {
+      "songId": "0111",
+      "theme": "Musical Instruments",
+      "targetLines": 52,
+      "lyricWordCount": 555,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0112",
+      "theme": "Rhythm & Melody",
+      "targetLines": 52,
+      "lyricWordCount": 638,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0113",
+      "theme": "Band & Orchestra",
+      "targetLines": 52,
+      "lyricWordCount": 584,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0114",
+      "theme": "Music Making",
+      "targetLines": 52,
+      "lyricWordCount": 517,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0115",
+      "theme": "Sounds & Instruments",
+      "targetLines": 52,
+      "lyricWordCount": 590,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0116",
+      "theme": "Toy Box",
+      "targetLines": 52,
+      "lyricWordCount": 603,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0117",
+      "theme": "Playroom Fun",
+      "targetLines": 52,
+      "lyricWordCount": 603,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0118",
+      "theme": "Games & Toys",
+      "targetLines": 52,
+      "lyricWordCount": 656,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0119",
+      "theme": "Building & Pretend Play",
+      "targetLines": 52,
+      "lyricWordCount": 617,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0120",
+      "theme": "Playground Toys",
+      "targetLines": 52,
+      "lyricWordCount": 625,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

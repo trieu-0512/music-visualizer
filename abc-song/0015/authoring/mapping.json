@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Harvest & Orchard",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bucket",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chicken",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Duck",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egg",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fence",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goat",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hay",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Irrigation Pump",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jug",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kid Goat",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Ladder",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Milk",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orchard",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pitchfork",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rake",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sheep",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tractor",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utility Cart",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vegetable Basket",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wheat",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yam",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zebu",
+      "familiarityTier": "A"
+    }
+  }
+}

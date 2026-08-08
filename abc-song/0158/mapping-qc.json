@@ -1,0 +1,18 @@
+{
+  "songId": "0158",
+  "theme": "People Who Help",
+  "macroDomain": "Community Helpers",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quartermaster: guided-theme-fallback-review",
+    "X -> Xylophone Teacher: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 17,
+    "B": 9
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2
+  }
+}

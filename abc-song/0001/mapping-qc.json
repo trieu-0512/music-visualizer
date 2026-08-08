@@ -1,0 +1,22 @@
+{
+  "songId": "0001",
+  "theme": "Ocean Animals & Coast",
+  "macroDomain": "Ocean & Coast",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quahog: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "V -> Violet Sea Snail: support-required, verify-pronunciation",
+    "X -> X-ray Tetra: guided-theme-fallback-review, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "C": 2,
+    "B": 3
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 2,
+    "verify-pronunciation": 3
+  }
+}

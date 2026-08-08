@@ -1,0 +1,21 @@
+{
+  "songId": "0113",
+  "theme": "Band & Orchestra",
+  "macroDomain": "Music & Instruments",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> Xaphoon: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Y -> Yidaki: support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "B": 6,
+    "A": 18,
+    "C": 2
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 1,
+    "support-required": 2,
+    "verify-pronunciation": 2
+  }
+}

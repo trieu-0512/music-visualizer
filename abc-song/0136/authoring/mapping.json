@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Airport & Airplanes",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Airport",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Biplane",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cockpit",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Departure Board",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Engine",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flight Deck",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Gate",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Helicopter",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Instrument Panel",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jetway",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kerosene Tank",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Landing Gear",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Marshaller",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Navigation Light",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Oxygen Mask",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Propeller",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queue Lane",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Runway",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Seatbelt",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tail",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Visor",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wing",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-wing Model",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Taxiway Sign",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zero-gravity Plane",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

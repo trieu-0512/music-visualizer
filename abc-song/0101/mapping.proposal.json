@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0101",
+  "theme": {
+    "name": "Classroom Supplies",
+    "semanticFocus": "Classroom Supplies",
+    "macroDomain": "School & Classroom",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Art Paper"
+    },
+    "B": {
+      "object": "Backpack"
+    },
+    "C": {
+      "object": "Crayon"
+    },
+    "D": {
+      "object": "Dictionary"
+    },
+    "E": {
+      "object": "Eraser"
+    },
+    "F": {
+      "object": "Folder"
+    },
+    "G": {
+      "object": "Globe"
+    },
+    "H": {
+      "object": "Highlighter"
+    },
+    "I": {
+      "object": "Ink"
+    },
+    "J": {
+      "object": "Jigsaw Map"
+    },
+    "K": {
+      "object": "Knowledge Card"
+    },
+    "L": {
+      "object": "Lunchbox"
+    },
+    "M": {
+      "object": "Map"
+    },
+    "N": {
+      "object": "Number Chart"
+    },
+    "O": {
+      "object": "Organizer"
+    },
+    "P": {
+      "object": "Pencil"
+    },
+    "Q": {
+      "object": "Question Card"
+    },
+    "R": {
+      "object": "Ruler"
+    },
+    "S": {
+      "object": "Scissors"
+    },
+    "T": {
+      "object": "Tape"
+    },
+    "U": {
+      "object": "USB Drive"
+    },
+    "V": {
+      "object": "Violin Case"
+    },
+    "W": {
+      "object": "Whiteboard"
+    },
+    "X": {
+      "object": "Xylophone"
+    },
+    "Y": {
+      "object": "Yellow Pencil"
+    },
+    "Z": {
+      "object": "Zero Card"
+    }
+  }
+}

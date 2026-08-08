@@ -1,0 +1,28 @@
+{
+  "songId": "0194",
+  "theme": "Robot Builder",
+  "macroDomain": "Robots & Science",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "H -> Hydraulic Arm: support-required, verify-pronunciation",
+    "L -> Laser: safety-context-only",
+    "O -> Oscilloscope: support-required, verify-pronunciation",
+    "P -> Pipette: support-required, verify-pronunciation",
+    "Q -> QR Code: guided-theme-fallback-review",
+    "X -> X-axis Plotter: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zero-gravity Robot: guided-theme-fallback-review, verify-pronunciation, visual-clarity-review"
+  ],
+  "tierCounts": {
+    "B": 10,
+    "A": 13,
+    "C": 3
+  },
+  "riskCounts": {
+    "support-required": 3,
+    "verify-pronunciation": 5,
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 3,
+    "visual-clarity-review": 1
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Weather Station",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anemometer",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "B": {
+      "object": "Breeze",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "C": {
+      "object": "Coat",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drizzle",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Earmuffs",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fog",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gauge",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hail",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jet Stream",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kelvin Thermometer",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Low Cloud",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mittens",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nimbus Cloud",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Overcast Sky",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pressure Gauge",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rainbow",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sun",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Thermometer",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Updraft",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "V": {
+      "object": "Vane",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wind",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Sun",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zephyr",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

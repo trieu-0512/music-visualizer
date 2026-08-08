@@ -1,0 +1,62 @@
+{
+  "songId": "0007",
+  "title": "Waterway Letter Ride",
+  "theme": "Lakes & Waterways",
+  "mappingRevision": 1,
+  "tempoBpm": 90,
+  "motifFamily": "waterway-hop",
+  "hook": [
+    "Paddle on—A-B-C!",
+    "Waterway words, call with me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "one beat of silence before confirmation",
+  "visualStyle": "bright 3D lakes-and-waterways storybook, canoe-map adventure mood, teal-green palette, toy-like clarity",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "paddle-count pickup",
+    "targetEntryFamilies": [
+      "action-first",
+      "repeated-letter",
+      "object-first",
+      "direct",
+      "question-answer"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "paddling guide moving across lakes, channels and river bends",
+    "chorusFunction": "paddle-and-answer refrain with bluegrass-lite bounce",
+    "grooveMeter": "light 4/4 acoustic hop",
+    "round1Grammar": "movement cues and object-first names alternate with clear semantic descriptions",
+    "round2Grammar": "one-beat silence, target answer, then compact gesture; hard names slow down",
+    "sectionContrast": "Round 1 banjo plucks stay sparse; chorus adds clap; Round 2 uses bass/wood pulse with whistle only between answers",
+    "signatureColor": "single banjo pluck pickup plus tiny whistle response",
+    "chorusAfterRound1": [
+      3,
+      6
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 26,
+    "usedRound1": 13,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

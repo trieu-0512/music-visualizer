@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Flight Day",
+  "globalStyle": "bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Airplane",
+      "prompt": "Preschool source-composite extraction image for letter A and Airplane. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase A on the left and exactly one clear Airplane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Biplane",
+      "prompt": "Preschool source-composite extraction image for letter B and Biplane. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase B on the left and exactly one clear Biplane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Cargo Plane",
+      "prompt": "Preschool source-composite extraction image for letter C and Cargo Plane. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase C on the left and exactly one clear Cargo Plane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Drone",
+      "prompt": "Preschool source-composite extraction image for letter D and Drone. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase D on the left and exactly one clear Drone on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Engine",
+      "prompt": "Preschool source-composite extraction image for letter E and Engine. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase E on the left and exactly one clear Engine on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Flight Deck",
+      "prompt": "Preschool source-composite extraction image for letter F and Flight Deck. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase F on the left and exactly one clear Flight Deck on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Glider",
+      "prompt": "Preschool source-composite extraction image for letter G and Glider. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase G on the left and exactly one clear Glider on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Helicopter",
+      "prompt": "Preschool source-composite extraction image for letter H and Helicopter. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase H on the left and exactly one clear Helicopter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Instrument Panel",
+      "prompt": "Preschool source-composite extraction image for letter I and Instrument Panel. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase I on the left and exactly one clear Instrument Panel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jetway",
+      "prompt": "Preschool source-composite extraction image for letter J and Jetway. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase J on the left and exactly one clear Jetway on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kerosene Tank",
+      "prompt": "Preschool source-composite extraction image for letter K and Kerosene Tank. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase K on the left and exactly one clear Kerosene Tank on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Luggage Cart",
+      "prompt": "Preschool source-composite extraction image for letter L and Luggage Cart. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase L on the left and exactly one clear Luggage Cart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Monoplane",
+      "prompt": "Preschool source-composite extraction image for letter M and Monoplane. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase M on the left and exactly one clear Monoplane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Nose Wheel",
+      "prompt": "Preschool source-composite extraction image for letter N and Nose Wheel. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase N on the left and exactly one clear Nose Wheel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Overhead Bin",
+      "prompt": "Preschool source-composite extraction image for letter O and Overhead Bin. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase O on the left and exactly one clear Overhead Bin on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Passenger Plane",
+      "prompt": "Preschool source-composite extraction image for letter P and Passenger Plane. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase P on the left and exactly one clear Passenger Plane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quadcopter",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quadcopter. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase Q on the left and exactly one clear Quadcopter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Radar",
+      "prompt": "Preschool source-composite extraction image for letter R and Radar. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase R on the left and exactly one clear Radar on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Seaplane",
+      "prompt": "Preschool source-composite extraction image for letter S and Seaplane. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase S on the left and exactly one clear Seaplane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Tail",
+      "prompt": "Preschool source-composite extraction image for letter T and Tail. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase T on the left and exactly one clear Tail on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Uniform",
+      "prompt": "Preschool source-composite extraction image for letter U and Uniform. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase U on the left and exactly one clear Uniform on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vertical Stabilizer",
+      "prompt": "Preschool source-composite extraction image for letter V and Vertical Stabilizer. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase V on the left and exactly one clear Vertical Stabilizer on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Windsock",
+      "prompt": "Preschool source-composite extraction image for letter W and Windsock. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase W on the left and exactly one clear Windsock on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "X-wing Model",
+      "prompt": "Preschool source-composite extraction image for letter X and X-wing Model. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase X on the left and exactly one clear X-wing Model on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yellow Taxiway Sign",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yellow Taxiway Sign. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase Y on the left and exactly one clear Yellow Taxiway Sign on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zero-gravity Plane",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zero-gravity Plane. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day. Show one large stylized uppercase Z on the left and exactly one clear Zero-gravity Plane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

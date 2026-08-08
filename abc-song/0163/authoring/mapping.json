@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Everyday Home",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Armchair",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bed",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cupboard",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Door",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Envelope",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fan",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Garage",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hallway",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Indoor Plant",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jar",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kettle",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Laundry Basket",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mattress",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Napkin",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Ottoman",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pillow",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Refrigerator",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Soap",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Table",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrella",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vacuum",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wardrobe",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Shelf",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yarn",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zipper",
+      "familiarityTier": "A"
+    }
+  }
+}

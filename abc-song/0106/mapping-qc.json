@@ -1,0 +1,22 @@
+{
+  "songId": "0106",
+  "theme": "Art Studio",
+  "macroDomain": "Art & Crafts",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Knitting Needle: safety-context-only",
+    "Q -> Quilt Square: guided-theme-fallback-review",
+    "S -> Scissors: safety-context-only",
+    "X -> Xylophone Stamp: guided-theme-fallback-review",
+    "Z -> Zipper Craft: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 12,
+    "A": 14
+  },
+  "riskCounts": {
+    "safety-context-only": 2,
+    "guided-theme-fallback-review": 3
+  }
+}

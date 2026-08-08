@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Cozy House",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alarm Clock",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Blanket",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cupboard",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Door",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Envelope",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fan",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glass",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hanger",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iron",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jug",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kettle",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Laundry Basket",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mirror",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Napkin",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Ottoman",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Picture",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Refrigerator",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Sofa",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Towel",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utensil Drawer",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vacuum",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wardrobe",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Cushion",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zen Garden",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

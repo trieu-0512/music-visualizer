@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Bug World",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Aphid",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Beetle",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Caterpillar",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dung Beetle",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Earwig",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Firefly",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gnat",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Honeybee",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inchworm",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jewel Beetle",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kissing Bug",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Ladybug",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mosquito",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nymph",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orange Butterfly",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Praying Mantis",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Queen Butterfly",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Roach",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Stick Insect",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Termite",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ulysses Butterfly",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Viceroy Butterfly",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wasp",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone Beetle",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Butterfly",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zebra Longwing",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

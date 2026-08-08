@@ -1,0 +1,22 @@
+{
+  "songId": "0072",
+  "theme": "Home Pets",
+  "macroDomain": "Pets",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quilt Bed: guided-theme-fallback-review",
+    "X -> X-ray Vet Image: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zip Carrier: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 9,
+    "B": 16,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

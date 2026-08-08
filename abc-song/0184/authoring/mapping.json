@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Getting Ready & Cleaning",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alarm Clock",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Bed",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cup",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dinner",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Evening Book",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Face Towel",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Getting-dressed Chart",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "H": {
+      "object": "Hand Soap",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Indoor Shoes",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jacket",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kettle",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Lunchbox",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Milk",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Napkin",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oatmeal",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pajamas",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Routine Chart",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "S": {
+      "object": "Slippers",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Towel",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vacuum",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Washcloth",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Timer",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yawn",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zip Pajamas",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

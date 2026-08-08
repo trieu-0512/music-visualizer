@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Polar Animals",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Auk",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bear",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Caribou",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dovekie",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eider",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fur Seal",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Glacier",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harp Seal",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Iceberg",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jellyfish",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kittiwake",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lemming",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Murre",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Northern Fulmar",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Orca",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Polar Bear",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quartz",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Reindeer",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Snowy Owl",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Tundra",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Upland Goose",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Velvet Scoter",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Walrus",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow-billed Loon",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zoarcid Fish",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

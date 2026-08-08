@@ -1,0 +1,24 @@
+{
+  "songId": "0108",
+  "theme": "Drawing & Painting",
+  "macroDomain": "Art & Crafts",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Knitting Needle: safety-context-only",
+    "N -> Needle: safety-context-only",
+    "Q -> Quilling Paper: guided-theme-fallback-review",
+    "S -> Scissors: safety-context-only",
+    "X -> X-shaped Sticker: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zigzag Scissors: guided-theme-fallback-review, safety-context-only"
+  ],
+  "tierCounts": {
+    "B": 12,
+    "A": 14
+  },
+  "riskCounts": {
+    "safety-context-only": 4,
+    "guided-theme-fallback-review": 3,
+    "verify-pronunciation": 1
+  }
+}

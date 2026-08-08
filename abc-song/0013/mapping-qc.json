@@ -1,0 +1,20 @@
+{
+  "songId": "0013",
+  "theme": "Farm Tools & Crops",
+  "macroDomain": "Farm & Barn",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> X-ray Vet Image: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 22,
+    "B": 3,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 1,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

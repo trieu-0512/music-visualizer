@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "School Learning Tools",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alphabet Chart",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Book",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crayon",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dictionary",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Envelope",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flashcard",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glue",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Highlighter",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Index Card",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Journal",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Keyboard",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Library Book",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Marker",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Number Chart",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Origami Paper",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Paintbrush",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Question Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Reading Book",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Scissors",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "T": {
+      "object": "Tape",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vocabulary Card",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Whiteboard",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-axis Graph",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Pencil",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zero Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

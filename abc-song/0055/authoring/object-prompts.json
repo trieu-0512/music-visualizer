@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Space Science",
+  "globalStyle": "clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Astronaut",
+      "prompt": "Preschool source-composite extraction image for letter A and Astronaut. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase A on the left and exactly one clear Astronaut on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Black Hole",
+      "prompt": "Preschool source-composite extraction image for letter B and Black Hole. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase B on the left and exactly one clear Black Hole on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Capsule",
+      "prompt": "Preschool source-composite extraction image for letter C and Capsule. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase C on the left and exactly one clear Capsule on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dish Antenna",
+      "prompt": "Preschool source-composite extraction image for letter D and Dish Antenna. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase D on the left and exactly one clear Dish Antenna on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Earth",
+      "prompt": "Preschool source-composite extraction image for letter E and Earth. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase E on the left and exactly one clear Earth on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Flag",
+      "prompt": "Preschool source-composite extraction image for letter F and Flag. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase F on the left and exactly one clear Flag on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Galaxy",
+      "prompt": "Preschool source-composite extraction image for letter G and Galaxy. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase G on the left and exactly one clear Galaxy on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Helmet",
+      "prompt": "Preschool source-composite extraction image for letter H and Helmet. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase H on the left and exactly one clear Helmet on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "International Space Station",
+      "prompt": "Preschool source-composite extraction image for letter I and International Space Station. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase I on the left and exactly one clear International Space Station on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jet Pack",
+      "prompt": "Preschool source-composite extraction image for letter J and Jet Pack. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase J on the left and exactly one clear Jet Pack on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Krypton Tank",
+      "prompt": "Preschool source-composite extraction image for letter K and Krypton Tank. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase K on the left and exactly one clear Krypton Tank on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lunar Rover",
+      "prompt": "Preschool source-composite extraction image for letter L and Lunar Rover. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase L on the left and exactly one clear Lunar Rover on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Moon",
+      "prompt": "Preschool source-composite extraction image for letter M and Moon. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase M on the left and exactly one clear Moon on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Nebula",
+      "prompt": "Preschool source-composite extraction image for letter N and Nebula. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase N on the left and exactly one clear Nebula on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Observatory",
+      "prompt": "Preschool source-composite extraction image for letter O and Observatory. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase O on the left and exactly one clear Observatory on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Probe",
+      "prompt": "Preschool source-composite extraction image for letter P and Probe. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase P on the left and exactly one clear Probe on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quasar",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quasar. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase Q on the left and exactly one clear Quasar on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Rover",
+      "prompt": "Preschool source-composite extraction image for letter R and Rover. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase R on the left and exactly one clear Rover on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Spacesuit",
+      "prompt": "Preschool source-composite extraction image for letter S and Spacesuit. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase S on the left and exactly one clear Spacesuit on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Telescope",
+      "prompt": "Preschool source-composite extraction image for letter T and Telescope. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase T on the left and exactly one clear Telescope on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Uranus",
+      "prompt": "Preschool source-composite extraction image for letter U and Uranus. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase U on the left and exactly one clear Uranus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Venus",
+      "prompt": "Preschool source-composite extraction image for letter V and Venus. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase V on the left and exactly one clear Venus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "White Dwarf",
+      "prompt": "Preschool source-composite extraction image for letter W and White Dwarf. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase W on the left and exactly one clear White Dwarf on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "X-ray Telescope",
+      "prompt": "Preschool source-composite extraction image for letter X and X-ray Telescope. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase X on the left and exactly one clear X-ray Telescope on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yoke",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yoke. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase Y on the left and exactly one clear Yoke on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zero-gravity Chair",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zero-gravity Chair. clean 3D preschool space-science lab storybook, bright consoles and star windows, toy-like equipment, strong foreground separation. Show one large stylized uppercase Z on the left and exactly one clear Zero-gravity Chair on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

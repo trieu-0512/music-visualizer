@@ -1,0 +1,21 @@
+{
+  "songId": "0188",
+  "theme": "Dragons Knights & Fairies",
+  "macroDomain": "Fairy Tales & Magic",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> X-marked Treasure Map: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zodiac Scroll: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 19,
+    "B": 6,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

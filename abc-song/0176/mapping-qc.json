@@ -1,0 +1,29 @@
+{
+  "songId": "0176",
+  "theme": "Feelings & Faces",
+  "macroDomain": "Feelings & Friendship",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "A -> Affection Heart: visual-clarity-review",
+    "F -> Friendship Bracelet: visual-clarity-review",
+    "I -> Inside Voice: visual-clarity-review",
+    "N -> Note of Thanks: support-required, verify-pronunciation",
+    "O -> Optimism Sun: visual-clarity-review",
+    "Q -> Question Card: guided-theme-fallback-review",
+    "T -> Thank-you Card: verify-pronunciation",
+    "V -> Voice Card: visual-clarity-review",
+    "X -> XOXO Card: guided-theme-fallback-review",
+    "Z -> Zigzag Breath Card: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "B": 24,
+    "C": 2
+  },
+  "riskCounts": {
+    "visual-clarity-review": 5,
+    "support-required": 2,
+    "verify-pronunciation": 3,
+    "guided-theme-fallback-review": 3
+  }
+}

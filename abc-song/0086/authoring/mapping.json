@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Kitchen & Food",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Blender",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "C": {
+      "object": "Cup",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Donut",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egg",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fork",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grapes",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Honey",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice Tray",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Juicer",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knife",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Ladle",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Muffin",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Napkin",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oven",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "P": {
+      "object": "Pan",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quart Cup",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rice",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Spoon",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toast",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Under-counter Drawer",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Vegetable Peeler",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Waffle",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yam",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zester",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    }
+  }
+}

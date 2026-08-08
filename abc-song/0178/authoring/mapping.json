@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Calm & Happy",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Affection Heart",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "B": {
+      "object": "Brave Badge",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Caring Card",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Delight Star",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "E": {
+      "object": "Excited Eyes",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Friendship Bracelet",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "G": {
+      "object": "Gentle Hands",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Heart",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Interest Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "J": {
+      "object": "Joy Jar",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kind Hands",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lonely Face",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mad Face",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nervous Face",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Okay Sign",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Proud Star",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quiet Corner",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Respect Badge",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "S": {
+      "object": "Sharing Box",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Tired Face",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Upset Face",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Valued Badge",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Warm Hug Card",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "X": {
+      "object": "Xylophone Calm Toy",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Feelings Chart",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zen Cushion",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

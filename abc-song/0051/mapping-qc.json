@@ -1,0 +1,27 @@
+{
+  "songId": "0051",
+  "theme": "Space Explorer",
+  "macroDomain": "Space & Astronomy",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "I -> International Space Station: support-required, verify-pronunciation",
+    "K -> Krypton Tank: support-required, verify-pronunciation",
+    "O -> Orbit: visual-clarity-review",
+    "Q -> Quarter Moon: guided-theme-fallback-review",
+    "W -> World: visual-clarity-review",
+    "X -> X-ray Telescope: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zero-gravity Chair: guided-theme-fallback-review, verify-pronunciation, visual-clarity-review"
+  ],
+  "tierCounts": {
+    "A": 17,
+    "B": 7,
+    "C": 2
+  },
+  "riskCounts": {
+    "support-required": 2,
+    "verify-pronunciation": 4,
+    "visual-clarity-review": 3,
+    "guided-theme-fallback-review": 3
+  }
+}

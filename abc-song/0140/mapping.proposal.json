@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0140",
+  "theme": {
+    "name": "Flight Day",
+    "semanticFocus": "Flight Day",
+    "macroDomain": "Aircraft & Airport",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Airplane"
+    },
+    "B": {
+      "object": "Biplane"
+    },
+    "C": {
+      "object": "Cargo Plane"
+    },
+    "D": {
+      "object": "Drone"
+    },
+    "E": {
+      "object": "Engine"
+    },
+    "F": {
+      "object": "Flight Deck"
+    },
+    "G": {
+      "object": "Glider"
+    },
+    "H": {
+      "object": "Helicopter"
+    },
+    "I": {
+      "object": "Instrument Panel"
+    },
+    "J": {
+      "object": "Jetway"
+    },
+    "K": {
+      "object": "Kerosene Tank"
+    },
+    "L": {
+      "object": "Luggage Cart"
+    },
+    "M": {
+      "object": "Monoplane"
+    },
+    "N": {
+      "object": "Nose Wheel"
+    },
+    "O": {
+      "object": "Overhead Bin"
+    },
+    "P": {
+      "object": "Passenger Plane"
+    },
+    "Q": {
+      "object": "Quadcopter"
+    },
+    "R": {
+      "object": "Radar"
+    },
+    "S": {
+      "object": "Seaplane"
+    },
+    "T": {
+      "object": "Tail"
+    },
+    "U": {
+      "object": "Uniform"
+    },
+    "V": {
+      "object": "Vertical Stabilizer"
+    },
+    "W": {
+      "object": "Windsock"
+    },
+    "X": {
+      "object": "X-wing Model"
+    },
+    "Y": {
+      "object": "Yellow Taxiway Sign"
+    },
+    "Z": {
+      "object": "Zero-gravity Plane"
+    }
+  }
+}

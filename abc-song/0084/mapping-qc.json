@@ -1,0 +1,25 @@
+{
+  "songId": "0084",
+  "theme": "Cold-Blooded Creatures",
+  "macroDomain": "Reptiles & Amphibians",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "E -> Emerald Tree Boa: support-required, verify-pronunciation",
+    "Q -> Queen Snake: guided-theme-fallback-review",
+    "U -> Uromastyx: support-required, verify-pronunciation",
+    "X -> Xenosaurus: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Y -> Yellow-bellied Slider: support-required, verify-pronunciation",
+    "Z -> Zigzag Salamander: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 11,
+    "B": 11,
+    "C": 4
+  },
+  "riskCounts": {
+    "support-required": 4,
+    "verify-pronunciation": 4,
+    "guided-theme-fallback-review": 3
+  }
+}

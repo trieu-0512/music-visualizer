@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Cold-Blooded Creatures",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alligator",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boa",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crocodile",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dart Frog",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Emerald Tree Boa",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "F": {
+      "object": "Frilled Lizard",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Garter Snake",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hellbender",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iguana",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jumping Frog",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Komodo Dragon",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lizard",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Monitor Lizard",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Newt",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Olive Python",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Python",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen Snake",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rattlesnake",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Skink",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Turtle",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uromastyx",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Veiled Chameleon",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Water Dragon",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xenosaurus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow-bellied Slider",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zigzag Salamander",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

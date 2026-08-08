@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0049",
+  "theme": {
+    "name": "Wind Rain & Snow",
+    "semanticFocus": "Wind Rain & Snow",
+    "macroDomain": "Weather & Sky",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Anemometer"
+    },
+    "B": {
+      "object": "Boots"
+    },
+    "C": {
+      "object": "Coat"
+    },
+    "D": {
+      "object": "Drizzle"
+    },
+    "E": {
+      "object": "Eye of Storm"
+    },
+    "F": {
+      "object": "Frost"
+    },
+    "G": {
+      "object": "Gust"
+    },
+    "H": {
+      "object": "Humidity Meter"
+    },
+    "I": {
+      "object": "Ice"
+    },
+    "J": {
+      "object": "Jet Stream"
+    },
+    "K": {
+      "object": "Kelvin Thermometer"
+    },
+    "L": {
+      "object": "Lightning"
+    },
+    "M": {
+      "object": "Mittens"
+    },
+    "N": {
+      "object": "Nimbus Cloud"
+    },
+    "O": {
+      "object": "Overcoat"
+    },
+    "P": {
+      "object": "Puddle"
+    },
+    "Q": {
+      "object": "Quilt"
+    },
+    "R": {
+      "object": "Raincoat"
+    },
+    "S": {
+      "object": "Sun"
+    },
+    "T": {
+      "object": "Thunder"
+    },
+    "U": {
+      "object": "Umbrella"
+    },
+    "V": {
+      "object": "Vapor"
+    },
+    "W": {
+      "object": "Windsock"
+    },
+    "X": {
+      "object": "X-band Radar"
+    },
+    "Y": {
+      "object": "Yellow Sun"
+    },
+    "Z": {
+      "object": "Zephyr"
+    }
+  }
+}

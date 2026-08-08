@@ -84,9 +84,9 @@ Do not apply a retrieval rule to a pure teaching section or a phonics rule to a 
 
 Useful starting points that may be overridden with evidence:
 
-- 6–12 words per physical letter line;
-- roughly 8–14 sung syllables;
-- 4–6 learning lines per section;
+- phraselet-aware physical line length: short, medium, or extended lines are all valid when prosody/bars/breathing remain natural;
+- intentional line-length/rhythmic contour rather than one fixed sentence size;
+- 4–6 learning targets per section as a section-density starting point;
 - roughly 80–100 BPM as a broad preschool starting envelope, then calibrate to age band, lyric density, and objective;
 - overall narrow melody, normally within about an octave;
 - four-beat participation frame.
@@ -618,75 +618,89 @@ Current mapping preserved until the user approves a change.
 
 ## Default ABC Lyric Architecture
 
-Default to **Adaptive Phrase Mode** unless the project or user explicitly requests the legacy chant template.
+Default to **Adaptive Phrase + Controlled Variation Mode** unless the project/user explicitly requests a strict chant or another form.
 
-### Adaptive Phrase Mode — default
+The detailed creative system lives in `CREATIVE_VARIATION_PLAYBOOK.md`.
 
-Treat each letter as one complete singable phrase.
+### Phraselet-aware line design
 
-Typical profile:
+Treat each letter as one complete learning event, not one fixed physical-line shape.
 
-```text
-6–12 sung words per physical letter line preferred
-roughly 8–14 sung syllables preferred per physical letter line
-up to ~16 syllables only with a strong natural internal pause
-1–2 internal phraselets typical; 3 only when clearly needed
-flexible bars; add bars when needed
-low lyric density
-clear breathing points
-flexible duration
-```
-
-These are heuristics, not hard quotas. A longer educational phrase may still PASS if it has natural internal phrasing and does not rush, but tighten the generation-facing lyric before allowing a dense 18–24-syllable physical line.
-
-Useful shape:
+Valid forms include:
 
 ```text
-LETTER is for WORD,
-SHORT DESCRIPTION,
-SIMPLE CONTEXT OR ACTION.
+A — Apple!
+A ... A ... A ... Apple!
+A is for Apple, red and round.
+A? Apple!
+Here comes A with an Apple in the basket.
+A is for Apple | red and round | crunch at snack time.
 ```
 
-Example:
+Physical length is not a score target. Use short hits, ordinary teaching lines, and extended multi-phrase lines when musically natural. For a long line, allocate more bars or rests; never compress it simply to resemble neighboring lines.
+
+Evaluate:
 
 ```text
-A is for apple, red and sweet,
-packed beside my morning snack.
+spoken naturalness
+lexical stress
+phraselet boundaries
+breathing / response space
+bar allocation
+semantic usefulness
+provider rushing/skip risk
 ```
 
-Analyze it musically as phraselets rather than a single breath:
+A 3-word target line can be excellent. A 20-word line can also PASS when it is naturally split across multiple phraselets. Word count alone may not promote or reject a line.
+
+### Controlled syntax variation
+
+A song should choose a coherent palette of roughly 3–6 target-entry families rather than applying one frame to all A–Z or inventing 26 unrelated tricks.
+
+Examples of entry families:
 
 ```text
-A is for APP-le | RED and SWEET | PACKED beside my MOR-ning SNACK
+direct          A — Apple!
+repeated-letter A ... A ... A ... Apple!
+classic         A is for Apple.
+question        A? Apple!
+action-first    Tap A — find Apple.
+object-first    Apple — that's our A word today.
+narrative       Here comes A with an Apple.
 ```
+
+Use object-conditioned verbs/descriptions instead of generic tails repeated across unrelated targets. `Buoy bobs`, `Frog hops`, `Waterfall tumbles`, etc. Tier C targets may deliberately simplify into speech-like repeated-note teaching rather than decorative wording.
+
+### Line-length contour
+
+Design short/medium/long contrast intentionally at section level. Example contours:
+
+```text
+SHORT -> MEDIUM -> MEDIUM -> LONG
+MEDIUM -> SHORT -> LONG -> SHORT
+```
+
+This is a creative device, not a quota. Preserve enough motif/rhythmic grammar for prediction.
 
 ### Legacy Chant Mode — optional
 
-The older chant template remains valid when explicitly desired:
+Exact repetition remains valid when repetition itself is the musical hook:
 
 ```text
-LETTER LETTER LETTER is a/an WORD,
-LETTER LETTER LETTER,
-LETTER is a/an WORD,
-LETTER LETTER LETTER.
+A ... A ... A ... Apple!
 ```
 
-For plural or mass nouns, omit the article when appropriate.
-
-Do not silently force every song into this template.
+Declare the chant mechanism and create contrast in chorus, arrangement, semantic follow-up, or later sections. Do not confuse deliberate repetition with generator-template monotony.
 
 ### Input-Locked Mode
 
-Whichever lyric mode is selected:
+Whichever architecture is selected:
 
-- keep the supplied letter order;
-- keep the supplied vocabulary;
-- preserve requested educational scope;
-- do not insert unrelated hooks or narration merely to sound more like a pop song;
-- do not add "Hey kids!", "Let's sing!", character dialogue, or extra facts unless they serve the requested lesson;
-- do not silently change the selected lyric architecture.
-
-Creative restructuring is allowed when it improves the requested song while preserving the locked learning targets.
+- keep supplied letter order and locked vocabulary;
+- preserve educational scope;
+- do not add unrelated narrative solely to sound more like pop;
+- do not silently change mapping to improve rhyme;
+- creative restructuring is encouraged when it improves song identity while keeping learning targets clear.
 
 ---
 
@@ -841,14 +855,14 @@ First fail or revise when:
 Then assess total sung-word risk for a single Suno-style generation:
 
 ```text
-under ~700 words  -> usually manageable when local density is low
-~700–800 words    -> caution; inspect section density and generator behavior
-above ~800 words  -> HIGH GENERATION RISK
+under ~800 words   -> normal working range when local density is healthy
+~800–950 words     -> acceptable long-form range; inspect local phrasing, breathing, and provider behavior
+above ~950–1000    -> long-generation caution; verify one-pass reliability
 ```
 
-These are risk heuristics, not educational hard limits. When a necessary educational song exceeds ~800 words, first shorten Round 2, reduce repeated choruses/bridges/filler, or generate in parts and stitch when the workflow supports it. Never increase vocal speed merely to fit a long draft.
+These are provider-risk heuristics, not educational hard limits, and **800 words alone is not a warning**. An 800–900+ word song may PASS when sections breathe, phraselets are clear, targets are not rushed, and actual generation does not skip/compress material. Shorten only when local density or generated-audio evidence justifies it; remove filler/redundant repetition before useful semantic teaching. Never increase vocal speed merely to fit a long draft.
 
-> A long educational song can be valid; a dense local section is not. Global length warns about generator capacity, not educational quality.
+> A long educational song can be valid; a dense local section is not. Local density and actual provider behavior outrank total word count.
 
 ## Tempo
 
@@ -916,8 +930,10 @@ Purpose:
 Typical profile:
 
 ```text
-6–12 sung words per letter line preferred
-1–2 phraselets typical
+variable short / medium / extended target lines
+1–3 natural phraselets when needed
+object-conditioned semantic verb/image
+recognizable motif family without one fixed sentence skeleton
 ```
 
 ### Round 2 — Retrieval / Action / Recall
@@ -1458,37 +1474,58 @@ If a specific music model interprets ellipses poorly, preserve the semantic lyri
 
 # Suno-Compatible Style Prompt
 
-When the user wants a Suno-ready prompt, produce a compact style box with vocals first.
+When the user wants a Suno-ready prompt, write a **performance blueprint**, not a genre/instrument shopping list.
+
+Suno Custom mode accepts user lyrics plus Styles/advanced options; section-level editing/replacement can repair localized failures after generation. Treat these as provider capabilities, not guarantees of musical realization.
 
 Preferred information order:
 
-1. vocal identity and delivery;
-2. genre/function;
-3. tempo and melodic character;
-4. key instruments;
-5. production/mix priorities;
-6. mood.
+1. voice identity, diction, pronunciation behavior;
+2. meter/groove and tempo;
+3. melodic range/contour and tonal center;
+4. opening behavior;
+5. Round-1 teaching behavior;
+6. chorus/refrain behavior;
+7. Round-2 cue/gap/response behavior;
+8. target-word mix window;
+9. key instrumentation / signature rhythmic color;
+10. arrangement-energy arc and ending behavior.
 
-Keep every descriptor distinct. Do not create a synonym pile.
+Keep each descriptor distinct. Do not use real artist, band, producer, album, or song names. Translate references into abstract musical characteristics.
 
-Do not use real artist, band, producer, album, or song names in the final Suno style prompt. Translate any reference into musical characteristics.
-
-### Default ABC Style Prompt
-
-Use this as a starting point and adapt it to the user's request:
+### Performance-blueprint example
 
 ```text
-Warm clear adult female lead, friendly teacher-like delivery, crisp diction, stable vowels, minimal vibrato, no melisma. Preschool educational sing-along for ages 2–6, steady 4/4, usually 80–100 BPM but calibrated to age, lyric density and learning objective. Simple diatonic melody, repeated notes and stepwise motion, narrow range. Piano, xylophone, soft bells, ukulele, handclaps and light percussion; vocals forward, arrangement sparse. Each letter is one complete singable phrase with natural stress, low density, flexible bars and clear breathing space. Never rush to fit duration. Repeated letters are separate audible events. For two-round songs, Round 1 teaches clearly; Round 2 uses short cue-gap-confirm-action phrasing with real response space. Keep hooks and repeated text melodically stable. Clarity, pronunciation, participation and memorability come before rhyme or production complexity.
+Warm clear adult female lead with crisp dry diction. Playful 6/8 acoustic river-folk, 86 BPM, narrow stepwise melody and stable major key. Open with a two-bar ripple motif and immediate title hook, no generic spoken invitation. Round 1 alternates short target punches with longer descriptive phraselets; rare words stay deliberate and near speech-rhythm. Chorus lifts into a simple two-bar singalong with light group echo. Round 2 becomes stop-start call-and-response with one real beat of space after each letter cue. Thin percussion and backing vocals at each target-word onset, then let marimba answer after the word. Acoustic guitar, marimba, soft shaker and pizzicato bass. No melisma, no rapid patter, no dense choir. End with one clean final hook and short cadence.
 ```
+
+This is a design request. Actual response gap, diction, lexical stress, melody, and mix remain `PENDING AUDIO` until L1.
+
+### Style-prompt diversity
+
+Across a catalog, changing only `ukulele -> banjo -> marimba` is insufficient creative differentiation when all section behaviors remain identical. Vary meaningful dimensions such as:
+
+```text
+meter / groove
+opening behavior
+vocal texture
+Round-1 phrasing
+chorus function
+Round-2 response grammar
+arrangement density arc
+signature rhythmic cell
+```
+
+Series identity may keep one lead voice/sonic brand while songs differ in these dimensions.
 
 If a platform imposes a character limit, preserve in this order:
 
-1. vocal clarity and repeated-letter separation;
-2. educational genre/function;
-3. tempo/pacing;
-4. core instrumentation;
-5. production details;
-6. extra mood adjectives.
+1. vocal clarity/pronunciation and target separation;
+2. learning-section performance behavior;
+3. retrieval gap / target mix protection when relevant;
+4. groove/tempo and melodic character;
+5. core signature instrumentation;
+6. mood/decorative descriptors.
 
 ---
 
@@ -1534,28 +1571,31 @@ Do not tell children to perform risky physical actions just to create a rhyme or
 
 ---
 
-# Creative Mode
+# Creative Variation Mode
 
-Only activate creative mode when the user explicitly asks for a less rigid song.
+Creative variation is **default for catalog-quality songwriting** after educational hard gates are protected; it no longer requires a special request to avoid rigid templates.
 
-Creative mode may add:
+Use `CREATIVE_VARIATION_PLAYBOOK.md` to borrow abstract craft techniques from pop, folk, call-and-response traditions, musical theatre/story song, rhythmic spoken-word/hip-hop craft, swing/jazz phrasing, and global groove families. Borrow structure, prosody, rhyme, pacing, POV, and section contrast—not copyrighted lyrics, melodies, distinctive artist identity, adult themes, or cultural caricature.
 
-- a short hook;
-- call-and-response;
-- a simple chorus;
-- movement cues;
-- character voices;
-- a story wrapper;
-- gentle rhyme;
-- a different genre flavor.
+Creative freedom may add:
 
-Even in creative mode:
+- cold-open hooks, questions, scene drops, sound-image openings, movement pickups, character/guide POV;
+- repeated-letter chants such as `A ... A ... A ... Apple!`;
+- direct forms such as `A — Apple!` or `A is for Apple`;
+- variable short/medium/long lines and multi-bar phraselets;
+- object-specific semantic verbs/images;
+- internal/family/assonance/consonance rhyme;
+- pre-chorus lifts, verse/refrain, cumulative forms, call-response, speak-sing contrast;
+- section-specific arrangement and energy arcs.
+
+Even at maximum creativity:
 
 - educational targets stay correct;
-- pronunciation stays clear;
-- vocabulary stays age-appropriate;
-- target words are never hidden inside dense lyrics;
-- the user-supplied mapping remains locked unless approved.
+- pronunciation/stress stay correct;
+- target words remain intelligible;
+- child safety remains non-negotiable;
+- mapping remains locked unless upstream review reopens it;
+- novelty must not destroy the child's ability to predict where the target arrives.
 
 ---
 
@@ -1574,7 +1614,7 @@ After writing or revising a preschool educational song, run this review before p
 
 - Are the words understandable for the intended age?
 - Is the content child-safe?
-- Are sentences short and concrete?
+- Is the language concrete and age-comprehensible? Child-facing echoes should stay short; adult teaching lines may be longer when they unfold in clear natural phraselets.
 
 ## 3. Prosody
 
@@ -1655,7 +1695,7 @@ This is a heuristic, not a hard gate.
 - As a starting envelope, does roughly 80–100 BPM preserve clarity, with lexical-heavy material usually favoring the calmer part and sparse action/retrieval material allowed more energy?
 - Are sections limited to 4–6 letter lines?
 - Is any line or section likely to rush, compress, or skip?
-- If total lyrics exceed ~800 sung words, is the single-generation risk explicitly handled?
+- If total lyrics approach/exceed ~950–1000 sung words, or actual generations begin compressing/skipping, is the long-generation risk explicitly handled?
 - Is duration allowed to follow the actual phrase rather than a fixed timer?
 
 ## 7. Singability

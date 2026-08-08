@@ -1,0 +1,21 @@
+{
+  "songId": "0032",
+  "theme": "Cactus & Dunes",
+  "macroDomain": "Desert",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> Xerophyte: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Ziziphus Shrub: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "B": 4,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "songId": "0095",
+  "theme": "Colorful Foods",
+  "macroDomain": "Fruits & Vegetables",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "U -> Ulluco: support-required, verify-pronunciation",
+    "Z -> Zinfandel Grape: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "B": 4,
+    "C": 1
+  },
+  "riskCounts": {
+    "support-required": 1,
+    "verify-pronunciation": 1,
+    "guided-theme-fallback-review": 1
+  }
+}

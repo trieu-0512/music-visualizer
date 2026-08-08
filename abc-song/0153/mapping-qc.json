@@ -1,0 +1,19 @@
+{
+  "songId": "0153",
+  "theme": "Streets & Buildings",
+  "macroDomain": "City & Community",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quilt Shop: guided-theme-fallback-review",
+    "X -> X-crossing: verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 18,
+    "B": 8
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 1,
+    "verify-pronunciation": 1
+  }
+}

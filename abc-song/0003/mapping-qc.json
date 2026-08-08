@@ -1,0 +1,20 @@
+{
+  "songId": "0003",
+  "theme": "Ocean Creatures & Boats",
+  "macroDomain": "Ocean & Coast",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Queen Angelfish: guided-theme-fallback-review",
+    "X -> X-ray Fish: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zebra Shark: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "B": 5
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "verify-pronunciation": 1
+  }
+}

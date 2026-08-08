@@ -1,0 +1,23 @@
+{
+  "songId": "0039",
+  "theme": "Arctic Explorer",
+  "macroDomain": "Arctic & Polar",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Qajaq: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "X -> X-ray Fish: guided-theme-fallback-review, verify-pronunciation",
+    "Y -> Yellow-billed Loon: verify-pronunciation",
+    "Z -> Zoarcid Fish: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "B": 7,
+    "A": 17,
+    "C": 2
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "support-required": 2,
+    "verify-pronunciation": 4
+  }
+}

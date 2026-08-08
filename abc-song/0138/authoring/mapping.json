@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Aircraft & Ground Crew",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Airport",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boarding Pass",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Cargo Plane",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Drone",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Engine",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flight Deck",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Gate",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hangar",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inflatable Slide",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jet",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kerosene Tank",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Luggage Cart",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Marshaller",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nose Wheel",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Overhead Bin",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Propeller",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quadcopter",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Radar",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Seatbelt",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Turboprop",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ultralight",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vertical Stabilizer",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Windsock",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Scanner",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoke",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zeppelin",
+      "familiarityTier": "A"
+    }
+  }
+}

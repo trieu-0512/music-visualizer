@@ -1,0 +1,21 @@
+{
+  "songId": "0143",
+  "theme": "Watercraft World",
+  "macroDomain": "Boats & Harbor",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> X-ray Sonar Screen: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zodiac Boat: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 17,
+    "B": 8,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

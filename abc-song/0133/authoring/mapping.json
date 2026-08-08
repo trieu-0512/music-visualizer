@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Trains & Tracks",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Automatic Gate",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Boxcar",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Coach",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Diesel Engine",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Electric Train",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Freight Car",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Gate",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hopper Car",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Information Board",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Junction",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Key Switch",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Level Crossing",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Monorail",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Night Train",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Observation Car",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Platform",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiet Car",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Railway Signal",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Subway",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Train",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underground Train",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Viaduct",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Waiting Room",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-crossing Sign",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yard Engine",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Track",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

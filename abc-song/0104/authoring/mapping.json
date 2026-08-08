@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Classroom Learning",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alphabet Chart",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Book",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Calculator",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Desk",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Envelope",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flashcard",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Globe",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hole Punch",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Ink",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jigsaw Map",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "K": {
+      "object": "Knowledge Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "L": {
+      "object": "Lunchbox",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Marker",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Notebook",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Organizer",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pencil",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiz Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Ruler",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Stapler",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "T": {
+      "object": "Textbook",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Violin Case",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Whiteboard",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-axis Graph",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Pencil",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zero Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

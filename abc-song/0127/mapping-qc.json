@@ -1,0 +1,19 @@
+{
+  "songId": "0127",
+  "theme": "Cars Trucks & Machines",
+  "macroDomain": "Vehicles & Roads",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> Xpress Bus: guided-theme-fallback-review",
+    "Z -> Zero-emission Bus: guided-theme-fallback-review, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 15,
+    "B": 11
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "verify-pronunciation": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "songId": "0196",
+  "theme": "Seasons of the Year",
+  "macroDomain": "Seasons & Celebrations",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "F -> Firework: safety-context-only",
+    "N -> New Year Clock: support-required, verify-pronunciation",
+    "Q -> Quiet Snow: guided-theme-fallback-review, visual-clarity-review",
+    "U -> Under-sun Hat: verify-pronunciation",
+    "X -> Xmas Bell: guided-theme-fallback-review",
+    "Z -> Zip Coat: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 10,
+    "A": 15,
+    "C": 1
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "support-required": 1,
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 3,
+    "visual-clarity-review": 1
+  }
+}

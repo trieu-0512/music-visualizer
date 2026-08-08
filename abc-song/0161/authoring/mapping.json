@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Around the House",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Armchair",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Blanket",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chair",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dresser",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Envelope",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fan",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Garage",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hanger",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iron",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jug",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kettle",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Lamp",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mattress",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nightlight",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oven",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "P": {
+      "object": "Pillow",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilted Cushion",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rug",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Soap",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Towel",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utensil Drawer",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vase",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Window",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Cushion",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zen Garden",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

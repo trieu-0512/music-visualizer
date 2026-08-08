@@ -1,0 +1,62 @@
+{
+  "songId": "0008",
+  "title": "Freshwater Friends ABC",
+  "theme": "Freshwater Animals",
+  "mappingRevision": 1,
+  "tempoBpm": 91,
+  "motifFamily": "friend-bounce",
+  "hook": [
+    "Freshwater friends—A-B-C!",
+    "Swim, hop, glide from A to Z!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "brief retrieval pause, then warm confirmation",
+  "visualStyle": "cute freshwater animal 3D storybook, pond blues and leafy greens, expressive but anatomically clear creatures, uncluttered",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "animal-motion montage",
+    "targetEntryFamilies": [
+      "narrative",
+      "direct",
+      "question-answer",
+      "action-first",
+      "is-for"
+    ],
+    "lineLengthContour": [
+      "medium",
+      "short",
+      "medium",
+      "long"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "friendly freshwater nature host following animals, plants and water objects",
+    "chorusFunction": "motion-word hook linking swim, hop and glide",
+    "grooveMeter": "bright 4/4 acoustic bounce",
+    "round1Grammar": "mini nature snapshots, direct hits and action-led observations; acknowledge that mapping includes more than animals",
+    "round2Grammar": "cue, gap, confirmation and safe mimed motion; Hydrilla remains point-only",
+    "sectionContrast": "Round 1 marimba/ukulele; chorus adds snaps; Round 2 soft kick drops out on targets and uses finger-tap answers",
+    "signatureColor": "marimba two-note animal-motion answer",
+    "chorusAfterRound1": [
+      2,
+      5
+    ],
+    "chorusAfterRound2": [
+      3,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 26,
+    "usedRound1": 13,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

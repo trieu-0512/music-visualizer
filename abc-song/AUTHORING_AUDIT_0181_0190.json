@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "range": "0181-0190",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "maxLyricSimilarity": 0.054,
+  "mostSimilarPair": [
+    "0183",
+    "0184"
+  ],
+  "songsDetail": [
+    {
+      "songId": "0181",
+      "theme": "My Daily Routine",
+      "targetLines": 52,
+      "lyricWordCount": 604,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0182",
+      "theme": "Morning & Evening",
+      "targetLines": 52,
+      "lyricWordCount": 580,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0183",
+      "theme": "Home Routines",
+      "targetLines": 52,
+      "lyricWordCount": 629,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0184",
+      "theme": "Getting Ready & Cleaning",
+      "targetLines": 52,
+      "lyricWordCount": 535,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0185",
+      "theme": "Family Day",
+      "targetLines": 52,
+      "lyricWordCount": 645,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0186",
+      "theme": "Fairy Tale World",
+      "targetLines": 52,
+      "lyricWordCount": 682,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0187",
+      "theme": "Castles & Magic",
+      "targetLines": 52,
+      "lyricWordCount": 634,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0188",
+      "theme": "Dragons Knights & Fairies",
+      "targetLines": 52,
+      "lyricWordCount": 611,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0189",
+      "theme": "Storybook Kingdom",
+      "targetLines": 52,
+      "lyricWordCount": 603,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0190",
+      "theme": "Magic Quest",
+      "targetLines": 52,
+      "lyricWordCount": 611,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

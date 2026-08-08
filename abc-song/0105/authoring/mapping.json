@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Classroom Activities",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alphabet Chart",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Backpack",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Calculator",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Desk",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eraser",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Folder",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glue",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Highlighter",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ink",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jigsaw Map",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "K": {
+      "object": "Knowledge Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "L": {
+      "object": "Library Book",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Marker",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Notebook",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Origami Paper",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Paintbrush",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiz Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Reading Book",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Stapler",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "T": {
+      "object": "Tape",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "USB Drive",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vocabulary Card",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Workbook",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Pencil",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zero Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

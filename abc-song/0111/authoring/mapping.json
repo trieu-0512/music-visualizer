@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Musical Instruments",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Acoustic Guitar",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Bongos",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cello",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dulcimer",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Euphonium",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flute",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gong",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harmonica",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Instrument",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jaw Harp",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kazoo",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lyre",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mandolin",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Noise Maker",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Oboe",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Piano",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quarter Note",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Recorder",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Saxophone",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tambourine",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Udu Drum",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vibraphone",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Whistle",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yangqin",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zills",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

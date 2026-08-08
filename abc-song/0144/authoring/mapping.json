@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Marina & Rescue Boats",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anchor",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Buoy",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Catamaran",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dock",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Echo Sounder",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fishing Boat",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Gondola",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Houseboat",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inflatable Boat",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jolly Boat",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Keel",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lifeboat",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Marina",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Navigation Light",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Oar",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Paddleboat",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quarterdeck",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Raft",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Submarine",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trimaran",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underwater Scooter",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Voyage Map",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wake",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Sonar Screen",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yawl",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zephyr Sail",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Balls Bikes & Gear",
+  "globalStyle": "friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Athlete",
+      "prompt": "Preschool source-composite extraction image for letter A and Athlete. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase A on the left and exactly one clear Athlete on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Ball",
+      "prompt": "Preschool source-composite extraction image for letter B and Ball. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase B on the left and exactly one clear Ball on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Cricket Bat",
+      "prompt": "Preschool source-composite extraction image for letter C and Cricket Bat. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase C on the left and exactly one clear Cricket Bat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dumbbell",
+      "prompt": "Preschool source-composite extraction image for letter D and Dumbbell. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase D on the left and exactly one clear Dumbbell on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Exercise Mat",
+      "prompt": "Preschool source-composite extraction image for letter E and Exercise Mat. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase E on the left and exactly one clear Exercise Mat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Football",
+      "prompt": "Preschool source-composite extraction image for letter F and Football. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase F on the left and exactly one clear Football on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Goggles",
+      "prompt": "Preschool source-composite extraction image for letter G and Goggles. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase G on the left and exactly one clear Goggles on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Helmet",
+      "prompt": "Preschool source-composite extraction image for letter H and Helmet. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase H on the left and exactly one clear Helmet on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Inflatable Pool",
+      "prompt": "Preschool source-composite extraction image for letter I and Inflatable Pool. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase I on the left and exactly one clear Inflatable Pool on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jump Rope",
+      "prompt": "Preschool source-composite extraction image for letter J and Jump Rope. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase J on the left and exactly one clear Jump Rope on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kayak",
+      "prompt": "Preschool source-composite extraction image for letter K and Kayak. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase K on the left and exactly one clear Kayak on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lane Marker",
+      "prompt": "Preschool source-composite extraction image for letter L and Lane Marker. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase L on the left and exactly one clear Lane Marker on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Mat",
+      "prompt": "Preschool source-composite extraction image for letter M and Mat. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase M on the left and exactly one clear Mat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Net",
+      "prompt": "Preschool source-composite extraction image for letter N and Net. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase N on the left and exactly one clear Net on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Obstacle",
+      "prompt": "Preschool source-composite extraction image for letter O and Obstacle. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase O on the left and exactly one clear Obstacle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Paddle",
+      "prompt": "Preschool source-composite extraction image for letter P and Paddle. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase P on the left and exactly one clear Paddle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quoits Ring",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quoits Ring. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase Q on the left and exactly one clear Quoits Ring on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Relay Baton",
+      "prompt": "Preschool source-composite extraction image for letter R and Relay Baton. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase R on the left and exactly one clear Relay Baton on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Soccer Ball",
+      "prompt": "Preschool source-composite extraction image for letter S and Soccer Ball. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase S on the left and exactly one clear Soccer Ball on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Trampoline",
+      "prompt": "Preschool source-composite extraction image for letter T and Trampoline. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase T on the left and exactly one clear Trampoline on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Uniform",
+      "prompt": "Preschool source-composite extraction image for letter U and Uniform. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase U on the left and exactly one clear Uniform on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Volleyball",
+      "prompt": "Preschool source-composite extraction image for letter V and Volleyball. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase V on the left and exactly one clear Volleyball on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Water Bottle",
+      "prompt": "Preschool source-composite extraction image for letter W and Water Bottle. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase W on the left and exactly one clear Water Bottle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xylophone",
+      "prompt": "Preschool source-composite extraction image for letter X and Xylophone. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase X on the left and exactly one clear Xylophone on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yoga Mat",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yoga Mat. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase Y on the left and exactly one clear Yoga Mat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zorb Ball",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zorb Ball. friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride. Show one large stylized uppercase Z on the left and exactly one clear Zorb Ball on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

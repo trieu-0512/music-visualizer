@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Frogs Snakes & Turtles",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alligator",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boa",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chameleon",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dragon Lizard",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Emerald Tree Boa",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "F": {
+      "object": "Frilled Lizard",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Gecko",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Horned Lizard",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Italian Newt",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jackson Chameleon",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "King Cobra",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Leopard Gecko",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Monitor Lizard",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nile Crocodile",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Ornate Box Turtle",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "P": {
+      "object": "Poison Frog",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Queensland Frog",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Red-eyed Tree Frog",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "S": {
+      "object": "Salamander",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toad",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uromastyx",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Viper",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Water Dragon",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xenosaurus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow-bellied Slider",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zigzag Salamander",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

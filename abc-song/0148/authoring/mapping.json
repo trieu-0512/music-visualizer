@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Builders at Work",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Auger",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "B": {
+      "object": "Bolt",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cement Mixer",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Drill",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "E": {
+      "object": "Excavator",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Forklift",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gravel",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hard Hat",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "I-beam",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "J": {
+      "object": "Jackhammer",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "K": {
+      "object": "Keyhole Saw",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Level",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mallet",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nail",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oil Can",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pliers",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "Q": {
+      "object": "Quick Clamp",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rivet",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Saw",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "T": {
+      "object": "Trowel",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utility Knife",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "V": {
+      "object": "Vise",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wheelbarrow",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-brace",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yardstick",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zip Tie",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

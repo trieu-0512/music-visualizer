@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Neighborhood Life",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Ambulance",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bakery",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "City Hall",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Doctor",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Exit Sign",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fountain",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Garage",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hotel",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Information Sign",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Junction",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kindergarten",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Library",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mailbox",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Newsstand",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Office",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Police Car",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quilt Shop",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Restaurant",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Subway",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Theater",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underground Train",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vet Clinic",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Water Fountain",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-crossing",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Studio",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zone Sign",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "songId": "0021",
+  "title": "Woodland Footstep ABC",
+  "theme": "Woodland Animals",
+  "mappingRevision": 1,
+  "tempoBpm": 85,
+  "motifFamily": "woodland-step",
+  "hook": [
+    "Tiptoe softly—A-B-C!",
+    "Woodland friends, come walk with me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "one clear beat with arrangement thinned",
+  "visualStyle": "warm 3D woodland storybook, moss green and bark brown, friendly animals, dappled light, isolated foreground subjects",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "leaf-crunch sound-image",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "is-for",
+      "question-answer",
+      "narrative"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "a quiet woodland walker following tracks, leaves, birds and tree shapes",
+    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
+    "grooveMeter": "light 4/4 bounce",
+    "round1Grammar": "Round 1 uses small woodland observations—bark, wings, tracks, leaves, shade and movement—with plenty of air.",
+    "round2Grammar": "Round 2 uses quiet cue-gap-answer phrasing, then one woodland motion such as hop, flap, sway, tap or trace.",
+    "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. wood-flute or pizzicato leaf answers between target phrases",
+    "signatureColor": "wood-flute or pizzicato leaf answers between target phrases",
+    "chorusAfterRound1": [
+      3,
+      6
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 19,
+    "usedRound1": 10,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

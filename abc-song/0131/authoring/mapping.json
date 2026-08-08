@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Train Station",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Automatic Gate",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Brake",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Caboose",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dining Car",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Electric Train",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Freight Car",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Gate",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "High-speed Train",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "I": {
+      "object": "Intercity Train",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Junction Box",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Key Switch",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Locomotive",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Monorail",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Number Sign",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Overpass",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Platform",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queue Barrier",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rail",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Subway",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Ticket",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utility Car",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vestibule",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wagon",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xpress Train",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Signal",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zone Map",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

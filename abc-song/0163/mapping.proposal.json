@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0163",
+  "theme": {
+    "name": "Everyday Home",
+    "semanticFocus": "Everyday Home",
+    "macroDomain": "Home & Rooms",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Armchair"
+    },
+    "B": {
+      "object": "Bed"
+    },
+    "C": {
+      "object": "Cupboard"
+    },
+    "D": {
+      "object": "Door"
+    },
+    "E": {
+      "object": "Envelope"
+    },
+    "F": {
+      "object": "Fan"
+    },
+    "G": {
+      "object": "Garage"
+    },
+    "H": {
+      "object": "Hallway"
+    },
+    "I": {
+      "object": "Indoor Plant"
+    },
+    "J": {
+      "object": "Jar"
+    },
+    "K": {
+      "object": "Kettle"
+    },
+    "L": {
+      "object": "Laundry Basket"
+    },
+    "M": {
+      "object": "Mattress"
+    },
+    "N": {
+      "object": "Napkin"
+    },
+    "O": {
+      "object": "Ottoman"
+    },
+    "P": {
+      "object": "Pillow"
+    },
+    "Q": {
+      "object": "Quilt"
+    },
+    "R": {
+      "object": "Refrigerator"
+    },
+    "S": {
+      "object": "Soap"
+    },
+    "T": {
+      "object": "Table"
+    },
+    "U": {
+      "object": "Umbrella"
+    },
+    "V": {
+      "object": "Vacuum"
+    },
+    "W": {
+      "object": "Wardrobe"
+    },
+    "X": {
+      "object": "X-shaped Shelf"
+    },
+    "Y": {
+      "object": "Yarn"
+    },
+    "Z": {
+      "object": "Zipper"
+    }
+  }
+}

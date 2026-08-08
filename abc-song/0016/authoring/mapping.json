@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Garden Plants",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple Tree",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Bean",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Carrot",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dirt",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eggplant",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flower",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Garden Gate",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hoe",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ivy",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jug",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kneeling Pad",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Ladybug",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mulch",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nasturtium",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Onion",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pea",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rose",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sunflower",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tomato",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrella Plant",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vegetable Bed",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Watering Can",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yarrow",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zinnia",
+      "familiarityTier": "A"
+    }
+  }
+}

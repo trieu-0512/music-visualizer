@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Planets & Stars",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Astronaut",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Booster",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Comet",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dwarf Planet",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Eclipse",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fuel Tank",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "G": {
+      "object": "Galaxy",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Helmet",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Io",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jupiter",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kuiper Belt",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "L": {
+      "object": "Lunar Rover",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Moon",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Neptune",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Observatory",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Probe",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quarter Moon",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rover",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Satellite",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Telescope",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Universe",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "V": {
+      "object": "Venus",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "World",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "X": {
+      "object": "Xenon Thruster",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yoke",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zero-gravity Chair",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

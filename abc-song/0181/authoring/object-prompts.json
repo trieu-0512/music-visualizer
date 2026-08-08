@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "My Daily Routine",
+  "globalStyle": "friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "prompt": "Preschool source-composite extraction image for letter A and Apron. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase A on the left and exactly one clear Apron on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Bath",
+      "prompt": "Preschool source-composite extraction image for letter B and Bath. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase B on the left and exactly one clear Bath on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Comb",
+      "prompt": "Preschool source-composite extraction image for letter C and Comb. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase C on the left and exactly one clear Comb on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Door",
+      "prompt": "Preschool source-composite extraction image for letter D and Door. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase D on the left and exactly one clear Door on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Eggs",
+      "prompt": "Preschool source-composite extraction image for letter E and Eggs. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase E on the left and exactly one clear Eggs on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fork",
+      "prompt": "Preschool source-composite extraction image for letter F and Fork. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase F on the left and exactly one clear Fork on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Getting-dressed Chart",
+      "prompt": "Preschool source-composite extraction image for letter G and Getting-dressed Chart. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase G on the left and exactly one clear Getting-dressed Chart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Hairbrush",
+      "prompt": "Preschool source-composite extraction image for letter H and Hairbrush. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase H on the left and exactly one clear Hairbrush on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Indoor Shoes",
+      "prompt": "Preschool source-composite extraction image for letter I and Indoor Shoes. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase I on the left and exactly one clear Indoor Shoes on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jacket",
+      "prompt": "Preschool source-composite extraction image for letter J and Jacket. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase J on the left and exactly one clear Jacket on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kettle",
+      "prompt": "Preschool source-composite extraction image for letter K and Kettle. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase K on the left and exactly one clear Kettle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lunchbox",
+      "prompt": "Preschool source-composite extraction image for letter L and Lunchbox. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase L on the left and exactly one clear Lunchbox on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Morning Chart",
+      "prompt": "Preschool source-composite extraction image for letter M and Morning Chart. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase M on the left and exactly one clear Morning Chart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Nightlight",
+      "prompt": "Preschool source-composite extraction image for letter N and Nightlight. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase N on the left and exactly one clear Nightlight on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Oatmeal",
+      "prompt": "Preschool source-composite extraction image for letter O and Oatmeal. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase O on the left and exactly one clear Oatmeal on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Pajamas",
+      "prompt": "Preschool source-composite extraction image for letter P and Pajamas. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase P on the left and exactly one clear Pajamas on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quiet Book",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quiet Book. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase Q on the left and exactly one clear Quiet Book on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Routine Chart",
+      "prompt": "Preschool source-composite extraction image for letter R and Routine Chart. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase R on the left and exactly one clear Routine Chart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Soap",
+      "prompt": "Preschool source-composite extraction image for letter S and Soap. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase S on the left and exactly one clear Soap on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Toothbrush",
+      "prompt": "Preschool source-composite extraction image for letter T and Toothbrush. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase T on the left and exactly one clear Toothbrush on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Utensils",
+      "prompt": "Preschool source-composite extraction image for letter U and Utensils. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase U on the left and exactly one clear Utensils on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vacuum",
+      "prompt": "Preschool source-composite extraction image for letter V and Vacuum. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase V on the left and exactly one clear Vacuum on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Washcloth",
+      "prompt": "Preschool source-composite extraction image for letter W and Washcloth. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase W on the left and exactly one clear Washcloth on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xylophone",
+      "prompt": "Preschool source-composite extraction image for letter X and Xylophone. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase X on the left and exactly one clear Xylophone on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yawn",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yawn. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase Y on the left and exactly one clear Yawn on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zip Pajamas",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zip Pajamas. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps. Show one large stylized uppercase Z on the left and exactly one clear Zip Pajamas on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

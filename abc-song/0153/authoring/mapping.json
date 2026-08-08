@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Streets & Buildings",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apartment",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bakery",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "City Hall",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Doctor",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Elevator",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fire Station",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Garage",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hotel",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Intersection",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Juice Shop",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kindergarten",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Laundromat",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Market",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Newsstand",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Overpass",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Police Car",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quilt Shop",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Road",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "School",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Theater",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underground Train",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Van",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Walkway",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-crossing",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yard",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zoo",
+      "familiarityTier": "A"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Flying Machines",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Airplane",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boarding Pass",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Cockpit",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Departure Board",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Elevator Trim",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fuselage",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glider",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Helicopter",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inflatable Slide",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jet",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kite",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Luggage Cart",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Monoplane",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Navigation Light",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Overhead Bin",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Passenger Plane",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Queue Lane",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Radar",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Seatbelt",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tail",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ultralight",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vertical Stabilizer",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wing",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Scanner",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Taxiway Sign",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zero-gravity Plane",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

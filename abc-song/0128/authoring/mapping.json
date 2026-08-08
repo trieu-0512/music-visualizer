@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Road Vehicles",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "ATV",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bus",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cement Mixer",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Dump Truck",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Excavator",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fire Engine",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Golf Cart",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hatchback",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Intercity Bus",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jet",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kart",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Loader",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Minivan",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Narrowboat",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oil Tanker",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Plane",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quad Bike",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Road Roller",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Scooter",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tractor",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utility Truck",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Van",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wrecker",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xpress Bus",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yacht",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zeppelin",
+      "familiarityTier": "A"
+    }
+  }
+}

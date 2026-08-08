@@ -1,0 +1,24 @@
+{
+  "songId": "0157",
+  "theme": "Jobs Around Town",
+  "macroDomain": "Community Helpers",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Kindergarten Teacher: support-required, verify-pronunciation",
+    "Q -> Quality Inspector: guided-theme-fallback-review, visual-clarity-review",
+    "X -> Xylophone Teacher: guided-theme-fallback-review",
+    "Z -> Zumba Instructor: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 17,
+    "C": 1,
+    "B": 8
+  },
+  "riskCounts": {
+    "support-required": 1,
+    "verify-pronunciation": 1,
+    "guided-theme-fallback-review": 3,
+    "visual-clarity-review": 1
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Balls Bikes & Gear",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Athlete",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Ball",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cricket Bat",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Dumbbell",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Exercise Mat",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Football",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goggles",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Helmet",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inflatable Pool",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jump Rope",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kayak",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lane Marker",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mat",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Net",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Obstacle",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Paddle",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quoits Ring",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Relay Baton",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Soccer Ball",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Trampoline",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Volleyball",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Water Bottle",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yoga Mat",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zorb Ball",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

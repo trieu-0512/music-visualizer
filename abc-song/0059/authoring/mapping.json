@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Dinosaur Explorer",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Allosaurus",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Brachiosaurus",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Carnotaurus",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Diplodocus",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Edmontosaurus",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Footprint",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gastonia",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Herrerasaurus",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Iguanodon",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jawbone",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kritosaurus",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lesothosaurus",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mosasaurus",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oviraptor",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pteranodon",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quetzalcoatlus",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Raptor",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Spinosaurus",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tyrannosaurus",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Utahraptor",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Volcano",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wuerhosaurus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "X": {
+      "object": "Xixiasaurus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yinlong",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zephyrosaurus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

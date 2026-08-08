@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Snowy Wildlife",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Arctic Fox",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Bear",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cod",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dog Sled",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Eider",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fur Seal",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Goose",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harp Seal",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Iceberg",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jellyfish",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kittiwake",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lynx",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Musk Ox",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Narwhal",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Owl",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Puffin",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Qajaq",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Ringed Seal",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Seal",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tundra",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Upland Goose",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vole",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Whale",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow-billed Loon",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zoarcid Fish",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

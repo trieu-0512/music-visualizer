@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0047",
+  "theme": {
+    "name": "Sky & Clouds",
+    "semanticFocus": "Sky & Clouds",
+    "macroDomain": "Weather & Sky",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Anemometer"
+    },
+    "B": {
+      "object": "Boots"
+    },
+    "C": {
+      "object": "Cloud"
+    },
+    "D": {
+      "object": "Dew"
+    },
+    "E": {
+      "object": "Eye of Storm"
+    },
+    "F": {
+      "object": "Frost"
+    },
+    "G": {
+      "object": "Gauge"
+    },
+    "H": {
+      "object": "Hail"
+    },
+    "I": {
+      "object": "Icicle"
+    },
+    "J": {
+      "object": "Jacket"
+    },
+    "K": {
+      "object": "Kite"
+    },
+    "L": {
+      "object": "Low Cloud"
+    },
+    "M": {
+      "object": "Mittens"
+    },
+    "N": {
+      "object": "Night Sky"
+    },
+    "O": {
+      "object": "Overcast Sky"
+    },
+    "P": {
+      "object": "Pressure Gauge"
+    },
+    "Q": {
+      "object": "Quiet Sky"
+    },
+    "R": {
+      "object": "Rainbow"
+    },
+    "S": {
+      "object": "Snowflake"
+    },
+    "T": {
+      "object": "Thermometer"
+    },
+    "U": {
+      "object": "Umbrella"
+    },
+    "V": {
+      "object": "Vane"
+    },
+    "W": {
+      "object": "Windsock"
+    },
+    "X": {
+      "object": "X-band Radar"
+    },
+    "Y": {
+      "object": "Yellow Sun"
+    },
+    "Z": {
+      "object": "Zephyr"
+    }
+  }
+}

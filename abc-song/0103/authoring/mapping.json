@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "School Day",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Art Paper",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Book",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Calculator",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Desk",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eraser",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Folder",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Globe",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hole Punch",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Index Card",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Journal",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knowledge Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "L": {
+      "object": "Library Book",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Map",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Notebook",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Origami Paper",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pencil",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiz Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Reading Book",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Scissors",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "T": {
+      "object": "Textbook",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vocabulary Card",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Workbook",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-axis Graph",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yarn",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zipper Pouch",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

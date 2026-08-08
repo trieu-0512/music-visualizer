@@ -1,0 +1,27 @@
+{
+  "songId": "0082",
+  "theme": "Frogs Snakes & Turtles",
+  "macroDomain": "Reptiles & Amphibians",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "E -> Emerald Tree Boa: support-required, verify-pronunciation",
+    "O -> Ornate Box Turtle: support-required, verify-pronunciation",
+    "Q -> Queensland Frog: guided-theme-fallback-review",
+    "R -> Red-eyed Tree Frog: support-required, verify-pronunciation",
+    "U -> Uromastyx: support-required, verify-pronunciation",
+    "X -> Xenosaurus: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Y -> Yellow-bellied Slider: support-required, verify-pronunciation",
+    "Z -> Zigzag Salamander: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 7,
+    "B": 13,
+    "C": 6
+  },
+  "riskCounts": {
+    "support-required": 6,
+    "verify-pronunciation": 6,
+    "guided-theme-fallback-review": 3
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Sweet Shop",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple Pie",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Bread",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cookie",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Donut",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egg Tart",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fruitcake",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glaze",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hot Cross Bun",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "I": {
+      "object": "Icing",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jelly Donut",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kolache",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Loaf",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Muffin",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nut Bread",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Oat Cookie",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pretzel",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen Cake",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Roll",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sprinkles",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toast",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Upside-down Cake",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Victoria Sponge",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Waffle",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Pretzel",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yule Log",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zucchini Bread",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

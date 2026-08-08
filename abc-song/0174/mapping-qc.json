@@ -1,0 +1,25 @@
+{
+  "songId": "0174",
+  "theme": "Doctor & Body",
+  "macroDomain": "Body & Senses",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quadriceps: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "V -> Vision: visual-clarity-review",
+    "X -> Xiphoid Bone: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Y -> Y-shaped Bone Model: support-required, verify-pronunciation",
+    "Z -> Zinc Bandage: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 22,
+    "C": 3,
+    "B": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "support-required": 3,
+    "verify-pronunciation": 3,
+    "visual-clarity-review": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "songId": "0063",
+  "theme": "Garden Insects",
+  "macroDomain": "Insects & Bugs",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "N -> Net-winged Beetle: verify-pronunciation",
+    "Q -> Queen Bee: guided-theme-fallback-review",
+    "X -> Xylocopa Bee: guided-theme-fallback-review",
+    "Z -> Zebra Butterfly: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 11,
+    "B": 15
+  },
+  "riskCounts": {
+    "verify-pronunciation": 1,
+    "guided-theme-fallback-review": 3
+  }
+}

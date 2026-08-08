@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Space Explorer",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Asteroid",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Black Hole",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Comet",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dwarf Planet",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Earth",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flag",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gemini Capsule",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Helmet",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "International Space Station",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "J": {
+      "object": "Jet Pack",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Krypton Tank",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "L": {
+      "object": "Lander",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Meteor",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Neptune",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orbit",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "P": {
+      "object": "Planet",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quarter Moon",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rocket",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Satellite",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Telescope",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uranus",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Visor",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "World",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "X": {
+      "object": "X-ray Telescope",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoke",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zero-gravity Chair",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

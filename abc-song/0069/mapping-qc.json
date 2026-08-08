@@ -1,0 +1,23 @@
+{
+  "songId": "0069",
+  "theme": "Water & Land Birds",
+  "macroDomain": "Birds",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "N -> Nuthatch: support-required, verify-pronunciation",
+    "U -> Umbrellabird: support-required, verify-pronunciation",
+    "X -> Xantus Hummingbird: guided-theme-fallback-review",
+    "Z -> Zenaida Dove: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "C": 2,
+    "B": 3
+  },
+  "riskCounts": {
+    "support-required": 2,
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 2
+  }
+}

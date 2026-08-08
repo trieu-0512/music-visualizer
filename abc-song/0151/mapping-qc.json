@@ -1,0 +1,19 @@
+{
+  "songId": "0151",
+  "theme": "Around Town",
+  "macroDomain": "City & Community",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> X-ray Clinic: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zone Sign: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 14,
+    "B": 12
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "verify-pronunciation": 1
+  }
+}

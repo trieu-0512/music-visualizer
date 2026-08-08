@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Helping Hands",
+  "globalStyle": "friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Ambulance",
+      "prompt": "Preschool source-composite extraction image for letter A and Ambulance. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase A on the left and exactly one clear Ambulance on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Builder",
+      "prompt": "Preschool source-composite extraction image for letter B and Builder. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase B on the left and exactly one clear Builder on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Courier",
+      "prompt": "Preschool source-composite extraction image for letter C and Courier. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase C on the left and exactly one clear Courier on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Doctor",
+      "prompt": "Preschool source-composite extraction image for letter D and Doctor. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase D on the left and exactly one clear Doctor on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Electrician",
+      "prompt": "Preschool source-composite extraction image for letter E and Electrician. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase E on the left and exactly one clear Electrician on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Firefighter",
+      "prompt": "Preschool source-composite extraction image for letter F and Firefighter. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase F on the left and exactly one clear Firefighter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Gardener",
+      "prompt": "Preschool source-composite extraction image for letter G and Gardener. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase G on the left and exactly one clear Gardener on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Hairdresser",
+      "prompt": "Preschool source-composite extraction image for letter H and Hairdresser. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase H on the left and exactly one clear Hairdresser on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Inspector",
+      "prompt": "Preschool source-composite extraction image for letter I and Inspector. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase I on the left and exactly one clear Inspector on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Judge",
+      "prompt": "Preschool source-composite extraction image for letter J and Judge. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase J on the left and exactly one clear Judge on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kitchen Worker",
+      "prompt": "Preschool source-composite extraction image for letter K and Kitchen Worker. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase K on the left and exactly one clear Kitchen Worker on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lifeguard",
+      "prompt": "Preschool source-composite extraction image for letter L and Lifeguard. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase L on the left and exactly one clear Lifeguard on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Mail Carrier",
+      "prompt": "Preschool source-composite extraction image for letter M and Mail Carrier. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase M on the left and exactly one clear Mail Carrier on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Nurse",
+      "prompt": "Preschool source-composite extraction image for letter N and Nurse. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase N on the left and exactly one clear Nurse on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Officer",
+      "prompt": "Preschool source-composite extraction image for letter O and Officer. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase O on the left and exactly one clear Officer on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Plumber",
+      "prompt": "Preschool source-composite extraction image for letter P and Plumber. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase P on the left and exactly one clear Plumber on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quartermaster",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quartermaster. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase Q on the left and exactly one clear Quartermaster on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Receptionist",
+      "prompt": "Preschool source-composite extraction image for letter R and Receptionist. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase R on the left and exactly one clear Receptionist on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Sanitation Worker",
+      "prompt": "Preschool source-composite extraction image for letter S and Sanitation Worker. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase S on the left and exactly one clear Sanitation Worker on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Teacher",
+      "prompt": "Preschool source-composite extraction image for letter T and Teacher. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase T on the left and exactly one clear Teacher on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Utility Worker",
+      "prompt": "Preschool source-composite extraction image for letter U and Utility Worker. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase U on the left and exactly one clear Utility Worker on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Veterinarian",
+      "prompt": "Preschool source-composite extraction image for letter V and Veterinarian. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase V on the left and exactly one clear Veterinarian on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Welder",
+      "prompt": "Preschool source-composite extraction image for letter W and Welder. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase W on the left and exactly one clear Welder on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "X-ray Technician",
+      "prompt": "Preschool source-composite extraction image for letter X and X-ray Technician. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase X on the left and exactly one clear X-ray Technician on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yard Worker",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yard Worker. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase Y on the left and exactly one clear Yard Worker on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zumba Instructor",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zumba Instructor. friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z. Show one large stylized uppercase Z on the left and exactly one clear Zumba Instructor on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

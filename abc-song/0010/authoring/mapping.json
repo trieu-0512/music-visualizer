@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Riverbank Explorer",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alligator",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boat",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Canoe",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Duck",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eel",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Frog",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goose",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Heron",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iris",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "June Bug",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kingfisher",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lake",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Minnow",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Newt",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oar",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pike",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "River",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Swan",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trout",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underwater Plant",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Valley",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Water Lily",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-ray Tetra",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Water Lily",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zooplankton",
+      "familiarityTier": "A"
+    }
+  }
+}

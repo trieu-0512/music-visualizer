@@ -1,0 +1,23 @@
+{
+  "songId": "0183",
+  "theme": "Home Routines",
+  "macroDomain": "Daily Routine",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "G -> Getting-dressed Chart: support-required, verify-pronunciation",
+    "K -> Kettle: safety-context-only",
+    "X -> X-shaped Timer: guided-theme-fallback-review, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 20,
+    "C": 1,
+    "B": 5
+  },
+  "riskCounts": {
+    "support-required": 1,
+    "verify-pronunciation": 2,
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 1
+  }
+}

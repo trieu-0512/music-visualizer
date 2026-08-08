@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Magic Quest",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bridge",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crown",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dragon",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Enchanted Mirror",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fairy",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Giant",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Horse",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ivy Tower",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jester",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "King",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lute",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Magic Wand",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Noble Crown",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Owl",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Potion",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Royal Robe",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Spell Book",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Treasure Chest",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Urn",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Velvet Cape",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wand",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Brick",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Path",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

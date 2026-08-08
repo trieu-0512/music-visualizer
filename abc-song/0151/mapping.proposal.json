@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0151",
+  "theme": {
+    "name": "Around Town",
+    "semanticFocus": "Around Town",
+    "macroDomain": "City & Community",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Apartment"
+    },
+    "B": {
+      "object": "Bus Stop"
+    },
+    "C": {
+      "object": "Crosswalk"
+    },
+    "D": {
+      "object": "Department Store"
+    },
+    "E": {
+      "object": "Elevator"
+    },
+    "F": {
+      "object": "Fire Station"
+    },
+    "G": {
+      "object": "Garage"
+    },
+    "H": {
+      "object": "Hospital"
+    },
+    "I": {
+      "object": "Information Sign"
+    },
+    "J": {
+      "object": "Junction"
+    },
+    "K": {
+      "object": "Kindergarten"
+    },
+    "L": {
+      "object": "Library"
+    },
+    "M": {
+      "object": "Market"
+    },
+    "N": {
+      "object": "Neighborhood"
+    },
+    "O": {
+      "object": "Office"
+    },
+    "P": {
+      "object": "Police Car"
+    },
+    "Q": {
+      "object": "Queue"
+    },
+    "R": {
+      "object": "Restaurant"
+    },
+    "S": {
+      "object": "School"
+    },
+    "T": {
+      "object": "Taxi"
+    },
+    "U": {
+      "object": "University"
+    },
+    "V": {
+      "object": "Vet Clinic"
+    },
+    "W": {
+      "object": "Water Fountain"
+    },
+    "X": {
+      "object": "X-ray Clinic"
+    },
+    "Y": {
+      "object": "Yoga Studio"
+    },
+    "Z": {
+      "object": "Zone Sign"
+    }
+  }
+}

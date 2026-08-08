@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Tiny Creatures",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Ant",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bee",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cricket",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dragonfly",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Emperor Moth",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Flea",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gnat",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hercules Beetle",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Inchworm",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jewel Beetle",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kissing Bug",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Ladybug",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mantis",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Net-winged Beetle",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "O": {
+      "object": "Orange Butterfly",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Praying Mantis",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Queen Bee",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Roach",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Stag Beetle",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Tiger Moth",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Underwing Moth",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Viceroy Butterfly",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wasp",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylocopa Bee",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Butterfly",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zebra Longwing",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

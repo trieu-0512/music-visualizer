@@ -1,0 +1,22 @@
+{
+  "songId": "0135",
+  "theme": "Railway Journey",
+  "macroDomain": "Trains & Stations",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "H -> High-speed Train: verify-pronunciation",
+    "Q -> Quiet Car: guided-theme-fallback-review, visual-clarity-review",
+    "X -> Xpress Train: guided-theme-fallback-review",
+    "Z -> Zone Map: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 21,
+    "A": 5
+  },
+  "riskCounts": {
+    "verify-pronunciation": 1,
+    "guided-theme-fallback-review": 3,
+    "visual-clarity-review": 1
+  }
+}

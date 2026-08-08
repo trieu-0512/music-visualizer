@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Fairy Tale World",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Armor",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bridge",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Castle",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dwarf",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Enchanted Mirror",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fairy",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goblet",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Horse",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ivy Tower",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jester",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "King",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lantern",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mermaid",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nymph",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Ogre",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Princess",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quest Map",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Ring",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Shield",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Treasure Chest",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Urn",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Village",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wizard",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Brick",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Path",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

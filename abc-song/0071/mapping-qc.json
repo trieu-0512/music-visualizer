@@ -1,0 +1,19 @@
+{
+  "songId": "0071",
+  "theme": "Pet Care",
+  "macroDomain": "Pets",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quilt Bed: guided-theme-fallback-review",
+    "X -> Xylophone Toy: guided-theme-fallback-review",
+    "Z -> Zip Carrier: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 12,
+    "B": 14
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3
+  }
+}

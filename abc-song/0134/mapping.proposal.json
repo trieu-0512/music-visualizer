@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0134",
+  "theme": {
+    "name": "Subway & Rail",
+    "semanticFocus": "Subway & Rail",
+    "macroDomain": "Trains & Stations",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Arrival Board"
+    },
+    "B": {
+      "object": "Boxcar"
+    },
+    "C": {
+      "object": "Coach"
+    },
+    "D": {
+      "object": "Diesel Engine"
+    },
+    "E": {
+      "object": "Engine"
+    },
+    "F": {
+      "object": "Footbridge"
+    },
+    "G": {
+      "object": "Gate"
+    },
+    "H": {
+      "object": "Hopper Car"
+    },
+    "I": {
+      "object": "Intercity Train"
+    },
+    "J": {
+      "object": "Junction Box"
+    },
+    "K": {
+      "object": "Key Switch"
+    },
+    "L": {
+      "object": "Locomotive"
+    },
+    "M": {
+      "object": "Metro"
+    },
+    "N": {
+      "object": "Night Train"
+    },
+    "O": {
+      "object": "Overpass"
+    },
+    "P": {
+      "object": "Platform"
+    },
+    "Q": {
+      "object": "Quiet Car"
+    },
+    "R": {
+      "object": "Rail"
+    },
+    "S": {
+      "object": "Sleeper Car"
+    },
+    "T": {
+      "object": "Train"
+    },
+    "U": {
+      "object": "Underground Train"
+    },
+    "V": {
+      "object": "Vestibule"
+    },
+    "W": {
+      "object": "Wagon"
+    },
+    "X": {
+      "object": "X-crossing Sign"
+    },
+    "Y": {
+      "object": "Yellow Signal"
+    },
+    "Z": {
+      "object": "Zone Map"
+    }
+  }
+}

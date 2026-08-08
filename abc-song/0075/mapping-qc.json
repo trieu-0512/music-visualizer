@@ -1,0 +1,18 @@
+{
+  "songId": "0075",
+  "theme": "Pet Shop Day",
+  "macroDomain": "Pets",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> Xylophone Toy: guided-theme-fallback-review",
+    "Z -> Zip Carrier: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 14,
+    "B": 12
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2
+  }
+}

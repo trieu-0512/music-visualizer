@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Things That Go",
+  "globalStyle": "bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "ATV",
+      "prompt": "Preschool source-composite extraction image for letter A and ATV. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase A on the left and exactly one clear ATV on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Bulldozer",
+      "prompt": "Preschool source-composite extraction image for letter B and Bulldozer. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase B on the left and exactly one clear Bulldozer on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Car",
+      "prompt": "Preschool source-composite extraction image for letter C and Car. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase C on the left and exactly one clear Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Delivery Van",
+      "prompt": "Preschool source-composite extraction image for letter D and Delivery Van. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase D on the left and exactly one clear Delivery Van on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Excavator",
+      "prompt": "Preschool source-composite extraction image for letter E and Excavator. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase E on the left and exactly one clear Excavator on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fire Engine",
+      "prompt": "Preschool source-composite extraction image for letter F and Fire Engine. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase F on the left and exactly one clear Fire Engine on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Golf Cart",
+      "prompt": "Preschool source-composite extraction image for letter G and Golf Cart. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase G on the left and exactly one clear Golf Cart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Helicopter",
+      "prompt": "Preschool source-composite extraction image for letter H and Helicopter. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase H on the left and exactly one clear Helicopter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Ice Cream Truck",
+      "prompt": "Preschool source-composite extraction image for letter I and Ice Cream Truck. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase I on the left and exactly one clear Ice Cream Truck on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jeep",
+      "prompt": "Preschool source-composite extraction image for letter J and Jeep. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase J on the left and exactly one clear Jeep on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kart",
+      "prompt": "Preschool source-composite extraction image for letter K and Kart. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase K on the left and exactly one clear Kart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Limousine",
+      "prompt": "Preschool source-composite extraction image for letter L and Limousine. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase L on the left and exactly one clear Limousine on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Minivan",
+      "prompt": "Preschool source-composite extraction image for letter M and Minivan. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase M on the left and exactly one clear Minivan on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Night Bus",
+      "prompt": "Preschool source-composite extraction image for letter N and Night Bus. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase N on the left and exactly one clear Night Bus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Off-road Car",
+      "prompt": "Preschool source-composite extraction image for letter O and Off-road Car. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase O on the left and exactly one clear Off-road Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Plane",
+      "prompt": "Preschool source-composite extraction image for letter P and Plane. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase P on the left and exactly one clear Plane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quadcopter",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quadcopter. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase Q on the left and exactly one clear Quadcopter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Race Car",
+      "prompt": "Preschool source-composite extraction image for letter R and Race Car. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase R on the left and exactly one clear Race Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Scooter",
+      "prompt": "Preschool source-composite extraction image for letter S and Scooter. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase S on the left and exactly one clear Scooter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Train",
+      "prompt": "Preschool source-composite extraction image for letter T and Train. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase T on the left and exactly one clear Train on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Underground Train",
+      "prompt": "Preschool source-composite extraction image for letter U and Underground Train. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase U on the left and exactly one clear Underground Train on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vespa",
+      "prompt": "Preschool source-composite extraction image for letter V and Vespa. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase V on the left and exactly one clear Vespa on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Wagon",
+      "prompt": "Preschool source-composite extraction image for letter W and Wagon. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase W on the left and exactly one clear Wagon on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "X-ray Van",
+      "prompt": "Preschool source-composite extraction image for letter X and X-ray Van. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase X on the left and exactly one clear X-ray Van on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yard Tractor",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yard Tractor. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase Y on the left and exactly one clear Yard Tractor on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zero-emission Bus",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zero-emission Bus. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade. Show one large stylized uppercase Z on the left and exactly one clear Zero-emission Bus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

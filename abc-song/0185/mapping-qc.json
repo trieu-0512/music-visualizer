@@ -1,0 +1,19 @@
+{
+  "songId": "0185",
+  "theme": "Family Day",
+  "macroDomain": "Daily Routine",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Kettle: safety-context-only",
+    "Z -> Zip Pajamas: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 4,
+    "A": 22
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 1
+  }
+}

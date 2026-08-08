@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Seasons of the Year",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "April Flower",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Blossom",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Costume",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drum",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Evergreen",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Firework",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "G": {
+      "object": "Gloves",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hat",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice Skate",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "June Sun",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Knitted Scarf",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Leaf",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "May Flower",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "New Year Clock",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "O": {
+      "object": "Ornament",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pumpkin",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiet Snow",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Raincoat",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Snowman",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tulip",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Under-sun Hat",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Violet",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wreath",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xmas Bell",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yarn Scarf",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zip Coat",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

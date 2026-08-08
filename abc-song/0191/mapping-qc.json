@@ -1,0 +1,29 @@
+{
+  "songId": "0191",
+  "theme": "Science & Robots",
+  "macroDomain": "Robots & Science",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "B -> Battery: safety-context-only",
+    "L -> Laser: safety-context-only",
+    "O -> Oscilloscope: support-required, verify-pronunciation",
+    "P -> Pipette: support-required, verify-pronunciation",
+    "Q -> Quantum Model: guided-theme-fallback-review, visual-clarity-review",
+    "U -> Ultrasonic Sensor: support-required, verify-pronunciation",
+    "X -> X-ray Image: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zero-gravity Robot: guided-theme-fallback-review, verify-pronunciation, visual-clarity-review"
+  ],
+  "tierCounts": {
+    "A": 14,
+    "B": 9,
+    "C": 3
+  },
+  "riskCounts": {
+    "safety-context-only": 2,
+    "support-required": 3,
+    "verify-pronunciation": 5,
+    "guided-theme-fallback-review": 3,
+    "visual-clarity-review": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "songId": "0142",
+  "theme": "Sailing & Sea Travel",
+  "macroDomain": "Boats & Harbor",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> X-ray Sonar Screen: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zephyr Sail: guided-theme-fallback-review, visual-clarity-review"
+  ],
+  "tierCounts": {
+    "A": 17,
+    "B": 8,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1,
+    "visual-clarity-review": 1
+  }
+}

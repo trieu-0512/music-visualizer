@@ -1,0 +1,26 @@
+{
+  "songId": "0184",
+  "theme": "Getting Ready & Cleaning",
+  "macroDomain": "Daily Routine",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "G -> Getting-dressed Chart: support-required, verify-pronunciation",
+    "K -> Kettle: safety-context-only",
+    "R -> Routine Chart: visual-clarity-review",
+    "X -> X-shaped Timer: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zip Pajamas: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 8,
+    "A": 17,
+    "C": 1
+  },
+  "riskCounts": {
+    "support-required": 1,
+    "verify-pronunciation": 2,
+    "safety-context-only": 1,
+    "visual-clarity-review": 1,
+    "guided-theme-fallback-review": 2
+  }
+}

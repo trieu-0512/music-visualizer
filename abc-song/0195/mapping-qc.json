@@ -1,0 +1,27 @@
+{
+  "songId": "0195",
+  "theme": "Future Science",
+  "macroDomain": "Robots & Science",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "B -> Battery: safety-context-only",
+    "Q -> QR Code: guided-theme-fallback-review",
+    "U -> Ultrasonic Sensor: support-required, verify-pronunciation",
+    "V -> Voltmeter: support-required, verify-pronunciation",
+    "X -> X-ray Image: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zero-gravity Robot: guided-theme-fallback-review, verify-pronunciation, visual-clarity-review"
+  ],
+  "tierCounts": {
+    "B": 11,
+    "A": 13,
+    "C": 2
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 3,
+    "support-required": 2,
+    "verify-pronunciation": 4,
+    "visual-clarity-review": 1
+  }
+}

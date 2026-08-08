@@ -1,0 +1,17 @@
+{
+  "songId": "0199",
+  "theme": "Year-Round Fun",
+  "macroDomain": "Seasons & Celebrations",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Z -> Zip Coat: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 18,
+    "B": 8
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 1
+  }
+}

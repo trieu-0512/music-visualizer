@@ -1,0 +1,21 @@
+{
+  "songId": "0031",
+  "theme": "Desert Animals",
+  "macroDomain": "Desert",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> Xerus: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Ziziphus Shrub: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 17,
+    "B": 8,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Sea Life & Shores",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anchor",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boat",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Coral",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dock",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Estuary",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flipper",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gull",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harbor",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Isopod",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jellyfish",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kelp",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lagoon",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Manatee",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Narwhal",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oyster",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pufferfish",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quahog",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Reef",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Seahorse",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Turtle",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Urchin",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vessel",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Whale",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Fish",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellowfin Tuna",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zooplankton",
+      "familiarityTier": "A"
+    }
+  }
+}

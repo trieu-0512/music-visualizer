@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Classroom Activities",
+  "globalStyle": "clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Alphabet Chart",
+      "prompt": "Preschool source-composite extraction image for letter A and Alphabet Chart. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase A on the left and exactly one clear Alphabet Chart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Backpack",
+      "prompt": "Preschool source-composite extraction image for letter B and Backpack. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase B on the left and exactly one clear Backpack on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Calculator",
+      "prompt": "Preschool source-composite extraction image for letter C and Calculator. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase C on the left and exactly one clear Calculator on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Desk",
+      "prompt": "Preschool source-composite extraction image for letter D and Desk. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase D on the left and exactly one clear Desk on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Eraser",
+      "prompt": "Preschool source-composite extraction image for letter E and Eraser. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase E on the left and exactly one clear Eraser on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Folder",
+      "prompt": "Preschool source-composite extraction image for letter F and Folder. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase F on the left and exactly one clear Folder on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Glue",
+      "prompt": "Preschool source-composite extraction image for letter G and Glue. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase G on the left and exactly one clear Glue on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Highlighter",
+      "prompt": "Preschool source-composite extraction image for letter H and Highlighter. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase H on the left and exactly one clear Highlighter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Ink",
+      "prompt": "Preschool source-composite extraction image for letter I and Ink. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase I on the left and exactly one clear Ink on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jigsaw Map",
+      "prompt": "Preschool source-composite extraction image for letter J and Jigsaw Map. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase J on the left and exactly one clear Jigsaw Map on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Knowledge Card",
+      "prompt": "Preschool source-composite extraction image for letter K and Knowledge Card. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase K on the left and exactly one clear Knowledge Card on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Library Book",
+      "prompt": "Preschool source-composite extraction image for letter L and Library Book. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase L on the left and exactly one clear Library Book on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Marker",
+      "prompt": "Preschool source-composite extraction image for letter M and Marker. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase M on the left and exactly one clear Marker on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Notebook",
+      "prompt": "Preschool source-composite extraction image for letter N and Notebook. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase N on the left and exactly one clear Notebook on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Origami Paper",
+      "prompt": "Preschool source-composite extraction image for letter O and Origami Paper. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase O on the left and exactly one clear Origami Paper on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Paintbrush",
+      "prompt": "Preschool source-composite extraction image for letter P and Paintbrush. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase P on the left and exactly one clear Paintbrush on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quiz Card",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quiz Card. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase Q on the left and exactly one clear Quiz Card on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Reading Book",
+      "prompt": "Preschool source-composite extraction image for letter R and Reading Book. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase R on the left and exactly one clear Reading Book on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Stapler",
+      "prompt": "Preschool source-composite extraction image for letter S and Stapler. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase S on the left and exactly one clear Stapler on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Tape",
+      "prompt": "Preschool source-composite extraction image for letter T and Tape. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase T on the left and exactly one clear Tape on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "USB Drive",
+      "prompt": "Preschool source-composite extraction image for letter U and USB Drive. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase U on the left and exactly one clear USB Drive on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vocabulary Card",
+      "prompt": "Preschool source-composite extraction image for letter V and Vocabulary Card. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase V on the left and exactly one clear Vocabulary Card on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Workbook",
+      "prompt": "Preschool source-composite extraction image for letter W and Workbook. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase W on the left and exactly one clear Workbook on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xylophone",
+      "prompt": "Preschool source-composite extraction image for letter X and Xylophone. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase X on the left and exactly one clear Xylophone on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yellow Pencil",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yellow Pencil. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase Y on the left and exactly one clear Yellow Pencil on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zero Card",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zero Card. clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC. Show one large stylized uppercase Z on the left and exactly one clear Zero Card on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

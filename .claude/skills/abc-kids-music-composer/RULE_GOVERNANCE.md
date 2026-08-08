@@ -89,9 +89,9 @@ Never promote an objective-specific preference into a global rule without eviden
 
 Examples:
 
-- 6–12 words per physical line;
-- 8–14 sung syllables;
-- 4–6 learning lines per section;
+- phraselet-aware line density rather than a universal physical-line word/syllable target;
+- intentional short/medium/extended line contrast when it improves prosody and song identity;
+- 4–6 learning targets per section;
 - roughly 80–100 BPM starting envelope;
 - four-beat call/response frame.
 
@@ -233,3 +233,57 @@ manifest fields used by only one subsystem
 ```
 
 Target outcome: fewer contradictions and clearer execution, not maximum rule count.
+## Current creative-variation rule records — 2026-08-08
+
+```yaml
+- rule_id: CV-LYR-001
+  title: Phraselet-aware line length
+  scope: catalog-quality preschool/ABC songwriting
+  class: HEURISTIC
+  applies_when: writing or reviewing generation-facing learning lyrics
+  does_not_apply_when: exact user-locked text must be preserved verbatim
+  evidence_class: [CRAFT_REFERENCE, PROJECT_HEURISTIC]
+  override_policy: audio/child evidence may favor a more regular meter; pronunciation/safety/mapping hard gates still win
+  failure_severity: WARN or REWORK when fixed-length pressure causes filler/rushing
+  regression_case: short and multi-phrase long Apple lines both remain valid
+  owner_file: SKILL.md + CREATIVE_VARIATION_PLAYBOOK.md + LINT_SPEC.md
+
+- rule_id: CV-LYR-002
+  title: Controlled target-entry variation
+  scope: catalog-quality adaptive songs
+  class: HEURISTIC
+  applies_when: A-Z or repeated target series is being authored
+  does_not_apply_when: exact repetition is intentionally declared as chant/refrain hook
+  evidence_class: [CRAFT_REFERENCE, PROJECT_HEURISTIC]
+  override_policy: preserve more repetition when predictability/actual generation benefits; avoid random novelty
+  failure_severity: WARN or REWORK for severe accidental template monotony
+  regression_case: one skeleton x26 warns; coherent 3–6-family palette passes
+  owner_file: SKILL.md + CREATIVE_VARIATION_PLAYBOOK.md + LINT_SPEC.md
+
+- rule_id: CV-STY-001
+  title: AI-music performance blueprint
+  scope: Suno/AI-music handoff
+  class: HEURISTIC
+  applies_when: style prompt accompanies full structured educational lyrics
+  does_not_apply_when: user requests an intentionally minimal style prompt
+  evidence_class: [PROVIDER_DOC, CRAFT_REFERENCE, PROJECT_HEURISTIC]
+  override_policy: provider limits may force compression; preserve diction/section behavior before decorative descriptors
+  failure_severity: WARN when prompt is only genre + instruments and misses critical section behavior
+  regression_case: prompted gap remains PENDING AUDIO; section-aware prompt preferred
+  owner_file: SKILL.md + REFERENCE.md + LINT_SPEC.md
+```
+## Audit-standard versioning
+
+When a material lint/readiness change alters what `PASS` means for catalog authoring, increment the authoring audit standard/version. A historical PASS from an older audit version must not be silently treated as current-standard PASS.
+
+Progress tracking must distinguish:
+
+```text
+authoring package exists
+legacy structural audit passed
+current creative standard validated
+```
+
+Cross-catalog validation for the current standard fails closed on stale batch audits. Re-running only one upgraded batch must not relabel untouched legacy batches as upgraded.
+
+Regression requirement: a v0/legacy `PASS` audit cannot satisfy a `creative-v4` cross-audit that requires audit version 4.

@@ -1,0 +1,21 @@
+{
+  "songId": "0066",
+  "theme": "Bird World",
+  "macroDomain": "Birds",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> Xenops: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zenaida Dove: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 22,
+    "B": 3,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "songId": "0065",
+  "theme": "Insect Explorer",
+  "macroDomain": "Insects & Bugs",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "N -> Net-winged Beetle: verify-pronunciation",
+    "Q -> Queen Bee: guided-theme-fallback-review",
+    "X -> Xylophone Beetle: guided-theme-fallback-review",
+    "Z -> Zebra Longwing: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 13,
+    "B": 13
+  },
+  "riskCounts": {
+    "verify-pronunciation": 1,
+    "guided-theme-fallback-review": 3
+  }
+}

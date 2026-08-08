@@ -1,0 +1,18 @@
+{
+  "songId": "0122",
+  "theme": "Move & Play",
+  "macroDomain": "Sports & Movement",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quad Skates: guided-theme-fallback-review",
+    "Z -> Zigzag Cone: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 13,
+    "A": 13
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2
+  }
+}

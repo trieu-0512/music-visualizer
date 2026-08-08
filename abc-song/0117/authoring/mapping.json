@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Playroom Fun",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Action Figure",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Ball",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crayon",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dominoes",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Excavator Toy",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Finger Puppet",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Game Board",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hoop",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Interlocking Blocks",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jump Rope",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kite",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Letter Tiles",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Marble",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Number Puzzle",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Octopus Toy",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Plush Bear",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quiz Game",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rattle",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scooter",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Teddy Bear",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Unicycle",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vehicle Toy",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wagon",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Puzzle",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yarn Doll",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zoom Car",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

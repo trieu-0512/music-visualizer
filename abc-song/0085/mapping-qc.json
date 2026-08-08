@@ -1,0 +1,25 @@
+{
+  "songId": "0085",
+  "theme": "Reptile House",
+  "macroDomain": "Reptiles & Amphibians",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "O -> Ornate Box Turtle: support-required, verify-pronunciation",
+    "Q -> Queen Snake: guided-theme-fallback-review",
+    "R -> Red-eyed Tree Frog: support-required, verify-pronunciation",
+    "U -> Urutu Snake: support-required, verify-pronunciation",
+    "Y -> Yellow-bellied Slider: support-required, verify-pronunciation",
+    "Z -> Zigzag Salamander: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 11,
+    "B": 11,
+    "C": 4
+  },
+  "riskCounts": {
+    "support-required": 4,
+    "verify-pronunciation": 4,
+    "guided-theme-fallback-review": 2
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "songId": "0032",
+  "title": "Cactus Bounce A-Z",
+  "theme": "Cactus & Dunes",
+  "mappingRevision": 1,
+  "tempoBpm": 93,
+  "motifFamily": "cactus-bounce",
+  "hook": [
+    "Cactus bounce—A-B-C!",
+    "Dunes and desert, look with me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "short predictable retrieval beat",
+  "visualStyle": "cheerful 3D cactus-and-dune storybook, coral green and warm sand palette, rounded forms, simple background",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "heat-and-shadow pickup",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "is-for",
+      "question-answer",
+      "narrative"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "refrain-driven",
+    "pointOfView": "a gentle field-guide walk following tracks, shade, plants and desert wildlife",
+    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
+    "grooveMeter": "gentle 6/8 sway",
+    "round1Grammar": "Round 1 uses heat, shade, tracks, spines, stone and animal motion as concrete images, with short lines beside longer scene phrases.",
+    "round2Grammar": "Round 2 uses short search cues, one recall beat and a safe motion—step, glide, point, spread, trace or sway.",
+    "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. dry shaker footsteps and sparse marimba echoes with open space",
+    "signatureColor": "dry shaker footsteps and sparse marimba echoes with open space",
+    "chorusAfterRound1": [
+      2,
+      5
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": true,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 12,
+    "usedRound1": 7,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

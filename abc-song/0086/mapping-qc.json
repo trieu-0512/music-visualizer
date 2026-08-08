@@ -1,0 +1,26 @@
+{
+  "songId": "0086",
+  "theme": "Kitchen & Food",
+  "macroDomain": "Food & Kitchen",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "B -> Blender: safety-context-only",
+    "K -> Knife: safety-context-only",
+    "O -> Oven: safety-context-only",
+    "Q -> Quart Cup: guided-theme-fallback-review",
+    "U -> Under-counter Drawer: support-required, verify-pronunciation",
+    "Z -> Zester: safety-context-only"
+  ],
+  "tierCounts": {
+    "A": 22,
+    "B": 3,
+    "C": 1
+  },
+  "riskCounts": {
+    "safety-context-only": 4,
+    "guided-theme-fallback-review": 1,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

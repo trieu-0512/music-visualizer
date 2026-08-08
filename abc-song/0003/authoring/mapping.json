@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Ocean Creatures & Boats",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Angelfish",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boat",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crab",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dolphin",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eel",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fish",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grouper",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hermit Crab",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Isopod",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jellyfish",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kayak",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lagoon",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mussel",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nautilus",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oyster",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pelican",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen Angelfish",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Reef",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Seahorse",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tidepool",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Urchin",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vessel",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wave",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Fish",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Tang",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zebra Shark",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

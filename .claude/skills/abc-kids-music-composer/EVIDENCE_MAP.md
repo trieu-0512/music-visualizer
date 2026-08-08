@@ -123,6 +123,56 @@ Evidence:
 - DESCRIPTIVE CRAFT/REPERTOIRE EVIDENCE — “The use of music on Barney & Friends: implications for music therapy practice and research,” Journal of Music Therapy 38(2), 2001 (PMID 11469919), analyzed 749 structural-prompt presentations across 88 episodes and found 80–100 BPM was the most common tempo range.
 - PROJECT_HEURISTIC — 80–100 BPM is only a broad starting envelope inferred from repertoire plus project needs; the study does **not** establish an optimal developmental tempo.
 
+## Creative variation / cross-genre songwriting craft
+
+Rule family:
+- physical line length may vary substantially when prosody, phraselets and bar allocation remain natural;
+- section contrast can be created through line length, rhythm, rhyme placement, point of view, phrasing and hook function;
+- catalog-quality songs should avoid accidental one-frame template monotony;
+- adult/general songwriting techniques may be transferred as abstract craft while preschool safety, clarity and educational priority remain dominant.
+
+Evidence:
+- CRAFT_REFERENCE — Berklee Online, `Lyric Writing: Tools and Strategies` (Pat Pattison): explicit training in balancing/unbalancing line count and line length, rhythmic variation, contrasting sections, rhyme structure, assonance/consonance/family rhyme, and forward motion.
+- CRAFT_REFERENCE — Berklee Online, `Songwriting Tools and Techniques` (Scarlet Keys / Pat Pattison): prosody across lyric, melody and harmony; front-heavy/back-heavy phrasing; verse/refrain form; line-length variation; melodic development and section contrast.
+- CRAFT_REFERENCE — Berklee Online, `Lyric Writing: Writing Lyrics to Music`: lyric stress, rhythm, phrasing, rhyme placement, multiple feels/meters, and verse/chorus/pre-chorus/bridge function.
+- CRAFT_REFERENCE — Berklee Online, `Commercial Songwriting Techniques`: pattern-based writing, sensory detail, section-focused workflows, hooks, verses, choruses and bridges.
+- CRAFT_REFERENCE — Berklee College of Music `Lyric Writing` / `Songwriting 1`: prosody, line count/length, rhythm, rhyme, phrasing, structure and revision as intentional compositional variables.
+
+Translation caution:
+- these are professional songwriting craft sources, not preschool learning trials;
+- do not import adult subject matter, lyrical complexity, vocal acrobatics, copyrighted lyrics, or distinctive artist identity;
+- the project synthesis is `stable learning contract + controlled creative variation`, which remains a PROJECT_HEURISTIC / CRAFT_REFERENCE blend until catalog audio/child evidence accumulates.
+
+## Creative participation / call-response variety
+
+Rule family:
+- preschool participation may use echo, call-response, rhythm copying, chanting, movement and predictable gaps;
+- repetition may coexist with variation when the child can still predict the turn-taking grammar.
+
+Evidence:
+- EARLY-CHILDHOOD CRAFT/EDUCATION — NAEYC, `Now Sing This! Ella Jenkins`: call-and-response, chanting, singing, copying rhythms, following directions, movement and active participation are highlighted as useful elements in children's music experiences.
+- EARLY-CHILDHOOD CRAFT/EDUCATION — NAEYC, `Support Math Readiness Through Music`: steady beat remains constant while rhythm varies; children can repeat, predict and extend rhythmic patterns.
+- EARLY-CHILDHOOD CRAFT/EDUCATION — NAEYC, `Playing with Music at Home`: rhymes, movement, rhythm patterns and children creating new words/choruses are encouraged as playful music-learning behaviors.
+
+Translation caution:
+- NAEYC sources support participation and pattern use broadly; they do not define a universal ABC lyric syntax or a fixed number of target-entry forms.
+
+## Suno Custom / section-level authoring capability
+
+Rule family:
+- keep original lyrics and style/performance directions as separate authoring inputs;
+- use style prompt to describe section behavior as well as genre/instruments;
+- prefer local section repair when one generated passage fails rather than flattening the whole composition.
+
+Evidence:
+- PROVIDER_DOC — Suno Help, `iOS Create: Custom Mode` and `Android Create: Custom Mode`, edited Dec 19 2025: Custom mode accepts user lyrics, Styles and Advanced options.
+- PROVIDER_DOC — Suno Help, `How to Use: Song Editor`, edited May 30 2025: sections can be replaced, added, moved and lyrics edited; added sections can specify beat count and prompt.
+- PROVIDER_DOC — Suno Help, `Can I replace a section of a song?`, edited Dec 19 2025: localized middle-section lyric changes can be regenerated and committed into a new whole song.
+
+Translation caution:
+- a detailed style prompt requests behavior but does not prove the model realizes it; diction, gap timing, stress and mix remain L1 audio checks;
+- provider UI/features may change and must be re-checked before workflow claims are revised.
+
 ## Rhyme and density
 
 Rule family:

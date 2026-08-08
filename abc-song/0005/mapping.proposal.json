@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0005",
+  "theme": {
+    "name": "Coast Explorer",
+    "semanticFocus": "Coast Explorer",
+    "macroDomain": "Ocean & Coast",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Anchor"
+    },
+    "B": {
+      "object": "Buoy"
+    },
+    "C": {
+      "object": "Crab"
+    },
+    "D": {
+      "object": "Dolphin"
+    },
+    "E": {
+      "object": "Eel"
+    },
+    "F": {
+      "object": "Fish"
+    },
+    "G": {
+      "object": "Gull"
+    },
+    "H": {
+      "object": "Harbor"
+    },
+    "I": {
+      "object": "Island"
+    },
+    "J": {
+      "object": "Jetty"
+    },
+    "K": {
+      "object": "Kayak"
+    },
+    "L": {
+      "object": "Lagoon"
+    },
+    "M": {
+      "object": "Manatee"
+    },
+    "N": {
+      "object": "Nautilus"
+    },
+    "O": {
+      "object": "Oyster"
+    },
+    "P": {
+      "object": "Pufferfish"
+    },
+    "Q": {
+      "object": "Queen Angelfish"
+    },
+    "R": {
+      "object": "Reef"
+    },
+    "S": {
+      "object": "Seal"
+    },
+    "T": {
+      "object": "Turtle"
+    },
+    "U": {
+      "object": "Undersea Cave"
+    },
+    "V": {
+      "object": "Vessel"
+    },
+    "W": {
+      "object": "Wave"
+    },
+    "X": {
+      "object": "X-ray Tetra"
+    },
+    "Y": {
+      "object": "Yellowfin Tuna"
+    },
+    "Z": {
+      "object": "Zooplankton"
+    }
+  }
+}

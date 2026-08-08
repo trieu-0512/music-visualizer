@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Toy Box",
+  "globalStyle": "bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Alphabet Blocks",
+      "prompt": "Preschool source-composite extraction image for letter A and Alphabet Blocks. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase A on the left and exactly one clear Alphabet Blocks on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Blocks",
+      "prompt": "Preschool source-composite extraction image for letter B and Blocks. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase B on the left and exactly one clear Blocks on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Crayon",
+      "prompt": "Preschool source-composite extraction image for letter C and Crayon. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase C on the left and exactly one clear Crayon on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dominoes",
+      "prompt": "Preschool source-composite extraction image for letter D and Dominoes. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase D on the left and exactly one clear Dominoes on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Etch-a-Sketch",
+      "prompt": "Preschool source-composite extraction image for letter E and Etch-a-Sketch. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase E on the left and exactly one clear Etch-a-Sketch on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Frisbee",
+      "prompt": "Preschool source-composite extraction image for letter F and Frisbee. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase F on the left and exactly one clear Frisbee on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Gyroscope",
+      "prompt": "Preschool source-composite extraction image for letter G and Gyroscope. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase G on the left and exactly one clear Gyroscope on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Hoop",
+      "prompt": "Preschool source-composite extraction image for letter H and Hoop. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase H on the left and exactly one clear Hoop on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Inflatable Ball",
+      "prompt": "Preschool source-composite extraction image for letter I and Inflatable Ball. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase I on the left and exactly one clear Inflatable Ball on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jigsaw",
+      "prompt": "Preschool source-composite extraction image for letter J and Jigsaw. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase J on the left and exactly one clear Jigsaw on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kaleidoscope",
+      "prompt": "Preschool source-composite extraction image for letter K and Kaleidoscope. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase K on the left and exactly one clear Kaleidoscope on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lego Brick",
+      "prompt": "Preschool source-composite extraction image for letter L and Lego Brick. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase L on the left and exactly one clear Lego Brick on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Model Car",
+      "prompt": "Preschool source-composite extraction image for letter M and Model Car. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase M on the left and exactly one clear Model Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Number Puzzle",
+      "prompt": "Preschool source-composite extraction image for letter N and Number Puzzle. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase N on the left and exactly one clear Number Puzzle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Origami",
+      "prompt": "Preschool source-composite extraction image for letter O and Origami. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase O on the left and exactly one clear Origami on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Puzzle",
+      "prompt": "Preschool source-composite extraction image for letter P and Puzzle. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase P on the left and exactly one clear Puzzle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quiz Game",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quiz Game. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase Q on the left and exactly one clear Quiz Game on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Robot",
+      "prompt": "Preschool source-composite extraction image for letter R and Robot. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase R on the left and exactly one clear Robot on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Scooter",
+      "prompt": "Preschool source-composite extraction image for letter S and Scooter. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase S on the left and exactly one clear Scooter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Teddy Bear",
+      "prompt": "Preschool source-composite extraction image for letter T and Teddy Bear. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase T on the left and exactly one clear Teddy Bear on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Uno Cards",
+      "prompt": "Preschool source-composite extraction image for letter U and Uno Cards. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase U on the left and exactly one clear Uno Cards on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Velcro Ball",
+      "prompt": "Preschool source-composite extraction image for letter V and Velcro Ball. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase V on the left and exactly one clear Velcro Ball on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Wagon",
+      "prompt": "Preschool source-composite extraction image for letter W and Wagon. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase W on the left and exactly one clear Wagon on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xylophone Toy",
+      "prompt": "Preschool source-composite extraction image for letter X and Xylophone Toy. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase X on the left and exactly one clear Xylophone Toy on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yarn Doll",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yarn Doll. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase Y on the left and exactly one clear Yarn Doll on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zoom Car",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zoom Car. bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop. Show one large stylized uppercase Z on the left and exactly one clear Zoom Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Build & Repair",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Axe",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "B": {
+      "object": "Brick",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cement Mixer",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Drill",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "E": {
+      "object": "Excavator",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Forklift",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goggles",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hammer",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "I": {
+      "object": "Impact Driver",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Joint",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Keyhole Saw",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Level",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Measuring Tape",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nail",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oil Can",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Plywood",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quick Clamp",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rivet",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Shovel",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toolbox",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utility Cart",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vise",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wheelbarrow",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Vest",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zinc Screw",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

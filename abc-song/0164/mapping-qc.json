@@ -1,0 +1,22 @@
+{
+  "songId": "0164",
+  "theme": "Home Helpers & Objects",
+  "macroDomain": "Home & Rooms",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Kettle: safety-context-only",
+    "O -> Oven: safety-context-only",
+    "X -> X-shaped Shelf: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zen Garden: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 5,
+    "A": 21
+  },
+  "riskCounts": {
+    "safety-context-only": 2,
+    "guided-theme-fallback-review": 2,
+    "verify-pronunciation": 1
+  }
+}

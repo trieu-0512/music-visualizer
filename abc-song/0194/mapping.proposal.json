@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0194",
+  "theme": {
+    "name": "Robot Builder",
+    "semanticFocus": "Robot Builder",
+    "macroDomain": "Robots & Science",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Atom Model"
+    },
+    "B": {
+      "object": "Beaker"
+    },
+    "C": {
+      "object": "Computer"
+    },
+    "D": {
+      "object": "Drone"
+    },
+    "E": {
+      "object": "Electromagnet"
+    },
+    "F": {
+      "object": "Fuse"
+    },
+    "G": {
+      "object": "Goggles"
+    },
+    "H": {
+      "object": "Hydraulic Arm"
+    },
+    "I": {
+      "object": "Indicator Light"
+    },
+    "J": {
+      "object": "Jet Robot"
+    },
+    "K": {
+      "object": "Kit"
+    },
+    "L": {
+      "object": "Laser"
+    },
+    "M": {
+      "object": "Microscope"
+    },
+    "N": {
+      "object": "Nut"
+    },
+    "O": {
+      "object": "Oscilloscope"
+    },
+    "P": {
+      "object": "Pipette"
+    },
+    "Q": {
+      "object": "QR Code"
+    },
+    "R": {
+      "object": "Robot"
+    },
+    "S": {
+      "object": "Switch"
+    },
+    "T": {
+      "object": "Transistor"
+    },
+    "U": {
+      "object": "USB Cable"
+    },
+    "V": {
+      "object": "Vacuum Tube"
+    },
+    "W": {
+      "object": "Wheel"
+    },
+    "X": {
+      "object": "X-axis Plotter"
+    },
+    "Y": {
+      "object": "Yoke Robot"
+    },
+    "Z": {
+      "object": "Zero-gravity Robot"
+    }
+  }
+}

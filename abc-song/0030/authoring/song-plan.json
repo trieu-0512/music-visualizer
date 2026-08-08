@@ -1,0 +1,63 @@
+{
+  "songId": "0030",
+  "title": "Canopy River ABC",
+  "theme": "Canopy & River",
+  "mappingRevision": 1,
+  "tempoBpm": 84,
+  "motifFamily": "canopy-river",
+  "hook": [
+    "Canopy river—A-B-C!",
+    "Flowing jungle words for me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "two-beat supportive pause",
+  "visualStyle": "soft 3D rainforest-river storybook, emerald and aqua palette, rounded creatures and plants, clean scene separation",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "river-under-canopy scene",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "is-for",
+      "question-answer",
+      "narrative"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "a curious canopy guide following movement, color, water and animal calls",
+    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
+    "grooveMeter": "light 3/4 or swung sway",
+    "round1Grammar": "Round 1 uses vivid motion and layered habitat images—flutter, climb, slither, drip and sway—without turning into rapid patter.",
+    "round2Grammar": "Round 2 becomes stop-start call-and-response with one clean gap and a compact movement tied to the target.",
+    "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft marimba droplets and hand-percussion answers, never masking words",
+    "signatureColor": "soft marimba droplets and hand-percussion answers, never masking words",
+    "chorusAfterRound1": [
+      2,
+      6
+    ],
+    "chorusAfterRound2": [
+      3,
+      7
+    ],
+    "hasMidInterlude": true,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 16,
+    "usedRound1": 6,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

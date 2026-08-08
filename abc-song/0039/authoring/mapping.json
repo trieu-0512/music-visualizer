@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Arctic Explorer",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Arctic Fox",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Beluga",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cod",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dog Sled",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Ermine",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Floe",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glacier",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Husky",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iceberg",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jellyfish",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kittiwake",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lemming",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Musk Ox",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Narwhal",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orca",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Polar Bear",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Qajaq",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Reindeer",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Seal",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tern",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umiak",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Velvet Scoter",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Walrus",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Fish",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow-billed Loon",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zoarcid Fish",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

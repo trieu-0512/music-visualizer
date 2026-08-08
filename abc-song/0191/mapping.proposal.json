@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0191",
+  "theme": {
+    "name": "Science & Robots",
+    "semanticFocus": "Science & Robots",
+    "macroDomain": "Robots & Science",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Android"
+    },
+    "B": {
+      "object": "Battery"
+    },
+    "C": {
+      "object": "Circuit"
+    },
+    "D": {
+      "object": "Dynamo"
+    },
+    "E": {
+      "object": "Experiment Tube"
+    },
+    "F": {
+      "object": "Flask"
+    },
+    "G": {
+      "object": "Goggles"
+    },
+    "H": {
+      "object": "Headset"
+    },
+    "I": {
+      "object": "Indicator Light"
+    },
+    "J": {
+      "object": "Jet Robot"
+    },
+    "K": {
+      "object": "Kit"
+    },
+    "L": {
+      "object": "Laser"
+    },
+    "M": {
+      "object": "Motor"
+    },
+    "N": {
+      "object": "Notebook"
+    },
+    "O": {
+      "object": "Oscilloscope"
+    },
+    "P": {
+      "object": "Pipette"
+    },
+    "Q": {
+      "object": "Quantum Model"
+    },
+    "R": {
+      "object": "Robot"
+    },
+    "S": {
+      "object": "Sensor"
+    },
+    "T": {
+      "object": "Test Tube"
+    },
+    "U": {
+      "object": "Ultrasonic Sensor"
+    },
+    "V": {
+      "object": "Vacuum Tube"
+    },
+    "W": {
+      "object": "Wheel"
+    },
+    "X": {
+      "object": "X-ray Image"
+    },
+    "Y": {
+      "object": "Yoke Robot"
+    },
+    "Z": {
+      "object": "Zero-gravity Robot"
+    }
+  }
+}

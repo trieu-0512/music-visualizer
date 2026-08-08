@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Insect Explorer",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Ant",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Beetle",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cricket",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dragonfly",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Earwig",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Firefly",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grasshopper",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Honeybee",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inchworm",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jewel Beetle",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kissing Bug",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Leafhopper",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mantis",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Net-winged Beetle",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "O": {
+      "object": "Orb Weaver",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pill Bug",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Queen Bee",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rhinoceros Beetle",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Stag Beetle",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Termite",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ulysses Butterfly",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vinegar Fly",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Weevil",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone Beetle",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Butterfly",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zebra Longwing",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

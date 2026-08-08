@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Flight Day",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Airplane",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Biplane",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cargo Plane",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Drone",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Engine",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flight Deck",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Glider",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Helicopter",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Instrument Panel",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jetway",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kerosene Tank",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Luggage Cart",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Monoplane",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nose Wheel",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Overhead Bin",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Passenger Plane",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quadcopter",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Radar",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Seaplane",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tail",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vertical Stabilizer",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Windsock",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-wing Model",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Taxiway Sign",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zero-gravity Plane",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

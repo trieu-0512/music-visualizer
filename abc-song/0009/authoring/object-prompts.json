@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Wetland Nature",
+  "globalStyle": "lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Alligator",
+      "prompt": "Preschool source-composite extraction image for letter A and Alligator. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase A on the left and exactly one clear Alligator on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Beaver",
+      "prompt": "Preschool source-composite extraction image for letter B and Beaver. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase B on the left and exactly one clear Beaver on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Canoe",
+      "prompt": "Preschool source-composite extraction image for letter C and Canoe. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase C on the left and exactly one clear Canoe on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Duck",
+      "prompt": "Preschool source-composite extraction image for letter D and Duck. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase D on the left and exactly one clear Duck on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Egret",
+      "prompt": "Preschool source-composite extraction image for letter E and Egret. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase E on the left and exactly one clear Egret on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fishing Rod",
+      "prompt": "Preschool source-composite extraction image for letter F and Fishing Rod. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase F on the left and exactly one clear Fishing Rod on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Green Algae",
+      "prompt": "Preschool source-composite extraction image for letter G and Green Algae. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase G on the left and exactly one clear Green Algae on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Hydrilla",
+      "prompt": "Preschool source-composite extraction image for letter H and Hydrilla. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase H on the left and exactly one clear Hydrilla on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Iris",
+      "prompt": "Preschool source-composite extraction image for letter I and Iris. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase I on the left and exactly one clear Iris on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "June Bug",
+      "prompt": "Preschool source-composite extraction image for letter J and June Bug. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase J on the left and exactly one clear June Bug on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kingfisher",
+      "prompt": "Preschool source-composite extraction image for letter K and Kingfisher. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase K on the left and exactly one clear Kingfisher on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lily Pad",
+      "prompt": "Preschool source-composite extraction image for letter L and Lily Pad. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase L on the left and exactly one clear Lily Pad on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Minnow",
+      "prompt": "Preschool source-composite extraction image for letter M and Minnow. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase M on the left and exactly one clear Minnow on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Newt",
+      "prompt": "Preschool source-composite extraction image for letter N and Newt. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase N on the left and exactly one clear Newt on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Otter",
+      "prompt": "Preschool source-composite extraction image for letter O and Otter. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase O on the left and exactly one clear Otter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Pond",
+      "prompt": "Preschool source-composite extraction image for letter P and Pond. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase P on the left and exactly one clear Pond on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quail",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quail. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase Q on the left and exactly one clear Quail on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Reed",
+      "prompt": "Preschool source-composite extraction image for letter R and Reed. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase R on the left and exactly one clear Reed on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Swan",
+      "prompt": "Preschool source-composite extraction image for letter S and Swan. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase S on the left and exactly one clear Swan on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Tadpole",
+      "prompt": "Preschool source-composite extraction image for letter T and Tadpole. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase T on the left and exactly one clear Tadpole on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Umbrella Sedge",
+      "prompt": "Preschool source-composite extraction image for letter U and Umbrella Sedge. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase U on the left and exactly one clear Umbrella Sedge on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vallisneria",
+      "prompt": "Preschool source-composite extraction image for letter V and Vallisneria. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase V on the left and exactly one clear Vallisneria on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Waterfall",
+      "prompt": "Preschool source-composite extraction image for letter W and Waterfall. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase W on the left and exactly one clear Waterfall on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xiphophorus",
+      "prompt": "Preschool source-composite extraction image for letter X and Xiphophorus. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase X on the left and exactly one clear Xiphophorus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yellow Water Lily",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yellow Water Lily. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase Y on the left and exactly one clear Yellow Water Lily on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zooplankton",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zooplankton. lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes. Show one large stylized uppercase Z on the left and exactly one clear Zooplankton on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

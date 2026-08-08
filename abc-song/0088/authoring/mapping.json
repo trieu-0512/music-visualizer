@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Meals & Snacks",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bowl",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cutting Board",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Dish",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egg",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fork",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grapes",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hot Pot",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Ice Cream",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jar",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knife",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Lemon",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Muffin",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Noodles",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orange",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pan",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiche",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rolling Pin",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Spoon",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tongs",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utensil",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vanilla",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Whisk",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Cookie Cutter",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yogurt",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zucchini",
+      "familiarityTier": "A"
+    }
+  }
+}

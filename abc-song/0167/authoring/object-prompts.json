@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Getting Dressed",
+  "globalStyle": "colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "prompt": "Preschool source-composite extraction image for letter A and Apron. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase A on the left and exactly one clear Apron on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Boots",
+      "prompt": "Preschool source-composite extraction image for letter B and Boots. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase B on the left and exactly one clear Boots on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Coat",
+      "prompt": "Preschool source-composite extraction image for letter C and Coat. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase C on the left and exactly one clear Coat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Denim Jacket",
+      "prompt": "Preschool source-composite extraction image for letter D and Denim Jacket. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase D on the left and exactly one clear Denim Jacket on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Espadrilles",
+      "prompt": "Preschool source-composite extraction image for letter E and Espadrilles. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase E on the left and exactly one clear Espadrilles on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fleece",
+      "prompt": "Preschool source-composite extraction image for letter F and Fleece. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase F on the left and exactly one clear Fleece on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Gloves",
+      "prompt": "Preschool source-composite extraction image for letter G and Gloves. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase G on the left and exactly one clear Gloves on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Hat",
+      "prompt": "Preschool source-composite extraction image for letter H and Hat. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase H on the left and exactly one clear Hat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Infinity Scarf",
+      "prompt": "Preschool source-composite extraction image for letter I and Infinity Scarf. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase I on the left and exactly one clear Infinity Scarf on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jacket",
+      "prompt": "Preschool source-composite extraction image for letter J and Jacket. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase J on the left and exactly one clear Jacket on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Knee Socks",
+      "prompt": "Preschool source-composite extraction image for letter K and Knee Socks. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase K on the left and exactly one clear Knee Socks on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lace-up Shoes",
+      "prompt": "Preschool source-composite extraction image for letter L and Lace-up Shoes. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase L on the left and exactly one clear Lace-up Shoes on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Mittens",
+      "prompt": "Preschool source-composite extraction image for letter M and Mittens. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase M on the left and exactly one clear Mittens on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Necktie",
+      "prompt": "Preschool source-composite extraction image for letter N and Necktie. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase N on the left and exactly one clear Necktie on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Overall",
+      "prompt": "Preschool source-composite extraction image for letter O and Overall. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase O on the left and exactly one clear Overall on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Poncho",
+      "prompt": "Preschool source-composite extraction image for letter P and Poncho. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase P on the left and exactly one clear Poncho on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quarter Socks",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quarter Socks. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase Q on the left and exactly one clear Quarter Socks on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Running Shoes",
+      "prompt": "Preschool source-composite extraction image for letter R and Running Shoes. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase R on the left and exactly one clear Running Shoes on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Socks",
+      "prompt": "Preschool source-composite extraction image for letter S and Socks. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase S on the left and exactly one clear Socks on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "T-shirt",
+      "prompt": "Preschool source-composite extraction image for letter T and T-shirt. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase T on the left and exactly one clear T-shirt on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Uniform",
+      "prompt": "Preschool source-composite extraction image for letter U and Uniform. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase U on the left and exactly one clear Uniform on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vest",
+      "prompt": "Preschool source-composite extraction image for letter V and Vest. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase V on the left and exactly one clear Vest on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Wool Hat",
+      "prompt": "Preschool source-composite extraction image for letter W and Wool Hat. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase W on the left and exactly one clear Wool Hat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xmas Sweater",
+      "prompt": "Preschool source-composite extraction image for letter X and Xmas Sweater. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase X on the left and exactly one clear Xmas Sweater on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yoga Pants",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yoga Pants. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase Y on the left and exactly one clear Yoga Pants on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zori Sandals",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zori Sandals. colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps. Show one large stylized uppercase Z on the left and exactly one clear Zori Sandals on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

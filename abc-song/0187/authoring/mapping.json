@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Castles & Magic",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Broom",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Castle",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dwarf",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Elf",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Frog Prince",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Giant",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Horse",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice Palace",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jewel",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knight",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lute",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Magic Wand",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nymph",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Owl",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Potion",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quest Map",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Royal Robe",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Shield",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Treasure Chest",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Unicorn",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Velvet Cape",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wizard",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-marked Treasure Map",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Brick",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Path",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

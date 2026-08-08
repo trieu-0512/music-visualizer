@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Reptile & Amphibian World",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Axolotl",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bullfrog",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chameleon",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dragon Lizard",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Eastern Newt",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Frog",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Garter Snake",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Horned Lizard",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Iguana",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jumping Frog",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Komodo Dragon",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lizard",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mudpuppy",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nile Crocodile",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Olive Python",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Python",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queensland Frog",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rattlesnake",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Salamander",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toad",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Urutu Snake",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Veiled Chameleon",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Water Dragon",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xenopus",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow-bellied Slider",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zigzag Salamander",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

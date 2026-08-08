@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Pet Shop Day",
+  "globalStyle": "bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Aquarium",
+      "prompt": "Preschool source-composite extraction image for letter A and Aquarium. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase A on the left and exactly one clear Aquarium on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Bowl",
+      "prompt": "Preschool source-composite extraction image for letter B and Bowl. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase B on the left and exactly one clear Bowl on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Collar",
+      "prompt": "Preschool source-composite extraction image for letter C and Collar. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase C on the left and exactly one clear Collar on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dog",
+      "prompt": "Preschool source-composite extraction image for letter D and Dog. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase D on the left and exactly one clear Dog on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Exercise Wheel",
+      "prompt": "Preschool source-composite extraction image for letter E and Exercise Wheel. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase E on the left and exactly one clear Exercise Wheel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fish",
+      "prompt": "Preschool source-composite extraction image for letter F and Fish. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase F on the left and exactly one clear Fish on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Guinea Pig",
+      "prompt": "Preschool source-composite extraction image for letter G and Guinea Pig. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase G on the left and exactly one clear Guinea Pig on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Hamster",
+      "prompt": "Preschool source-composite extraction image for letter H and Hamster. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase H on the left and exactly one clear Hamster on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Iguana",
+      "prompt": "Preschool source-composite extraction image for letter I and Iguana. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase I on the left and exactly one clear Iguana on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jingle Ball",
+      "prompt": "Preschool source-composite extraction image for letter J and Jingle Ball. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase J on the left and exactly one clear Jingle Ball on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kibble",
+      "prompt": "Preschool source-composite extraction image for letter K and Kibble. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase K on the left and exactly one clear Kibble on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Litter Box",
+      "prompt": "Preschool source-composite extraction image for letter L and Litter Box. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase L on the left and exactly one clear Litter Box on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Mouse",
+      "prompt": "Preschool source-composite extraction image for letter M and Mouse. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase M on the left and exactly one clear Mouse on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Nest",
+      "prompt": "Preschool source-composite extraction image for letter N and Nest. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase N on the left and exactly one clear Nest on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Outdoor Kennel",
+      "prompt": "Preschool source-composite extraction image for letter O and Outdoor Kennel. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase O on the left and exactly one clear Outdoor Kennel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Perch",
+      "prompt": "Preschool source-composite extraction image for letter P and Perch. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase P on the left and exactly one clear Perch on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quail",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quail. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase Q on the left and exactly one clear Quail on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Rope Toy",
+      "prompt": "Preschool source-composite extraction image for letter R and Rope Toy. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase R on the left and exactly one clear Rope Toy on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Seed Mix",
+      "prompt": "Preschool source-composite extraction image for letter S and Seed Mix. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase S on the left and exactly one clear Seed Mix on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Turtle",
+      "prompt": "Preschool source-composite extraction image for letter T and Turtle. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase T on the left and exactly one clear Turtle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "UV Lamp",
+      "prompt": "Preschool source-composite extraction image for letter U and UV Lamp. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase U on the left and exactly one clear UV Lamp on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vet Kit",
+      "prompt": "Preschool source-composite extraction image for letter V and Vet Kit. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase V on the left and exactly one clear Vet Kit on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Wheel",
+      "prompt": "Preschool source-composite extraction image for letter W and Wheel. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase W on the left and exactly one clear Wheel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xylophone Toy",
+      "prompt": "Preschool source-composite extraction image for letter X and Xylophone Toy. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase X on the left and exactly one clear Xylophone Toy on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yellow Canary",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yellow Canary. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase Y on the left and exactly one clear Yellow Canary on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zip Carrier",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zip Carrier. bright 3D pet-shop storybook, organized shelves and animal enclosures, no readable labels, clean subjects. Show one large stylized uppercase Z on the left and exactly one clear Zip Carrier on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

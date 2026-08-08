@@ -1,0 +1,28 @@
+{
+  "songId": "0149",
+  "theme": "Construction Gear",
+  "macroDomain": "Construction & Tools",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "A -> Axe: safety-context-only",
+    "D -> Drill: safety-context-only",
+    "F -> Framing Hammer: safety-context-only",
+    "K -> Keyhole Saw: safety-context-only",
+    "P -> Pliers: safety-context-only",
+    "Q -> Quick Clamp: guided-theme-fallback-review",
+    "U -> Utility Knife: safety-context-only",
+    "V -> Voltage Tester: safety-context-only",
+    "X -> X-brace: verify-pronunciation",
+    "Z -> Zinc Screw: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 13,
+    "B": 13
+  },
+  "riskCounts": {
+    "safety-context-only": 7,
+    "guided-theme-fallback-review": 2,
+    "verify-pronunciation": 1
+  }
+}

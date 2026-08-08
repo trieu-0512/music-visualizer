@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "range": "0121-0130",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "maxLyricSimilarity": 0.0902,
+  "mostSimilarPair": [
+    "0128",
+    "0130"
+  ],
+  "songsDetail": [
+    {
+      "songId": "0121",
+      "theme": "Sports & Games",
+      "targetLines": 52,
+      "lyricWordCount": 552,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0122",
+      "theme": "Move & Play",
+      "targetLines": 52,
+      "lyricWordCount": 562,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0123",
+      "theme": "Balls Bikes & Gear",
+      "targetLines": 52,
+      "lyricWordCount": 539,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0124",
+      "theme": "Active Kids",
+      "targetLines": 52,
+      "lyricWordCount": 613,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0125",
+      "theme": "Playground Sports",
+      "targetLines": 52,
+      "lyricWordCount": 593,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0126",
+      "theme": "Things That Go",
+      "targetLines": 52,
+      "lyricWordCount": 572,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0127",
+      "theme": "Cars Trucks & Machines",
+      "targetLines": 52,
+      "lyricWordCount": 577,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0128",
+      "theme": "Road Vehicles",
+      "targetLines": 52,
+      "lyricWordCount": 565,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0129",
+      "theme": "Transport World",
+      "targetLines": 52,
+      "lyricWordCount": 591,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0130",
+      "theme": "Moving Machines",
+      "targetLines": 52,
+      "lyricWordCount": 539,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

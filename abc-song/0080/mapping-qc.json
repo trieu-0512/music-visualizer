@@ -1,0 +1,21 @@
+{
+  "songId": "0080",
+  "theme": "Zoo Explorer",
+  "macroDomain": "Zoo & Safari",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "U -> Uakari: support-required, verify-pronunciation",
+    "X -> Xerus: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 22,
+    "B": 2,
+    "C": 2
+  },
+  "riskCounts": {
+    "support-required": 2,
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 1
+  }
+}

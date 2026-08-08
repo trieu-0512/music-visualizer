@@ -1,0 +1,30 @@
+{
+  "songId": "0178",
+  "theme": "Calm & Happy",
+  "macroDomain": "Feelings & Friendship",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "A -> Affection Heart: visual-clarity-review",
+    "D -> Delight Star: visual-clarity-review",
+    "F -> Friendship Bracelet: visual-clarity-review",
+    "I -> Interest Card: visual-clarity-review",
+    "Q -> Quiet Corner: guided-theme-fallback-review, visual-clarity-review",
+    "R -> Respect Badge: visual-clarity-review",
+    "W -> Warm Hug Card: support-required, verify-pronunciation",
+    "X -> Xylophone Calm Toy: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Y -> Yellow Feelings Chart: support-required, verify-pronunciation",
+    "Z -> Zen Cushion: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 22,
+    "A": 1,
+    "C": 3
+  },
+  "riskCounts": {
+    "visual-clarity-review": 6,
+    "guided-theme-fallback-review": 3,
+    "support-required": 3,
+    "verify-pronunciation": 3
+  }
+}

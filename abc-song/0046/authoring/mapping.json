@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Weather Watch",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Altocumulus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "B": {
+      "object": "Breeze",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "C": {
+      "object": "Cloud",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dew",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Earmuffs",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fog",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gust",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "H": {
+      "object": "Hail",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jet Stream",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kelvin Thermometer",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lightning",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mist",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Night Sky",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Overcoat",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Puddle",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiet Sky",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Raincoat",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Snowflake",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Thermometer",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Updraft",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "V": {
+      "object": "Vapor",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Windsock",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Sun",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zephyr",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

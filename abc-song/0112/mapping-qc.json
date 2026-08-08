@@ -1,0 +1,23 @@
+{
+  "songId": "0112",
+  "theme": "Rhythm & Melody",
+  "macroDomain": "Music & Instruments",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quarter Note: guided-theme-fallback-review",
+    "X -> Xaphoon: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Y -> Yangqin: support-required, verify-pronunciation",
+    "Z -> Zills: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 17,
+    "B": 6,
+    "C": 3
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "support-required": 3,
+    "verify-pronunciation": 3
+  }
+}

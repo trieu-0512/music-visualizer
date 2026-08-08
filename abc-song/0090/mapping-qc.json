@@ -1,0 +1,23 @@
+{
+  "songId": "0090",
+  "theme": "Tasty Kitchen",
+  "macroDomain": "Food & Kitchen",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "B -> Blender: safety-context-only",
+    "K -> Knife: safety-context-only",
+    "U -> Under-counter Drawer: support-required, verify-pronunciation",
+    "Z -> Zester: safety-context-only"
+  ],
+  "tierCounts": {
+    "A": 22,
+    "B": 3,
+    "C": 1
+  },
+  "riskCounts": {
+    "safety-context-only": 3,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

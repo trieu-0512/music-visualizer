@@ -1,0 +1,25 @@
+{
+  "songId": "0193",
+  "theme": "Circuits & Gadgets",
+  "macroDomain": "Robots & Science",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "H -> Hydraulic Arm: support-required, verify-pronunciation",
+    "P -> Pipette: support-required, verify-pronunciation",
+    "Q -> QR Code: guided-theme-fallback-review",
+    "V -> Voltmeter: support-required, verify-pronunciation",
+    "X -> X-axis Plotter: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zener Diode: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 14,
+    "B": 8,
+    "C": 4
+  },
+  "riskCounts": {
+    "support-required": 4,
+    "verify-pronunciation": 5,
+    "guided-theme-fallback-review": 3
+  }
+}

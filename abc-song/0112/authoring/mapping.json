@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Rhythm & Melody",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Accordion",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bell",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cello",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dulcimer",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Electric Piano",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fiddle",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Guitar",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harmonica",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Irish Whistle",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jingle Bells",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Keyboard",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lute",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Maracas",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Noise Maker",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Organ",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Piccolo",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quarter Note",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rhythm Sticks",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Saxophone",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tambourine",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ukulele",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Violin",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Whistle",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xaphoon",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yangqin",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zills",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

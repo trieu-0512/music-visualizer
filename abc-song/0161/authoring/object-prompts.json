@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Around the House",
+  "globalStyle": "warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Armchair",
+      "prompt": "Preschool source-composite extraction image for letter A and Armchair. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase A on the left and exactly one clear Armchair on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Blanket",
+      "prompt": "Preschool source-composite extraction image for letter B and Blanket. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase B on the left and exactly one clear Blanket on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Chair",
+      "prompt": "Preschool source-composite extraction image for letter C and Chair. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase C on the left and exactly one clear Chair on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dresser",
+      "prompt": "Preschool source-composite extraction image for letter D and Dresser. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase D on the left and exactly one clear Dresser on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Envelope",
+      "prompt": "Preschool source-composite extraction image for letter E and Envelope. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase E on the left and exactly one clear Envelope on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fan",
+      "prompt": "Preschool source-composite extraction image for letter F and Fan. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase F on the left and exactly one clear Fan on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Garage",
+      "prompt": "Preschool source-composite extraction image for letter G and Garage. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase G on the left and exactly one clear Garage on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Hanger",
+      "prompt": "Preschool source-composite extraction image for letter H and Hanger. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase H on the left and exactly one clear Hanger on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Iron",
+      "prompt": "Preschool source-composite extraction image for letter I and Iron. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase I on the left and exactly one clear Iron on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jug",
+      "prompt": "Preschool source-composite extraction image for letter J and Jug. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase J on the left and exactly one clear Jug on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kettle",
+      "prompt": "Preschool source-composite extraction image for letter K and Kettle. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase K on the left and exactly one clear Kettle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lamp",
+      "prompt": "Preschool source-composite extraction image for letter L and Lamp. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase L on the left and exactly one clear Lamp on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Mattress",
+      "prompt": "Preschool source-composite extraction image for letter M and Mattress. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase M on the left and exactly one clear Mattress on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Nightlight",
+      "prompt": "Preschool source-composite extraction image for letter N and Nightlight. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase N on the left and exactly one clear Nightlight on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Oven",
+      "prompt": "Preschool source-composite extraction image for letter O and Oven. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase O on the left and exactly one clear Oven on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Pillow",
+      "prompt": "Preschool source-composite extraction image for letter P and Pillow. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase P on the left and exactly one clear Pillow on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quilted Cushion",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quilted Cushion. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase Q on the left and exactly one clear Quilted Cushion on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Rug",
+      "prompt": "Preschool source-composite extraction image for letter R and Rug. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase R on the left and exactly one clear Rug on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Soap",
+      "prompt": "Preschool source-composite extraction image for letter S and Soap. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase S on the left and exactly one clear Soap on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Towel",
+      "prompt": "Preschool source-composite extraction image for letter T and Towel. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase T on the left and exactly one clear Towel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Utensil Drawer",
+      "prompt": "Preschool source-composite extraction image for letter U and Utensil Drawer. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase U on the left and exactly one clear Utensil Drawer on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vase",
+      "prompt": "Preschool source-composite extraction image for letter V and Vase. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase V on the left and exactly one clear Vase on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Window",
+      "prompt": "Preschool source-composite extraction image for letter W and Window. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase W on the left and exactly one clear Window on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xylophone",
+      "prompt": "Preschool source-composite extraction image for letter X and Xylophone. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase X on the left and exactly one clear Xylophone on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yellow Cushion",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yellow Cushion. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase Y on the left and exactly one clear Yellow Cushion on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zen Garden",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zen Garden. warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop. Show one large stylized uppercase Z on the left and exactly one clear Zen Garden on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

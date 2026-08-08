@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "range": "0081-0090",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "maxLyricSimilarity": 0.0904,
+  "mostSimilarPair": [
+    "0086",
+    "0089"
+  ],
+  "songsDetail": [
+    {
+      "songId": "0081",
+      "theme": "Reptile & Amphibian World",
+      "targetLines": 52,
+      "lyricWordCount": 571,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0082",
+      "theme": "Frogs Snakes & Turtles",
+      "targetLines": 52,
+      "lyricWordCount": 641,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0083",
+      "theme": "Scales & Slime",
+      "targetLines": 52,
+      "lyricWordCount": 532,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0084",
+      "theme": "Cold-Blooded Creatures",
+      "targetLines": 52,
+      "lyricWordCount": 547,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0085",
+      "theme": "Reptile House",
+      "targetLines": 52,
+      "lyricWordCount": 521,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0086",
+      "theme": "Kitchen & Food",
+      "targetLines": 52,
+      "lyricWordCount": 502,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0087",
+      "theme": "Cooking Tools & Ingredients",
+      "targetLines": 52,
+      "lyricWordCount": 511,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0088",
+      "theme": "Meals & Snacks",
+      "targetLines": 52,
+      "lyricWordCount": 502,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0089",
+      "theme": "Cooking Together",
+      "targetLines": 52,
+      "lyricWordCount": 503,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0090",
+      "theme": "Tasty Kitchen",
+      "targetLines": 52,
+      "lyricWordCount": 527,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

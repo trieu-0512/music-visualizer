@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Birdwatching",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Albatross",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Budgie",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crane",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Duck",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eagle",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Finch",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goose",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Heron",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ibis",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Junco",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kiwi",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lorikeet",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Macaw",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nuthatch",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "O": {
+      "object": "Ostrich",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Penguin",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Raven",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Swan",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toucan",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Upland Sandpiper",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vulture",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wren",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xenops",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Warbler",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zenaida Dove",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

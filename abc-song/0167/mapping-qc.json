@@ -1,0 +1,24 @@
+{
+  "songId": "0167",
+  "theme": "Getting Dressed",
+  "macroDomain": "Clothes & Getting Ready",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "E -> Espadrilles: safety-context-only",
+    "L -> Lace-up Shoes: verify-pronunciation",
+    "Q -> Quarter Socks: guided-theme-fallback-review",
+    "T -> T-shirt: verify-pronunciation",
+    "X -> Xmas Sweater: guided-theme-fallback-review",
+    "Z -> Zori Sandals: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 10
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 3
+  }
+}

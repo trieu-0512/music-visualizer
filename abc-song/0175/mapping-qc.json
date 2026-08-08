@@ -1,0 +1,25 @@
+{
+  "songId": "0175",
+  "theme": "Move & Feel",
+  "macroDomain": "Body & Senses",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quadriceps: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "V -> Voice: visual-clarity-review",
+    "X -> X-ray: verify-pronunciation",
+    "Y -> Y-shaped Bone Model: support-required, verify-pronunciation",
+    "Z -> Zinc Bandage: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "B": 3,
+    "C": 2
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 2,
+    "verify-pronunciation": 3,
+    "visual-clarity-review": 1
+  }
+}

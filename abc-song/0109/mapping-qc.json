@@ -1,0 +1,23 @@
+{
+  "songId": "0109",
+  "theme": "Creative Tools",
+  "macroDomain": "Art & Crafts",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Knitting Needle: safety-context-only",
+    "N -> Needle: safety-context-only",
+    "Q -> Quilling Paper: guided-theme-fallback-review",
+    "X -> X-shaped Sticker: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zipper Craft: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 17,
+    "B": 9
+  },
+  "riskCounts": {
+    "safety-context-only": 2,
+    "guided-theme-fallback-review": 3,
+    "verify-pronunciation": 1
+  }
+}

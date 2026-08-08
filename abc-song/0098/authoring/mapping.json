@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Cakes & Cookies",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Angel Cake",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Bread",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cookie",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Donut",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eclair",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Frosting",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glaze",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hot Cross Bun",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "I": {
+      "object": "Ice Cream",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jam Tart",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kolache",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lemon Tart",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Macaron",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nut Bread",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Orange Cake",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pretzel",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen Cake",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Raisin Bread",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Scone",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toast",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Upside-down Cake",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Vanilla Cake",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wholegrain Bread",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-shaped Pretzel",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yeast Roll",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zebra Cake",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

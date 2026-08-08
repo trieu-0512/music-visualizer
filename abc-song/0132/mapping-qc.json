@@ -1,0 +1,21 @@
+{
+  "songId": "0132",
+  "theme": "Railway World",
+  "macroDomain": "Trains & Stations",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "H -> High-speed Train: verify-pronunciation",
+    "Q -> Queue Barrier: guided-theme-fallback-review",
+    "X -> X-crossing Sign: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zone Map: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 15,
+    "A": 11
+  },
+  "riskCounts": {
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 3
+  }
+}

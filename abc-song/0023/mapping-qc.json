@@ -1,0 +1,17 @@
+{
+  "songId": "0023",
+  "theme": "Forest Birds & Plants",
+  "macroDomain": "Forest & Woodland",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> Xeric Shrub: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 24,
+    "B": 2
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 1
+  }
+}

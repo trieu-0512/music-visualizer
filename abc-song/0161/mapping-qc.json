@@ -1,0 +1,21 @@
+{
+  "songId": "0161",
+  "theme": "Around the House",
+  "macroDomain": "Home & Rooms",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Kettle: safety-context-only",
+    "O -> Oven: safety-context-only",
+    "Q -> Quilted Cushion: guided-theme-fallback-review",
+    "Z -> Zen Garden: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 22,
+    "B": 4
+  },
+  "riskCounts": {
+    "safety-context-only": 2,
+    "guided-theme-fallback-review": 2
+  }
+}

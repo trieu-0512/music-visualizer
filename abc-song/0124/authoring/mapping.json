@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Active Kids",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Archery Target",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Ball",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cricket Bat",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Dumbbell",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Equipment Bag",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Frisbee",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goggles",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Helmet",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inline Skates",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jersey",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kayak",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lacrosse Stick",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Medal",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Net",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oar",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Paddle",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quoits Ring",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Racket",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Skateboard",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trampoline",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vault",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Whistle",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Jersey",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Cone",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

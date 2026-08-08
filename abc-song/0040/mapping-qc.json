@@ -1,0 +1,22 @@
+{
+  "songId": "0040",
+  "theme": "Snowy Wildlife",
+  "macroDomain": "Arctic & Polar",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Qajaq: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Y -> Yellow-billed Loon: verify-pronunciation",
+    "Z -> Zoarcid Fish: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "B": 8,
+    "A": 16,
+    "C": 2
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 2,
+    "verify-pronunciation": 3
+  }
+}

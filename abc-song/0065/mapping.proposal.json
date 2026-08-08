@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0065",
+  "theme": {
+    "name": "Insect Explorer",
+    "semanticFocus": "Insect Explorer",
+    "macroDomain": "Insects & Bugs",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Ant"
+    },
+    "B": {
+      "object": "Beetle"
+    },
+    "C": {
+      "object": "Cricket"
+    },
+    "D": {
+      "object": "Dragonfly"
+    },
+    "E": {
+      "object": "Earwig"
+    },
+    "F": {
+      "object": "Firefly"
+    },
+    "G": {
+      "object": "Grasshopper"
+    },
+    "H": {
+      "object": "Honeybee"
+    },
+    "I": {
+      "object": "Inchworm"
+    },
+    "J": {
+      "object": "Jewel Beetle"
+    },
+    "K": {
+      "object": "Kissing Bug"
+    },
+    "L": {
+      "object": "Leafhopper"
+    },
+    "M": {
+      "object": "Mantis"
+    },
+    "N": {
+      "object": "Net-winged Beetle"
+    },
+    "O": {
+      "object": "Orb Weaver"
+    },
+    "P": {
+      "object": "Pill Bug"
+    },
+    "Q": {
+      "object": "Queen Bee"
+    },
+    "R": {
+      "object": "Rhinoceros Beetle"
+    },
+    "S": {
+      "object": "Stag Beetle"
+    },
+    "T": {
+      "object": "Termite"
+    },
+    "U": {
+      "object": "Ulysses Butterfly"
+    },
+    "V": {
+      "object": "Vinegar Fly"
+    },
+    "W": {
+      "object": "Weevil"
+    },
+    "X": {
+      "object": "Xylophone Beetle"
+    },
+    "Y": {
+      "object": "Yellow Butterfly"
+    },
+    "Z": {
+      "object": "Zebra Longwing"
+    }
+  }
+}

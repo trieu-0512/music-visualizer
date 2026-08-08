@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Marina & Rescue Boats",
+  "globalStyle": "friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Anchor",
+      "prompt": "Preschool source-composite extraction image for letter A and Anchor. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase A on the left and exactly one clear Anchor on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Buoy",
+      "prompt": "Preschool source-composite extraction image for letter B and Buoy. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase B on the left and exactly one clear Buoy on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Catamaran",
+      "prompt": "Preschool source-composite extraction image for letter C and Catamaran. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase C on the left and exactly one clear Catamaran on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dock",
+      "prompt": "Preschool source-composite extraction image for letter D and Dock. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase D on the left and exactly one clear Dock on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Echo Sounder",
+      "prompt": "Preschool source-composite extraction image for letter E and Echo Sounder. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase E on the left and exactly one clear Echo Sounder on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fishing Boat",
+      "prompt": "Preschool source-composite extraction image for letter F and Fishing Boat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase F on the left and exactly one clear Fishing Boat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Gondola",
+      "prompt": "Preschool source-composite extraction image for letter G and Gondola. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase G on the left and exactly one clear Gondola on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Houseboat",
+      "prompt": "Preschool source-composite extraction image for letter H and Houseboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase H on the left and exactly one clear Houseboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Inflatable Boat",
+      "prompt": "Preschool source-composite extraction image for letter I and Inflatable Boat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase I on the left and exactly one clear Inflatable Boat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jolly Boat",
+      "prompt": "Preschool source-composite extraction image for letter J and Jolly Boat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase J on the left and exactly one clear Jolly Boat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Keel",
+      "prompt": "Preschool source-composite extraction image for letter K and Keel. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase K on the left and exactly one clear Keel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lifeboat",
+      "prompt": "Preschool source-composite extraction image for letter L and Lifeboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase L on the left and exactly one clear Lifeboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Marina",
+      "prompt": "Preschool source-composite extraction image for letter M and Marina. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase M on the left and exactly one clear Marina on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Navigation Light",
+      "prompt": "Preschool source-composite extraction image for letter N and Navigation Light. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase N on the left and exactly one clear Navigation Light on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Oar",
+      "prompt": "Preschool source-composite extraction image for letter O and Oar. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase O on the left and exactly one clear Oar on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Paddleboat",
+      "prompt": "Preschool source-composite extraction image for letter P and Paddleboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase P on the left and exactly one clear Paddleboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quarterdeck",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quarterdeck. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase Q on the left and exactly one clear Quarterdeck on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Raft",
+      "prompt": "Preschool source-composite extraction image for letter R and Raft. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase R on the left and exactly one clear Raft on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Submarine",
+      "prompt": "Preschool source-composite extraction image for letter S and Submarine. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase S on the left and exactly one clear Submarine on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Trimaran",
+      "prompt": "Preschool source-composite extraction image for letter T and Trimaran. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase T on the left and exactly one clear Trimaran on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Underwater Scooter",
+      "prompt": "Preschool source-composite extraction image for letter U and Underwater Scooter. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase U on the left and exactly one clear Underwater Scooter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Voyage Map",
+      "prompt": "Preschool source-composite extraction image for letter V and Voyage Map. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase V on the left and exactly one clear Voyage Map on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Wake",
+      "prompt": "Preschool source-composite extraction image for letter W and Wake. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase W on the left and exactly one clear Wake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "X-ray Sonar Screen",
+      "prompt": "Preschool source-composite extraction image for letter X and X-ray Sonar Screen. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase X on the left and exactly one clear X-ray Sonar Screen on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yawl",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yawl. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase Y on the left and exactly one clear Yawl on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zephyr Sail",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zephyr Sail. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers. Show one large stylized uppercase Z on the left and exactly one clear Zephyr Sail on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

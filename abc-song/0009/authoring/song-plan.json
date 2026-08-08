@@ -1,0 +1,62 @@
+{
+  "songId": "0009",
+  "title": "Wetland Wonder ABC",
+  "theme": "Wetland Nature",
+  "mappingRevision": 1,
+  "tempoBpm": 82,
+  "motifFamily": "wetland-sway",
+  "hook": [
+    "Wetland wonders—A-B-C!",
+    "Reeds and wings and water sing!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "two beats of quiet for retrieval",
+  "visualStyle": "lush but simple wetland 3D storybook, reeds and water reflections, soft morning light, strong foreground silhouettes",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "quiet wetland soundscape",
+    "targetEntryFamilies": [
+      "object-first",
+      "narrative",
+      "direct",
+      "question-answer",
+      "repeated-letter"
+    ],
+    "lineLengthContour": [
+      "long",
+      "short",
+      "medium",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "refrain-driven",
+    "pointOfView": "slow dawn walk through reeds, shallow water and bird calls",
+    "chorusFunction": "calm wonder refrain, not a high-energy reset",
+    "grooveMeter": "slow 3/4 nature sway",
+    "round1Grammar": "object-first and scene-led phrases with sensory space; no generic 'wetland green' suffix",
+    "round2Grammar": "two-beat recall window then small hand gesture; rare plant names receive unhurried confirmation",
+    "sectionContrast": "Round 1 airy kalimba; chorus gains bass and soft harmony; Round 2 nearly percussion-free",
+    "signatureColor": "single kalimba droplet between phrases",
+    "chorusAfterRound1": [
+      3,
+      7
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": true,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 26,
+    "usedRound1": 13,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

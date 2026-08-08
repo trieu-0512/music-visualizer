@@ -1,0 +1,23 @@
+{
+  "songId": "0120",
+  "theme": "Playground Toys",
+  "macroDomain": "Toys & Games",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "E -> Etch-a-Sketch: verify-pronunciation",
+    "J -> Jigsaw: safety-context-only",
+    "Q -> Quoits Ring: guided-theme-fallback-review",
+    "X -> Xylophone Toy: guided-theme-fallback-review",
+    "Z -> Zoom Car: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 19,
+    "A": 7
+  },
+  "riskCounts": {
+    "verify-pronunciation": 1,
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 3
+  }
+}

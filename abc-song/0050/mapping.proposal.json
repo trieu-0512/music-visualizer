@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0050",
+  "theme": {
+    "name": "Weather Station",
+    "semanticFocus": "Weather Station",
+    "macroDomain": "Weather & Sky",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Anemometer"
+    },
+    "B": {
+      "object": "Breeze"
+    },
+    "C": {
+      "object": "Coat"
+    },
+    "D": {
+      "object": "Drizzle"
+    },
+    "E": {
+      "object": "Earmuffs"
+    },
+    "F": {
+      "object": "Fog"
+    },
+    "G": {
+      "object": "Gauge"
+    },
+    "H": {
+      "object": "Hail"
+    },
+    "I": {
+      "object": "Ice"
+    },
+    "J": {
+      "object": "Jet Stream"
+    },
+    "K": {
+      "object": "Kelvin Thermometer"
+    },
+    "L": {
+      "object": "Low Cloud"
+    },
+    "M": {
+      "object": "Mittens"
+    },
+    "N": {
+      "object": "Nimbus Cloud"
+    },
+    "O": {
+      "object": "Overcast Sky"
+    },
+    "P": {
+      "object": "Pressure Gauge"
+    },
+    "Q": {
+      "object": "Quilt"
+    },
+    "R": {
+      "object": "Rainbow"
+    },
+    "S": {
+      "object": "Sun"
+    },
+    "T": {
+      "object": "Thermometer"
+    },
+    "U": {
+      "object": "Updraft"
+    },
+    "V": {
+      "object": "Vane"
+    },
+    "W": {
+      "object": "Wind"
+    },
+    "X": {
+      "object": "Xylophone"
+    },
+    "Y": {
+      "object": "Yellow Sun"
+    },
+    "Z": {
+      "object": "Zephyr"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0090",
+  "theme": {
+    "name": "Tasty Kitchen",
+    "semanticFocus": "Tasty Kitchen",
+    "macroDomain": "Food & Kitchen",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron"
+    },
+    "B": {
+      "object": "Blender"
+    },
+    "C": {
+      "object": "Cutting Board"
+    },
+    "D": {
+      "object": "Dish"
+    },
+    "E": {
+      "object": "Egg"
+    },
+    "F": {
+      "object": "Fork"
+    },
+    "G": {
+      "object": "Grater"
+    },
+    "H": {
+      "object": "Honey"
+    },
+    "I": {
+      "object": "Ice Tray"
+    },
+    "J": {
+      "object": "Juicer"
+    },
+    "K": {
+      "object": "Knife"
+    },
+    "L": {
+      "object": "Lemon"
+    },
+    "M": {
+      "object": "Mixer"
+    },
+    "N": {
+      "object": "Noodles"
+    },
+    "O": {
+      "object": "Orange"
+    },
+    "P": {
+      "object": "Pancake"
+    },
+    "Q": {
+      "object": "Quiche"
+    },
+    "R": {
+      "object": "Rolling Pin"
+    },
+    "S": {
+      "object": "Spatula"
+    },
+    "T": {
+      "object": "Toast"
+    },
+    "U": {
+      "object": "Under-counter Drawer"
+    },
+    "V": {
+      "object": "Vanilla"
+    },
+    "W": {
+      "object": "Whisk"
+    },
+    "X": {
+      "object": "Xylophone"
+    },
+    "Y": {
+      "object": "Yam"
+    },
+    "Z": {
+      "object": "Zester"
+    }
+  }
+}

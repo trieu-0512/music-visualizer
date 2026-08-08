@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Bread & Pastries",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple Pie",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Bread",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cupcake",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Danish",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egg Tart",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fruitcake",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gingerbread",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Honey Bun",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Ice Cream",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jam Tart",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kaiser Roll",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lemon Tart",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Muffin",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Napoleon Pastry",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Orange Cake",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pie",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiche",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Raisin Bread",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Scone",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tart",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Upside-down Cake",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Vanilla Cake",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Waffle",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Pretzel",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yule Log",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zucchini Bread",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

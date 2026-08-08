@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "range": "0051-0060",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "maxLyricSimilarity": 0.1868,
+  "mostSimilarPair": [
+    "0057",
+    "0058"
+  ],
+  "songsDetail": [
+    {
+      "songId": "0051",
+      "theme": "Space Explorer",
+      "targetLines": 52,
+      "lyricWordCount": 519,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0052",
+      "theme": "Planets & Stars",
+      "targetLines": 52,
+      "lyricWordCount": 504,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0053",
+      "theme": "Rockets & Astronauts",
+      "targetLines": 52,
+      "lyricWordCount": 494,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0054",
+      "theme": "Moon & Galaxy",
+      "targetLines": 52,
+      "lyricWordCount": 472,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0055",
+      "theme": "Space Science",
+      "targetLines": 52,
+      "lyricWordCount": 567,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0056",
+      "theme": "Dinosaur World",
+      "targetLines": 52,
+      "lyricWordCount": 487,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0057",
+      "theme": "Fossils & Bones",
+      "targetLines": 52,
+      "lyricWordCount": 506,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0058",
+      "theme": "Prehistoric Life",
+      "targetLines": 52,
+      "lyricWordCount": 433,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0059",
+      "theme": "Dinosaur Explorer",
+      "targetLines": 52,
+      "lyricWordCount": 501,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0060",
+      "theme": "Museum of Dinosaurs",
+      "targetLines": 52,
+      "lyricWordCount": 490,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

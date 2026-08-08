@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Community Helpers",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Architect",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Builder",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chef",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dentist",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Electrician",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Firefighter",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Garbage Collector",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hairdresser",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inspector",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Judge",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kitchen Worker",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Librarian",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mechanic",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "News Reporter",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Optometrist",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Police Officer",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quality Inspector",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Rescue Worker",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Scientist",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Teacher",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utility Worker",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Volunteer",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Waiter",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Technician",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yard Worker",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zumba Instructor",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

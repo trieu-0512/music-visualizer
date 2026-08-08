@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Farm Tools & Crops",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Barn",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chicken",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Duck",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egg",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fence",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grain",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hen",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice Chest",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jar",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kid Goat",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Ladder",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mule",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orchard",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pig",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rake",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scarecrow",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trough",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Udder",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vegetable Basket",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wheat",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Vet Image",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yarn",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zucchini",
+      "familiarityTier": "A"
+    }
+  }
+}

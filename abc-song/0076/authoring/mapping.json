@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Zoo Animals",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Ape",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bison",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cheetah",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dhole",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Elephant",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flamingo",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gorilla",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hippo",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ibex",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jackal",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Koala",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lion",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Meerkat",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nile Crocodile",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Okapi",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Panda",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rhino",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Seal",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tiger",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uakari",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Vicuna",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wolf",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xerus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Mongoose",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zebu",
+      "familiarityTier": "A"
+    }
+  }
+}

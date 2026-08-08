@@ -1,0 +1,22 @@
+{
+  "songId": "0121",
+  "theme": "Sports & Games",
+  "macroDomain": "Sports & Movement",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quad Skates: guided-theme-fallback-review",
+    "X -> X-shaped Agility Marker: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zigzag Cone: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 15,
+    "B": 10,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

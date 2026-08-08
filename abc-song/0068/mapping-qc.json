@@ -1,0 +1,25 @@
+{
+  "songId": "0068",
+  "theme": "Backyard Birds",
+  "macroDomain": "Birds",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "N -> Nuthatch: support-required, verify-pronunciation",
+    "U -> Umbrellabird: support-required, verify-pronunciation",
+    "X -> Xantus Hummingbird: guided-theme-fallback-review",
+    "Y -> Yellowhammer: safety-context-only",
+    "Z -> Zebra Finch: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 20,
+    "B": 4,
+    "C": 2
+  },
+  "riskCounts": {
+    "support-required": 2,
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 2,
+    "safety-context-only": 1
+  }
+}

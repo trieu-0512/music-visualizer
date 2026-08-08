@@ -1,0 +1,432 @@
+{
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
+  "status": "PASS_WITH_REVIEW",
+  "range": "0021-0030",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 16,
+  "designReworkSongs": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "uniqueSectionForms": 7,
+  "uniqueCreativeFingerprints": 10,
+  "maxLyricSimilarity": 0.0844,
+  "mostSimilarPair": [
+    "0022",
+    "0023"
+  ],
+  "batchWarnings": [],
+  "songsDetail": [
+    {
+      "songId": "0021",
+      "theme": "Woodland Animals",
+      "targetLines": 52,
+      "lyricWordCount": 793,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "is-for",
+        "narrative-or-other",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "I",
+        "M",
+        "O",
+        "S",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          6
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0022",
+      "theme": "Trees & Forest Floor",
+      "targetLines": 52,
+      "lyricWordCount": 787,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "C",
+        "E",
+        "G",
+        "I",
+        "K",
+        "O",
+        "S",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5
+        ],
+        "round2ChorusAfter": [
+          3,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0023",
+      "theme": "Forest Birds & Plants",
+      "targetLines": 52,
+      "lyricWordCount": 798,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "I",
+        "M",
+        "O",
+        "Q",
+        "S",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          6
+        ],
+        "round2ChorusAfter": [
+          3,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0024",
+      "theme": "Woodland Explorer",
+      "targetLines": 52,
+      "lyricWordCount": 803,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "is-for",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "C",
+        "E",
+        "I",
+        "O",
+        "Q",
+        "S",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          5
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0025",
+      "theme": "Autumn Forest",
+      "targetLines": 52,
+      "lyricWordCount": 788,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "direct-letter-object",
+        "narrative-or-other",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "C",
+        "E",
+        "G",
+        "I",
+        "O",
+        "Q",
+        "S",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0026",
+      "theme": "Rainforest Animals",
+      "targetLines": 52,
+      "lyricWordCount": 825,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "is-for",
+        "narrative-or-other",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "K",
+        "M",
+        "O",
+        "W"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          7
+        ],
+        "round2ChorusAfter": [
+          3,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 has only 4/26 explicit rhyme-bearing phraselets; review by ear whether the verse still feels musical",
+        "Round 1 chunk ABCD has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk EFGH has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk QRST has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0027",
+      "theme": "Tropical Jungle",
+      "targetLines": 52,
+      "lyricWordCount": 850,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "I",
+        "K",
+        "M",
+        "U",
+        "W"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 has only 5/26 explicit rhyme-bearing phraselets; review by ear whether the verse still feels musical",
+        "Round 1 chunk ABCD has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk EFGH has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk QRST has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0028",
+      "theme": "Jungle Plants & Creatures",
+      "targetLines": 52,
+      "lyricWordCount": 814,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "C",
+        "I",
+        "K",
+        "M",
+        "Q",
+        "U",
+        "W"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          6
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk EFGH has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0029",
+      "theme": "Rainforest Explorer",
+      "targetLines": 52,
+      "lyricWordCount": 814,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "is-for",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "C",
+        "K",
+        "M",
+        "O",
+        "Q",
+        "S",
+        "U",
+        "W"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5
+        ],
+        "round2ChorusAfter": [
+          3,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk EFGH has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0030",
+      "theme": "Canopy & River",
+      "targetLines": 52,
+      "lyricWordCount": 837,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "direct-letter-object",
+        "narrative-or-other",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "C",
+        "K",
+        "M",
+        "Q",
+        "S",
+        "W"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          6
+        ],
+        "round2ChorusAfter": [
+          3,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk EFGH has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    }
+  ]
+}

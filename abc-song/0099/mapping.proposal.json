@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0099",
+  "theme": {
+    "name": "Sweet Shop",
+    "semanticFocus": "Sweet Shop",
+    "macroDomain": "Bakery & Desserts",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple Pie"
+    },
+    "B": {
+      "object": "Bread"
+    },
+    "C": {
+      "object": "Cookie"
+    },
+    "D": {
+      "object": "Donut"
+    },
+    "E": {
+      "object": "Egg Tart"
+    },
+    "F": {
+      "object": "Fruitcake"
+    },
+    "G": {
+      "object": "Glaze"
+    },
+    "H": {
+      "object": "Hot Cross Bun"
+    },
+    "I": {
+      "object": "Icing"
+    },
+    "J": {
+      "object": "Jelly Donut"
+    },
+    "K": {
+      "object": "Kolache"
+    },
+    "L": {
+      "object": "Loaf"
+    },
+    "M": {
+      "object": "Muffin"
+    },
+    "N": {
+      "object": "Nut Bread"
+    },
+    "O": {
+      "object": "Oat Cookie"
+    },
+    "P": {
+      "object": "Pretzel"
+    },
+    "Q": {
+      "object": "Queen Cake"
+    },
+    "R": {
+      "object": "Roll"
+    },
+    "S": {
+      "object": "Sprinkles"
+    },
+    "T": {
+      "object": "Toast"
+    },
+    "U": {
+      "object": "Upside-down Cake"
+    },
+    "V": {
+      "object": "Victoria Sponge"
+    },
+    "W": {
+      "object": "Waffle"
+    },
+    "X": {
+      "object": "X-shaped Pretzel"
+    },
+    "Y": {
+      "object": "Yule Log"
+    },
+    "Z": {
+      "object": "Zucchini Bread"
+    }
+  }
+}

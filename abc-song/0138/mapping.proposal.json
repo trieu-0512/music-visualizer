@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0138",
+  "theme": {
+    "name": "Aircraft & Ground Crew",
+    "semanticFocus": "Aircraft & Ground Crew",
+    "macroDomain": "Aircraft & Airport",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Airport"
+    },
+    "B": {
+      "object": "Boarding Pass"
+    },
+    "C": {
+      "object": "Cargo Plane"
+    },
+    "D": {
+      "object": "Drone"
+    },
+    "E": {
+      "object": "Engine"
+    },
+    "F": {
+      "object": "Flight Deck"
+    },
+    "G": {
+      "object": "Gate"
+    },
+    "H": {
+      "object": "Hangar"
+    },
+    "I": {
+      "object": "Inflatable Slide"
+    },
+    "J": {
+      "object": "Jet"
+    },
+    "K": {
+      "object": "Kerosene Tank"
+    },
+    "L": {
+      "object": "Luggage Cart"
+    },
+    "M": {
+      "object": "Marshaller"
+    },
+    "N": {
+      "object": "Nose Wheel"
+    },
+    "O": {
+      "object": "Overhead Bin"
+    },
+    "P": {
+      "object": "Propeller"
+    },
+    "Q": {
+      "object": "Quadcopter"
+    },
+    "R": {
+      "object": "Radar"
+    },
+    "S": {
+      "object": "Seatbelt"
+    },
+    "T": {
+      "object": "Turboprop"
+    },
+    "U": {
+      "object": "Ultralight"
+    },
+    "V": {
+      "object": "Vertical Stabilizer"
+    },
+    "W": {
+      "object": "Windsock"
+    },
+    "X": {
+      "object": "X-ray Scanner"
+    },
+    "Y": {
+      "object": "Yoke"
+    },
+    "Z": {
+      "object": "Zeppelin"
+    }
+  }
+}

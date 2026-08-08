@@ -1,0 +1,28 @@
+{
+  "songId": "0146",
+  "theme": "Building Site",
+  "macroDomain": "Construction & Tools",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "A -> Auger: safety-context-only",
+    "H -> Hammer: safety-context-only",
+    "K -> Keyhole Saw: safety-context-only",
+    "P -> Pliers: safety-context-only",
+    "Q -> Quoin Brick: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "S -> Saw: safety-context-only",
+    "V -> Voltage Tester: safety-context-only",
+    "Z -> Zinc Screw: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 18,
+    "B": 7,
+    "C": 1
+  },
+  "riskCounts": {
+    "safety-context-only": 6,
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

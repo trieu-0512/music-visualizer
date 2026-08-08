@@ -1,0 +1,20 @@
+{
+  "songId": "0160",
+  "theme": "Helping Hands",
+  "macroDomain": "Community Helpers",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quartermaster: guided-theme-fallback-review",
+    "X -> X-ray Technician: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zumba Instructor: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 10
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "verify-pronunciation": 1
+  }
+}

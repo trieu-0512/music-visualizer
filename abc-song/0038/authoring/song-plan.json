@@ -1,0 +1,63 @@
+{
+  "songId": "0038",
+  "title": "Frozen Ocean ABC",
+  "theme": "Frozen Ocean",
+  "mappingRevision": 1,
+  "tempoBpm": 86,
+  "motifFamily": "ice-flow",
+  "hook": [
+    "Frozen ocean—A-B-C!",
+    "Cold blue words swim back to me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "two short beats before confirmation",
+  "visualStyle": "polished 3D frozen-ocean storybook, aqua ice and deep blue water, friendly animals, strong foreground separation",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "ice-water sound-image",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "is-for",
+      "question-answer",
+      "narrative"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "a warm, calm observer noticing snow, ice, seabirds and cold-climate wildlife",
+    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
+    "grooveMeter": "stop-go 4/4 pulse",
+    "round1Grammar": "Round 1 stays spacious and warm, contrasting snow/ice images with animal motion; rare names remain near speech rhythm.",
+    "round2Grammar": "Round 2 thins the arrangement, leaves one to two beats for recall and confirms with a simple cold-climate motion.",
+    "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft bell sparkle after targets over a warm acoustic pulse",
+    "signatureColor": "soft bell sparkle after targets over a warm acoustic pulse",
+    "chorusAfterRound1": [
+      3,
+      5
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 20,
+    "usedRound1": 11,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

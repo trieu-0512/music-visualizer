@@ -1,0 +1,23 @@
+{
+  "songId": "0101",
+  "theme": "Classroom Supplies",
+  "macroDomain": "School & Classroom",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "J -> Jigsaw Map: safety-context-only",
+    "K -> Knowledge Card: visual-clarity-review",
+    "Q -> Question Card: guided-theme-fallback-review",
+    "S -> Scissors: safety-context-only",
+    "Z -> Zero Card: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 9,
+    "A": 17
+  },
+  "riskCounts": {
+    "safety-context-only": 2,
+    "visual-clarity-review": 1,
+    "guided-theme-fallback-review": 2
+  }
+}

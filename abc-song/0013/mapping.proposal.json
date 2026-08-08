@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0013",
+  "theme": {
+    "name": "Farm Tools & Crops",
+    "semanticFocus": "Farm Tools & Crops",
+    "macroDomain": "Farm & Barn",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron"
+    },
+    "B": {
+      "object": "Barn"
+    },
+    "C": {
+      "object": "Chicken"
+    },
+    "D": {
+      "object": "Duck"
+    },
+    "E": {
+      "object": "Egg"
+    },
+    "F": {
+      "object": "Fence"
+    },
+    "G": {
+      "object": "Grain"
+    },
+    "H": {
+      "object": "Hen"
+    },
+    "I": {
+      "object": "Ice Chest"
+    },
+    "J": {
+      "object": "Jar"
+    },
+    "K": {
+      "object": "Kid Goat"
+    },
+    "L": {
+      "object": "Ladder"
+    },
+    "M": {
+      "object": "Mule"
+    },
+    "N": {
+      "object": "Nest"
+    },
+    "O": {
+      "object": "Orchard"
+    },
+    "P": {
+      "object": "Pig"
+    },
+    "Q": {
+      "object": "Quilt"
+    },
+    "R": {
+      "object": "Rake"
+    },
+    "S": {
+      "object": "Scarecrow"
+    },
+    "T": {
+      "object": "Trough"
+    },
+    "U": {
+      "object": "Udder"
+    },
+    "V": {
+      "object": "Vegetable Basket"
+    },
+    "W": {
+      "object": "Wheat"
+    },
+    "X": {
+      "object": "X-ray Vet Image"
+    },
+    "Y": {
+      "object": "Yarn"
+    },
+    "Z": {
+      "object": "Zucchini"
+    }
+  }
+}

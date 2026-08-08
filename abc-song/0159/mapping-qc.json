@@ -1,0 +1,19 @@
+{
+  "songId": "0159",
+  "theme": "Work & Service",
+  "macroDomain": "Community Helpers",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quartermaster: guided-theme-fallback-review",
+    "X -> Xylophone Teacher: guided-theme-fallback-review",
+    "Z -> Zumba Instructor: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 15,
+    "B": 11
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3
+  }
+}

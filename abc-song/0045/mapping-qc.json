@@ -1,0 +1,19 @@
+{
+  "songId": "0045",
+  "theme": "Trails & Glaciers",
+  "macroDomain": "Mountains",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Kettle Lake: safety-context-only",
+    "Z -> Zigzag Trail: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 5,
+    "A": 21
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 1
+  }
+}

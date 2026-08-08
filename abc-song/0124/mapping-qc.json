@@ -1,0 +1,18 @@
+{
+  "songId": "0124",
+  "theme": "Active Kids",
+  "macroDomain": "Sports & Movement",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quoits Ring: guided-theme-fallback-review",
+    "Z -> Zigzag Cone: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 8,
+    "A": 18
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Railway Journey",
+  "globalStyle": "warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Arrival Board",
+      "prompt": "Preschool source-composite extraction image for letter A and Arrival Board. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase A on the left and exactly one clear Arrival Board on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Brake",
+      "prompt": "Preschool source-composite extraction image for letter B and Brake. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase B on the left and exactly one clear Brake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Coach",
+      "prompt": "Preschool source-composite extraction image for letter C and Coach. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase C on the left and exactly one clear Coach on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Diesel Engine",
+      "prompt": "Preschool source-composite extraction image for letter D and Diesel Engine. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase D on the left and exactly one clear Diesel Engine on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Electric Train",
+      "prompt": "Preschool source-composite extraction image for letter E and Electric Train. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase E on the left and exactly one clear Electric Train on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Freight Car",
+      "prompt": "Preschool source-composite extraction image for letter F and Freight Car. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase F on the left and exactly one clear Freight Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Goods Wagon",
+      "prompt": "Preschool source-composite extraction image for letter G and Goods Wagon. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase G on the left and exactly one clear Goods Wagon on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "High-speed Train",
+      "prompt": "Preschool source-composite extraction image for letter H and High-speed Train. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase H on the left and exactly one clear High-speed Train on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Intercity Train",
+      "prompt": "Preschool source-composite extraction image for letter I and Intercity Train. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase I on the left and exactly one clear Intercity Train on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Junction Box",
+      "prompt": "Preschool source-composite extraction image for letter J and Junction Box. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase J on the left and exactly one clear Junction Box on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Key Switch",
+      "prompt": "Preschool source-composite extraction image for letter K and Key Switch. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase K on the left and exactly one clear Key Switch on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Level Crossing",
+      "prompt": "Preschool source-composite extraction image for letter L and Level Crossing. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase L on the left and exactly one clear Level Crossing on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Metro",
+      "prompt": "Preschool source-composite extraction image for letter M and Metro. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase M on the left and exactly one clear Metro on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Night Train",
+      "prompt": "Preschool source-composite extraction image for letter N and Night Train. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase N on the left and exactly one clear Night Train on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Observation Car",
+      "prompt": "Preschool source-composite extraction image for letter O and Observation Car. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase O on the left and exactly one clear Observation Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Passenger Car",
+      "prompt": "Preschool source-composite extraction image for letter P and Passenger Car. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase P on the left and exactly one clear Passenger Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quiet Car",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quiet Car. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase Q on the left and exactly one clear Quiet Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Railway Signal",
+      "prompt": "Preschool source-composite extraction image for letter R and Railway Signal. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase R on the left and exactly one clear Railway Signal on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Sleeper Car",
+      "prompt": "Preschool source-composite extraction image for letter S and Sleeper Car. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase S on the left and exactly one clear Sleeper Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Ticket",
+      "prompt": "Preschool source-composite extraction image for letter T and Ticket. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase T on the left and exactly one clear Ticket on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Utility Car",
+      "prompt": "Preschool source-composite extraction image for letter U and Utility Car. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase U on the left and exactly one clear Utility Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Viaduct",
+      "prompt": "Preschool source-composite extraction image for letter V and Viaduct. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase V on the left and exactly one clear Viaduct on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Waiting Room",
+      "prompt": "Preschool source-composite extraction image for letter W and Waiting Room. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase W on the left and exactly one clear Waiting Room on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xpress Train",
+      "prompt": "Preschool source-composite extraction image for letter X and Xpress Train. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase X on the left and exactly one clear Xpress Train on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yellow Signal",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yellow Signal. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase Y on the left and exactly one clear Yellow Signal on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zone Map",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zone Map. warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song. Show one large stylized uppercase Z on the left and exactly one clear Zone Map on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

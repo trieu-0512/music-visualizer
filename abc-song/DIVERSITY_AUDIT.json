@@ -1,0 +1,123 @@
+{
+  "status": "READY_FOR_MAPPING_REVIEW",
+  "songs": 200,
+  "unique_themes": 200,
+  "macro_domains": 40,
+  "max_songs_per_domain": 5,
+  "unique_mappings": 200,
+  "duplicate_mapping_groups": [],
+  "max_mapping_jaccard": 0.3,
+  "within_domain_mapping_jaccard_mean": 0.2696103896103896,
+  "cross_domain_mapping_jaccard_mean": 0.0040322204614825045,
+  "top_mapping_similarity_pairs": [
+    {
+      "similarity": 0.3,
+      "a": "0199",
+      "b": "0200"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0198",
+      "b": "0200"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0198",
+      "b": "0199"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0197",
+      "b": "0200"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0196",
+      "b": "0200"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0196",
+      "b": "0199"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0194",
+      "b": "0195"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0193",
+      "b": "0195"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0193",
+      "b": "0194"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0192",
+      "b": "0195"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0191",
+      "b": "0195"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0191",
+      "b": "0194"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0189",
+      "b": "0190"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0188",
+      "b": "0190"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0188",
+      "b": "0189"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0187",
+      "b": "0190"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0186",
+      "b": "0190"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0186",
+      "b": "0189"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0184",
+      "b": "0185"
+    },
+    {
+      "similarity": 0.3,
+      "a": "0183",
+      "b": "0185"
+    }
+  ],
+  "near_name_pairs": [],
+  "generic_title_token_usage": {
+    "day": 6,
+    "friends": 1,
+    "learning": 2,
+    "world": 10
+  },
+  "failures": [],
+  "warnings": []
+}

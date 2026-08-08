@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Flying Machines",
+  "globalStyle": "bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Airplane",
+      "prompt": "Preschool source-composite extraction image for letter A and Airplane. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase A on the left and exactly one clear Airplane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Boarding Pass",
+      "prompt": "Preschool source-composite extraction image for letter B and Boarding Pass. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase B on the left and exactly one clear Boarding Pass on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Cockpit",
+      "prompt": "Preschool source-composite extraction image for letter C and Cockpit. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase C on the left and exactly one clear Cockpit on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Departure Board",
+      "prompt": "Preschool source-composite extraction image for letter D and Departure Board. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase D on the left and exactly one clear Departure Board on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Elevator Trim",
+      "prompt": "Preschool source-composite extraction image for letter E and Elevator Trim. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase E on the left and exactly one clear Elevator Trim on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fuselage",
+      "prompt": "Preschool source-composite extraction image for letter F and Fuselage. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase F on the left and exactly one clear Fuselage on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Glider",
+      "prompt": "Preschool source-composite extraction image for letter G and Glider. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase G on the left and exactly one clear Glider on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Helicopter",
+      "prompt": "Preschool source-composite extraction image for letter H and Helicopter. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase H on the left and exactly one clear Helicopter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Inflatable Slide",
+      "prompt": "Preschool source-composite extraction image for letter I and Inflatable Slide. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase I on the left and exactly one clear Inflatable Slide on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jet",
+      "prompt": "Preschool source-composite extraction image for letter J and Jet. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase J on the left and exactly one clear Jet on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kite",
+      "prompt": "Preschool source-composite extraction image for letter K and Kite. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase K on the left and exactly one clear Kite on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Luggage Cart",
+      "prompt": "Preschool source-composite extraction image for letter L and Luggage Cart. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase L on the left and exactly one clear Luggage Cart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Monoplane",
+      "prompt": "Preschool source-composite extraction image for letter M and Monoplane. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase M on the left and exactly one clear Monoplane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Navigation Light",
+      "prompt": "Preschool source-composite extraction image for letter N and Navigation Light. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase N on the left and exactly one clear Navigation Light on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Overhead Bin",
+      "prompt": "Preschool source-composite extraction image for letter O and Overhead Bin. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase O on the left and exactly one clear Overhead Bin on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Passenger Plane",
+      "prompt": "Preschool source-composite extraction image for letter P and Passenger Plane. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase P on the left and exactly one clear Passenger Plane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Queue Lane",
+      "prompt": "Preschool source-composite extraction image for letter Q and Queue Lane. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase Q on the left and exactly one clear Queue Lane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Radar",
+      "prompt": "Preschool source-composite extraction image for letter R and Radar. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase R on the left and exactly one clear Radar on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Seatbelt",
+      "prompt": "Preschool source-composite extraction image for letter S and Seatbelt. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase S on the left and exactly one clear Seatbelt on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Tail",
+      "prompt": "Preschool source-composite extraction image for letter T and Tail. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase T on the left and exactly one clear Tail on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Ultralight",
+      "prompt": "Preschool source-composite extraction image for letter U and Ultralight. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase U on the left and exactly one clear Ultralight on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vertical Stabilizer",
+      "prompt": "Preschool source-composite extraction image for letter V and Vertical Stabilizer. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase V on the left and exactly one clear Vertical Stabilizer on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Wing",
+      "prompt": "Preschool source-composite extraction image for letter W and Wing. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase W on the left and exactly one clear Wing on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "X-ray Scanner",
+      "prompt": "Preschool source-composite extraction image for letter X and X-ray Scanner. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase X on the left and exactly one clear X-ray Scanner on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yellow Taxiway Sign",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yellow Taxiway Sign. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase Y on the left and exactly one clear Yellow Taxiway Sign on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zero-gravity Plane",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zero-gravity Plane. bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky. Show one large stylized uppercase Z on the left and exactly one clear Zero-gravity Plane on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

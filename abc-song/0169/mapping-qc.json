@@ -1,0 +1,21 @@
+{
+  "songId": "0169",
+  "theme": "Wardrobe World",
+  "macroDomain": "Clothes & Getting Ready",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "E -> Espadrilles: safety-context-only",
+    "Q -> Quilted Jacket: guided-theme-fallback-review",
+    "X -> Xmas Sweater: guided-theme-fallback-review",
+    "Z -> Zori Sandals: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 18,
+    "B": 8
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 3
+  }
+}

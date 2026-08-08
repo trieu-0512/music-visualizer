@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Colors & Crafts",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Brush",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crayon",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dot Marker",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Eraser",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Frame",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glue",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hole Punch",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Illustration",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jar",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kraft Paper",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Leaf Print",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Marker",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Notebook",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oil Pastel",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pencil",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt Square",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Roller",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scissors",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "T": {
+      "object": "Tape",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utility Brush",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Varnish",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Watercolor",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Sticker",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Paint",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zipper Craft",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

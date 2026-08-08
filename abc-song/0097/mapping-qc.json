@@ -1,0 +1,20 @@
+{
+  "songId": "0097",
+  "theme": "Bread & Pastries",
+  "macroDomain": "Bakery & Desserts",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "U -> Upside-down Cake: verify-pronunciation",
+    "X -> X-shaped Pretzel: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zucchini Bread: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 15,
+    "A": 11
+  },
+  "riskCounts": {
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 2
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0137",
+  "theme": {
+    "name": "Flying Machines",
+    "semanticFocus": "Flying Machines",
+    "macroDomain": "Aircraft & Airport",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Airplane"
+    },
+    "B": {
+      "object": "Boarding Pass"
+    },
+    "C": {
+      "object": "Cockpit"
+    },
+    "D": {
+      "object": "Departure Board"
+    },
+    "E": {
+      "object": "Elevator Trim"
+    },
+    "F": {
+      "object": "Fuselage"
+    },
+    "G": {
+      "object": "Glider"
+    },
+    "H": {
+      "object": "Helicopter"
+    },
+    "I": {
+      "object": "Inflatable Slide"
+    },
+    "J": {
+      "object": "Jet"
+    },
+    "K": {
+      "object": "Kite"
+    },
+    "L": {
+      "object": "Luggage Cart"
+    },
+    "M": {
+      "object": "Monoplane"
+    },
+    "N": {
+      "object": "Navigation Light"
+    },
+    "O": {
+      "object": "Overhead Bin"
+    },
+    "P": {
+      "object": "Passenger Plane"
+    },
+    "Q": {
+      "object": "Queue Lane"
+    },
+    "R": {
+      "object": "Radar"
+    },
+    "S": {
+      "object": "Seatbelt"
+    },
+    "T": {
+      "object": "Tail"
+    },
+    "U": {
+      "object": "Ultralight"
+    },
+    "V": {
+      "object": "Vertical Stabilizer"
+    },
+    "W": {
+      "object": "Wing"
+    },
+    "X": {
+      "object": "X-ray Scanner"
+    },
+    "Y": {
+      "object": "Yellow Taxiway Sign"
+    },
+    "Z": {
+      "object": "Zero-gravity Plane"
+    }
+  }
+}

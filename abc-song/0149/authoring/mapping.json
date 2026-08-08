@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Construction Gear",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Axe",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "B": {
+      "object": "Bolt",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cement Mixer",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Drill",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "E": {
+      "object": "Extension Ladder",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Framing Hammer",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "G": {
+      "object": "Gravel",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hard Hat",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Impact Driver",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Joint",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Keyhole Saw",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Ladder",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Measuring Tape",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nail",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orange Cone",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pliers",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "Q": {
+      "object": "Quick Clamp",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rake",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Shovel",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trowel",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utility Knife",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "V": {
+      "object": "Voltage Tester",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "W": {
+      "object": "Wrench",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-brace",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Vest",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zinc Screw",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

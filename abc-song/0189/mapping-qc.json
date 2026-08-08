@@ -1,0 +1,21 @@
+{
+  "songId": "0189",
+  "theme": "Storybook Kingdom",
+  "macroDomain": "Fairy Tales & Magic",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> X-marked Treasure Map: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zigzag Path: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 18,
+    "B": 7,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

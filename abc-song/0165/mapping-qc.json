@@ -1,0 +1,19 @@
+{
+  "songId": "0165",
+  "theme": "Cozy House",
+  "macroDomain": "Home & Rooms",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Kettle: safety-context-only",
+    "Z -> Zen Garden: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 6,
+    "A": 20
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 1
+  }
+}

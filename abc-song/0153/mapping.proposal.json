@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0153",
+  "theme": {
+    "name": "Streets & Buildings",
+    "semanticFocus": "Streets & Buildings",
+    "macroDomain": "City & Community",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Apartment"
+    },
+    "B": {
+      "object": "Bakery"
+    },
+    "C": {
+      "object": "City Hall"
+    },
+    "D": {
+      "object": "Doctor"
+    },
+    "E": {
+      "object": "Elevator"
+    },
+    "F": {
+      "object": "Fire Station"
+    },
+    "G": {
+      "object": "Garage"
+    },
+    "H": {
+      "object": "Hotel"
+    },
+    "I": {
+      "object": "Intersection"
+    },
+    "J": {
+      "object": "Juice Shop"
+    },
+    "K": {
+      "object": "Kindergarten"
+    },
+    "L": {
+      "object": "Laundromat"
+    },
+    "M": {
+      "object": "Market"
+    },
+    "N": {
+      "object": "Newsstand"
+    },
+    "O": {
+      "object": "Overpass"
+    },
+    "P": {
+      "object": "Police Car"
+    },
+    "Q": {
+      "object": "Quilt Shop"
+    },
+    "R": {
+      "object": "Road"
+    },
+    "S": {
+      "object": "School"
+    },
+    "T": {
+      "object": "Theater"
+    },
+    "U": {
+      "object": "Underground Train"
+    },
+    "V": {
+      "object": "Van"
+    },
+    "W": {
+      "object": "Walkway"
+    },
+    "X": {
+      "object": "X-crossing"
+    },
+    "Y": {
+      "object": "Yard"
+    },
+    "Z": {
+      "object": "Zoo"
+    }
+  }
+}

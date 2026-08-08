@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0195",
+  "theme": {
+    "name": "Future Science",
+    "semanticFocus": "Future Science",
+    "macroDomain": "Robots & Science",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Atom Model"
+    },
+    "B": {
+      "object": "Battery"
+    },
+    "C": {
+      "object": "Computer"
+    },
+    "D": {
+      "object": "Drone"
+    },
+    "E": {
+      "object": "Experiment Tube"
+    },
+    "F": {
+      "object": "Flask"
+    },
+    "G": {
+      "object": "Gear"
+    },
+    "H": {
+      "object": "Headset"
+    },
+    "I": {
+      "object": "Indicator Light"
+    },
+    "J": {
+      "object": "Jet Robot"
+    },
+    "K": {
+      "object": "Kit"
+    },
+    "L": {
+      "object": "Lab Coat"
+    },
+    "M": {
+      "object": "Microscope"
+    },
+    "N": {
+      "object": "Nut"
+    },
+    "O": {
+      "object": "Optical Sensor"
+    },
+    "P": {
+      "object": "Processor"
+    },
+    "Q": {
+      "object": "QR Code"
+    },
+    "R": {
+      "object": "Resistor"
+    },
+    "S": {
+      "object": "Switch"
+    },
+    "T": {
+      "object": "Test Tube"
+    },
+    "U": {
+      "object": "Ultrasonic Sensor"
+    },
+    "V": {
+      "object": "Voltmeter"
+    },
+    "W": {
+      "object": "Wire"
+    },
+    "X": {
+      "object": "X-ray Image"
+    },
+    "Y": {
+      "object": "Yoke Robot"
+    },
+    "Z": {
+      "object": "Zero-gravity Robot"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0193",
+  "theme": {
+    "name": "Circuits & Gadgets",
+    "semanticFocus": "Circuits & Gadgets",
+    "macroDomain": "Robots & Science",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Android"
+    },
+    "B": {
+      "object": "Beaker"
+    },
+    "C": {
+      "object": "Computer"
+    },
+    "D": {
+      "object": "Drone"
+    },
+    "E": {
+      "object": "Experiment Tube"
+    },
+    "F": {
+      "object": "Flask"
+    },
+    "G": {
+      "object": "Goggles"
+    },
+    "H": {
+      "object": "Hydraulic Arm"
+    },
+    "I": {
+      "object": "Insulator"
+    },
+    "J": {
+      "object": "Jumper Wire"
+    },
+    "K": {
+      "object": "Kit"
+    },
+    "L": {
+      "object": "Lab Coat"
+    },
+    "M": {
+      "object": "Motor"
+    },
+    "N": {
+      "object": "Nut"
+    },
+    "O": {
+      "object": "Optical Sensor"
+    },
+    "P": {
+      "object": "Pipette"
+    },
+    "Q": {
+      "object": "QR Code"
+    },
+    "R": {
+      "object": "Resistor"
+    },
+    "S": {
+      "object": "Sensor"
+    },
+    "T": {
+      "object": "Transistor"
+    },
+    "U": {
+      "object": "USB Cable"
+    },
+    "V": {
+      "object": "Voltmeter"
+    },
+    "W": {
+      "object": "Wire"
+    },
+    "X": {
+      "object": "X-axis Plotter"
+    },
+    "Y": {
+      "object": "Yellow Wire"
+    },
+    "Z": {
+      "object": "Zener Diode"
+    }
+  }
+}

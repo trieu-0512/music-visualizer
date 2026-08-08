@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0086",
+  "theme": {
+    "name": "Kitchen & Food",
+    "semanticFocus": "Kitchen & Food",
+    "macroDomain": "Food & Kitchen",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple"
+    },
+    "B": {
+      "object": "Blender"
+    },
+    "C": {
+      "object": "Cup"
+    },
+    "D": {
+      "object": "Donut"
+    },
+    "E": {
+      "object": "Egg"
+    },
+    "F": {
+      "object": "Fork"
+    },
+    "G": {
+      "object": "Grapes"
+    },
+    "H": {
+      "object": "Honey"
+    },
+    "I": {
+      "object": "Ice Tray"
+    },
+    "J": {
+      "object": "Juicer"
+    },
+    "K": {
+      "object": "Knife"
+    },
+    "L": {
+      "object": "Ladle"
+    },
+    "M": {
+      "object": "Muffin"
+    },
+    "N": {
+      "object": "Napkin"
+    },
+    "O": {
+      "object": "Oven"
+    },
+    "P": {
+      "object": "Pan"
+    },
+    "Q": {
+      "object": "Quart Cup"
+    },
+    "R": {
+      "object": "Rice"
+    },
+    "S": {
+      "object": "Spoon"
+    },
+    "T": {
+      "object": "Toast"
+    },
+    "U": {
+      "object": "Under-counter Drawer"
+    },
+    "V": {
+      "object": "Vegetable Peeler"
+    },
+    "W": {
+      "object": "Waffle"
+    },
+    "X": {
+      "object": "Xylophone"
+    },
+    "Y": {
+      "object": "Yam"
+    },
+    "Z": {
+      "object": "Zester"
+    }
+  }
+}

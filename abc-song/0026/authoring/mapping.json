@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Rainforest Animals",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anteater",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boa",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chameleon",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drongo",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Elephant",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fern",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gecko",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hornbill",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iguana",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jungle Vine",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kinkajou",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Leopard",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Macaw",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nectar Bat",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Orchid",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Parrot",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen Butterfly",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rainforest Frog",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Snake",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toucan",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uakari",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Viper",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Waterfall",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Anaconda",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zingiber Plant",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

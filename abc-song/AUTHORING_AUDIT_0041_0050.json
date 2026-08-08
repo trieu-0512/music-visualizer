@@ -1,0 +1,444 @@
+{
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
+  "status": "PASS_WITH_REVIEW",
+  "range": "0041-0050",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 4,
+  "designReworkSongs": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "uniqueSectionForms": 7,
+  "uniqueCreativeFingerprints": 10,
+  "maxLyricSimilarity": 0.2288,
+  "mostSimilarPair": [
+    "0041",
+    "0045"
+  ],
+  "batchWarnings": [],
+  "songsDetail": [
+    {
+      "songId": "0041",
+      "theme": "Mountain Animals",
+      "targetLines": 52,
+      "lyricWordCount": 803,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "is-for",
+        "narrative-or-other",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "G",
+        "I",
+        "M",
+        "O",
+        "Q",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0042",
+      "theme": "Peaks & Valleys",
+      "targetLines": 52,
+      "lyricWordCount": 807,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "G",
+        "K",
+        "M",
+        "Q",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          6
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0043",
+      "theme": "Alpine Nature",
+      "targetLines": 52,
+      "lyricWordCount": 833,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "G",
+        "M",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5
+        ],
+        "round2ChorusAfter": [
+          3,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk IJKL has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
+        "Round 1 chunk QRST has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0044",
+      "theme": "Mountain Explorer",
+      "targetLines": 52,
+      "lyricWordCount": 827,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "is-for",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "G",
+        "I",
+        "M",
+        "O",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          6
+        ],
+        "round2ChorusAfter": [
+          3,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk QRST has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0045",
+      "theme": "Trails & Glaciers",
+      "targetLines": 52,
+      "lyricWordCount": 831,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "direct-letter-object",
+        "narrative-or-other",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "G",
+        "I",
+        "M",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          5
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": [
+        "Round 1 chunk QRST has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+      ]
+    },
+    {
+      "songId": "0046",
+      "theme": "Weather Watch",
+      "targetLines": 52,
+      "lyricWordCount": 792,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "is-for",
+        "narrative-or-other",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "G",
+        "I",
+        "K",
+        "M",
+        "O",
+        "S",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0047",
+      "theme": "Sky & Clouds",
+      "targetLines": 52,
+      "lyricWordCount": 801,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "I",
+        "M",
+        "O",
+        "S",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          7
+        ],
+        "round2ChorusAfter": [
+          3,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0048",
+      "theme": "Weather Gear",
+      "targetLines": 52,
+      "lyricWordCount": 813,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "G",
+        "I",
+        "K",
+        "M",
+        "O",
+        "Q",
+        "S",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0049",
+      "theme": "Wind Rain & Snow",
+      "targetLines": 52,
+      "lyricWordCount": 789,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "is-for",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "G",
+        "I",
+        "K",
+        "M",
+        "O",
+        "Q",
+        "S",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          6
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0050",
+      "theme": "Weather Station",
+      "targetLines": 52,
+      "lyricWordCount": 785,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "direct-letter-object",
+        "narrative-or-other",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "I",
+        "K",
+        "M",
+        "O",
+        "Q",
+        "S",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5
+        ],
+        "round2ChorusAfter": [
+          3,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

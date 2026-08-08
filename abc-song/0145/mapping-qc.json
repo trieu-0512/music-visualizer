@@ -1,0 +1,18 @@
+{
+  "songId": "0145",
+  "theme": "Boat Day",
+  "macroDomain": "Boats & Harbor",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Z -> Zephyr Sail: guided-theme-fallback-review, visual-clarity-review"
+  ],
+  "tierCounts": {
+    "A": 18,
+    "B": 8
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 1,
+    "visual-clarity-review": 1
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Museum of Dinosaurs",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Allosaurus",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bone",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Carnotaurus",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Diplodocus",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egg",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fossil",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Giganotosaurus",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hadrosaur",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iguanodon",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jawbone",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kritosaurus",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lambeosaurus",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mosasaurus",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Ornithomimus",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pachycephalosaurus",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quetzalcoatlus",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rib Bone",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Spinosaurus",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Triceratops",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Unenlagia",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Velociraptor",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wannanosaurus",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xenoceratops",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yinlong",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zephyrosaurus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

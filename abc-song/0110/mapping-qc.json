@@ -1,0 +1,22 @@
+{
+  "songId": "0110",
+  "theme": "Make & Create",
+  "macroDomain": "Art & Crafts",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Knitting Needle: safety-context-only",
+    "N -> Needle: safety-context-only",
+    "Q -> Quilling Paper: guided-theme-fallback-review",
+    "X -> Xylophone Stamp: guided-theme-fallback-review",
+    "Z -> Zipper Craft: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 15,
+    "B": 11
+  },
+  "riskCounts": {
+    "safety-context-only": 2,
+    "guided-theme-fallback-review": 3
+  }
+}

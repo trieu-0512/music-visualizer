@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0046",
+  "theme": {
+    "name": "Weather Watch",
+    "semanticFocus": "Weather Watch",
+    "macroDomain": "Weather & Sky",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Altocumulus"
+    },
+    "B": {
+      "object": "Breeze"
+    },
+    "C": {
+      "object": "Cloud"
+    },
+    "D": {
+      "object": "Dew"
+    },
+    "E": {
+      "object": "Earmuffs"
+    },
+    "F": {
+      "object": "Fog"
+    },
+    "G": {
+      "object": "Gust"
+    },
+    "H": {
+      "object": "Hail"
+    },
+    "I": {
+      "object": "Ice"
+    },
+    "J": {
+      "object": "Jet Stream"
+    },
+    "K": {
+      "object": "Kelvin Thermometer"
+    },
+    "L": {
+      "object": "Lightning"
+    },
+    "M": {
+      "object": "Mist"
+    },
+    "N": {
+      "object": "Night Sky"
+    },
+    "O": {
+      "object": "Overcoat"
+    },
+    "P": {
+      "object": "Puddle"
+    },
+    "Q": {
+      "object": "Quiet Sky"
+    },
+    "R": {
+      "object": "Raincoat"
+    },
+    "S": {
+      "object": "Snowflake"
+    },
+    "T": {
+      "object": "Thermometer"
+    },
+    "U": {
+      "object": "Updraft"
+    },
+    "V": {
+      "object": "Vapor"
+    },
+    "W": {
+      "object": "Windsock"
+    },
+    "X": {
+      "object": "Xylophone"
+    },
+    "Y": {
+      "object": "Yellow Sun"
+    },
+    "Z": {
+      "object": "Zephyr"
+    }
+  }
+}

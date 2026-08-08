@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0097",
+  "theme": {
+    "name": "Bread & Pastries",
+    "semanticFocus": "Bread & Pastries",
+    "macroDomain": "Bakery & Desserts",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple Pie"
+    },
+    "B": {
+      "object": "Bread"
+    },
+    "C": {
+      "object": "Cupcake"
+    },
+    "D": {
+      "object": "Danish"
+    },
+    "E": {
+      "object": "Egg Tart"
+    },
+    "F": {
+      "object": "Fruitcake"
+    },
+    "G": {
+      "object": "Gingerbread"
+    },
+    "H": {
+      "object": "Honey Bun"
+    },
+    "I": {
+      "object": "Ice Cream"
+    },
+    "J": {
+      "object": "Jam Tart"
+    },
+    "K": {
+      "object": "Kaiser Roll"
+    },
+    "L": {
+      "object": "Lemon Tart"
+    },
+    "M": {
+      "object": "Muffin"
+    },
+    "N": {
+      "object": "Napoleon Pastry"
+    },
+    "O": {
+      "object": "Orange Cake"
+    },
+    "P": {
+      "object": "Pie"
+    },
+    "Q": {
+      "object": "Quiche"
+    },
+    "R": {
+      "object": "Raisin Bread"
+    },
+    "S": {
+      "object": "Scone"
+    },
+    "T": {
+      "object": "Tart"
+    },
+    "U": {
+      "object": "Upside-down Cake"
+    },
+    "V": {
+      "object": "Vanilla Cake"
+    },
+    "W": {
+      "object": "Waffle"
+    },
+    "X": {
+      "object": "X-shaped Pretzel"
+    },
+    "Y": {
+      "object": "Yule Log"
+    },
+    "Z": {
+      "object": "Zucchini Bread"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Getting Ready & Cleaning",
+  "globalStyle": "friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Alarm Clock",
+      "prompt": "Preschool source-composite extraction image for letter A and Alarm Clock. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase A on the left and exactly one clear Alarm Clock on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Bed",
+      "prompt": "Preschool source-composite extraction image for letter B and Bed. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase B on the left and exactly one clear Bed on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Cup",
+      "prompt": "Preschool source-composite extraction image for letter C and Cup. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase C on the left and exactly one clear Cup on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dinner",
+      "prompt": "Preschool source-composite extraction image for letter D and Dinner. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase D on the left and exactly one clear Dinner on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Evening Book",
+      "prompt": "Preschool source-composite extraction image for letter E and Evening Book. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase E on the left and exactly one clear Evening Book on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Face Towel",
+      "prompt": "Preschool source-composite extraction image for letter F and Face Towel. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase F on the left and exactly one clear Face Towel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Getting-dressed Chart",
+      "prompt": "Preschool source-composite extraction image for letter G and Getting-dressed Chart. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase G on the left and exactly one clear Getting-dressed Chart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Hand Soap",
+      "prompt": "Preschool source-composite extraction image for letter H and Hand Soap. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase H on the left and exactly one clear Hand Soap on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Indoor Shoes",
+      "prompt": "Preschool source-composite extraction image for letter I and Indoor Shoes. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase I on the left and exactly one clear Indoor Shoes on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jacket",
+      "prompt": "Preschool source-composite extraction image for letter J and Jacket. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase J on the left and exactly one clear Jacket on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kettle",
+      "prompt": "Preschool source-composite extraction image for letter K and Kettle. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase K on the left and exactly one clear Kettle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lunchbox",
+      "prompt": "Preschool source-composite extraction image for letter L and Lunchbox. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase L on the left and exactly one clear Lunchbox on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Milk",
+      "prompt": "Preschool source-composite extraction image for letter M and Milk. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase M on the left and exactly one clear Milk on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Napkin",
+      "prompt": "Preschool source-composite extraction image for letter N and Napkin. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase N on the left and exactly one clear Napkin on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Oatmeal",
+      "prompt": "Preschool source-composite extraction image for letter O and Oatmeal. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase O on the left and exactly one clear Oatmeal on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Pajamas",
+      "prompt": "Preschool source-composite extraction image for letter P and Pajamas. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase P on the left and exactly one clear Pajamas on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quilt",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quilt. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase Q on the left and exactly one clear Quilt on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Routine Chart",
+      "prompt": "Preschool source-composite extraction image for letter R and Routine Chart. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase R on the left and exactly one clear Routine Chart on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Slippers",
+      "prompt": "Preschool source-composite extraction image for letter S and Slippers. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase S on the left and exactly one clear Slippers on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Towel",
+      "prompt": "Preschool source-composite extraction image for letter T and Towel. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase T on the left and exactly one clear Towel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Uniform",
+      "prompt": "Preschool source-composite extraction image for letter U and Uniform. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase U on the left and exactly one clear Uniform on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Vacuum",
+      "prompt": "Preschool source-composite extraction image for letter V and Vacuum. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase V on the left and exactly one clear Vacuum on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Washcloth",
+      "prompt": "Preschool source-composite extraction image for letter W and Washcloth. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase W on the left and exactly one clear Washcloth on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "X-shaped Timer",
+      "prompt": "Preschool source-composite extraction image for letter X and X-shaped Timer. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase X on the left and exactly one clear X-shaped Timer on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yawn",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yawn. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase Y on the left and exactly one clear Yawn on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zip Pajamas",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zip Pajamas. friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC. Show one large stylized uppercase Z on the left and exactly one clear Zip Pajamas on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

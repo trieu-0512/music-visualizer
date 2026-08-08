@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0126",
+  "theme": {
+    "name": "Things That Go",
+    "semanticFocus": "Things That Go",
+    "macroDomain": "Vehicles & Roads",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "ATV"
+    },
+    "B": {
+      "object": "Bulldozer"
+    },
+    "C": {
+      "object": "Car"
+    },
+    "D": {
+      "object": "Delivery Van"
+    },
+    "E": {
+      "object": "Excavator"
+    },
+    "F": {
+      "object": "Fire Engine"
+    },
+    "G": {
+      "object": "Golf Cart"
+    },
+    "H": {
+      "object": "Helicopter"
+    },
+    "I": {
+      "object": "Ice Cream Truck"
+    },
+    "J": {
+      "object": "Jeep"
+    },
+    "K": {
+      "object": "Kart"
+    },
+    "L": {
+      "object": "Limousine"
+    },
+    "M": {
+      "object": "Minivan"
+    },
+    "N": {
+      "object": "Night Bus"
+    },
+    "O": {
+      "object": "Off-road Car"
+    },
+    "P": {
+      "object": "Plane"
+    },
+    "Q": {
+      "object": "Quadcopter"
+    },
+    "R": {
+      "object": "Race Car"
+    },
+    "S": {
+      "object": "Scooter"
+    },
+    "T": {
+      "object": "Train"
+    },
+    "U": {
+      "object": "Underground Train"
+    },
+    "V": {
+      "object": "Vespa"
+    },
+    "W": {
+      "object": "Wagon"
+    },
+    "X": {
+      "object": "X-ray Van"
+    },
+    "Y": {
+      "object": "Yard Tractor"
+    },
+    "Z": {
+      "object": "Zero-emission Bus"
+    }
+  }
+}

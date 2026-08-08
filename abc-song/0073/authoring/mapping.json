@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Pet Playtime",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Angelfish",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bunny",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Collar",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dog",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Exercise Wheel",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fish",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grooming Brush",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hutch",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "ID Tag",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jumping Toy",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kibble",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Litter Box",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Meal Bowl",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Outdoor Kennel",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Puppy",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rope Toy",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Scratching Post",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Treat",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Undercoat Brush",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vet Kit",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wheel",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Vet Image",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yarn Ball",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zebra Finch",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

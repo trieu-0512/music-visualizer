@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0103",
+  "theme": {
+    "name": "School Day",
+    "semanticFocus": "School Day",
+    "macroDomain": "School & Classroom",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Art Paper"
+    },
+    "B": {
+      "object": "Book"
+    },
+    "C": {
+      "object": "Calculator"
+    },
+    "D": {
+      "object": "Desk"
+    },
+    "E": {
+      "object": "Eraser"
+    },
+    "F": {
+      "object": "Folder"
+    },
+    "G": {
+      "object": "Globe"
+    },
+    "H": {
+      "object": "Hole Punch"
+    },
+    "I": {
+      "object": "Index Card"
+    },
+    "J": {
+      "object": "Journal"
+    },
+    "K": {
+      "object": "Knowledge Card"
+    },
+    "L": {
+      "object": "Library Book"
+    },
+    "M": {
+      "object": "Map"
+    },
+    "N": {
+      "object": "Notebook"
+    },
+    "O": {
+      "object": "Origami Paper"
+    },
+    "P": {
+      "object": "Pencil"
+    },
+    "Q": {
+      "object": "Quiz Card"
+    },
+    "R": {
+      "object": "Reading Book"
+    },
+    "S": {
+      "object": "Scissors"
+    },
+    "T": {
+      "object": "Textbook"
+    },
+    "U": {
+      "object": "Uniform"
+    },
+    "V": {
+      "object": "Vocabulary Card"
+    },
+    "W": {
+      "object": "Workbook"
+    },
+    "X": {
+      "object": "X-axis Graph"
+    },
+    "Y": {
+      "object": "Yarn"
+    },
+    "Z": {
+      "object": "Zipper Pouch"
+    }
+  }
+}

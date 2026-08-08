@@ -1,0 +1,19 @@
+{
+  "songId": "0061",
+  "theme": "Bug World",
+  "macroDomain": "Insects & Bugs",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Queen Butterfly: guided-theme-fallback-review",
+    "X -> Xylophone Beetle: guided-theme-fallback-review",
+    "Z -> Zebra Longwing: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 14,
+    "B": 12
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3
+  }
+}

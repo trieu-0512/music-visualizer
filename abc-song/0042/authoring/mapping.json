@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Peaks & Valleys",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alpine Goat",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Boulder",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cliff",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Douglas Fir",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Edelweiss",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Falcon",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goat",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hawk",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Icefall",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jay",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kestrel",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lynx",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Marmot",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Outcrop",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pika",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rope",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Summit",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trail",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Upland Meadow",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Valley",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Waterfall",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xeric Shrub",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Bell",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Trail",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

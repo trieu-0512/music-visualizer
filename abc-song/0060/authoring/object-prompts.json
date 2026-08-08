@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Museum of Dinosaurs",
+  "globalStyle": "bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Allosaurus",
+      "prompt": "Preschool source-composite extraction image for letter A and Allosaurus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase A on the left and exactly one clear Allosaurus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Bone",
+      "prompt": "Preschool source-composite extraction image for letter B and Bone. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase B on the left and exactly one clear Bone on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Carnotaurus",
+      "prompt": "Preschool source-composite extraction image for letter C and Carnotaurus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase C on the left and exactly one clear Carnotaurus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Diplodocus",
+      "prompt": "Preschool source-composite extraction image for letter D and Diplodocus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase D on the left and exactly one clear Diplodocus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Egg",
+      "prompt": "Preschool source-composite extraction image for letter E and Egg. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase E on the left and exactly one clear Egg on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Fossil",
+      "prompt": "Preschool source-composite extraction image for letter F and Fossil. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase F on the left and exactly one clear Fossil on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Giganotosaurus",
+      "prompt": "Preschool source-composite extraction image for letter G and Giganotosaurus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase G on the left and exactly one clear Giganotosaurus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Hadrosaur",
+      "prompt": "Preschool source-composite extraction image for letter H and Hadrosaur. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase H on the left and exactly one clear Hadrosaur on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Iguanodon",
+      "prompt": "Preschool source-composite extraction image for letter I and Iguanodon. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase I on the left and exactly one clear Iguanodon on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jawbone",
+      "prompt": "Preschool source-composite extraction image for letter J and Jawbone. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase J on the left and exactly one clear Jawbone on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kritosaurus",
+      "prompt": "Preschool source-composite extraction image for letter K and Kritosaurus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase K on the left and exactly one clear Kritosaurus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lambeosaurus",
+      "prompt": "Preschool source-composite extraction image for letter L and Lambeosaurus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase L on the left and exactly one clear Lambeosaurus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Mosasaurus",
+      "prompt": "Preschool source-composite extraction image for letter M and Mosasaurus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase M on the left and exactly one clear Mosasaurus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Nest",
+      "prompt": "Preschool source-composite extraction image for letter N and Nest. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase N on the left and exactly one clear Nest on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Ornithomimus",
+      "prompt": "Preschool source-composite extraction image for letter O and Ornithomimus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase O on the left and exactly one clear Ornithomimus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Pachycephalosaurus",
+      "prompt": "Preschool source-composite extraction image for letter P and Pachycephalosaurus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase P on the left and exactly one clear Pachycephalosaurus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quetzalcoatlus",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quetzalcoatlus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase Q on the left and exactly one clear Quetzalcoatlus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Rib Bone",
+      "prompt": "Preschool source-composite extraction image for letter R and Rib Bone. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase R on the left and exactly one clear Rib Bone on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Spinosaurus",
+      "prompt": "Preschool source-composite extraction image for letter S and Spinosaurus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase S on the left and exactly one clear Spinosaurus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Triceratops",
+      "prompt": "Preschool source-composite extraction image for letter T and Triceratops. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase T on the left and exactly one clear Triceratops on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Unenlagia",
+      "prompt": "Preschool source-composite extraction image for letter U and Unenlagia. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase U on the left and exactly one clear Unenlagia on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Velociraptor",
+      "prompt": "Preschool source-composite extraction image for letter V and Velociraptor. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase V on the left and exactly one clear Velociraptor on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Wannanosaurus",
+      "prompt": "Preschool source-composite extraction image for letter W and Wannanosaurus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase W on the left and exactly one clear Wannanosaurus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xenoceratops",
+      "prompt": "Preschool source-composite extraction image for letter X and Xenoceratops. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase X on the left and exactly one clear Xenoceratops on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yinlong",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yinlong. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase Y on the left and exactly one clear Yinlong on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zephyrosaurus",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zephyrosaurus. bright 3D dinosaur museum storybook, polished exhibits and signs without readable text, warm gallery light, isolated subjects. Show one large stylized uppercase Z on the left and exactly one clear Zephyrosaurus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

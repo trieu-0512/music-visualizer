@@ -1,0 +1,22 @@
+{
+  "songId": "0187",
+  "theme": "Castles & Magic",
+  "macroDomain": "Fairy Tales & Magic",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quest Map: guided-theme-fallback-review",
+    "X -> X-marked Treasure Map: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zigzag Path: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 9,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

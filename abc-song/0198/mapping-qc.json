@@ -1,0 +1,17 @@
+{
+  "songId": "0198",
+  "theme": "Seasonal Things",
+  "macroDomain": "Seasons & Celebrations",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "F -> Firework: safety-context-only"
+  ],
+  "tierCounts": {
+    "B": 7,
+    "A": 19
+  },
+  "riskCounts": {
+    "safety-context-only": 1
+  }
+}

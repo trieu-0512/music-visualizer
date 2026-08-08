@@ -1,0 +1,63 @@
+{
+  "songId": "0003",
+  "title": "Row and Say ABC",
+  "theme": "Ocean Creatures & Boats",
+  "mappingRevision": 1,
+  "tempoBpm": 92,
+  "motifFamily": "row-march",
+  "hook": [
+    "Row and say, A-B-C!",
+    "Sea and boat words ride with me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "one clear beat between cue and target",
+  "visualStyle": "playful nautical 3D storybook, toy boats and ocean creatures, navy-aqua-red accents, clean separable subjects",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "rhythmic rowing pickup",
+    "targetEntryFamilies": [
+      "repeated-letter",
+      "direct",
+      "narrative",
+      "is-for",
+      "question-answer"
+    ],
+    "lineLengthContour": [
+      "short",
+      "short",
+      "medium",
+      "long"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "friendly boat crew calling sea clues from deck",
+    "chorusFunction": "crew response hook with strong beat-one returns",
+    "grooveMeter": "light 2/4 nautical stomp",
+    "round1Grammar": "short deck calls mixed with fuller scene lines; semantic fact lands after the target",
+    "round2Grammar": "crew caller leaves a beat, group confirms, then matching gesture",
+    "sectionContrast": "verses use brushes/accordion breaths; chorus adds claps; retrieval sections use bare stomp and voice",
+    "signatureColor": "soft stomp on beat one, accordion answer off the target onset",
+    "chorusAfterRound1": [
+      2,
+      5,
+      7
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": true,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 26,
+    "usedRound1": 13,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0183",
+  "theme": {
+    "name": "Home Routines",
+    "semanticFocus": "Home Routines",
+    "macroDomain": "Daily Routine",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron"
+    },
+    "B": {
+      "object": "Bed"
+    },
+    "C": {
+      "object": "Cup"
+    },
+    "D": {
+      "object": "Dinner"
+    },
+    "E": {
+      "object": "Eggs"
+    },
+    "F": {
+      "object": "Fork"
+    },
+    "G": {
+      "object": "Getting-dressed Chart"
+    },
+    "H": {
+      "object": "Hand Soap"
+    },
+    "I": {
+      "object": "Ice Water"
+    },
+    "J": {
+      "object": "Juice"
+    },
+    "K": {
+      "object": "Kettle"
+    },
+    "L": {
+      "object": "Lamp"
+    },
+    "M": {
+      "object": "Morning Chart"
+    },
+    "N": {
+      "object": "Napkin"
+    },
+    "O": {
+      "object": "Outfit"
+    },
+    "P": {
+      "object": "Pajamas"
+    },
+    "Q": {
+      "object": "Quilt"
+    },
+    "R": {
+      "object": "Robe"
+    },
+    "S": {
+      "object": "Soap"
+    },
+    "T": {
+      "object": "Towel"
+    },
+    "U": {
+      "object": "Uniform"
+    },
+    "V": {
+      "object": "Vitamins"
+    },
+    "W": {
+      "object": "Water Bottle"
+    },
+    "X": {
+      "object": "X-shaped Timer"
+    },
+    "Y": {
+      "object": "Yogurt"
+    },
+    "Z": {
+      "object": "Zipper"
+    }
+  }
+}

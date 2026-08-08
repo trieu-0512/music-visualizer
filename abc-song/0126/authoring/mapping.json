@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Things That Go",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "ATV",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bulldozer",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Car",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Delivery Van",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Excavator",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fire Engine",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Golf Cart",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Helicopter",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice Cream Truck",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "J": {
+      "object": "Jeep",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kart",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Limousine",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Minivan",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Night Bus",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Off-road Car",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "P": {
+      "object": "Plane",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quadcopter",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Race Car",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Scooter",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Train",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underground Train",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vespa",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wagon",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Van",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yard Tractor",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zero-emission Bus",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

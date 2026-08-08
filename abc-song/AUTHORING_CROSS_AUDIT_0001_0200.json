@@ -1,0 +1,163 @@
+{
+  "auditVersion": 3,
+  "auditStandard": "creative-v3",
+  "status": "FAIL",
+  "range": "0001-0200",
+  "songs": 200,
+  "songsWithErrors": 0,
+  "songsWithWarnings": 0,
+  "creativeAuditCoverageSongs": 10,
+  "staleBatchAudits": [
+    "0011-0020",
+    "0021-0030",
+    "0031-0040",
+    "0041-0050",
+    "0051-0060",
+    "0061-0070",
+    "0071-0080",
+    "0081-0090",
+    "0091-0100",
+    "0101-0110",
+    "0111-0120",
+    "0121-0130",
+    "0131-0140",
+    "0141-0150",
+    "0151-0160",
+    "0161-0170",
+    "0171-0180",
+    "0181-0190",
+    "0191-0200"
+  ],
+  "creativeReworkSongs": 0,
+  "creativeReworkSongIds": [],
+  "uniqueHooks": 200,
+  "uniqueStyles": 200,
+  "uniqueLyrics": 200,
+  "duplicateHookGroups": [],
+  "duplicateStyleGroups": [],
+  "duplicateLyricGroups": [],
+  "maxAuthoringFingerprintSimilarity": 0.8,
+  "mostSimilarFingerprintPair": [
+    "0006",
+    "0008"
+  ],
+  "fingerprintReviewThreshold": 0.82,
+  "nearFingerprintPairs": [],
+  "failures": [
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0011-0020 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0021-0030 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0031-0040 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0041-0050 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0051-0060 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0061-0070 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0071-0080 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0081-0090 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0091-0100 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0101-0110 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0111-0120 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0121-0130 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0131-0140 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0141-0150 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0151-0160 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0161-0170 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0171-0180 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0181-0190 audit is stale for creative-v3: found v0, require v3"
+      ]
+    },
+    {
+      "songId": "CATALOG",
+      "errors": [
+        "batch 0191-0200 audit is stale for creative-v3: found v0, require v3"
+      ]
+    }
+  ],
+  "warnings": []
+}

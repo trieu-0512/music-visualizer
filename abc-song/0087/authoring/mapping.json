@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Cooking Tools & Ingredients",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bowl",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cup",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Donut",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egg Timer",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Frying Pan",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "G": {
+      "object": "Grater",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Honey",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ice Cream",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jar",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kettle",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Lemon",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mixer",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Napkin",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orange",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pancake",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quart Cup",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rolling Pin",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Spoon",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toast",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utensil",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vanilla",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Waffle",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Cookie Cutter",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yam",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zester",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    }
+  }
+}

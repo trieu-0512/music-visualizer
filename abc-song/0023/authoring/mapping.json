@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Forest Birds & Plants",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Aspen",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bear",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chipmunk",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Deer",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Evergreen",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fox",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grouse",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hollow Log",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Insect",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jay",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knot",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lynx",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Maple",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oak",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pinecone",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "River",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Squirrel",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trail",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underbrush",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Violet",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wolf",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xeric Shrub",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yew",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zinnia",
+      "familiarityTier": "A"
+    }
+  }
+}

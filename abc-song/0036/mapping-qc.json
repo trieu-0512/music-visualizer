@@ -1,0 +1,21 @@
+{
+  "songId": "0036",
+  "theme": "Polar Animals",
+  "macroDomain": "Arctic & Polar",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Y -> Yellow-billed Loon: verify-pronunciation",
+    "Z -> Zoarcid Fish: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 17,
+    "B": 8,
+    "C": 1
+  },
+  "riskCounts": {
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 1,
+    "support-required": 1
+  }
+}

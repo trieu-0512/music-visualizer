@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Boat Day",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anchor",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Barge",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Catamaran",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dock",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Engine",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Ferry",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gangway",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harbor",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inflatable Boat",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jolly Boat",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Keel",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lighthouse",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Marina",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Navigation Light",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Ocean Liner",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pier",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quarterdeck",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rescue Boat",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Submarine",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tugboat",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utility Boat",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vessel",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Water Taxi",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xebec",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yawl",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zephyr Sail",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

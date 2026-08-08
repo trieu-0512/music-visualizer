@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Woodland Explorer",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Acorn",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bear",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chipmunk",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Deer",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eagle",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fern",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grouse",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hollow Log",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Ivy",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Juniper",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knot",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Log",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mushroom",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Owl",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pinecone",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rabbit",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Spruce",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trail",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underbrush",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vine",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Woodpecker",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xeric Shrub",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Warbler",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zebra Swallowtail",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

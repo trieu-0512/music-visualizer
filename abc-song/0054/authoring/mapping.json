@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Moon & Galaxy",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Astronaut",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Booster",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Capsule",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dish Antenna",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Eclipse",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fuel Tank",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "G": {
+      "object": "Gemini Capsule",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hubble Telescope",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "International Space Station",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "J": {
+      "object": "Jet Pack",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Krypton Tank",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "L": {
+      "object": "Lander",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Moon",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nebula",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Orbit",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "P": {
+      "object": "Planet",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quasar",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Rocket",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Spacesuit",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Thruster",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Universe",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "V": {
+      "object": "Visor",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "World",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "X": {
+      "object": "Xenon Thruster",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yoke",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zero-gravity Chair",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

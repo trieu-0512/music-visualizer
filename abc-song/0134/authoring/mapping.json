@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Subway & Rail",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Arrival Board",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Boxcar",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Coach",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Diesel Engine",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Engine",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Footbridge",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gate",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hopper Car",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Intercity Train",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Junction Box",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Key Switch",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Locomotive",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Metro",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Night Train",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Overpass",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Platform",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiet Car",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Rail",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sleeper Car",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Train",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underground Train",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vestibule",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wagon",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-crossing Sign",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Signal",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zone Map",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

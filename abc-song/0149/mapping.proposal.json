@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0149",
+  "theme": {
+    "name": "Construction Gear",
+    "semanticFocus": "Construction Gear",
+    "macroDomain": "Construction & Tools",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Axe"
+    },
+    "B": {
+      "object": "Bolt"
+    },
+    "C": {
+      "object": "Cement Mixer"
+    },
+    "D": {
+      "object": "Drill"
+    },
+    "E": {
+      "object": "Extension Ladder"
+    },
+    "F": {
+      "object": "Framing Hammer"
+    },
+    "G": {
+      "object": "Gravel"
+    },
+    "H": {
+      "object": "Hard Hat"
+    },
+    "I": {
+      "object": "Impact Driver"
+    },
+    "J": {
+      "object": "Joint"
+    },
+    "K": {
+      "object": "Keyhole Saw"
+    },
+    "L": {
+      "object": "Ladder"
+    },
+    "M": {
+      "object": "Measuring Tape"
+    },
+    "N": {
+      "object": "Nail"
+    },
+    "O": {
+      "object": "Orange Cone"
+    },
+    "P": {
+      "object": "Pliers"
+    },
+    "Q": {
+      "object": "Quick Clamp"
+    },
+    "R": {
+      "object": "Rake"
+    },
+    "S": {
+      "object": "Shovel"
+    },
+    "T": {
+      "object": "Trowel"
+    },
+    "U": {
+      "object": "Utility Knife"
+    },
+    "V": {
+      "object": "Voltage Tester"
+    },
+    "W": {
+      "object": "Wrench"
+    },
+    "X": {
+      "object": "X-brace"
+    },
+    "Y": {
+      "object": "Yellow Vest"
+    },
+    "Z": {
+      "object": "Zinc Screw"
+    }
+  }
+}

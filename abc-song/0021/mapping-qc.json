@@ -1,0 +1,18 @@
+{
+  "songId": "0021",
+  "theme": "Woodland Animals",
+  "macroDomain": "Forest & Woodland",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quartz Rock: guided-theme-fallback-review",
+    "Z -> Zebra Swallowtail: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "B": 5
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2
+  }
+}

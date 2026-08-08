@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0087",
+  "theme": {
+    "name": "Cooking Tools & Ingredients",
+    "semanticFocus": "Cooking Tools & Ingredients",
+    "macroDomain": "Food & Kitchen",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron"
+    },
+    "B": {
+      "object": "Bowl"
+    },
+    "C": {
+      "object": "Cup"
+    },
+    "D": {
+      "object": "Donut"
+    },
+    "E": {
+      "object": "Egg Timer"
+    },
+    "F": {
+      "object": "Frying Pan"
+    },
+    "G": {
+      "object": "Grater"
+    },
+    "H": {
+      "object": "Honey"
+    },
+    "I": {
+      "object": "Ice Cream"
+    },
+    "J": {
+      "object": "Jar"
+    },
+    "K": {
+      "object": "Kettle"
+    },
+    "L": {
+      "object": "Lemon"
+    },
+    "M": {
+      "object": "Mixer"
+    },
+    "N": {
+      "object": "Napkin"
+    },
+    "O": {
+      "object": "Orange"
+    },
+    "P": {
+      "object": "Pancake"
+    },
+    "Q": {
+      "object": "Quart Cup"
+    },
+    "R": {
+      "object": "Rolling Pin"
+    },
+    "S": {
+      "object": "Spoon"
+    },
+    "T": {
+      "object": "Toast"
+    },
+    "U": {
+      "object": "Utensil"
+    },
+    "V": {
+      "object": "Vanilla"
+    },
+    "W": {
+      "object": "Waffle"
+    },
+    "X": {
+      "object": "X-shaped Cookie Cutter"
+    },
+    "Y": {
+      "object": "Yam"
+    },
+    "Z": {
+      "object": "Zester"
+    }
+  }
+}

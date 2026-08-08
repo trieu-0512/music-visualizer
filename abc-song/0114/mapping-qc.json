@@ -1,0 +1,22 @@
+{
+  "songId": "0114",
+  "theme": "Music Making",
+  "macroDomain": "Music & Instruments",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> Xaphoon: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Y -> Yangqin: support-required, verify-pronunciation",
+    "Z -> Zills: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 20,
+    "B": 3,
+    "C": 3
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 3,
+    "verify-pronunciation": 3
+  }
+}

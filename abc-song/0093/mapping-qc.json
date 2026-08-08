@@ -1,0 +1,20 @@
+{
+  "songId": "0093",
+  "theme": "Market Produce",
+  "macroDomain": "Fruits & Vegetables",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> Xoconostle: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 22,
+    "B": 3,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 1,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0123",
+  "theme": {
+    "name": "Balls Bikes & Gear",
+    "semanticFocus": "Balls Bikes & Gear",
+    "macroDomain": "Sports & Movement",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Athlete"
+    },
+    "B": {
+      "object": "Ball"
+    },
+    "C": {
+      "object": "Cricket Bat"
+    },
+    "D": {
+      "object": "Dumbbell"
+    },
+    "E": {
+      "object": "Exercise Mat"
+    },
+    "F": {
+      "object": "Football"
+    },
+    "G": {
+      "object": "Goggles"
+    },
+    "H": {
+      "object": "Helmet"
+    },
+    "I": {
+      "object": "Inflatable Pool"
+    },
+    "J": {
+      "object": "Jump Rope"
+    },
+    "K": {
+      "object": "Kayak"
+    },
+    "L": {
+      "object": "Lane Marker"
+    },
+    "M": {
+      "object": "Mat"
+    },
+    "N": {
+      "object": "Net"
+    },
+    "O": {
+      "object": "Obstacle"
+    },
+    "P": {
+      "object": "Paddle"
+    },
+    "Q": {
+      "object": "Quoits Ring"
+    },
+    "R": {
+      "object": "Relay Baton"
+    },
+    "S": {
+      "object": "Soccer Ball"
+    },
+    "T": {
+      "object": "Trampoline"
+    },
+    "U": {
+      "object": "Uniform"
+    },
+    "V": {
+      "object": "Volleyball"
+    },
+    "W": {
+      "object": "Water Bottle"
+    },
+    "X": {
+      "object": "Xylophone"
+    },
+    "Y": {
+      "object": "Yoga Mat"
+    },
+    "Z": {
+      "object": "Zorb Ball"
+    }
+  }
+}

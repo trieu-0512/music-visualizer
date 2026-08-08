@@ -1,0 +1,24 @@
+{
+  "songId": "0129",
+  "theme": "Transport World",
+  "macroDomain": "Vehicles & Roads",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "I -> Ice Cream Truck: support-required, verify-pronunciation",
+    "O -> Off-road Car: verify-pronunciation",
+    "Q -> Quad Bike: guided-theme-fallback-review",
+    "X -> Xpress Bus: guided-theme-fallback-review",
+    "Z -> Zero-emission Bus: guided-theme-fallback-review, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 14,
+    "B": 11,
+    "C": 1
+  },
+  "riskCounts": {
+    "support-required": 1,
+    "verify-pronunciation": 3,
+    "guided-theme-fallback-review": 3
+  }
+}

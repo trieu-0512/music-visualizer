@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Home Rooms & Things",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alarm Clock",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Bed",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Chair",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dresser",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "End Table",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Frame",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glass",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hanger",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Indoor Plant",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jar",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Key",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Laundry Basket",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mirror",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nightlight",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Ottoman",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Picture",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilted Cushion",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Refrigerator",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Soap",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Towel",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrella",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vacuum",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Window",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Shelf",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Cushion",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zen Garden",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

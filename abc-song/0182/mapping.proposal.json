@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0182",
+  "theme": {
+    "name": "Morning & Evening",
+    "semanticFocus": "Morning & Evening",
+    "macroDomain": "Daily Routine",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Alarm Clock"
+    },
+    "B": {
+      "object": "Bed"
+    },
+    "C": {
+      "object": "Comb"
+    },
+    "D": {
+      "object": "Door"
+    },
+    "E": {
+      "object": "Evening Book"
+    },
+    "F": {
+      "object": "Face Towel"
+    },
+    "G": {
+      "object": "Glass"
+    },
+    "H": {
+      "object": "Hairbrush"
+    },
+    "I": {
+      "object": "Ice Water"
+    },
+    "J": {
+      "object": "Juice"
+    },
+    "K": {
+      "object": "Key"
+    },
+    "L": {
+      "object": "Lamp"
+    },
+    "M": {
+      "object": "Milk"
+    },
+    "N": {
+      "object": "Nightlight"
+    },
+    "O": {
+      "object": "Outfit"
+    },
+    "P": {
+      "object": "Plate"
+    },
+    "Q": {
+      "object": "Quiet Book"
+    },
+    "R": {
+      "object": "Robe"
+    },
+    "S": {
+      "object": "Soap"
+    },
+    "T": {
+      "object": "Toothbrush"
+    },
+    "U": {
+      "object": "Uniform"
+    },
+    "V": {
+      "object": "Vitamins"
+    },
+    "W": {
+      "object": "Washcloth"
+    },
+    "X": {
+      "object": "X-shaped Timer"
+    },
+    "Y": {
+      "object": "Yawn"
+    },
+    "Z": {
+      "object": "Zip Pajamas"
+    }
+  }
+}

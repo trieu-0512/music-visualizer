@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Scales & Slime",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Axolotl",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boa",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crocodile",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dart Frog",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Eastern Newt",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Frog",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Garter Snake",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hellbender",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Italian Newt",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jackson Chameleon",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Komodo Dragon",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Leopard Gecko",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mudpuppy",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Newt",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Ornate Box Turtle",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "P": {
+      "object": "Python",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queen Snake",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Red-eyed Tree Frog",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "S": {
+      "object": "Salamander",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Turtle",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uromastyx",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Viper",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wood Frog",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xenosaurus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Anaconda",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zebra Skink",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

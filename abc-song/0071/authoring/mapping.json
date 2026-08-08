@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Pet Care",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Angelfish",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bowl",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cat",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Doghouse",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Exercise Wheel",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fish",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grooming Brush",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hamster",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iguana",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jingle Ball",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kibble",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Leash",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Meal Bowl",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nail Clipper",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Octopus Toy",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Puppy",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt Bed",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rabbit",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scratching Post",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Turtle",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "UV Lamp",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vest Harness",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Water Bowl",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xylophone Toy",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Canary",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zip Carrier",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

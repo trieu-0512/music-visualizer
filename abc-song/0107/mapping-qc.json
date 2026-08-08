@@ -1,0 +1,22 @@
+{
+  "songId": "0107",
+  "theme": "Colors & Crafts",
+  "macroDomain": "Art & Crafts",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quilt Square: guided-theme-fallback-review",
+    "S -> Scissors: safety-context-only",
+    "X -> X-shaped Sticker: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zipper Craft: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 15,
+    "B": 11
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "safety-context-only": 1,
+    "verify-pronunciation": 1
+  }
+}

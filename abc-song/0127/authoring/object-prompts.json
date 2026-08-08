@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Cars Trucks & Machines",
+  "globalStyle": "bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Ambulance",
+      "prompt": "Preschool source-composite extraction image for letter A and Ambulance. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase A on the left and exactly one clear Ambulance on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Bus",
+      "prompt": "Preschool source-composite extraction image for letter B and Bus. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase B on the left and exactly one clear Bus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Car",
+      "prompt": "Preschool source-composite extraction image for letter C and Car. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase C on the left and exactly one clear Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Delivery Van",
+      "prompt": "Preschool source-composite extraction image for letter D and Delivery Van. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase D on the left and exactly one clear Delivery Van on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Electric Car",
+      "prompt": "Preschool source-composite extraction image for letter E and Electric Car. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase E on the left and exactly one clear Electric Car on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Forklift",
+      "prompt": "Preschool source-composite extraction image for letter F and Forklift. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase F on the left and exactly one clear Forklift on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Garbage Truck",
+      "prompt": "Preschool source-composite extraction image for letter G and Garbage Truck. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase G on the left and exactly one clear Garbage Truck on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Helicopter",
+      "prompt": "Preschool source-composite extraction image for letter H and Helicopter. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase H on the left and exactly one clear Helicopter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Intercity Bus",
+      "prompt": "Preschool source-composite extraction image for letter I and Intercity Bus. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase I on the left and exactly one clear Intercity Bus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jet",
+      "prompt": "Preschool source-composite extraction image for letter J and Jet. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase J on the left and exactly one clear Jet on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Kayak",
+      "prompt": "Preschool source-composite extraction image for letter K and Kayak. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase K on the left and exactly one clear Kayak on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Loader",
+      "prompt": "Preschool source-composite extraction image for letter L and Loader. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase L on the left and exactly one clear Loader on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Motorcycle",
+      "prompt": "Preschool source-composite extraction image for letter M and Motorcycle. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase M on the left and exactly one clear Motorcycle on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Night Bus",
+      "prompt": "Preschool source-composite extraction image for letter N and Night Bus. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase N on the left and exactly one clear Night Bus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Oil Tanker",
+      "prompt": "Preschool source-composite extraction image for letter O and Oil Tanker. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase O on the left and exactly one clear Oil Tanker on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Pickup",
+      "prompt": "Preschool source-composite extraction image for letter P and Pickup. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase P on the left and exactly one clear Pickup on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quadcopter",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quadcopter. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase Q on the left and exactly one clear Quadcopter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Road Roller",
+      "prompt": "Preschool source-composite extraction image for letter R and Road Roller. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase R on the left and exactly one clear Road Roller on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Scooter",
+      "prompt": "Preschool source-composite extraction image for letter S and Scooter. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase S on the left and exactly one clear Scooter on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Train",
+      "prompt": "Preschool source-composite extraction image for letter T and Train. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase T on the left and exactly one clear Train on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Utility Truck",
+      "prompt": "Preschool source-composite extraction image for letter U and Utility Truck. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase U on the left and exactly one clear Utility Truck on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Van",
+      "prompt": "Preschool source-composite extraction image for letter V and Van. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase V on the left and exactly one clear Van on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Wagon",
+      "prompt": "Preschool source-composite extraction image for letter W and Wagon. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase W on the left and exactly one clear Wagon on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xpress Bus",
+      "prompt": "Preschool source-composite extraction image for letter X and Xpress Bus. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase X on the left and exactly one clear Xpress Bus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yard Tractor",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yard Tractor. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase Y on the left and exactly one clear Yard Tractor on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zero-emission Bus",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zero-emission Bus. bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat. Show one large stylized uppercase Z on the left and exactly one clear Zero-emission Bus on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

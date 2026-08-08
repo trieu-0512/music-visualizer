@@ -1,0 +1,62 @@
+{
+  "songId": "0005",
+  "title": "Coast Explorer ABC",
+  "theme": "Coast Explorer",
+  "mappingRevision": 1,
+  "tempoBpm": 94,
+  "motifFamily": "coast-clap",
+  "hook": [
+    "Explorer eyes—A-B-C!",
+    "Spot the coast and call with me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "short one-beat retrieval gap",
+  "visualStyle": "colorful explorer-storybook 3D coast art, friendly field-guide feel, beach palette, bold clean foreground separation",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "field-guide movement pickup",
+    "targetEntryFamilies": [
+      "action-first",
+      "direct",
+      "question-answer",
+      "narrative",
+      "repeated-letter"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "short",
+      "long"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired",
+    "pointOfView": "curious coast explorer using eyes, hands and pretend binoculars",
+    "chorusFunction": "explorer badge hook with clap-ready paired cadence",
+    "grooveMeter": "bouncy 4/4 explorer pop",
+    "round1Grammar": "spot/look/scan cues alternate with direct and story lines; semantic clue is always object-specific",
+    "round2Grammar": "brief recall gap followed by gesture or pretend-binocular action without generic point-and-say repetition",
+    "sectionContrast": "Round 1 claves and guitar; chorus adds claps; Round 2 uses muted guitar plus sparse marimba clues",
+    "signatureColor": "two-clave explorer tick before section turns",
+    "chorusAfterRound1": [
+      2,
+      5
+    ],
+    "chorusAfterRound2": [
+      3,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 26,
+    "usedRound1": 13,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

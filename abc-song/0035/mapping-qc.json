@@ -1,0 +1,21 @@
+{
+  "songId": "0035",
+  "theme": "Oasis & Wildlife",
+  "macroDomain": "Desert",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> Xerus: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Ziziphus Shrub: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 20,
+    "B": 5,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

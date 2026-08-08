@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "City Places",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Ambulance",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bakery",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crosswalk",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Department Store",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Exit Sign",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fountain",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Grocery Store",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hospital",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Intersection",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Juice Shop",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kiosk",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Laundromat",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mailbox",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Neighborhood",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Overpass",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Park",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Queue",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Road",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "School",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Taxi",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underground Train",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Van",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Water Fountain",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-crossing",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Studio",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zone Sign",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

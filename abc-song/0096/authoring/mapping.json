@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Bakery Treats",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Angel Cake",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Brownie",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cupcake",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Danish",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eclair",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Frosting",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glaze",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Honey Bun",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Icing",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jelly Donut",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kolache",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Loaf",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Macaron",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Napoleon Pastry",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Oat Cookie",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Pretzel",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiche",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Roll",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scone",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tart",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ube Roll",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Victoria Sponge",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Waffle",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xmas Cookie",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yule Log",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zucchini Bread",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

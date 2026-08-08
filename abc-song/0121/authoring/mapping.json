@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Sports & Games",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Athlete",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bicycle",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cone",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Diving Board",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Exercise Mat",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Football",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goggles",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hoop",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inline Skates",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jersey",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kayak",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lacrosse Stick",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mat",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Number Bib",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Oar",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Paddle",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quad Skates",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Racket",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Soccer Ball",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Tennis Ball",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Unicycle",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vault",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Whistle",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Agility Marker",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Jersey",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Cone",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

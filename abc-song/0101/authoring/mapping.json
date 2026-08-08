@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Classroom Supplies",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Art Paper",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Backpack",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Crayon",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dictionary",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eraser",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Folder",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Globe",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Highlighter",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Ink",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jigsaw Map",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "K": {
+      "object": "Knowledge Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "L": {
+      "object": "Lunchbox",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Map",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Number Chart",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Organizer",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pencil",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Question Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Ruler",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scissors",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "T": {
+      "object": "Tape",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "USB Drive",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Violin Case",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Whiteboard",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Pencil",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zero Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

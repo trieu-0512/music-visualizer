@@ -1,0 +1,19 @@
+{
+  "songId": "0041",
+  "theme": "Mountain Animals",
+  "macroDomain": "Mountains",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Kettle Lake: safety-context-only",
+    "Z -> Zigzag Trail: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 21,
+    "B": 5
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 1
+  }
+}

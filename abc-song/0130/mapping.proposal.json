@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0130",
+  "theme": {
+    "name": "Moving Machines",
+    "semanticFocus": "Moving Machines",
+    "macroDomain": "Vehicles & Roads",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Ambulance"
+    },
+    "B": {
+      "object": "Bulldozer"
+    },
+    "C": {
+      "object": "Cement Mixer"
+    },
+    "D": {
+      "object": "Dump Truck"
+    },
+    "E": {
+      "object": "Excavator"
+    },
+    "F": {
+      "object": "Fire Engine"
+    },
+    "G": {
+      "object": "Garbage Truck"
+    },
+    "H": {
+      "object": "Helicopter"
+    },
+    "I": {
+      "object": "Ice Cream Truck"
+    },
+    "J": {
+      "object": "Jeep"
+    },
+    "K": {
+      "object": "Kart"
+    },
+    "L": {
+      "object": "Loader"
+    },
+    "M": {
+      "object": "Motorcycle"
+    },
+    "N": {
+      "object": "Narrowboat"
+    },
+    "O": {
+      "object": "Oil Tanker"
+    },
+    "P": {
+      "object": "Pickup"
+    },
+    "Q": {
+      "object": "Quad Bike"
+    },
+    "R": {
+      "object": "Road Roller"
+    },
+    "S": {
+      "object": "Snowplow"
+    },
+    "T": {
+      "object": "Train"
+    },
+    "U": {
+      "object": "Underground Train"
+    },
+    "V": {
+      "object": "Van"
+    },
+    "W": {
+      "object": "Wrecker"
+    },
+    "X": {
+      "object": "X-ray Van"
+    },
+    "Y": {
+      "object": "Yard Tractor"
+    },
+    "Z": {
+      "object": "Zero-emission Bus"
+    }
+  }
+}

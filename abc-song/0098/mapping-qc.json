@@ -1,0 +1,24 @@
+{
+  "songId": "0098",
+  "theme": "Cakes & Cookies",
+  "macroDomain": "Bakery & Desserts",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "H -> Hot Cross Bun: support-required, verify-pronunciation",
+    "Q -> Queen Cake: guided-theme-fallback-review",
+    "U -> Upside-down Cake: verify-pronunciation",
+    "X -> X-shaped Pretzel: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zebra Cake: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 14,
+    "A": 11,
+    "C": 1
+  },
+  "riskCounts": {
+    "support-required": 1,
+    "verify-pronunciation": 3,
+    "guided-theme-fallback-review": 3
+  }
+}

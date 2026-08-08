@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Family Day",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alarm Clock",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Bath",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cup",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dinner",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eggs",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fork",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Glass",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hairbrush",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Indoor Shoes",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jacket",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kettle",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Lamp",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Milk",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Napkin",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Outfit",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Plate",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Robe",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Slippers",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toothbrush",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utensils",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vitamins",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Water Bottle",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yawn",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zip Pajamas",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

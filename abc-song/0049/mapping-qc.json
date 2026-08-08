@@ -1,0 +1,26 @@
+{
+  "songId": "0049",
+  "theme": "Wind Rain & Snow",
+  "macroDomain": "Weather & Sky",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "A -> Anemometer: support-required, verify-pronunciation",
+    "E -> Eye of Storm: support-required, verify-pronunciation",
+    "G -> Gust: visual-clarity-review",
+    "H -> Humidity Meter: visual-clarity-review",
+    "X -> X-band Radar: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zephyr: visual-clarity-review"
+  ],
+  "tierCounts": {
+    "C": 2,
+    "A": 18,
+    "B": 6
+  },
+  "riskCounts": {
+    "support-required": 2,
+    "verify-pronunciation": 3,
+    "visual-clarity-review": 3,
+    "guided-theme-fallback-review": 1
+  }
+}

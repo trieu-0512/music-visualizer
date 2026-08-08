@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0088",
+  "theme": {
+    "name": "Meals & Snacks",
+    "semanticFocus": "Meals & Snacks",
+    "macroDomain": "Food & Kitchen",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple"
+    },
+    "B": {
+      "object": "Bowl"
+    },
+    "C": {
+      "object": "Cutting Board"
+    },
+    "D": {
+      "object": "Dish"
+    },
+    "E": {
+      "object": "Egg"
+    },
+    "F": {
+      "object": "Fork"
+    },
+    "G": {
+      "object": "Grapes"
+    },
+    "H": {
+      "object": "Hot Pot"
+    },
+    "I": {
+      "object": "Ice Cream"
+    },
+    "J": {
+      "object": "Jar"
+    },
+    "K": {
+      "object": "Knife"
+    },
+    "L": {
+      "object": "Lemon"
+    },
+    "M": {
+      "object": "Muffin"
+    },
+    "N": {
+      "object": "Noodles"
+    },
+    "O": {
+      "object": "Orange"
+    },
+    "P": {
+      "object": "Pan"
+    },
+    "Q": {
+      "object": "Quiche"
+    },
+    "R": {
+      "object": "Rolling Pin"
+    },
+    "S": {
+      "object": "Spoon"
+    },
+    "T": {
+      "object": "Tongs"
+    },
+    "U": {
+      "object": "Utensil"
+    },
+    "V": {
+      "object": "Vanilla"
+    },
+    "W": {
+      "object": "Whisk"
+    },
+    "X": {
+      "object": "X-shaped Cookie Cutter"
+    },
+    "Y": {
+      "object": "Yogurt"
+    },
+    "Z": {
+      "object": "Zucchini"
+    }
+  }
+}

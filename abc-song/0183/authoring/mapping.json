@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Home Routines",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bed",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cup",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dinner",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eggs",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fork",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Getting-dressed Chart",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "H": {
+      "object": "Hand Soap",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Ice Water",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Juice",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kettle",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Lamp",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Morning Chart",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Napkin",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Outfit",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pajamas",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Robe",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Soap",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Towel",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vitamins",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Water Bottle",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-shaped Timer",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yogurt",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zipper",
+      "familiarityTier": "A"
+    }
+  }
+}

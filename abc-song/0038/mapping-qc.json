@@ -1,0 +1,21 @@
+{
+  "songId": "0038",
+  "theme": "Frozen Ocean",
+  "macroDomain": "Arctic & Polar",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Qajaq: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "X -> X-ray Fish: guided-theme-fallback-review, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 19,
+    "B": 6,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 2
+  }
+}

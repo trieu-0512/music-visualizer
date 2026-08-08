@@ -1,0 +1,22 @@
+{
+  "songId": "0168",
+  "theme": "Shoes Hats & Coats",
+  "macroDomain": "Clothes & Getting Ready",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "F -> Flip-flops: verify-pronunciation",
+    "L -> Lace-up Shoes: verify-pronunciation",
+    "Q -> Quilted Jacket: guided-theme-fallback-review",
+    "X -> Xmas Sweater: guided-theme-fallback-review",
+    "Z -> Zipper Jacket: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 18,
+    "B": 8
+  },
+  "riskCounts": {
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 3
+  }
+}

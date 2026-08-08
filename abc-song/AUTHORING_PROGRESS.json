@@ -1,0 +1,114 @@
+{
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
+  "batchSize": 10,
+  "totalSongs": 200,
+  "totalBatches": 20,
+  "completedBatches": 5,
+  "completedSongs": 50,
+  "staleBatches": 15,
+  "legacyPassedBatches": 15,
+  "authoredPackagesExistForSongs": 200,
+  "batches": [
+    {
+      "start": "0001",
+      "end": "0010",
+      "status": "PASS"
+    },
+    {
+      "start": "0011",
+      "end": "0020",
+      "status": "PASS_WITH_REVIEW"
+    },
+    {
+      "start": "0021",
+      "end": "0030",
+      "status": "PASS_WITH_REVIEW"
+    },
+    {
+      "start": "0031",
+      "end": "0040",
+      "status": "PASS_WITH_REVIEW"
+    },
+    {
+      "start": "0041",
+      "end": "0050",
+      "status": "PASS_WITH_REVIEW"
+    },
+    {
+      "start": "0051",
+      "end": "0060",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0061",
+      "end": "0070",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0071",
+      "end": "0080",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0081",
+      "end": "0090",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0091",
+      "end": "0100",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0101",
+      "end": "0110",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0111",
+      "end": "0120",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0121",
+      "end": "0130",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0131",
+      "end": "0140",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0141",
+      "end": "0150",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0151",
+      "end": "0160",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0161",
+      "end": "0170",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0171",
+      "end": "0180",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0181",
+      "end": "0190",
+      "status": "STALE_CREATIVE_V3"
+    },
+    {
+      "start": "0191",
+      "end": "0200",
+      "status": "STALE_CREATIVE_V3"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Around Town",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apartment",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bus Stop",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Crosswalk",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Department Store",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Elevator",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fire Station",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Garage",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hospital",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Information Sign",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Junction",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kindergarten",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Library",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Market",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Neighborhood",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Office",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Police Car",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Queue",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Restaurant",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "School",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Taxi",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "University",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vet Clinic",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Water Fountain",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-ray Clinic",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Studio",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zone Sign",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

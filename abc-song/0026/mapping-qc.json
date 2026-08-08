@@ -1,0 +1,22 @@
+{
+  "songId": "0026",
+  "theme": "Rainforest Animals",
+  "macroDomain": "Jungle & Rainforest",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Queen Butterfly: guided-theme-fallback-review",
+    "U -> Uakari: support-required, verify-pronunciation",
+    "Z -> Zingiber Plant: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 19,
+    "B": 6,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

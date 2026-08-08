@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "People Who Help",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Architect",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Baker",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Courier",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Doctor",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Electrician",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Firefighter",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Garbage Collector",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Helper",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Interpreter",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Janitor",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kitchen Worker",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lifeguard",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mechanic",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nurse",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Officer",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Police Officer",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quartermaster",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Receptionist",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Scientist",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Taxi Driver",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Umpire",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Veterinarian",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Welder",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone Teacher",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Teacher",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zookeeper",
+      "familiarityTier": "A"
+    }
+  }
+}

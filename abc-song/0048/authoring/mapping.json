@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Weather Gear",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Altocumulus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "B": {
+      "object": "Boots",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Coat",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drizzle",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Earmuffs",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fog",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gust",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "H": {
+      "object": "Humidity Meter",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "I": {
+      "object": "Icicle",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jacket",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kelvin Thermometer",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Low Cloud",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mist",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nimbus Cloud",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Overcast Sky",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Puddle",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rainbow",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Snowflake",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Thunder",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrella",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vane",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wind",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-band Radar",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Rain Boots",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zipper Jacket",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

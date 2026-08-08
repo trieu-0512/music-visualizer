@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Wetland Nature",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Alligator",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Beaver",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Canoe",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Duck",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egret",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fishing Rod",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Green Algae",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hydrilla",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "I": {
+      "object": "Iris",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "June Bug",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kingfisher",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lily Pad",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Minnow",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Newt",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Otter",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Pond",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quail",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Reed",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Swan",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tadpole",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrella Sedge",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vallisneria",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "W": {
+      "object": "Waterfall",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xiphophorus",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Water Lily",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zooplankton",
+      "familiarityTier": "A"
+    }
+  }
+}

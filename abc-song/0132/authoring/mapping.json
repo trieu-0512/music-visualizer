@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Railway World",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Arrival Board",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Boxcar",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Caboose",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dining Car",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Engine",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Footbridge",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goods Wagon",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "High-speed Train",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "I": {
+      "object": "Information Board",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Junction",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kiosk",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Level Crossing",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Metro",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Number Sign",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Observation Car",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Passenger Car",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Queue Barrier",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Railway Signal",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Subway",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Ticket",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Underground Train",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Viaduct",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wagon",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-crossing Sign",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Signal",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zone Map",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

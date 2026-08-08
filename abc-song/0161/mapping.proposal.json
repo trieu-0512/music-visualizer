@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0161",
+  "theme": {
+    "name": "Around the House",
+    "semanticFocus": "Around the House",
+    "macroDomain": "Home & Rooms",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Armchair"
+    },
+    "B": {
+      "object": "Blanket"
+    },
+    "C": {
+      "object": "Chair"
+    },
+    "D": {
+      "object": "Dresser"
+    },
+    "E": {
+      "object": "Envelope"
+    },
+    "F": {
+      "object": "Fan"
+    },
+    "G": {
+      "object": "Garage"
+    },
+    "H": {
+      "object": "Hanger"
+    },
+    "I": {
+      "object": "Iron"
+    },
+    "J": {
+      "object": "Jug"
+    },
+    "K": {
+      "object": "Kettle"
+    },
+    "L": {
+      "object": "Lamp"
+    },
+    "M": {
+      "object": "Mattress"
+    },
+    "N": {
+      "object": "Nightlight"
+    },
+    "O": {
+      "object": "Oven"
+    },
+    "P": {
+      "object": "Pillow"
+    },
+    "Q": {
+      "object": "Quilted Cushion"
+    },
+    "R": {
+      "object": "Rug"
+    },
+    "S": {
+      "object": "Soap"
+    },
+    "T": {
+      "object": "Towel"
+    },
+    "U": {
+      "object": "Utensil Drawer"
+    },
+    "V": {
+      "object": "Vase"
+    },
+    "W": {
+      "object": "Window"
+    },
+    "X": {
+      "object": "Xylophone"
+    },
+    "Y": {
+      "object": "Yellow Cushion"
+    },
+    "Z": {
+      "object": "Zen Garden"
+    }
+  }
+}

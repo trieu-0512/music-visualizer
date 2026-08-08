@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0131",
+  "theme": {
+    "name": "Train Station",
+    "semanticFocus": "Train Station",
+    "macroDomain": "Trains & Stations",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Automatic Gate"
+    },
+    "B": {
+      "object": "Brake"
+    },
+    "C": {
+      "object": "Caboose"
+    },
+    "D": {
+      "object": "Dining Car"
+    },
+    "E": {
+      "object": "Electric Train"
+    },
+    "F": {
+      "object": "Freight Car"
+    },
+    "G": {
+      "object": "Gate"
+    },
+    "H": {
+      "object": "High-speed Train"
+    },
+    "I": {
+      "object": "Intercity Train"
+    },
+    "J": {
+      "object": "Junction Box"
+    },
+    "K": {
+      "object": "Key Switch"
+    },
+    "L": {
+      "object": "Locomotive"
+    },
+    "M": {
+      "object": "Monorail"
+    },
+    "N": {
+      "object": "Number Sign"
+    },
+    "O": {
+      "object": "Overpass"
+    },
+    "P": {
+      "object": "Platform"
+    },
+    "Q": {
+      "object": "Queue Barrier"
+    },
+    "R": {
+      "object": "Rail"
+    },
+    "S": {
+      "object": "Subway"
+    },
+    "T": {
+      "object": "Ticket"
+    },
+    "U": {
+      "object": "Utility Car"
+    },
+    "V": {
+      "object": "Vestibule"
+    },
+    "W": {
+      "object": "Wagon"
+    },
+    "X": {
+      "object": "Xpress Train"
+    },
+    "Y": {
+      "object": "Yellow Signal"
+    },
+    "Z": {
+      "object": "Zone Map"
+    }
+  }
+}

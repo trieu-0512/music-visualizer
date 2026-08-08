@@ -1,0 +1,26 @@
+{
+  "songId": "0048",
+  "theme": "Weather Gear",
+  "macroDomain": "Weather & Sky",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "A -> Altocumulus: support-required, verify-pronunciation",
+    "G -> Gust: visual-clarity-review",
+    "H -> Humidity Meter: visual-clarity-review",
+    "X -> X-band Radar: guided-theme-fallback-review, verify-pronunciation",
+    "Y -> Yellow Rain Boots: support-required, verify-pronunciation",
+    "Z -> Zipper Jacket: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "C": 2,
+    "A": 17,
+    "B": 7
+  },
+  "riskCounts": {
+    "support-required": 2,
+    "verify-pronunciation": 3,
+    "visual-clarity-review": 2,
+    "guided-theme-fallback-review": 2
+  }
+}

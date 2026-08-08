@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Move & Play",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Archery Target",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Ball",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cone",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Diving Board",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Equipment Bag",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Frisbee",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Goal",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hoop",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inflatable Pool",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jump Rope",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kickboard",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lane Marker",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Medal",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Number Bib",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Obstacle",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Puck",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quad Skates",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Relay Baton",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Soccer Ball",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Tennis Ball",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Uniform",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Volleyball",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Whistle",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Jersey",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Cone",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

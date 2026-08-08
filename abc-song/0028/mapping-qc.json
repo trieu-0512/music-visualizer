@@ -1,0 +1,21 @@
+{
+  "songId": "0028",
+  "theme": "Jungle Plants & Creatures",
+  "macroDomain": "Jungle & Rainforest",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> Xenops: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zebra Longwing: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 19,
+    "B": 6,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

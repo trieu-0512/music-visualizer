@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Feelings Toolbox",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Angry Face",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Bashful Bunny",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Caring Card",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Delight Star",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "E": {
+      "object": "Excited Eyes",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Friendship Bracelet",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "G": {
+      "object": "Gratitude Jar",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "H": {
+      "object": "Happy Face",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Inside Voice",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "J": {
+      "object": "Jealous Face",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kind Hands",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lonely Face",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mood Meter",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Nervous Face",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Okay Sign",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Patience Timer",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "Q": {
+      "object": "Quiet Corner",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Respect Badge",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "S": {
+      "object": "Smile",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Thank-you Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "U": {
+      "object": "Understanding Heart",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Valued Badge",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Warm Hug Card",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "X": {
+      "object": "XOXO Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Card",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Breath Card",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0100",
+  "theme": {
+    "name": "Baking Day",
+    "semanticFocus": "Baking Day",
+    "macroDomain": "Bakery & Desserts",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Apple Pie"
+    },
+    "B": {
+      "object": "Brownie"
+    },
+    "C": {
+      "object": "Cookie"
+    },
+    "D": {
+      "object": "Donut"
+    },
+    "E": {
+      "object": "Eclair"
+    },
+    "F": {
+      "object": "Frosting"
+    },
+    "G": {
+      "object": "Gingerbread"
+    },
+    "H": {
+      "object": "Honey Bun"
+    },
+    "I": {
+      "object": "Icing"
+    },
+    "J": {
+      "object": "Jelly Donut"
+    },
+    "K": {
+      "object": "Kolache"
+    },
+    "L": {
+      "object": "Lemon Tart"
+    },
+    "M": {
+      "object": "Muffin"
+    },
+    "N": {
+      "object": "Nut Bread"
+    },
+    "O": {
+      "object": "Orange Cake"
+    },
+    "P": {
+      "object": "Pie"
+    },
+    "Q": {
+      "object": "Queen Cake"
+    },
+    "R": {
+      "object": "Raisin Bread"
+    },
+    "S": {
+      "object": "Sprinkles"
+    },
+    "T": {
+      "object": "Tart"
+    },
+    "U": {
+      "object": "Ube Roll"
+    },
+    "V": {
+      "object": "Vanilla Cake"
+    },
+    "W": {
+      "object": "Wholegrain Bread"
+    },
+    "X": {
+      "object": "Xmas Cookie"
+    },
+    "Y": {
+      "object": "Yule Log"
+    },
+    "Z": {
+      "object": "Zucchini Bread"
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Clothes for Weather",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Belt",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cap",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dress",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Earmuffs",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flip-flops",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "G": {
+      "object": "Gloves",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hat",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Indoor Shoes",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jeans",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knit Cap",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lace-up Shoes",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "M": {
+      "object": "Mittens",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nightgown",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Overall",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Poncho",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilted Jacket",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Running Shoes",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Scarf",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "T-shirt",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "U": {
+      "object": "Ugg Boots",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vest",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wellies",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Suspenders",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Pants",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zori Sandals",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

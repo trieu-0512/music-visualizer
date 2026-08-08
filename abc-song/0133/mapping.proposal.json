@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0133",
+  "theme": {
+    "name": "Trains & Tracks",
+    "semanticFocus": "Trains & Tracks",
+    "macroDomain": "Trains & Stations",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Automatic Gate"
+    },
+    "B": {
+      "object": "Boxcar"
+    },
+    "C": {
+      "object": "Coach"
+    },
+    "D": {
+      "object": "Diesel Engine"
+    },
+    "E": {
+      "object": "Electric Train"
+    },
+    "F": {
+      "object": "Freight Car"
+    },
+    "G": {
+      "object": "Gate"
+    },
+    "H": {
+      "object": "Hopper Car"
+    },
+    "I": {
+      "object": "Information Board"
+    },
+    "J": {
+      "object": "Junction"
+    },
+    "K": {
+      "object": "Key Switch"
+    },
+    "L": {
+      "object": "Level Crossing"
+    },
+    "M": {
+      "object": "Monorail"
+    },
+    "N": {
+      "object": "Night Train"
+    },
+    "O": {
+      "object": "Observation Car"
+    },
+    "P": {
+      "object": "Platform"
+    },
+    "Q": {
+      "object": "Quiet Car"
+    },
+    "R": {
+      "object": "Railway Signal"
+    },
+    "S": {
+      "object": "Subway"
+    },
+    "T": {
+      "object": "Train"
+    },
+    "U": {
+      "object": "Underground Train"
+    },
+    "V": {
+      "object": "Viaduct"
+    },
+    "W": {
+      "object": "Waiting Room"
+    },
+    "X": {
+      "object": "X-crossing Sign"
+    },
+    "Y": {
+      "object": "Yard Engine"
+    },
+    "Z": {
+      "object": "Zigzag Track"
+    }
+  }
+}

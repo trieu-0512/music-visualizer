@@ -1,0 +1,24 @@
+{
+  "songId": "0009",
+  "theme": "Wetland Nature",
+  "macroDomain": "Freshwater",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "H -> Hydrilla: safety-context-only",
+    "V -> Vallisneria: support-required, verify-pronunciation",
+    "X -> Xiphophorus: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Y -> Yellow Water Lily: support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 18,
+    "B": 5,
+    "C": 3
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "support-required": 3,
+    "verify-pronunciation": 3,
+    "guided-theme-fallback-review": 1
+  }
+}

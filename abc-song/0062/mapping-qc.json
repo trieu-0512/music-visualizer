@@ -1,0 +1,19 @@
+{
+  "songId": "0062",
+  "theme": "Butterflies & Beetles",
+  "macroDomain": "Insects & Bugs",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Queen Butterfly: guided-theme-fallback-review",
+    "X -> Xylocopa Bee: guided-theme-fallback-review",
+    "Z -> Zebra Longwing: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 13,
+    "B": 13
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0145",
+  "theme": {
+    "name": "Boat Day",
+    "semanticFocus": "Boat Day",
+    "macroDomain": "Boats & Harbor",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Anchor"
+    },
+    "B": {
+      "object": "Barge"
+    },
+    "C": {
+      "object": "Catamaran"
+    },
+    "D": {
+      "object": "Dock"
+    },
+    "E": {
+      "object": "Engine"
+    },
+    "F": {
+      "object": "Ferry"
+    },
+    "G": {
+      "object": "Gangway"
+    },
+    "H": {
+      "object": "Harbor"
+    },
+    "I": {
+      "object": "Inflatable Boat"
+    },
+    "J": {
+      "object": "Jolly Boat"
+    },
+    "K": {
+      "object": "Keel"
+    },
+    "L": {
+      "object": "Lighthouse"
+    },
+    "M": {
+      "object": "Marina"
+    },
+    "N": {
+      "object": "Navigation Light"
+    },
+    "O": {
+      "object": "Ocean Liner"
+    },
+    "P": {
+      "object": "Pier"
+    },
+    "Q": {
+      "object": "Quarterdeck"
+    },
+    "R": {
+      "object": "Rescue Boat"
+    },
+    "S": {
+      "object": "Submarine"
+    },
+    "T": {
+      "object": "Tugboat"
+    },
+    "U": {
+      "object": "Utility Boat"
+    },
+    "V": {
+      "object": "Vessel"
+    },
+    "W": {
+      "object": "Water Taxi"
+    },
+    "X": {
+      "object": "Xebec"
+    },
+    "Y": {
+      "object": "Yawl"
+    },
+    "Z": {
+      "object": "Zephyr Sail"
+    }
+  }
+}

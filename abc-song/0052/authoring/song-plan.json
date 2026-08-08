@@ -1,0 +1,16 @@
+{
+  "songId": "0052",
+  "title": "Planet Parade A-Z",
+  "theme": "Planets & Stars",
+  "mappingRevision": 1,
+  "tempoBpm": 86,
+  "motifFamily": "orbit-circle",
+  "hook": [
+    "Round the planets, A-B-C!",
+    "Stars and worlds spin happily!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "soft two-beat retrieval window",
+  "visualStyle": "colorful 3D preschool planets-and-stars storybook, rounded planets, soft nebula accents, high-contrast foreground objects",
+  "status": "READY_FOR_L0_VALIDATION"
+}

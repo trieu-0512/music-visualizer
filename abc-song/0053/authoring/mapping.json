@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Rockets & Astronauts",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Asteroid",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Booster",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Capsule",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dish Antenna",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Earth",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Flag",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gemini Capsule",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hubble Telescope",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Io",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jupiter",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Krypton Tank",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "L": {
+      "object": "Lunar Rover",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Meteor",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nebula",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Observatory",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Planet",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quasar",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "R": {
+      "object": "Rover",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Satellite",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Thruster",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Universe",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "V": {
+      "object": "Venus",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "White Dwarf",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xenon Thruster",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Star",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zodiac Chart",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

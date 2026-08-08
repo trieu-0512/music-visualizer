@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Wind Rain & Snow",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anemometer",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "B": {
+      "object": "Boots",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Coat",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drizzle",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Eye of Storm",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "F": {
+      "object": "Frost",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gust",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "H": {
+      "object": "Humidity Meter",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "I": {
+      "object": "Ice",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jet Stream",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kelvin Thermometer",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Lightning",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mittens",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nimbus Cloud",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Overcoat",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Puddle",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Raincoat",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sun",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Thunder",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Umbrella",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vapor",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Windsock",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-band Radar",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Sun",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zephyr",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

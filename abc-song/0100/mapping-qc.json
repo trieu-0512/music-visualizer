@@ -1,0 +1,19 @@
+{
+  "songId": "0100",
+  "theme": "Baking Day",
+  "macroDomain": "Bakery & Desserts",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Queen Cake: guided-theme-fallback-review",
+    "X -> Xmas Cookie: guided-theme-fallback-review",
+    "Z -> Zucchini Bread: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 14,
+    "A": 12
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3
+  }
+}

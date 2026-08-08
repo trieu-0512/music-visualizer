@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0192",
+  "theme": {
+    "name": "Lab & Machines",
+    "semanticFocus": "Lab & Machines",
+    "macroDomain": "Robots & Science",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Atom Model"
+    },
+    "B": {
+      "object": "Beaker"
+    },
+    "C": {
+      "object": "Circuit"
+    },
+    "D": {
+      "object": "Dynamo"
+    },
+    "E": {
+      "object": "Electromagnet"
+    },
+    "F": {
+      "object": "Fuse"
+    },
+    "G": {
+      "object": "Gear"
+    },
+    "H": {
+      "object": "Headset"
+    },
+    "I": {
+      "object": "Insulator"
+    },
+    "J": {
+      "object": "Jumper Wire"
+    },
+    "K": {
+      "object": "Keyboard"
+    },
+    "L": {
+      "object": "Lab Coat"
+    },
+    "M": {
+      "object": "Microscope"
+    },
+    "N": {
+      "object": "Notebook"
+    },
+    "O": {
+      "object": "Optical Sensor"
+    },
+    "P": {
+      "object": "Processor"
+    },
+    "Q": {
+      "object": "Quantum Model"
+    },
+    "R": {
+      "object": "Resistor"
+    },
+    "S": {
+      "object": "Sensor"
+    },
+    "T": {
+      "object": "Test Tube"
+    },
+    "U": {
+      "object": "USB Cable"
+    },
+    "V": {
+      "object": "Voltmeter"
+    },
+    "W": {
+      "object": "Wheel"
+    },
+    "X": {
+      "object": "X-axis Plotter"
+    },
+    "Y": {
+      "object": "Yoke Robot"
+    },
+    "Z": {
+      "object": "Zero-gravity Robot"
+    }
+  }
+}

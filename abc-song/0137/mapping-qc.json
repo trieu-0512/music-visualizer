@@ -1,0 +1,24 @@
+{
+  "songId": "0137",
+  "theme": "Flying Machines",
+  "macroDomain": "Aircraft & Airport",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Queue Lane: guided-theme-fallback-review",
+    "X -> X-ray Scanner: guided-theme-fallback-review, verify-pronunciation",
+    "Y -> Yellow Taxiway Sign: support-required, verify-pronunciation",
+    "Z -> Zero-gravity Plane: guided-theme-fallback-review, verify-pronunciation, visual-clarity-review"
+  ],
+  "tierCounts": {
+    "A": 13,
+    "B": 12,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "verify-pronunciation": 3,
+    "support-required": 1,
+    "visual-clarity-review": 1
+  }
+}

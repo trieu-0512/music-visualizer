@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Lab & Machines",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Atom Model",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Beaker",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Circuit",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Dynamo",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Electromagnet",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fuse",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gear",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Headset",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Insulator",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jumper Wire",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Keyboard",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lab Coat",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Microscope",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Notebook",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Optical Sensor",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Processor",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quantum Model",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "visual-clarity-review"
+      ]
+    },
+    "R": {
+      "object": "Resistor",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sensor",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Test Tube",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "USB Cable",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Voltmeter",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "W": {
+      "object": "Wheel",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-axis Plotter",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoke Robot",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zero-gravity Robot",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation",
+        "visual-clarity-review"
+      ]
+    }
+  }
+}

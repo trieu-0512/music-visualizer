@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Friendship & Kindness",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Angry Face",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Brave Badge",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "Calm Cloud",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Disappointed Face",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Emotion Cards",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Feelings Wheel",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Gratitude Jar",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "H": {
+      "object": "Happy Face",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Interest Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "J": {
+      "object": "Joy Jar",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kindness Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "L": {
+      "object": "Lonely Face",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mood Meter",
+      "familiarityTier": "B"
+    },
+    "N": {
+      "object": "Note of Thanks",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "O": {
+      "object": "Okay Sign",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Patience Timer",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "Q": {
+      "object": "Question Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Respect Badge",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "visual-clarity-review"
+      ]
+    },
+    "S": {
+      "object": "Sharing Box",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Thank-you Card",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "U": {
+      "object": "Upset Face",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Valued Badge",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Worry Box",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xylophone Calm Toy",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Card",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zigzag Breath Card",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

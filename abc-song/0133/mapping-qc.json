@@ -1,0 +1,21 @@
+{
+  "songId": "0133",
+  "theme": "Trains & Tracks",
+  "macroDomain": "Trains & Stations",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quiet Car: guided-theme-fallback-review, visual-clarity-review",
+    "X -> X-crossing Sign: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zigzag Track: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 17,
+    "A": 9
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "visual-clarity-review": 1,
+    "verify-pronunciation": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "songId": "0073",
+  "theme": "Pet Playtime",
+  "macroDomain": "Pets",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> X-ray Vet Image: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zebra Finch: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 12,
+    "B": 13,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "songId": "0059",
+  "theme": "Dinosaur Explorer",
+  "macroDomain": "Dinosaurs & Fossils",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quetzalcoatlus: guided-theme-fallback-review",
+    "W -> Wuerhosaurus: support-required, verify-pronunciation",
+    "X -> Xixiasaurus: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zephyrosaurus: guided-theme-fallback-review, support-required, verify-pronunciation, visual-clarity-review"
+  ],
+  "tierCounts": {
+    "A": 17,
+    "B": 6,
+    "C": 3
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "support-required": 3,
+    "verify-pronunciation": 3,
+    "visual-clarity-review": 1
+  }
+}

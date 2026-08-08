@@ -1,0 +1,31 @@
+{
+  "songId": "0180",
+  "theme": "Feelings Toolbox",
+  "macroDomain": "Feelings & Friendship",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "D -> Delight Star: visual-clarity-review",
+    "F -> Friendship Bracelet: visual-clarity-review",
+    "G -> Gratitude Jar: visual-clarity-review",
+    "I -> Inside Voice: visual-clarity-review",
+    "P -> Patience Timer: visual-clarity-review",
+    "Q -> Quiet Corner: guided-theme-fallback-review, visual-clarity-review",
+    "R -> Respect Badge: visual-clarity-review",
+    "T -> Thank-you Card: verify-pronunciation",
+    "W -> Warm Hug Card: support-required, verify-pronunciation",
+    "X -> XOXO Card: guided-theme-fallback-review",
+    "Z -> Zigzag Breath Card: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "B": 23,
+    "A": 1,
+    "C": 2
+  },
+  "riskCounts": {
+    "visual-clarity-review": 7,
+    "guided-theme-fallback-review": 3,
+    "verify-pronunciation": 3,
+    "support-required": 2
+  }
+}

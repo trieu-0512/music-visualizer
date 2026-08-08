@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Home Pets",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Aquarium",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bunny",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cat",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Doghouse",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Ear Cleaner",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Feather Toy",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Guinea Pig",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hamster",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "ID Tag",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jumping Toy",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kitten",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Litter Box",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Mouse",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nail Clipper",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Outdoor Kennel",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Perch",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt Bed",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rope Toy",
+      "familiarityTier": "B"
+    },
+    "S": {
+      "object": "Scratching Post",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Turtle",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Undercoat Brush",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vet Kit",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Water Bowl",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "X-ray Vet Image",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Canary",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zip Carrier",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

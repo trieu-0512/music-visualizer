@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "range": "0131-0140",
+  "songs": 10,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "uniqueHooks": 10,
+  "uniqueStyles": 10,
+  "maxLyricSimilarity": 0.1455,
+  "mostSimilarPair": [
+    "0138",
+    "0140"
+  ],
+  "songsDetail": [
+    {
+      "songId": "0131",
+      "theme": "Train Station",
+      "targetLines": 52,
+      "lyricWordCount": 587,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0132",
+      "theme": "Railway World",
+      "targetLines": 52,
+      "lyricWordCount": 569,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0133",
+      "theme": "Trains & Tracks",
+      "targetLines": 52,
+      "lyricWordCount": 632,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0134",
+      "theme": "Subway & Rail",
+      "targetLines": 52,
+      "lyricWordCount": 592,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0135",
+      "theme": "Railway Journey",
+      "targetLines": 52,
+      "lyricWordCount": 607,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0136",
+      "theme": "Airport & Airplanes",
+      "targetLines": 52,
+      "lyricWordCount": 596,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0137",
+      "theme": "Flying Machines",
+      "targetLines": 52,
+      "lyricWordCount": 599,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0138",
+      "theme": "Aircraft & Ground Crew",
+      "targetLines": 52,
+      "lyricWordCount": 601,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0139",
+      "theme": "Planes & Helicopters",
+      "targetLines": 52,
+      "lyricWordCount": 572,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0140",
+      "theme": "Flight Day",
+      "targetLines": 52,
+      "lyricWordCount": 597,
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

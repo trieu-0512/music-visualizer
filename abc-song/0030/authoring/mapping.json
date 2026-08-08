@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Canopy & River",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Anaconda",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Boa",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Ceiba Tree",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Dragonfly",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Elephant",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fern",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gorilla",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hornbill",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iguana",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jungle Vine",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kinkajou",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Liana",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Monkey",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nest",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Ocelot",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Palm",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quetzal",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rattan",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Sloth",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Toucan",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Uakari",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "V": {
+      "object": "Vine",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Water Vine",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xylophone",
+      "familiarityTier": "A"
+    },
+    "Y": {
+      "object": "Yellow Anaconda",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zingiber Plant",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

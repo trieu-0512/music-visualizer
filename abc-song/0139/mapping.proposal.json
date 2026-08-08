@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0139",
+  "theme": {
+    "name": "Planes & Helicopters",
+    "semanticFocus": "Planes & Helicopters",
+    "macroDomain": "Aircraft & Airport",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Airplane"
+    },
+    "B": {
+      "object": "Boarding Pass"
+    },
+    "C": {
+      "object": "Cargo Plane"
+    },
+    "D": {
+      "object": "Drone"
+    },
+    "E": {
+      "object": "Elevator Trim"
+    },
+    "F": {
+      "object": "Fuselage"
+    },
+    "G": {
+      "object": "Gate"
+    },
+    "H": {
+      "object": "Hangar"
+    },
+    "I": {
+      "object": "Instrument Panel"
+    },
+    "J": {
+      "object": "Jetway"
+    },
+    "K": {
+      "object": "Kerosene Tank"
+    },
+    "L": {
+      "object": "Landing Gear"
+    },
+    "M": {
+      "object": "Monoplane"
+    },
+    "N": {
+      "object": "Nose Wheel"
+    },
+    "O": {
+      "object": "Oxygen Mask"
+    },
+    "P": {
+      "object": "Propeller"
+    },
+    "Q": {
+      "object": "Quadcopter"
+    },
+    "R": {
+      "object": "Runway"
+    },
+    "S": {
+      "object": "Seaplane"
+    },
+    "T": {
+      "object": "Turboprop"
+    },
+    "U": {
+      "object": "Ultralight"
+    },
+    "V": {
+      "object": "Visor"
+    },
+    "W": {
+      "object": "Wing"
+    },
+    "X": {
+      "object": "X-ray Scanner"
+    },
+    "Y": {
+      "object": "Yellow Taxiway Sign"
+    },
+    "Z": {
+      "object": "Zero-gravity Plane"
+    }
+  }
+}

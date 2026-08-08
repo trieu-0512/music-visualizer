@@ -1,0 +1,25 @@
+{
+  "songId": "0055",
+  "theme": "Space Science",
+  "macroDomain": "Space & Astronomy",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "I -> International Space Station: support-required, verify-pronunciation",
+    "K -> Krypton Tank: support-required, verify-pronunciation",
+    "Q -> Quasar: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "X -> X-ray Telescope: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zero-gravity Chair: guided-theme-fallback-review, verify-pronunciation, visual-clarity-review"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 7,
+    "C": 3
+  },
+  "riskCounts": {
+    "support-required": 3,
+    "verify-pronunciation": 5,
+    "guided-theme-fallback-review": 3,
+    "visual-clarity-review": 1
+  }
+}

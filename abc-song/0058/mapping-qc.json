@@ -1,0 +1,22 @@
+{
+  "songId": "0058",
+  "theme": "Prehistoric Life",
+  "macroDomain": "Dinosaurs & Fossils",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quetzalcoatlus: guided-theme-fallback-review",
+    "X -> Xixiasaurus: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zuniceratops: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 12,
+    "A": 13,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 3,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
+}

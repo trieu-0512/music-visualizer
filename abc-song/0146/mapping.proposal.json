@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0146",
+  "theme": {
+    "name": "Building Site",
+    "semanticFocus": "Building Site",
+    "macroDomain": "Construction & Tools",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Auger"
+    },
+    "B": {
+      "object": "Brick"
+    },
+    "C": {
+      "object": "Crane"
+    },
+    "D": {
+      "object": "Dozer"
+    },
+    "E": {
+      "object": "Excavator"
+    },
+    "F": {
+      "object": "Forklift"
+    },
+    "G": {
+      "object": "Gravel"
+    },
+    "H": {
+      "object": "Hammer"
+    },
+    "I": {
+      "object": "Impact Driver"
+    },
+    "J": {
+      "object": "Joint"
+    },
+    "K": {
+      "object": "Keyhole Saw"
+    },
+    "L": {
+      "object": "Ladder"
+    },
+    "M": {
+      "object": "Mallet"
+    },
+    "N": {
+      "object": "Nut"
+    },
+    "O": {
+      "object": "Orange Cone"
+    },
+    "P": {
+      "object": "Pliers"
+    },
+    "Q": {
+      "object": "Quoin Brick"
+    },
+    "R": {
+      "object": "Rake"
+    },
+    "S": {
+      "object": "Saw"
+    },
+    "T": {
+      "object": "Toolbox"
+    },
+    "U": {
+      "object": "Utility Cart"
+    },
+    "V": {
+      "object": "Voltage Tester"
+    },
+    "W": {
+      "object": "Wrench"
+    },
+    "X": {
+      "object": "Xylophone"
+    },
+    "Y": {
+      "object": "Yellow Vest"
+    },
+    "Z": {
+      "object": "Zinc Screw"
+    }
+  }
+}

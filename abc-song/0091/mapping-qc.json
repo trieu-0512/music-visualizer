@@ -1,0 +1,22 @@
+{
+  "songId": "0091",
+  "theme": "Fruits & Vegetables",
+  "macroDomain": "Fruits & Vegetables",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quandong: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "U -> Ulluco: support-required, verify-pronunciation",
+    "Z -> Zinfandel Grape: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 19,
+    "B": 5,
+    "C": 2
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "support-required": 2,
+    "verify-pronunciation": 2
+  }
+}

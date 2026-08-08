@@ -1,0 +1,30 @@
+{
+  "songId": "0147",
+  "theme": "Tools & Machines",
+  "macroDomain": "Construction & Tools",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "A -> Axe: safety-context-only",
+    "F -> Framing Hammer: safety-context-only",
+    "H -> Hammer: safety-context-only",
+    "I -> I-beam: verify-pronunciation",
+    "J -> Jackhammer: safety-context-only",
+    "Q -> Quoin Brick: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "S -> Saw: safety-context-only",
+    "U -> Utility Knife: safety-context-only",
+    "X -> X-brace: verify-pronunciation",
+    "Z -> Zinc Screw: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 18,
+    "B": 7,
+    "C": 1
+  },
+  "riskCounts": {
+    "safety-context-only": 6,
+    "verify-pronunciation": 3,
+    "guided-theme-fallback-review": 2,
+    "support-required": 1
+  }
+}

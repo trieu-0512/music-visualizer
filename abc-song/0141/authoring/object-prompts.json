@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "mappingRevision": 1,
+  "theme": "Boats & Harbor",
+  "globalStyle": "friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce",
+  "semantic": "source-composite-extraction-pack",
+  "letters": {
+    "A": {
+      "object": "Airboat",
+      "prompt": "Preschool source-composite extraction image for letter A and Airboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase A on the left and exactly one clear Airboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "B": {
+      "object": "Barge",
+      "prompt": "Preschool source-composite extraction image for letter B and Barge. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase B on the left and exactly one clear Barge on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "C": {
+      "object": "Canoe",
+      "prompt": "Preschool source-composite extraction image for letter C and Canoe. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase C on the left and exactly one clear Canoe on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "D": {
+      "object": "Dinghy",
+      "prompt": "Preschool source-composite extraction image for letter D and Dinghy. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase D on the left and exactly one clear Dinghy on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "E": {
+      "object": "Engine",
+      "prompt": "Preschool source-composite extraction image for letter E and Engine. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase E on the left and exactly one clear Engine on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "F": {
+      "object": "Ferry",
+      "prompt": "Preschool source-composite extraction image for letter F and Ferry. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase F on the left and exactly one clear Ferry on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "G": {
+      "object": "Gondola",
+      "prompt": "Preschool source-composite extraction image for letter G and Gondola. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase G on the left and exactly one clear Gondola on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "H": {
+      "object": "Harbor",
+      "prompt": "Preschool source-composite extraction image for letter H and Harbor. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase H on the left and exactly one clear Harbor on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "I": {
+      "object": "Inflatable Boat",
+      "prompt": "Preschool source-composite extraction image for letter I and Inflatable Boat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase I on the left and exactly one clear Inflatable Boat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "J": {
+      "object": "Jolly Boat",
+      "prompt": "Preschool source-composite extraction image for letter J and Jolly Boat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase J on the left and exactly one clear Jolly Boat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "K": {
+      "object": "Keel",
+      "prompt": "Preschool source-composite extraction image for letter K and Keel. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase K on the left and exactly one clear Keel on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "L": {
+      "object": "Lifeboat",
+      "prompt": "Preschool source-composite extraction image for letter L and Lifeboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase L on the left and exactly one clear Lifeboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "M": {
+      "object": "Motorboat",
+      "prompt": "Preschool source-composite extraction image for letter M and Motorboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase M on the left and exactly one clear Motorboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "N": {
+      "object": "Narrowboat",
+      "prompt": "Preschool source-composite extraction image for letter N and Narrowboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase N on the left and exactly one clear Narrowboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "O": {
+      "object": "Oar",
+      "prompt": "Preschool source-composite extraction image for letter O and Oar. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase O on the left and exactly one clear Oar on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "P": {
+      "object": "Paddleboat",
+      "prompt": "Preschool source-composite extraction image for letter P and Paddleboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase P on the left and exactly one clear Paddleboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Q": {
+      "object": "Quay",
+      "prompt": "Preschool source-composite extraction image for letter Q and Quay. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase Q on the left and exactly one clear Quay on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "R": {
+      "object": "Raft",
+      "prompt": "Preschool source-composite extraction image for letter R and Raft. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase R on the left and exactly one clear Raft on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "S": {
+      "object": "Sailboat",
+      "prompt": "Preschool source-composite extraction image for letter S and Sailboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase S on the left and exactly one clear Sailboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "T": {
+      "object": "Tugboat",
+      "prompt": "Preschool source-composite extraction image for letter T and Tugboat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase T on the left and exactly one clear Tugboat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "U": {
+      "object": "Utility Boat",
+      "prompt": "Preschool source-composite extraction image for letter U and Utility Boat. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase U on the left and exactly one clear Utility Boat on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "V": {
+      "object": "Voyage Map",
+      "prompt": "Preschool source-composite extraction image for letter V and Voyage Map. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase V on the left and exactly one clear Voyage Map on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "W": {
+      "object": "Wake",
+      "prompt": "Preschool source-composite extraction image for letter W and Wake. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase W on the left and exactly one clear Wake on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "X": {
+      "object": "Xebec",
+      "prompt": "Preschool source-composite extraction image for letter X and Xebec. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase X on the left and exactly one clear Xebec on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Y": {
+      "object": "Yawl",
+      "prompt": "Preschool source-composite extraction image for letter Y and Yawl. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase Y on the left and exactly one clear Yawl on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    },
+    "Z": {
+      "object": "Zephyr Sail",
+      "prompt": "Preschool source-composite extraction image for letter Z and Zephyr Sail. friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce. Show one large stylized uppercase Z on the left and exactly one clear Zephyr Sail on the right, both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs.",
+      "negativePrompt": "extra text, lowercase letters, duplicate objects, cropped edges, overlap, clutter, scary expression, watermark, logo, photorealistic danger, busy background"
+    }
+  }
+}

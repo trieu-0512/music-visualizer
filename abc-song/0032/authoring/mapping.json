@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Cactus & Dunes",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Armadillo",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Beetle",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cactus",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Desert Tortoise",
+      "familiarityTier": "B"
+    },
+    "E": {
+      "object": "Euphorbia",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fennec",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gecko",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hawk",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Iguana",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jackrabbit",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kangaroo Rat",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Limestone",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Meerkat",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nopales",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oasis",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Palm",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quartz",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rattlesnake",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Scorpion",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tortoise",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Urial",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vulture",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Wren",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xerophyte",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yellow Scorpion",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Ziziphus Shrub",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

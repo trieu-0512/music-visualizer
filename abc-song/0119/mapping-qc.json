@@ -1,0 +1,22 @@
+{
+  "songId": "0119",
+  "theme": "Building & Pretend Play",
+  "macroDomain": "Toys & Games",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "J -> Jigsaw: safety-context-only",
+    "Q -> Quoits Ring: guided-theme-fallback-review",
+    "X -> X-shaped Puzzle: guided-theme-fallback-review, verify-pronunciation",
+    "Z -> Zoom Car: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 16,
+    "A": 10
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 3,
+    "verify-pronunciation": 1
+  }
+}

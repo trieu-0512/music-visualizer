@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Cooking Together",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Apron",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bowl",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Cutting Board",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Dish",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Egg Timer",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Frying Pan",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "G": {
+      "object": "Grapes",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Hot Pot",
+      "familiarityTier": "B"
+    },
+    "I": {
+      "object": "Ice Tray",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Juicer",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Knife",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "L": {
+      "object": "Ladle",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mixer",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Noodles",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Oven",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "P": {
+      "object": "Pan",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quiche",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Rice",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Spatula",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Tongs",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Utensil",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vegetable Peeler",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Waffle",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-shaped Cookie Cutter",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yam",
+      "familiarityTier": "A"
+    },
+    "Z": {
+      "object": "Zester",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    }
+  }
+}

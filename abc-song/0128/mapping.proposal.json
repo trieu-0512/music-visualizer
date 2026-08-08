@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0128",
+  "theme": {
+    "name": "Road Vehicles",
+    "semanticFocus": "Road Vehicles",
+    "macroDomain": "Vehicles & Roads",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "ATV"
+    },
+    "B": {
+      "object": "Bus"
+    },
+    "C": {
+      "object": "Cement Mixer"
+    },
+    "D": {
+      "object": "Dump Truck"
+    },
+    "E": {
+      "object": "Excavator"
+    },
+    "F": {
+      "object": "Fire Engine"
+    },
+    "G": {
+      "object": "Golf Cart"
+    },
+    "H": {
+      "object": "Hatchback"
+    },
+    "I": {
+      "object": "Intercity Bus"
+    },
+    "J": {
+      "object": "Jet"
+    },
+    "K": {
+      "object": "Kart"
+    },
+    "L": {
+      "object": "Loader"
+    },
+    "M": {
+      "object": "Minivan"
+    },
+    "N": {
+      "object": "Narrowboat"
+    },
+    "O": {
+      "object": "Oil Tanker"
+    },
+    "P": {
+      "object": "Plane"
+    },
+    "Q": {
+      "object": "Quad Bike"
+    },
+    "R": {
+      "object": "Road Roller"
+    },
+    "S": {
+      "object": "Scooter"
+    },
+    "T": {
+      "object": "Tractor"
+    },
+    "U": {
+      "object": "Utility Truck"
+    },
+    "V": {
+      "object": "Van"
+    },
+    "W": {
+      "object": "Wrecker"
+    },
+    "X": {
+      "object": "Xpress Bus"
+    },
+    "Y": {
+      "object": "Yacht"
+    },
+    "Z": {
+      "object": "Zeppelin"
+    }
+  }
+}

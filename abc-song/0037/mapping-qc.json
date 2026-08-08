@@ -1,0 +1,22 @@
+{
+  "songId": "0037",
+  "theme": "Ice & Tundra",
+  "macroDomain": "Arctic & Polar",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> X-ray Fish: guided-theme-fallback-review, verify-pronunciation",
+    "Y -> Yellow-billed Loon: verify-pronunciation",
+    "Z -> Zoarcid Fish: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "B": 8,
+    "A": 17,
+    "C": 1
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2,
+    "verify-pronunciation": 3,
+    "support-required": 1
+  }
+}

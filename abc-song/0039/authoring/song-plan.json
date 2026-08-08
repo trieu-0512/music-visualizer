@@ -1,0 +1,63 @@
+{
+  "songId": "0039",
+  "title": "Arctic Trek A-Z",
+  "theme": "Arctic Explorer",
+  "mappingRevision": 1,
+  "tempoBpm": 92,
+  "motifFamily": "arctic-trek",
+  "hook": [
+    "Arctic trek—A-B-C!",
+    "Find the icy clues with me!"
+  ],
+  "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
+  "responseSpace": "one-beat cue gap with backing thinned",
+  "visualStyle": "friendly 3D arctic explorer storybook, simple map-and-snow mood, bright parkas and blue ice, clean objects",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "expedition count-in",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "is-for",
+      "question-answer",
+      "narrative"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "refrain-driven",
+    "pointOfView": "a warm, calm observer noticing snow, ice, seabirds and cold-climate wildlife",
+    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
+    "grooveMeter": "walking 4/4 folk",
+    "round1Grammar": "Round 1 stays spacious and warm, contrasting snow/ice images with animal motion; rare names remain near speech rhythm.",
+    "round2Grammar": "Round 2 thins the arrangement, leaves one to two beats for recall and confirms with a simple cold-climate motion.",
+    "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft bell sparkle after targets over a warm acoustic pulse",
+    "signatureColor": "soft bell sparkle after targets over a warm acoustic pulse",
+    "chorusAfterRound1": [
+      2,
+      5
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": true,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 20,
+    "usedRound1": 10,
+    "total": 26
+  },
+  "status": "READY_FOR_L0_VALIDATION"
+}

@@ -1,0 +1,18 @@
+{
+  "songId": "0186",
+  "theme": "Fairy Tale World",
+  "macroDomain": "Fairy Tales & Magic",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "Q -> Quest Map: guided-theme-fallback-review",
+    "Z -> Zigzag Path: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "A": 20,
+    "B": 6
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2
+  }
+}

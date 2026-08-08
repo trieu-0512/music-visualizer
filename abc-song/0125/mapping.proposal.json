@@ -1,0 +1,94 @@
+{
+  "version": 2,
+  "state": "PROPOSED",
+  "songId": "0125",
+  "theme": {
+    "name": "Playground Sports",
+    "semanticFocus": "Playground Sports",
+    "macroDomain": "Sports & Movement",
+    "scope": "guided",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME",
+    "language": "en"
+  },
+  "letters": {
+    "A": {
+      "object": "Archery Target"
+    },
+    "B": {
+      "object": "Bicycle"
+    },
+    "C": {
+      "object": "Cricket Bat"
+    },
+    "D": {
+      "object": "Dumbbell"
+    },
+    "E": {
+      "object": "Exercise Mat"
+    },
+    "F": {
+      "object": "Football"
+    },
+    "G": {
+      "object": "Goal"
+    },
+    "H": {
+      "object": "Hoop"
+    },
+    "I": {
+      "object": "Inline Skates"
+    },
+    "J": {
+      "object": "Jersey"
+    },
+    "K": {
+      "object": "Kayak"
+    },
+    "L": {
+      "object": "Lane Marker"
+    },
+    "M": {
+      "object": "Medal"
+    },
+    "N": {
+      "object": "Net"
+    },
+    "O": {
+      "object": "Obstacle"
+    },
+    "P": {
+      "object": "Puck"
+    },
+    "Q": {
+      "object": "Quoits Ring"
+    },
+    "R": {
+      "object": "Relay Baton"
+    },
+    "S": {
+      "object": "Skateboard"
+    },
+    "T": {
+      "object": "Tennis Ball"
+    },
+    "U": {
+      "object": "Unicycle"
+    },
+    "V": {
+      "object": "Volleyball"
+    },
+    "W": {
+      "object": "Water Bottle"
+    },
+    "X": {
+      "object": "X-shaped Agility Marker"
+    },
+    "Y": {
+      "object": "Yellow Jersey"
+    },
+    "Z": {
+      "object": "Zigzag Cone"
+    }
+  }
+}

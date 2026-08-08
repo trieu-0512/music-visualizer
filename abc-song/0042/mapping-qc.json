@@ -1,0 +1,18 @@
+{
+  "songId": "0042",
+  "theme": "Peaks & Valleys",
+  "macroDomain": "Mountains",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "X -> Xeric Shrub: guided-theme-fallback-review",
+    "Z -> Zigzag Trail: guided-theme-fallback-review"
+  ],
+  "tierCounts": {
+    "B": 6,
+    "A": 20
+  },
+  "riskCounts": {
+    "guided-theme-fallback-review": 2
+  }
+}

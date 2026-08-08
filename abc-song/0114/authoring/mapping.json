@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Music Making",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Accordion",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bell",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Clarinet",
+      "familiarityTier": "A"
+    },
+    "D": {
+      "object": "Drum",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Electric Piano",
+      "familiarityTier": "B"
+    },
+    "F": {
+      "object": "Fiddle",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Gong",
+      "familiarityTier": "A"
+    },
+    "H": {
+      "object": "Harp",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Instrument",
+      "familiarityTier": "A"
+    },
+    "J": {
+      "object": "Jaw Harp",
+      "familiarityTier": "B"
+    },
+    "K": {
+      "object": "Kazoo",
+      "familiarityTier": "A"
+    },
+    "L": {
+      "object": "Lyre",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Maracas",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Note Card",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Oboe",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Piano",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quena",
+      "familiarityTier": "A"
+    },
+    "R": {
+      "object": "Recorder",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Shaker",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Trumpet",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "Ukulele",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Vibraphone",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Whistle",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "Xaphoon",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yangqin",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "support-required",
+        "verify-pronunciation"
+      ]
+    },
+    "Z": {
+      "object": "Zills",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
+    }
+  }
+}

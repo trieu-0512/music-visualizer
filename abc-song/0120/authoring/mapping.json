@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Playground Toys",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Action Figure",
+      "familiarityTier": "B"
+    },
+    "B": {
+      "object": "Blocks",
+      "familiarityTier": "A"
+    },
+    "C": {
+      "object": "Car Toy",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Doll",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Etch-a-Sketch",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "verify-pronunciation"
+      ]
+    },
+    "F": {
+      "object": "Frisbee",
+      "familiarityTier": "A"
+    },
+    "G": {
+      "object": "Game Board",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hoop",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Inflatable Ball",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Jigsaw",
+      "familiarityTier": "A",
+      "riskFlags": [
+        "safety-context-only"
+      ]
+    },
+    "K": {
+      "object": "Kaleidoscope",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Letter Tiles",
+      "familiarityTier": "B"
+    },
+    "M": {
+      "object": "Marble",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Nesting Blocks",
+      "familiarityTier": "B"
+    },
+    "O": {
+      "object": "Octopus Toy",
+      "familiarityTier": "B"
+    },
+    "P": {
+      "object": "Plush Bear",
+      "familiarityTier": "B"
+    },
+    "Q": {
+      "object": "Quoits Ring",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Rattle",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Stuffed Animal",
+      "familiarityTier": "B"
+    },
+    "T": {
+      "object": "Teddy Bear",
+      "familiarityTier": "B"
+    },
+    "U": {
+      "object": "Uno Cards",
+      "familiarityTier": "B"
+    },
+    "V": {
+      "object": "Vehicle Toy",
+      "familiarityTier": "B"
+    },
+    "W": {
+      "object": "Wooden Blocks",
+      "familiarityTier": "B"
+    },
+    "X": {
+      "object": "Xylophone Toy",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "Y": {
+      "object": "Yarn Doll",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zoom Car",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

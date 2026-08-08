@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "revision": 1,
+  "state": "LOCKED",
+  "theme": {
+    "name": "Town Explorer",
+    "scope": "guided",
+    "mappingAuthority": "project-locked",
+    "ageBand": "mixed-2-6",
+    "mode": "LETTER_NAME"
+  },
+  "letters": {
+    "A": {
+      "object": "Ambulance",
+      "familiarityTier": "A"
+    },
+    "B": {
+      "object": "Bus Stop",
+      "familiarityTier": "B"
+    },
+    "C": {
+      "object": "City Hall",
+      "familiarityTier": "B"
+    },
+    "D": {
+      "object": "Doctor",
+      "familiarityTier": "A"
+    },
+    "E": {
+      "object": "Elevator",
+      "familiarityTier": "A"
+    },
+    "F": {
+      "object": "Fire Station",
+      "familiarityTier": "B"
+    },
+    "G": {
+      "object": "Grocery Store",
+      "familiarityTier": "B"
+    },
+    "H": {
+      "object": "Hospital",
+      "familiarityTier": "A"
+    },
+    "I": {
+      "object": "Information Sign",
+      "familiarityTier": "B"
+    },
+    "J": {
+      "object": "Junction",
+      "familiarityTier": "A"
+    },
+    "K": {
+      "object": "Kindergarten",
+      "familiarityTier": "B"
+    },
+    "L": {
+      "object": "Laundromat",
+      "familiarityTier": "A"
+    },
+    "M": {
+      "object": "Mailbox",
+      "familiarityTier": "A"
+    },
+    "N": {
+      "object": "Newsstand",
+      "familiarityTier": "A"
+    },
+    "O": {
+      "object": "Overpass",
+      "familiarityTier": "A"
+    },
+    "P": {
+      "object": "Park",
+      "familiarityTier": "A"
+    },
+    "Q": {
+      "object": "Quilt Shop",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    },
+    "R": {
+      "object": "Road",
+      "familiarityTier": "A"
+    },
+    "S": {
+      "object": "Subway",
+      "familiarityTier": "A"
+    },
+    "T": {
+      "object": "Taxi",
+      "familiarityTier": "A"
+    },
+    "U": {
+      "object": "University",
+      "familiarityTier": "A"
+    },
+    "V": {
+      "object": "Van",
+      "familiarityTier": "A"
+    },
+    "W": {
+      "object": "Walkway",
+      "familiarityTier": "A"
+    },
+    "X": {
+      "object": "X-ray Clinic",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
+    },
+    "Y": {
+      "object": "Yoga Studio",
+      "familiarityTier": "B"
+    },
+    "Z": {
+      "object": "Zone Sign",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
+    }
+  }
+}

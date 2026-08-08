@@ -1,0 +1,20 @@
+{
+  "songId": "0138",
+  "theme": "Aircraft & Ground Crew",
+  "macroDomain": "Aircraft & Airport",
+  "status": "PASS_WITH_SUPPORT",
+  "hardFailures": [],
+  "warnings": [
+    "K -> Kerosene Tank: safety-context-only",
+    "X -> X-ray Scanner: guided-theme-fallback-review, verify-pronunciation"
+  ],
+  "tierCounts": {
+    "A": 16,
+    "B": 10
+  },
+  "riskCounts": {
+    "safety-context-only": 1,
+    "guided-theme-fallback-review": 1,
+    "verify-pronunciation": 1
+  }
+}
