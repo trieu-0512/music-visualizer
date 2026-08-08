@@ -38,9 +38,9 @@
     "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
     "grooveMeter": "light swung 4/4",
     "round1Grammar": "Round 1 uses birdwatching language—feather, beak, feet, perch, water or flight clues—and leaves long species names enough musical space.",
-    "round2Grammar": "Round 2 uses binocular-style cue-gap-answer timing followed by one wing, perch, beak or walking gesture; flightless birds get grounded motions.",
-    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: light flute/whistle feather answer kept separate from the sung target.",
-    "signatureColor": "light flute/whistle feather answer kept separate from the sung target",
+    "round2Grammar": "Round 2 uses binocular-style cue-gap-answer timing followed by an object-conditioned clue: waders show long legs or curved/spear bills, seed birds show cone bills, parrots show hooked bills/climbing feet, trunk birds climb or tap, soarers glide, hummingbirds hover, nest makes a cup shape, and flightless birds use grounded walking or swimming gestures.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a marimba twig-tap plus brushed-percussion nest answer after the target.",
+    "signatureColor": "a marimba twig-tap plus brushed-percussion nest answer after the target",
     "chorusAfterRound1": [
       2,
       6
@@ -57,8 +57,8 @@
     "total": 26
   },
   "rhymeCraftCoverage": {
-    "available": 9,
-    "usedRound1": 8,
+    "available": 16,
+    "usedRound1": 12,
     "total": 26
   },
   "status": "READY_FOR_L0_VALIDATION"

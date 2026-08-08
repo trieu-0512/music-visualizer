@@ -38,9 +38,9 @@
     "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
     "grooveMeter": "story-song 3/4-to-4/4 feel",
     "round1Grammar": "Round 1 alternates animal clues with care-item functions; care language stays gentle and never turns grooming or veterinary tools into child instructions.",
-    "round2Grammar": "Round 2 confirms with pointing, gentle animal motions or a care-item job gesture; no clipping, medicating, heating or tool use.",
-    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: soft marimba or bell-paw answer with no barking over diction.",
-    "signatureColor": "soft marimba or bell-paw answer with no barking over diction",
+    "round2Grammar": "Round 2 confirms with object-conditioned matching: animals use species-congruent swim, hop, paw, perch, sniff, or tail motions; bowls cup, beds flatten, shelters roof, wheels circle, tags hang, leashes trace a line, perches branch, scratching posts stand tall, and toys roll/tug/flutter. Clippers, cleaners, UV lamps, vet kits, and X-ray images remain point-and-name only—no clipping, medicating, heating, or tool use.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a light woodblock browse-click and marimba confirmation after the target.",
+    "signatureColor": "a light woodblock browse-click and marimba confirmation after the target",
     "chorusAfterRound1": [
       3,
       7
@@ -58,8 +58,8 @@
     "total": 26
   },
   "rhymeCraftCoverage": {
-    "available": 8,
-    "usedRound1": 7,
+    "available": 17,
+    "usedRound1": 9,
     "total": 26
   },
   "status": "READY_FOR_L0_VALIDATION"

@@ -19,7 +19,7 @@
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Ankylosaurus appears—A found it. Armor on its back | heavy tail-club gives the clue a smack",
+      "text": "Ankylosaurus appears—A found it. Armor head to back | heavy tail club marks the track",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "A tiny pause for C, then Ceratopsian! It is known from fossils; bones and body shape reveal an ancient animal.",
+      "text": "A tiny pause for C, then Ceratopsian! Ceratopsian face | beak and frill are clues to trace",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "along the prehistoric trail, Deinonychus belongs with D. Deinonychus is known from fossils; bones and body shape reveal an ancient animal.",
+      "text": "along the footprint trail, Deinonychus belongs with D. Deinonychus was a feathered dromaeosaurid with a large sickle claw on each second toe.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G ... Gastonia; Gastonia is known from fossils; bones and body shape reveal an ancient animal.",
+      "text": "G ... Gastonia; Gastonia low | armor plates and side spikes show",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "A tiny pause for H, then Hadrosaur! It is known from fossils; bones and body shape reveal an ancient animal.",
+      "text": "A tiny pause for H, then Hadrosaur! Hadrosaurs were duck-billed plant eaters with rows of closely packed grinding teeth.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "along the prehistoric trail, Iguanodon belongs with I. Iguanodon long ago | bones and body leave a clue to show",
+      "text": "along the footprint trail, Iguanodon belongs with I. Iguanodon long ago | bones and body leave a clue to show",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kritosaurus appears—K found it. It is known from fossils; bones and body shape reveal an ancient animal.",
+      "text": "Kritosaurus appears—K found it. Kritosaurus was a duck-billed hadrosaur, known from a broad beak and a large plant-eating body.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L ... Lesothosaurus; Lesothosaurus is known from fossils; bones and body shape reveal an ancient animal.",
+      "text": "L ... Lesothosaurus; Lesothosaurus was a small lightly built plant-eating dinosaur that moved on two long hind legs.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "A tiny pause for M, then Maiasaura! Maiasaura on the track | fossil shapes bring the old clue back",
+      "text": "A tiny pause for M, then Maiasaura! Maiasaura nesting ground | eggs and young were fossil-found",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "along the prehistoric trail, Nodosaurus belongs with N. Nodosaurus is known from fossils; bones and body shape reveal an ancient animal.",
+      "text": "along the footprint trail, Nodosaurus belongs with N. Nodosaurus was an armored plant-eating dinosaur with bony plates and no heavy tail club.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Question: O? Answer: Oviraptor. It is known from fossils; bones and body shape reveal an ancient animal.",
+      "text": "Question: O? Answer: Oviraptor. Oviraptor by the nest | beak and feathers make the clue stand best",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q ... Qianzhousaurus; Qianzhousaurus on the track | fossil shapes bring the old clue back",
+      "text": "Q ... Qianzhousaurus; Qianzhousaurus, snout stretched long | narrow tyrannosaur profile makes the clue strong",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "A tiny pause for R, then Raptor! It is known from fossils; bones and body shape reveal an ancient animal.",
+      "text": "A tiny pause for R, then Raptor! It is an informal nickname often used for dromaeosaurids, feathered theropods with enlarged curved toe claws.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "along the prehistoric trail, Stegosaurus belongs with S. Plates in a row | tail spikes give another clue to know",
+      "text": "along the footprint trail, Stegosaurus belongs with S. Plates in a row | tail spikes give another clue to know",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "A tiny pause for W, then Wuerhosaurus! It is known from fossils; bones and body shape reveal an ancient animal.",
+      "text": "A tiny pause for W, then Wuerhosaurus! Wuerhosaurus was a stegosaur with back plates and tail spikes.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "along the prehistoric trail, Xenoceratops belongs with X. Xenoceratops is known from fossils; bones and body shape reveal an ancient animal.",
+      "text": "along the footprint trail, Xenoceratops belongs with X. Xenoceratops was a horned ceratopsian with a large frill decorated by bony projections.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zephyrosaurus appears—Z found it. It is known from fossils; bones and body shape reveal an ancient animal.",
+      "text": "Zephyrosaurus appears—Z found it. Zephyrosaurus was a small plant-eating ornithischian with a light two-legged body.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Question: A? ... Ankylosaurus! Trace head to tail in the air.",
+      "text": "Question: A? ... Ankylosaurus! Show armor, then swing one tiny tail-club arc.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Remember the C clue ... Ceratopsian! Trace head to tail in the air.",
+      "text": "Remember the C clue ... Ceratopsian! Frame a wide frill; add two horn fingers.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D, one quiet beat ... Deinonychus! Trace head to tail in the air.",
+      "text": "D, one quiet beat ... Deinonychus! Curl one sickle-claw finger; take two light steps.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Remember the G clue ... Gastonia! Show its body size with both hands.",
+      "text": "Remember the G clue ... Gastonia! Trace low armor and side spikes.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H, one quiet beat ... Hadrosaur! Trace head to tail in the air.",
+      "text": "H, one quiet beat ... Hadrosaur! Make a broad duck-bill with flat hands.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Question: I? ... Iguanodon! Tap two soft prehistoric footsteps.",
+      "text": "Question: I? ... Iguanodon! Lift one thumb like a thumb spike.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Remember the K clue ... Kritosaurus! Tap two soft prehistoric footsteps.",
+      "text": "Remember the K clue ... Kritosaurus! Make a broad duck-bill; sweep its body shape.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L, one quiet beat ... Lesothosaurus! Trace head to tail in the air.",
+      "text": "L, one quiet beat ... Lesothosaurus! Make two tiny running finger-steps.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -372,7 +372,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Question: M? ... Maiasaura! Tap two soft prehistoric footsteps.",
+      "text": "Question: M? ... Maiasaura! Cup a nest; make a gentle duck-bill.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... answer when ready ... Nodosaurus! Sway one pretend tail, then freeze.",
+      "text": "N ... answer when ready ... Nodosaurus! Trace low armor—no tail club.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Remember the O clue ... Oviraptor! Show its body size with both hands.",
+      "text": "Remember the O clue ... Oviraptor! Make a beak, then cup a nest.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Question: Q? ... Qianzhousaurus! Show its body size with both hands.",
+      "text": "Question: Q? ... Qianzhousaurus! Stretch a long narrow snout forward.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... answer when ready ... Raptor! Tap two soft prehistoric footsteps.",
+      "text": "R ... answer when ready ... Raptor! Curl one finger like a toe claw; freeze.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Remember the S clue ... Stegosaurus! Trace head to tail in the air.",
+      "text": "Remember the S clue ... Stegosaurus! Show a row of plates, then tail spikes.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T, one quiet beat ... Triceratops! Tap two soft prehistoric footsteps.",
+      "text": "T, one quiet beat ... Triceratops! Show three horns, then frame a broad frill.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Question: U? ... Unenlagia! Tap two soft prehistoric footsteps.",
+      "text": "Question: U? ... Unenlagia! Open feathered arms; take two light steps.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Remember the W clue ... Wuerhosaurus! Trace head to tail in the air.",
+      "text": "Remember the W clue ... Wuerhosaurus! Trace back plates, then a tail spike.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X, one quiet beat ... Xenoceratops! Sway one pretend tail, then freeze.",
+      "text": "X, one quiet beat ... Xenoceratops! Frame a large frill; show horn shapes.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,7 +468,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Question: Y? ... Yinlong! Tap two soft prehistoric footsteps.",
+      "text": "Question: Y? ... Yinlong! Make a small beak; take two tiny steps.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -476,7 +476,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... answer when ready ... Zephyrosaurus! Tap two soft prehistoric footsteps.",
+      "text": "Z ... answer when ready ... Zephyrosaurus! Make two light running finger-steps.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

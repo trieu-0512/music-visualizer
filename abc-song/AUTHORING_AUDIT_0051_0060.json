@@ -11,10 +11,10 @@
   "uniqueStyles": 10,
   "uniqueSectionForms": 7,
   "uniqueCreativeFingerprints": 10,
-  "maxLyricSimilarity": 0.089,
+  "maxLyricSimilarity": 0.0737,
   "mostSimilarPair": [
-    "0059",
-    "0060"
+    "0057",
+    "0058"
   ],
   "batchWarnings": [],
   "songsDetail": [
@@ -22,7 +22,7 @@
       "songId": "0051",
       "theme": "Space Explorer",
       "targetLines": 52,
-      "lyricWordCount": 825,
+      "lyricWordCount": 898,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -66,7 +66,7 @@
       "songId": "0052",
       "theme": "Planets & Stars",
       "targetLines": 52,
-      "lyricWordCount": 847,
+      "lyricWordCount": 918,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -79,8 +79,11 @@
         "A",
         "C",
         "E",
+        "G",
         "I",
+        "K",
         "M",
+        "O",
         "Q",
         "S",
         "U",
@@ -106,7 +109,7 @@
       "songId": "0053",
       "theme": "Rockets & Astronauts",
       "targetLines": 52,
-      "lyricWordCount": 855,
+      "lyricWordCount": 958,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -116,14 +119,17 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
         "G",
         "I",
         "K",
         "M",
+        "O",
         "Q",
         "S",
         "U",
+        "W",
         "Y"
       ],
       "sectionForm": {
@@ -146,7 +152,7 @@
       "songId": "0054",
       "theme": "Moon & Galaxy",
       "targetLines": 52,
-      "lyricWordCount": 877,
+      "lyricWordCount": 985,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -157,6 +163,7 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
         "G",
         "I",
@@ -164,6 +171,7 @@
         "M",
         "O",
         "Q",
+        "S",
         "U",
         "W",
         "Y"
@@ -188,7 +196,7 @@
       "songId": "0055",
       "theme": "Space Science",
       "targetLines": 52,
-      "lyricWordCount": 917,
+      "lyricWordCount": 978,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -199,12 +207,17 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
+        "G",
         "I",
         "K",
         "M",
+        "O",
         "Q",
+        "S",
         "U",
+        "W",
         "Y"
       ],
       "sectionForm": {
@@ -226,7 +239,7 @@
       "songId": "0056",
       "theme": "Dinosaur World",
       "targetLines": 52,
-      "lyricWordCount": 910,
+      "lyricWordCount": 918,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -237,9 +250,12 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
+        "G",
         "I",
         "M",
+        "O",
         "Q",
         "S",
         "U",
@@ -264,7 +280,7 @@
       "songId": "0057",
       "theme": "Fossils & Bones",
       "targetLines": 52,
-      "lyricWordCount": 959,
+      "lyricWordCount": 963,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -275,9 +291,11 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
         "I",
         "M",
+        "O",
         "Q",
         "S",
         "U",
@@ -303,7 +321,7 @@
       "songId": "0058",
       "theme": "Prehistoric Life",
       "targetLines": 52,
-      "lyricWordCount": 860,
+      "lyricWordCount": 871,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -315,9 +333,12 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
+        "G",
         "I",
         "M",
+        "O",
         "Q",
         "S",
         "U",
@@ -342,7 +363,7 @@
       "songId": "0059",
       "theme": "Dinosaur Explorer",
       "targetLines": 52,
-      "lyricWordCount": 877,
+      "lyricWordCount": 906,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -353,9 +374,12 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
+        "G",
         "I",
         "M",
+        "O",
         "Q",
         "U",
         "Y"
@@ -379,7 +403,7 @@
       "songId": "0060",
       "theme": "Museum of Dinosaurs",
       "targetLines": 52,
-      "lyricWordCount": 885,
+      "lyricWordCount": 901,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -389,9 +413,11 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
         "I",
         "M",
+        "O",
         "Q",
         "U",
         "Y"

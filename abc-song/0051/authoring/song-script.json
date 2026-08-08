@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B ... B ... Black Hole. A black hole is a region where gravity is so strong that even light cannot escape once it is inside.",
+      "text": "B ... B ... Black Hole. A black hole has gravity so strong that light cannot escape from inside it.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "What does D reveal? Dwarf Planet! A dwarf planet orbits the Sun and is round, but it has not cleared other objects from its orbital neighborhood.",
+      "text": "What does D reveal? Dwarf Planet! A dwarf planet is round and orbits the Sun, but shares its orbital neighborhood with other bodies.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "past the quiet stars, E meets Earth. Earth, blue and round | ocean, land, and air are found",
+      "text": "through the launch-window glow, E meets Earth. Earth, blue and round | ocean, land, and air are found",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Helmet steps in for H. A space helmet protects an astronaut's head and helps provide a safe breathing environment inside the suit system.",
+      "text": "Helmet steps in for H. A space helmet protects the head and helps keep a safe breathing environment.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "past the quiet stars, J meets Jet Pack. A spacecraft maneuvering pack can use small thrusters to help an astronaut move in space during specially planned operations.",
+      "text": "through the launch-window glow, J meets Jet Pack. A spacecraft maneuvering pack uses small thrusters for carefully planned movement in space.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "What does N reveal? Neptune! Neptune is the eighth major planet from the Sun and is a cold blue giant world.",
+      "text": "What does N reveal? Neptune! Neptune is the eighth planet from the Sun, a cold blue giant world.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "past the quiet stars, O meets Orbit. Orbit bends around | motion joined with gravity keeps the path bound",
+      "text": "through the launch-window glow, O meets Orbit. Orbit bends around | motion joined with gravity keeps the path bound",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "past the quiet stars, T meets Telescope. A telescope collects light or other signals to help us study distant objects.",
+      "text": "through the launch-window glow, T meets Telescope. A telescope collects light or other signals to help us study distant objects.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V ... V ... Visor. A spacesuit visor protects an astronaut's eyes and face and can filter intense sunlight.",
+      "text": "V ... V ... Visor. A spacesuit visor protects the eyes and face and can filter intense sunlight.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "past the quiet stars, Y meets Yoke. Yoke in hand-control view | steering input is the clue",
+      "text": "through the launch-window glow, Y meets Yoke. Yoke turns left or right | hand-control clue in plain sight",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z—Zero-gravity Chair! It is a reclining chair named for a body position that spreads support; it does not create real weightlessness.",
+      "text": "Z—Zero-gravity Chair! A zero-gravity chair reclines the body for distributed support; it does not create real weightlessness.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Asteroid! Glide one hand, then tap the picture.",
+      "text": "A ... Asteroid! Make a tiny rocky fist, then trace its path.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Remember B ... Black Hole! Lift one launch-finger, then freeze.",
+      "text": "Remember B ... Black Hole! Draw a small dark circle in the air, then point inward.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C? ... Comet! Trace one orbit, then point.",
+      "text": "C? ... Comet! Sweep one hand past with a long pretend tail.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Find D, hold the beat ... Dwarf Planet! Trace one orbit, then point.",
+      "text": "Find D, hold the beat ... Dwarf Planet! Make a small round world, then circle one finger around it.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Earth! Trace one orbit, then point.",
+      "text": "E ... Earth! Make a round Earth with both hands, then point home.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Flag! Make a round space-window, then point.",
+      "text": "Remember F ... Flag! Wave one empty hand gently like a flag.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G? ... Gemini Capsule! Make a round space-window, then point.",
+      "text": "G? ... Gemini Capsule! Cup both hands into a small capsule shape.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Find H, hold the beat ... Helmet! Glide one hand, then tap the picture.",
+      "text": "Find H, hold the beat ... Helmet! Frame your head with two hands like a helmet.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... International Space Station! Make a round space-window, then point.",
+      "text": "I ... International Space Station! Stretch both hands wide, then trace one orbit.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Remember J ... Jet Pack! Make a round space-window, then point.",
+      "text": "Remember J ... Jet Pack! Hold two hands by your sides, then make one tiny upward puff motion.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K? ... Krypton Tank! Lift one launch-finger, then freeze.",
+      "text": "K? ... Krypton Tank! Make a tall tank shape with both hands, then point.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Find L, hold the beat ... Lander! Make a round space-window, then point.",
+      "text": "Find L, hold the beat ... Lander! Lower one flat hand slowly until it lands.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -372,7 +372,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Meteor! Trace one orbit, then point.",
+      "text": "M ... Meteor! Streak one finger downward like a flash of light.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Remember N ... Neptune! Glide one hand, then tap the picture.",
+      "text": "Remember N ... Neptune! Make a big blue-world circle, then sway it far away.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O? ... Orbit! Trace one orbit, then point.",
+      "text": "O? ... Orbit! Trace one clean circle around an imaginary world.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Find P, hold the beat ... Planet! Trace one orbit, then point.",
+      "text": "Find P, hold the beat ... Planet! Make one large round world with both hands.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quarter Moon! Lift one launch-finger, then freeze.",
+      "text": "Q ... Quarter Moon! Show a half-lit moon shape with one curved hand.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Remember R ... Rocket! Trace one orbit, then point.",
+      "text": "Remember R ... Rocket! Point upward, then lift one hand like a slow launch.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S? ... Satellite! Glide one hand, then tap the picture.",
+      "text": "S? ... Satellite! Circle one finger around your other fist like a satellite.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Find T, hold the beat ... Telescope! Trace one orbit, then point.",
+      "text": "Find T, hold the beat ... Telescope! Make pretend binoculars, then look far away.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Uranus! Make a round space-window, then point.",
+      "text": "U ... Uranus! Tilt a round hand-shape sideways, then slowly turn it.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Remember V ... Visor! Glide one hand, then tap the picture.",
+      "text": "Remember V ... Visor! Shade your eyes with one flat hand like a visor.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W? ... World! Trace one orbit, then point.",
+      "text": "W? ... World! Make a round world, then hold it still in the picture frame.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X, hold the beat ... X-ray Telescope! Lift one launch-finger, then freeze.",
+      "text": "Find X, hold the beat ... X-ray Telescope! Pretend to aim a telescope high, then point to the X-ray picture.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -482,7 +482,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yoke! Trace one orbit, then point.",
+      "text": "Y ... Yoke! Hold an imaginary control, then make one gentle turn.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -490,7 +490,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Remember Z ... Zero-gravity Chair! Make a round space-window, then point.",
+      "text": "Remember Z ... Zero-gravity Chair! Lean your hands back together like a reclining chair shape.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

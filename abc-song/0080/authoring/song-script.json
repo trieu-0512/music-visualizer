@@ -19,7 +19,7 @@
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Antelope—that is our A. Antelope in its place | feet, coat, ears, and tail give clues to trace",
+      "text": "Antelope—that is our A. Antelope on the track | hoof and horn or head clues bring the answer back",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Spot B: Bison! Bison is hoofed wildlife; legs, hoof shape, head, and coat help identify it.",
+      "text": "Spot B: Bison! A bison has massive shoulders, shaggy forequarters, hooves, and short curved horns.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C brings Camel; It walks on hooves; horns, ears, neck, or coat add the next clue.",
+      "text": "C brings Camel; It has broad padded feet and one or two fat-storing humps depending on the species.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "A clue for D: Deer. Deer is hoofed wildlife; legs, hoof shape, head, and coat help identify it.",
+      "text": "A clue for D: Deer. A deer has hooves and slender legs; males of many species grow antlers.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "across the habitat trail, here comes Elephant for E. Elephant so grand | trunk can lift and smell and understand",
+      "text": "through the ranger binocular view, here comes Elephant for E. Elephant so grand | trunk can lift and smell and understand",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "A clue for I: Ibex. Ibex in its place | feet, coat, ears, and tail give clues to trace",
+      "text": "A clue for I: Ibex. Ibex on the track | hoof and horn or head clues bring the answer back",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "across the habitat trail, here comes Jackal for J. It is a wild canid; muzzle, pointed ears, paws, and tail help reveal it.",
+      "text": "through the ranger binocular view, here comes Jackal for J. It is a slender wild canid with pointed ears, a narrow muzzle, and a bushy tail.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Spot L: Lemur! Lemur belongs to the primate family; watch its grasping hands and body shape.",
+      "text": "Spot L: Lemur! A lemur is a Madagascar primate with grasping hands; many species have long tails.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M brings Monkey; Monkey on the track | coat and habitat bring the clue right back",
+      "text": "M brings Monkey; Monkey on the scene | face, hands, and agile limbs keep the meaning clean",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "A clue for N: Nyala. Nyala is hoofed wildlife; legs, hoof shape, head, and coat help identify it.",
+      "text": "A clue for N: Nyala. A nyala is an African antelope with pale vertical body stripes; adult males have long spiral horns.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "across the habitat trail, here comes Ostrich for O. Ostrich runs fast | flightless wings and long legs pass",
+      "text": "through the ranger binocular view, here comes Ostrich for O. Ostrich runs fast | flightless wings and long legs pass",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Puma—that is our P. It has a cat-like body with padded paws, keen senses, and a balancing tail.",
+      "text": "Puma—that is our P. It is a large tawny cat with a long balancing tail and powerful hind legs.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Spot Q: Quokka! Quokka in its place | feet, coat, ears, and tail give clues to trace",
+      "text": "Spot Q: Quokka! Quokka from afar | shape and habitat show what you are",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "A clue for S: Serval. Serval is a wild cat; paws, tail, coat pattern, and feline body shape give clues.",
+      "text": "A clue for S: Serval. A serval is a long-legged spotted African cat with especially large ears.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "across the habitat trail, here comes Tiger for T. It is a wild cat; paws, tail, coat pattern, and feline body shape give clues.",
+      "text": "through the ranger binocular view, here comes Tiger for T. It is a large cat with dark vertical stripes over orange-and-pale fur.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Uakari—that is our U. Uakari in its place | feet, coat, ears, and tail give clues to trace",
+      "text": "Uakari—that is our U. Uakari on the scene | face, hands, and agile limbs keep the meaning clean",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Spot V: Vulture! Vulture is a feathered bird; beak and feet hint at how it lives.",
+      "text": "Spot V: Vulture! A vulture is a scavenging bird with broad soaring wings and a hooked bill.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "across the habitat trail, here comes Yellow Mongoose for Y. Yellow Mongoose from afar | shape and habitat show what you are",
+      "text": "through the ranger binocular view, here comes Yellow Mongoose for Y. Yellow Mongoose in its place | body and habitat give clues to trace",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Spot A ... Antelope! Point, then trace its silhouette.",
+      "text": "Spot A ... Antelope! Take two hoof-steps; curve horn shapes.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Call B, wait ... Bison! Point to one clue—ears, tail, horn, feet, or coat.",
+      "text": "Call B, wait ... Bison! Show massive shoulders and curved horns.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Which word fits C? ... Camel! Show its body shape with your hands.",
+      "text": "Which word fits C? ... Camel! Make one hump; take two broad-foot steps.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... D ... Deer! Point, then trace its silhouette.",
+      "text": "D ... D ... Deer! Take two hoof-steps; branch antler fingers.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Spot E ... Elephant! Make two quiet track-steps, then stop.",
+      "text": "Spot E ... Elephant! Curve a trunk arm; show broad feet.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Call F, wait ... Flamingo! Lift two gentle wings, then point.",
+      "text": "Call F, wait ... Flamingo! Stand one finger-leg tall; bend a filtering bill shape.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Which word fits G? ... Giraffe! Point, then trace its silhouette.",
+      "text": "Which word fits G? ... Giraffe! Stretch a long neck; take two tall steps.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... H ... Hippo! Point, then trace its silhouette.",
+      "text": "H ... H ... Hippo! Make a broad body; draw a water line.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Spot I ... Ibex! Point, then trace its silhouette.",
+      "text": "Spot I ... Ibex! Curve horns backward; take two mountain steps.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Call J, wait ... Jackal! Show its body shape with your hands.",
+      "text": "Call J, wait ... Jackal! Show pointed ears, a narrow muzzle, and one bushy-tail sweep.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Which word fits K? ... Koala! Point, then trace its silhouette.",
+      "text": "Which word fits K? ... Koala! Grip an imaginary tree trunk with both hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... L ... Lemur! Make two quiet track-steps, then stop.",
+      "text": "L ... L ... Lemur! Show grasping hands and a long tail.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Spot M ... Monkey! Point to one clue—ears, tail, horn, feet, or coat.",
+      "text": "Spot M ... Monkey! Show grasping hands, then one agile branch reach.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -359,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Call N, wait ... Nyala! Make two quiet track-steps, then stop.",
+      "text": "Call N, wait ... Nyala! Trace stripes; curve spiral horn shapes.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -367,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Which word fits O? ... Ostrich! Tap two gentle walking steps, then point.",
+      "text": "Which word fits O? ... Ostrich! Run two long ground steps—no flying gesture.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -375,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... P ... Puma! Point to one clue—ears, tail, horn, feet, or coat.",
+      "text": "P ... P ... Puma! Show a tawny cat body and one long balancing tail.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -397,7 +397,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Spot Q ... Quokka! Point, then trace its silhouette.",
+      "text": "Spot Q ... Quokka! Show two rounded ears, then one small hind-leg hop.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Call R, wait ... Red Panda! Point to one clue—ears, tail, horn, feet, or coat.",
+      "text": "Call R, wait ... Red Panda! Trace a ringed tail; grip a branch.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Which word fits S? ... Serval! Make two quiet track-steps, then stop.",
+      "text": "Which word fits S? ... Serval! Show huge ears, long legs, and spots.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... T ... Tiger! Point to one clue—ears, tail, horn, feet, or coat.",
+      "text": "T ... T ... Tiger! Trace stripes; show large cat paws.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Spot U ... Uakari! Make two quiet track-steps, then stop.",
+      "text": "Spot U ... Uakari! Frame a bare face; show grasping hands.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Call V, wait ... Vulture! Lift two gentle wings, then point.",
+      "text": "Call V, wait ... Vulture! Spread broad soaring wings and circle one slow turn.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Which word fits W? ... Walrus! Show its body shape with your hands.",
+      "text": "Which word fits W? ... Walrus! Show tusks, whiskers, and broad flippers.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... X ... Xerus! Point to one clue—ears, tail, horn, feet, or coat.",
+      "text": "X ... X ... Xerus! Show a bushy tail; take two ground steps.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Spot Y ... Yellow Mongoose! Point to one clue—ears, tail, horn, feet, or coat.",
+      "text": "Spot Y ... Yellow Mongoose! Make a low body; sweep a long tail.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Call Z, wait ... Zebu! Show its body shape with your hands.",
+      "text": "Call Z, wait ... Zebu! Make a shoulder hump; show cattle horns.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

@@ -38,9 +38,9 @@
     "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
     "grooveMeter": "story-song 3/4-to-4/4 feel",
     "round1Grammar": "Round 1 uses tiny rhythmic detail—wing, leg, body, web or life-stage clues—while preserving clear target diction.",
-    "round2Grammar": "Round 2 leaves a clean recall gap, then confirms with one tiny crawl, flutter, wing or shape gesture.",
-    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: tiny pizzicato, shaker or bell-wing answer after the target.",
-    "signatureColor": "tiny pizzicato, shaker or bell-wing answer after the target",
+    "round2Grammar": "Round 2 leaves a clean recall gap, then confirms with an object-conditioned gesture: ant six-step crawl, flea/grasshopper/leafhopper hop, mantis folded grasping forelegs, beetle wing-cover shell, butterfly/moth wing-open, orb-weaver web circle, pill-bug curl, stick-insect twig freeze, firefly glow, or other visible clue. Do not reduce the whole section to generic antenna/crawl motions.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a tiny parade snare-brush tap plus bright marimba step after the target.",
+    "signatureColor": "a tiny parade snare-brush tap plus bright marimba step after the target",
     "chorusAfterRound1": [
       2,
       5
@@ -57,8 +57,8 @@
     "total": 26
   },
   "rhymeCraftCoverage": {
-    "available": 9,
-    "usedRound1": 7,
+    "available": 18,
+    "usedRound1": 10,
     "total": 26
   },
   "status": "READY_FOR_L0_VALIDATION"

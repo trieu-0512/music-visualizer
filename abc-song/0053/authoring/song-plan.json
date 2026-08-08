@@ -38,9 +38,9 @@
     "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
     "grooveMeter": "stop-and-go 4/4",
     "round1Grammar": "Round 1 should feel like opening new spacecraft windows: vary direct calls, repeated letters, questions and short cinematic reveals; every target gets one real space clue or function.",
-    "round2Grammar": "Round 2 strips back to cue-gap-answer timing with orbit, point, trace or launch-like pretend gestures that never obscure the word.",
-    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: short synth-star ping or glockenspiel orbit after each target.",
-    "signatureColor": "short synth-star ping or glockenspiel orbit after each target",
+    "round2Grammar": "Round 2 strips back to cue-gap-answer timing with object-conditioned gestures: orbiters trace circles, planets show shape or tilt, comets sweep a tail, telescopes aim, rovers roll, and suit/helmet items use simple body-shape mime. Keep every action short and never let it obscure the target word.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a dry mission-control click or light tom punctuation after each confirmed target.",
+    "signatureColor": "a dry mission-control click or light tom punctuation after each confirmed target",
     "chorusAfterRound1": [
       2,
       5,
@@ -58,8 +58,8 @@
     "total": 26
   },
   "rhymeCraftCoverage": {
-    "available": 10,
-    "usedRound1": 10,
+    "available": 24,
+    "usedRound1": 13,
     "total": 26
   },
   "status": "READY_FOR_L0_VALIDATION"

@@ -11,10 +11,10 @@
   "uniqueStyles": 10,
   "uniqueSectionForms": 7,
   "uniqueCreativeFingerprints": 10,
-  "maxLyricSimilarity": 0.0888,
+  "maxLyricSimilarity": 0.0624,
   "mostSimilarPair": [
-    "0068",
-    "0069"
+    "0062",
+    "0064"
   ],
   "batchWarnings": [],
   "songsDetail": [
@@ -22,7 +22,7 @@
       "songId": "0061",
       "theme": "Bug World",
       "targetLines": 52,
-      "lyricWordCount": 907,
+      "lyricWordCount": 965,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -36,8 +36,10 @@
         "C",
         "E",
         "I",
+        "K",
         "M",
         "Q",
+        "S",
         "U",
         "Y"
       ],
@@ -61,7 +63,7 @@
       "songId": "0062",
       "theme": "Butterflies & Beetles",
       "targetLines": 52,
-      "lyricWordCount": 922,
+      "lyricWordCount": 969,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -77,6 +79,7 @@
         "I",
         "M",
         "Q",
+        "S",
         "U",
         "Y"
       ],
@@ -99,7 +102,7 @@
       "songId": "0063",
       "theme": "Garden Insects",
       "targetLines": 52,
-      "lyricWordCount": 919,
+      "lyricWordCount": 976,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -112,9 +115,12 @@
         "A",
         "E",
         "I",
+        "K",
         "M",
         "Q",
+        "S",
         "U",
+        "W",
         "Y"
       ],
       "sectionForm": {
@@ -136,7 +142,7 @@
       "songId": "0064",
       "theme": "Tiny Creatures",
       "targetLines": 52,
-      "lyricWordCount": 966,
+      "lyricWordCount": 998,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -149,8 +155,10 @@
         "A",
         "E",
         "I",
+        "K",
         "M",
         "Q",
+        "S",
         "U",
         "Y"
       ],
@@ -174,7 +182,7 @@
       "songId": "0065",
       "theme": "Insect Explorer",
       "targetLines": 52,
-      "lyricWordCount": 864,
+      "lyricWordCount": 916,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -188,9 +196,12 @@
         "A",
         "E",
         "I",
+        "K",
         "M",
         "Q",
+        "S",
         "U",
+        "W",
         "Y"
       ],
       "sectionForm": {
@@ -212,7 +223,7 @@
       "songId": "0066",
       "theme": "Bird World",
       "targetLines": 52,
-      "lyricWordCount": 843,
+      "lyricWordCount": 955,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -223,12 +234,15 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
+        "G",
         "I",
         "K",
         "M",
         "Q",
         "U",
+        "W",
         "Y"
       ],
       "sectionForm": {
@@ -250,7 +264,7 @@
       "songId": "0067",
       "theme": "Feathers & Nests",
       "targetLines": 52,
-      "lyricWordCount": 873,
+      "lyricWordCount": 968,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -260,12 +274,14 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
         "I",
         "M",
         "O",
         "Q",
         "U",
+        "W",
         "Y"
       ],
       "sectionForm": {
@@ -288,7 +304,7 @@
       "songId": "0068",
       "theme": "Backyard Birds",
       "targetLines": 52,
-      "lyricWordCount": 872,
+      "lyricWordCount": 976,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -299,7 +315,9 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
+        "G",
         "I",
         "K",
         "M",
@@ -328,7 +346,7 @@
       "songId": "0069",
       "theme": "Water & Land Birds",
       "targetLines": 52,
-      "lyricWordCount": 879,
+      "lyricWordCount": 961,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -339,12 +357,16 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
+        "G",
         "I",
         "K",
         "M",
         "Q",
+        "S",
         "U",
+        "W",
         "Y"
       ],
       "sectionForm": {
@@ -366,7 +388,7 @@
       "songId": "0070",
       "theme": "Birdwatching",
       "targetLines": 52,
-      "lyricWordCount": 895,
+      "lyricWordCount": 984,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -377,12 +399,14 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
         "I",
         "K",
         "M",
         "O",
         "Q",
+        "S",
         "U",
         "Y"
       ],

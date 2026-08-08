@@ -11,9 +11,9 @@
   "uniqueStyles": 10,
   "uniqueSectionForms": 7,
   "uniqueCreativeFingerprints": 10,
-  "maxLyricSimilarity": 0.0784,
+  "maxLyricSimilarity": 0.1156,
   "mostSimilarPair": [
-    "0076",
+    "0077",
     "0079"
   ],
   "batchWarnings": [],
@@ -22,7 +22,7 @@
       "songId": "0071",
       "theme": "Pet Care",
       "targetLines": 52,
-      "lyricWordCount": 989,
+      "lyricWordCount": 963,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -34,9 +34,12 @@
       "rhymeBearingRound1": [
         "A",
         "E",
+        "G",
         "I",
+        "K",
         "M",
         "Q",
+        "S",
         "U",
         "W",
         "Y"
@@ -61,7 +64,7 @@
       "songId": "0072",
       "theme": "Home Pets",
       "targetLines": 52,
-      "lyricWordCount": 935,
+      "lyricWordCount": 937,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -77,6 +80,7 @@
         "I",
         "M",
         "Q",
+        "S",
         "U",
         "W",
         "Y"
@@ -100,7 +104,7 @@
       "songId": "0073",
       "theme": "Pet Playtime",
       "targetLines": 52,
-      "lyricWordCount": 971,
+      "lyricWordCount": 955,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -111,10 +115,14 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
+        "G",
         "I",
+        "K",
         "M",
         "Q",
+        "S",
         "U",
         "Y"
       ],
@@ -137,7 +145,7 @@
       "songId": "0074",
       "theme": "Small Animal Friends",
       "targetLines": 52,
-      "lyricWordCount": 950,
+      "lyricWordCount": 941,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -147,8 +155,11 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
+        "G",
         "I",
+        "K",
         "M",
         "Q",
         "U",
@@ -175,7 +186,7 @@
       "songId": "0075",
       "theme": "Pet Shop Day",
       "targetLines": 52,
-      "lyricWordCount": 988,
+      "lyricWordCount": 971,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -186,8 +197,10 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "C",
         "E",
         "I",
+        "K",
         "M",
         "Q",
         "U",
@@ -213,7 +226,7 @@
       "songId": "0076",
       "theme": "Zoo Animals",
       "targetLines": 52,
-      "lyricWordCount": 919,
+      "lyricWordCount": 949,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -250,7 +263,7 @@
       "songId": "0077",
       "theme": "Safari Wildlife",
       "targetLines": 52,
-      "lyricWordCount": 925,
+      "lyricWordCount": 959,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -289,7 +302,7 @@
       "songId": "0078",
       "theme": "Animal Habitats",
       "targetLines": 52,
-      "lyricWordCount": 927,
+      "lyricWordCount": 978,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -328,7 +341,7 @@
       "songId": "0079",
       "theme": "Wild Animal World",
       "targetLines": 52,
-      "lyricWordCount": 838,
+      "lyricWordCount": 897,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -366,7 +379,7 @@
       "songId": "0080",
       "theme": "Zoo Explorer",
       "targetLines": 52,
-      "lyricWordCount": 881,
+      "lyricWordCount": 904,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [

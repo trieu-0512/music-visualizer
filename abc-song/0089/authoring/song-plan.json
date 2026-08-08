@@ -38,9 +38,9 @@
     "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
     "grooveMeter": "light swung 4/4",
     "round1Grammar": "Round 1 names foods and object jobs from pictures. Hot, sharp or powered equipment is described, never operated by the child.",
-    "round2Grammar": "Round 2 is picture recall only: safe foods may get shape motions, while hot, sharp or powered tools get pointing or empty-hand mime only.",
-    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: muted woodblock, cup-tap or marimba answer; no appliance noise under vocals.",
-    "signatureColor": "muted woodblock, cup-tap or marimba answer; no appliance noise under vocals",
+    "round2Grammar": "Round 2 is picture recall only and object-conditioned: foods show shape, peel, grid, ring, strands, or portions; bowls/cups/jars/trays make container shapes; spoons/ladles/forks/tongs/whisks show empty-hand silhouettes; drawers open in the air; timers trace a dial; cookie cutters trace an outline. Hot, sharp, or powered tools remain point-only or empty-hand mime while a grown-up handles the real item.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a warm guitar pluck plus soft hand-clap confirmation after the target.",
+    "signatureColor": "a warm guitar pluck plus soft hand-clap confirmation after the target",
     "chorusAfterRound1": [
       3,
       7
@@ -58,7 +58,7 @@
     "total": 26
   },
   "rhymeCraftCoverage": {
-    "available": 8,
+    "available": 9,
     "usedRound1": 8,
     "total": 26
   },

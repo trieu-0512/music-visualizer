@@ -38,9 +38,9 @@
     "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
     "grooveMeter": "elastic 4/4 bounce",
     "round1Grammar": "Round 1 alternates stomp-sized short entries with longer fossil or body-shape clues; do not call every prehistoric animal a dinosaur when it is a pterosaur or marine reptile.",
-    "round2Grammar": "Round 2 uses footprint-sized recall gaps and safe stomp, trace, tail or fossil-brush pantomime after the answer.",
-    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: low soft tom footprint plus wooden click, never a scary roar over the word.",
-    "signatureColor": "low soft tom footprint plus wooden click, never a scary roar over the word",
+    "round2Grammar": "Round 2 uses footprint-sized recall gaps followed by object-conditioned morphology gestures: plates, armor, horns, crests, long necks, sickle claws, pterosaur wings, marine swimming, nest/fossil shapes, or body-size silhouettes. Use a plain trace/stomp only when no clearer clue exists.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a low soft tom footprint followed by one dry woodblock click.",
+    "signatureColor": "a low soft tom footprint followed by one dry woodblock click",
     "chorusAfterRound1": [
       3,
       5
@@ -57,8 +57,8 @@
     "total": 26
   },
   "rhymeCraftCoverage": {
-    "available": 10,
-    "usedRound1": 8,
+    "available": 16,
+    "usedRound1": 11,
     "total": 26
   },
   "status": "READY_FOR_L0_VALIDATION"

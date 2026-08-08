@@ -38,9 +38,9 @@
     "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
     "grooveMeter": "story-song 3/4-to-4/4 feel",
     "round1Grammar": "Round 1 distinguishes amphibians, snakes, turtles, crocodilians and lizards with visible clues; dangerous species are picture-only observations.",
-    "round2Grammar": "Round 2 uses one to two beats of recall and a picture-trace, hop, swim or low-glide gesture; dangerous animals remain hands-off.",
-    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: soft woodblock/plop accent after the word, no alarming hiss bed.",
-    "signatureColor": "soft woodblock/plop accent after the word, no alarming hiss bed",
+    "round2Grammar": "Round 2 uses one to two beats of recall and group-specific picture gestures: frogs hop and show webbed feet or eyes; newts and salamanders show tail-swim or external gills; snakes use S-curves plus hood, rattle, or coil when relevant; turtles show shell; crocodilians show armored back and tail; lizards show toe pads, frill, horns, casque, spiny tail, scales, or long tail. Dangerous animals remain hands-off and picture-only.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a museum woodblock click followed by one warm marimba exhibit note.",
+    "signatureColor": "a museum woodblock click followed by one warm marimba exhibit note",
     "chorusAfterRound1": [
       2,
       4,
@@ -58,8 +58,8 @@
     "total": 26
   },
   "rhymeCraftCoverage": {
-    "available": 8,
-    "usedRound1": 7,
+    "available": 14,
+    "usedRound1": 8,
     "total": 26
   },
   "status": "READY_FOR_L0_VALIDATION"
