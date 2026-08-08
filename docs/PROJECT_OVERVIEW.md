@@ -12,7 +12,7 @@ transcribe/analyze/render bang worker.
 - `shared/`: JSON schema, type TypeScript, validator va startup config.
 - `backend/`: Express API cho project, import folder, asset, artifact, config va
   job queue.
-- `workers/`: Python Audio Worker cho transcription, lyric alignment, SRT va
+- `workers/`: Python Worker cho `prepare-assets`/segmentation adapter, transcription, lyric alignment, SRT va
   audio analysis.
 - `remotion/`: Remotion composition, template, headless render va render worker.
 - `frontend/`: React + Vite web app cho load folder, preview, jobs va download
@@ -47,11 +47,11 @@ npm run render:remotion -- storage/projects/project-0001-render --target landsca
 4. Bam `Check` tren mot thu muc bai hat.
 5. App hien file da nhan dien, danh sach file thieu, va metadata co the sua.
 6. Bam `Load selected song` de tao project neu du file bat buoc.
-7. Vao `Jobs` de chay:
-   - `Transcribe`: tao `lyrics.json`, `lyrics.srt`, `whisperx.json`.
-   - `Analyze`: tao `audio-analysis.json`.
-   - `Build config`: tao `project-config.json`.
-   - `Render`: tao video MP4.
+7. Vao `Jobs`; binh thuong bam `Run full pipeline`:
+   - theme-first: `Prepare ABC assets` -> `Transcribe + Analyze` (parallel) -> `Build config` -> `Render`;
+   - legacy: bo qua prepare-assets, sau do cung chay `Transcribe + Analyze` -> `Build config` -> `Render`.
+   - cac nut tung stage van giu de debug/local repair.
+   - `Transcribe` tao `lyrics.json`, `lyrics.srt`, `whisperx.json`; neu co mapping thi learning line mang explicit `letter` + `object`.
 
 Neu folder da co san `artifacts/lyrics.json` va `artifacts/audio-analysis.json`,
 backend se build `project-config.json` ngay trong luc import.
@@ -96,30 +96,54 @@ nhac-thieu-nhi/
 
 Backend se tu chuan hoa ca hai dang ve layout noi bo `assets/...`.
 
-## File bat buoc trong moi bai hat
+## File bat buoc va hai asset mode
+
+Core moi bai:
 
 - `assets/audio.mp3` hoac `assets/audio.wav`
 - `assets/background.png|jpg|jpeg|webp`
 - `assets/song-logo.png|svg`
 - `assets/channel-logo.png|svg`
-- `assets/letters/A.svg` den `assets/letters/Z.svg`
 
-Neu file dat truc tiep trong thu muc bai hat, app cung nhan cac ten tuong duong
-nhu `audio.wav`, `0001.mp3`, `background.png`, `song-logo.svg`,
-`channel-logo.svg`, `0001_lyrics.md`, va `A.svg` den `Z.svg`.
+### Legacy mode
 
-Moi file chu cai A-Z nen la SVG nen trong suot, gom chu cai va object minh hoa.
-Ung dung hien check thieu/du theo ten file; viec kiem tra noi dung SVG la trach
-nhiem cua nguoi tao asset.
+Khong co `authoring/mapping.json`: can processed `assets/letters/A..Z` (SVG/PNG/WebP).
+
+### Theme-first mode
+
+Co `authoring/mapping.json`: import co the bat dau voi 26 raw images:
+
+```text
+assets/source-images/A.png
+...
+assets/source-images/Z.png
+```
+
+hoac processed assets co san. Job `prepare-assets` chuan hoa ket qua thanh:
+
+```text
+assets/letters/A.png
+assets/objects/A.png
+...
+assets/letters/Z.png
+assets/objects/Z.png
+```
+
+Project theme-first chi render-ready khi du 26 processed letters + 26 processed objects. Letter va object la hai layer rieng; object label/lyric do Remotion render bang controlled text. Chi tiet: `docs/ABC_SONG_PIPELINE.md`.
 
 ## File tuy chon
 
 - `assets/original-lyrics.txt`, `assets/original-lyrics.json`, hoac `assets/original-lyrics.md`
+  - day la display/alignment lyrics, khong phai Suno generation prompt;
+  - chi de cac dong lyric thuc su duoc hat/hien thi; khong chen Markdown title, `[Verse]`, `[Chorus]`, performance cue hay production instruction;
+  - worker MVP hien ghep original lyric voi transcription theo thu tu/segment; production ABC phai verify count/timing sau transcribe, hoac import `artifacts/lyrics.json` da align/verify khi can timing chinh xac.
 - `metadata.json` hoac `project.json`
 - `artifacts/lyrics.json`
 - `artifacts/audio-analysis.json`
-- `<ma_bai>_prompt_gen.txt`: file JSONL chua prompt tao visual asset cho tung
-  chu cai, background va song logo.
+- `authoring/mapping.json`: canonical theme-first A-Z object mapping.
+- `authoring/generation-lyrics.txt`, `display-lyrics.txt`, `style-prompt.txt`, `object-prompts.json`: agent-authored dependent package sau Mapping Lock.
+- `assets/source-images/A..Z.*`: raw generated images cho segmentation.
+- `assets/objects/A..Z.*`: processed object assets.
 
 ## Quy tac tao prompt visual
 
@@ -135,9 +159,9 @@ Quy uoc id:
 
 Quy tac foreground A-Z:
 
-- Lay cap chu cai/object tu block `Object set:` trong `<ma_bai>_prompt.md`.
-- Anh foreground chi gom chu cai ben trai, object ben phai va label object ben
-  duoi object.
+- Lay cap chu cai/object truc tiep tu `authoring/mapping.json` da `LOCKED`; khong reverse-engineer object tu lyric.
+- Raw foreground generated co the gom target capital letter ben trai va object ben phai de segmentation model tach thanh hai processed assets; khong bake object label vao asset.
+- Object label, lyric, title/artist neu can do Remotion/compositor render tu du lieu da kiem soat.
 - Khong co background, phong hoc, tuong, san, khung, nguoi, watermark hay chu
   phu.
 - Moi prompt foreground chi dung invisible placement/safe area. Prompt phai noi
@@ -147,14 +171,12 @@ Quy tac foreground A-Z:
   lines, no bounding box, no checkerboard pattern, no classroom scene, no floor,
   no wall, no scenery, no extra text, no watermark.`
 - Neu dung Google Flow voi nen chroma green `#00FF00`, prompt foreground phai
-  noi ngan gon rang mau chu cai, object va label khac ro mau nen chroma green.
+  noi ngan gon rang mau chu cai va object khac ro mau nen chroma green.
 - Prompt phai khoa layout bang invisible placement area de render video on
   dinh: canvas `2048x1152`, letter area `x=180..760 y=245..825`, object area
-  `x=1110..1810 y=180..760`, label text area `x=1040..1880 y=800..930`, gutter
+  `x=1110..1810 y=180..760`, gutter
   `x=820..1030`. Tranh cac cum nhu `fixed box`, `inside x=...`, hoac
   `do not exceed the box`.
-- Chu cai trong label trung voi chu cai lon dung cung mau voi chu cai lon; cac
-  chu con lai dung mau khac de de doc.
 
 Prompt background la anh nen binh thuong, tach rieng voi foreground. No phai
 hop chu de bai hat va chua khoang trong cho info box, channel logo, foreground

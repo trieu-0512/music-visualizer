@@ -16,7 +16,7 @@
 
 Music Visualizer is a **local-first monorepo** that turns a song folder (audio + visual assets) into lyric-synchronized, audio-reactive MP4s. The production path is:
 
-**Import folder → Transcribe → Analyze → Build config → Render** (up to six 60fps MP4s).
+**Legacy:** Import folder → Transcribe → Analyze → Build config → Render. **Theme-first ABC extension:** Import folder → Prepare ABC assets → Transcribe → Analyze → Build config → Render (see `docs/ABC_SONG_PIPELINE.md`).
 
 The system is already usable: workspaces (`shared/`, `backend/`, `workers/`, `remotion/`, `frontend/`), path-traversal-safe `AssetStore`, shared JSON schemas, injectable seams, and property tests exist. This design does **not** propose a rewrite. It proposes an **evolutionary upgrade** that:
 
@@ -36,7 +36,7 @@ Target operator profile: single-machine content ops for kids’ music videos; Wi
 music-visualizer/
   shared/     # schemas, TS types, validators, startup config
   backend/    # Express API + FileJobQueue + LocalAssetStore + ProjectService
-  workers/    # Python Audio_Worker (transcribe, analyze)
+  workers/    # Python worker (prepare-assets, transcribe, analyze)
   remotion/   # Remotion compositions + render worker (claim render jobs)
   frontend/   # React + Vite Web_App
   config/     # default.json → storage + queue backends

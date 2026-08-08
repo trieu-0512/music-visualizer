@@ -57,6 +57,8 @@ const REQUIRED_ARTIFACTS = [
 const ASSETS_PREFIX = "assets/";
 /** Subprefix under which the 26 `Letter_Asset` SVGs live. */
 const LETTERS_PREFIX = "assets/letters/";
+const OBJECTS_PREFIX = "assets/objects/";
+const LEARNING_MAP_PATH = "authoring/mapping.json";
 /** Standardized location of the generated config artifact. */
 const CONFIG_PATH = "artifacts/project-config.json";
 
@@ -82,14 +84,17 @@ export async function buildConfig(
   // List once; resolve concrete asset paths tolerant of the stored extension.
   const assetPaths = await store.list(projectId, ASSETS_PREFIX);
   const topLevelAssets = indexTopLevelAssets(assetPaths);
-  const presentPaths = new Set(assetPaths);
+  const letterAssets = indexKeyedAssets(assetPaths, LETTERS_PREFIX);
+  const objectAssets = indexKeyedAssets(assetPaths, OBJECTS_PREFIX);
+  const hasLearningMap = await store.exists({ projectId, relativePath: LEARNING_MAP_PATH });
 
   const missing: string[] = [];
   for (const role of REQUIRED_ASSETS) {
     if (!topLevelAssets.has(ASSET_FILE_STEMS[role])) missing.push(role);
   }
   for (const letter of REQUIRED_LETTERS) {
-    if (!presentPaths.has(letterPath(letter))) missing.push(`letter:${letter}`);
+    if (!letterAssets.has(letter)) missing.push(`letter:${letter}`);
+    if (hasLearningMap && !objectAssets.has(letter)) missing.push(`object:${letter}`);
   }
   for (const artifact of REQUIRED_ARTIFACTS) {
     if (!(await store.exists({ projectId, relativePath: artifact }))) {
@@ -111,7 +116,7 @@ export async function buildConfig(
     projectId,
     metadata: { songName: project.songName, singerName: project.singerName }, // Req 7.5
     videoFormat: project.videoFormat, // Req 7.4
-    assets: collectAssetPaths(topLevelAssets), // Req 7.2
+    assets: collectAssetPaths(topLevelAssets, letterAssets, hasLearningMap ? objectAssets : undefined), // Req 7.2
     artifacts: {
       lyrics: REQUIRED_ARTIFACTS[0],
       audioAnalysis: REQUIRED_ARTIFACTS[1],
@@ -142,15 +147,36 @@ function indexTopLevelAssets(assetPaths: string[]): Map<string, string> {
   return byStem;
 }
 
+
+/** Index processed A-Z assets under a dedicated subtree, regardless of extension. */
+function indexKeyedAssets(assetPaths: string[], prefix: string): Map<string, string> {
+  const byKey = new Map<string, string>();
+  for (const relativePath of assetPaths) {
+    if (!relativePath.startsWith(prefix)) continue;
+    const name = relativePath.slice(prefix.length);
+    if (name.length === 0 || name.includes("/")) continue;
+    const dot = name.lastIndexOf(".");
+    const key = (dot <= 0 ? name : name.slice(0, dot)).toUpperCase();
+    if (/^[A-Z]$/.test(key) && !byKey.has(key)) byKey.set(key, relativePath);
+  }
+  return byKey;
+}
+
 /**
  * Assemble {@link AssetPaths} from the resolved top-level asset index plus the
  * 26 letter paths keyed A–Z (Req 7.2). Callers must have verified presence; the
  * required stems are guaranteed to be indexed here.
  */
-function collectAssetPaths(topLevelAssets: Map<string, string>): AssetPaths {
+function collectAssetPaths(
+  topLevelAssets: Map<string, string>,
+  letterAssets: Map<string, string>,
+  objectAssets?: Map<string, string>,
+): AssetPaths {
   const letters: Record<string, string> = {};
+  const objects: Record<string, string> = {};
   for (const letter of REQUIRED_LETTERS) {
-    letters[letter] = letterPath(letter);
+    letters[letter] = letterAssets.get(letter)!;
+    if (objectAssets?.has(letter)) objects[letter] = objectAssets.get(letter)!;
   }
   return {
     background: topLevelAssets.get(ASSET_FILE_STEMS.background)!,
@@ -158,6 +184,7 @@ function collectAssetPaths(topLevelAssets: Map<string, string>): AssetPaths {
     channelLogo: topLevelAssets.get(ASSET_FILE_STEMS.channelLogo)!,
     audio: topLevelAssets.get(ASSET_FILE_STEMS.audio)!,
     letters,
+    ...(objectAssets ? { objects } : {}),
   };
 }
 

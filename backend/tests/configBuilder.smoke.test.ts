@@ -97,6 +97,52 @@ describe("buildConfig (Req 7)", () => {
     expect(validateProjectConfig(JSON.parse(written.toString("utf-8"))).ok).toBe(true);
   });
 
+  it("includes processed object assets when a theme-first mapping exists", async () => {
+    await seedComplete(store, PROJECT.projectId);
+    await store.write(
+      { projectId: PROJECT.projectId, relativePath: "authoring/mapping.json" },
+      Buffer.from("{}"),
+    );
+    for (const letter of LETTERS) {
+      await store.write(
+        { projectId: PROJECT.projectId, relativePath: `assets/objects/${letter}.png` },
+        Buffer.from(`object-${letter}`),
+      );
+    }
+    // New projects may use transparent PNG letters instead of legacy SVG.
+    await store.delete({ projectId: PROJECT.projectId, relativePath: "assets/letters/A.svg" });
+    await store.write(
+      { projectId: PROJECT.projectId, relativePath: "assets/letters/A.png" },
+      Buffer.from("letter-A"),
+    );
+
+    const result = await buildConfig(PROJECT.projectId, store, PROJECT);
+    expect(result.ok).toBe(true);
+    if (!result.ok) return;
+    expect(result.value.assets.letters.A).toBe("assets/letters/A.png");
+    expect(Object.keys(result.value.assets.objects ?? {})).toHaveLength(26);
+    expect(result.value.assets.objects?.A).toBe("assets/objects/A.png");
+    expect(validateProjectConfig(result.value).ok).toBe(true);
+  });
+
+  it("requires processed object assets when a theme-first mapping exists", async () => {
+    await seedComplete(store, PROJECT.projectId);
+    await store.write(
+      { projectId: PROJECT.projectId, relativePath: "authoring/mapping.json" },
+      Buffer.from("{}"),
+    );
+    for (const letter of LETTERS.filter((value) => value !== "Q")) {
+      await store.write(
+        { projectId: PROJECT.projectId, relativePath: `assets/objects/${letter}.png` },
+        Buffer.from(`object-${letter}`),
+      );
+    }
+    const result = await buildConfig(PROJECT.projectId, store, PROJECT);
+    expect(result.ok).toBe(false);
+    if (result.ok) return;
+    expect((result.error.details?.missing ?? []) as string[]).toContain("object:Q");
+  });
+
   it("selects the portrait template for portrait projects (Req 7.3)", async () => {
     await seedComplete(store, PROJECT.projectId);
     const result = await buildConfig(PROJECT.projectId, store, {

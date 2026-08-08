@@ -1,13 +1,13 @@
 # Bitwize Music Skills (installed in-repo)
 
-Upstream: [bitwize-music-studio/claude-ai-music-skills](https://github.com/bitwize-music-studio/claude-ai-music-skills) (v0.99.0, CC0).
+Upstream: [bitwize-music-studio/claude-ai-music-skills](https://github.com/bitwize-music-studio/claude-ai-music-skills). Installed vendored copy: **v0.99.0** (CC0). Audit note (2026-08-08): upstream `main` reports **v0.101.0**; treat a bulk refresh as a separate maintenance change and rerun project-local ABC routing/regression checks afterward.
 
 ## Layout
 
 ```text
 .grok/plugins/bitwize-music/   # plugin root (skills, genres, reference, tools, MCP)
 .grok/skills/music-production/ # Grok entry skill → routes to plugin
-.claude/skills/                # 53 skills for Claude/Grok discovery
+.claude/skills/                # vendored Bitwize skills + project-local abc-kids-music-composer
 ```
 
 Tests suite from upstream was **not** vendored (keeps the monorepo small). Everything else needed for production workflows is present.
@@ -16,7 +16,8 @@ Tests suite from upstream was **not** vendored (keeps the monorepo small). Every
 
 - **Plugin**: `.grok/plugins/bitwize-music` (project plugin; trust if prompted).
 - **Skills**: `.claude/skills/*` and plugin `skills/*`.
-- **Entry**: `/music-production` or describe lyric/Suno/album tasks (auto-route via description).
+- **Generic entry**: `/music-production` or describe lyric/Suno/album tasks.
+- **Preschool ABC entry**: `abc-kids-music-composer` for ABC, phonics, letter-word vocabulary, and ages-2–6 educational songs. Its project-specific pedagogy/readiness rules take precedence over generic Bitwize adult/streaming lyric limits.
 
 Reload plugins/skills after pull (`/plugins` → `r`, or restart TUI).
 
@@ -48,6 +49,14 @@ Mastering / browser tools may still need system FFmpeg (already used by the visu
 ## Configure workspace
 
 Run the `configure` skill (or set paths manually) so album/track templates land where you want (e.g. a `music/` or `albums/` folder next to the visualizer).
+
+## Project-local preschool override
+
+`ABC_KIDS_MUSIC_VISUAL_GENERATION_METHOD.md` and `.claude/skills/abc-kids-music-composer/` form a project-local specialization layered on top of Bitwize. Generic Bitwize skills remain useful for pronunciation, current Suno capabilities, prompt craft, and production, but must not override the ABC composer's objective-aware word-count, rhyme, section, melody, retrieval, or validation rules.
+
+The bundled Learning Block / Section manifests and schemas are currently **authoring contracts**, not app runtime artifacts. Runtime contracts remain under `shared/src/schema/` until an explicit integration is implemented.
+
+The vendored Bitwize copy may lag upstream. Update it as a separate maintenance task and rerun the ABC routing/conflict/regression audit after any bulk refresh so upstream generic rules do not silently regain precedence.
 
 ## Relation to music-visualizer
 

@@ -23,6 +23,7 @@ each line start <= end; words (when present) ordered by ascending start and with
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass
 from typing import Any, Optional
 
@@ -38,6 +39,7 @@ __all__ = [
     "pick_letter",
     "parse_original_lyrics",
     "load_original_lyrics",
+    "load_learning_map",
 ]
 
 
@@ -48,7 +50,11 @@ class OriginalLyrics:
     lines: list[str]
 
 
-def build_lyrics(whisperx: dict, original: Optional[OriginalLyrics]) -> dict:
+def build_lyrics(
+    whisperx: dict,
+    original: Optional[OriginalLyrics],
+    learning_map: Optional[dict] = None,
+) -> dict:
     """Produce a lyrics.json-shaped dict from transcription + optional originals.
 
     When ``original`` is ``None`` the display text and timing both come from the
@@ -70,9 +76,18 @@ def build_lyrics(whisperx: dict, original: Optional[OriginalLyrics]) -> dict:
     for line in lines:
         line["start"], line["end"] = clamp_interval(line["start"], line["end"])  # Req 4.7
         line["line1"], line["line2"] = split_two_lines(line["text"])  # Req 4.4
-        letter = pick_letter(line["text"])  # centered Letter_Asset key
+        # Route a centered learning-letter asset only when the lyric line
+        # explicitly begins with an isolated A-Z letter token. This prevents
+        # chorus/narration lines from being misclassified by their first word.
+        letter = pick_letter(line["text"])
         if letter is not None:
             line["letter"] = letter
+            if learning_map is not None:
+                entry = (learning_map.get("letters") or {}).get(letter)
+                if isinstance(entry, dict) and isinstance(entry.get("object"), str):
+                    object_name = entry["object"].strip()
+                    if object_name:
+                        line["object"] = object_name
         if "words" in line:  # Req 4.5 keep word timing within the (clamped) line bounds
             line["words"] = clamp_words(line["words"], line["start"], line["end"])
 
@@ -179,16 +194,28 @@ def split_two_lines(text: str) -> tuple[str, str]:
 
 
 def pick_letter(text: str) -> Optional[str]:
-    """Resolve the centered Letter_Asset key: the first A-Z letter, uppercased.
+    """Resolve an explicit A-Z learning-letter token at the start of a line.
 
-    Only the 26 ASCII letters A-Z have Letter_Assets, so the first such character
-    in the line is chosen. Returns ``None`` when the line contains no A-Z letter,
-    in which case ``build_lyrics`` omits the optional ``letter`` field.
+    ABC learning lines are authored to begin with a standalone target letter,
+    for example ``A is for apple`` or ``A ... A ... apple``. Requiring that
+    isolated leading token prevents ordinary chorus/narration lines such as
+    ``Say it! Show it! A-B-C!`` from incorrectly selecting ``S`` as the centered
+    learning asset.
+
+    Returns ``None`` when the first non-space token is not exactly one ASCII
+    letter A-Z. Punctuation immediately after the letter is allowed.
     """
-    for ch in text:
-        if "a" <= ch <= "z" or "A" <= ch <= "Z":
-            return ch.upper()
-    return None
+    stripped = text.lstrip()
+    if not stripped:
+        return None
+    first = stripped[0]
+    if not ("a" <= first <= "z" or "A" <= first <= "Z"):
+        return None
+    if len(stripped) > 1 and not (
+        stripped[1].isspace() or stripped[1] in ".,!?;:…"
+    ):
+        return None
+    return first.upper()
 
 
 def parse_original_lyrics(raw: str, *, is_json: bool = False) -> OriginalLyrics:
@@ -212,8 +239,44 @@ def parse_original_lyrics(raw: str, *, is_json: bool = False) -> OriginalLyrics:
     else:
         lines = raw.splitlines()
 
-    cleaned = [line.strip() for line in lines if line and line.strip()]
+    cleaned = [
+        line.strip()
+        for line in lines
+        if line and line.strip() and not is_non_lyric_marker(line.strip())
+    ]
     return OriginalLyrics(lines=cleaned)
+
+
+_SECTION_TAG_RE = re.compile(
+    r"^\[(?:final\s+)?(?:intro\b|verse\b|pre[- ]?chorus\b|chorus\b|post[- ]?chorus\b|"
+    r"refrain\b|bridge\b|outro\b|hook\b|interlude\b|instrumental\b|"
+    r"break\b|end\b)[^\]]*\]$",
+    re.IGNORECASE,
+)
+
+
+def is_non_lyric_marker(line: str) -> bool:
+    """Return True for common Markdown/Suno structure lines, not sung content."""
+    stripped = line.strip()
+    if not stripped:
+        return True
+    if stripped.startswith("#") or stripped.startswith("```"):
+        return True
+    return _SECTION_TAG_RE.fullmatch(stripped) is not None
+
+
+def load_learning_map(store: Any, project_id: str) -> Optional[dict]:
+    """Load and validate ``authoring/mapping.json`` when present."""
+    try:
+        raw = store.read_json(project_id, "authoring/mapping.json")
+    except Exception:
+        return None
+    if not isinstance(raw, dict):
+        raise ValueError("authoring/mapping.json must be a JSON object")
+    from src.validate_artifacts import validate_learning_map_payload
+
+    validate_learning_map_payload(raw)
+    return raw
 
 
 def load_original_lyrics(store: Any, project_id: str) -> Optional[OriginalLyrics]:

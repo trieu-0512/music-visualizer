@@ -44,10 +44,12 @@ describe("AssetsPage", () => {
     render(<AssetsPage context={context} />);
     await waitFor(() => expect(getReadiness).toHaveBeenCalled());
 
-    // 5 primary roles + 26 letters = 31 file inputs.
+    // 6 primary roles + 26 processed letters + 26 objects + 26 raw sources.
     const inputs = screen.getAllByLabelText(/Upload /);
-    expect(inputs).toHaveLength(31);
+    expect(inputs).toHaveLength(84);
     expect(screen.getByLabelText("Upload Letter Z")).toBeInTheDocument();
+    expect(screen.getByLabelText("Upload Object Z")).toBeInTheDocument();
+    expect(screen.getByLabelText("Upload Source Z")).toBeInTheDocument();
   });
 
   it("uploads a selected file and refreshes readiness to reflect the new asset", async () => {

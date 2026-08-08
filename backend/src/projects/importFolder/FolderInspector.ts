@@ -8,18 +8,23 @@ import type { InspectedFolder } from "./types.js";
  * (Architecture Upgrade PR-12). No storage or project creation side effects.
  */
 
-const REQUIRED_ASSET_ROLES = [
-  "audio",
-  "background",
-  "songLogo",
-  "channelLogo",
-  ...Array.from({ length: 26 }, (_, i) => `letter:${String.fromCharCode(65 + i)}`),
-] as const;
-
+const LETTERS = Array.from({ length: 26 }, (_, i) => String.fromCharCode(65 + i));
+const CORE_REQUIRED_ASSET_ROLES = ["audio", "background", "songLogo", "channelLogo"] as const;
+const LEGACY_LETTER_ROLES = LETTERS.map((letter) => `letter:${letter}`);
 const OPTIONAL_ASSET_ROLES = ["originalLyrics"] as const;
+const AUTHORING_FILE_NAMES = new Set([
+  "generation-lyrics.txt",
+  "display-lyrics.txt",
+  "style-prompt.txt",
+  "exclude-styles.txt",
+  "object-prompts.json",
+  "learning-blocks.json",
+  "sections.json",
+]);
 
 export const REQUIRED_IMPORT_PATHS = [
-  ...REQUIRED_ASSET_ROLES.flatMap((role) => candidatePaths(role)),
+  ...CORE_REQUIRED_ASSET_ROLES.flatMap((role) => candidatePaths(role)),
+  ...LEGACY_LETTER_ROLES.flatMap((role) => candidatePaths(role)),
 ] as const;
 
 export function inspectFolder(
@@ -38,14 +43,39 @@ export function inspectFolder(
   });
 
   const assets = new Map<string, Express.Multer.File>();
+  const authoringFiles = new Map<string, Express.Multer.File>();
   const missing: string[] = [];
+  const mappingFile = byPath.get("authoring/mapping.json");
+  for (const [relativePath, file] of byPath) {
+    if (relativePath.startsWith("authoring/") && relativePath !== "authoring/mapping.json") {
+      authoringFiles.set(relativePath, file);
+    }
+  }
 
-  for (const role of REQUIRED_ASSET_ROLES) {
+  for (const role of CORE_REQUIRED_ASSET_ROLES) {
     const match = firstPresent(byPath, candidatePaths(role));
-    if (match === null) {
-      missing.push(role);
-    } else {
-      assets.set(match.relativePath, match.file);
+    if (match === null) missing.push(role);
+    else assets.set(match.relativePath, match.file);
+  }
+
+  for (const letter of LETTERS) {
+    const letterMatch = firstPresent(byPath, candidatePaths(`letter:${letter}`));
+    const objectMatch = firstPresent(byPath, candidatePaths(`object:${letter}`));
+    const sourceMatch = firstPresent(byPath, candidatePaths(`source:${letter}`));
+    for (const match of [letterMatch, objectMatch, sourceMatch]) {
+      if (match !== null) assets.set(match.relativePath, match.file);
+    }
+
+    if (mappingFile) {
+      // Theme-first import may arrive with raw combined images only. The
+      // prepare-assets worker will derive processed letter + object assets.
+      if ((letterMatch === null || objectMatch === null) && sourceMatch === null) {
+        missing.push(`source:${letter}`);
+      }
+    } else if (letterMatch === null) {
+      // Legacy projects have no mapping/segmentation stage and still require
+      // one processed letter asset per A-Z key.
+      missing.push(`letter:${letter}`);
     }
   }
 
@@ -64,6 +94,8 @@ export function inspectFolder(
       audioAnalysis: byPath.get("artifacts/audio-analysis.json"),
     },
     metadataFile: byPath.get("metadata.json") ?? byPath.get("project.json"),
+    mappingFile,
+    authoringFiles,
     missing,
   };
 }
@@ -91,10 +123,38 @@ export function normalizeFolderPath(
 
   const assetIndex = parts.lastIndexOf("assets");
   if (assetIndex >= 0) {
+    const assetSubdir = parts[assetIndex + 1];
+    const fileName = parts.at(-1);
+    if (
+      fileName &&
+      (assetSubdir === "letters" || assetSubdir === "objects" || assetSubdir === "source-images")
+    ) {
+      const kind =
+        assetSubdir === "letters" ? "letter" : assetSubdir === "objects" ? "object" : "source";
+      const keyedPath = looseKeyedPath(fileName, kind);
+      if (keyedPath !== null) {
+        return {
+          relativePath: keyedPath,
+          rootName: assetIndex > 0 ? parts[assetIndex - 1]! : null,
+        };
+      }
+    }
     return {
       relativePath: parts.slice(assetIndex).join("/"),
       rootName: assetIndex > 0 ? parts[assetIndex - 1]! : null,
     };
+  }
+
+  const authoringIndex = parts.lastIndexOf("authoring");
+  if (authoringIndex >= 0) {
+    const relative = parts.slice(authoringIndex).join("/");
+    const fileName = parts.at(-1) ?? "";
+    if (relative === "authoring/mapping.json" || AUTHORING_FILE_NAMES.has(fileName)) {
+      return {
+        relativePath: relative,
+        rootName: authoringIndex > 0 ? parts[authoringIndex - 1]! : null,
+      };
+    }
   }
 
   const artifactIndex = parts.lastIndexOf("artifacts");
@@ -106,6 +166,13 @@ export function normalizeFolderPath(
   }
 
   const last = parts.at(-1);
+  if (last === "mapping.json") {
+    return {
+      relativePath: "authoring/mapping.json",
+      rootName: parts.length > 1 ? parts.at(-2)! : null,
+    };
+  }
+
   if (last === "metadata.json" || last === "project.json") {
     return {
       relativePath: last,
@@ -113,13 +180,21 @@ export function normalizeFolderPath(
     };
   }
 
-  const lettersIndex = parts.lastIndexOf("letters");
-  if (lettersIndex >= 0 && last) {
-    const letterPath = looseLetterPath(last);
-    if (letterPath !== null) {
+  let keyedDir = -1;
+  for (let i = parts.length - 1; i >= 0; i -= 1) {
+    const part = parts[i];
+    if (part === "letters" || part === "objects" || part === "source-images") {
+      keyedDir = i;
+      break;
+    }
+  }
+  if (keyedDir >= 0 && last) {
+    const kind = parts[keyedDir] === "letters" ? "letter" : parts[keyedDir] === "objects" ? "object" : "source";
+    const keyedPath = looseKeyedPath(last, kind);
+    if (keyedPath !== null) {
       return {
-        relativePath: letterPath,
-        rootName: lettersIndex > 0 ? parts[lettersIndex - 1]! : null,
+        relativePath: keyedPath,
+        rootName: keyedDir > 0 ? parts[keyedDir - 1]! : null,
       };
     }
   }
@@ -184,11 +259,30 @@ function looseAssetPath(fileName: string): string | null {
 }
 
 function looseLetterPath(fileName: string): string | null {
+  return looseKeyedPath(fileName, "letter");
+}
+
+function looseKeyedPath(
+  fileName: string,
+  kind: "letter" | "object" | "source",
+): string | null {
   const parsed = parseLooseName(fileName);
-  if (parsed === null || parsed.ext !== ".svg" || !/^[a-z]$/.test(parsed.stem)) {
-    return null;
-  }
-  return `assets/letters/${parsed.stem.toUpperCase()}.svg`;
+  if (parsed === null) return null;
+  const keyMatch =
+    kind === "letter"
+      ? parsed.stem.match(/^([a-z])$/)
+      : parsed.stem.match(/^([a-z])(?:$|-)/);
+  const key = keyMatch?.[1];
+  if (!key) return null;
+  const accepted =
+    kind === "letter"
+      ? [".svg", ".png", ".webp"]
+      : kind === "object"
+        ? [".png", ".webp", ".svg"]
+        : [".png", ".jpg", ".jpeg", ".webp"];
+  if (!accepted.includes(parsed.ext)) return null;
+  const dir = kind === "letter" ? "letters" : kind === "object" ? "objects" : "source-images";
+  return `assets/${dir}/${key.toUpperCase()}${parsed.ext}`;
 }
 
 function parseLooseName(fileName: string): { stem: string; ext: string } | null {

@@ -41,6 +41,25 @@ describe("job endpoints smoke (Req 3, 6, 9, 12)", () => {
     await rm(jobsDir, { recursive: true, force: true });
   });
 
+  it("requires mapping before enqueueing prepare-assets and accepts it afterward", async () => {
+    const missing = await request(app)
+      .post(`/projects/${projectId}/jobs`)
+      .send({ type: "prepare-assets" });
+    expect(missing.status).toBe(409);
+    expect(missing.body.error.code).toBe("PRECONDITION_FAILED");
+
+    await store.write(
+      { projectId, relativePath: "authoring/mapping.json" },
+      Buffer.from("{}"),
+    );
+    const created = await request(app)
+      .post(`/projects/${projectId}/jobs`)
+      .send({ type: "prepare-assets" });
+    expect(created.status).toBe(201);
+    expect(created.body.type).toBe("prepare-assets");
+    expect(created.body.status).toBe("pending");
+  });
+
   it("enqueues a transcribe job once an Audio_Asset is stored (Req 3.1, 12.1)", async () => {
     await store.write({ projectId, relativePath: "assets/audio.mp3" }, Buffer.from("au"));
     const res = await request(app).post(`/projects/${projectId}/jobs`).send({ type: "transcribe" });

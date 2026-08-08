@@ -37,7 +37,10 @@ export const ROLE_RULES: Record<string, RoleRule> = {
   },
   songLogo: { exts: [".png", ".svg"], mimes: ["image/png", "image/svg+xml"] },
   channelLogo: { exts: [".png", ".svg"], mimes: ["image/png", "image/svg+xml"] },
-  letter: { exts: [".svg"], mimes: ["image/svg+xml"] }, // role "letter:A".."letter:Z"
+  learningMap: { exts: [".json"], mimes: ["application/json"] },
+  letter: { exts: [".svg", ".png", ".webp"], mimes: ["image/svg+xml", "image/png", "image/webp"] },
+  object: { exts: [".png", ".webp", ".svg"], mimes: ["image/png", "image/webp", "image/svg+xml"] },
+  source: { exts: [".png", ".jpg", ".jpeg", ".webp"], mimes: ["image/png", "image/jpeg", "image/webp"] },
 };
 
 /** The 26 letter keys A–Z (Req 2.1). */
@@ -65,6 +68,7 @@ const ROLE_STEMS: Record<string, string> = {
   background: "assets/background",
   songLogo: "assets/song-logo",
   channelLogo: "assets/channel-logo",
+  learningMap: "authoring/mapping",
 };
 
 /** A file received over multipart upload, abstracted from the HTTP layer. */
@@ -93,17 +97,33 @@ export interface ReadinessReport {
  * `letter` rule; every other role is its own base (design `baseRole`).
  */
 export function baseRole(role: string): string {
-  return role.startsWith("letter:") ? "letter" : role;
+  if (role.startsWith("letter:")) return "letter";
+  if (role.startsWith("object:")) return "object";
+  if (role.startsWith("source:")) return "source";
+  return role;
 }
 
 /**
  * Extract the A–Z key from a `letter:X` role, or `null` when the suffix is not
  * a single uppercase letter A–Z.
  */
-export function letterKey(role: string): string | null {
-  if (!role.startsWith("letter:")) return null;
-  const key = role.slice("letter:".length);
+function keyedRoleKey(role: string, prefix: "letter" | "object" | "source"): string | null {
+  const marker = `${prefix}:`;
+  if (!role.startsWith(marker)) return null;
+  const key = role.slice(marker.length);
   return /^[A-Z]$/.test(key) ? key : null;
+}
+
+export function letterKey(role: string): string | null {
+  return keyedRoleKey(role, "letter");
+}
+
+export function objectKey(role: string): string | null {
+  return keyedRoleKey(role, "object");
+}
+
+export function sourceKey(role: string): string | null {
+  return keyedRoleKey(role, "source");
 }
 
 /**
@@ -122,11 +142,12 @@ export function validateUpload(role: string, file: UploadedFile): void {
   if (rule === undefined) {
     throw validationError(`Unknown asset role: ${role}`, { role });
   }
-  if (base === "letter" && letterKey(role) === null) {
-    throw validationError(
-      `Letter role must be one of letter:A through letter:Z, got: ${role}`,
-      { role },
-    );
+  if (
+    (base === "letter" && letterKey(role) === null) ||
+    (base === "object" && objectKey(role) === null) ||
+    (base === "source" && sourceKey(role) === null)
+  ) {
+    throw validationError(`Keyed asset role must end in one uppercase A-Z key, got: ${role}`, { role });
   }
   const ext = extname(file.originalName).toLowerCase();
   const matches = rule.exts.includes(ext) && rule.mimes.includes(file.mimeType);
@@ -153,10 +174,11 @@ export function validateUpload(role: string, file: UploadedFile): void {
  */
 export function assetRelativePath(role: string, ext: string): string {
   const base = baseRole(role);
-  if (base === "letter") {
-    const key = letterKey(role);
-    if (key === null) throw validationError(`Invalid letter role: ${role}`, { role });
-    return `assets/letters/${key}.svg`;
+  if (base === "letter" || base === "object" || base === "source") {
+    const key = base === "letter" ? letterKey(role) : base === "object" ? objectKey(role) : sourceKey(role);
+    if (key === null) throw validationError(`Invalid keyed asset role: ${role}`, { role });
+    const dir = base === "letter" ? "letters" : base === "object" ? "objects" : "source-images";
+    return `assets/${dir}/${key}${ext.toLowerCase()}`;
   }
   const stem = ROLE_STEMS[base];
   if (stem === undefined) throw validationError(`Unknown asset role: ${role}`, { role });
@@ -171,9 +193,12 @@ export function assetRelativePath(role: string, ext: string): string {
  */
 export function candidatePaths(role: string): string[] {
   const base = baseRole(role);
-  if (base === "letter") {
-    const key = letterKey(role);
-    return key === null ? [] : [`assets/letters/${key}.svg`];
+  if (base === "letter" || base === "object" || base === "source") {
+    const key = base === "letter" ? letterKey(role) : base === "object" ? objectKey(role) : sourceKey(role);
+    const rule = ROLE_RULES[base];
+    if (key === null || rule === undefined) return [];
+    const dir = base === "letter" ? "letters" : base === "object" ? "objects" : "source-images";
+    return rule.exts.map((ext) => `assets/${dir}/${key}${ext}`);
   }
   const rule = ROLE_RULES[base];
   const stem = ROLE_STEMS[base];
@@ -219,12 +244,18 @@ export async function computeReadiness(
   const stored = new Set(await store.list(projectId, "assets/"));
   const present: string[] = [];
   const missing: string[] = [];
-  for (const role of REQUIRED_ROLES) {
+  const dynamicRoles = [...REQUIRED_ROLES];
+  const hasLearningMap = (await Promise.all(
+    candidatePaths("learningMap").map((relativePath) => store.exists({ projectId, relativePath })),
+  )).some(Boolean);
+  if (hasLearningMap) dynamicRoles.push(...LETTERS.map((letter) => `object:${letter}`));
+  for (const role of dynamicRoles) {
     if (candidatePaths(role).some((relativePath) => stored.has(relativePath))) {
       present.push(role);
     } else {
       missing.push(role);
     }
   }
+  if (hasLearningMap) present.push("learningMap");
   return { projectId, ready: missing.length === 0, present, missing };
 }

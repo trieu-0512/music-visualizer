@@ -57,6 +57,44 @@ describe("asset endpoints smoke (Req 2)", () => {
     expect(res.body.path).toBe("assets/letters/A.svg");
   });
 
+  it("validates and stores a theme-first learning map upload", async () => {
+    const letters = Object.fromEntries(
+      [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].map((letter) => [letter, { object: `Object ${letter}` }]),
+    );
+    const mapping = {
+      version: 1,
+      theme: {
+        name: "Test Theme",
+        scope: "guided",
+        mappingAuthority: "project-locked",
+        ageBand: "mixed-2-6",
+        mode: "LETTER_NAME",
+      },
+      letters,
+    };
+    const res = await request(app)
+      .post(`/projects/${projectId}/assets/learningMap`)
+      .attach("file", Buffer.from(JSON.stringify(mapping)), {
+        filename: "mapping.json",
+        contentType: "application/json",
+      });
+    expect(res.status).toBe(201);
+    expect(res.body.path).toBe("authoring/mapping.json");
+    expect(await store.exists({ projectId, relativePath: "authoring/mapping.json" })).toBe(true);
+  });
+
+  it("rejects a learning map that does not satisfy the canonical schema", async () => {
+    const res = await request(app)
+      .post(`/projects/${projectId}/assets/learningMap`)
+      .attach("file", Buffer.from(JSON.stringify({ version: 1, theme: {}, letters: {} })), {
+        filename: "mapping.json",
+        contentType: "application/json",
+      });
+    expect(res.status).toBe(400);
+    expect(res.body.error.code).toBe("VALIDATION_ERROR");
+    expect(await store.exists({ projectId, relativePath: "authoring/mapping.json" })).toBe(false);
+  });
+
   it("rejects a non-MP3/WAV audio upload with UNSUPPORTED_FORMAT (Req 2.4)", async () => {
     const res = await request(app)
       .post(`/projects/${projectId}/assets/audio`)

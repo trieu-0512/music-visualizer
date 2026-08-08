@@ -10,23 +10,15 @@
  * locations through unchanged, so this module rewrites each `config.assets.*`
  * entry to an absolute API URL before the config is handed to the Player.
  *
- * ## Asset-URL resolution + known limitation
+ * ## Asset-URL resolution
  *
  * Bare project-relative paths are rewritten to
  * `${apiBaseUrl}/projects/:id/<relativePath>` — e.g.
  * `assets/background.jpg` -> `http://localhost:3000/projects/p1/assets/background.jpg`.
  * The base URL is recovered from the typed {@link ApiClient}'s public
- * `artifactUrl` so this helper needs no access to the client's private base URL
- * and no change to the client API.
- *
- * NOTE (documented limitation): the API_Service currently exposes **no GET
- * route that serves stored assets** — only `GET /projects/:id/artifacts/:name`
- * serves generated artifacts. The preview therefore points asset `src`s at the
- * forward-compatible `/projects/:id/assets/...` shape, which will 404 until an
- * asset-serving route is added (a follow-up to the backend asset routes). The
- * preview still renders the full composition structure, the lyric/letter
- * timing, and the audio-reactive layout driven by `lyrics.json` /
- * `audio-analysis.json`; only the bitmap assets may be missing in preview.
+ * `artifactUrl` so this helper needs no access to the client's private base URL.
+ * The backend asset-serving route handles top-level, letter, object, and other
+ * nested project assets at `/projects/:id/assets/...`.
  */
 import type { ProjectConfigJson, VideoFormat } from "../api/index.js";
 
@@ -136,6 +128,11 @@ export function resolveConfigAssetUrls(
   const letters: Record<string, string> = Object.fromEntries(
     Object.entries(config.assets.letters).map(([key, value]) => [key, toUrl(value)]),
   );
+  const objects = config.assets.objects
+    ? Object.fromEntries(
+        Object.entries(config.assets.objects).map(([key, value]) => [key, toUrl(value)]),
+      )
+    : undefined;
   return {
     ...config,
     assets: {
@@ -145,6 +142,7 @@ export function resolveConfigAssetUrls(
       channelLogo: toUrl(config.assets.channelLogo),
       audio: toUrl(config.assets.audio),
       letters,
+      ...(objects ? { objects } : {}),
     },
   };
 }

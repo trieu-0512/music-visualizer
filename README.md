@@ -6,11 +6,15 @@ a file-based job queue: no database, object store, or broker is required for the
 MVP.
 
 See [docs/PROJECT_OVERVIEW.md](docs/PROJECT_OVERVIEW.md) for the Vietnamese
-project summary, folder contract, workflow, and output list.
+project summary and [docs/ABC_SONG_PIPELINE.md](docs/ABC_SONG_PIPELINE.md) for
+the theme-first ABC authoring -> Suno/image handoff -> segmentation -> render architecture.
 
 **AI music production skills** (Suno lyrics/prompts, mastering, album pipeline)
 are vendored from [bitwize-music](https://github.com/bitwize-music-studio/claude-ai-music-skills).
 See [docs/MUSIC_SKILLS.md](docs/MUSIC_SKILLS.md) and Grok skill `/music-production`.
+For preschool ABC/phonics/letter-word educational songs, use the project-local
+`abc-kids-music-composer` skill and `ABC_KIDS_MUSIC_VISUAL_GENERATION_METHOD.md`
+first; generic Bitwize lyric rules are supporting references for that route.
 
 ## Project Structure
 
@@ -18,7 +22,7 @@ See [docs/MUSIC_SKILLS.md](docs/MUSIC_SKILLS.md) and Grok skill `/music-producti
 music-visualizer/
   shared/     # schemas, TypeScript types, validators, startup config
   backend/    # Express API: projects, folder import, assets, jobs, config, artifacts
-  workers/    # Python audio worker: transcription, lyrics, SRT, audio analysis
+  workers/    # Python worker: ABC asset prep/segmentation seam, transcription, lyrics, SRT, audio analysis
   remotion/   # Remotion templates, render orchestration, render worker
   frontend/   # React + Vite web app
   config/     # local storage + queue defaults
@@ -68,23 +72,28 @@ The backend normalizes both forms into the same internal project layout. Direct
 song folders can use names such as `audio.wav`, `0001.mp3`, `0001_lyrics.md`,
 and `A.svg` through `Z.svg`.
 
-Required per song:
+Required core files per song:
 
 - `assets/audio.mp3` or `assets/audio.wav`
 - `assets/background.png|jpg|jpeg|webp`
 - `assets/song-logo.png|svg`
 - `assets/channel-logo.png|svg`
-- `assets/letters/A.svg` through `assets/letters/Z.svg`
 
-Optional:
+Asset mode is conditional:
 
-- `assets/original-lyrics.txt|json|md`
+- **Legacy:** processed `assets/letters/A..Z` (SVG/PNG/WebP).
+- **Theme-first:** `authoring/mapping.json` plus either processed `letters/ + objects/` or one raw `assets/source-images/{A-Z}.*` image per target for the `prepare-assets` job. A mapping project is render-ready only after all 26 processed letters and objects exist.
+
+Optional / authoring:
+
+- `assets/original-lyrics.txt|json|md` — display/alignment lyric lines only. In theme-first folder import, `authoring/display-lyrics.txt` is automatically bridged here when no runtime lyric file is supplied. Do not paste Suno `[Verse]`/`[Chorus]` tags, Markdown headings, or production cues. For production ABC timing, verify the resulting `lyrics.json` or import a pre-aligned artifact.
 - `metadata.json` or `project.json`
 - `artifacts/lyrics.json`
 - `artifacts/audio-analysis.json`
-- `<song_code>_prompt_gen.txt` with JSONL prompts for A-Z foreground assets,
-  the song background, and the song logo. Visual style should be derived from
-  that song's theme, not reused as a fixed global style.
+- `authoring/mapping.json` — canonical theme-first A-Z semantic mapping.
+- `authoring/generation-lyrics.txt`, `display-lyrics.txt`, `style-prompt.txt`, `object-prompts.json` — agent-authored package derived from a locked mapping.
+- `assets/source-images/A..Z.*` — raw AI-generated combined images for segmentation.
+- Processed `assets/objects/A..Z.*` for theme-first rendering.
 
 `metadata.json` can contain:
 
@@ -160,7 +169,7 @@ Use separate terminals from the repo root:
 ```bash
 npm run dev:api       # http://localhost:3000
 npm run dev:web       # http://localhost:5173
-npm run worker        # Python transcribe/analyze worker
+npm run worker        # Python prepare-assets/transcribe/analyze worker
 npm run render-worker # Remotion render worker
 ```
 
@@ -169,12 +178,14 @@ Web App default API target is `http://localhost:3000`. Override it with
 
 ## Jobs
 
-After loading a song profile:
+After loading a song profile, the normal path is **Run full pipeline**. The Web App detects whether `learningMap` exists and runs:
 
-1. Run `Transcribe` if `lyrics.json` is not already present.
-2. Run `Analyze` if `audio-analysis.json` is not already present.
-3. Click `Build config`.
-4. Run `Render`.
+```text
+theme-first: prepare-assets -> transcribe + analyze -> build config -> render
+legacy:      transcribe + analyze -> build config -> render
+```
+
+Manual per-stage buttons remain available for debugging/local repair. Mapping projects enrich timed learning lines with explicit `letter` + `object` identity.
 
 If the imported folder already contains both `artifacts/lyrics.json` and
 `artifacts/audio-analysis.json`, the backend builds `project-config.json`

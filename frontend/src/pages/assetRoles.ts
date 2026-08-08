@@ -36,6 +36,12 @@ const BASE_ROLES: AssetRole[] = [
     accept: ".txt,.json,.md",
     required: false,
   },
+  {
+    role: "learningMap",
+    label: "Theme A-Z mapping (optional/ABC)",
+    accept: ".json",
+    required: false,
+  },
 ];
 
 /** The 26 letters A–Z as `letter:X` roles. */
@@ -43,12 +49,28 @@ export const LETTERS: string[] = Array.from({ length: 26 }, (_, i) =>
   String.fromCharCode(65 + i),
 );
 
-/** The 26 `Letter_Asset` roles, each requiring an SVG (Req 2.1). */
+/** Processed A-Z letter assets. */
 const LETTER_ROLES: AssetRole[] = LETTERS.map((letter) => ({
   role: `letter:${letter}`,
   label: `Letter ${letter}`,
-  accept: ".svg",
+  accept: ".svg,.png,.webp",
   required: true,
+}));
+
+/** Processed transparent object assets; conditionally required when a mapping exists. */
+const OBJECT_ROLES: AssetRole[] = LETTERS.map((letter) => ({
+  role: `object:${letter}`,
+  label: `Object ${letter}`,
+  accept: ".png,.webp,.svg",
+  required: false,
+}));
+
+/** Raw AI-generated images consumed by the prepare-assets segmentation stage. */
+const SOURCE_ROLES: AssetRole[] = LETTERS.map((letter) => ({
+  role: `source:${letter}`,
+  label: `Source ${letter}`,
+  accept: ".png,.jpg,.jpeg,.webp",
+  required: false,
 }));
 
 /** All non-letter roles (audio, images, lyrics). */
@@ -56,6 +78,13 @@ export const PRIMARY_ROLES: AssetRole[] = BASE_ROLES;
 
 /** All letter roles A–Z. */
 export const LETTER_ASSET_ROLES: AssetRole[] = LETTER_ROLES;
+export const OBJECT_ASSET_ROLES: AssetRole[] = OBJECT_ROLES;
+export const SOURCE_ASSET_ROLES: AssetRole[] = SOURCE_ROLES;
 
-/** Every uploadable role (primary roles followed by the 26 letters). */
-export const ALL_ROLES: AssetRole[] = [...BASE_ROLES, ...LETTER_ROLES];
+/** Every uploadable role. */
+export const ALL_ROLES: AssetRole[] = [
+  ...BASE_ROLES,
+  ...LETTER_ROLES,
+  ...OBJECT_ROLES,
+  ...SOURCE_ROLES,
+];

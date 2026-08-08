@@ -148,8 +148,8 @@ export class ApiClient {
    * Upload or replace an asset for a role
    * (`POST /projects/:id/assets/:role`, Req 2.1–2.7). The file is sent as a
    * multipart field named `file`. `role` is `letter:A`..`letter:Z` for letters
-   * or a plain role name (`audio`, `background`, `songLogo`, `channelLogo`,
-   * `originalLyrics`).
+   * or a plain/keyed role such as `audio`, `learningMap`, `object:A`, or
+   * `source:A`.
    */
   async uploadAsset(
     projectId: string,
@@ -178,10 +178,9 @@ export class ApiClient {
   // --- Jobs (Req 3, 6, 9, 12) --------------------------------------------
 
   /**
-   * Enqueue a `transcribe` / `analyze` / `render` job
-   * (`POST /projects/:id/jobs`, Req 3.1, 6.1, 9.1, 12.1). Throws
-   * `PRECONDITION_FAILED` when the job's inputs are missing (no audio, or no
-   * config for render).
+   * Enqueue a `prepare-assets` / `transcribe` / `analyze` / `render` job.
+   * `PRECONDITION_FAILED` is returned when the job's inputs are missing
+   * (mapping for prepare-assets, audio for transcribe/analyze, config for render).
    */
   async createJob(projectId: string, request: CreateJobRequest): Promise<Job> {
     const body: CreateJobRequest =

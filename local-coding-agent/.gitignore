@@ -1,0 +1,39 @@
+# ---- Secrets / credentials (NEVER commit) ----
+.env
+.env.*
+!.env.example
+**/profiles/
+*.key
+*.pem
+config.json
+
+# ---- Proprietary binaries (do NOT redistribute) ----
+tools/
+**/tunnel-client*.exe
+**/tunnel-client*.zip
+**/cloudflared*.exe
+*.exe
+
+# ---- Diagnostic reports (redacted, but generated per-machine) ----
+support-report.txt
+network-doctor-report.txt
+setup-wizard-report.txt
+
+# ---- Node ----
+node_modules/
+server/data/
+server/*.log
+tmp-*/
+*-test-workspace/
+
+# ---- .NET / build output ----
+bin/
+obj/
+publish/
+*.user
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

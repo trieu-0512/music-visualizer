@@ -17,7 +17,7 @@ import { FileJobQueue, type Job, type JobType } from "../src/queue/JobQueue.js";
  * Validates: Requirements 12.1, 12.2, 15.3
  */
 
-const JOB_TYPES: JobType[] = ["transcribe", "analyze", "render"];
+const JOB_TYPES: JobType[] = ["prepare-assets", "transcribe", "analyze", "render"];
 const VALID_STATUSES = new Set(["pending", "running", "completed", "failed"]);
 
 /** Mirror of {@link FileJobQueue}'s internal ordering: oldest-first, id breaks ties. */
@@ -41,7 +41,7 @@ describe("Property 14: Queue lifecycle invariants hold for any number of jobs (R
         // "any number of jobs" — including zero — across one or many projects.
         fc.array(jobSpecArb, { minLength: 0, maxLength: 20 }),
         // The subset of types a worker is willing to claim (possibly empty).
-        fc.uniqueArray(fc.constantFrom(...JOB_TYPES), { minLength: 0, maxLength: 3 }),
+        fc.uniqueArray(fc.constantFrom(...JOB_TYPES), { minLength: 0, maxLength: 4 }),
         async (specs, claimTypes) => {
           const dir = await mkdtemp(join(tmpdir(), "mv-queue-prop-"));
           const queue = new FileJobQueue(dir);

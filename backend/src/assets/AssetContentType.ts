@@ -2,7 +2,7 @@
  * Content types for serving stored assets (`backend`, Req 8.x preview support).
  *
  * The preview (Remotion Player) and a headless render load a project's stored
- * assets — background, logos, audio, and the 26 letter SVGs — by URL. The
+ * assets — background, logos, audio, processed letters, and theme-first objects — by URL. The
  * asset-serving route streams the bytes out of the Asset_Store and uses this
  * map to pick a sensible `Content-Type` from the file extension so browsers
  * decode images/audio/SVG correctly. Unknown extensions fall back to

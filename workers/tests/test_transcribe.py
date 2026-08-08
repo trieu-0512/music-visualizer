@@ -298,3 +298,30 @@ def test_normalize_words_all_or_nothing() -> None:
     assert transcribe._normalize_words([{"word": "a"}, {"word": "b", "start": 0.0, "end": 1.0}]) is None
     assert transcribe._normalize_words([]) is None
     assert transcribe._normalize_words(None) is None
+
+
+def test_transcribe_copies_mapping_object_into_timed_lyrics(store: AssetStore) -> None:
+    project_id = "proj-mapped"
+    _write_audio(store, project_id)
+    mapping = {
+        "version": 1,
+        "theme": {
+            "name": "General ABC",
+            "scope": "open",
+            "mappingAuthority": "project-locked",
+            "ageBand": "mixed-2-6",
+            "mode": "LETTER_NAME",
+        },
+        "letters": {
+            letter: {"object": ("Apple" if letter == "A" else f"Object {letter}")}
+            for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+    }
+    store.write_json(project_id, "authoring/mapping.json", mapping)
+    store.write_text(project_id, "assets/original-lyrics.txt", "A is for apple")
+    fake = {"language": "en", "segments": [{"start": 0.0, "end": 2.0, "text": "A is for apple"}]}
+
+    transcribe.handle_transcribe(_job(project_id), store, run_whisperx=lambda _p: fake)
+    line = store.read_json(project_id, "artifacts/lyrics.json")["lines"][0]
+    assert line["letter"] == "A"
+    assert line["object"] == "Apple"

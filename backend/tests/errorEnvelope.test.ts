@@ -271,7 +271,7 @@ describe("error envelope end-to-end (Req 1.5, 2.4, 2.6, 3.5, 6.7, 8.5, 9.5, 11.4
         .send({ type: "explode" });
       expect(res.status).toBe(400);
       expectEnvelope(res.body, "VALIDATION_ERROR");
-      expect(res.body.error.message).toMatch(/transcribe, analyze, render/i);
+      expect(res.body.error.message).toMatch(/prepare-assets, transcribe, analyze, render/i);
     });
   });
 });

@@ -98,6 +98,33 @@ describe("folder import endpoint", () => {
     expect(res.body.artifacts).toEqual([]);
   });
 
+  it("imports a theme-first folder with mapping + raw images before segmentation", async () => {
+    const res = await attachThemeFirstRawFolder(request(app).post("/projects/import-folder"));
+    expect(res.status, JSON.stringify(res.body)).toBe(201);
+    expect(res.body.config).toBeNull();
+    expect(res.body.readiness.ready).toBe(false);
+    expect(res.body.readiness.present).toContain("learningMap");
+    expect(res.body.readiness.missing).toContain("letter:A");
+    expect(res.body.readiness.missing).toContain("object:A");
+    expect(
+      await store.exists({ projectId: "p_imported", relativePath: "authoring/mapping.json" }),
+    ).toBe(true);
+    expect(
+      await store.exists({ projectId: "p_imported", relativePath: "assets/source-images/Z.png" }),
+    ).toBe(true);
+    expect(
+      await store.exists({ projectId: "p_imported", relativePath: "authoring/display-lyrics.txt" }),
+    ).toBe(true);
+    expect(
+      await store.exists({ projectId: "p_imported", relativePath: "assets/original-lyrics.txt" }),
+    ).toBe(true);
+    const runtimeLyrics = await store.read({
+      projectId: "p_imported",
+      relativePath: "assets/original-lyrics.txt",
+    });
+    expect(runtimeLyrics.toString("utf-8")).toBe("A is for Object A");
+  });
+
   it("loads a song folder whose required files are directly inside the folder", async () => {
     const res = await attachDirectFolder(request(app).post("/projects/import-folder"));
 
@@ -226,6 +253,42 @@ function attachDirectFolder(req: Test): Test {
           filename: file.path.split("/").at(-1),
           contentType: file.contentType,
         }),
+    req,
+  );
+}
+
+function attachThemeFirstRawFolder(req: Test): Test {
+  const mapping = {
+    version: 1,
+    theme: {
+      name: "Theme First Test",
+      scope: "guided",
+      mappingAuthority: "project-locked",
+      ageBand: "mixed-2-6",
+      mode: "LETTER_NAME",
+    },
+    letters: Object.fromEntries(LETTERS.map((letter) => [letter, { object: `Object ${letter}` }])),
+  };
+  const files: { path: string; data: string; contentType: string }[] = [
+    { path: "theme-song/assets/audio.wav", data: "audio", contentType: "audio/wav" },
+    { path: "theme-song/assets/background.png", data: "bg", contentType: "image/png" },
+    { path: "theme-song/assets/song-logo.svg", data: "<svg/>", contentType: "image/svg+xml" },
+    { path: "theme-song/assets/channel-logo.svg", data: "<svg/>", contentType: "image/svg+xml" },
+    { path: "theme-song/authoring/mapping.json", data: JSON.stringify(mapping), contentType: "application/json" },
+    { path: "theme-song/authoring/display-lyrics.txt", data: "A is for Object A", contentType: "text/plain" },
+    ...LETTERS.map((letter) => ({
+      path: `theme-song/assets/source-images/${letter}_object-${letter}.png`,
+      data: `raw-${letter}`,
+      contentType: "image/png",
+    })),
+  ];
+  return files.reduce(
+    (chain, file) => chain
+      .field("paths", file.path)
+      .attach("files", Buffer.from(file.data), {
+        filename: file.path.split("/").at(-1),
+        contentType: file.contentType,
+      }),
     req,
   );
 }

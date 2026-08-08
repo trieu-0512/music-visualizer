@@ -66,14 +66,17 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
   const lineIdx = activeLineIndex(lyrics, t);
   const line = lineIdx >= 0 ? lyrics.lines[lineIdx] : null;
 
-  // Centered letter for the active line — fall back to the line's first
-  // alphabetic character when the aligner left `letter` unset.
+  // Centered learning letter for the active line. If a prebuilt/legacy artifact
+  // omitted `letter`, only an isolated leading A-Z token may act as a fallback;
+  // ordinary chorus/narration text must not select an asset from its first word.
   const letterKey = line ? resolveLetter(line.letter, line.text) : undefined;
   const letterSrc =
     letterKey && config.assets.letters[letterKey]
       ? config.assets.letters[letterKey]
       : undefined;
-  const objectWord = line ? resolveObjectWord(line, letterKey) : undefined;
+  const objectWord =
+    line && letterKey ? (line.object?.trim() || resolveObjectWord(line, letterKey)) : undefined;
+  const objectSrc = letterKey ? config.assets.objects?.[letterKey] : undefined;
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }} data-template={config.layout.template}>
@@ -118,6 +121,7 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
         <CenterLetter
           src={letterSrc}
           letter={letterKey ?? ""}
+          objectSrc={objectSrc}
           objectWord={objectWord}
           size={layout.letterSize}
           objectWordFontSize={layout.objectWordFontSize}
@@ -170,31 +174,24 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
   );
 };
 
-/**
- * Resolve the A–Z letter key for the centered Letter_Asset.
- *
- * Prefers the aligner-provided `letter`; otherwise falls back to the first
- * alphabetic character of the line text. Returns `undefined` when neither
- * yields a usable A–Z key (e.g. a non-Latin or empty line).
- */
-function resolveLetter(letter: string | undefined, text: string): string | undefined {
-  const candidate = (letter ?? "").trim().charAt(0) || firstAlpha(text);
-  if (!candidate) return undefined;
-  const upper = candidate.toUpperCase();
-  return upper >= "A" && upper <= "Z" ? upper : undefined;
-}
+/** Resolve the A–Z key for a centered learning-letter asset. */
+export function resolveLetter(
+  letter: string | undefined,
+  text: string,
+): string | undefined {
+  const provided = (letter ?? "").trim();
+  if (/^[A-Za-z]$/.test(provided)) return provided.toUpperCase();
 
-/** First ASCII-letter character of `text`, or `""` when none exists. */
-function firstAlpha(text: string): string {
-  const match = text.match(/[A-Za-z]/);
-  return match ? match[0] : "";
+  const stripped = text.trimStart();
+  const match = stripped.match(/^([A-Za-z])(?=$|\s|[.,!?;:…])/);
+  return match?.[1] ? match[1].toUpperCase() : undefined;
 }
 
 /**
  * Resolve the object keyword to highlight/render from an ABC lyric line.
  *
- * The current artifact schema has no separate `object` field, so this uses
- * common ABC sentence shapes first ("A is for Apple", "A la Apple", "with the
+ * Legacy fallback only. Theme-first artifacts carry an explicit `object` field;
+ * this parser remains for older projects and common ABC sentence shapes ("A is for Apple", "A la Apple", "with the
  * armchair") and falls back to the first meaningful word that is not the active
  * letter.
  */

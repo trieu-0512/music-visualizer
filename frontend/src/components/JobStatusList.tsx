@@ -18,6 +18,7 @@ export interface JobStatusListProps {
 
 /** Human-readable label for each job type. */
 const TYPE_LABELS: Record<Job["type"], string> = {
+  "prepare-assets": "Prepare ABC assets",
   transcribe: "Transcribe",
   analyze: "Analyze",
   render: "Render",

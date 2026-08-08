@@ -18,6 +18,8 @@ export interface AssetPaths {
   audio: string;
   /** `"A".."Z"` -> path (26 entries). */
   letters: Record<string, string>;
+  /** Optional A-Z object assets for theme-first ABC projects. */
+  objects?: Record<string, string>;
 }
 
 /** Layout definition and selected template identifier (Req 7.3, 15.1). */

@@ -5,6 +5,8 @@ export {
   REQUIRED_ROLES,
   baseRole,
   letterKey,
+  objectKey,
+  sourceKey,
   validateUpload,
   assetRelativePath,
   candidatePaths,

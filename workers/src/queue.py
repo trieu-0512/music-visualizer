@@ -32,7 +32,7 @@ from src.config import (
     load_config,
 )
 
-JOB_TYPES = ("transcribe", "analyze", "render")
+JOB_TYPES = ("prepare-assets", "transcribe", "analyze", "render")
 JOB_STATUSES = ("pending", "running", "completed", "failed")
 
 

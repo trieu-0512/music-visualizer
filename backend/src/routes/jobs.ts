@@ -45,7 +45,16 @@ export function createJobsRouter(
       const type = parseJobType(req.body);
 
       // Gate each job type on its inputs so a doomed job is never enqueued.
-      if (type === "transcribe" || type === "analyze") {
+      if (type === "prepare-assets") {
+        const hasMapping = await store.exists({ projectId, relativePath: "authoring/mapping.json" });
+        if (!hasMapping) {
+          throw new ApiError(
+            "PRECONDITION_FAILED",
+            "authoring/mapping.json is required before preparing ABC assets",
+            { projectId, type },
+          );
+        }
+      } else if (type === "transcribe" || type === "analyze") {
         if (!(await hasAudio(store, projectId))) {
           throw new ApiError(
             "PRECONDITION_FAILED",
@@ -90,7 +99,7 @@ export function createJobsRouter(
 }
 
 /** Accepted job types a client may request (Req 3.1, 6.1, 9.1). */
-const JOB_TYPES = new Set<JobType>(["transcribe", "analyze", "render"]);
+const JOB_TYPES = new Set<JobType>(["prepare-assets", "transcribe", "analyze", "render"]);
 
 /**
  * Read and validate the requested job `type` from the request body, rejecting a
@@ -99,7 +108,7 @@ const JOB_TYPES = new Set<JobType>(["transcribe", "analyze", "render"]);
 function parseJobType(body: unknown): JobType {
   const type = (body as { type?: unknown } | null)?.type;
   if (typeof type !== "string" || !JOB_TYPES.has(type as JobType)) {
-    throw validationError("Job type must be one of: transcribe, analyze, render", {
+    throw validationError("Job type must be one of: prepare-assets, transcribe, analyze, render", {
       type: type ?? null,
     });
   }

@@ -8,17 +8,20 @@ import {
   lyricsSchema,
   audioAnalysisSchema,
   projectConfigSchema,
+  learningMapSchema,
 } from "../src/schema/index.js";
 import type {
   LyricsJson,
   AudioAnalysisJson,
   ProjectConfigJson,
+  LearningMapJson,
 } from "../src/types/index.js";
 
 describe("shared artifact schemas (Req 15.4)", () => {
   it("exposes one schema per artifact with object shape", () => {
     expect(Object.keys(SCHEMAS).sort()).toEqual([
       "audioAnalysis",
+      "learningMap",
       "lyrics",
       "projectConfig",
     ]);
@@ -47,6 +50,11 @@ describe("shared artifact schemas (Req 15.4)", () => {
     expect(audioAnalysisSchema.required).toContain("rms");
     expect(audioAnalysisSchema.required).toContain("beats");
     expect(audioAnalysisSchema.required).toContain("interval");
+  });
+
+  it("learning-map schema locks theme context and A-Z entries", () => {
+    expect(learningMapSchema.required).toEqual(["version", "theme", "letters"]);
+    expect((learningMapSchema as any).properties.letters.required).toHaveLength(26);
   });
 
   it("project-config schema requires assets and artifacts references", () => {
@@ -83,6 +91,19 @@ describe("shared artifact schemas (Req 15.4)", () => {
       bandCount: 2,
       beats: [0.5, 1.5],
     };
+    const mapping: LearningMapJson = {
+      version: 1,
+      theme: {
+        name: "General ABC",
+        scope: "open",
+        mappingAuthority: "project-locked",
+        ageBand: "mixed-2-6",
+        mode: "LETTER_NAME",
+      },
+      letters: Object.fromEntries(
+        [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].map((letter) => [letter, { object: `Object ${letter}` }]),
+      ),
+    };
     const config: ProjectConfigJson = {
       version: 1,
       projectId: "p1",
@@ -107,6 +128,7 @@ describe("shared artifact schemas (Req 15.4)", () => {
     };
 
     expect(lyrics.lines).toHaveLength(2);
+    expect(mapping.letters.A?.object).toBe("Object A");
     expect(analysis.bands).toHaveLength(2);
     expect(config.assets.letters.A).toContain("A.svg");
   });

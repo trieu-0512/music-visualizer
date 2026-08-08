@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "abc-kids-music-composer.section.schema.json",
+  "title": "ABC Kids Section Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "section_id",
+    "section_type",
+    "learning_objective",
+    "letters",
+    "line_count",
+    "motif_id",
+    "energy_level"
+  ],
+  "properties": {
+    "section_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "section_type": {
+      "type": "string",
+      "enum": ["intro", "verse", "refrain", "chorus", "outro", "interlude"]
+    },
+    "round": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 4
+    },
+    "learning_objective": {
+      "type": "string",
+      "enum": ["lexical-semantic", "verbatim-sequence", "retrieval-action", "retrieval-only", "phonics", "transition"]
+    },
+    "letters": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 8,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]$"
+      }
+    },
+    "line_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 8
+    },
+    "rhyme_scheme": {
+      "type": ["string", "null"]
+    },
+    "motif_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "energy_level": {
+      "type": "string",
+      "enum": ["low", "medium-low", "medium", "medium-high", "high"]
+    },
+    "response_frame": {
+      "type": ["string", "null"]
+    },
+    "refrain_or_chorus_identity": {
+      "type": ["string", "null"]
+    },
+    "tempo_bpm": {
+      "type": ["number", "null"],
+      "minimum": 40,
+      "maximum": 180
+    },
+    "density_override_evidence": {
+      "type": ["string", "null"],
+      "description": "Required by project policy when intentionally exceeding normal 4-6 learning-line heuristic."
+    },
+    "notes": {
+      "type": ["string", "null"]
+    }
+  }
+}

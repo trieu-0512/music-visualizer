@@ -15,11 +15,13 @@ import {
   audioAnalysisSchema,
   lyricsSchema,
   projectConfigSchema,
+  learningMapSchema,
 } from "./schema/objects.js";
 import type {
   AudioAnalysisJson,
   LyricsJson,
   ProjectConfigJson,
+  LearningMapJson,
 } from "./types/index.js";
 
 /** A single structured validation failure. */
@@ -46,6 +48,8 @@ const validateAudioAnalysisSchema: ValidateFunction<AudioAnalysisJson> =
   ajv.compile<AudioAnalysisJson>(audioAnalysisSchema);
 const validateProjectConfigSchema: ValidateFunction<ProjectConfigJson> =
   ajv.compile<ProjectConfigJson>(projectConfigSchema);
+const validateLearningMapSchema: ValidateFunction<LearningMapJson> =
+  ajv.compile<LearningMapJson>(learningMapSchema);
 
 /** Convert raw Ajv errors into structured {@link ValidationError}s. */
 function toValidationErrors(
@@ -113,4 +117,11 @@ export function validateProjectConfig(
   data: unknown,
 ): Result<ProjectConfigJson, ValidationError[]> {
   return runValidator(validateProjectConfigSchema, data);
+}
+
+/** Validate the canonical theme-first A-Z authoring map. */
+export function validateLearningMap(
+  data: unknown,
+): Result<LearningMapJson, ValidationError[]> {
+  return runValidator(validateLearningMapSchema, data);
 }

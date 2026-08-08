@@ -14,7 +14,9 @@ export interface CenterLetterProps {
   src: string;
   /** Resolved A-Z key for the active line. */
   letter: string;
-  /** Derived object word from the active lyric line. */
+  /** Processed transparent object image for theme-first projects. */
+  objectSrc?: string;
+  /** Canonical object word from mapping, or legacy lyric-derived fallback. */
   objectWord?: string;
   /** Box size of the centered letter in px. */
   size: number;
@@ -33,6 +35,7 @@ export interface CenterLetterProps {
 export const CenterLetter: React.FC<CenterLetterProps> = ({
   src,
   letter,
+  objectSrc,
   objectWord,
   size,
   objectWordFontSize,
@@ -79,18 +82,33 @@ export const CenterLetter: React.FC<CenterLetterProps> = ({
           }}
         />
         <div
-          data-layer="object-word"
+          data-layer="object-visual"
           style={{
-            display: displayWord ? "flex" : "none",
+            display: objectSrc || displayWord ? "flex" : "none",
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
+            gap: Math.max(8, Math.round(objectWordFontSize * 0.12)),
             minWidth: 0,
             transform: `scale(${1 + (scale - 1) * 0.72}) rotate(${wobble}deg)`,
             filter: `drop-shadow(0 0 ${Math.max(6, glowRadius * 0.45)}px rgba(72,190,86,${0.18 + 0.25 * glow}))`,
           }}
         >
+          {objectSrc && (
+            <Img
+              src={resolveAssetSrc(objectSrc)}
+              alt={displayWord || `${letter} object`}
+              data-layer="object-image"
+              style={{
+                width: size,
+                height: size * 0.78,
+                objectFit: "contain",
+              }}
+            />
+          )}
+          {displayWord && (
           <div
+            data-layer="object-word"
             data-object-word={displayWord}
             style={{
               fontFamily: "Arial, Helvetica, sans-serif",
@@ -109,6 +127,7 @@ export const CenterLetter: React.FC<CenterLetterProps> = ({
           >
             {displayWord}
           </div>
+          )}
         </div>
       </div>
     </AbsoluteFill>

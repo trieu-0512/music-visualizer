@@ -41,6 +41,11 @@
           "type": "object",
           "propertyNames": { "pattern": "^[A-Z]$" },
           "additionalProperties": { "type": "string", "minLength": 1 }
+        },
+        "objects": {
+          "type": "object",
+          "propertyNames": { "pattern": "^[A-Z]$" },
+          "additionalProperties": { "type": "string", "minLength": 1 }
         }
       }
     },

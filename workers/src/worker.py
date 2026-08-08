@@ -40,7 +40,7 @@ POLL_INTERVAL = 1.0
 
 # The job types this worker is responsible for. Render jobs are handled by a
 # separate render worker (task 10.6).
-WORKER_JOB_TYPES = ["transcribe", "analyze"]
+WORKER_JOB_TYPES = ["prepare-assets", "transcribe", "analyze"]
 
 
 class Handler(Protocol):
@@ -80,6 +80,17 @@ def _load_default_handlers() -> None:
     failures log at error level and register a failing stub (KD-11).
     """
     strict = os.environ.get("MV_STRICT_HANDLERS", "").strip() in {"1", "true", "TRUE", "yes"}
+
+    if "prepare-assets" not in DISPATCH:
+        try:
+            from src.asset_prep import handle_prepare_assets  # type: ignore
+
+            register_handler("prepare-assets", handle_prepare_assets)
+        except Exception as exc:
+            logger.error("Failed to load prepare-assets handler: %s", exc, exc_info=True)
+            if strict:
+                raise
+            register_handler("prepare-assets", _failing_handler("prepare-assets", str(exc)))
 
     if "transcribe" not in DISPATCH:
         try:

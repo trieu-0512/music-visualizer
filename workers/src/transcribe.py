@@ -32,7 +32,7 @@ import os
 from pathlib import Path
 from typing import Any, Callable, Optional
 
-from src.align import build_lyrics, load_original_lyrics
+from src.align import build_lyrics, load_learning_map, load_original_lyrics
 from src.queue import Job
 from src.srt import lyrics_to_srt
 from src.store import AssetStore
@@ -84,7 +84,8 @@ def handle_transcribe(
 
         # Chain alignment + SRT so lyrics.json/srt are ready after transcription.
         original = load_original_lyrics(store, job.project_id)
-        lyrics = build_lyrics(whisperx_result, original)  # Req 4
+        learning_map = load_learning_map(store, job.project_id)
+        lyrics = build_lyrics(whisperx_result, original, learning_map)  # Req 4
         # Production schema gate (PR-10): fail the job before mark_completed.
         validate_lyrics_payload(lyrics)
         store.write_json(job.project_id, LYRICS_ARTIFACT, lyrics)

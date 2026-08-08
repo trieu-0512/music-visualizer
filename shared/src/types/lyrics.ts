@@ -32,6 +32,8 @@ export interface LyricLine {
   words?: WordTiming[];
   /** Resolved A–Z key for the centered Letter_Asset. */
   letter?: string;
+  /** Canonical object name copied from authoring/mapping.json when available. */
+  object?: string;
 }
 
 /** The `lyrics.json` artifact (Req 4.3, 4.6). */

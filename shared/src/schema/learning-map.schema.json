@@ -1,0 +1,57 @@
+{
+  "title": "LearningMapJson",
+  "description": "Theme-first A-Z mapping used as the canonical authoring source for lyric, image prompts, alignment metadata and object assets.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "theme", "letters"],
+  "properties": {
+    "version": { "const": 1 },
+    "theme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "scope", "mappingAuthority", "ageBand", "mode"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "scope": { "enum": ["strict", "guided", "open"] },
+        "mappingAuthority": { "enum": ["user-locked", "project-locked", "generated"] },
+        "ageBand": { "enum": ["2-3", "4-6", "mixed-2-6"] },
+        "mode": { "enum": ["LETTER_NAME", "PHONICS"] }
+      }
+    },
+    "letters": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"],
+      "properties": {
+        "A": { "$ref": "#/$defs/entry" }, "B": { "$ref": "#/$defs/entry" },
+        "C": { "$ref": "#/$defs/entry" }, "D": { "$ref": "#/$defs/entry" },
+        "E": { "$ref": "#/$defs/entry" }, "F": { "$ref": "#/$defs/entry" },
+        "G": { "$ref": "#/$defs/entry" }, "H": { "$ref": "#/$defs/entry" },
+        "I": { "$ref": "#/$defs/entry" }, "J": { "$ref": "#/$defs/entry" },
+        "K": { "$ref": "#/$defs/entry" }, "L": { "$ref": "#/$defs/entry" },
+        "M": { "$ref": "#/$defs/entry" }, "N": { "$ref": "#/$defs/entry" },
+        "O": { "$ref": "#/$defs/entry" }, "P": { "$ref": "#/$defs/entry" },
+        "Q": { "$ref": "#/$defs/entry" }, "R": { "$ref": "#/$defs/entry" },
+        "S": { "$ref": "#/$defs/entry" }, "T": { "$ref": "#/$defs/entry" },
+        "U": { "$ref": "#/$defs/entry" }, "V": { "$ref": "#/$defs/entry" },
+        "W": { "$ref": "#/$defs/entry" }, "X": { "$ref": "#/$defs/entry" },
+        "Y": { "$ref": "#/$defs/entry" }, "Z": { "$ref": "#/$defs/entry" }
+      }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["object"],
+      "properties": {
+        "object": { "type": "string", "minLength": 1 },
+        "slug": { "type": "string", "minLength": 1, "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "familiarityTier": { "enum": ["A", "B", "C"] },
+        "action": { "type": "string" },
+        "visualHint": { "type": "string" },
+        "riskFlags": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

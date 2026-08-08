@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "abc-kids-music-composer.learning-block.schema.json",
+  "title": "ABC Kids Learning Block Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "letter",
+    "word",
+    "mode",
+    "familiarity_tier",
+    "letter_name_sound_cue",
+    "visual_confusability",
+    "phonological_name_confusability",
+    "sequence_dependency_risk",
+    "syllable_count",
+    "stress_pattern",
+    "prosodic_motif_variant",
+    "round1_objective",
+    "risk_flags"
+  ],
+  "properties": {
+    "letter": {
+      "type": "string",
+      "pattern": "^[A-Z]$"
+    },
+    "word": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["letter-name", "phonics"]
+    },
+    "familiarity_tier": {
+      "type": "string",
+      "enum": ["A", "B", "C"]
+    },
+    "letter_name_sound_cue": {
+      "type": "string",
+      "enum": ["strong-initial", "embedded-final", "weak-or-misleading", "not-applicable"]
+    },
+    "visual_confusability": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "phonological_name_confusability": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "sequence_dependency_risk": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "syllable_count": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "stress_pattern": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Examples: S, S-w, w-S-w, S-w-w. Use VERIFY in risk_flags when unresolved."
+    },
+    "pronunciation_note": {
+      "type": ["string", "null"]
+    },
+    "prosodic_motif_variant": {
+      "type": "string",
+      "minLength": 1
+    },
+    "round1_objective": {
+      "type": "string",
+      "enum": ["lexical-semantic", "verbatim-sequence", "phonics"]
+    },
+    "round2_objective": {
+      "type": ["string", "null"],
+      "enum": ["retrieval-action", "retrieval-only", "verbatim-sequence", "phonics", null]
+    },
+    "retrieval_cue": {
+      "type": ["string", "null"]
+    },
+    "retrieval_gap_plan": {
+      "type": ["string", "null"]
+    },
+    "congruent_action": {
+      "type": ["string", "null"]
+    },
+    "rhyme_family": {
+      "type": ["string", "null"]
+    },
+    "visual_reveal_rule": {
+      "type": ["string", "null"]
+    },
+    "contrast_notes": {
+      "type": ["string", "null"]
+    },
+    "risk_flags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

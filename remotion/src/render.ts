@@ -259,8 +259,8 @@ export function expandRenderTargets(videoFormat: VideoFormat): RenderTarget[] {
 
 /**
  * The distinct project-relative asset paths a render must stage so the bundled
- * composition can load them: background, both logos, the audio, and the 26
- * letters. Duplicate paths are collapsed.
+ * composition can load them: background, both logos, the audio, the 26 letters, and optional theme-first
+ * object assets. Duplicate paths are collapsed.
  */
 export function collectAssetPaths(assets: ProjectConfigJson["assets"]): string[] {
   const paths = [
@@ -269,6 +269,7 @@ export function collectAssetPaths(assets: ProjectConfigJson["assets"]): string[]
     assets.channelLogo,
     assets.audio,
     ...Object.values(assets.letters),
+    ...Object.values(assets.objects ?? {}),
   ].filter((p): p is string => typeof p === "string" && p.length > 0);
   return [...new Set(paths)];
 }

@@ -68,6 +68,13 @@ const LETTERS = Object.fromEntries(
   }),
 );
 
+const OBJECTS = Object.fromEntries(
+  Array.from({ length: 26 }, (_, i) => {
+    const L = String.fromCharCode(65 + i);
+    return [L, `assets/objects/${L}.png`];
+  }),
+);
+
 function sampleConfig(videoFormat: ProjectConfigJson["videoFormat"]): ProjectConfigJson {
   return {
     version: 1,
@@ -80,6 +87,7 @@ function sampleConfig(videoFormat: ProjectConfigJson["videoFormat"]): ProjectCon
       channelLogo: "assets/channel-logo.png",
       audio: "assets/audio.mp3",
       letters: LETTERS,
+      objects: OBJECTS,
     },
     artifacts: {
       lyrics: "artifacts/lyrics.json",
@@ -183,6 +191,12 @@ describe("PreviewPage", () => {
     // Asset paths were rewritten to absolute API URLs for the in-browser Player.
     expect(props.inputProps.config.assets.background).toBe(
       `${BASE_URL}/projects/p1/assets/background.jpg`,
+    );
+    expect(props.inputProps.config.assets.letters.A).toBe(
+      `${BASE_URL}/projects/p1/assets/letters/A.svg`,
+    );
+    expect(props.inputProps.config.assets.objects.A).toBe(
+      `${BASE_URL}/projects/p1/assets/objects/A.png`,
     );
     // duration derived from analysis (5s * 60fps = 300 frames).
     expect(player).toHaveAttribute("data-duration", "300");

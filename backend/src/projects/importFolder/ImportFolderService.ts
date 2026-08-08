@@ -2,7 +2,9 @@ import { Buffer } from "node:buffer";
 import {
   validateAudioAnalysis,
   validateLyrics,
+  validateLearningMap,
   type AudioAnalysisJson,
+  type LearningMapJson,
   type LyricsJson,
   type VideoFormat,
 } from "@music-visualizer/shared";
@@ -49,6 +51,14 @@ export class ImportFolderService {
       );
     }
 
+    const mapping = folder.mappingFile
+      ? parseArtifact<LearningMapJson>(
+          folder.mappingFile,
+          validateLearningMap,
+          "authoring/mapping.json",
+        )
+      : null;
+
     const importedMetadata = folder.metadataFile
       ? parseMetadataFile(folder.metadataFile)
       : {};
@@ -66,6 +76,26 @@ export class ImportFolderService {
 
     for (const [relativePath, file] of folder.assets) {
       await this.store.write({ projectId: project.projectId, relativePath }, file.buffer);
+    }
+    for (const [relativePath, file] of folder.authoringFiles) {
+      await this.store.write({ projectId: project.projectId, relativePath }, file.buffer);
+    }
+    const hasRuntimeOriginalLyrics = [...folder.assets.keys()].some((relativePath) =>
+      relativePath.startsWith("assets/original-lyrics."),
+    );
+    const displayLyrics = folder.authoringFiles.get("authoring/display-lyrics.txt");
+    if (!hasRuntimeOriginalLyrics && displayLyrics) {
+      await this.store.write(
+        { projectId: project.projectId, relativePath: "assets/original-lyrics.txt" },
+        displayLyrics.buffer,
+      );
+    }
+
+    if (mapping) {
+      await this.store.write(
+        { projectId: project.projectId, relativePath: "authoring/mapping.json" },
+        Buffer.from(JSON.stringify(mapping, null, 2), "utf-8"),
+      );
     }
 
     if (folder.generatedArtifacts.lyrics) {
@@ -92,16 +122,19 @@ export class ImportFolderService {
       );
     }
 
+    const readiness = await computeReadiness(this.store, project.projectId);
     let config = null;
-    if (folder.generatedArtifacts.lyrics && folder.generatedArtifacts.audioAnalysis) {
+    if (
+      readiness.ready &&
+      folder.generatedArtifacts.lyrics &&
+      folder.generatedArtifacts.audioAnalysis
+    ) {
       const configResult = await buildConfig(project.projectId, this.store, project);
       if (!configResult.ok) {
         throw configResult.error;
       }
       config = configResult.value;
     }
-
-    const readiness = await computeReadiness(this.store, project.projectId);
     const artifacts = await listPresentArtifacts(this.store, project.projectId);
     return {
       project,

@@ -23,7 +23,7 @@ import { LocalAssetStore } from "../src/storage/index.js";
  * For any asset role and any uploaded file, validateUpload accepts the upload
  * exactly when the file's extension AND MIME type are both in that role's
  * allowed set (audio: MP3/WAV; original lyrics: TXT/JSON; images per role;
- * letters: SVG) and otherwise rejects it with an error naming the expected
+ * processed letters/objects and raw source images use their declared image sets) and otherwise rejects it with an error naming the expected
  * type(s) — UNSUPPORTED_FORMAT for the audio role (Req 2.4), TYPE_MISMATCH for
  * every other role (Req 2.6). And for any role and any two valid contents,
  * storing then re-uploading leaves exactly the second content stored and only
@@ -32,7 +32,7 @@ import { LocalAssetStore } from "../src/storage/index.js";
  * Validates: Requirements 2.4, 2.6, 2.7
  */
 
-/** Every role the API exposes: the five base roles plus the 26 letter roles. */
+/** Representative file-type roles; learningMap content/schema is covered at the route layer. */
 const ROLES: string[] = [
   "audio",
   "originalLyrics",
@@ -40,6 +40,8 @@ const ROLES: string[] = [
   "songLogo",
   "channelLogo",
   ...LETTERS.map((letter) => `letter:${letter}`),
+  ...LETTERS.map((letter) => `object:${letter}`),
+  ...LETTERS.map((letter) => `source:${letter}`),
 ];
 
 /** Extensions drawn from every role plus foreign extensions in no role's set. */

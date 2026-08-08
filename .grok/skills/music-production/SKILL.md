@@ -15,7 +15,7 @@ Project-local install of [claude-ai-music-skills](https://github.com/bitwize-mus
 | Path | Content |
 |------|---------|
 | `.grok/plugins/bitwize-music/` | Full plugin (53 skills, genres, reference, tools, MCP server) |
-| `.claude/skills/` | Same skills for Claude/Grok skill discovery |
+| `.claude/skills/` | Vendored Bitwize skills plus project-local skills such as `abc-kids-music-composer` |
 | `docs/MUSIC_SKILLS.md` | Install & setup notes for this monorepo |
 
 Set `CLAUDE_PLUGIN_ROOT` / `GROK_PLUGIN_ROOT` mentally to:
@@ -32,6 +32,7 @@ Read the matching skill under `.grok/plugins/bitwize-music/skills/<name>/SKILL.m
 
 | Intent | Skill folder |
 |--------|----------------|
+| Preschool ABC / phonics / letter-word vocabulary / ages 2–6 learning song | project-local `abc-kids-music-composer` first; generic Bitwize skills are supporting only |
 | First-time setup / deps | `setup` |
 | Artist / paths config | `configure` |
 | New album | `new-album`, `album-conceptualizer` |
@@ -63,6 +64,7 @@ Optional: put mastered `audio.wav` under `samples/` or a library folder used by 
 
 ## Rules
 
+- For preschool/ABC/phonics/vocabulary learning songs, route to the project-local `abc-kids-music-composer` before generic `lyric-writer`; its pedagogy and readiness rules override generic adult/streaming lyric limits when they conflict.
 - Prefer reading the skill file before improvising production steps.
 - Do not invent Suno “artist style” clones that violate platform ToS; follow skill disclaimers.
 - For documentary/true-crime lyrics, follow source verification skills before writing.

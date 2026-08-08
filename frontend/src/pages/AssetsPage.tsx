@@ -13,7 +13,12 @@ import { ApiClientError } from "../api/index.js";
 import type { ReadinessReport } from "../api/index.js";
 import { AssetUploadControl } from "../components/AssetUploadControl.js";
 import { ReadinessDisplay } from "../components/ReadinessDisplay.js";
-import { LETTER_ASSET_ROLES, PRIMARY_ROLES } from "./assetRoles.js";
+import {
+  LETTER_ASSET_ROLES,
+  OBJECT_ASSET_ROLES,
+  PRIMARY_ROLES,
+  SOURCE_ASSET_ROLES,
+} from "./assetRoles.js";
 import type { PageProps, PageRegistration } from "./types.js";
 
 function AssetsPage({ context }: PageProps): JSX.Element {
@@ -91,9 +96,37 @@ function AssetsPage({ context }: PageProps): JSX.Element {
       </div>
 
       <div className="asset-group">
-        <h3>Letters (A–Z)</h3>
+        <h3>Processed letters (A–Z)</h3>
         <div className="asset-grid letter-grid">
           {LETTER_ASSET_ROLES.map((role) => (
+            <AssetUploadControl
+              key={role.role}
+              role={role}
+              present={presentSet.has(role.role)}
+              onUpload={handleUpload}
+            />
+          ))}
+        </div>
+      </div>
+
+      <div className="asset-group">
+        <h3>Processed objects (A–Z)</h3>
+        <div className="asset-grid letter-grid">
+          {OBJECT_ASSET_ROLES.map((role) => (
+            <AssetUploadControl
+              key={role.role}
+              role={role}
+              present={presentSet.has(role.role)}
+              onUpload={handleUpload}
+            />
+          ))}
+        </div>
+      </div>
+
+      <div className="asset-group">
+        <h3>Raw source images for segmentation (A–Z)</h3>
+        <div className="asset-grid letter-grid">
+          {SOURCE_ASSET_ROLES.map((role) => (
             <AssetUploadControl
               key={role.role}
               role={role}

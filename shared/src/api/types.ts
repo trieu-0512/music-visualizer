@@ -9,7 +9,7 @@
 import type { VideoFormat } from "../types/projectConfig.js";
 
 /** Job types a client may request (Req 3.1, 6.1, 9.1). */
-export type JobType = "transcribe" | "analyze" | "render";
+export type JobType = "prepare-assets" | "transcribe" | "analyze" | "render";
 
 /** Lifecycle status of a job (Req 12.2). */
 export type JobStatus = "pending" | "running" | "completed" | "failed";

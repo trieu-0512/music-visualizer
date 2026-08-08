@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { validateLearningMap } from "@music-visualizer/shared";
 import { asyncHandler, notFound, validationError } from "../http/errors.js";
 import { createMemoryUpload } from "../http/upload.js";
 import type { ProjectService } from "../projects/index.js";
@@ -24,7 +25,7 @@ const ASSETS_PREFIX = "assets/";
  *   which are missing (Req 2.8).
  * - `GET /projects/:id/assets/*` — stream a stored asset's bytes so the
  *   in-browser preview (Remotion Player) and a headless render can load the
- *   background, logos, audio, and the 26 letter SVGs by URL. This mirrors the
+ *   background, logos, audio, processed letters, and theme-first object assets by URL. This mirrors the
  *   artifact download route: bytes flow out of the Asset_Store as a stream,
  *   the content type is derived from the extension, and a missing asset
  *   resolves to a `NOT_FOUND` envelope.
@@ -63,6 +64,22 @@ export function createAssetsRouter(service: ProjectService, store: AssetStore): 
         buffer: uploaded.buffer,
       };
       validateUpload(role, file);
+      if (role === "learningMap") {
+        let parsed: unknown;
+        try {
+          parsed = JSON.parse(file.buffer.toString("utf-8"));
+        } catch (cause) {
+          throw validationError("authoring/mapping.json is not valid JSON", {
+            reason: cause instanceof Error ? cause.message : String(cause),
+          });
+        }
+        const result = validateLearningMap(parsed);
+        if (!result.ok) {
+          throw validationError("authoring/mapping.json does not match the required schema", {
+            errors: result.error,
+          });
+        }
+      }
       const relativePath = await storeAsset(store, projectId, role, file);
       res.status(201).json({ projectId, role, path: relativePath });
     }),

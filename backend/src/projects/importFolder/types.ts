@@ -31,6 +31,10 @@ export interface InspectedFolder {
     audioAnalysis?: Express.Multer.File;
   };
   metadataFile?: Express.Multer.File;
+  /** Optional theme-first canonical A-Z mapping at authoring/mapping.json. */
+  mappingFile?: Express.Multer.File;
+  /** Preserved agent-authored package files under authoring/ (excluding mapping). */
+  authoringFiles: Map<string, Express.Multer.File>;
   missing: string[];
 }
 

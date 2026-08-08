@@ -87,6 +87,57 @@ describe("JobsPage", () => {
     expect(list.getByText("Transcribe")).toBeInTheDocument();
   });
 
+  it("runs the full theme-first pipeline in dependency order", async () => {
+    const createJob = vi.fn(
+      async (
+        _projectId: string,
+        request: { type: Job["type"]; params?: Record<string, unknown> },
+      ): Promise<Job> =>
+        makeJob({
+          id: `job-${request.type}`,
+          type: request.type,
+          status: "completed",
+          params: request.params ?? {},
+        }),
+    );
+    const getReadiness = vi.fn(async () => ({
+      projectId: "p1",
+      ready: false,
+      present: ["learningMap"],
+      missing: ["letter:A", "object:A"],
+    }));
+    const buildConfig = vi.fn(async () => ({} as never));
+    const listArtifacts = vi.fn<() => Promise<ArtifactList>>(async () => ({
+      projectId: "p1",
+      artifacts: [],
+    }));
+    const context = makeContext(
+      { createJob, getReadiness, buildConfig, listArtifacts },
+      "p1",
+    );
+
+    render(<JobsPage context={context} />);
+    const user = userEvent.setup();
+    await user.click(screen.getByRole("button", { name: "Run full pipeline" }));
+
+    await waitFor(() => expect(buildConfig).toHaveBeenCalledTimes(1));
+    await waitFor(() =>
+      expect(screen.getByRole("status")).toHaveTextContent("Pipeline status: Completed"),
+    );
+
+    expect(getReadiness).toHaveBeenCalledWith("p1");
+    expect(createJob.mock.calls.map((call) => call[1].type)).toEqual([
+      "prepare-assets",
+      "transcribe",
+      "analyze",
+      "render",
+    ]);
+    expect(createJob.mock.calls.at(-1)?.[1]).toEqual({
+      type: "render",
+      params: { format: "both" },
+    });
+  });
+
   it("sends the selected format when triggering a render job", async () => {
     const createJob = vi.fn<() => Promise<Job>>(async () =>
       makeJob({ id: "job-r", type: "render", status: "completed" }),

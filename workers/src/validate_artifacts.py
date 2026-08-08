@@ -20,6 +20,7 @@ __all__ = [
     "load_shared_schema",
     "validate_lyrics_payload",
     "validate_audio_analysis_payload",
+    "validate_learning_map_payload",
     "ArtifactSchemaError",
 ]
 
@@ -73,3 +74,8 @@ def validate_lyrics_payload(data: Mapping[str, Any] | dict[str, Any]) -> None:
 def validate_audio_analysis_payload(data: Mapping[str, Any] | dict[str, Any]) -> None:
     """Validate an ``audio-analysis.json``-shaped dict against the shared schema."""
     _validate("artifacts/audio-analysis.json", "audio-analysis.schema.json", data)
+
+
+def validate_learning_map_payload(data: Mapping[str, Any] | dict[str, Any]) -> None:
+    """Validate the canonical ``authoring/mapping.json`` contract."""
+    _validate("authoring/mapping.json", "learning-map.schema.json", data)

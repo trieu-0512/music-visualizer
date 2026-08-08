@@ -40,7 +40,8 @@
           "type": "array",
           "items": { "$ref": "#/$defs/wordTiming" }
         },
-        "letter": { "type": "string" }
+        "letter": { "type": "string", "pattern": "^[A-Z]$" },
+        "object": { "type": "string", "minLength": 1 }
       }
     }
   }

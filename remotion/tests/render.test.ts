@@ -250,6 +250,18 @@ describe("collectAssetPaths", () => {
     expect(paths).toHaveLength(30);
   });
 
+  it("includes theme-first object assets when present", () => {
+    const assets = makeConfig("landscape").assets;
+    assets.objects = Object.fromEntries(
+      LETTERS.map((l) => [l, `assets/objects/${l}.png`]),
+    );
+    const paths = collectAssetPaths(assets);
+    for (const l of LETTERS) {
+      expect(paths).toContain(`assets/objects/${l}.png`);
+    }
+    expect(paths).toHaveLength(56); // 4 named + 26 letters + 26 objects
+  });
+
   it("de-duplicates repeated paths", () => {
     const assets = makeConfig("landscape").assets;
     assets.songLogo = assets.channelLogo; // same file in two roles

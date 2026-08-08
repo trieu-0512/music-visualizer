@@ -86,14 +86,26 @@ def test_build_lyrics_clamps_inverted_and_negative_intervals() -> None:
         assert line["start"] <= line["end"]
 
 
-def test_build_lyrics_includes_line1_line2_and_letter() -> None:
-    # Req 4.4 + letter: every line has line1/line2; letter is the first A-Z upper.
-    whisperx = {"segments": [{"start": 0.0, "end": 2.0, "text": "twinkle little star"}]}
+def test_build_lyrics_includes_line1_line2_and_explicit_learning_letter() -> None:
+    # Req 4.4 + ABC asset routing: line1/line2 are always present; a centered
+    # letter asset is emitted only when the line begins with an isolated letter.
+    whisperx = {"segments": [{"start": 0.0, "end": 2.0, "text": "A is for apple"}]}
     line = build_lyrics(whisperx, None)["lines"][0]
     assert "line1" in line and "line2" in line
-    assert line["line1"] == "twinkle little"
-    assert line["line2"] == "star"
-    assert line["letter"] == "T"
+    assert line["line1"] == "A is"
+    assert line["line2"] == "for apple"
+    assert line["letter"] == "A"
+
+
+def test_build_lyrics_omits_learning_letter_for_chorus_or_narration() -> None:
+    whisperx = {
+        "segments": [
+            {"start": 0.0, "end": 2.0, "text": "Say it! Show it! A-B-C!"},
+            {"start": 2.0, "end": 4.0, "text": "Clap your hands and sing with me"},
+        ]
+    }
+    lines = build_lyrics(whisperx, None)["lines"]
+    assert all("letter" not in line for line in lines)
 
 
 def test_build_lyrics_word_timing_when_counts_match() -> None:
@@ -167,8 +179,13 @@ def test_split_two_lines_examples() -> None:
 
 
 def test_pick_letter_examples() -> None:
-    assert pick_letter("hello") == "H"
-    assert pick_letter("123 abc") == "A"
+    assert pick_letter("A is for apple") == "A"
+    assert pick_letter("  b ... b ... book") == "B"
+    assert pick_letter("Z! zipper") == "Z"
+    assert pick_letter("Say it! Show it! A-B-C!") is None
+    assert pick_letter("A-B-C, sing with me") is None
+    assert pick_letter("hello") is None
+    assert pick_letter("123 A") is None
     assert pick_letter("!!!") is None
     assert pick_letter("") is None
 
@@ -224,4 +241,34 @@ def test_load_original_lyrics_accepts_markdown_asset() -> None:
 
     lyrics = load_original_lyrics(FakeStore(), "p1")
     assert lyrics is not None
-    assert lyrics.lines == ["# title", "Line one", "Line two"]
+    assert lyrics.lines == ["Line one", "Line two"]
+
+
+def test_parse_original_lyrics_strips_markdown_and_structure_tags() -> None:
+    raw = """# Song title
+[Intro]
+Line one
+[Verse 1 - calm]
+Line two
+[Chorus]
+Line three
+[Final Chorus]
+Line four
+[End]
+"""
+    lyrics = parse_original_lyrics(raw, is_json=False)
+    assert lyrics.lines == ["Line one", "Line two", "Line three", "Line four"]
+
+
+def test_build_lyrics_attaches_canonical_object_from_learning_map() -> None:
+    whisperx = {
+        "segments": [
+            {"start": 0.0, "end": 2.0, "text": "A is for apple"},
+            {"start": 2.0, "end": 4.0, "text": "Say it with me"},
+        ]
+    }
+    learning_map = {"letters": {"A": {"object": "Apple"}}}
+    lines = build_lyrics(whisperx, None, learning_map)["lines"]
+    assert lines[0]["letter"] == "A"
+    assert lines[0]["object"] == "Apple"
+    assert "object" not in lines[1]
