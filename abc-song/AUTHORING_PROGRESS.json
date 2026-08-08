@@ -4,10 +4,10 @@
   "batchSize": 10,
   "totalSongs": 200,
   "totalBatches": 20,
-  "completedBatches": 5,
-  "completedSongs": 50,
-  "staleBatches": 15,
-  "legacyPassedBatches": 15,
+  "completedBatches": 10,
+  "completedSongs": 100,
+  "staleBatches": 10,
+  "legacyPassedBatches": 10,
   "authoredPackagesExistForSongs": 200,
   "batches": [
     {
@@ -38,27 +38,27 @@
     {
       "start": "0051",
       "end": "0060",
-      "status": "STALE_CREATIVE_V3"
+      "status": "PASS"
     },
     {
       "start": "0061",
       "end": "0070",
-      "status": "STALE_CREATIVE_V3"
+      "status": "PASS"
     },
     {
       "start": "0071",
       "end": "0080",
-      "status": "STALE_CREATIVE_V3"
+      "status": "PASS"
     },
     {
       "start": "0081",
       "end": "0090",
-      "status": "STALE_CREATIVE_V3"
+      "status": "PASS"
     },
     {
       "start": "0091",
       "end": "0100",
-      "status": "STALE_CREATIVE_V3"
+      "status": "PASS"
     },
     {
       "start": "0101",

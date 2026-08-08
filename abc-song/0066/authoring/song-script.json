@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore bird world with me!",
+      "text": "Tweet-tweet... morning has a melody.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Birdsong letters—A-B-C!",
+      "text": "Follow every feathered clue from A to Z.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A shows Avocet in our bird world today.",
+      "text": "Avocet—that is our A. Avocet on the sky-line | feathered body gives a clue to find",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B shows Budgie in our bird world today.",
+      "text": "Spot B: Budgie! Budgie is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C shows Cardinal in our bird world today.",
+      "text": "C brings Cardinal; It is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D shows Dove in our bird world today.",
+      "text": "A clue for D: Dove. Dove is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E shows Eagle in our bird world today.",
+      "text": "across the open sky, here comes Eagle for E. Eagle on the sky-line | feathered body gives a clue to find",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F shows Finch in our bird world today.",
+      "text": "Finch—that is our F. It is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G shows Goldfinch in our bird world today.",
+      "text": "Spot G: Goldfinch! Goldfinch is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,29 +75,15 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H shows Heron in our bird world today.",
+      "text": "H brings Heron; It is a water-side bird; beak, legs, and feet fit its watery habitat.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-2-1",
-      "sectionId": "chorus-r1-2",
-      "text": "Birdsong letters—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-2-2",
-      "sectionId": "chorus-r1-2",
-      "text": "Feathered friends sing back to me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I shows Ibis in our bird world today.",
+      "text": "A clue for I: Ibis. Ibis on the sky-line | feathered body gives a clue to find",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J shows Junco in our bird world today.",
+      "text": "across the open sky, here comes Junco for J. It is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K shows Kiwi in our bird world today.",
+      "text": "Kiwi—that is our K. Kiwi on the ground | tiny wings, strong legs stepping round",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,15 +107,29 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L shows Lark in our bird world today.",
+      "text": "Spot L: Lark! Lark is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-3-1",
+      "sectionId": "chorus-r1-3",
+      "text": "Wingbeat, word beat—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-3-2",
+      "sectionId": "chorus-r1-3",
+      "text": "Name the bird that flies to me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M shows Magpie in our bird world today.",
+      "text": "M brings Magpie; Magpie on the sky-line | feathered body gives a clue to find",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N shows Nest in our bird world today.",
+      "text": "A clue for N: Nest. Nest is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O shows Owl in our bird world today.",
+      "text": "across the open sky, here comes Owl for O. It is a bird with forward-facing eyes and soft flight feathers; many species are active at night.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P shows Parrot in our bird world today.",
+      "text": "Parrot—that is our P. It is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Birdsong letters—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Feathered friends sing back to me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q shows Quetzal in our bird world today.",
+      "text": "Spot Q: Quetzal! Quetzal on the sky-line | feathered body gives a clue to find",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R shows Robin in our bird world today.",
+      "text": "R brings Robin; It is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S shows Sparrow in our bird world today.",
+      "text": "A clue for S: Sparrow. Sparrow is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T shows Toucan in our bird world today.",
+      "text": "across the open sky, here comes Toucan for T. It is a tropical bird known for its very large, lightweight-looking colorful bill.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U shows Upland Sandpiper in our bird world today.",
+      "text": "Upland Sandpiper—that is our U. Upland Sandpiper in sight | feathers, beak, and feet give clues just right",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V shows Veery in our bird world today.",
+      "text": "Spot V: Veery! Veery is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W shows Woodpecker in our bird world today.",
+      "text": "W brings Woodpecker; It uses a strong bill to tap or chisel wood and has feet suited for gripping trunks.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X shows Xenops in our bird world today.",
+      "text": "A clue for X: Xenops. A xenops is a small tropical American bird that searches bark and branches for insects.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Birdsong letters—A-B-C!",
+      "text": "Wingbeat, word beat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Feathered friends sing back to me!",
+      "text": "Name the bird that flies to me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y shows Yellow Warbler in our bird world today.",
+      "text": "across the open sky, here comes Yellow Warbler for Y. Yellow Warbler on the sky-line | feathered body gives a clue to find",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z shows Zenaida Dove in our bird world today.",
+      "text": "Zenaida Dove—that is our Z. It is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Avocet! Point and softly say.",
+      "text": "Spot A ... Avocet! Perch one hand, then name it.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Budgie! Point and softly say.",
+      "text": "Call B, wait ... Budgie! Lift two gentle wings, then hold.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Cardinal! Point and softly say.",
+      "text": "Which word fits C? ... Cardinal! Perch one hand, then name it.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Dove! Point and softly say.",
+      "text": "D ... D ... Dove! Perch one hand, then name it.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Eagle! Point and softly say.",
+      "text": "Spot E ... Eagle! Perch one hand, then name it.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Finch! Point and softly say.",
+      "text": "Call F, wait ... Finch! Lift two gentle wings, then hold.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Goldfinch! Point and softly say.",
+      "text": "Which word fits G? ... Goldfinch! Perch one hand, then name it.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,29 +311,15 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Heron! Point and softly say.",
+      "text": "H ... H ... Heron! Lift two gentle wings, then hold.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-2-1",
-      "sectionId": "chorus-r2-2",
-      "text": "Birdsong letters—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-2-2",
-      "sectionId": "chorus-r2-2",
-      "text": "Feathered friends sing back to me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Ibis! Point and softly say.",
+      "text": "Spot I ... Ibis! Glide one flat hand, then stop.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Junco! Point and softly say.",
+      "text": "Call J, wait ... Junco! Glide one flat hand, then stop.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Kiwi! Point and softly say.",
+      "text": "Which word fits K? ... Kiwi! Tap two gentle walking steps with your fingers, then point.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Lark! Point and softly say.",
+      "text": "L ... L ... Lark! Perch one hand, then name it.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Magpie! Point and softly say.",
+      "text": "Spot M ... Magpie! Glide one flat hand, then stop.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nest! Point and softly say.",
+      "text": "Call N, wait ... Nest! Perch one hand, then name it.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Owl! Point and softly say.",
+      "text": "Which word fits O? ... Owl! Perch one hand, then name it.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Parrot! Point and softly say.",
+      "text": "P ... P ... Parrot! Lift two gentle wings, then hold.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Birdsong letters—A-B-C!",
+      "text": "Wingbeat, word beat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Feathered friends sing back to me!",
+      "text": "Name the bird that flies to me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quetzal! Point and softly say.",
+      "text": "Spot Q ... Quetzal! Perch one hand, then name it.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Robin! Point and softly say.",
+      "text": "Call R, wait ... Robin! Perch one hand, then name it.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Sparrow! Point and softly say.",
+      "text": "Which word fits S? ... Sparrow! Perch one hand, then name it.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Toucan! Point and softly say.",
+      "text": "T ... T ... Toucan! Perch one hand, then name it.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Upland Sandpiper! Point and softly say.",
+      "text": "Spot U ... Upland Sandpiper! Perch one hand, then name it.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Veery! Point and softly say.",
+      "text": "Call V, wait ... Veery! Glide one flat hand, then stop.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Woodpecker! Point and softly say.",
+      "text": "Which word fits W? ... Woodpecker! Glide one flat hand, then stop.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +453,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xenops! Point and softly say.",
+      "text": "X ... X ... Xenops! Make a tiny beak, then point.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Birdsong letters—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Feathered friends sing back to me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Warbler! Point and softly say.",
+      "text": "Spot Y ... Yellow Warbler! Glide one flat hand, then stop.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +469,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zenaida Dove! Point and softly say.",
+      "text": "Call Z, wait ... Zenaida Dove! Perch one hand, then name it.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Wingbeat, word beat—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Name the bird that flies to me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Birdsong letters—A-B-C!",
+      "text": "Wingbeat, word beat—A-B-C!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z—our birdwatching song still glows!",
       "objective": "narration",
       "objectReveal": "none"
     }

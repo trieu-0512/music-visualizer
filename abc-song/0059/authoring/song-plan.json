@@ -6,11 +6,60 @@
   "tempoBpm": 92,
   "motifFamily": "dino-trail",
   "hook": [
-    "Dino trail—come follow me!",
-    "Track the letters A to Z!"
+    "Roar it soft, then say it clear!",
+    "Letter first, old creature near!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "brief cue gap with percussion thinned",
   "visualStyle": "3D preschool dinosaur explorer storybook, field-guide trail mood, bright foliage and rocks, safe friendly creatures, bold contours",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "roar-echo",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "object-first",
+      "question-answer",
+      "narrative",
+      "pause-reveal"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "refrain-with-echo-variation",
+    "pointOfView": "young time-traveler and museum guide",
+    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
+    "grooveMeter": "light swung 4/4",
+    "round1Grammar": "Round 1 alternates stomp-sized short entries with longer fossil or body-shape clues; do not call every prehistoric animal a dinosaur when it is a pterosaur or marine reptile.",
+    "round2Grammar": "Round 2 uses footprint-sized recall gaps and safe stomp, trace, tail or fossil-brush pantomime after the answer.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: low soft tom footprint plus wooden click, never a scary roar over the word.",
+    "signatureColor": "low soft tom footprint plus wooden click, never a scary roar over the word",
+    "chorusAfterRound1": [
+      3,
+      6
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 8,
+    "usedRound1": 7,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

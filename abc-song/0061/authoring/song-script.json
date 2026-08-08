@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore bug world with me!",
+      "text": "Bzz-bzz... something tiny zipped past the flowers!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Tiny bugs—A-B-C!",
+      "text": "Follow the little wings and feet from A to Z.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A shows Aphid in our tiny bug world.",
+      "text": "Look—A! Look—Aphid! Aphid small in sight | legs, wings, or body make the clue feel right",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B shows Beetle in our tiny bug world.",
+      "text": "B lands on Beetle. Beetle is a beetle; hard front wings cover softer flight wings.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C shows Caterpillar in our tiny bug world.",
+      "text": "Caterpillar? Yes—C. Caterpillar crawl | larva first, then wings may call",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D shows Dung Beetle in our tiny bug world.",
+      "text": "under the garden leaves, the D clue is Dung Beetle. Dung Beetle is a beetle; hard front wings cover softer flight wings.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E shows Earwig in our tiny bug world.",
+      "text": "Say E, then Earwig. Earwig down low | tiny body clues help the name to show",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F shows Firefly in our tiny bug world.",
+      "text": "Look—F! Look—Firefly! It is a beetle; many species produce light with special organs in the abdomen.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G shows Gnat in our tiny bug world.",
+      "text": "G lands on Gnat. Gnat is a small fly with six legs, antennae, and one wing pair.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,29 +75,15 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H shows Honeybee in our tiny bug world.",
+      "text": "Honeybee? Yes—H. It is a social bee that lives in a colony and gathers nectar and pollen from flowers.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-2-1",
-      "sectionId": "chorus-r1-2",
-      "text": "Tiny bugs—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-2-2",
-      "sectionId": "chorus-r1-2",
-      "text": "Crawl and flutter, look with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I shows Inchworm in our tiny bug world.",
+      "text": "under the garden leaves, the I clue is Inchworm. Inchworm on the leaf | shape and movement make the clue brief",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J shows Jewel Beetle in our tiny bug world.",
+      "text": "Say J, then Jewel Beetle. It is a beetle; hard front wings cover softer flight wings.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K shows Kissing Bug in our tiny bug world.",
+      "text": "Look—K! Look—Kissing Bug! It has six legs and a body shape that makes a clear clue.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,15 +107,29 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L shows Ladybug in our tiny bug world.",
+      "text": "L lands on Ladybug. A ladybug is a round beetle, often red or orange with dark spots.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-3-1",
+      "sectionId": "chorus-r1-3",
+      "text": "Tiny wings, tiny feet—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-3-2",
+      "sectionId": "chorus-r1-3",
+      "text": "Find the little name with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M shows Mosquito in our tiny bug world.",
+      "text": "Mosquito? Yes—M. Mosquito down low | tiny body clues help the name to show",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N shows Nymph in our tiny bug world.",
+      "text": "under the garden leaves, the N clue is Nymph. A nymph is a young stage of insects such as grasshoppers, dragonflies, or true bugs that changes gradually as it grows.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O shows Orange Butterfly in our tiny bug world.",
+      "text": "Say O, then Orange Butterfly. It is a butterfly: scaled wings wide, curled proboscis tucked inside.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P shows Praying Mantis in our tiny bug world.",
+      "text": "Look—P! Look—Praying Mantis! It is an insect with grasping front legs held in a folded position.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Tiny bugs—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Crawl and flutter, look with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q shows Queen Butterfly in our tiny bug world.",
+      "text": "Q lands on Queen Butterfly. Queen Butterfly small in sight | legs, wings, or body make the clue feel right",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R shows Roach in our tiny bug world.",
+      "text": "Roach? Yes—R. It has six legs and a body shape that makes a clear clue.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S shows Stick Insect in our tiny bug world.",
+      "text": "under the garden leaves, the S clue is Stick Insect. Stick Insect has six legs and a body shape that makes a clear clue.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T shows Termite in our tiny bug world.",
+      "text": "Say T, then Termite. It is a social insect that lives in colonies and feeds mainly on cellulose from plant material.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U shows Ulysses Butterfly in our tiny bug world.",
+      "text": "Look—U! Look—Ulysses Butterfly! Ulysses Butterfly down low | tiny body clues help the name to show",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V shows Viceroy Butterfly in our tiny bug world.",
+      "text": "V lands on Viceroy Butterfly. Viceroy Butterfly is a butterfly: scaled wings wide, curled proboscis tucked inside.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W shows Wasp in our tiny bug world.",
+      "text": "Wasp? Yes—W. It has six legs, antennae, wings, and a narrow-jointed body.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,29 +217,15 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X shows Xylophone Beetle in our tiny bug world.",
+      "text": "under the garden leaves, the X clue is Xylophone Beetle. Xylophone Beetle is a beetle; hard front wings cover softer flight wings.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-6-1",
-      "sectionId": "chorus-r1-6",
-      "text": "Tiny bugs—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-6-2",
-      "sectionId": "chorus-r1-6",
-      "text": "Crawl and flutter, look with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y shows Yellow Butterfly in our tiny bug world.",
+      "text": "Say Y, then Yellow Butterfly. Yellow Butterfly small in sight | legs, wings, or body make the clue feel right",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,15 +233,36 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z shows Zebra Longwing in our tiny bug world.",
+      "text": "Look—Z! Look—Zebra Longwing! It is a butterfly: scaled wings wide, curled proboscis tucked inside.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-7-1",
+      "sectionId": "chorus-r1-7",
+      "text": "Tiny wings, tiny feet—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-7-2",
+      "sectionId": "chorus-r1-7",
+      "text": "Find the little name with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "interlude-1",
+      "sectionId": "mid-interlude",
+      "text": "The garden goes still under one leaf. Tiny clues return after the hush.",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Aphid! Point and say the word.",
+      "text": "Look for A ... Aphid! Lift two antenna fingers, then point.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Beetle! Point and say the word.",
+      "text": "Letter first: B ... answer: Beetle! Crawl two fingers across your palm.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Caterpillar! Point and say the word.",
+      "text": "C? Hold ... Caterpillar! Flutter or crawl once, then freeze.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Dung Beetle! Point and say the word.",
+      "text": "One clue—D ... Dung Beetle! Flutter or crawl once, then freeze.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Earwig! Point and say the word.",
+      "text": "Look for E ... Earwig! Flutter or crawl once, then freeze.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Firefly! Point and say the word.",
+      "text": "Letter first: F ... answer: Firefly! Crawl two fingers across your palm.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Gnat! Point and say the word.",
+      "text": "G? Hold ... Gnat! Lift two antenna fingers, then point.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Honeybee! Point and say the word.",
+      "text": "One clue—H ... Honeybee! Flutter or crawl once, then freeze.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +326,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Tiny bugs—A-B-C!",
+      "text": "Tiny wings, tiny feet—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Crawl and flutter, look with me!",
+      "text": "Find the little name with me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Inchworm! Point and say the word.",
+      "text": "Look for I ... Inchworm! Flutter or crawl once, then freeze.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +348,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jewel Beetle! Point and say the word.",
+      "text": "Letter first: J ... answer: Jewel Beetle! Wiggle six tiny finger-steps, then stop.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +356,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Kissing Bug! Point and say the word.",
+      "text": "K? Hold ... Kissing Bug! Lift two antenna fingers, then point.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +364,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Ladybug! Point and say the word.",
+      "text": "One clue—L ... Ladybug! Wiggle six tiny finger-steps, then stop.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +372,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Mosquito! Point and say the word.",
+      "text": "Look for M ... Mosquito! Crawl two fingers across your palm.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nymph! Point and say the word.",
+      "text": "Letter first: N ... answer: Nymph! Wiggle six tiny finger-steps, then stop.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Orange Butterfly! Point and say the word.",
+      "text": "O? Hold ... Orange Butterfly! Open and close two gentle hand-wings once, then point.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,29 +396,15 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Praying Mantis! Point and say the word.",
+      "text": "One clue—P ... Praying Mantis! Lift two antenna fingers, then point.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-4-1",
-      "sectionId": "chorus-r2-4",
-      "text": "Tiny bugs—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-4-2",
-      "sectionId": "chorus-r2-4",
-      "text": "Crawl and flutter, look with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Queen Butterfly! Point and say the word.",
+      "text": "Look for Q ... Queen Butterfly! Open and close two gentle hand-wings once, then point.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Roach! Point and say the word.",
+      "text": "Letter first: R ... answer: Roach! Crawl two fingers across your palm.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Stick Insect! Point and say the word.",
+      "text": "S? Hold ... Stick Insect! Wiggle six tiny finger-steps, then stop.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,15 +428,29 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Termite! Point and say the word.",
+      "text": "One clue—T ... Termite! Lift two antenna fingers, then point.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-5-1",
+      "sectionId": "chorus-r2-5",
+      "text": "Tiny wings, tiny feet—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-5-2",
+      "sectionId": "chorus-r2-5",
+      "text": "Find the little name with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Ulysses Butterfly! Point and say the word.",
+      "text": "Look for U ... Ulysses Butterfly! Open and close two gentle hand-wings once, then point.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +458,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Viceroy Butterfly! Point and say the word.",
+      "text": "Letter first: V ... answer: Viceroy Butterfly! Open and close two gentle hand-wings once, then point.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +466,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Wasp! Point and say the word.",
+      "text": "W? Hold ... Wasp! Flutter or crawl once, then freeze.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +474,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xylophone Beetle! Point and say the word.",
+      "text": "One clue—X ... Xylophone Beetle! Flutter or crawl once, then freeze.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Tiny bugs—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Crawl and flutter, look with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Butterfly! Point and say the word.",
+      "text": "Look for Y ... Yellow Butterfly! Open and close two gentle hand-wings once, then point.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +490,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zebra Longwing! Point and say the word.",
+      "text": "Letter first: Z ... answer: Zebra Longwing! Open and close two gentle hand-wings once, then point.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Tiny wings, tiny feet—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Find the little name with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Tiny bugs—A-B-C!",
+      "text": "Tiny wings, tiny feet—A-B-C!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z—our tiny-world tune still glows!",
       "objective": "narration",
       "objectReveal": "none"
     }

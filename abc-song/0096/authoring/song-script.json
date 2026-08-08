@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore bakery treats with me!",
+      "text": "Morning light lands on the bakery picture window.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Bakery morning—A-B-C!",
+      "text": "A to Z brings shapes, swirls, crumbs, and names into the glow.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A shows Angel Cake in our bakery morning.",
+      "text": "Look—A! Look—Angel Cake! Angel Cake in our sight | layer, crumb, or topping gives the clue just right",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B shows Brownie in our bakery morning.",
+      "text": "B lands on Brownie. Brownie is cake-like; layers, crumb, wrapper, topping, or shape set it apart.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C shows Cupcake in our bakery morning.",
+      "text": "Cupcake? Yes—C. Cupcake in its cup | crumb below, little topping up",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D shows Danish in our bakery morning.",
+      "text": "along the storybook bakery window, the D clue is Danish. Danish is pastry-like; crust, layer, filling, fold, or outline gives the clue.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E shows Eclair in our bakery morning.",
+      "text": "Say E, then Eclair. Eclair on display | crust, fold, swirl, or shape gives the clue today",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F shows Frosting in our bakery morning.",
+      "text": "Look—F! Look—Frosting! Frosting finishes the top; texture and surface pattern make the picture clue.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G shows Glaze in our bakery morning.",
+      "text": "G lands on Glaze. Glaze finishes the top; texture and surface pattern make the picture clue.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,29 +75,15 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H shows Honey Bun in our bakery morning.",
+      "text": "Honey Bun? Yes—H. It is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-2-1",
-      "sectionId": "chorus-r1-2",
-      "text": "Bakery morning—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-2-2",
-      "sectionId": "chorus-r1-2",
-      "text": "Warm little treats for us to see!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I shows Icing in our bakery morning.",
+      "text": "along the storybook bakery window, the I clue is Icing. Icing on top | texture, dots, or shine make the picture pop",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J shows Jelly Donut in our bakery morning.",
+      "text": "Say J, then Jelly Donut. Jelly Donut: crust, crumb, layer, topping, fold, swirl, or outline gives the clue.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K shows Kolache in our bakery morning.",
+      "text": "Look—K! Look—Kolache! It is pastry-like; crust, layer, filling, fold, or outline gives the clue.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,15 +107,29 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L shows Loaf in our bakery morning.",
+      "text": "L lands on Loaf. Loaf is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-3-1",
+      "sectionId": "chorus-r1-3",
+      "text": "Shape and swirl—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-3-2",
+      "sectionId": "chorus-r1-3",
+      "text": "Bakery pictures, name with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M shows Macaron in our bakery morning.",
+      "text": "Macaron? Yes—M. Macaron in our sight | outline and surface make the clue feel right",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N shows Napoleon Pastry in our bakery morning.",
+      "text": "along the storybook bakery window, the N clue is Napoleon Pastry. Napoleon Pastry is pastry-like; crust, layer, filling, fold, or outline gives the clue.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O shows Oat Cookie in our bakery morning.",
+      "text": "Say O, then Oat Cookie. It stands out by its baked shape and surface pattern.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P shows Pretzel in our bakery morning.",
+      "text": "Look—P! Look—Pretzel! It is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Bakery morning—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Warm little treats for us to see!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q shows Quiche in our bakery morning.",
+      "text": "Q lands on Quiche. Quiche in our sight | outline and surface make the clue feel right",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R shows Roll in our bakery morning.",
+      "text": "Roll? Yes—R. It is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S shows Scone in our bakery morning.",
+      "text": "along the storybook bakery window, the S clue is Scone. Scone is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T shows Tart in our bakery morning.",
+      "text": "Say T, then Tart. It is pastry-like; crust, layer, filling, fold, or outline gives the clue.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U shows Ube Roll in our bakery morning.",
+      "text": "Look—U! Look—Ube Roll! Ube Roll baked in view | crust and shape become the clue",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V shows Victoria Sponge in our bakery morning.",
+      "text": "V lands on Victoria Sponge. Victoria Sponge is cake-like; layers, crumb, wrapper, topping, or shape set it apart.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W shows Waffle in our bakery morning.",
+      "text": "Waffle? Yes—W. Waffle on display | little grid marks cross it every way",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,29 +217,15 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X shows Xmas Cookie in our bakery morning.",
+      "text": "along the storybook bakery window, the X clue is Xmas Cookie. Xmas Cookie stands out by its baked shape and surface pattern.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-6-1",
-      "sectionId": "chorus-r1-6",
-      "text": "Bakery morning—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-6-2",
-      "sectionId": "chorus-r1-6",
-      "text": "Warm little treats for us to see!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y shows Yule Log in our bakery morning.",
+      "text": "Say Y, then Yule Log. Yule Log in our sight | layer, crumb, or topping gives the clue just right",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,15 +233,36 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z shows Zucchini Bread in our bakery morning.",
+      "text": "Look—Z! Look—Zucchini Bread! It is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-7-1",
+      "sectionId": "chorus-r1-7",
+      "text": "Shape and swirl—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-7-2",
+      "sectionId": "chorus-r1-7",
+      "text": "Bakery pictures, name with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "interlude-1",
+      "sectionId": "mid-interlude",
+      "text": "The storybook bakery window goes still. One warm chord—then the picture names return.",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Angel Cake! Point and name the treat.",
+      "text": "Look for A ... Angel Cake! Pretend one tiny pat or roll; freeze.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Brownie! Point and name the treat.",
+      "text": "Letter first: B ... answer: Brownie! Point to one crust, topping, grid, or layer clue.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Cupcake! Point and name the treat.",
+      "text": "C? Hold ... Cupcake! Trace its outline or swirl; point.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Danish! Point and name the treat.",
+      "text": "One clue—D ... Danish! Pretend one tiny pat or roll; freeze.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Eclair! Point and name the treat.",
+      "text": "Look for E ... Eclair! Trace its outline or swirl; point.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Frosting! Point and name the treat.",
+      "text": "Letter first: F ... answer: Frosting! Trace its outline or swirl; point.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Glaze! Point and name the treat.",
+      "text": "G? Hold ... Glaze! Pretend one tiny pat or roll; freeze.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Honey Bun! Point and name the treat.",
+      "text": "One clue—H ... Honey Bun! Trace its outline or swirl; point.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +326,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Bakery morning—A-B-C!",
+      "text": "Shape and swirl—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Warm little treats for us to see!",
+      "text": "Bakery pictures, name with me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Icing! Point and name the treat.",
+      "text": "Look for I ... Icing! Point to one crust, topping, grid, or layer clue.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +348,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jelly Donut! Point and name the treat.",
+      "text": "Letter first: J ... answer: Jelly Donut! Point to one crust, topping, grid, or layer clue.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +356,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Kolache! Point and name the treat.",
+      "text": "K? Hold ... Kolache! Pretend one tiny pat or roll; freeze.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +364,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Loaf! Point and name the treat.",
+      "text": "One clue—L ... Loaf! Point to one crust, topping, grid, or layer clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +372,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Macaron! Point and name the treat.",
+      "text": "Look for M ... Macaron! Show its round, layered, folded, or long shape.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Napoleon Pastry! Point and name the treat.",
+      "text": "Letter first: N ... answer: Napoleon Pastry! Pretend one tiny pat or roll; freeze.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Oat Cookie! Point and name the treat.",
+      "text": "O? Hold ... Oat Cookie! Point to one crust, topping, grid, or layer clue.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,29 +396,15 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Pretzel! Point and name the treat.",
+      "text": "One clue—P ... Pretzel! Point to one crust, topping, grid, or layer clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-4-1",
-      "sectionId": "chorus-r2-4",
-      "text": "Bakery morning—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-4-2",
-      "sectionId": "chorus-r2-4",
-      "text": "Warm little treats for us to see!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quiche! Point and name the treat.",
+      "text": "Look for Q ... Quiche! Pretend one tiny pat or roll; freeze.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Roll! Point and name the treat.",
+      "text": "Letter first: R ... answer: Roll! Show its round, layered, folded, or long shape.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Scone! Point and name the treat.",
+      "text": "S? Hold ... Scone! Trace its outline or swirl; point.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,15 +428,29 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Tart! Point and name the treat.",
+      "text": "One clue—T ... Tart! Pretend one tiny pat or roll; freeze.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-5-1",
+      "sectionId": "chorus-r2-5",
+      "text": "Shape and swirl—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-5-2",
+      "sectionId": "chorus-r2-5",
+      "text": "Bakery pictures, name with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Ube Roll! Point and name the treat.",
+      "text": "Look for U ... Ube Roll! Show its round, layered, folded, or long shape.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +458,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Victoria Sponge! Point and name the treat.",
+      "text": "Letter first: V ... answer: Victoria Sponge! Show its round, layered, folded, or long shape.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +466,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Waffle! Point and name the treat.",
+      "text": "W? Hold ... Waffle! Show its round, layered, folded, or long shape.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +474,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xmas Cookie! Point and name the treat.",
+      "text": "One clue—X ... Xmas Cookie! Pretend one tiny pat or roll; freeze.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Bakery morning—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Warm little treats for us to see!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yule Log! Point and name the treat.",
+      "text": "Look for Y ... Yule Log! Show its round, layered, folded, or long shape.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +490,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zucchini Bread! Point and name the treat.",
+      "text": "Letter first: Z ... answer: Zucchini Bread! Pretend one tiny pat or roll; freeze.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Shape and swirl—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Bakery pictures, name with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Bakery morning—A-B-C!",
+      "text": "Shape and swirl—A-B-C!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z—our bakery picture song still glows!",
       "objective": "narration",
       "objectReveal": "none"
     }

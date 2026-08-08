@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore pet shop day with me!",
+      "text": "The picture window opens—who is peeking through?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Pet shop pictures—A-B-C!",
+      "text": "Find the letter, find the pet-care word, then show what it can do.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A finds Aquarium on our pet-shop picture wall.",
+      "text": "Look—A! Look—Aquarium! Aquarium in view | pet or care-item job becomes our clue",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B finds Bowl on our pet-shop picture wall.",
+      "text": "B lands on Bowl. Bowl holds food or fresh water for a pet.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C finds Collar on our pet-shop picture wall.",
+      "text": "Collar? Yes—C. A collar fits around a pet's neck and may carry an ID tag when properly fitted.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D finds Dog on our pet-shop picture wall.",
+      "text": "around our calm pet-care room, the D clue is Dog. Dog has padded paws and a remarkably strong sense of smell.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E finds Exercise Wheel on our pet-shop picture wall.",
+      "text": "Say E, then Exercise Wheel. Exercise Wheel in our care | shape or job tells why it is there",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F finds Fish on our pet-shop picture wall.",
+      "text": "Look—F! Look—Fish! Fish breathes with gills and needs clean, suitable water.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G finds Guinea Pig on our pet-shop picture wall.",
+      "text": "G lands on Guinea Pig. Guinea Pig needs the right food, fresh water, shelter, space, and gentle care.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,29 +75,15 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H finds Hamster on our pet-shop picture wall.",
+      "text": "Hamster? Yes—H. Hamster needs the right food, fresh water, shelter, space, and gentle care.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-2-1",
-      "sectionId": "chorus-r1-2",
-      "text": "Pet shop pictures—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-2-2",
-      "sectionId": "chorus-r1-2",
-      "text": "Look and learn along with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I finds Iguana on our pet-shop picture wall.",
+      "text": "around our calm pet-care room, the I clue is Iguana. Iguana in view | pet or care-item job becomes our clue",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J finds Jingle Ball on our pet-shop picture wall.",
+      "text": "Say J, then Jingle Ball. It is a play toy that rolls and makes a small sound as it moves.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K finds Kibble on our pet-shop picture wall.",
+      "text": "Look—K! Look—Kibble! It is a type of pet food; the correct kind and amount depend on the animal.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,15 +107,29 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L finds Litter Box on our pet-shop picture wall.",
+      "text": "L lands on Litter Box. A litter box gives a cat or another suitable pet a designated place for toileting.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-3-1",
+      "sectionId": "chorus-r1-3",
+      "text": "Window clue, what can it be?",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-3-2",
+      "sectionId": "chorus-r1-3",
+      "text": "Pet-shop words from A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M finds Mouse on our pet-shop picture wall.",
+      "text": "Mouse? Yes—M. Mouse on the scene | pet-care clue makes the meaning clean",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N finds Nest on our pet-shop picture wall.",
+      "text": "around our calm pet-care room, the N clue is Nest. A nest gives suitable pet birds a sheltered place associated with resting, eggs, or chicks.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O finds Outdoor Kennel on our pet-shop picture wall.",
+      "text": "Say O, then Outdoor Kennel. It is a secure enclosure or shelter used for a dog under appropriate supervision and conditions.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P finds Perch on our pet-shop picture wall.",
+      "text": "Look—P! Look—Perch! A perch gives a bird a raised place to stand, rest, or move between levels.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Pet shop pictures—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Look and learn along with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q finds Quail on our pet-shop picture wall.",
+      "text": "Q lands on Quail. Quail in our care | shape or job tells why it is there",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R finds Rope Toy on our pet-shop picture wall.",
+      "text": "Rope Toy? Yes—R. A rope toy gives an appropriate pet something to carry, tug, climb, or play with under supervision.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S finds Seed Mix on our pet-shop picture wall.",
+      "text": "around our calm pet-care room, the S clue is Seed Mix. Seed Mix is a type of pet food; the correct kind and amount depend on the animal.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T finds Turtle on our pet-shop picture wall.",
+      "text": "Say T, then Turtle. Turtle needs species-appropriate food, water, shelter, and careful adult-guided care.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U finds UV Lamp on our pet-shop picture wall.",
+      "text": "Look—U! Look—UV Lamp! UV Lamp in view | pet or care-item job becomes our clue",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V finds Vet Kit on our pet-shop picture wall.",
+      "text": "V lands on Vet Kit. A vet kit holds tools a veterinarian may use to examine an animal's health.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W finds Wheel on our pet-shop picture wall.",
+      "text": "Wheel? Yes—W. A pet wheel gives an appropriate small animal a place to run for exercise.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,29 +217,15 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X finds Xylophone Toy on our pet-shop picture wall.",
+      "text": "around our calm pet-care room, the X clue is Xylophone Toy. A xylophone-style pet toy is an enrichment object with bars or pieces that can make sounds when moved or tapped.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-6-1",
-      "sectionId": "chorus-r1-6",
-      "text": "Pet shop pictures—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-6-2",
-      "sectionId": "chorus-r1-6",
-      "text": "Look and learn along with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y finds Yellow Canary on our pet-shop picture wall.",
+      "text": "Say Y, then Yellow Canary. Yellow Canary on the scene | pet-care clue makes the meaning clean",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,15 +233,36 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z finds Zip Carrier on our pet-shop picture wall.",
+      "text": "Look—Z! Look—Zip Carrier! It is a ventilated travel enclosure that helps keep a suitable pet contained during transport.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-7-1",
+      "sectionId": "chorus-r1-7",
+      "text": "Window clue, what can it be?",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-7-2",
+      "sectionId": "chorus-r1-7",
+      "text": "Pet-shop words from A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "interlude-1",
+      "sectionId": "mid-interlude",
+      "text": "Playtime pauses for fresh water and one calm breath. Now remember the pet words.",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Aquarium! Point and name it all.",
+      "text": "Look for A ... Aquarium! Point, then mime its job with empty hands.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Bowl! Point and name it all.",
+      "text": "Letter first: B ... answer: Bowl! Point to the care item; make one pretend gesture.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Collar! Point and name it all.",
+      "text": "C? Hold ... Collar! Point to the care item; make one pretend gesture.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Dog! Point and name it all.",
+      "text": "One clue—D ... Dog! Copy one gentle paw, hop, swim, or perch motion.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Exercise Wheel! Point and name it all.",
+      "text": "Look for E ... Exercise Wheel! Trace its shape, then name its pet-care job.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Fish! Point and name it all.",
+      "text": "Letter first: F ... answer: Fish! Point, then copy one calm animal move.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Guinea Pig! Point and name it all.",
+      "text": "G? Hold ... Guinea Pig! Copy one gentle paw, hop, swim, or perch motion.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Hamster! Point and name it all.",
+      "text": "One clue—H ... Hamster! Point, then copy one calm animal move.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +326,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Pet shop pictures—A-B-C!",
+      "text": "Window clue, what can it be?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Look and learn along with me!",
+      "text": "Pet-shop words from A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Iguana! Point and name it all.",
+      "text": "Look for I ... Iguana! Copy one gentle paw, hop, swim, or perch motion.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +348,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jingle Ball! Point and name it all.",
+      "text": "Letter first: J ... answer: Jingle Ball! Trace its shape, then name its pet-care job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +356,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Kibble! Point and name it all.",
+      "text": "K? Hold ... Kibble! Point, then mime its job with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +364,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Litter Box! Point and name it all.",
+      "text": "One clue—L ... Litter Box! Point, then mime its job with empty hands.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +372,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Mouse! Point and name it all.",
+      "text": "Look for M ... Mouse! Show one tiny tail, fin, paw, or wing motion.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nest! Point and name it all.",
+      "text": "Letter first: N ... answer: Nest! Point to the care item; make one pretend gesture.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Outdoor Kennel! Point and name it all.",
+      "text": "O? Hold ... Outdoor Kennel! Point to the care item; make one pretend gesture.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,29 +396,15 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Perch! Point and name it all.",
+      "text": "One clue—P ... Perch! Point, then mime its job with empty hands.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-4-1",
-      "sectionId": "chorus-r2-4",
-      "text": "Pet shop pictures—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-4-2",
-      "sectionId": "chorus-r2-4",
-      "text": "Look and learn along with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quail! Point and name it all.",
+      "text": "Look for Q ... Quail! Point, then copy one calm animal move.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Rope Toy! Point and name it all.",
+      "text": "Letter first: R ... answer: Rope Toy! Trace its shape, then name its pet-care job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Seed Mix! Point and name it all.",
+      "text": "S? Hold ... Seed Mix! Point to the care item; make one pretend gesture.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,15 +428,29 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Turtle! Point and name it all.",
+      "text": "One clue—T ... Turtle! Point, then copy one calm animal move.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-5-1",
+      "sectionId": "chorus-r2-5",
+      "text": "Window clue, what can it be?",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-5-2",
+      "sectionId": "chorus-r2-5",
+      "text": "Pet-shop words from A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... UV Lamp! Point and name it all.",
+      "text": "Look for U ... UV Lamp! Point and name its care job; a grown-up handles the real item.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +458,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Vet Kit! Point and name it all.",
+      "text": "Letter first: V ... answer: Vet Kit! Point and name its care job; a grown-up handles the real item.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +466,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Wheel! Point and name it all.",
+      "text": "W? Hold ... Wheel! Point, then mime its job with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +474,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xylophone Toy! Point and name it all.",
+      "text": "One clue—X ... Xylophone Toy! Point, then mime its job with empty hands.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Pet shop pictures—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Look and learn along with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Canary! Point and name it all.",
+      "text": "Look for Y ... Yellow Canary! Show one tiny tail, fin, paw, or wing motion.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +490,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zip Carrier! Point and name it all.",
+      "text": "Letter first: Z ... answer: Zip Carrier! Trace its shape, then name its pet-care job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Window clue, what can it be?",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Pet-shop words from A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Pet shop pictures—A-B-C!",
+      "text": "Window clue, what can it be?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "Close the page softly—our pet-care tune stays in the melody!",
       "objective": "narration",
       "objectReveal": "none"
     }

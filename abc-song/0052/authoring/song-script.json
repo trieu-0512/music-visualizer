@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore planets and stars with me!",
+      "text": "Shh... a star just blinked our first clue.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Round the planets, A-B-C!",
+      "text": "Catch the letter, catch the word, then send it into orbit.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A shows Astronaut in our planet parade.",
+      "text": "Astronaut—that is our A. Astronaut up high | shape, motion, or job tells us why",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B shows Booster in our planet parade.",
+      "text": "Spot B: Booster! A rocket booster provides extra thrust during an early part of a launch.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C shows Comet in our planet parade.",
+      "text": "C brings Comet; Comet comes near | icy glow and tail appear",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D shows Dwarf Planet in our planet parade.",
+      "text": "A clue for D: Dwarf Planet. A dwarf planet orbits the Sun and is round, but it has not cleared other objects from its orbital neighborhood.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E shows Eclipse in our planet parade.",
+      "text": "past the quiet stars, here comes Eclipse for E. Eclipse up high | shape, motion, or job tells us why",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F shows Fuel Tank in our planet parade.",
+      "text": "Fuel Tank—that is our F. A spacecraft fuel or propellant tank stores material used by an engine or thruster system.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G shows Galaxy in our planet parade.",
+      "text": "Spot G: Galaxy! A galaxy is a huge system of stars, gas, dust, and dark matter held together by gravity.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,29 +75,15 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H shows Helmet in our planet parade.",
+      "text": "H brings Helmet; A space helmet protects an astronaut's head and helps provide a safe breathing environment inside the suit system.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-2-1",
-      "sectionId": "chorus-r1-2",
-      "text": "Round the planets, A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-2-2",
-      "sectionId": "chorus-r1-2",
-      "text": "Stars and worlds spin happily!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I shows Io in our planet parade.",
+      "text": "A clue for I: Io. Io up high | shape, motion, or job tells us why",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J shows Jupiter in our planet parade.",
+      "text": "past the quiet stars, here comes Jupiter for J. It is the largest planet in our solar system and has a giant atmosphere with powerful storms.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K shows Kuiper Belt in our planet parade.",
+      "text": "Kuiper Belt—that is our K. It is a broad region beyond Neptune containing many icy bodies.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,15 +107,29 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L shows Lunar Rover in our planet parade.",
+      "text": "Spot L: Lunar Rover! A lunar rover is a vehicle designed to travel across the Moon's surface.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-3-1",
+      "sectionId": "chorus-r1-3",
+      "text": "Star by star, A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-3-2",
+      "sectionId": "chorus-r1-3",
+      "text": "Catch the word and orbit with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M shows Moon in our planet parade.",
+      "text": "M brings Moon; Moon in view | sunlight makes its phases new",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N shows Neptune in our planet parade.",
+      "text": "A clue for N: Neptune. Neptune is the eighth major planet from the Sun and is a cold blue giant world.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O shows Observatory in our planet parade.",
+      "text": "past the quiet stars, here comes Observatory for O. It is a place equipped for observing the sky with telescopes or other instruments.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P shows Probe in our planet parade.",
+      "text": "Probe—that is our P. A space probe is an uncrewed spacecraft sent to collect information about space or another world.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Round the planets, A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Stars and worlds spin happily!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q shows Quarter Moon in our planet parade.",
+      "text": "Spot Q: Quarter Moon! Quarter Moon tonight | half the sunlit face appears in sight",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R shows Rover in our planet parade.",
+      "text": "R brings Rover; It is a mobile robot or vehicle designed to explore the surface of another world.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S shows Satellite in our planet parade.",
+      "text": "A clue for S: Satellite. Satellite goes round | orbit keeps its path Earth-bound",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T shows Telescope in our planet parade.",
+      "text": "past the quiet stars, here comes Telescope for T. A telescope collects light or other signals to help us study distant objects.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U shows Universe in our planet parade.",
+      "text": "Universe—that is our U. Universe in view | space clue coming through",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V shows Venus in our planet parade.",
+      "text": "Spot V: Venus! Venus is a rocky planet covered by a thick atmosphere and very hot surface conditions.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W shows World in our planet parade.",
+      "text": "W brings World; World in the frame | planet or moon can carry the name",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X shows Xenon Thruster in our planet parade.",
+      "text": "A clue for X: Xenon Thruster. A xenon thruster uses electrically accelerated xenon ions to produce gentle, efficient thrust.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Round the planets, A-B-C!",
+      "text": "Star by star, A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Stars and worlds spin happily!",
+      "text": "Catch the word and orbit with me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y shows Yoke in our planet parade.",
+      "text": "past the quiet stars, here comes Yoke for Y. Yoke in hand-control view | steering input is the clue",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z shows Zero-gravity Chair in our planet parade.",
+      "text": "Zero-gravity Chair—that is our Z. It is a reclining chair named for a body position that spreads support; it does not create real weightlessness.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Astronaut! Find the match we made.",
+      "text": "Spot A ... Astronaut! Lift one launch-finger, then freeze.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Booster! Find the match we made.",
+      "text": "Call B, wait ... Booster! Make a round space-window, then point.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Comet! Find the match we made.",
+      "text": "Which word fits C? ... Comet! Trace one orbit, then point.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Dwarf Planet! Find the match we made.",
+      "text": "D ... D ... Dwarf Planet! Trace one orbit, then point.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Eclipse! Find the match we made.",
+      "text": "Spot E ... Eclipse! Lift one launch-finger, then freeze.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Fuel Tank! Find the match we made.",
+      "text": "Call F, wait ... Fuel Tank! Make a round space-window, then point.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Galaxy! Find the match we made.",
+      "text": "Which word fits G? ... Galaxy! Make a round space-window, then point.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,29 +311,15 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Helmet! Find the match we made.",
+      "text": "H ... H ... Helmet! Glide one hand, then tap the picture.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-2-1",
-      "sectionId": "chorus-r2-2",
-      "text": "Round the planets, A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-2-2",
-      "sectionId": "chorus-r2-2",
-      "text": "Stars and worlds spin happily!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Io! Find the match we made.",
+      "text": "Spot I ... Io! Trace one orbit, then point.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jupiter! Find the match we made.",
+      "text": "Call J, wait ... Jupiter! Glide one hand, then tap the picture.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Kuiper Belt! Find the match we made.",
+      "text": "Which word fits K? ... Kuiper Belt! Glide one hand, then tap the picture.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Lunar Rover! Find the match we made.",
+      "text": "L ... L ... Lunar Rover! Trace one orbit, then point.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Moon! Find the match we made.",
+      "text": "Spot M ... Moon! Lift one launch-finger, then freeze.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Neptune! Find the match we made.",
+      "text": "Call N, wait ... Neptune! Glide one hand, then tap the picture.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Observatory! Find the match we made.",
+      "text": "Which word fits O? ... Observatory! Trace one orbit, then point.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Probe! Find the match we made.",
+      "text": "P ... P ... Probe! Trace one orbit, then point.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Round the planets, A-B-C!",
+      "text": "Star by star, A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Stars and worlds spin happily!",
+      "text": "Catch the word and orbit with me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quarter Moon! Find the match we made.",
+      "text": "Spot Q ... Quarter Moon! Lift one launch-finger, then freeze.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Rover! Find the match we made.",
+      "text": "Call R, wait ... Rover! Make a round space-window, then point.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Satellite! Find the match we made.",
+      "text": "Which word fits S? ... Satellite! Glide one hand, then tap the picture.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Telescope! Find the match we made.",
+      "text": "T ... T ... Telescope! Trace one orbit, then point.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Universe! Find the match we made.",
+      "text": "Spot U ... Universe! Lift one launch-finger, then freeze.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Venus! Find the match we made.",
+      "text": "Call V, wait ... Venus! Lift one launch-finger, then freeze.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... World! Find the match we made.",
+      "text": "Which word fits W? ... World! Trace one orbit, then point.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +453,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xenon Thruster! Find the match we made.",
+      "text": "X ... X ... Xenon Thruster! Lift one launch-finger, then freeze.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Round the planets, A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Stars and worlds spin happily!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yoke! Find the match we made.",
+      "text": "Spot Y ... Yoke! Trace one orbit, then point.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +469,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zero-gravity Chair! Find the match we made.",
+      "text": "Call Z, wait ... Zero-gravity Chair! Make a round space-window, then point.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Star by star, A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Catch the word and orbit with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Round the planets, A-B-C!",
+      "text": "Star by star, A-B-C!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "One last beat—our space story comes home with me!",
       "objective": "narration",
       "objectReveal": "none"
     }

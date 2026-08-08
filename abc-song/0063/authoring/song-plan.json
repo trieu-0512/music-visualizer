@@ -6,11 +6,60 @@
   "tempoBpm": 90,
   "motifFamily": "bug-hunt",
   "hook": [
-    "Garden bugs—look with me!",
-    "Find the letters A to Z!"
+    "Flutter, crawl, land on the beat!",
+    "Letter and creature finally meet!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "brief search pause before answer",
   "visualStyle": "friendly 3D garden-insect storybook, leafy greens and flower accents, close-up clean subjects, no clutter",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "flutter-tap-groove",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "object-first",
+      "question-answer",
+      "narrative",
+      "pause-reveal"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired-with-arrangement-variation",
+    "pointOfView": "tiny-world observer with a magnifying glass",
+    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
+    "grooveMeter": "stop-and-go 4/4",
+    "round1Grammar": "Round 1 uses tiny rhythmic detail—wing, leg, body, web or life-stage clues—while preserving clear target diction.",
+    "round2Grammar": "Round 2 leaves a clean recall gap, then confirms with one tiny crawl, flutter, wing or shape gesture.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: tiny pizzicato, shaker or bell-wing answer after the target.",
+    "signatureColor": "tiny pizzicato, shaker or bell-wing answer after the target",
+    "chorusAfterRound1": [
+      3,
+      5
+    ],
+    "chorusAfterRound2": [
+      3,
+      7
+    ],
+    "hasMidInterlude": true,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 9,
+    "usedRound1": 7,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

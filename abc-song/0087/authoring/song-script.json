@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore cooking tools and ingredients with me!",
+      "text": "Click—the picture cupboard opens, one shelf at a time.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Cook and look—A-B-C!",
+      "text": "Find the letter, name the food or tool, and land it on the rhyme.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A finds Apron in our cooking-tool scene.",
+      "text": "Apron—that is our A. Apron on the table | shape and job make the clue stable",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B finds Bowl in our cooking-tool scene.",
+      "text": "Spot B: Bowl! A bowl is a deep round container that holds food or ingredients.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C finds Cup in our cooking-tool scene.",
+      "text": "C brings Cup; It is a small open container used for drinking or measuring.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D finds Donut in our cooking-tool scene.",
+      "text": "A clue for D: Donut. A donut is a baked or fried pastry often shaped like a ring or filled round.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E finds Egg Timer in our cooking-tool scene.",
+      "text": "across the safe kitchen-picture table, here comes Egg Timer for E. Egg Timer in the frame | food or tool details tell its name",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F finds Frying Pan in our cooking-tool scene.",
+      "text": "Frying Pan—that is our F. It is a shallow pan heated on a stove; a grown-up handles it when hot.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G finds Grater in our cooking-tool scene.",
+      "text": "Spot G: Grater! A grater has rough sharp-edged holes that shred food; it is a grown-up kitchen tool in this song.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,29 +75,15 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H finds Honey in our cooking-tool scene.",
+      "text": "H brings Honey; It is a thick sweet liquid made by honeybees from flower nectar.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-2-1",
-      "sectionId": "chorus-r1-2",
-      "text": "Cook and look—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-2-2",
-      "sectionId": "chorus-r1-2",
-      "text": "Tools and ingredients, sing with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I finds Ice Cream in our cooking-tool scene.",
+      "text": "A clue for I: Ice Cream. Ice Cream in the frame | food or tool details tell its name",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J finds Jar in our cooking-tool scene.",
+      "text": "across the safe kitchen-picture table, here comes Jar for J. It is a rigid container with a wide opening and a lid.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K finds Kettle in our cooking-tool scene.",
+      "text": "Kettle—that is our K. A kettle heats water; a grown-up handles it because the kettle and steam can be very hot.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,15 +107,29 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L finds Lemon in our cooking-tool scene.",
+      "text": "Spot L: Lemon! A lemon is a yellow citrus fruit with juicy acidic segments inside.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-3-1",
+      "sectionId": "chorus-r1-3",
+      "text": "Shelf by shelf, what can you see?",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-3-2",
+      "sectionId": "chorus-r1-3",
+      "text": "Kitchen-picture A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M finds Mixer in our cooking-tool scene.",
+      "text": "M brings Mixer; Mixer in the frame | food or tool details tell its name",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N finds Napkin in our cooking-tool scene.",
+      "text": "A clue for N: Napkin. A napkin is a piece of cloth or paper used to wipe hands or the mouth during a meal.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O finds Orange in our cooking-tool scene.",
+      "text": "across the safe kitchen-picture table, here comes Orange for O. It is a citrus fruit with a peel around juicy segments.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P finds Pancake in our cooking-tool scene.",
+      "text": "Pancake—that is our P. It is a flat round cake cooked from batter.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Cook and look—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Tools and ingredients, sing with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q finds Quart Cup in our cooking-tool scene.",
+      "text": "Spot Q: Quart Cup! Quart Cup in the frame | food or tool details tell its name",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R finds Rolling Pin in our cooking-tool scene.",
+      "text": "R brings Rolling Pin; It is a cylinder that rolls over dough to flatten it.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S finds Spoon in our cooking-tool scene.",
+      "text": "A clue for S: Spoon. A spoon has a small rounded bowl on a handle for scooping or stirring.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T finds Toast in our cooking-tool scene.",
+      "text": "across the safe kitchen-picture table, here comes Toast for T. It is bread browned by dry heat.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U finds Utensil in our cooking-tool scene.",
+      "text": "Utensil—that is our U. Utensil on the table | shape and job make the clue stable",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V finds Vanilla in our cooking-tool scene.",
+      "text": "Spot V: Vanilla! Vanilla is a flavoring that comes from the cured seed pods of vanilla orchids.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W finds Waffle in our cooking-tool scene.",
+      "text": "W brings Waffle; Waffle on display | little grid marks cross it every way",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X finds X-shaped Cookie Cutter in our cooking-tool scene.",
+      "text": "A clue for X: X-shaped Cookie Cutter. An X-shaped cookie cutter presses an X outline into rolled dough.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Cook and look—A-B-C!",
+      "text": "Shelf by shelf, what can you see?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Tools and ingredients, sing with me!",
+      "text": "Kitchen-picture A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y finds Yam in our cooking-tool scene.",
+      "text": "across the safe kitchen-picture table, here comes Yam for Y. Yam in the frame | food or tool details tell its name",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z finds Zester in our cooking-tool scene.",
+      "text": "Zester—that is our Z. It has small sharp edges that scrape thin fragrant pieces from citrus peel and is a grown-up tool in this activity.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Apron! Point to what you've seen.",
+      "text": "Spot A ... Apron! Trace its shape, then point.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Bowl! Point to what you've seen.",
+      "text": "Call B, wait ... Bowl! Trace its shape, then point.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Cup! Point to what you've seen.",
+      "text": "Which word fits C? ... Cup! Trace its shape, then point.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Donut! Point to what you've seen.",
+      "text": "D ... D ... Donut! Point, then make one small shape gesture.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Egg Timer! Point to what you've seen.",
+      "text": "Spot E ... Egg Timer! Trace its shape, then point.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Frying Pan! Point to what you've seen.",
+      "text": "Call F, wait ... Frying Pan! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Grater! Point to what you've seen.",
+      "text": "Which word fits G? ... Grater! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,29 +311,15 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Honey! Point to what you've seen.",
+      "text": "H ... H ... Honey! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-2-1",
-      "sectionId": "chorus-r2-2",
-      "text": "Cook and look—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-2-2",
-      "sectionId": "chorus-r2-2",
-      "text": "Tools and ingredients, sing with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Ice Cream! Point to what you've seen.",
+      "text": "Spot I ... Ice Cream! Mime its job with empty hands.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jar! Point to what you've seen.",
+      "text": "Call J, wait ... Jar! Mime its job with empty hands.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Kettle! Point to what you've seen.",
+      "text": "Which word fits K? ... Kettle! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Lemon! Point to what you've seen.",
+      "text": "L ... L ... Lemon! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Mixer! Point to what you've seen.",
+      "text": "Spot M ... Mixer! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Napkin! Point to what you've seen.",
+      "text": "Call N, wait ... Napkin! Mime its job with empty hands.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Orange! Point to what you've seen.",
+      "text": "Which word fits O? ... Orange! Trace its shape, then point.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Pancake! Point to what you've seen.",
+      "text": "P ... P ... Pancake! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Cook and look—A-B-C!",
+      "text": "Shelf by shelf, what can you see?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Tools and ingredients, sing with me!",
+      "text": "Kitchen-picture A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quart Cup! Point to what you've seen.",
+      "text": "Spot Q ... Quart Cup! Mime its job with empty hands.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Rolling Pin! Point to what you've seen.",
+      "text": "Call R, wait ... Rolling Pin! Point, then make one small shape gesture.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Spoon! Point to what you've seen.",
+      "text": "Which word fits S? ... Spoon! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Toast! Point to what you've seen.",
+      "text": "T ... T ... Toast! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Utensil! Point to what you've seen.",
+      "text": "Spot U ... Utensil! Trace its shape, then point.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Vanilla! Point to what you've seen.",
+      "text": "Call V, wait ... Vanilla! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Waffle! Point to what you've seen.",
+      "text": "Which word fits W? ... Waffle! Mime its job with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +453,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... X-shaped Cookie Cutter! Point to what you've seen.",
+      "text": "X ... X ... X-shaped Cookie Cutter! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Cook and look—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Tools and ingredients, sing with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yam! Point to what you've seen.",
+      "text": "Spot Y ... Yam! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +469,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zester! Point to what you've seen.",
+      "text": "Call Z, wait ... Zester! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Shelf by shelf, what can you see?",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Kitchen-picture A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Cook and look—A-B-C!",
+      "text": "Shelf by shelf, what can you see?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "One last beat—our kitchen picture game comes home with me!",
       "objective": "narration",
       "objectReveal": "none"
     }

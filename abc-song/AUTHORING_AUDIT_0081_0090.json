@@ -1,22 +1,56 @@
 {
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
   "status": "PASS",
   "range": "0081-0090",
   "songs": 10,
   "schemaAndSemanticFailures": 0,
   "warnings": 0,
+  "designReworkSongs": 0,
   "uniqueHooks": 10,
   "uniqueStyles": 10,
-  "maxLyricSimilarity": 0.0904,
+  "uniqueSectionForms": 7,
+  "uniqueCreativeFingerprints": 10,
+  "maxLyricSimilarity": 0.0542,
   "mostSimilarPair": [
-    "0086",
+    "0088",
     "0089"
   ],
+  "batchWarnings": [],
   "songsDetail": [
     {
       "songId": "0081",
       "theme": "Reptile & Amphibian World",
       "targetLines": 52,
-      "lyricWordCount": 571,
+      "lyricWordCount": 898,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "letter-led-sentence",
+        "narrative-or-other",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "round2ChorusAfter": [
+          3,
+          6
+        ],
+        "hasMidInterlude": false
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -25,7 +59,36 @@
       "songId": "0082",
       "theme": "Frogs Snakes & Turtles",
       "targetLines": 52,
-      "lyricWordCount": 641,
+      "lyricWordCount": 929,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          7
+        ],
+        "round2ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "hasMidInterlude": true
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -34,7 +97,35 @@
       "songId": "0083",
       "theme": "Scales & Slime",
       "targetLines": 52,
-      "lyricWordCount": 532,
+      "lyricWordCount": 925,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          6
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -43,7 +134,35 @@
       "songId": "0084",
       "theme": "Cold-Blooded Creatures",
       "targetLines": 52,
-      "lyricWordCount": 547,
+      "lyricWordCount": 955,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          5
+        ],
+        "round2ChorusAfter": [
+          3,
+          7
+        ],
+        "hasMidInterlude": true
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -52,7 +171,36 @@
       "songId": "0085",
       "theme": "Reptile House",
       "targetLines": 52,
-      "lyricWordCount": 521,
+      "lyricWordCount": 980,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          7
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -61,7 +209,37 @@
       "songId": "0086",
       "theme": "Kitchen & Food",
       "targetLines": 52,
-      "lyricWordCount": 502,
+      "lyricWordCount": 932,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5
+        ],
+        "round2ChorusAfter": [
+          3,
+          6
+        ],
+        "hasMidInterlude": true
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -70,7 +248,36 @@
       "songId": "0087",
       "theme": "Cooking Tools & Ingredients",
       "targetLines": 52,
-      "lyricWordCount": 511,
+      "lyricWordCount": 915,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          6
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -79,7 +286,35 @@
       "songId": "0088",
       "theme": "Meals & Snacks",
       "targetLines": 52,
-      "lyricWordCount": 502,
+      "lyricWordCount": 921,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "letter-led-sentence",
+        "narrative-or-other",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "round2ChorusAfter": [
+          3,
+          6
+        ],
+        "hasMidInterlude": false
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -88,7 +323,37 @@
       "songId": "0089",
       "theme": "Cooking Together",
       "targetLines": 52,
-      "lyricWordCount": 503,
+      "lyricWordCount": 986,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          7
+        ],
+        "round2ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "hasMidInterlude": true
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -97,7 +362,35 @@
       "songId": "0090",
       "theme": "Tasty Kitchen",
       "targetLines": 52,
-      "lyricWordCount": 527,
+      "lyricWordCount": 930,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          6
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []

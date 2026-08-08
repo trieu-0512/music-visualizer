@@ -1,22 +1,58 @@
 {
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
   "status": "PASS",
   "range": "0091-0100",
   "songs": 10,
   "schemaAndSemanticFailures": 0,
   "warnings": 0,
+  "designReworkSongs": 0,
   "uniqueHooks": 10,
   "uniqueStyles": 10,
-  "maxLyricSimilarity": 0.1356,
+  "uniqueSectionForms": 7,
+  "uniqueCreativeFingerprints": 10,
+  "maxLyricSimilarity": 0.0422,
   "mostSimilarPair": [
-    "0096",
-    "0100"
+    "0093",
+    "0094"
   ],
+  "batchWarnings": [],
   "songsDetail": [
     {
       "songId": "0091",
       "theme": "Fruits & Vegetables",
       "targetLines": 52,
-      "lyricWordCount": 506,
+      "lyricWordCount": 937,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          5
+        ],
+        "round2ChorusAfter": [
+          3,
+          7
+        ],
+        "hasMidInterlude": true
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -25,7 +61,39 @@
       "songId": "0092",
       "theme": "Garden Foods",
       "targetLines": 52,
-      "lyricWordCount": 505,
+      "lyricWordCount": 978,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "I",
+        "K",
+        "M",
+        "Q",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          7
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -34,7 +102,36 @@
       "songId": "0093",
       "theme": "Market Produce",
       "targetLines": 52,
-      "lyricWordCount": 539,
+      "lyricWordCount": 885,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5
+        ],
+        "round2ChorusAfter": [
+          3,
+          6
+        ],
+        "hasMidInterlude": true
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -43,7 +140,36 @@
       "songId": "0094",
       "theme": "Healthy Produce",
       "targetLines": 52,
-      "lyricWordCount": 491,
+      "lyricWordCount": 916,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          6
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -52,7 +178,35 @@
       "songId": "0095",
       "theme": "Colorful Foods",
       "targetLines": 52,
-      "lyricWordCount": 515,
+      "lyricWordCount": 922,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "letter-led-sentence",
+        "narrative-or-other",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "round2ChorusAfter": [
+          3,
+          6
+        ],
+        "hasMidInterlude": false
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -61,7 +215,38 @@
       "songId": "0096",
       "theme": "Bakery Treats",
       "targetLines": 52,
-      "lyricWordCount": 513,
+      "lyricWordCount": 900,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "action-first",
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          7
+        ],
+        "round2ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "hasMidInterlude": true
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -70,7 +255,37 @@
       "songId": "0097",
       "theme": "Bread & Pastries",
       "targetLines": 52,
-      "lyricWordCount": 552,
+      "lyricWordCount": 932,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "letter-led-sentence",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "C",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          6
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -79,7 +294,35 @@
       "songId": "0098",
       "theme": "Cakes & Cookies",
       "targetLines": 52,
-      "lyricWordCount": 520,
+      "lyricWordCount": 949,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          5
+        ],
+        "round2ChorusAfter": [
+          3,
+          7
+        ],
+        "hasMidInterlude": true
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -88,7 +331,37 @@
       "songId": "0099",
       "theme": "Sweet Shop",
       "targetLines": 52,
-      "lyricWordCount": 573,
+      "lyricWordCount": 997,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "W",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          7
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []
@@ -97,7 +370,36 @@
       "songId": "0100",
       "theme": "Baking Day",
       "targetLines": 52,
-      "lyricWordCount": 495,
+      "lyricWordCount": 879,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "narrative-or-other",
+        "object-first",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "E",
+        "I",
+        "M",
+        "Q",
+        "U",
+        "Y"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5
+        ],
+        "round2ChorusAfter": [
+          3,
+          6
+        ],
+        "hasMidInterlude": true
+      },
       "pronunciationReviewTargets": [],
       "errors": [],
       "warnings": []

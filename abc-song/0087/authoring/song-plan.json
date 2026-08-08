@@ -6,11 +6,60 @@
   "tempoBpm": 90,
   "motifFamily": "cook-look",
   "hook": [
-    "Cook and look—A-B-C!",
-    "Tools and ingredients, sing with me!"
+    "Shelf by shelf, what can you see?",
+    "Kitchen-picture A to Z!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "short predictable pause before target",
   "visualStyle": "3D preschool cooking-tools storybook, bright utensils and ingredients, child-safe presentation, segmentation-friendly spacing",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "cupboard-picture-reveal",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "object-first",
+      "question-answer",
+      "narrative",
+      "pause-reveal"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "refrain-with-echo-variation",
+    "pointOfView": "picture-game learner with a supervising grown-up implied",
+    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
+    "grooveMeter": "gentle 6/8 sway",
+    "round1Grammar": "Round 1 names foods and object jobs from pictures. Hot, sharp or powered equipment is described, never operated by the child.",
+    "round2Grammar": "Round 2 is picture recall only: safe foods may get shape motions, while hot, sharp or powered tools get pointing or empty-hand mime only.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: muted woodblock, cup-tap or marimba answer; no appliance noise under vocals.",
+    "signatureColor": "muted woodblock, cup-tap or marimba answer; no appliance noise under vocals",
+    "chorusAfterRound1": [
+      3,
+      6
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 8,
+    "usedRound1": 8,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

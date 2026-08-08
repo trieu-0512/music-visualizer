@@ -14,6 +14,11 @@ from abc_creative_v4_11_50 import (
     rhyme_phraselet as rhyme_phraselet_v4_11_50,
     spec_payload as spec_payload_v4_11_50,
 )
+from abc_creative_v4_51_100 import (
+    object_craft as object_craft_v4_51_100,
+    rhyme_phraselet as rhyme_phraselet_v4_51_100,
+    spec_payload as spec_payload_v4_51_100,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "abc-song"
@@ -728,6 +733,15 @@ def creative_spec(profile: SongProfile) -> CreativeSpec | None:
         profile.bpm,
         profile.motif,
     )
+    if payload is None:
+        payload = spec_payload_v4_51_100(
+            profile.song_id,
+            profile.style,
+            profile.hook_a,
+            profile.hook_b,
+            profile.bpm,
+            profile.motif,
+        )
     return CreativeSpec(**payload) if payload is not None else None
 
 
@@ -823,10 +837,31 @@ def semantic_followup(obj: str, sentence: str) -> str:
     return sentence
 
 
-def object_craft_for(profile: SongProfile, obj: str) -> tuple[str, str]:
+def curated_object_craft(profile: SongProfile, obj: str) -> tuple[str, str] | None:
+    number = int(profile.song_id)
+    # Later creative modules own their ranges. This prevents a common word such
+    # as Egg, Nest, Duck or Apple from inheriting a fact/action written for an
+    # earlier, unrelated theme merely because the spelling matches.
+    if 51 <= number <= 100:
+        return object_craft_v4_51_100(profile.song_id, obj)
     craft = OBJECT_CRAFT.get(obj)
     if craft is None:
         craft = object_craft_v4_11_50(profile.song_id, obj)
+    return craft
+
+
+def curated_rhyme_phraselet(profile: SongProfile, obj: str, ordinal: int) -> str | None:
+    number = int(profile.song_id)
+    if 51 <= number <= 100:
+        return rhyme_phraselet_v4_51_100(profile.song_id, obj, ordinal)
+    phraselet = RHYME_PHRASELETS.get(obj)
+    if phraselet is None:
+        phraselet = rhyme_phraselet_v4_11_50(profile.song_id, obj, ordinal)
+    return phraselet
+
+
+def object_craft_for(profile: SongProfile, obj: str) -> tuple[str, str]:
+    craft = curated_object_craft(profile, obj)
     spec = creative_spec(profile)
     if craft is None and spec and spec.object_craft_required:
         raise RuntimeError(f"{profile.song_id}: missing Object Craft Lexicon entry for {obj!r}")
@@ -848,7 +883,7 @@ def render_target_line(profile: SongProfile, round_no: int, letter: str, obj: st
     pattern_index = ordinal % len(patterns) if patterns else 0
     semantic = semantic_follow if round_no == 2 or pattern_index % 2 == 0 else semantic_full
     if round_no == 1 and ordinal % 2 == 0:
-        rhyme_phraselet = RHYME_PHRASELETS.get(obj) or rhyme_phraselet_v4_11_50(profile.song_id, obj, ordinal)
+        rhyme_phraselet = curated_rhyme_phraselet(profile, obj, ordinal)
         if rhyme_phraselet:
             semantic = rhyme_phraselet
     render_values = {
@@ -1028,12 +1063,12 @@ def write_song(sid: str) -> None:
         "visualStyle": profile.visual_style,
         "creativeFingerprint": creative_fingerprint(profile),
         "objectCraftCoverage": {
-            "covered": sum(1 for letter in LETTERS if (mapping["letters"][letter]["object"] in OBJECT_CRAFT or object_craft_v4_11_50(sid, mapping["letters"][letter]["object"]) is not None)),
+            "covered": sum(1 for letter in LETTERS if curated_object_craft(profile, mapping["letters"][letter]["object"]) is not None),
             "total": 26,
         },
         "rhymeCraftCoverage": {
-            "available": sum(1 for index, letter in enumerate(LETTERS) if (mapping["letters"][letter]["object"] in RHYME_PHRASELETS or rhyme_phraselet_v4_11_50(sid, mapping["letters"][letter]["object"], index) is not None)),
-            "usedRound1": sum(1 for index, letter in enumerate(LETTERS) if index % 2 == 0 and (mapping["letters"][letter]["object"] in RHYME_PHRASELETS or rhyme_phraselet_v4_11_50(sid, mapping["letters"][letter]["object"], index) is not None)),
+            "available": sum(1 for index, letter in enumerate(LETTERS) if curated_rhyme_phraselet(profile, mapping["letters"][letter]["object"], index) is not None),
+            "usedRound1": sum(1 for index, letter in enumerate(LETTERS) if index % 2 == 0 and curated_rhyme_phraselet(profile, mapping["letters"][letter]["object"], index) is not None),
             "total": 26,
         },
         "status": "READY_FOR_L0_VALIDATION" if creative_spec(profile) else "REWORK_LEGACY_TEMPLATE",

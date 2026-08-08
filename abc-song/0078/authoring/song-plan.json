@@ -6,11 +6,61 @@
   "tempoBpm": 90,
   "motifFamily": "habitat-hop",
   "hook": [
-    "Habitat hop—A-B-C!",
-    "Homes for animals, come and see!"
+    "Habitat, animal—match the two!",
+    "Letter first, then name the clue!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "brief thinking beat before reveal",
   "visualStyle": "3D preschool animal-habitat storybook, clear mini-biomes, friendly creatures, uncluttered educational composition",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "habitat-window",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "object-first",
+      "question-answer",
+      "narrative",
+      "pause-reveal"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired-with-arrangement-variation",
+    "pointOfView": "respectful wildlife observer",
+    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
+    "grooveMeter": "stop-and-go 4/4",
+    "round1Grammar": "Round 1 gives one visible habitat or body clue per animal and frames wildlife as something to observe respectfully, never chase or touch.",
+    "round2Grammar": "Round 2 uses track-and-name recall with gestures done from a safe observation spot; no chase, feeding or touching prompts.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: warm hand-drum or marimba footprint after the word.",
+    "signatureColor": "warm hand-drum or marimba footprint after the word",
+    "chorusAfterRound1": [
+      2,
+      4,
+      7
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 10,
+    "usedRound1": 8,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

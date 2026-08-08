@@ -6,11 +6,60 @@
   "tempoBpm": 87,
   "motifFamily": "fresh-food",
   "hook": [
-    "Fresh foods—A-B-C!",
-    "Colorful produce, sing with me!"
+    "Round or leafy, long or small!",
+    "A to Z—we name them all!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two calm beats before confirmation",
   "visualStyle": "clean 3D fresh-produce storybook, natural fruit and vegetable colors, simple white-and-green market setting, strong silhouettes",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "market-morning",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "object-first",
+      "question-answer",
+      "narrative",
+      "pause-reveal"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "refrain-with-echo-variation",
+    "pointOfView": "curious garden-and-market explorer",
+    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
+    "grooveMeter": "light swung 4/4",
+    "round1Grammar": "Round 1 uses shape, skin, leaf, root, color or market/garden clues without diet lectures or repetitive 'healthy food' claims.",
+    "round2Grammar": "Round 2 uses color/shape recall and a point, trace, round, long, leafy or basket gesture after the word.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: bright marimba/ukulele pluck that changes contour every few letters.",
+    "signatureColor": "bright marimba/ukulele pluck that changes contour every few letters",
+    "chorusAfterRound1": [
+      3,
+      6
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 8,
+    "usedRound1": 8,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

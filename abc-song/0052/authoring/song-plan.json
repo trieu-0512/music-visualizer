@@ -6,11 +6,60 @@
   "tempoBpm": 86,
   "motifFamily": "orbit-circle",
   "hook": [
-    "Round the planets, A-B-C!",
-    "Stars and worlds spin happily!"
+    "Star by star, A-B-C!",
+    "Catch the word and orbit with me!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "soft two-beat retrieval window",
   "visualStyle": "colorful 3D preschool planets-and-stars storybook, rounded planets, soft nebula accents, high-contrast foreground objects",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "starlight-whisper",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "object-first",
+      "question-answer",
+      "narrative",
+      "pause-reveal"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "refrain-with-echo-variation",
+    "pointOfView": "curious child astronaut and calm mission guide",
+    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
+    "grooveMeter": "gentle 6/8 sway",
+    "round1Grammar": "Round 1 should feel like opening new spacecraft windows: vary direct calls, repeated letters, questions and short cinematic reveals; every target gets one real space clue or function.",
+    "round2Grammar": "Round 2 strips back to cue-gap-answer timing with orbit, point, trace or launch-like pretend gestures that never obscure the word.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: short synth-star ping or glockenspiel orbit after each target.",
+    "signatureColor": "short synth-star ping or glockenspiel orbit after each target",
+    "chorusAfterRound1": [
+      3,
+      6
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 11,
+    "usedRound1": 10,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

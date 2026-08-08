@@ -6,11 +6,61 @@
   "tempoBpm": 88,
   "motifFamily": "pet-care",
   "hook": [
-    "Pet care letters—A-B-C!",
-    "Gentle hands and words with me!"
+    "Kind hands, clear words—A-B-C!",
+    "Pet-care pictures, name with me!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one calm beat before confirmation",
   "visualStyle": "cozy 3D pet-care storybook, warm home palette, friendly animals and supplies, clean safe scenes",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "collar-jingle",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "object-first",
+      "question-answer",
+      "narrative",
+      "pause-reveal"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired-with-arrangement-variation",
+    "pointOfView": "gentle pet-care helper",
+    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
+    "grooveMeter": "elastic 4/4 bounce",
+    "round1Grammar": "Round 1 alternates animal clues with care-item functions; care language stays gentle and never turns grooming or veterinary tools into child instructions.",
+    "round2Grammar": "Round 2 confirms with pointing, gentle animal motions or a care-item job gesture; no clipping, medicating, heating or tool use.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: soft marimba or bell-paw answer with no barking over diction.",
+    "signatureColor": "soft marimba or bell-paw answer with no barking over diction",
+    "chorusAfterRound1": [
+      2,
+      4,
+      7
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 11,
+    "usedRound1": 8,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

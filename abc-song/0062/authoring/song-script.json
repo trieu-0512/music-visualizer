@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore butterflies and beetles with me!",
+      "text": "Magnifying glass down—look at that tiny world.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Flutter, tap—A-B-C!",
+      "text": "One letter, one creature, one close-up clue at a time.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A meets Ant where wings and beetles play.",
+      "text": "A is here; Ant is why. Ant small in sight | legs, wings, or body make the clue feel right",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B meets Bee where wings and beetles play.",
+      "text": "Bee answers B. A bee is an insect with six legs; many bees visit flowers for nectar and pollen.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C meets Caterpillar where wings and beetles play.",
+      "text": "under the garden leaves, what belongs to C? Caterpillar! Caterpillar crawl | larva first, then wings may call",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D meets Dung Beetle where wings and beetles play.",
+      "text": "D—short beat—Dung Beetle. Dung Beetle is a beetle; hard front wings cover softer flight wings.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E meets Emperor Moth where wings and beetles play.",
+      "text": "Hear E; see Emperor Moth. Emperor Moth small in sight | legs, wings, or body make the clue feel right",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F meets Flea where wings and beetles play.",
+      "text": "F is here; Flea is why. It is wingless and tiny, with powerful jumping legs.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G meets Grasshopper where wings and beetles play.",
+      "text": "Grasshopper answers G. A grasshopper is an insect with powerful hind legs adapted for jumping.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H meets Honeybee where wings and beetles play.",
+      "text": "under the garden leaves, what belongs to H? Honeybee! It is a social bee that lives in a colony and gathers nectar and pollen from flowers.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Flutter, tap—A-B-C!",
+      "text": "Look up close, what can you see?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Butterflies and beetles dance with me!",
+      "text": "Mini-world words from A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I meets Insect where wings and beetles play.",
+      "text": "I—short beat—Insect. Insect on the leaf | shape and movement make the clue brief",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J meets June Bug where wings and beetles play.",
+      "text": "Hear J; see June Bug. It is a beetle; hard front wings cover softer flight wings.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K meets Katydid where wings and beetles play.",
+      "text": "K is here; Katydid is why. It has six legs and a body shape that makes a clear clue.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L meets Leafhopper where wings and beetles play.",
+      "text": "Leafhopper answers L. Leafhopper: look for legs, wings, segments, web, or movement as the clue.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M meets Mantis where wings and beetles play.",
+      "text": "under the garden leaves, what belongs to M? Mantis! Mantis on the leaf | shape and movement make the clue brief",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N meets Nymph where wings and beetles play.",
+      "text": "N—short beat—Nymph. A nymph is a young stage of insects such as grasshoppers, dragonflies, or true bugs that changes gradually as it grows.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O meets Orb Weaver where wings and beetles play.",
+      "text": "Hear O; see Orb Weaver. It is a spider, not an insect, and many species build round wheel-shaped webs.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P meets Pill Bug where wings and beetles play.",
+      "text": "P is here; Pill Bug is why. It is a small land crustacean, not an insect, and many can curl into a ball.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Flutter, tap—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Butterflies and beetles dance with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q meets Queen Butterfly where wings and beetles play.",
+      "text": "Queen Butterfly answers Q. Queen Butterfly small in sight | legs, wings, or body make the clue feel right",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R meets Rhinoceros Beetle where wings and beetles play.",
+      "text": "under the garden leaves, what belongs to R? Rhinoceros Beetle! It is a beetle; hard front wings cover softer flight wings.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S meets Stick Insect where wings and beetles play.",
+      "text": "S—short beat—Stick Insect. Stick Insect has six legs and a body shape that makes a clear clue.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T meets Termite where wings and beetles play.",
+      "text": "Hear T; see Termite. It is a social insect that lives in colonies and feeds mainly on cellulose from plant material.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U meets Underwing Moth where wings and beetles play.",
+      "text": "U is here; Underwing Moth is why. Underwing Moth down low | tiny body clues help the name to show",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V meets Vinegar Fly where wings and beetles play.",
+      "text": "Vinegar Fly answers V. Vinegar Fly is a small fly with six legs, antennae, and one wing pair.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W meets Wasp where wings and beetles play.",
+      "text": "under the garden leaves, what belongs to W? Wasp! It has six legs, antennae, wings, and a narrow-jointed body.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X meets Xylocopa Bee where wings and beetles play.",
+      "text": "X—short beat—Xylocopa Bee. Xylocopa Bee has six legs, antennae, wings, and a narrow-jointed body.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Flutter, tap—A-B-C!",
+      "text": "Look up close, what can you see?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Butterflies and beetles dance with me!",
+      "text": "Mini-world words from A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y meets Yellow Butterfly where wings and beetles play.",
+      "text": "Hear Y; see Yellow Butterfly. Yellow Butterfly small in sight | legs, wings, or body make the clue feel right",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z meets Zebra Longwing where wings and beetles play.",
+      "text": "Z is here; Zebra Longwing is why. It is a butterfly: scaled wings wide, curled proboscis tucked inside.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Ant! Find it, point, and say.",
+      "text": "Hear A ... say Ant! Flutter or crawl once, then freeze.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Bee! Find it, point, and say.",
+      "text": "Find the picture for B ... Bee! Wiggle six tiny finger-steps, then stop.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Caterpillar! Find it, point, and say.",
+      "text": "C calls ... Caterpillar answers! Flutter or crawl once, then freeze.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Dung Beetle! Find it, point, and say.",
+      "text": "D ... wait ... Dung Beetle! Flutter or crawl once, then freeze.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Emperor Moth! Find it, point, and say.",
+      "text": "Hear E ... say Emperor Moth! Open and close two gentle hand-wings once, then point.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Flea! Find it, point, and say.",
+      "text": "Find the picture for F ... Flea! Wiggle six tiny finger-steps, then stop.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Grasshopper! Find it, point, and say.",
+      "text": "G calls ... Grasshopper answers! Lift two antenna fingers, then point.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,29 +311,15 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Honeybee! Find it, point, and say.",
+      "text": "H ... wait ... Honeybee! Flutter or crawl once, then freeze.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-2-1",
-      "sectionId": "chorus-r2-2",
-      "text": "Flutter, tap—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-2-2",
-      "sectionId": "chorus-r2-2",
-      "text": "Butterflies and beetles dance with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Insect! Find it, point, and say.",
+      "text": "Hear I ... say Insect! Lift two antenna fingers, then point.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... June Bug! Find it, point, and say.",
+      "text": "Find the picture for J ... June Bug! Wiggle six tiny finger-steps, then stop.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Katydid! Find it, point, and say.",
+      "text": "K calls ... Katydid answers! Lift two antenna fingers, then point.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Leafhopper! Find it, point, and say.",
+      "text": "L ... wait ... Leafhopper! Lift two antenna fingers, then point.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Mantis! Find it, point, and say.",
+      "text": "Hear M ... say Mantis! Wiggle six tiny finger-steps, then stop.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nymph! Find it, point, and say.",
+      "text": "Find the picture for N ... Nymph! Wiggle six tiny finger-steps, then stop.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Orb Weaver! Find it, point, and say.",
+      "text": "O calls ... Orb Weaver answers! Trace one small web circle in the air, then point.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Pill Bug! Find it, point, and say.",
+      "text": "P ... wait ... Pill Bug! Flutter or crawl once, then freeze.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Flutter, tap—A-B-C!",
+      "text": "Look up close, what can you see?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Butterflies and beetles dance with me!",
+      "text": "Mini-world words from A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Queen Butterfly! Find it, point, and say.",
+      "text": "Hear Q ... say Queen Butterfly! Open and close two gentle hand-wings once, then point.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Rhinoceros Beetle! Find it, point, and say.",
+      "text": "Find the picture for R ... Rhinoceros Beetle! Crawl two fingers across your palm.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Stick Insect! Find it, point, and say.",
+      "text": "S calls ... Stick Insect answers! Wiggle six tiny finger-steps, then stop.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Termite! Find it, point, and say.",
+      "text": "T ... wait ... Termite! Lift two antenna fingers, then point.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Underwing Moth! Find it, point, and say.",
+      "text": "Hear U ... say Underwing Moth! Open and close two gentle hand-wings once, then point.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Vinegar Fly! Find it, point, and say.",
+      "text": "Find the picture for V ... Vinegar Fly! Flutter or crawl once, then freeze.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Wasp! Find it, point, and say.",
+      "text": "W calls ... Wasp answers! Flutter or crawl once, then freeze.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +453,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xylocopa Bee! Find it, point, and say.",
+      "text": "X ... wait ... Xylocopa Bee! Flutter or crawl once, then freeze.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Flutter, tap—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Butterflies and beetles dance with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Butterfly! Find it, point, and say.",
+      "text": "Hear Y ... say Yellow Butterfly! Open and close two gentle hand-wings once, then point.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +469,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zebra Longwing! Find it, point, and say.",
+      "text": "Find the picture for Z ... Zebra Longwing! Open and close two gentle hand-wings once, then point.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Look up close, what can you see?",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Mini-world words from A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Flutter, tap—A-B-C!",
+      "text": "Look up close, what can you see?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "One last beat—our tiny-world tune comes home with me!",
       "objective": "narration",
       "objectReveal": "none"
     }

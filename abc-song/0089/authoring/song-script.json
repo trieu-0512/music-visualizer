@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore cooking together with me!",
+      "text": "Pretend chef hat on—no cooking, just a picture-word game!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Cook together—A-B-C!",
+      "text": "Letters call; foods and kitchen objects answer with a name.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A shows Apron while we cook together.",
+      "text": "Look—A! Look—Apron! Apron on the table | shape and job make the clue stable",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B shows Bowl while we cook together.",
+      "text": "B lands on Bowl. A bowl is a deep round container that holds food or ingredients.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C shows Cutting Board while we cook together.",
+      "text": "Cutting Board? Yes—C. It is a flat surface used to protect a counter during food preparation.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D shows Dish while we cook together.",
+      "text": "across the safe kitchen-picture table, the D clue is Dish. A dish is a plate, bowl, or prepared food served in a container.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E shows Egg Timer while we cook together.",
+      "text": "Say E, then Egg Timer. Egg Timer in the frame | food or tool details tell its name",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F shows Frying Pan while we cook together.",
+      "text": "Look—F! Look—Frying Pan! It is a shallow pan heated on a stove; a grown-up handles it when hot.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G shows Grapes while we cook together.",
+      "text": "G lands on Grapes. Grapes are small round or oval fruits that grow in bunches on vines.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,29 +75,15 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H shows Hot Pot while we cook together.",
+      "text": "Hot Pot? Yes—H. It is a heated cooking vessel or shared hot broth dish; children only observe it from a safe distance.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-2-1",
-      "sectionId": "chorus-r1-2",
-      "text": "Cook together—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-2-2",
-      "sectionId": "chorus-r1-2",
-      "text": "Share the kitchen words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I shows Ice Tray while we cook together.",
+      "text": "across the safe kitchen-picture table, the I clue is Ice Tray. Ice Tray in the frame | food or tool details tell its name",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J shows Juicer while we cook together.",
+      "text": "Say J, then Juicer. It is a tool or appliance made to separate juice from fruit or vegetables.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K shows Knife while we cook together.",
+      "text": "Look—K! Look—Knife! A kitchen knife has a sharp blade for cutting food and is a grown-up tool in this preschool picture activity.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,15 +107,29 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L shows Ladle while we cook together.",
+      "text": "L lands on Ladle. A ladle is a long-handled spoon with a deep bowl for serving liquids.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-3-1",
+      "sectionId": "chorus-r1-3",
+      "text": "Pretend-chef beat, one-two-three!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-3-2",
+      "sectionId": "chorus-r1-3",
+      "text": "Food and tool words, A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M shows Mixer while we cook together.",
+      "text": "Mixer? Yes—M. Mixer in the frame | food or tool details tell its name",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N shows Noodles while we cook together.",
+      "text": "across the safe kitchen-picture table, the N clue is Noodles. Noodles are long or shaped strips of dough cooked until tender.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O shows Oven while we cook together.",
+      "text": "Say O, then Oven. It is an enclosed appliance that cooks food with heat; a grown-up operates it because surfaces can become very hot.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P shows Pan while we cook together.",
+      "text": "Look—P! Look—Pan! It is a cooking vessel with a broad bottom; heated pans are handled by grown-ups.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Cook together—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Share the kitchen words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q shows Quiche while we cook together.",
+      "text": "Q lands on Quiche. Quiche in the frame | food or tool details tell its name",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R shows Rice while we cook together.",
+      "text": "Rice? Yes—R. It is a small grain that becomes soft as it cooks in water.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S shows Spatula while we cook together.",
+      "text": "across the safe kitchen-picture table, the S clue is Spatula. A spatula is a flat kitchen tool used to lift, turn, spread, or scrape food.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T shows Tongs while we cook together.",
+      "text": "Say T, then Tongs. Tongs are a hinged or springy tool used to grip and lift food.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U shows Utensil while we cook together.",
+      "text": "Look—U! Look—Utensil! Utensil on the table | shape and job make the clue stable",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V shows Vegetable Peeler while we cook together.",
+      "text": "V lands on Vegetable Peeler. A vegetable peeler has a sharp slot blade that removes thin strips of peel and is used with adult supervision.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W shows Waffle while we cook together.",
+      "text": "Waffle? Yes—W. Waffle on display | little grid marks cross it every way",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,29 +217,15 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X shows X-shaped Cookie Cutter while we cook together.",
+      "text": "across the safe kitchen-picture table, the X clue is X-shaped Cookie Cutter. An X-shaped cookie cutter presses an X outline into rolled dough.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-6-1",
-      "sectionId": "chorus-r1-6",
-      "text": "Cook together—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-6-2",
-      "sectionId": "chorus-r1-6",
-      "text": "Share the kitchen words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y shows Yam while we cook together.",
+      "text": "Say Y, then Yam. Yam in the frame | food or tool details tell its name",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,15 +233,36 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z shows Zester while we cook together.",
+      "text": "Look—Z! Look—Zester! It has small sharp edges that scrape thin fragrant pieces from citrus peel and is a grown-up tool in this activity.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-7-1",
+      "sectionId": "chorus-r1-7",
+      "text": "Pretend-chef beat, one-two-three!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-7-2",
+      "sectionId": "chorus-r1-7",
+      "text": "Food and tool words, A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "interlude-1",
+      "sectionId": "mid-interlude",
+      "text": "The picture table goes quiet; hands are empty. Now remember the kitchen words.",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Apron! Point and say it safely.",
+      "text": "Look for A ... Apron! Trace its shape, then point.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Bowl! Point and say it safely.",
+      "text": "Letter first: B ... answer: Bowl! Trace its shape, then point.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Cutting Board! Point and say it safely.",
+      "text": "C? Hold ... Cutting Board! Point, then make one small shape gesture.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Dish! Point and say it safely.",
+      "text": "One clue—D ... Dish! Trace its shape, then point.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Egg Timer! Point and say it safely.",
+      "text": "Look for E ... Egg Timer! Trace its shape, then point.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Frying Pan! Point and say it safely.",
+      "text": "Letter first: F ... answer: Frying Pan! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Grapes! Point and say it safely.",
+      "text": "G? Hold ... Grapes! Point, then make one small shape gesture.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Hot Pot! Point and say it safely.",
+      "text": "One clue—H ... Hot Pot! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +326,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Cook together—A-B-C!",
+      "text": "Pretend-chef beat, one-two-three!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Share the kitchen words with me!",
+      "text": "Food and tool words, A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Ice Tray! Point and say it safely.",
+      "text": "Look for I ... Ice Tray! Mime its job with empty hands.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +348,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Juicer! Point and say it safely.",
+      "text": "Letter first: J ... answer: Juicer! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +356,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Knife! Point and say it safely.",
+      "text": "K? Hold ... Knife! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +364,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Ladle! Point and say it safely.",
+      "text": "One clue—L ... Ladle! Point, then make one small shape gesture.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +372,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Mixer! Point and say it safely.",
+      "text": "Look for M ... Mixer! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Noodles! Point and say it safely.",
+      "text": "Letter first: N ... answer: Noodles! Trace its shape, then point.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Oven! Point and say it safely.",
+      "text": "O? Hold ... Oven! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,29 +396,15 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Pan! Point and say it safely.",
+      "text": "One clue—P ... Pan! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-4-1",
-      "sectionId": "chorus-r2-4",
-      "text": "Cook together—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-4-2",
-      "sectionId": "chorus-r2-4",
-      "text": "Share the kitchen words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quiche! Point and say it safely.",
+      "text": "Look for Q ... Quiche! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Rice! Point and say it safely.",
+      "text": "Letter first: R ... answer: Rice! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Spatula! Point and say it safely.",
+      "text": "S? Hold ... Spatula! Point, then make one small shape gesture.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,15 +428,29 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Tongs! Point and say it safely.",
+      "text": "One clue—T ... Tongs! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-5-1",
+      "sectionId": "chorus-r2-5",
+      "text": "Pretend-chef beat, one-two-three!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-5-2",
+      "sectionId": "chorus-r2-5",
+      "text": "Food and tool words, A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Utensil! Point and say it safely.",
+      "text": "Look for U ... Utensil! Trace its shape, then point.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +458,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Vegetable Peeler! Point and say it safely.",
+      "text": "Letter first: V ... answer: Vegetable Peeler! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +466,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Waffle! Point and say it safely.",
+      "text": "W? Hold ... Waffle! Mime its job with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +474,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... X-shaped Cookie Cutter! Point and say it safely.",
+      "text": "One clue—X ... X-shaped Cookie Cutter! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Cook together—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Share the kitchen words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yam! Point and say it safely.",
+      "text": "Look for Y ... Yam! Show round, long, flat, or scoop-shaped, then point.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +490,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zester! Point and say it safely.",
+      "text": "Letter first: Z ... answer: Zester! Point only; mime with empty hands while a grown-up handles the real tool.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Pretend-chef beat, one-two-three!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Food and tool words, A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Cook together—A-B-C!",
+      "text": "Pretend-chef beat, one-two-three!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A through Z—our kitchen picture game lands on one bright final beat!",
       "objective": "narration",
       "objectReveal": "none"
     }

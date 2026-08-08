@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore scales and slime with me!",
+      "text": "Rain taps the log—something small peeks out.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Scales and slime—A-B-C!",
+      "text": "A to Z brings amphibian and reptile clues about.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A shows Axolotl in our scales-and-slime view.",
+      "text": "A is here; Axolotl is why. Axolotl in blue | feathery outside gills are a clue",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B shows Boa in our scales-and-slime view.",
+      "text": "Boa answers B. Boa is a limbless reptile that moves in muscular curves along the ground or branches.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C shows Crocodile in our scales-and-slime view.",
+      "text": "between pond, log, and sunny rock pictures, what belongs to C? Crocodile! It is a large semi-aquatic reptile with armored skin, long snout, and strong tail.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D shows Dart Frog in our scales-and-slime view.",
+      "text": "D—short beat—Dart Frog. Dart Frog is a moist-skinned amphibian closely tied to water or damp places.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E shows Eastern Newt in our scales-and-slime view.",
+      "text": "Hear E; see Eastern Newt. Eastern Newt by pond or stone | body covering helps the creature be known",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F shows Frog in our scales-and-slime view.",
+      "text": "F is here; Frog is why. It is a moist-skinned amphibian closely tied to water or damp places.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G shows Garter Snake in our scales-and-slime view.",
+      "text": "Garter Snake answers G. Garter Snake is a limbless reptile that moves in muscular curves along the ground or branches.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H shows Hellbender in our scales-and-slime view.",
+      "text": "between pond, log, and sunny rock pictures, what belongs to H? Hellbender! It is an aquatic salamander with a long swimming body and tail.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Scales and slime—A-B-C!",
+      "text": "Pond and log, what do you see?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Look, don't touch—just point with me!",
+      "text": "Creature clues from A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I shows Italian Newt in our scales-and-slime view.",
+      "text": "I—short beat—Italian Newt. Italian Newt low and slow | skin, scales, shell, or limbs give clues to know",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J shows Jackson Chameleon in our scales-and-slime view.",
+      "text": "Hear J; see Jackson Chameleon. It is a scaled lizard-type reptile; feet, tail, head, and pattern give clues.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K shows Komodo Dragon in our scales-and-slime view.",
+      "text": "K is here; Komodo Dragon is why. It is a scaled lizard-type reptile; feet, tail, head, and pattern give clues.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L shows Leopard Gecko in our scales-and-slime view.",
+      "text": "Leopard Gecko answers L. Leopard Gecko is a scaled lizard-type reptile; feet, tail, head, and pattern give clues.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M shows Mudpuppy in our scales-and-slime view.",
+      "text": "between pond, log, and sunny rock pictures, what belongs to M? Mudpuppy! Mudpuppy by pond or stone | body covering helps the creature be known",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N shows Newt in our scales-and-slime view.",
+      "text": "N—short beat—Newt. Newt is a moist-skinned amphibian closely tied to water or damp places.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O shows Ornate Box Turtle in our scales-and-slime view.",
+      "text": "Hear O; see Ornate Box Turtle. It is a reptile with a hard protective shell.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P shows Python in our scales-and-slime view.",
+      "text": "P is here; Python is why. It is a limbless reptile that moves in muscular curves along the ground or branches.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Scales and slime—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Look, don't touch—just point with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q shows Queen Snake in our scales-and-slime view.",
+      "text": "Queen Snake answers Q. Queen Snake in our sight | shape and movement make the clue just right",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R shows Red-eyed Tree Frog in our scales-and-slime view.",
+      "text": "between pond, log, and sunny rock pictures, what belongs to R? Red-eyed Tree Frog! It is a moist-skinned amphibian closely tied to water or damp places.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S shows Salamander in our scales-and-slime view.",
+      "text": "S—short beat—Salamander. Salamander is a moist-skinned amphibian closely tied to water or damp places.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T shows Turtle in our scales-and-slime view.",
+      "text": "Hear T; see Turtle. It is a reptile with a hard protective shell.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U shows Uromastyx in our scales-and-slime view.",
+      "text": "U is here; Uromastyx is why. Uromastyx by pond or stone | body covering helps the creature be known",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V shows Viper in our scales-and-slime view.",
+      "text": "Viper answers V. Viper is a limbless reptile that moves in muscular curves along the ground or branches.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W shows Wood Frog in our scales-and-slime view.",
+      "text": "between pond, log, and sunny rock pictures, what belongs to W? Wood Frog! It is a moist-skinned amphibian closely tied to water or damp places.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X shows Xenosaurus in our scales-and-slime view.",
+      "text": "X—short beat—Xenosaurus. Xenosaurus is a scaled lizard-type reptile; feet, tail, head, and pattern give clues.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Scales and slime—A-B-C!",
+      "text": "Pond and log, what do you see?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Look, don't touch—just point with me!",
+      "text": "Creature clues from A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y shows Yellow Anaconda in our scales-and-slime view.",
+      "text": "Hear Y; see Yellow Anaconda. Yellow Anaconda in our sight | shape and movement make the clue just right",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z shows Zebra Skink in our scales-and-slime view.",
+      "text": "Z is here; Zebra Skink is why. It is a scaled lizard-type reptile; feet, tail, head, and pattern give clues.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Axolotl! Point and say the clue.",
+      "text": "Hear A ... say Axolotl! Trace one low body line, then point.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Boa! Point and say the clue.",
+      "text": "Find the picture for B ... Boa! Trace one slow S-curve in the air.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Crocodile! Point and say the clue.",
+      "text": "C calls ... Crocodile answers! Trace one low body line, then point.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Dart Frog! Point and say the clue.",
+      "text": "D ... wait ... Dart Frog! Finger-hop once, then point.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Eastern Newt! Point and say the clue.",
+      "text": "Hear E ... say Eastern Newt! Trace one low body line, then point.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Frog! Point and say the clue.",
+      "text": "Find the picture for F ... Frog! Finger-hop once, then point.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Garter Snake! Point and say the clue.",
+      "text": "G calls ... Garter Snake answers! Trace one slow S-curve in the air.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,29 +311,15 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Hellbender! Point and say the clue.",
+      "text": "H ... wait ... Hellbender! Trace one low body line, then point.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-2-1",
-      "sectionId": "chorus-r2-2",
-      "text": "Scales and slime—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-2-2",
-      "sectionId": "chorus-r2-2",
-      "text": "Look, don't touch—just point with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Italian Newt! Point and say the clue.",
+      "text": "Hear I ... say Italian Newt! Trace one low body line, then point.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jackson Chameleon! Point and say the clue.",
+      "text": "Find the picture for J ... Jackson Chameleon! Trace one low body line, then point.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Komodo Dragon! Point and say the clue.",
+      "text": "K calls ... Komodo Dragon answers! Trace one low body line, then point.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Leopard Gecko! Point and say the clue.",
+      "text": "L ... wait ... Leopard Gecko! Trace one low body line, then point.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Mudpuppy! Point and say the clue.",
+      "text": "Hear M ... say Mudpuppy! Trace one low body line, then point.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Newt! Point and say the clue.",
+      "text": "Find the picture for N ... Newt! Trace one low body line, then point.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Ornate Box Turtle! Point and say the clue.",
+      "text": "O calls ... Ornate Box Turtle answers! Make a shell dome, then point.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Python! Point and say the clue.",
+      "text": "P ... wait ... Python! Trace one slow S-curve in the air.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Scales and slime—A-B-C!",
+      "text": "Pond and log, what do you see?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Look, don't touch—just point with me!",
+      "text": "Creature clues from A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Queen Snake! Point and say the clue.",
+      "text": "Hear Q ... say Queen Snake! Trace one slow S-curve in the air.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Red-eyed Tree Frog! Point and say the clue.",
+      "text": "Find the picture for R ... Red-eyed Tree Frog! Finger-hop once, then point.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Salamander! Point and say the clue.",
+      "text": "S calls ... Salamander answers! Trace one low body line, then point.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Turtle! Point and say the clue.",
+      "text": "T ... wait ... Turtle! Make a shell dome, then point.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Uromastyx! Point and say the clue.",
+      "text": "Hear U ... say Uromastyx! Trace one low body line, then point.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Viper! Point and say the clue.",
+      "text": "Find the picture for V ... Viper! Trace one slow S-curve in the air.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Wood Frog! Point and say the clue.",
+      "text": "W calls ... Wood Frog answers! Finger-hop once, then point.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +453,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xenosaurus! Point and say the clue.",
+      "text": "X ... wait ... Xenosaurus! Trace one low body line, then point.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Scales and slime—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Look, don't touch—just point with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Anaconda! Point and say the clue.",
+      "text": "Hear Y ... say Yellow Anaconda! Trace one slow S-curve in the air.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +469,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zebra Skink! Point and say the clue.",
+      "text": "Find the picture for Z ... Zebra Skink! Trace one low body line, then point.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Pond and log, what do you see?",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Creature clues from A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Scales and slime—A-B-C!",
+      "text": "Pond and log, what do you see?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "Letters tucked in—our pond-and-rock song is ours to keep!",
       "objective": "narration",
       "objectReveal": "none"
     }

@@ -6,11 +6,61 @@
   "tempoBpm": 89,
   "motifFamily": "sweet-shop",
   "hook": [
-    "Sweet shop pictures—A-B-C!",
-    "Bakery treats for us to see!"
+    "Picture case, row by row!",
+    "Name the treat and let it go!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one browse beat before answer",
   "visualStyle": "friendly 3D sweet-shop storybook, pastel bakery cases without readable labels, neat isolated treats, warm light",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "sweet-shop-walk",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "object-first",
+      "question-answer",
+      "narrative",
+      "pause-reveal"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "refrain-with-echo-variation",
+    "pointOfView": "storybook bakery visitor using pretend motions only",
+    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
+    "grooveMeter": "light swung 4/4",
+    "round1Grammar": "Round 1 notices shape, layers, crust, swirl, crumb or topping; keep it descriptive and musical rather than advertising sweetness.",
+    "round2Grammar": "Round 2 uses a clean recall gap and visual shape/layer/swirl gestures with empty hands; no real baking operations are instructed.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: warm guitar/marimba crumb-sized answer, never a commercial jingle sting.",
+    "signatureColor": "warm guitar/marimba crumb-sized answer, never a commercial jingle sting",
+    "chorusAfterRound1": [
+      2,
+      4,
+      7
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 9,
+    "usedRound1": 8,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

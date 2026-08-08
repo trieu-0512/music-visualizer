@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore prehistoric life with me!",
+      "text": "Click—the museum lights glow low.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Long ago—A-B-C!",
+      "text": "Every letter wakes one prehistoric picture in the row.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A shows Ankylosaurus from a prehistoric day.",
+      "text": "A—Ankylosaurus! Armor on its back | heavy tail-club gives the clue a smack",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B shows Brachiosaurus from a prehistoric day.",
+      "text": "B ... B ... Brachiosaurus. Brachiosaurus was a long-necked sauropod dinosaur with front legs longer than its hind legs.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C shows Carnotaurus from a prehistoric day.",
+      "text": "Carnotaurus steps in for C. It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D shows Diplodocus from a prehistoric day.",
+      "text": "What does D reveal? Diplodocus! Diplodocus is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E shows Egg from a prehistoric day.",
+      "text": "along the prehistoric trail, E meets Egg. Egg, oval shell | fossil nests have stories to tell",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F shows Fossil from a prehistoric day.",
+      "text": "F—Fossil! It is preserved evidence of ancient life, such as bone, shell, a leaf impression, or a track.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G shows Gastonia from a prehistoric day.",
+      "text": "G ... G ... Gastonia. Gastonia is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H shows Herrerasaurus from a prehistoric day.",
+      "text": "Herrerasaurus steps in for H. It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Long ago—A-B-C!",
+      "text": "Museum lights, glow with me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Prehistoric pictures, look with me!",
+      "text": "Prehistoric words from A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I shows Irritator from a prehistoric day.",
+      "text": "What does I reveal? Irritator! Irritator in stone | fossil clues make ancient life known",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J shows Jurassic Fern from a prehistoric day.",
+      "text": "along the prehistoric trail, J meets Jurassic Fern. Ferns were part of many prehistoric plant communities and their relatives still grow today.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K shows Kritosaurus from a prehistoric day.",
+      "text": "K—Kritosaurus! It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L shows Lambeosaurus from a prehistoric day.",
+      "text": "L ... L ... Lambeosaurus. Lambeosaurus is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M shows Maiasaura from a prehistoric day.",
+      "text": "Maiasaura steps in for M. Maiasaura on the track | fossil shapes bring the old clue back",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N shows Nest from a prehistoric day.",
+      "text": "What does N reveal? Nest! A fossil nest or nesting site can reveal how some prehistoric animals laid and cared for eggs.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O shows Ornithomimus from a prehistoric day.",
+      "text": "along the prehistoric trail, O meets Ornithomimus. It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P shows Pteranodon from a prehistoric day.",
+      "text": "P—Pteranodon! Pteranodon was a flying reptile called a pterosaur, not a dinosaur.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Long ago—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Prehistoric pictures, look with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q shows Quetzalcoatlus from a prehistoric day.",
+      "text": "Q ... Q ... Quetzalcoatlus. Quetzalcoatlus in the sky | giant pterosaur wings could carry it high",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R shows Rib Bone from a prehistoric day.",
+      "text": "Rib Bone steps in for R. It helps form a protective cage around organs; fossil ribs can show the shape of an ancient body.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S shows Stegosaurus from a prehistoric day.",
+      "text": "What does S reveal? Stegosaurus! Plates in a row | tail spikes give another clue to know",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,15 +185,29 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T shows Tyrannosaurus from a prehistoric day.",
+      "text": "along the prehistoric trail, T meets Tyrannosaurus. Tyrannosaurus was a large meat-eating dinosaur with a massive skull and powerful hind legs.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-5-1",
+      "sectionId": "chorus-r1-5",
+      "text": "Museum lights, glow with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-5-2",
+      "sectionId": "chorus-r1-5",
+      "text": "Prehistoric words from A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U shows Utahraptor from a prehistoric day.",
+      "text": "U—Utahraptor! Utahraptor on the track | fossil shapes bring the old clue back",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V shows Velociraptor from a prehistoric day.",
+      "text": "V ... V ... Velociraptor. Velociraptor was a relatively small feathered theropod dinosaur with a curved claw on each second toe.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W shows Wannanosaurus from a prehistoric day.",
+      "text": "Wannanosaurus steps in for W. It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,29 +231,15 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X shows Xixiasaurus from a prehistoric day.",
+      "text": "What does X reveal? Xixiasaurus! Xixiasaurus is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-6-1",
-      "sectionId": "chorus-r1-6",
-      "text": "Long ago—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-6-2",
-      "sectionId": "chorus-r1-6",
-      "text": "Prehistoric pictures, look with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y shows Yutyrannus from a prehistoric day.",
+      "text": "along the prehistoric trail, Y meets Yutyrannus. Yutyrannus long ago | bones and body leave a clue to show",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,15 +247,22 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z shows Zuniceratops from a prehistoric day.",
+      "text": "Z—Zuniceratops! It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "interlude-1",
+      "sectionId": "mid-interlude",
+      "text": "The footprints stop at the museum door. One quiet beat—now remember the names.",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Ankylosaurus! Point, remember, say.",
+      "text": "A ... Ankylosaurus! Trace head to tail in the air.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Brachiosaurus! Point, remember, say.",
+      "text": "Remember B ... Brachiosaurus! Sway one pretend tail, then freeze.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Carnotaurus! Point, remember, say.",
+      "text": "C? ... Carnotaurus! Sway one pretend tail, then freeze.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Diplodocus! Point, remember, say.",
+      "text": "Find D, hold the beat ... Diplodocus! Show its body size with both hands.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Egg! Point, remember, say.",
+      "text": "E ... Egg! Make a small oval shell with both hands, then point.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Fossil! Point, remember, say.",
+      "text": "Remember F ... Fossil! Brush the air gently like a fossil helper, then point.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Gastonia! Point, remember, say.",
+      "text": "G? ... Gastonia! Show its body size with both hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,29 +318,15 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Herrerasaurus! Point, remember, say.",
+      "text": "Find H, hold the beat ... Herrerasaurus! Tap two soft prehistoric footsteps.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-2-1",
-      "sectionId": "chorus-r2-2",
-      "text": "Long ago—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-2-2",
-      "sectionId": "chorus-r2-2",
-      "text": "Prehistoric pictures, look with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Irritator! Point, remember, say.",
+      "text": "I ... Irritator! Tap two soft prehistoric footsteps.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jurassic Fern! Point, remember, say.",
+      "text": "Remember J ... Jurassic Fern! Uncurl one hand like a fern frond, then point.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Kritosaurus! Point, remember, say.",
+      "text": "K? ... Kritosaurus! Tap two soft prehistoric footsteps.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,15 +350,29 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Lambeosaurus! Point, remember, say.",
+      "text": "Find L, hold the beat ... Lambeosaurus! Sway one pretend tail, then freeze.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-3-1",
+      "sectionId": "chorus-r2-3",
+      "text": "Museum lights, glow with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-3-2",
+      "sectionId": "chorus-r2-3",
+      "text": "Prehistoric words from A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Maiasaura! Point, remember, say.",
+      "text": "M ... Maiasaura! Tap two soft prehistoric footsteps.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nest! Point, remember, say.",
+      "text": "Remember N ... Nest! Cup both hands like a shallow nest, then point.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Ornithomimus! Point, remember, say.",
+      "text": "O? ... Ornithomimus! Show its body size with both hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,29 +396,15 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Pteranodon! Point, remember, say.",
+      "text": "Find P, hold the beat ... Pteranodon! Glide two gentle hand-wings once, then point to the pterosaur.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-4-1",
-      "sectionId": "chorus-r2-4",
-      "text": "Long ago—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-4-2",
-      "sectionId": "chorus-r2-4",
-      "text": "Prehistoric pictures, look with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quetzalcoatlus! Point, remember, say.",
+      "text": "Q ... Quetzalcoatlus! Glide two gentle hand-wings once, then point to the pterosaur.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Rib Bone! Point, remember, say.",
+      "text": "Remember R ... Rib Bone! Brush the air gently like a fossil helper, then point.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Stegosaurus! Point, remember, say.",
+      "text": "S? ... Stegosaurus! Trace head to tail in the air.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Tyrannosaurus! Point, remember, say.",
+      "text": "Find T, hold the beat ... Tyrannosaurus! Show its body size with both hands.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Utahraptor! Point, remember, say.",
+      "text": "U ... Utahraptor! Show its body size with both hands.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Velociraptor! Point, remember, say.",
+      "text": "Remember V ... Velociraptor! Show its body size with both hands.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Wannanosaurus! Point, remember, say.",
+      "text": "W? ... Wannanosaurus! Trace head to tail in the air.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xixiasaurus! Point, remember, say.",
+      "text": "Find X, hold the beat ... Xixiasaurus! Show its body size with both hands.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +468,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Long ago—A-B-C!",
+      "text": "Museum lights, glow with me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Prehistoric pictures, look with me!",
+      "text": "Prehistoric words from A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yutyrannus! Point, remember, say.",
+      "text": "Y ... Yutyrannus! Show its body size with both hands.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +490,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zuniceratops! Point, remember, say.",
+      "text": "Remember Z ... Zuniceratops! Sway one pretend tail, then freeze.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +498,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Long ago—A-B-C!",
+      "text": "Museum lights, glow with me!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "Letters tucked in—our prehistoric trail is ours to keep!",
       "objective": "narration",
       "objectReveal": "none"
     }

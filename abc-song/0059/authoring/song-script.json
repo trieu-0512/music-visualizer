@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Let's explore dinosaur together!",
+      "text": "Roaaar... echo it tiny, echo it tall!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Dino trail—come follow me!",
+      "text": "Letters stomp in with creatures big and small.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A finds Allosaurus on our dinosaur trail.",
+      "text": "Allosaurus—that is our A. Allosaurus long ago | bones and body leave a clue to show",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B finds Brachiosaurus on our dinosaur trail.",
+      "text": "Spot B: Brachiosaurus! Brachiosaurus was a long-necked sauropod dinosaur with front legs longer than its hind legs.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C finds Carnotaurus on our dinosaur trail.",
+      "text": "C brings Carnotaurus; It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D finds Diplodocus on our dinosaur trail.",
+      "text": "A clue for D: Diplodocus. Diplodocus is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E finds Edmontosaurus on our dinosaur trail.",
+      "text": "along the prehistoric trail, here comes Edmontosaurus for E. Edmontosaurus in stone | fossil clues make ancient life known",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F finds Footprint on our dinosaur trail.",
+      "text": "Footprint—that is our F. A fossil footprint is a trace fossil that records where an animal stepped long ago.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G finds Gastonia on our dinosaur trail.",
+      "text": "Spot G: Gastonia! Gastonia is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,29 +75,15 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H finds Herrerasaurus on our dinosaur trail.",
+      "text": "H brings Herrerasaurus; It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-2-1",
-      "sectionId": "chorus-r1-2",
-      "text": "Dino trail—come follow me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-2-2",
-      "sectionId": "chorus-r1-2",
-      "text": "Track the letters A to Z!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I finds Iguanodon on our dinosaur trail.",
+      "text": "A clue for I: Iguanodon. Iguanodon long ago | bones and body leave a clue to show",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J finds Jawbone on our dinosaur trail.",
+      "text": "along the prehistoric trail, here comes Jawbone for J. It holds teeth and can give paleontologists clues about how an animal ate.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K finds Kritosaurus on our dinosaur trail.",
+      "text": "Kritosaurus—that is our K. It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,15 +107,29 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L finds Lesothosaurus on our dinosaur trail.",
+      "text": "Spot L: Lesothosaurus! Lesothosaurus is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-3-1",
+      "sectionId": "chorus-r1-3",
+      "text": "Roar it soft, then say it clear!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-3-2",
+      "sectionId": "chorus-r1-3",
+      "text": "Letter first, old creature near!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M finds Mosasaurus on our dinosaur trail.",
+      "text": "M brings Mosasaurus; Mosasaurus in the sea | marine reptile, not a dinosaur, remember me",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N finds Nest on our dinosaur trail.",
+      "text": "A clue for N: Nest. A fossil nest or nesting site can reveal how some prehistoric animals laid and cared for eggs.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O finds Oviraptor on our dinosaur trail.",
+      "text": "along the prehistoric trail, here comes Oviraptor for O. It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P finds Pteranodon on our dinosaur trail.",
+      "text": "Pteranodon—that is our P. Pteranodon was a flying reptile called a pterosaur, not a dinosaur.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Dino trail—come follow me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Track the letters A to Z!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q finds Quetzalcoatlus on our dinosaur trail.",
+      "text": "Spot Q: Quetzalcoatlus! Quetzalcoatlus in the sky | giant pterosaur wings could carry it high",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R finds Raptor on our dinosaur trail.",
+      "text": "R brings Raptor; It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S finds Spinosaurus on our dinosaur trail.",
+      "text": "A clue for S: Spinosaurus. Spinosaurus was a large theropod dinosaur with tall spines forming a sail-like structure along its back.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T finds Tyrannosaurus on our dinosaur trail.",
+      "text": "along the prehistoric trail, here comes Tyrannosaurus for T. Tyrannosaurus was a large meat-eating dinosaur with a massive skull and powerful hind legs.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U finds Utahraptor on our dinosaur trail.",
+      "text": "Utahraptor—that is our U. Utahraptor on the track | fossil shapes bring the old clue back",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V finds Volcano on our dinosaur trail.",
+      "text": "Spot V: Volcano! A volcano is an opening where molten rock, gas, and ash can reach Earth's surface; volcanoes existed throughout dinosaur times.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W finds Wuerhosaurus on our dinosaur trail.",
+      "text": "W brings Wuerhosaurus; It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X finds Xixiasaurus on our dinosaur trail.",
+      "text": "A clue for X: Xixiasaurus. Xixiasaurus is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Dino trail—come follow me!",
+      "text": "Roar it soft, then say it clear!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Track the letters A to Z!",
+      "text": "Letter first, old creature near!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y finds Yinlong on our dinosaur trail.",
+      "text": "along the prehistoric trail, here comes Yinlong for Y. Yinlong on the track | fossil shapes bring the old clue back",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z finds Zephyrosaurus on our dinosaur trail.",
+      "text": "Zephyrosaurus—that is our Z. It is known from fossils; bones and body shape reveal an ancient animal.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Allosaurus! Point it out without fail.",
+      "text": "Spot A ... Allosaurus! Sway one pretend tail, then freeze.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Brachiosaurus! Point it out without fail.",
+      "text": "Call B, wait ... Brachiosaurus! Sway one pretend tail, then freeze.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Carnotaurus! Point it out without fail.",
+      "text": "Which word fits C? ... Carnotaurus! Sway one pretend tail, then freeze.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Diplodocus! Point it out without fail.",
+      "text": "D ... D ... Diplodocus! Show its body size with both hands.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Edmontosaurus! Point it out without fail.",
+      "text": "Spot E ... Edmontosaurus! Trace head to tail in the air.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Footprint! Point it out without fail.",
+      "text": "Call F, wait ... Footprint! Tap two tiny footprint beats, then show the picture.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Gastonia! Point it out without fail.",
+      "text": "Which word fits G? ... Gastonia! Show its body size with both hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,29 +311,15 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Herrerasaurus! Point it out without fail.",
+      "text": "H ... H ... Herrerasaurus! Tap two soft prehistoric footsteps.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-2-1",
-      "sectionId": "chorus-r2-2",
-      "text": "Dino trail—come follow me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-2-2",
-      "sectionId": "chorus-r2-2",
-      "text": "Track the letters A to Z!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Iguanodon! Point it out without fail.",
+      "text": "Spot I ... Iguanodon! Tap two soft prehistoric footsteps.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jawbone! Point it out without fail.",
+      "text": "Call J, wait ... Jawbone! Tap two tiny footprint beats, then show the picture.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Kritosaurus! Point it out without fail.",
+      "text": "Which word fits K? ... Kritosaurus! Tap two soft prehistoric footsteps.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Lesothosaurus! Point it out without fail.",
+      "text": "L ... L ... Lesothosaurus! Trace head to tail in the air.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Mosasaurus! Point it out without fail.",
+      "text": "Spot M ... Mosasaurus! Glide one hand like a sea swimmer, then point.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nest! Point it out without fail.",
+      "text": "Call N, wait ... Nest! Cup both hands like a shallow nest, then point.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Oviraptor! Point it out without fail.",
+      "text": "Which word fits O? ... Oviraptor! Show its body size with both hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Pteranodon! Point it out without fail.",
+      "text": "P ... P ... Pteranodon! Glide two gentle hand-wings once, then point to the pterosaur.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Dino trail—come follow me!",
+      "text": "Roar it soft, then say it clear!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Track the letters A to Z!",
+      "text": "Letter first, old creature near!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quetzalcoatlus! Point it out without fail.",
+      "text": "Spot Q ... Quetzalcoatlus! Glide two gentle hand-wings once, then point to the pterosaur.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Raptor! Point it out without fail.",
+      "text": "Call R, wait ... Raptor! Tap two soft prehistoric footsteps.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Spinosaurus! Point it out without fail.",
+      "text": "Which word fits S? ... Spinosaurus! Tap two soft prehistoric footsteps.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Tyrannosaurus! Point it out without fail.",
+      "text": "T ... T ... Tyrannosaurus! Show its body size with both hands.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Utahraptor! Point it out without fail.",
+      "text": "Spot U ... Utahraptor! Show its body size with both hands.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Volcano! Point it out without fail.",
+      "text": "Call V, wait ... Volcano! Make a wide mountain shape with both hands, then point.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Wuerhosaurus! Point it out without fail.",
+      "text": "Which word fits W? ... Wuerhosaurus! Trace head to tail in the air.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +453,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xixiasaurus! Point it out without fail.",
+      "text": "X ... X ... Xixiasaurus! Show its body size with both hands.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Dino trail—come follow me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Track the letters A to Z!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yinlong! Point it out without fail.",
+      "text": "Spot Y ... Yinlong! Tap two soft prehistoric footsteps.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +469,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zephyrosaurus! Point it out without fail.",
+      "text": "Call Z, wait ... Zephyrosaurus! Tap two soft prehistoric footsteps.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Roar it soft, then say it clear!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Letter first, old creature near!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Dino trail—come follow me!",
+      "text": "Roar it soft, then say it clear!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A through Z—our prehistoric trail lands on one bright final beat!",
       "objective": "narration",
       "objectReveal": "none"
     }

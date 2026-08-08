@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore healthy produce with me!",
+      "text": "Morning baskets line up—round, long, leafy, small.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Fresh foods—A-B-C!",
+      "text": "A to Z will help us notice and name them all.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A meets Apple in our fresh-produce picture.",
+      "text": "Apple—that is our A. Apple round and bright | skin and core are picture clues in sight",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B meets Banana in our fresh-produce picture.",
+      "text": "Spot B: Banana! Banana is fruit; skin, shape, color, seeds, or segments give the clue.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C meets Cherry in our fresh-produce picture.",
+      "text": "C brings Cherry; It is fruit; skin, shape, color, seeds, or segments give the clue.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D meets Date in our fresh-produce picture.",
+      "text": "A clue for D: Date. Date is fruit; skin, shape, color, seeds, or segments give the clue.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E meets Endive in our fresh-produce picture.",
+      "text": "through the garden and market baskets, here comes Endive for E. Endive in the row | shape and color help the produce show",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F meets Fennel in our fresh-produce picture.",
+      "text": "Fennel—that is our F. It has a distinctive bulb, stem, root, pod, or layered shape.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G meets Guava in our fresh-produce picture.",
+      "text": "Spot G: Guava! Guava is fruit; skin, shape, color, seeds, or segments give the clue.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,29 +75,15 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H meets Horseradish in our fresh-produce picture.",
+      "text": "H brings Horseradish; It has a distinctive bulb, stem, root, pod, or layered shape.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-2-1",
-      "sectionId": "chorus-r1-2",
-      "text": "Fresh foods—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-2-2",
-      "sectionId": "chorus-r1-2",
-      "text": "Colorful produce, sing with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I meets Iceberg Lettuce in our fresh-produce picture.",
+      "text": "A clue for I: Iceberg Lettuce. Iceberg Lettuce in the crate | skin, leaf, or shape helps us identify it straight",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J meets Jalapeno in our fresh-produce picture.",
+      "text": "through the garden and market baskets, here comes Jalapeno for J. It grows from a flower with seeds inside; shape and color give the clue.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K meets Kale in our fresh-produce picture.",
+      "text": "Kale—that is our K. It is leafy produce; leaf shape and texture make the clue.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,15 +107,29 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L meets Lemon in our fresh-produce picture.",
+      "text": "Spot L: Lemon! Lemon is fruit; skin, shape, color, seeds, or segments give the clue.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-3-1",
+      "sectionId": "chorus-r1-3",
+      "text": "Round or leafy, long or small!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-3-2",
+      "sectionId": "chorus-r1-3",
+      "text": "A to Z—we name them all!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M meets Mango in our fresh-produce picture.",
+      "text": "M brings Mango; Mango in the row | shape and color help the produce show",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N meets Nectarine in our fresh-produce picture.",
+      "text": "A clue for N: Nectarine. Nectarine is fruit; skin, shape, color, seeds, or segments give the clue.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O meets Orange in our fresh-produce picture.",
+      "text": "through the garden and market baskets, here comes Orange for O. It is fruit; skin, shape, color, seeds, or segments give the clue.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P meets Peach in our fresh-produce picture.",
+      "text": "Peach—that is our P. It is fruit; skin, shape, color, seeds, or segments give the clue.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Fresh foods—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Colorful produce, sing with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q meets Quince in our fresh-produce picture.",
+      "text": "Spot Q: Quince! Quince in the crate | skin, leaf, or shape helps us identify it straight",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R meets Radish in our fresh-produce picture.",
+      "text": "R brings Radish; It grows food below the soil, with leafy growth reaching above.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S meets Spinach in our fresh-produce picture.",
+      "text": "A clue for S: Spinach. Spinach is leafy produce; leaf shape and texture make the clue.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T meets Turnip in our fresh-produce picture.",
+      "text": "through the garden and market baskets, here comes Turnip for T. It grows food below the soil, with leafy growth reaching above.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U meets Ugli Fruit in our fresh-produce picture.",
+      "text": "Ugli Fruit—that is our U. Ugli Fruit in the crate | skin, leaf, or shape helps us identify it straight",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V meets Vidalia Onion in our fresh-produce picture.",
+      "text": "Spot V: Vidalia Onion! A Vidalia onion is a named type of onion with papery outer skin and layered flesh.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W meets Watermelon in our fresh-produce picture.",
+      "text": "W brings Watermelon; Watermelon wide | hard green rind with juicy fruit inside",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X meets Xoconostle in our fresh-produce picture.",
+      "text": "A clue for X: Xoconostle. Xoconostle is a tart fruit from a prickly pear cactus, with a thick skin and seeded center.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Fresh foods—A-B-C!",
+      "text": "Round or leafy, long or small!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Colorful produce, sing with me!",
+      "text": "A to Z—we name them all!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y meets Yellow Pepper in our fresh-produce picture.",
+      "text": "through the garden and market baskets, here comes Yellow Pepper for Y. Yellow Pepper in the crate | skin, leaf, or shape helps us identify it straight",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z meets Zinfandel Grape in our fresh-produce picture.",
+      "text": "Zinfandel Grape—that is our Z. It is a dark-skinned grape variety that grows in bunches on vines.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Apple! Point and name it clearly.",
+      "text": "Spot A ... Apple! Pretend to basket the picture, then name it.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Banana! Point and name it clearly.",
+      "text": "Call B, wait ... Banana! Show round, long, leafy, or bumpy, then point.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Cherry! Point and name it clearly.",
+      "text": "Which word fits C? ... Cherry! Show round, long, leafy, or bumpy, then point.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Date! Point and name it clearly.",
+      "text": "D ... D ... Date! Pretend to basket the picture, then name it.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Endive! Point and name it clearly.",
+      "text": "Spot E ... Endive! Point to skin or leaf shape; hold the beat.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Fennel! Point and name it clearly.",
+      "text": "Call F, wait ... Fennel! Trace its outline; point to one color clue.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Guava! Point and name it clearly.",
+      "text": "Which word fits G? ... Guava! Trace its outline; point to one color clue.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,29 +311,15 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Horseradish! Point and name it clearly.",
+      "text": "H ... H ... Horseradish! Trace its outline; point to one color clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-2-1",
-      "sectionId": "chorus-r2-2",
-      "text": "Fresh foods—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-2-2",
-      "sectionId": "chorus-r2-2",
-      "text": "Colorful produce, sing with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Iceberg Lettuce! Point and name it clearly.",
+      "text": "Spot I ... Iceberg Lettuce! Point to skin or leaf shape; hold the beat.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jalapeno! Point and name it clearly.",
+      "text": "Call J, wait ... Jalapeno! Pretend to basket the picture, then name it.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Kale! Point and name it clearly.",
+      "text": "Which word fits K? ... Kale! Show round, long, leafy, or bumpy, then point.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Lemon! Point and name it clearly.",
+      "text": "L ... L ... Lemon! Point to skin or leaf shape; hold the beat.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Mango! Point and name it clearly.",
+      "text": "Spot M ... Mango! Pretend to basket the picture, then name it.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nectarine! Point and name it clearly.",
+      "text": "Call N, wait ... Nectarine! Show round, long, leafy, or bumpy, then point.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Orange! Point and name it clearly.",
+      "text": "Which word fits O? ... Orange! Trace its outline; point to one color clue.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Peach! Point and name it clearly.",
+      "text": "P ... P ... Peach! Show round, long, leafy, or bumpy, then point.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Fresh foods—A-B-C!",
+      "text": "Round or leafy, long or small!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Colorful produce, sing with me!",
+      "text": "A to Z—we name them all!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quince! Point and name it clearly.",
+      "text": "Spot Q ... Quince! Show round, long, leafy, or bumpy, then point.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Radish! Point and name it clearly.",
+      "text": "Call R, wait ... Radish! Point to skin or leaf shape; hold the beat.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Spinach! Point and name it clearly.",
+      "text": "Which word fits S? ... Spinach! Pretend to basket the picture, then name it.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Turnip! Point and name it clearly.",
+      "text": "T ... T ... Turnip! Pretend to basket the picture, then name it.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Ugli Fruit! Point and name it clearly.",
+      "text": "Spot U ... Ugli Fruit! Point to skin or leaf shape; hold the beat.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Vidalia Onion! Point and name it clearly.",
+      "text": "Call V, wait ... Vidalia Onion! Show round, long, leafy, or bumpy, then point.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Watermelon! Point and name it clearly.",
+      "text": "Which word fits W? ... Watermelon! Pretend to basket the picture, then name it.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +453,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xoconostle! Point and name it clearly.",
+      "text": "X ... X ... Xoconostle! Pretend to basket the picture, then name it.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Fresh foods—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Colorful produce, sing with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Pepper! Point and name it clearly.",
+      "text": "Spot Y ... Yellow Pepper! Trace its outline; point to one color clue.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +469,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zinfandel Grape! Point and name it clearly.",
+      "text": "Call Z, wait ... Zinfandel Grape! Pretend to basket the picture, then name it.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Round or leafy, long or small!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "A to Z—we name them all!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Fresh foods—A-B-C!",
+      "text": "Round or leafy, long or small!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A through Z—our garden-market tune lands on one bright final beat!",
       "objective": "narration",
       "objectReveal": "none"
     }

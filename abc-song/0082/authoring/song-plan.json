@@ -6,11 +6,61 @@
   "tempoBpm": 91,
   "motifFamily": "hop-slither",
   "hook": [
-    "Hop, slither, turtle—A-B-C!",
-    "Creature words come play with me!"
+    "Soft hiss, clear word—one-two-three!",
+    "Picture-creature, A to Z!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat between cue and confirmation",
   "visualStyle": "bright 3D frogs-snakes-turtles storybook, friendly rounded reptiles and amphibians, simple pond-and-log setting",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "safe-hiss-rhythm",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "object-first",
+      "question-answer",
+      "narrative",
+      "pause-reveal"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "refrain-with-echo-variation",
+    "pointOfView": "safe pond-and-reptile-house observer",
+    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
+    "grooveMeter": "gentle 6/8 sway",
+    "round1Grammar": "Round 1 distinguishes amphibians, snakes, turtles, crocodilians and lizards with visible clues; dangerous species are picture-only observations.",
+    "round2Grammar": "Round 2 uses one to two beats of recall and a picture-trace, hop, swim or low-glide gesture; dangerous animals remain hands-off.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: soft woodblock/plop accent after the word, no alarming hiss bed.",
+    "signatureColor": "soft woodblock/plop accent after the word, no alarming hiss bed",
+    "chorusAfterRound1": [
+      3,
+      7
+    ],
+    "chorusAfterRound2": [
+      2,
+      5,
+      7
+    ],
+    "hasMidInterlude": true,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 7,
+    "usedRound1": 7,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

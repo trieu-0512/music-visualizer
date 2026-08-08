@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore zoo animals with me!",
+      "text": "Clack—the picture gates swing open wide.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Zoo friends—A-B-C!",
+      "text": "A to Z has animal tracks waiting on the other side.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A shows Ape in our friendly zoo.",
+      "text": "A is here; Ape is why. Ape in its place | feet, coat, ears, and tail give clues to trace",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B shows Bison in our friendly zoo.",
+      "text": "Bison answers B. Bison is hoofed wildlife; legs, hoof shape, head, and coat help identify it.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C shows Cheetah in our friendly zoo.",
+      "text": "across the habitat trail, what belongs to C? Cheetah! It is a slender spotted cat built for very fast running over short distances.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D shows Dhole in our friendly zoo.",
+      "text": "D—short beat—Dhole. Dhole is a wild canid; muzzle, pointed ears, paws, and tail help reveal it.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E shows Elephant in our friendly zoo.",
+      "text": "Hear E; see Elephant. Elephant so grand | trunk can lift and smell and understand",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F shows Flamingo in our friendly zoo.",
+      "text": "F is here; Flamingo is why. It is a long-legged water bird with a bent bill adapted for filter feeding.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G shows Gorilla in our friendly zoo.",
+      "text": "Gorilla answers G. Gorilla is a primate; hands, feet, face, and climbing posture make strong clues.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H shows Hippo in our friendly zoo.",
+      "text": "across the habitat trail, what belongs to H? Hippo! A hippopotamus is a large semi-aquatic mammal that spends much of the day in water or mud.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Zoo friends—A-B-C!",
+      "text": "Track the letter, name the beast!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Animal words for you and me!",
+      "text": "A to Z, from west to east!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I shows Ibex in our friendly zoo.",
+      "text": "I—short beat—Ibex. Ibex in its place | feet, coat, ears, and tail give clues to trace",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J shows Jackal in our friendly zoo.",
+      "text": "Hear J; see Jackal. It is a wild canid; muzzle, pointed ears, paws, and tail help reveal it.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K shows Koala in our friendly zoo.",
+      "text": "K is here; Koala is why. It is an Australian marsupial that climbs eucalyptus trees and eats mainly eucalyptus leaves.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L shows Lion in our friendly zoo.",
+      "text": "Lion answers L. Lion is a wild cat; paws, tail, coat pattern, and feline body shape give clues.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M shows Meerkat in our friendly zoo.",
+      "text": "across the habitat trail, what belongs to M? Meerkat! Meerkat in its place | feet, coat, ears, and tail give clues to trace",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N shows Nile Crocodile in our friendly zoo.",
+      "text": "N—short beat—Nile Crocodile. A Nile crocodile is a large African reptile with powerful jaws and a long armored body; we observe it only from a safe distance.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O shows Okapi in our friendly zoo.",
+      "text": "Hear O; see Okapi. It is a forest-dwelling relative of the giraffe with striped markings on its legs.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P shows Panda in our friendly zoo.",
+      "text": "P is here; Panda is why. A giant panda is a bear with black-and-white fur that eats mostly bamboo.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Zoo friends—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Animal words for you and me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q shows Quail in our friendly zoo.",
+      "text": "Quail answers Q. Quail in sight | feather, bill, and feet give clues just right",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R shows Rhino in our friendly zoo.",
+      "text": "across the habitat trail, what belongs to R? Rhino! A rhinoceros is a large thick-skinned mammal with one or two horns made of keratin on its snout.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S shows Seal in our friendly zoo.",
+      "text": "S—short beat—Seal. Seal is wildlife; body shape and habitat help us recognize it from afar.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T shows Tiger in our friendly zoo.",
+      "text": "Hear T; see Tiger. It is a wild cat; paws, tail, coat pattern, and feline body shape give clues.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U shows Uakari in our friendly zoo.",
+      "text": "U is here; Uakari is why. Uakari in its place | feet, coat, ears, and tail give clues to trace",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V shows Vicuna in our friendly zoo.",
+      "text": "Vicuna answers V. A vicuna is a slender South American camelid adapted to high Andean grasslands.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W shows Wolf in our friendly zoo.",
+      "text": "across the habitat trail, what belongs to W? Wolf! It is a wild canid; muzzle, pointed ears, paws, and tail help reveal it.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X shows Xerus in our friendly zoo.",
+      "text": "X—short beat—Xerus. A xerus is an African ground squirrel that lives in open dry habitats.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Zoo friends—A-B-C!",
+      "text": "Track the letter, name the beast!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Animal words for you and me!",
+      "text": "A to Z, from west to east!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y shows Yellow Mongoose in our friendly zoo.",
+      "text": "Hear Y; see Yellow Mongoose. Yellow Mongoose from afar | shape and habitat show what you are",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z shows Zebu in our friendly zoo.",
+      "text": "Z is here; Zebu is why. It is a type of cattle with a noticeable hump over the shoulders.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Ape! Point and say it too.",
+      "text": "Hear A ... say Ape! Show its body shape with your hands.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Bison! Point and say it too.",
+      "text": "Find the picture for B ... Bison! Point to one clue—ears, tail, horn, feet, or coat.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Cheetah! Point and say it too.",
+      "text": "C calls ... Cheetah answers! Show its body shape with your hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Dhole! Point and say it too.",
+      "text": "D ... wait ... Dhole! Point, then trace its silhouette.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Elephant! Point and say it too.",
+      "text": "Hear E ... say Elephant! Make two quiet track-steps, then stop.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Flamingo! Point and say it too.",
+      "text": "Find the picture for F ... Flamingo! Lift two gentle wings, then point.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Gorilla! Point and say it too.",
+      "text": "G calls ... Gorilla answers! Show its body shape with your hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,29 +311,15 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Hippo! Point and say it too.",
+      "text": "H ... wait ... Hippo! Point, then trace its silhouette.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-2-1",
-      "sectionId": "chorus-r2-2",
-      "text": "Zoo friends—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-2-2",
-      "sectionId": "chorus-r2-2",
-      "text": "Animal words for you and me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Ibex! Point and say it too.",
+      "text": "Hear I ... say Ibex! Point, then trace its silhouette.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jackal! Point and say it too.",
+      "text": "Find the picture for J ... Jackal! Show its body shape with your hands.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Koala! Point and say it too.",
+      "text": "K calls ... Koala answers! Point, then trace its silhouette.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Lion! Point and say it too.",
+      "text": "L ... wait ... Lion! Show its body shape with your hands.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Meerkat! Point and say it too.",
+      "text": "Hear M ... say Meerkat! Make two quiet track-steps, then stop.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nile Crocodile! Point and say it too.",
+      "text": "Find the picture for N ... Nile Crocodile! Trace one low body-and-tail line in the air.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Okapi! Point and say it too.",
+      "text": "O calls ... Okapi answers! Point, then trace its silhouette.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Panda! Point and say it too.",
+      "text": "P ... wait ... Panda! Point, then trace its silhouette.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Zoo friends—A-B-C!",
+      "text": "Track the letter, name the beast!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Animal words for you and me!",
+      "text": "A to Z, from west to east!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quail! Point and say it too.",
+      "text": "Hear Q ... say Quail! Lift two gentle wings, then point.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Rhino! Point and say it too.",
+      "text": "Find the picture for R ... Rhino! Point, then trace its silhouette.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Seal! Point and say it too.",
+      "text": "S calls ... Seal answers! Make two quiet track-steps, then stop.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Tiger! Point and say it too.",
+      "text": "T ... wait ... Tiger! Point to one clue—ears, tail, horn, feet, or coat.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Uakari! Point and say it too.",
+      "text": "Hear U ... say Uakari! Make two quiet track-steps, then stop.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Vicuna! Point and say it too.",
+      "text": "Find the picture for V ... Vicuna! Show its body shape with your hands.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Wolf! Point and say it too.",
+      "text": "W calls ... Wolf answers! Point, then trace its silhouette.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +453,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xerus! Point and say it too.",
+      "text": "X ... wait ... Xerus! Point to one clue—ears, tail, horn, feet, or coat.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Zoo friends—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Animal words for you and me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Mongoose! Point and say it too.",
+      "text": "Hear Y ... say Yellow Mongoose! Point to one clue—ears, tail, horn, feet, or coat.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +469,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zebu! Point and say it too.",
+      "text": "Find the picture for Z ... Zebu! Show its body shape with your hands.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Track the letter, name the beast!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "A to Z, from west to east!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Zoo friends—A-B-C!",
+      "text": "Track the letter, name the beast!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z—our wildlife trail still glows!",
       "objective": "narration",
       "objectReveal": "none"
     }

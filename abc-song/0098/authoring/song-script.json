@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore cakes and cookies with me!",
+      "text": "Clap-clap... stop! A bakery picture pops up.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Cake, cookie—A-B-C!",
+      "text": "Name the letter, name the treat, then leave a little rhythm cup.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A shows Angel Cake on our cake-and-cookie table.",
+      "text": "Angel Cake appears—A found it. Angel Cake in our sight | layer, crumb, or topping gives the clue just right",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B shows Bread on our cake-and-cookie table.",
+      "text": "B ... Bread; Bread is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C shows Cookie on our cake-and-cookie table.",
+      "text": "A tiny pause for C, then Cookie! It stands out by its baked shape and surface pattern.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D shows Donut on our cake-and-cookie table.",
+      "text": "along the storybook bakery window, Donut belongs with D. Donut stands out by its baked shape and surface pattern.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E shows Eclair on our cake-and-cookie table.",
+      "text": "Question: E? Answer: Eclair. Eclair on display | crust, fold, swirl, or shape gives the clue today",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F shows Frosting on our cake-and-cookie table.",
+      "text": "Frosting appears—F found it. Frosting finishes the top; texture and surface pattern make the picture clue.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G shows Glaze on our cake-and-cookie table.",
+      "text": "G ... Glaze; Glaze finishes the top; texture and surface pattern make the picture clue.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,29 +75,15 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H shows Hot Cross Bun on our cake-and-cookie table.",
+      "text": "A tiny pause for H, then Hot Cross Bun! It is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-2-1",
-      "sectionId": "chorus-r1-2",
-      "text": "Cake, cookie—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-2-2",
-      "sectionId": "chorus-r1-2",
-      "text": "Clap the bakery words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I shows Ice Cream on our cake-and-cookie table.",
+      "text": "along the storybook bakery window, Ice Cream belongs with I. Ice Cream in our sight | outline and surface make the clue feel right",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J shows Jam Tart on our cake-and-cookie table.",
+      "text": "Question: J? Answer: Jam Tart. It is pastry-like; crust, layer, filling, fold, or outline gives the clue.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K shows Kolache on our cake-and-cookie table.",
+      "text": "Kolache appears—K found it. It is pastry-like; crust, layer, filling, fold, or outline gives the clue.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,15 +107,29 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L shows Lemon Tart on our cake-and-cookie table.",
+      "text": "L ... Lemon Tart; Lemon Tart is pastry-like; crust, layer, filling, fold, or outline gives the clue.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-3-1",
+      "sectionId": "chorus-r1-3",
+      "text": "Clap, then stop—what can it be?",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-3-2",
+      "sectionId": "chorus-r1-3",
+      "text": "Bakery words from A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M shows Macaron on our cake-and-cookie table.",
+      "text": "A tiny pause for M, then Macaron! Macaron in our sight | outline and surface make the clue feel right",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N shows Nut Bread on our cake-and-cookie table.",
+      "text": "along the storybook bakery window, Nut Bread belongs with N. Nut Bread is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O shows Orange Cake on our cake-and-cookie table.",
+      "text": "Question: O? Answer: Orange Cake. It is cake-like; layers, crumb, wrapper, topping, or shape set it apart.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P shows Pretzel on our cake-and-cookie table.",
+      "text": "Pretzel appears—P found it. It is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Cake, cookie—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Clap the bakery words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q shows Queen Cake on our cake-and-cookie table.",
+      "text": "Q ... Queen Cake; Queen Cake on display | crumb and layers give its shape away",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R shows Raisin Bread on our cake-and-cookie table.",
+      "text": "A tiny pause for R, then Raisin Bread! It is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S shows Scone on our cake-and-cookie table.",
+      "text": "along the storybook bakery window, Scone belongs with S. Scone is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,15 +185,29 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T shows Toast on our cake-and-cookie table.",
+      "text": "Question: T? Answer: Toast. Toast: crust, crumb, layer, topping, fold, swirl, or outline gives the clue.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-5-1",
+      "sectionId": "chorus-r1-5",
+      "text": "Clap, then stop—what can it be?",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-5-2",
+      "sectionId": "chorus-r1-5",
+      "text": "Bakery words from A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U shows Upside-down Cake on our cake-and-cookie table.",
+      "text": "Upside-down Cake appears—U found it. Upside-down Cake in our sight | layer, crumb, or topping gives the clue just right",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V shows Vanilla Cake on our cake-and-cookie table.",
+      "text": "V ... Vanilla Cake; Vanilla Cake is cake-like; layers, crumb, wrapper, topping, or shape set it apart.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W shows Wholegrain Bread on our cake-and-cookie table.",
+      "text": "A tiny pause for W, then Wholegrain Bread! It is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,29 +231,15 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X shows X-shaped Pretzel on our cake-and-cookie table.",
+      "text": "along the storybook bakery window, X-shaped Pretzel belongs with X. X-shaped Pretzel is bread-like; crust, crumb, fold, score, or shape gives it away.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-6-1",
-      "sectionId": "chorus-r1-6",
-      "text": "Cake, cookie—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-6-2",
-      "sectionId": "chorus-r1-6",
-      "text": "Clap the bakery words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y shows Yeast Roll on our cake-and-cookie table.",
+      "text": "Question: Y? Answer: Yeast Roll. Yeast Roll baked in view | crust and shape become the clue",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,15 +247,22 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z shows Zebra Cake on our cake-and-cookie table.",
+      "text": "Zebra Cake appears—Z found it. It is cake-like; layers, crumb, wrapper, topping, or shape set it apart.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "interlude-1",
+      "sectionId": "mid-interlude",
+      "text": "The storybook bakery window goes still. One warm chord—then the picture names return.",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Angel Cake! Point and name it now.",
+      "text": "Question: A? ... Angel Cake! Pretend one tiny pat or roll; freeze.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Bread! Point and name it now.",
+      "text": "B ... answer when ready ... Bread! Point to one crust, topping, grid, or layer clue.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Cookie! Point and name it now.",
+      "text": "Remember the C clue ... Cookie! Point to one crust, topping, grid, or layer clue.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Donut! Point and name it now.",
+      "text": "D, one quiet beat ... Donut! Point to one crust, topping, grid, or layer clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Eclair! Point and name it now.",
+      "text": "Question: E? ... Eclair! Trace its outline or swirl; point.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Frosting! Point and name it now.",
+      "text": "F ... answer when ready ... Frosting! Trace its outline or swirl; point.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Glaze! Point and name it now.",
+      "text": "Remember the G clue ... Glaze! Pretend one tiny pat or roll; freeze.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,29 +318,15 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Hot Cross Bun! Point and name it now.",
+      "text": "H, one quiet beat ... Hot Cross Bun! Point to one crust, topping, grid, or layer clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-2-1",
-      "sectionId": "chorus-r2-2",
-      "text": "Cake, cookie—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-2-2",
-      "sectionId": "chorus-r2-2",
-      "text": "Clap the bakery words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Ice Cream! Point and name it now.",
+      "text": "Question: I? ... Ice Cream! Show its round, layered, folded, or long shape.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jam Tart! Point and name it now.",
+      "text": "J ... answer when ready ... Jam Tart! Pretend one tiny pat or roll; freeze.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Kolache! Point and name it now.",
+      "text": "Remember the K clue ... Kolache! Pretend one tiny pat or roll; freeze.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,15 +350,29 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Lemon Tart! Point and name it now.",
+      "text": "L, one quiet beat ... Lemon Tart! Point to one crust, topping, grid, or layer clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-3-1",
+      "sectionId": "chorus-r2-3",
+      "text": "Clap, then stop—what can it be?",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-3-2",
+      "sectionId": "chorus-r2-3",
+      "text": "Bakery words from A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Macaron! Point and name it now.",
+      "text": "Question: M? ... Macaron! Show its round, layered, folded, or long shape.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nut Bread! Point and name it now.",
+      "text": "N ... answer when ready ... Nut Bread! Show its round, layered, folded, or long shape.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Orange Cake! Point and name it now.",
+      "text": "Remember the O clue ... Orange Cake! Trace its outline or swirl; point.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,29 +396,15 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Pretzel! Point and name it now.",
+      "text": "P, one quiet beat ... Pretzel! Point to one crust, topping, grid, or layer clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-4-1",
-      "sectionId": "chorus-r2-4",
-      "text": "Cake, cookie—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-4-2",
-      "sectionId": "chorus-r2-4",
-      "text": "Clap the bakery words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Queen Cake! Point and name it now.",
+      "text": "Question: Q? ... Queen Cake! Point to one crust, topping, grid, or layer clue.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Raisin Bread! Point and name it now.",
+      "text": "R ... answer when ready ... Raisin Bread! Trace its outline or swirl; point.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Scone! Point and name it now.",
+      "text": "Remember the S clue ... Scone! Trace its outline or swirl; point.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Toast! Point and name it now.",
+      "text": "T, one quiet beat ... Toast! Pretend one tiny pat or roll; freeze.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Upside-down Cake! Point and name it now.",
+      "text": "Question: U? ... Upside-down Cake! Pretend one tiny pat or roll; freeze.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Vanilla Cake! Point and name it now.",
+      "text": "V ... answer when ready ... Vanilla Cake! Pretend one tiny pat or roll; freeze.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Wholegrain Bread! Point and name it now.",
+      "text": "Remember the W clue ... Wholegrain Bread! Point to one crust, topping, grid, or layer clue.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +460,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... X-shaped Pretzel! Point and name it now.",
+      "text": "X, one quiet beat ... X-shaped Pretzel! Trace its outline or swirl; point.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Cake, cookie—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Clap the bakery words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yeast Roll! Point and name it now.",
+      "text": "Question: Y? ... Yeast Roll! Pretend one tiny pat or roll; freeze.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +476,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zebra Cake! Point and name it now.",
+      "text": "Z ... answer when ready ... Zebra Cake! Trace its outline or swirl; point.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Clap, then stop—what can it be?",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Bakery words from A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Cake, cookie—A-B-C!",
+      "text": "Clap, then stop—what can it be?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "Letters tucked in—our bakery picture song is ours to keep!",
       "objective": "narration",
       "objectReveal": "none"
     }

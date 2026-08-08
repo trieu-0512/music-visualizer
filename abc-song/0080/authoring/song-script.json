@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Let's explore zoo together!",
+      "text": "Ranger eyes ready—look far, never chase.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Zoo explorer—A-B-C!",
+      "text": "A to Z brings wildlife safely into our picture space.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A finds Antelope on our zoo explorer trail.",
+      "text": "Antelope—that is our A. Antelope in its place | feet, coat, ears, and tail give clues to trace",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B finds Bison on our zoo explorer trail.",
+      "text": "Spot B: Bison! Bison is hoofed wildlife; legs, hoof shape, head, and coat help identify it.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C finds Camel on our zoo explorer trail.",
+      "text": "C brings Camel; It walks on hooves; horns, ears, neck, or coat add the next clue.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D finds Deer on our zoo explorer trail.",
+      "text": "A clue for D: Deer. Deer is hoofed wildlife; legs, hoof shape, head, and coat help identify it.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E finds Elephant on our zoo explorer trail.",
+      "text": "across the habitat trail, here comes Elephant for E. Elephant so grand | trunk can lift and smell and understand",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F finds Flamingo on our zoo explorer trail.",
+      "text": "Flamingo—that is our F. It is a long-legged water bird with a bent bill adapted for filter feeding.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G finds Giraffe on our zoo explorer trail.",
+      "text": "Spot G: Giraffe! Giraffe up high | long neck reaches toward the sky",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,29 +75,15 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H finds Hippo on our zoo explorer trail.",
+      "text": "H brings Hippo; A hippopotamus is a large semi-aquatic mammal that spends much of the day in water or mud.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-2-1",
-      "sectionId": "chorus-r1-2",
-      "text": "Zoo explorer—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-2-2",
-      "sectionId": "chorus-r1-2",
-      "text": "Follow the animal trail with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I finds Ibex on our zoo explorer trail.",
+      "text": "A clue for I: Ibex. Ibex in its place | feet, coat, ears, and tail give clues to trace",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J finds Jackal on our zoo explorer trail.",
+      "text": "across the habitat trail, here comes Jackal for J. It is a wild canid; muzzle, pointed ears, paws, and tail help reveal it.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K finds Koala on our zoo explorer trail.",
+      "text": "Koala—that is our K. It is an Australian marsupial that climbs eucalyptus trees and eats mainly eucalyptus leaves.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,15 +107,29 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L finds Lemur on our zoo explorer trail.",
+      "text": "Spot L: Lemur! Lemur belongs to the primate family; watch its grasping hands and body shape.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-3-1",
+      "sectionId": "chorus-r1-3",
+      "text": "Look from here, let wildlife be!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-3-2",
+      "sectionId": "chorus-r1-3",
+      "text": "Name the picture, A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M finds Monkey on our zoo explorer trail.",
+      "text": "M brings Monkey; Monkey on the track | coat and habitat bring the clue right back",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N finds Nyala on our zoo explorer trail.",
+      "text": "A clue for N: Nyala. Nyala is hoofed wildlife; legs, hoof shape, head, and coat help identify it.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O finds Ostrich on our zoo explorer trail.",
+      "text": "across the habitat trail, here comes Ostrich for O. Ostrich runs fast | flightless wings and long legs pass",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P finds Puma on our zoo explorer trail.",
+      "text": "Puma—that is our P. It has a cat-like body with padded paws, keen senses, and a balancing tail.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Zoo explorer—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Follow the animal trail with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q finds Quokka on our zoo explorer trail.",
+      "text": "Spot Q: Quokka! Quokka in its place | feet, coat, ears, and tail give clues to trace",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R finds Red Panda on our zoo explorer trail.",
+      "text": "R brings Red Panda; It is a small tree-climbing mammal with reddish fur and a long ringed tail.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S finds Serval on our zoo explorer trail.",
+      "text": "A clue for S: Serval. Serval is a wild cat; paws, tail, coat pattern, and feline body shape give clues.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T finds Tiger on our zoo explorer trail.",
+      "text": "across the habitat trail, here comes Tiger for T. It is a wild cat; paws, tail, coat pattern, and feline body shape give clues.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U finds Uakari on our zoo explorer trail.",
+      "text": "Uakari—that is our U. Uakari in its place | feet, coat, ears, and tail give clues to trace",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V finds Vulture on our zoo explorer trail.",
+      "text": "Spot V: Vulture! Vulture is a feathered bird; beak and feet hint at how it lives.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W finds Walrus on our zoo explorer trail.",
+      "text": "W brings Walrus; It is a large marine mammal with flippers, whiskers, and long tusks in adults.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X finds Xerus on our zoo explorer trail.",
+      "text": "A clue for X: Xerus. A xerus is an African ground squirrel that lives in open dry habitats.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Zoo explorer—A-B-C!",
+      "text": "Look from here, let wildlife be!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Follow the animal trail with me!",
+      "text": "Name the picture, A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y finds Yellow Mongoose on our zoo explorer trail.",
+      "text": "across the habitat trail, here comes Yellow Mongoose for Y. Yellow Mongoose from afar | shape and habitat show what you are",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z finds Zebu on our zoo explorer trail.",
+      "text": "Zebu—that is our Z. It is a type of cattle with a noticeable hump over the shoulders.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Antelope! Point and mark the clue.",
+      "text": "Spot A ... Antelope! Point, then trace its silhouette.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Bison! Point and mark the clue.",
+      "text": "Call B, wait ... Bison! Point to one clue—ears, tail, horn, feet, or coat.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Camel! Point and mark the clue.",
+      "text": "Which word fits C? ... Camel! Show its body shape with your hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Deer! Point and mark the clue.",
+      "text": "D ... D ... Deer! Point, then trace its silhouette.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Elephant! Point and mark the clue.",
+      "text": "Spot E ... Elephant! Make two quiet track-steps, then stop.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Flamingo! Point and mark the clue.",
+      "text": "Call F, wait ... Flamingo! Lift two gentle wings, then point.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Giraffe! Point and mark the clue.",
+      "text": "Which word fits G? ... Giraffe! Point, then trace its silhouette.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,29 +311,15 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Hippo! Point and mark the clue.",
+      "text": "H ... H ... Hippo! Point, then trace its silhouette.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-2-1",
-      "sectionId": "chorus-r2-2",
-      "text": "Zoo explorer—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-2-2",
-      "sectionId": "chorus-r2-2",
-      "text": "Follow the animal trail with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Ibex! Point and mark the clue.",
+      "text": "Spot I ... Ibex! Point, then trace its silhouette.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jackal! Point and mark the clue.",
+      "text": "Call J, wait ... Jackal! Show its body shape with your hands.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Koala! Point and mark the clue.",
+      "text": "Which word fits K? ... Koala! Point, then trace its silhouette.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Lemur! Point and mark the clue.",
+      "text": "L ... L ... Lemur! Make two quiet track-steps, then stop.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Monkey! Point and mark the clue.",
+      "text": "Spot M ... Monkey! Point to one clue—ears, tail, horn, feet, or coat.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nyala! Point and mark the clue.",
+      "text": "Call N, wait ... Nyala! Make two quiet track-steps, then stop.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Ostrich! Point and mark the clue.",
+      "text": "Which word fits O? ... Ostrich! Tap two gentle walking steps, then point.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Puma! Point and mark the clue.",
+      "text": "P ... P ... Puma! Point to one clue—ears, tail, horn, feet, or coat.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Zoo explorer—A-B-C!",
+      "text": "Look from here, let wildlife be!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Follow the animal trail with me!",
+      "text": "Name the picture, A to Z!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quokka! Point and mark the clue.",
+      "text": "Spot Q ... Quokka! Point, then trace its silhouette.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Red Panda! Point and mark the clue.",
+      "text": "Call R, wait ... Red Panda! Point to one clue—ears, tail, horn, feet, or coat.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Serval! Point and mark the clue.",
+      "text": "Which word fits S? ... Serval! Make two quiet track-steps, then stop.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Tiger! Point and mark the clue.",
+      "text": "T ... T ... Tiger! Point to one clue—ears, tail, horn, feet, or coat.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Uakari! Point and mark the clue.",
+      "text": "Spot U ... Uakari! Make two quiet track-steps, then stop.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Vulture! Point and mark the clue.",
+      "text": "Call V, wait ... Vulture! Lift two gentle wings, then point.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Walrus! Point and mark the clue.",
+      "text": "Which word fits W? ... Walrus! Show its body shape with your hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +453,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xerus! Point and mark the clue.",
+      "text": "X ... X ... Xerus! Point to one clue—ears, tail, horn, feet, or coat.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Zoo explorer—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Follow the animal trail with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Mongoose! Point and mark the clue.",
+      "text": "Spot Y ... Yellow Mongoose! Point to one clue—ears, tail, horn, feet, or coat.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +469,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zebu! Point and mark the clue.",
+      "text": "Call Z, wait ... Zebu! Show its body shape with your hands.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Look from here, let wildlife be!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Name the picture, A to Z!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Zoo explorer—A-B-C!",
+      "text": "Look from here, let wildlife be!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "Close the page softly—our wildlife trail stays in the melody!",
       "objective": "narration",
       "objectReveal": "none"
     }

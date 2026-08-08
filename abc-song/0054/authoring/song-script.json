@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore moon and galaxy with me!",
+      "text": "A-a-a... float it up!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Moonbeam letters, glow with me!",
+      "text": "Letters bounce like moon dust—catch each word before it drifts.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A meets Astronaut beneath the moonlit glow.",
+      "text": "Look—A! Look—Astronaut! Astronaut up high | shape, motion, or job tells us why",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B meets Booster beneath the moonlit glow.",
+      "text": "B lands on Booster. A rocket booster provides extra thrust during an early part of a launch.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C meets Capsule beneath the moonlit glow.",
+      "text": "Capsule? Yes—C. A space capsule is a compact spacecraft section built to carry crew, cargo, or experiments.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D meets Dish Antenna beneath the moonlit glow.",
+      "text": "past the quiet stars, the D clue is Dish Antenna. A dish antenna focuses radio waves so a spacecraft or ground station can send and receive signals.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E meets Eclipse beneath the moonlit glow.",
+      "text": "Say E, then Eclipse. Eclipse up high | shape, motion, or job tells us why",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F meets Fuel Tank beneath the moonlit glow.",
+      "text": "Look—F! Look—Fuel Tank! A spacecraft fuel or propellant tank stores material used by an engine or thruster system.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G meets Gemini Capsule beneath the moonlit glow.",
+      "text": "G lands on Gemini Capsule. Gemini takes flight | two-seat capsule trained for lunar flight",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,29 +75,15 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H meets Hubble Telescope beneath the moonlit glow.",
+      "text": "Hubble Telescope? Yes—H. The Hubble Space Telescope orbits Earth and observes the universe above much of our atmosphere.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-2-1",
-      "sectionId": "chorus-r1-2",
-      "text": "Moonbeam letters, glow with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-2-2",
-      "sectionId": "chorus-r1-2",
-      "text": "Galaxy words from A to Z!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I meets International Space Station beneath the moonlit glow.",
+      "text": "past the quiet stars, the I clue is International Space Station. Station circles round | orbiting lab above the ground",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J meets Jet Pack beneath the moonlit glow.",
+      "text": "Say J, then Jet Pack. A spacecraft maneuvering pack can use small thrusters to help an astronaut move in space during specially planned operations.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K meets Krypton Tank beneath the moonlit glow.",
+      "text": "Look—K! Look—Krypton Tank! Krypton stored just right | gas can feed an ion-thruster flight",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,15 +107,29 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L meets Lander beneath the moonlit glow.",
+      "text": "L lands on Lander. A lander is a spacecraft built to come down onto the surface of another world.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-3-1",
+      "sectionId": "chorus-r1-3",
+      "text": "Float the letter, land the name!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-3-2",
+      "sectionId": "chorus-r1-3",
+      "text": "A to Z, our cosmic game!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M meets Moon beneath the moonlit glow.",
+      "text": "Moon? Yes—M. Moon in view | sunlight makes its phases new",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N meets Nebula beneath the moonlit glow.",
+      "text": "past the quiet stars, the N clue is Nebula. A nebula is a cloud of gas and dust in space, sometimes linked to star birth or the remains of stars.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O meets Orbit beneath the moonlit glow.",
+      "text": "Say O, then Orbit. Orbit bends around | motion joined with gravity keeps the path bound",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,29 +153,15 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P meets Planet beneath the moonlit glow.",
+      "text": "Look—P! Look—Planet! It is a large round world that travels in an orbit around a star.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-4-1",
-      "sectionId": "chorus-r1-4",
-      "text": "Moonbeam letters, glow with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-4-2",
-      "sectionId": "chorus-r1-4",
-      "text": "Galaxy words from A to Z!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q meets Quasar beneath the moonlit glow.",
+      "text": "Q lands on Quasar. Quasar in view | space clue coming through",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R meets Rocket beneath the moonlit glow.",
+      "text": "Rocket? Yes—R. It produces thrust by pushing exhaust in the opposite direction of travel.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S meets Spacesuit beneath the moonlit glow.",
+      "text": "past the quiet stars, the S clue is Spacesuit. A spacesuit provides pressure, oxygen support, temperature control, and protection for an astronaut outside a spacecraft.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T meets Thruster beneath the moonlit glow.",
+      "text": "Say T, then Thruster. A spacecraft thruster produces controlled force used to change motion or orientation.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U meets Universe beneath the moonlit glow.",
+      "text": "Look—U! Look—Universe! Universe in view | space clue coming through",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V meets Visor beneath the moonlit glow.",
+      "text": "V lands on Visor. A spacesuit visor protects an astronaut's eyes and face and can filter intense sunlight.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W meets World beneath the moonlit glow.",
+      "text": "World? Yes—W. World in the frame | planet or moon can carry the name",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,29 +217,15 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X meets Xenon Thruster beneath the moonlit glow.",
+      "text": "past the quiet stars, the X clue is Xenon Thruster. A xenon thruster uses electrically accelerated xenon ions to produce gentle, efficient thrust.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-6-1",
-      "sectionId": "chorus-r1-6",
-      "text": "Moonbeam letters, glow with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-6-2",
-      "sectionId": "chorus-r1-6",
-      "text": "Galaxy words from A to Z!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y meets Yoke beneath the moonlit glow.",
+      "text": "Say Y, then Yoke. Yoke in hand-control view | steering input is the clue",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,15 +233,36 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z meets Zero-gravity Chair beneath the moonlit glow.",
+      "text": "Look—Z! Look—Zero-gravity Chair! It is a reclining chair named for a body position that spreads support; it does not create real weightlessness.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-7-1",
+      "sectionId": "chorus-r1-7",
+      "text": "Float the letter, land the name!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-7-2",
+      "sectionId": "chorus-r1-7",
+      "text": "A to Z, our cosmic game!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "interlude-1",
+      "sectionId": "mid-interlude",
+      "text": "Engines hush; one star keeps blinking. Now the answers come back from memory.",
+      "objective": "narration",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Astronaut! Point, remember, know.",
+      "text": "Look for A ... Astronaut! Lift one launch-finger, then freeze.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Booster! Point, remember, know.",
+      "text": "Letter first: B ... answer: Booster! Make a round space-window, then point.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Capsule! Point, remember, know.",
+      "text": "C? Hold ... Capsule! Lift one launch-finger, then freeze.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Dish Antenna! Point, remember, know.",
+      "text": "One clue—D ... Dish Antenna! Lift one launch-finger, then freeze.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Eclipse! Point, remember, know.",
+      "text": "Look for E ... Eclipse! Lift one launch-finger, then freeze.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Fuel Tank! Point, remember, know.",
+      "text": "Letter first: F ... answer: Fuel Tank! Make a round space-window, then point.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Gemini Capsule! Point, remember, know.",
+      "text": "G? Hold ... Gemini Capsule! Make a round space-window, then point.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Hubble Telescope! Point, remember, know.",
+      "text": "One clue—H ... Hubble Telescope! Make a round space-window, then point.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +326,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Moonbeam letters, glow with me!",
+      "text": "Float the letter, land the name!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Galaxy words from A to Z!",
+      "text": "A to Z, our cosmic game!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... International Space Station! Point, remember, know.",
+      "text": "Look for I ... International Space Station! Make a round space-window, then point.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +348,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jet Pack! Point, remember, know.",
+      "text": "Letter first: J ... answer: Jet Pack! Make a round space-window, then point.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +356,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Krypton Tank! Point, remember, know.",
+      "text": "K? Hold ... Krypton Tank! Lift one launch-finger, then freeze.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +364,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Lander! Point, remember, know.",
+      "text": "One clue—L ... Lander! Make a round space-window, then point.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +372,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Moon! Point, remember, know.",
+      "text": "Look for M ... Moon! Lift one launch-finger, then freeze.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nebula! Point, remember, know.",
+      "text": "Letter first: N ... answer: Nebula! Glide one hand, then tap the picture.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Orbit! Point, remember, know.",
+      "text": "O? Hold ... Orbit! Trace one orbit, then point.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,29 +396,15 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Planet! Point, remember, know.",
+      "text": "One clue—P ... Planet! Trace one orbit, then point.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-4-1",
-      "sectionId": "chorus-r2-4",
-      "text": "Moonbeam letters, glow with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-4-2",
-      "sectionId": "chorus-r2-4",
-      "text": "Galaxy words from A to Z!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quasar! Point, remember, know.",
+      "text": "Look for Q ... Quasar! Lift one launch-finger, then freeze.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Rocket! Point, remember, know.",
+      "text": "Letter first: R ... answer: Rocket! Trace one orbit, then point.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Spacesuit! Point, remember, know.",
+      "text": "S? Hold ... Spacesuit! Lift one launch-finger, then freeze.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,15 +428,29 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Thruster! Point, remember, know.",
+      "text": "One clue—T ... Thruster! Lift one launch-finger, then freeze.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-5-1",
+      "sectionId": "chorus-r2-5",
+      "text": "Float the letter, land the name!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-5-2",
+      "sectionId": "chorus-r2-5",
+      "text": "A to Z, our cosmic game!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Universe! Point, remember, know.",
+      "text": "Look for U ... Universe! Lift one launch-finger, then freeze.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +458,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Visor! Point, remember, know.",
+      "text": "Letter first: V ... answer: Visor! Glide one hand, then tap the picture.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +466,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... World! Point, remember, know.",
+      "text": "W? Hold ... World! Trace one orbit, then point.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +474,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xenon Thruster! Point, remember, know.",
+      "text": "One clue—X ... Xenon Thruster! Lift one launch-finger, then freeze.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Moonbeam letters, glow with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Galaxy words from A to Z!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yoke! Point, remember, know.",
+      "text": "Look for Y ... Yoke! Trace one orbit, then point.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +490,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zero-gravity Chair! Point, remember, know.",
+      "text": "Letter first: Z ... answer: Zero-gravity Chair! Make a round space-window, then point.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Float the letter, land the name!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "A to Z, our cosmic game!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Moonbeam letters, glow with me!",
+      "text": "Float the letter, land the name!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A through Z—our space story lands on one bright final beat!",
       "objective": "narration",
       "objectReveal": "none"
     }

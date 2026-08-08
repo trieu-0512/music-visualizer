@@ -6,11 +6,60 @@
   "tempoBpm": 88,
   "motifFamily": "birdsong-lilt",
   "hook": [
-    "Birdsong letters—A-B-C!",
-    "Feathered friends sing back to me!"
+    "Wingbeat, word beat—A-B-C!",
+    "Name the bird that flies to me!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat with bird effects muted",
   "visualStyle": "bright 3D bird storybook, sky blues and leafy greens, anatomically clear friendly birds, clean branches and backgrounds",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "dawn-chorus",
+    "targetEntryFamilies": [
+      "direct",
+      "repeated-letter",
+      "object-first",
+      "question-answer",
+      "narrative",
+      "pause-reveal"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "short",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mixed-internal-phraselet",
+    "chorusRhymeEngine": "paired-with-arrangement-variation",
+    "pointOfView": "patient young birdwatcher",
+    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
+    "grooveMeter": "elastic 4/4 bounce",
+    "round1Grammar": "Round 1 uses birdwatching language—feather, beak, feet, perch, water or flight clues—and leaves long species names enough musical space.",
+    "round2Grammar": "Round 2 uses binocular-style cue-gap-answer timing followed by one wing, perch, beak or walking gesture; flightless birds get grounded motions.",
+    "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: light flute/whistle feather answer kept separate from the sung target.",
+    "signatureColor": "light flute/whistle feather answer kept separate from the sung target",
+    "chorusAfterRound1": [
+      3,
+      6
+    ],
+    "chorusAfterRound2": [
+      4,
+      7
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": true
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 8,
+    "usedRound1": 8,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

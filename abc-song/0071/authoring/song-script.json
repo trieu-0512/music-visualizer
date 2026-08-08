@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore pet care with me!",
+      "text": "Jingle-jingle—someone is ready to play.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Pet care letters—A-B-C!",
+      "text": "Pet words and care clues are padding in from A to Z.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A shows Angelfish in our pet-care day.",
+      "text": "Start with A; arrive at Angelfish. Angelfish in our care | shape or job tells why it is there",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B shows Bowl in our pet-care day.",
+      "text": "B—Bowl! Bowl holds food or fresh water for a pet.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C shows Cat in our pet-care day.",
+      "text": "around our calm pet-care room, Cat catches the C beat. It has whiskers, padded paws, and retractable claws.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D shows Doghouse in our pet-care day.",
+      "text": "What word rides with D? Doghouse. Doghouse gives a pet a place to rest, shelter, travel, or stay safely.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E shows Exercise Wheel in our pet-care day.",
+      "text": "Exercise Wheel, loud and clear; E brought it here. Exercise Wheel in our care | shape or job tells why it is there",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F shows Fish in our pet-care day.",
+      "text": "Start with F; arrive at Fish. Fish breathes with gills and needs clean, suitable water.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G shows Grooming Brush in our pet-care day.",
+      "text": "G—Grooming Brush! Grooming Brush helps a caregiver groom an animal's coat.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H shows Hamster in our pet-care day.",
+      "text": "around our calm pet-care room, Hamster catches the H beat. Hamster needs the right food, fresh water, shelter, space, and gentle care.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Pet care letters—A-B-C!",
+      "text": "Kind hands, clear words—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Gentle hands and words with me!",
+      "text": "Pet-care pictures, name with me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I shows Iguana in our pet-care day.",
+      "text": "What word rides with I? Iguana. Iguana in view | pet or care-item job becomes our clue",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J shows Jingle Ball in our pet-care day.",
+      "text": "Jingle Ball, loud and clear; J brought it here. It is a play toy that rolls and makes a small sound as it moves.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K shows Kibble in our pet-care day.",
+      "text": "Start with K; arrive at Kibble. It is a type of pet food; the correct kind and amount depend on the animal.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L shows Leash in our pet-care day.",
+      "text": "L—Leash! Leash helps a caregiver guide a pet on a walk.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M shows Meal Bowl in our pet-care day.",
+      "text": "around our calm pet-care room, Meal Bowl catches the M beat. Meal Bowl in view | pet or care-item job becomes our clue",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N shows Nail Clipper in our pet-care day.",
+      "text": "What word rides with N? Nail Clipper. Nail Clipper trims pet nails; an experienced adult handles it carefully.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O shows Octopus Toy in our pet-care day.",
+      "text": "Octopus Toy, loud and clear; O brought it here. Octopus Toy gives an appropriate pet a way to play, climb, perch, scratch, or exercise.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P shows Puppy in our pet-care day.",
+      "text": "Start with P; arrive at Puppy. It has padded paws and a remarkably strong sense of smell.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Pet care letters—A-B-C!",
+      "text": "Kind hands, clear words—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Gentle hands and words with me!",
+      "text": "Pet-care pictures, name with me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q shows Quilt Bed in our pet-care day.",
+      "text": "Q—Quilt Bed! Quilt Bed in our care | shape or job tells why it is there",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R shows Rabbit in our pet-care day.",
+      "text": "around our calm pet-care room, Rabbit catches the R beat. Rabbit needs the right food, fresh water, shelter, space, and gentle care.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S shows Scratching Post in our pet-care day.",
+      "text": "What word rides with S? Scratching Post. Scratching Post gives an appropriate pet a way to play, climb, perch, scratch, or exercise.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T shows Turtle in our pet-care day.",
+      "text": "Turtle, loud and clear; T brought it here. Turtle needs species-appropriate food, water, shelter, and careful adult-guided care.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U shows UV Lamp in our pet-care day.",
+      "text": "Start with U; arrive at UV Lamp. UV Lamp in view | pet or care-item job becomes our clue",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V shows Vest Harness in our pet-care day.",
+      "text": "V—Vest Harness! Vest Harness helps a caregiver guide a pet on a walk.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W shows Water Bowl in our pet-care day.",
+      "text": "around our calm pet-care room, Water Bowl catches the W beat. Water bowl stays near | fresh clean water waiting clear",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,29 +231,15 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X shows Xylophone Toy in our pet-care day.",
+      "text": "What word rides with X? Xylophone Toy. A xylophone-style pet toy is an enrichment object with bars or pieces that can make sounds when moved or tapped.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-6-1",
-      "sectionId": "chorus-r1-6",
-      "text": "Pet care letters—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-6-2",
-      "sectionId": "chorus-r1-6",
-      "text": "Gentle hands and words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y shows Yellow Canary in our pet-care day.",
+      "text": "Yellow Canary, loud and clear; Y brought it here. Yellow Canary on the scene | pet-care clue makes the meaning clean",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,15 +247,29 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z shows Zip Carrier in our pet-care day.",
+      "text": "Start with Z; arrive at Zip Carrier. It is a ventilated travel enclosure that helps keep a suitable pet contained during transport.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-7-1",
+      "sectionId": "chorus-r1-7",
+      "text": "Kind hands, clear words—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-7-2",
+      "sectionId": "chorus-r1-7",
+      "text": "Pet-care pictures, name with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Angelfish! Point, then gently say.",
+      "text": "Start with A ... land on Angelfish! Point, then copy one calm animal move.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Bowl! Point, then gently say.",
+      "text": "B? ... Bowl! Point to the care item; make one pretend gesture.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Cat! Point, then gently say.",
+      "text": "Hold the rhythm after C ... Cat! Point, then copy one calm animal move.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Doghouse! Point, then gently say.",
+      "text": "Last clue in the pocket: D ... Doghouse! Point to the care item; make one pretend gesture.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Exercise Wheel! Point, then gently say.",
+      "text": "Start with E ... land on Exercise Wheel! Trace its shape, then name its pet-care job.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Fish! Point, then gently say.",
+      "text": "F? ... Fish! Point, then copy one calm animal move.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Grooming Brush! Point, then gently say.",
+      "text": "Hold the rhythm after G ... Grooming Brush! Point to the care item; make one pretend gesture.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,29 +325,15 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Hamster! Point, then gently say.",
+      "text": "Last clue in the pocket: H ... Hamster! Point, then copy one calm animal move.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-2-1",
-      "sectionId": "chorus-r2-2",
-      "text": "Pet care letters—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-2-2",
-      "sectionId": "chorus-r2-2",
-      "text": "Gentle hands and words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Iguana! Point, then gently say.",
+      "text": "Start with I ... land on Iguana! Copy one gentle paw, hop, swim, or perch motion.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +341,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jingle Ball! Point, then gently say.",
+      "text": "J? ... Jingle Ball! Trace its shape, then name its pet-care job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +349,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Kibble! Point, then gently say.",
+      "text": "Hold the rhythm after K ... Kibble! Point, then mime its job with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +357,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Leash! Point, then gently say.",
+      "text": "Last clue in the pocket: L ... Leash! Trace its shape, then name its pet-care job.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +365,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Meal Bowl! Point, then gently say.",
+      "text": "Start with M ... land on Meal Bowl! Point, then mime its job with empty hands.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +373,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nail Clipper! Point, then gently say.",
+      "text": "N? ... Nail Clipper! Point and name its care job; a grown-up handles the real item.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +381,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Octopus Toy! Point, then gently say.",
+      "text": "Hold the rhythm after O ... Octopus Toy! Point to the care item; make one pretend gesture.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +389,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Puppy! Point, then gently say.",
+      "text": "Last clue in the pocket: P ... Puppy! Show one tiny tail, fin, paw, or wing motion.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +397,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Pet care letters—A-B-C!",
+      "text": "Kind hands, clear words—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Gentle hands and words with me!",
+      "text": "Pet-care pictures, name with me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quilt Bed! Point, then gently say.",
+      "text": "Start with Q ... land on Quilt Bed! Trace its shape, then name its pet-care job.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +419,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Rabbit! Point, then gently say.",
+      "text": "R? ... Rabbit! Show one tiny tail, fin, paw, or wing motion.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +427,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Scratching Post! Point, then gently say.",
+      "text": "Hold the rhythm after S ... Scratching Post! Point to the care item; make one pretend gesture.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +435,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Turtle! Point, then gently say.",
+      "text": "Last clue in the pocket: T ... Turtle! Point, then copy one calm animal move.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +443,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... UV Lamp! Point, then gently say.",
+      "text": "Start with U ... land on UV Lamp! Point and name its care job; a grown-up handles the real item.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +451,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Vest Harness! Point, then gently say.",
+      "text": "V? ... Vest Harness! Trace its shape, then name its pet-care job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +459,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Water Bowl! Point, then gently say.",
+      "text": "Hold the rhythm after W ... Water Bowl! Point, then mime its job with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,29 +467,15 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xylophone Toy! Point, then gently say.",
+      "text": "Last clue in the pocket: X ... Xylophone Toy! Point, then mime its job with empty hands.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
-      "id": "chorus-r2-6-1",
-      "sectionId": "chorus-r2-6",
-      "text": "Pet care letters—A-B-C!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r2-6-2",
-      "sectionId": "chorus-r2-6",
-      "text": "Gentle hands and words with me!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Canary! Point, then gently say.",
+      "text": "Start with Y ... land on Yellow Canary! Show one tiny tail, fin, paw, or wing motion.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,22 +483,36 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zip Carrier! Point, then gently say.",
+      "text": "Z? ... Zip Carrier! Trace its shape, then name its pet-care job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
     },
     {
+      "id": "chorus-r2-7-1",
+      "sectionId": "chorus-r2-7",
+      "text": "Kind hands, clear words—A-B-C!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-2",
+      "sectionId": "chorus-r2-7",
+      "text": "Pet-care pictures, name with me!",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Pet care letters—A-B-C!",
+      "text": "Kind hands, clear words—A-B-C!",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z—our pet-care tune still glows!",
       "objective": "narration",
       "objectReveal": "none"
     }
