@@ -161,6 +161,28 @@ describe("shared validators (Req 15.4)", () => {
     expect(result.ok).toBe(false);
   });
 
+  it("accepts config provenance hashes and rejects malformed hashes", () => {
+    const withProvenance = {
+      ...validConfig,
+      provenance: {
+        builtAt: "2026-08-08T00:00:00.000Z",
+        dependencies: {
+          "assets/audio.mp3": "a".repeat(64),
+        },
+      },
+    };
+    expect(validateProjectConfig(withProvenance).ok).toBe(true);
+    expect(
+      validateProjectConfig({
+        ...withProvenance,
+        provenance: {
+          ...withProvenance.provenance,
+          dependencies: { "assets/audio.mp3": "not-a-hash" },
+        },
+      }).ok,
+    ).toBe(false);
+  });
+
   it("rejects project-config with an unknown additional property", () => {
     const result = validateProjectConfig({ ...validConfig, extra: true });
     expect(result.ok).toBe(false);

@@ -7,8 +7,8 @@
  * with their API message so the user knows what is missing.
  *
  * After a job is created it is tracked and polled with `client.getJob` on an
- * interval, displaying the lifecycle status — pending / running / completed /
- * failed — and the recorded error on failure; polling stops once every tracked
+ * interval, displaying the lifecycle status - pending / running / completed /
+ * failed - and the recorded error on failure; polling stops once every tracked
  * job reaches a terminal state (Req 12.2). When a job completes, the artifact
  * list is refreshed.
  *
@@ -25,6 +25,7 @@ import type {
   Job,
   JobStatus,
   JobType,
+  PipelineRun,
   VideoFormat,
 } from "../api/index.js";
 import { JobStatusList } from "../components/JobStatusList.js";
@@ -53,8 +54,16 @@ function isTerminal(status: JobStatus): boolean {
   return status === "completed" || status === "failed";
 }
 
-function delay(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+function pipelineStepLabel(run: PipelineRun): string {
+  const labels: Record<PipelineRun["step"], string> = {
+    "prepare-assets": "Preparing ABC assets",
+    "transcribe-analyze": "Transcribing and analyzing audio",
+    "build-config": "Building render config",
+    render: "Rendering video",
+    completed: "Completed",
+    failed: "Failed",
+  };
+  return labels[run.step];
 }
 
 function JobsPage({ context }: PageProps): JSX.Element {
@@ -63,8 +72,10 @@ function JobsPage({ context }: PageProps): JSX.Element {
   const [jobs, setJobs] = useState<Job[]>([]);
   const [busyType, setBusyType] = useState<JobType | null>(null);
   const [buildingConfig, setBuildingConfig] = useState(false);
-  const [pipelineRunning, setPipelineRunning] = useState(false);
-  const [pipelineStep, setPipelineStep] = useState<string | null>(null);
+  const [pipelineRun, setPipelineRun] = useState<PipelineRun | null>(null);
+  const [pipelineStarting, setPipelineStarting] = useState(false);
+  const pipelineRunning = pipelineStarting || pipelineRun?.status === "running";
+  const pipelineStep = pipelineRun ? pipelineStepLabel(pipelineRun) : null;
   const [triggerError, setTriggerError] = useState<string | null>(null);
   const [renderFormat, setRenderFormat] = useState<VideoFormat>("both");
 
@@ -87,9 +98,11 @@ function JobsPage({ context }: PageProps): JSX.Element {
     }
   }, [client, projectId]);
 
-  // Reset state and load artifacts + existing jobs when the active project changes.
+  // Reset state and load artifacts, jobs, and persistent pipeline state when the project changes.
   useEffect(() => {
     setJobs([]);
+    setPipelineRun(null);
+    setPipelineStarting(false);
     setArtifacts([]);
     setTriggerError(null);
     setArtifactError(null);
@@ -98,6 +111,11 @@ function JobsPage({ context }: PageProps): JSX.Element {
     void refreshArtifacts();
 
     let cancelled = false;
+    void client.getPipeline(projectId).then((run) => {
+      if (!cancelled) setPipelineRun(run);
+    }).catch(() => {
+      // Pipeline hydration is optional; the page still supports individual jobs.
+    });
     void (async () => {
       try {
         const existing = await client.listProjectJobs(projectId);
@@ -110,7 +128,7 @@ function JobsPage({ context }: PageProps): JSX.Element {
           );
         }
       } catch {
-        // Listing is optional hydration — ignore failures (e.g. offline API).
+        // Listing is optional hydration; ignore failures (e.g. offline API).
       }
     })();
 
@@ -165,26 +183,45 @@ function JobsPage({ context }: PageProps): JSX.Element {
     return () => clearInterval(handle);
   }, [hasActiveJobs, pollOnce]);
 
+  useEffect(() => {
+    if (!projectId || pipelineRun?.status !== "running") return;
+    let cancelled = false;
+
+    const pollPipeline = async (): Promise<void> => {
+      try {
+        const [run, existingJobs] = await Promise.all([
+          client.getPipeline(projectId),
+          client.listProjectJobs(projectId),
+        ]);
+        if (cancelled) return;
+        setPipelineRun(run);
+        setJobs(
+          [...existingJobs].sort((a, b) =>
+            a.createdAt < b.createdAt ? 1 : a.createdAt > b.createdAt ? -1 : 0,
+          ),
+        );
+        if (run?.status === "completed") {
+          void refreshArtifacts();
+        } else if (run?.status === "failed") {
+          setTriggerError(run.error ?? "Full pipeline failed.");
+          void refreshArtifacts();
+        }
+      } catch (err) {
+        if (!cancelled) setTriggerError(toMessage(err, "Failed to refresh pipeline status."));
+      }
+    };
+
+    void pollPipeline();
+    const handle = setInterval(() => void pollPipeline(), PIPELINE_POLL_INTERVAL_MS);
+    return () => {
+      cancelled = true;
+      clearInterval(handle);
+    };
+  }, [client, pipelineRun?.status, projectId, refreshArtifacts]);
+
   const rememberJob = useCallback((job: Job): void => {
     setJobs((prev) => [job, ...prev.filter((existing) => existing.id !== job.id)]);
   }, []);
-
-  const waitForJob = useCallback(
-    async (initial: Job): Promise<Job> => {
-      let current = initial;
-      rememberJob(current);
-      while (!isTerminal(current.status)) {
-        await delay(PIPELINE_POLL_INTERVAL_MS);
-        current = await client.getJob(current.id);
-        rememberJob(current);
-      }
-      if (current.status === "failed") {
-        throw new Error(current.error || `${current.type} job failed`);
-      }
-      return current;
-    },
-    [client, rememberJob],
-  );
 
   const triggerJob = useCallback(
     async (type: JobType): Promise<void> => {
@@ -222,45 +259,22 @@ function JobsPage({ context }: PageProps): JSX.Element {
   const handleRunFullPipeline = useCallback(async (): Promise<void> => {
     if (!projectId) return;
     setTriggerError(null);
-    setPipelineRunning(true);
+    setPipelineStarting(true);
     try {
-      const readiness = await client.getReadiness(projectId);
-      const hasLearningMap = readiness.present.includes("learningMap");
-
-      if (hasLearningMap) {
-        setPipelineStep("Preparing ABC assets");
-        const prepare = await client.createJob(projectId, { type: "prepare-assets" });
-        await waitForJob(prepare);
-      }
-
-      setPipelineStep("Transcribing and analyzing audio");
-      const [transcribe, analyze] = await Promise.all([
-        client.createJob(projectId, { type: "transcribe" }),
-        client.createJob(projectId, { type: "analyze" }),
-      ]);
-      rememberJob(transcribe);
-      rememberJob(analyze);
-      await Promise.all([waitForJob(transcribe), waitForJob(analyze)]);
-
-      setPipelineStep("Building render config");
-      await client.buildConfig(projectId);
-      await refreshArtifacts();
-
-      setPipelineStep("Rendering video");
-      const render = await client.createJob(projectId, {
-        type: "render",
-        params: { format: renderFormat },
-      });
-      await waitForJob(render);
-      await refreshArtifacts();
-      setPipelineStep("Completed");
+      const run = await client.startPipeline(projectId, { format: renderFormat });
+      setPipelineRun(run);
+      const existing = await client.listProjectJobs(projectId);
+      setJobs(
+        [...existing].sort((a, b) =>
+          a.createdAt < b.createdAt ? 1 : a.createdAt > b.createdAt ? -1 : 0,
+        ),
+      );
     } catch (err) {
-      setPipelineStep("Failed");
-      setTriggerError(toMessage(err, "Full pipeline failed."));
+      setTriggerError(toMessage(err, "Failed to start the full pipeline."));
     } finally {
-      setPipelineRunning(false);
+      setPipelineStarting(false);
     }
-  }, [client, projectId, refreshArtifacts, rememberJob, renderFormat, waitForJob]);
+  }, [client, projectId, renderFormat]);
 
   if (!projectId) {
     return (
@@ -287,7 +301,7 @@ function JobsPage({ context }: PageProps): JSX.Element {
           onClick={() => void handleRunFullPipeline()}
           disabled={pipelineRunning || busyType !== null || buildingConfig}
         >
-          {pipelineRunning ? `Pipeline: ${pipelineStep ?? "Starting"}…` : "Run full pipeline"}
+          {pipelineRunning ? `Pipeline: ${pipelineStep ?? "Starting"}...` : "Run full pipeline"}
         </button>
 
         {JOB_TYPES.map(({ type, label }) => (
@@ -297,7 +311,7 @@ function JobsPage({ context }: PageProps): JSX.Element {
             onClick={() => void triggerJob(type)}
             disabled={pipelineRunning || busyType !== null}
           >
-            {busyType === type ? `Starting ${label}…` : label}
+            {busyType === type ? `Starting ${label}...` : label}
           </button>
         ))}
 

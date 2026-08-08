@@ -547,6 +547,8 @@ Vi vay neu human thay MP3 Suno sau khi da transcribe/analyze:
 
 ```text
 old artifacts -> STALE -> config build blocked
+
+config built -> any snapshotted dependency changes -> render enqueue/worker blocked
 ```
 
 khong render nham timing/audio cu.
@@ -711,7 +713,7 @@ song-slug/
 14. Human    final preview/QC
 ```
 
-Current Web App van co one-click sequencing, nhung orchestration hien duoc khoi dong tu browser. Durable backend `PipelineRun` la upgrade tiep theo de viec dong/reload tab khong anh huong dependency continuation.
+V2.1 one-click orchestration duoc backend own bang persistent `PipelineRun` luu tai `runtime/pipeline-run.json`. Browser chi start/poll run. Child jobs duoc tag `pipelineRunId`, nen API restart co the recover existing transcribe/analyze/render jobs ma khong enqueue duplicate. API process supervisor tiep tuc dependency chain ngay ca khi browser tab da dong.
 
 ---
 
@@ -751,10 +753,10 @@ V2 deliberately keeps seams for:
 
 ```text
 P1  semantic/word-level forced alignment handling split/merge automatically
-P1  durable backend PipelineRun DAG instead of browser-owned sequencing
+DONE durable backend PipelineRun state machine instead of browser-owned sequencing
 P2  pixel-level segmentation QC: alpha coverage, bbox, edge crop, confidence
 P2  transactional/streaming folder import
-P2  full dependency DAG invalidation for every asset, not only mapping/audio lineage
+DONE project-config dependency snapshot + stale-render rejection for all rendered inputs
 P2  Brand/Series preset for shared background/logo/style assets
 P2  review/publish render presets instead of rendering all six outputs by default
 P3  provider connectors when generation APIs/credentials are intentionally enabled

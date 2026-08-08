@@ -16,6 +16,37 @@ import { ProjectService } from "../src/projects/index.js";
  * task 4.7; these examples confirm the happy path enqueues and reports status
  * and that each precondition gate rejects with the documented code.
  */
+function validRenderConfig(
+  projectId: string,
+  provenance?: { builtAt: string; dependencies: Record<string, string> },
+) {
+  return {
+    version: 1,
+    projectId,
+    metadata: { songName: "Twinkle", singerName: "Choir" },
+    videoFormat: "both",
+    assets: {
+      background: "assets/background.png",
+      songLogo: "assets/song-logo.png",
+      channelLogo: "assets/channel-logo.png",
+      audio: "assets/audio.mp3",
+      letters: Object.fromEntries(
+        [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].map((letter) => [letter, `assets/letters/${letter}.png`]),
+      ),
+    },
+    artifacts: {
+      lyrics: "artifacts/lyrics.json",
+      audioAnalysis: "artifacts/audio-analysis.json",
+    },
+    layout: {
+      template: "classic-landscape",
+      lyricBox: { maxLines: 2 },
+      bars: { left: true, right: true },
+    },
+    ...(provenance ? { provenance } : {}),
+  };
+}
+
 describe("job endpoints smoke (Req 3, 6, 9, 12)", () => {
   let root: string;
   let jobsDir: string;
@@ -88,7 +119,30 @@ describe("job endpoints smoke (Req 3, 6, 9, 12)", () => {
   it("enqueues a render job once a config artifact exists (Req 9.1, 12.1)", async () => {
     await store.write(
       { projectId, relativePath: "artifacts/project-config.json" },
-      Buffer.from("{}"),
+      Buffer.from(JSON.stringify({
+        version: 1,
+        projectId,
+        metadata: { songName: "Twinkle", singerName: "Choir" },
+        videoFormat: "both",
+        assets: {
+          background: "assets/background.png",
+          songLogo: "assets/song-logo.png",
+          channelLogo: "assets/channel-logo.png",
+          audio: "assets/audio.mp3",
+          letters: Object.fromEntries(
+            [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].map((letter) => [letter, `assets/letters/${letter}.png`]),
+          ),
+        },
+        artifacts: {
+          lyrics: "artifacts/lyrics.json",
+          audioAnalysis: "artifacts/audio-analysis.json",
+        },
+        layout: {
+          template: "classic-landscape",
+          lyricBox: { maxLines: 2 },
+          bars: { left: true, right: true },
+        },
+      })),
     );
     const res = await request(app)
       .post(`/projects/${projectId}/jobs`)
@@ -96,6 +150,31 @@ describe("job endpoints smoke (Req 3, 6, 9, 12)", () => {
     expect(res.status).toBe(201);
     expect(res.body.type).toBe("render");
     expect(res.body.params).toEqual({ format: "both" });
+  });
+
+  it("rejects render when a config dependency changed after build", async () => {
+    await store.write(
+      { projectId, relativePath: "assets/audio.mp3" },
+      Buffer.from("current-audio"),
+    );
+    await store.write(
+      { projectId, relativePath: "artifacts/project-config.json" },
+      Buffer.from(JSON.stringify(validRenderConfig(projectId, {
+        builtAt: "2026-08-08T00:00:00.000Z",
+        dependencies: { "assets/audio.mp3": "0".repeat(64) },
+      }))),
+    );
+
+    const res = await request(app)
+      .post(`/projects/${projectId}/jobs`)
+      .send({ type: "render" });
+    expect(res.status).toBe(409);
+    expect(res.body.error.code).toBe("PRECONDITION_FAILED");
+    expect(res.body.error.message).toMatch(/stale/i);
+    expect(res.body.error.details.staleDependencies[0]).toMatchObject({
+      path: "assets/audio.mp3",
+      reason: "hash-mismatch",
+    });
   });
 
   it("rejects transcribe/analyze with PRECONDITION_FAILED when no audio (Req 3.5, 6.7)", async () => {

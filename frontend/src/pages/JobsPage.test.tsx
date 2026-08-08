@@ -19,7 +19,7 @@ import { cleanup, render, screen, waitFor, within } from "@testing-library/react
 import userEvent from "@testing-library/user-event";
 import JobsPage, { POLL_INTERVAL_MS } from "./JobsPage.js";
 import { ApiClientError } from "../api/index.js";
-import type { ApiClient, ArtifactList, Job } from "../api/index.js";
+import type { ApiClient, ArtifactList, Job, PipelineRun } from "../api/index.js";
 import type { PageContext } from "./types.js";
 
 afterEach(cleanup);
@@ -28,6 +28,7 @@ function makeContext(client: Partial<ApiClient>, projectId: string | null): Page
   return {
     client: {
       listProjectJobs: async () => [],
+      getPipeline: async () => null,
       ...client,
     } as ApiClient,
     projectId,
@@ -87,32 +88,34 @@ describe("JobsPage", () => {
     expect(list.getByText("Transcribe")).toBeInTheDocument();
   });
 
-  it("runs the full theme-first pipeline in dependency order", async () => {
-    const createJob = vi.fn(
-      async (
-        _projectId: string,
-        request: { type: Job["type"]; params?: Record<string, unknown> },
-      ): Promise<Job> =>
-        makeJob({
-          id: `job-${request.type}`,
-          type: request.type,
-          status: "completed",
-          params: request.params ?? {},
-        }),
-    );
-    const getReadiness = vi.fn(async () => ({
+  it("starts a persistent backend pipeline and follows it to completion", async () => {
+    const running: PipelineRun = {
+      id: "run-1",
       projectId: "p1",
-      ready: false,
-      present: ["learningMap"],
-      missing: ["letter:A", "object:A"],
-    }));
-    const buildConfig = vi.fn(async () => ({} as never));
+      status: "running",
+      step: "transcribe-analyze",
+      renderFormat: "both",
+      jobs: { transcribe: "job-transcribe", analyze: "job-analyze" },
+      createdAt: "2026-08-08T00:00:00.000Z",
+      updatedAt: "2026-08-08T00:00:00.000Z",
+    };
+    const completed: PipelineRun = {
+      ...running,
+      status: "completed",
+      step: "completed",
+      jobs: { ...running.jobs, render: "job-render" },
+      updatedAt: "2026-08-08T00:00:01.000Z",
+    };
+    const startPipeline = vi.fn(async () => running);
+    let pipelineRead = 0;
+    const getPipeline = vi.fn(async () => (pipelineRead++ === 0 ? null : completed));
+    const listProjectJobs = vi.fn<() => Promise<Job[]>>(async () => []);
     const listArtifacts = vi.fn<() => Promise<ArtifactList>>(async () => ({
       projectId: "p1",
       artifacts: [],
     }));
     const context = makeContext(
-      { createJob, getReadiness, buildConfig, listArtifacts },
+      { startPipeline, getPipeline, listProjectJobs, listArtifacts },
       "p1",
     );
 
@@ -120,22 +123,11 @@ describe("JobsPage", () => {
     const user = userEvent.setup();
     await user.click(screen.getByRole("button", { name: "Run full pipeline" }));
 
-    await waitFor(() => expect(buildConfig).toHaveBeenCalledTimes(1));
+    await waitFor(() => expect(startPipeline).toHaveBeenCalledWith("p1", { format: "both" }));
     await waitFor(() =>
       expect(screen.getByRole("status")).toHaveTextContent("Pipeline status: Completed"),
     );
-
-    expect(getReadiness).toHaveBeenCalledWith("p1");
-    expect(createJob.mock.calls.map((call) => call[1].type)).toEqual([
-      "prepare-assets",
-      "transcribe",
-      "analyze",
-      "render",
-    ]);
-    expect(createJob.mock.calls.at(-1)?.[1]).toEqual({
-      type: "render",
-      params: { format: "both" },
-    });
+    expect(getPipeline).toHaveBeenCalled();
   });
 
   it("sends the selected format when triggering a render job", async () => {

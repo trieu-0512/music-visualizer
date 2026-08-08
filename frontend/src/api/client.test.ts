@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { ApiClient, type FetchLike } from "./client.js";
 import { ApiClientError } from "./ApiClientError.js";
-import type { ApiErrorEnvelope, Job, ProjectRecord, ProjectView } from "./types.js";
+import type { ApiErrorEnvelope, Job, PipelineRun, ProjectRecord, ProjectView } from "./types.js";
 
 /**
  * Unit tests for the Web_App API client (task 12.1).
@@ -247,6 +247,38 @@ describe("ApiClient.getJob", () => {
 
     expect(result.status).toBe("completed");
     expect(calls[0]?.url).toBe(`${BASE}/jobs/j1`);
+  });
+});
+
+describe("ApiClient persistent pipeline", () => {
+  const run: PipelineRun = {
+    id: "run-1",
+    projectId: "p1",
+    status: "running",
+    step: "transcribe-analyze",
+    renderFormat: "portrait",
+    jobs: {},
+    createdAt: "2026-08-08T00:00:00.000Z",
+    updatedAt: "2026-08-08T00:00:00.000Z",
+  };
+
+  it("starts a pipeline with the selected render format", async () => {
+    const { fetch, calls } = jsonFetch(201, run);
+    const client = new ApiClient({ baseUrl: BASE, fetch });
+
+    expect(await client.startPipeline("p1", { format: "portrait" })).toEqual(run);
+    expect(calls[0]?.method).toBe("POST");
+    expect(calls[0]?.url).toBe(`${BASE}/projects/p1/pipeline`);
+    expect(JSON.parse(calls[0]?.body as string)).toEqual({ format: "portrait" });
+  });
+
+  it("reads the latest persistent pipeline run", async () => {
+    const { fetch, calls } = jsonFetch(200, run);
+    const client = new ApiClient({ baseUrl: BASE, fetch });
+
+    expect(await client.getPipeline("p1")).toEqual(run);
+    expect(calls[0]?.method).toBe("GET");
+    expect(calls[0]?.url).toBe(`${BASE}/projects/p1/pipeline`);
   });
 });
 

@@ -24,6 +24,8 @@ import type {
   JobType,
   ProjectConfigJson,
   ProjectJobList,
+  PipelineRun,
+  StartPipelineRequest,
   ProjectList,
   ProjectMetadata,
   ProjectRecord,
@@ -193,6 +195,23 @@ export class ApiClient {
   /** Fetch a job's current status and details (`GET /jobs/:jobId`, Req 12.2). */
   async getJob(jobId: string): Promise<Job> {
     return this.requestJson<Job>("GET", `/jobs/${enc(jobId)}`);
+  }
+
+  // --- Persistent full pipeline ------------------------------------------
+
+  /** Start a backend-owned full pipeline that survives browser navigation/close. */
+  async startPipeline(
+    projectId: string,
+    request: StartPipelineRequest = {},
+  ): Promise<PipelineRun> {
+    return this.requestJson<PipelineRun>("POST", `/projects/${enc(projectId)}/pipeline`, {
+      body: request,
+    });
+  }
+
+  /** Read the latest persistent pipeline run, or `null` when none has started. */
+  async getPipeline(projectId: string): Promise<PipelineRun | null> {
+    return this.requestJson<PipelineRun | null>("GET", `/projects/${enc(projectId)}/pipeline`);
   }
 
   // --- Config (Req 7, 8) --------------------------------------------------

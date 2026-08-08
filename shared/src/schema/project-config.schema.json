@@ -82,6 +82,22 @@
           }
         }
       }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["builtAt", "dependencies"],
+      "properties": {
+        "builtAt": { "type": "string", "minLength": 1 },
+        "dependencies": {
+          "type": "object",
+          "propertyNames": { "type": "string", "minLength": 1 },
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
     }
   }
 }

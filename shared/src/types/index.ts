@@ -22,5 +22,6 @@ export type {
   VideoFormat,
   AssetPaths,
   LayoutDefinition,
+  ProjectConfigProvenance,
   ProjectConfigJson,
 } from "./projectConfig.js";

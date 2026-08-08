@@ -102,6 +102,10 @@ describe("buildConfig (Req 7)", () => {
 
     // The assembled config validates against the shared schema.
     expect(validateProjectConfig(config).ok).toBe(true);
+    expect(config.provenance?.builtAt).toBeTruthy();
+    expect(config.provenance?.dependencies["assets/audio.mp3"]).toMatch(/^[a-f0-9]{64}$/);
+    expect(config.provenance?.dependencies["artifacts/lyrics.json"]).toMatch(/^[a-f0-9]{64}$/);
+    expect(config.provenance?.dependencies["assets/letters/A.svg"]).toMatch(/^[a-f0-9]{64}$/);
 
     // It was written to the standardized artifact path.
     const written = await store.read({

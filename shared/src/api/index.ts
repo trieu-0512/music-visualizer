@@ -12,4 +12,8 @@ export type {
   ProjectView,
   ProjectList,
   ProjectJobList,
+  PipelineRunStatus,
+  PipelineRunStep,
+  PipelineRun,
+  StartPipelineRequest,
 } from "./types.js";

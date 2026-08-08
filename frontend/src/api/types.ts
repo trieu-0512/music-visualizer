@@ -23,6 +23,10 @@ import type {
   ProjectView,
   ProjectList,
   ProjectJobList,
+  PipelineRun,
+  PipelineRunStatus,
+  PipelineRunStep,
+  StartPipelineRequest,
 } from "@music-visualizer/shared";
 
 export type {
@@ -40,6 +44,10 @@ export type {
   ProjectView,
   ProjectList,
   ProjectJobList,
+  PipelineRun,
+  PipelineRunStatus,
+  PipelineRunStep,
+  StartPipelineRequest,
 };
 
 /** Response of `POST /projects/:id/assets/:role` (Req 2.1–2.7). */

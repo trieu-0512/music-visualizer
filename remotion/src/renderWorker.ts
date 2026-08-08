@@ -31,6 +31,7 @@
  * tests with fakes and never launches Chromium.
  */
 import { Buffer } from "node:buffer";
+import { createHash } from "node:crypto";
 
 import {
   validateProjectConfig,
@@ -201,6 +202,34 @@ async function loadProjectConfig(
   return result.value;
 }
 
+export async function assertRenderConfigFresh(
+  store: RenderAssetStore,
+  config: ProjectConfigJson,
+): Promise<void> {
+  const dependencies = config.provenance?.dependencies;
+  if (!dependencies) return;
+
+  const stale: { path: string; reason: "missing" | "hash-mismatch" }[] = [];
+  for (const [relativePath, expectedSha256] of Object.entries(dependencies)) {
+    let raw: Buffer;
+    try {
+      raw = await store.read({ projectId: config.projectId, relativePath });
+    } catch {
+      stale.push({ path: relativePath, reason: "missing" });
+      continue;
+    }
+    const actualSha256 = createHash("sha256").update(raw).digest("hex");
+    if (actualSha256 !== expectedSha256) {
+      stale.push({ path: relativePath, reason: "hash-mismatch" });
+    }
+  }
+  if (stale.length > 0) {
+    throw new RenderWorkerError(
+      `project-config.json for project '${config.projectId}' is stale; rebuild config before rendering: ${JSON.stringify(stale)}`,
+    );
+  }
+}
+
 /** Best-effort message extraction for the failure record (Req 9.6). */
 function errorMessage(err: unknown): string {
   if (err instanceof Error) return err.message;
@@ -258,6 +287,12 @@ export async function processRenderJob(
   }
   try {
     const config = await loadProjectConfig(store, job.projectId, configPath);
+    if (config.projectId !== job.projectId) {
+      throw new RenderWorkerError(
+        `project-config.json belongs to '${config.projectId}', not render job project '${job.projectId}'`,
+      );
+    }
+    await assertRenderConfigFresh(store, config);
     const videoFormatOverride = formatOverrideFromParams(job.params);
     const artifacts = await render(config, store, {
       ...(videoFormatOverride !== undefined ? { videoFormatOverride } : {}),

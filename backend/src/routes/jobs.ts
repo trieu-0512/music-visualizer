@@ -1,11 +1,12 @@
 import { Router } from "express";
-import { validateLearningMap } from "@music-visualizer/shared";
+import { validateLearningMap, validateProjectConfig } from "@music-visualizer/shared";
 import { ApiError, asyncHandler, notFound, validationError } from "../http/errors.js";
 import type { ProjectService } from "../projects/index.js";
 import type { AssetStore } from "../storage/index.js";
 import type { JobQueue, JobType } from "../queue/JobQueue.js";
 import { candidatePaths } from "../assets/index.js";
 import { artifactRelativePath, CONFIG_ARTIFACT_NAME } from "../artifacts/index.js";
+import { assertConfigFresh } from "../config/index.js";
 
 /**
  * Job routes (`backend`, Req 3.1, 6.1, 9.1, 12.1, 12.2).
@@ -96,6 +97,10 @@ export function createJobsRouter(
         }
       }
 
+      if (type === "render") {
+        await assertStoredConfigFresh(store, projectId);
+      }
+
       const params = parseParams(req.body);
       if (type === "prepare-assets") validatePrepareAssetParams(params);
       const job = await queue.enqueue({ projectId, type, params });
@@ -155,6 +160,32 @@ function parseParams(body: unknown): Record<string, unknown> {
     return params as Record<string, unknown>;
   }
   return {};
+}
+
+async function assertStoredConfigFresh(store: AssetStore, projectId: string): Promise<void> {
+  const ref = {
+    projectId,
+    relativePath: artifactRelativePath(CONFIG_ARTIFACT_NAME),
+  };
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse((await store.read(ref)).toString("utf-8"));
+  } catch {
+    throw new ApiError(
+      "PRECONDITION_FAILED",
+      "Configuration is invalid; rebuild config before rendering",
+      { projectId, artifact: CONFIG_ARTIFACT_NAME },
+    );
+  }
+  const validation = validateProjectConfig(parsed);
+  if (!validation.ok) {
+    throw new ApiError(
+      "PRECONDITION_FAILED",
+      "Configuration is invalid; rebuild config before rendering",
+      { projectId, artifact: CONFIG_ARTIFACT_NAME, errors: validation.error },
+    );
+  }
+  await assertConfigFresh(store, projectId, validation.value);
 }
 
 /** True when any accepted `Audio_Asset` path is stored for the project. */

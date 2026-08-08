@@ -31,6 +31,14 @@ export interface LayoutDefinition {
   // additional placement values resolved per template
 }
 
+/** Immutable snapshot of every stored file the config was assembled from. */
+export interface ProjectConfigProvenance {
+  /** ISO-8601 time at which the dependency snapshot was created. */
+  builtAt: string;
+  /** Project-relative dependency path -> SHA-256 of the exact bytes used. */
+  dependencies: Record<string, string>;
+}
+
 /** The `project-config.json` artifact (Req 7.1–7.6). */
 export interface ProjectConfigJson {
   version: 1;
@@ -40,4 +48,6 @@ export interface ProjectConfigJson {
   assets: AssetPaths;
   artifacts: { lyrics: string; audioAnalysis: string };
   layout: LayoutDefinition;
+  /** Optional for legacy configs; every newly built config includes this snapshot. */
+  provenance?: ProjectConfigProvenance;
 }

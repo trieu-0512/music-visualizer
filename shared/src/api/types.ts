@@ -102,3 +102,34 @@ export interface ProjectList {
 export interface ProjectJobList {
   jobs: Job[];
 }
+
+/** Persistent backend-owned orchestration state for one full project pipeline. */
+export type PipelineRunStatus = "running" | "completed" | "failed";
+export type PipelineRunStep =
+  | "prepare-assets"
+  | "transcribe-analyze"
+  | "build-config"
+  | "render"
+  | "completed"
+  | "failed";
+
+export interface PipelineRun {
+  id: string;
+  projectId: string;
+  status: PipelineRunStatus;
+  step: PipelineRunStep;
+  renderFormat: VideoFormat;
+  jobs: {
+    prepareAssets?: string;
+    transcribe?: string;
+    analyze?: string;
+    render?: string;
+  };
+  error?: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface StartPipelineRequest {
+  format?: VideoFormat;
+}

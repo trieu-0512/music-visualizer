@@ -236,6 +236,32 @@ describe("processRenderJob", () => {
     expect(queue.failed[0]?.error).toMatch(/project-config\.json/);
   });
 
+  it("rejects a stale config dependency before invoking renderProject", async () => {
+    const config: ProjectConfigJson = {
+      ...makeConfig("p_test"),
+      provenance: {
+        builtAt: "2026-08-08T00:00:00.000Z",
+        dependencies: { "assets/audio.mp3": "0".repeat(64) },
+      },
+    };
+    const store = storeWithConfig(config);
+    store.files.set("p_test/assets/audio.mp3", Buffer.from("changed-audio"));
+    const queue = makeQueue([]);
+    const render: RenderProjectFn = vi.fn(async () => []);
+
+    await processRenderJob(
+      renderJob("p_test"),
+      queue,
+      store,
+      { renderProject: render, heartbeatIntervalMs: 0 },
+    );
+
+    expect(render).not.toHaveBeenCalled();
+    expect(queue.completed).toEqual([]);
+    expect(queue.failed[0]?.error).toMatch(/stale/i);
+    expect(queue.failed[0]?.error).toContain("assets/audio.mp3");
+  });
+
   it("marks the job failed when the config is invalid, without calling renderProject (Req 9.6)", async () => {
     const store = makeStore({
       [`p_test/${CONFIG_RELATIVE_PATH}`]: Buffer.from(

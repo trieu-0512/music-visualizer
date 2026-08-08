@@ -198,17 +198,44 @@ export async function buildConfig(
     }
   }
 
+  const resolvedAssets = collectAssetPaths(
+    topLevelAssets,
+    letterAssets,
+    hasLearningMap ? objectAssets : undefined,
+  );
+  const dependencyPaths = [
+    resolvedAssets.background,
+    resolvedAssets.songLogo,
+    resolvedAssets.channelLogo,
+    resolvedAssets.audio,
+    ...Object.values(resolvedAssets.letters),
+    ...Object.values(resolvedAssets.objects ?? {}),
+    ...REQUIRED_ARTIFACTS,
+    ...(hasLearningMap ? [LEARNING_MAP_PATH] : []),
+    ...(hasSongScript ? [SONG_SCRIPT_PATH] : []),
+  ];
+  const dependencies: Record<string, string> = {};
+  for (const relativePath of [...new Set(dependencyPaths)].sort()) {
+    dependencies[relativePath] = createHash("sha256")
+      .update(await store.read({ projectId, relativePath }))
+      .digest("hex");
+  }
+
   const config: ProjectConfigJson = {
     version: 1,
     projectId,
     metadata: { songName: project.songName, singerName: project.singerName }, // Req 7.5
     videoFormat: project.videoFormat, // Req 7.4
-    assets: collectAssetPaths(topLevelAssets, letterAssets, hasLearningMap ? objectAssets : undefined), // Req 7.2
+    assets: resolvedAssets, // Req 7.2
     artifacts: {
       lyrics: REQUIRED_ARTIFACTS[0],
       audioAnalysis: REQUIRED_ARTIFACTS[1],
     }, // Req 7.6
     layout: defaultLayout(project.videoFormat), // Req 7.3
+    provenance: {
+      builtAt: new Date().toISOString(),
+      dependencies,
+    }
   };
 
   await store.write(configRef(projectId), Buffer.from(JSON.stringify(config, null, 2)));

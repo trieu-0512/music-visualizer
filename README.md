@@ -178,14 +178,16 @@ Web App default API target is `http://localhost:3000`. Override it with
 
 ## Jobs
 
-After loading a song profile, the normal path is **Run full pipeline**. The Web App detects whether `learningMap` exists and runs:
+After loading a song profile, the normal path is **Run full pipeline**. The Web App starts a persistent backend `PipelineRun`; the API detects whether the project has a locked mapping and runs:
 
 ```text
 theme-first: prepare-assets -> transcribe + analyze -> build config -> render
 legacy:      transcribe + analyze -> build config -> render
 ```
 
-Manual per-stage buttons remain available for debugging/local repair. Mapping projects enrich timed learning lines with explicit `letter` + `object` identity.
+The run state is persisted under the project and resumed by the API supervisor, so closing/reloading the browser does not stop dependency continuation. Child jobs are tagged with the pipeline run id to avoid duplicate enqueue after API restart.
+
+Manual per-stage buttons remain available for debugging/local repair. Mapping projects enrich timed learning lines with explicit `letter` + `object` identity. Newly built configs also snapshot SHA-256 hashes of every render dependency; the API and render worker reject stale configs if audio, lyrics, mapping, background, logos, letters, or objects change after the build.
 
 If the imported folder already contains both `artifacts/lyrics.json` and
 `artifacts/audio-analysis.json`, the backend builds `project-config.json`
