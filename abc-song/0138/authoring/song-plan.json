@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "ground-crew",
   "hook": [
-    "Ground crew—A-B-C!",
-    "Airport helpers, work safely!"
+    "Park, service, check—A-B-C!",
+    "Ground crew coordinates before the aircraft moves again."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Ground Crew ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "turnaround-workflow-rhyme",
+    "chorusRhymeEngine": "park-service-check-hook",
+    "pointOfView": "a child observing ground operations from a safe public area",
+    "chorusFunction": "repeat park-service-check",
+    "grooveMeter": "84 BPM turnaround pulse",
+    "round1Grammar": "aircraft/ground object -> turnaround role -> professional boundary",
+    "round2Grammar": "work-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "ground-turnaround",
+    "authorialIntent": "Make Ground Crew ABC a turnaround sequence: arrival, parking guidance, baggage/cargo, fuel/maintenance/security checks, boarding, and departure; ground equipment and people are distinct from flight controls.",
+    "lyricIdentity": "A child watches through terminal glass as trained teams perform coordinated jobs inside a safety zone.",
+    "imageMotifs": [
+      "marshaller",
+      "luggage cart",
+      "hangar",
+      "windsock",
+      "cargo plane"
+    ],
+    "semanticArc": [
+      "arrive/park",
+      "service/load",
+      "check",
+      "depart"
+    ],
+    "forbiddenGenericLanguage": [
+      "ground crew play",
+      "wave plane in",
+      "fuel it yourself",
+      "ramp playground"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

@@ -6,11 +6,79 @@
   "tempoBpm": 92,
   "motifFamily": "flying-sky",
   "hook": [
-    "Flying machines—A-B-C!",
-    "Up in the sky, look with me!"
+    "Lift, thrust, stable—A-B-C!",
+    "Build the flight idea one force and surface at a time."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Flying Machine Sky",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "airframe-force-rhyme",
+    "chorusRhymeEngine": "lift-thrust-stable-hook",
+    "pointOfView": "a child reading an aircraft diagram",
+    "chorusFunction": "repeat lift-thrust-control",
+    "grooveMeter": "88 BPM aerodynamic 6/8",
+    "round1Grammar": "component/object -> aerodynamic/control role -> exception",
+    "round2Grammar": "diagram recall -> target -> air-trace",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "flight-diagram",
+    "authorialIntent": "Make Flying Machine Sky about aerodynamic/control roles: fuselage carries, wings lift, tail stabilizes, trim reduces control force, engines/propulsion move air; glider, kite, and zero-g aircraft show meaningful exceptions.",
+    "lyricIdentity": "A child builds a flight diagram from forces and control surfaces rather than treating every flying object as a plane with an engine.",
+    "imageMotifs": [
+      "wing lift",
+      "fuselage body",
+      "vertical stabilizer",
+      "glider glide",
+      "kite tether"
+    ],
+    "semanticArc": [
+      "structure",
+      "lift/propulsion",
+      "control/stability",
+      "exceptions"
+    ],
+    "forbiddenGenericLanguage": [
+      "flying machine sky",
+      "all have engines",
+      "wing flaps to fly",
+      "zero gravity off"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

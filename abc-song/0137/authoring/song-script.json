@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore flying machines with me!",
+      "text": "Wing makes lift, fuselage carries, tail stabilizes; a glider can fly without engine thrust after launch.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Flying machines—A-B-C!",
+      "text": "Flying machines share air, not one identical mechanism.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Across the sky, A brings Airplane into view.",
+      "text": "A — Airplane! | Powered fixed-wing aircraft uses forward motion through air to generate wing lift; propulsion and configuration vary.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Across the sky, B brings Boarding Pass into view.",
+      "text": "B ... B ... Boarding Pass! | Travel document/token links a passenger to a flight and often seat/gate data; gate/time still need current checks.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Across the sky, C brings Cockpit into view.",
+      "text": "C? Cockpit! | Crew control area contains flight controls, instruments, displays, and communications; passengers do not enter during normal operations.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Across the sky, D brings Departure Board into view.",
+      "text": "D is Departure Board. Display lists flights, times, gates, and status; operational changes can update after a passenger first checks it. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Across the sky, E brings Elevator Trim into view.",
+      "text": "E — Elevator Trim! | Trim system reduces sustained pitch-control force by adjusting a trim tab, stabilizer, or control command depending aircraft.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Across the sky, F brings Fuselage into view.",
+      "text": "F ... F ... Fuselage! | Main aircraft body houses crew, passengers, cargo, or systems and connects wings/tail in conventional layouts.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Across the sky, G brings Glider into view.",
+      "text": "G? Glider! | Aircraft designed for unpowered soaring after launch or tow; it trades altitude and rising air for continued flight.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Across the sky, H brings Helicopter into view.",
+      "text": "H is Helicopter. Rotorcraft uses rotating wings for lift and can hover; rotor areas are dangerous and approached only under trained procedures. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Flying machines—A-B-C!",
+      "text": "Lift, thrust, stable—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Up in the sky, look with me!",
+      "text": "Build the flight idea one force and surface at a time.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Across the sky, I brings Inflatable Slide into view.",
+      "text": "I — Inflatable Slide! | Emergency evacuation slide deploys from some aircraft doors; crew procedures govern use and accidental deployment is hazardous.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Across the sky, J brings Jet into view.",
+      "text": "J ... J ... Jet! | Aircraft or engine using jet propulsion accelerates a high-speed exhaust stream; jet describes propulsion more than body shape.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Across the sky, K brings Kite into view.",
+      "text": "K? Kite! | Tethered flying object held by aerodynamic forces and a line; fly far from airports, storms, roads, and power lines.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Across the sky, L brings Luggage Cart into view.",
+      "text": "L is Luggage Cart. Ground vehicle/cart moves baggage around airport service areas; ramp traffic is controlled and not passenger play space. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Across the sky, M brings Monoplane into view.",
+      "text": "M — Monoplane! | Fixed-wing aircraft with one main wing plane, unlike a biplane's two stacked wing planes.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Across the sky, N brings Navigation Light into view.",
+      "text": "N ... N ... Navigation Light! | Aircraft position lights help others determine orientation, commonly red left, green right, white aft under standard conventions.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Across the sky, O brings Overhead Bin into view.",
+      "text": "O? Overhead Bin! | Cabin storage compartment holds approved carry-on items; doors must latch and weight/size limits prevent falling baggage.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Across the sky, P brings Passenger Plane into view.",
+      "text": "P is Passenger Plane. Aircraft configured primarily to carry passengers; seating, range, propulsion, and size vary widely. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Flying machines—A-B-C!",
+      "text": "Lift, thrust, stable—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Up in the sky, look with me!",
+      "text": "Build the flight idea one force and surface at a time.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Across the sky, Q brings Queue Lane into view.",
+      "text": "Q — Queue Lane! | Marked airport line organizes passengers for check-in, security, or boarding; it is a flow-control feature.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Across the sky, R brings Radar into view.",
+      "text": "R ... R ... Radar! | System transmits radio waves and analyzes returns to detect range, direction, weather, or traffic information depending type.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Across the sky, S brings Seatbelt into view.",
+      "text": "S? Seatbelt! | Aircraft restraint holds a passenger to the seat during turbulence, takeoff, landing, or whenever instructed; buckle stays low and snug.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Across the sky, T brings Tail into view.",
+      "text": "T is Tail. Rear aircraft structure includes stabilizing surfaces such as vertical and horizontal stabilizers in many designs. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Across the sky, U brings Ultralight into view.",
+      "text": "U — Ultralight! | Very light aircraft category whose legal definition, training, licensing, and operating limits vary by country.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Across the sky, V brings Vertical Stabilizer into view.",
+      "text": "V ... V ... Vertical Stabilizer! | Vertical tail surface provides directional stability; a rudder is commonly hinged to it for yaw control.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Across the sky, W brings Wing into view.",
+      "text": "W? Wing! | Airfoil surface produces lift through airflow and pressure effects; wings also carry structure, fuel, or controls depending design.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Across the sky, X brings X-ray Scanner into view.",
+      "text": "X is X-ray Scanner. Airport security imaging system uses controlled radiation to inspect baggage/items; trained staff operate it under safety procedures. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Flying machines—A-B-C!",
+      "text": "Lift, thrust, stable—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Up in the sky, look with me!",
+      "text": "Build the flight idea one force and surface at a time.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Across the sky, Y brings Yellow Taxiway Sign into view.",
+      "text": "Y — Yellow Taxiway Sign! | Yellow-background airport signs commonly give taxiway direction/destination information; exact meaning comes from text, arrows, and local standards.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Across the sky, Z brings Zero-gravity Plane into view.",
+      "text": "Z ... Z ... Zero-gravity Plane! | Aircraft flying parabolic arcs creates brief microgravity as occupants and cabin follow free-fall together; gravity is not switched off.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Cloud cue: A ... Airplane! Point to the flying clue.",
+      "text": "Flight recall A ... Airplane! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Cloud cue: B ... Boarding Pass! Point to the flying clue.",
+      "text": "Find B ... Boarding Pass! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Cloud cue: C ... Cockpit! Point to the flying clue.",
+      "text": "Which one starts C? ... Cockpit! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Cloud cue: D ... Departure Board! Point to the flying clue.",
+      "text": "Check D ... Departure Board! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Cloud cue: E ... Elevator Trim! Point to the flying clue.",
+      "text": "Flight recall E ... Elevator Trim! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Cloud cue: F ... Fuselage! Point to the flying clue.",
+      "text": "Find F ... Fuselage! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Cloud cue: G ... Glider! Point to the flying clue.",
+      "text": "Which one starts G? ... Glider! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Cloud cue: H ... Helicopter! Point to the flying clue.",
+      "text": "Check H ... Helicopter! Point; slowly circle one finger above, never approach rotors.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Flying machines—A-B-C!",
+      "text": "Lift, thrust, stable—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Up in the sky, look with me!",
+      "text": "Build the flight idea one force and surface at a time.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Cloud cue: I ... Inflatable Slide! Point to the flying clue.",
+      "text": "Flight recall I ... Inflatable Slide! Point only; no sliding/jumping mime.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Cloud cue: J ... Jet! Point to the flying clue.",
+      "text": "Find J ... Jet! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Cloud cue: K ... Kite! Point to the flying clue.",
+      "text": "Which one starts K? ... Kite! Trace a diamond; name distance from airports/power lines.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Cloud cue: L ... Luggage Cart! Point to the flying clue.",
+      "text": "Check L ... Luggage Cart! Point only; ramp vehicles are work equipment.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Cloud cue: M ... Monoplane! Point to the flying clue.",
+      "text": "Flight recall M ... Monoplane! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Cloud cue: N ... Navigation Light! Point to the flying clue.",
+      "text": "Find N ... Navigation Light! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Cloud cue: O ... Overhead Bin! Point to the flying clue.",
+      "text": "Which one starts O? ... Overhead Bin! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Cloud cue: P ... Passenger Plane! Point to the flying clue.",
+      "text": "Check P ... Passenger Plane! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Flying machines—A-B-C!",
+      "text": "Lift, thrust, stable—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Up in the sky, look with me!",
+      "text": "Build the flight idea one force and surface at a time.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Cloud cue: Q ... Queue Lane! Point to the flying clue.",
+      "text": "Flight recall Q ... Queue Lane! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Cloud cue: R ... Radar! Point to the flying clue.",
+      "text": "Find R ... Radar! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Cloud cue: S ... Seatbelt! Point to the flying clue.",
+      "text": "Which one starts S? ... Seatbelt! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Cloud cue: T ... Tail! Point to the flying clue.",
+      "text": "Check T ... Tail! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Cloud cue: U ... Ultralight! Point to the flying clue.",
+      "text": "Flight recall U ... Ultralight! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Cloud cue: V ... Vertical Stabilizer! Point to the flying clue.",
+      "text": "Find V ... Vertical Stabilizer! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Cloud cue: W ... Wing! Point to the flying clue.",
+      "text": "Which one starts W? ... Wing! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Cloud cue: X ... X-ray Scanner! Point to the flying clue.",
+      "text": "Check X ... X-ray Scanner! Point only; trained security staff operate the real scanner.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Flying machines—A-B-C!",
+      "text": "Lift, thrust, stable—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Up in the sky, look with me!",
+      "text": "Build the flight idea one force and surface at a time.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Cloud cue: Y ... Yellow Taxiway Sign! Point to the flying clue.",
+      "text": "Flight recall Y ... Yellow Taxiway Sign! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Cloud cue: Z ... Zero-gravity Plane! Point to the flying clue.",
+      "text": "Find Z ... Zero-gravity Plane! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Flying machines—A-B-C!",
+      "text": "Kite remains tethered; glider keeps soaring; zero-gravity plane keeps gravity real.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z closes the flight diagram with the exceptions intact.",
       "objective": "narration",
       "objectReveal": "none"
     }

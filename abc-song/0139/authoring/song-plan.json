@@ -6,11 +6,79 @@
   "tempoBpm": 95,
   "motifFamily": "aviation-hop",
   "hook": [
-    "Planes and copters—A-B-C!",
-    "Flying words hop back to me!"
+    "Wing, rotor, prop—A-B-C!",
+    "Name the family before the flight sound."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Plane Helicopter Hop",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "aircraft-family-contrast-rhyme",
+    "chorusRhymeEngine": "wing-rotor-prop-hook",
+    "pointOfView": "a child comparing aircraft families",
+    "chorusFunction": "repeat wing-rotor-prop",
+    "grooveMeter": "90 BPM compare-stop 4/4",
+    "round1Grammar": "aircraft/component -> family/mechanism -> distinction",
+    "round2Grammar": "family-neutral recall -> target -> safe air gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "aircraft-family",
+    "authorialIntent": "Make Plane Helicopter Hop a compare-and-contrast song: fixed wings, rotors, propellers, turboprops, drones, seaplanes and ultralights are distinguished by lift/propulsion and operating environment; hop stays musical, not a stunt cue.",
+    "lyricIdentity": "A child compares aircraft families side by side instead of calling every rotorcraft a plane or every propeller aircraft a turboprop.",
+    "imageMotifs": [
+      "airplane wing",
+      "quadcopter rotors",
+      "seaplane floats/hull",
+      "turboprop",
+      "landing gear"
+    ],
+    "semanticArc": [
+      "fixed-wing",
+      "rotorcraft",
+      "propulsion types",
+      "special operations"
+    ],
+    "forbiddenGenericLanguage": [
+      "plane helicopter hop",
+      "all aircraft planes",
+      "propeller means turboprop",
+      "drone toy sky"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

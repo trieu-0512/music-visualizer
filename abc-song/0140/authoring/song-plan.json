@@ -6,11 +6,79 @@
   "tempoBpm": 87,
   "motifFamily": "flight-day",
   "hook": [
-    "Flight day—A-B-C!",
-    "Look up high and sing with me!"
+    "Prepare, fly, arrive—A-B-C!",
+    "Keep the comparison card outside the real sequence."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Little Flight Day",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "flight-day-timeline-rhyme",
+    "chorusRhymeEngine": "prepare-fly-arrive-hook",
+    "pointOfView": "a child narrating one flight-day sequence",
+    "chorusFunction": "repeat prepare-fly-arrive",
+    "grooveMeter": "86 BPM timeline 6/8",
+    "round1Grammar": "object fact tied honestly to normal flight or comparison",
+    "round2Grammar": "timeline-neutral recall -> exact target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "flight-day",
+    "authorialIntent": "Make Little Flight Day a timeline from preflight information and ground service through taxi/takeoff, cruise, arrival, and shutdown, while model/zero-g comparison targets are placed outside an ordinary passenger flight.",
+    "lyricIdentity": "A child follows one normal flight day and moves X-wing Model and Zero-gravity Plane to comparison cards rather than pretending they are ordinary airline stages.",
+    "imageMotifs": [
+      "ground service",
+      "windsock before movement",
+      "wing in cruise",
+      "seaplane comparison",
+      "x-wing model card"
+    ],
+    "semanticArc": [
+      "prepare",
+      "ground/taxi",
+      "flight",
+      "arrival/comparisons"
+    ],
+    "forbiddenGenericLanguage": [
+      "flight day magic",
+      "zero-g airline stage",
+      "x-wing real flight",
+      "rush to plane"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

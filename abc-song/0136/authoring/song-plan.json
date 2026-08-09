@@ -6,11 +6,79 @@
   "tempoBpm": 90,
   "motifFamily": "airport-lift",
   "hook": [
-    "Airport lift—A-B-C!",
-    "Planes and ground things, sing with me!"
+    "Read, queue, board—A-B-C!",
+    "Know where the passenger path ends."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D civilian aviation storybook, toy aircraft and ground gear, clean sky scenes; visual identity: Airport Letter Lift",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "airport-flow-boundary-rhyme",
+    "chorusRhymeEngine": "read-queue-board-hook",
+    "pointOfView": "a child passenger following airport flow",
+    "chorusFunction": "repeat read-queue-board-buckle",
+    "grooveMeter": "86 BPM terminal-to-cabin 4/4",
+    "round1Grammar": "airport object -> passenger/airside role -> boundary",
+    "round2Grammar": "safe recall -> exact target -> no-airside gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "airport-boundary",
+    "authorialIntent": "Make Airport Letter Lift a passenger-flow-and-airside-boundary song: board information, queue, gate, jetway, seatbelt and cabin safety are passenger-facing; cockpit, runway, fuel, propeller and marshalling remain restricted operations.",
+    "lyricIdentity": "A child travels from terminal to seat while learning exactly where passenger access ends.",
+    "imageMotifs": [
+      "departure board",
+      "queue lane",
+      "jetway",
+      "seatbelt",
+      "runway boundary"
+    ],
+    "semanticArc": [
+      "terminal info",
+      "gate/boarding",
+      "cabin",
+      "airside operations"
+    ],
+    "forbiddenGenericLanguage": [
+      "airport lift",
+      "run on runway",
+      "visit cockpit",
+      "touch plane"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }
