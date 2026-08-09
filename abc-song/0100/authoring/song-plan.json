@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "baking-day",
   "hook": [
-    "Storybook baking—one-two-three!",
-    "Bread and cake words, A to Z!"
+    "Plan, make, cool—A-B-C!",
+    "Heat belongs with the adult; finishing waits for the bake to settle."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two short beats before confirmation",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "storybook bakery visitor using pretend motions only",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "story-song 3/4-to-4/4 feel",
-    "round1Grammar": "Round 1 notices shape, layers, crust, swirl, crumb or topping; keep it descriptive and musical rather than advertising sweetness.",
-    "round2Grammar": "Round 2 uses a clean recall gap and item-specific visual gestures: pies/tarts trace crust and filling; cupcakes show wrapper and top; donuts make ring/fill shapes; eclairs go oblong; macarons show two shells plus filling; layered pastries stack fingers; breads show loaf, score, roll, cross, raisins, nuts, or wholegrain flecks; pretzels knot; waffles grid; roll cakes spiral; toppings spread, drip, or sprinkle in the air. Ice Cream stays a frozen scoop clue. No real baking operations are instructed.",
+    "rhymeEngine": "baking-workflow-finale-rhyme",
+    "chorusRhymeEngine": "plan-make-cool-hook",
+    "pointOfView": "a child completing an adult-guided baking workflow",
+    "chorusFunction": "repeat plan-make-cool-finish",
+    "grooveMeter": "4/4 workflow pulse with final resolving cadence",
+    "round1Grammar": "baking transformation plus safety",
+    "round2Grammar": "workflow cue -> recall beat -> target -> safe empty-hand/card gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a woodblock story-timer click followed by one warm guitar landing chord.",
     "signatureColor": "a woodblock story-timer click followed by one warm guitar landing chord",
+    "authorialIntent": "Make Little Baking Day a complete safe workflow finale: plan/measure, combine, shape, adult heat, cool, finish, label/serve; raw flour/egg and hot surfaces are treated accurately, and the song closes the 100-song arc with process rather than spectacle.",
+    "lyricIdentity": "A child helps with age-appropriate cool tasks while an adult manages raw-risk, sharp, powered and hot steps; each baked item illustrates a different transformation.",
+    "imageMotifs": [
+      "recipe card",
+      "cool bowl",
+      "oven adult zone",
+      "cooling rack",
+      "finished ube roll and zucchini bread"
+    ],
+    "semanticArc": [
+      "plan/measure",
+      "combine/shape",
+      "adult bake/cool",
+      "finish/serve/clean"
+    ],
+    "forbiddenGenericLanguage": [
+      "storybook baking magic",
+      "kids bake alone",
+      "taste raw batter",
+      "oven ding means done"
+    ],
     "chorusAfterRound1": [
       2,
       5

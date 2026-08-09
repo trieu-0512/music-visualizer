@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Ding goes the storybook timer—our picture baking day begins.",
+      "text": "Recipe read, hands washed, ingredients measured; raw flour and raw egg are not tasting samples.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A to Z comes rolling in with breads, cakes, and swirls.",
+      "text": "Our hundredth song follows the baking process all the way to cooling.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A—Apple Pie! Apple Pie on display | crust, fold, swirl, or shape gives the clue today",
+      "text": "A — Apple Pie! Fruit filling and pastry crust transform with heat | hot oven and pie dish stay adult-managed.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B ... B ... Brownie. A brownie is a dense flat chocolate cake-bar often cut into squares or rectangles.",
+      "text": "B ... B ... Brownie! Batter sets into dense crumb during baking | raw batter is not a tasting activity because flour/eggs may carry pathogens.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Cookie steps in for C. It is a small flat baked item whose outline and surface texture make clear picture clues.",
+      "text": "C? Cookie! Portioned dough spreads/sets/browns with heat | cool before handling.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "What does D reveal? Donut! A donut is a fried or baked dough treat often shaped as a ring or filled round.",
+      "text": "D is Donut. Can be fried or baked depending recipe | hot oil is especially adult-only.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "through the storybook baking-day window, E meets Eclair. Eclair on display | crust, fold, swirl, or shape gives the clue today",
+      "text": "E — Eclair! Choux dough uses steam expansion to create hollow shells | shells cool before filling.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F—Frosting! It is a thick spreadable topping that can form swirls or smooth layers on cakes.",
+      "text": "F ... F ... Frosting! Finishing layer belongs on a cooled cake | heat can melt the intended structure.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G ... G ... Gingerbread. Gingerbread can be baked as a loaf, cake, or shaped cookie; its brown spiced crumb and outline are useful picture clues.",
+      "text": "G? Gingerbread! Spiced dough/batter can become cookie, loaf, or cake | recipe determines structure.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Honey Bun steps in for H. It is a soft coiled or rolled sweet bun often finished with a thin glaze.",
+      "text": "H is Honey Bun. Yeasted sweet dough proofs, bakes, then may receive glaze | sequence matters.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Storybook baking—one-two-three!",
+      "text": "Plan, make, cool—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Bread and cake words, A to Z!",
+      "text": "Heat belongs with the adult; finishing waits for the bake to settle.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "What does I reveal? Icing! Icing on top | texture, dots, or shine make the picture pop",
+      "text": "I — Icing! Finishing mixture can pipe/spread/pour depending consistency | added after appropriate cooling.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "through the storybook baking-day window, J meets Jelly Donut. It is a filled round donut with fruit jelly or jam inside.",
+      "text": "J ... J ... Jelly Donut! Cooked donut receives jelly/jam filling | filling stage follows safe cooking/cooling process.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K—Kolache! It is a small yeasted pastry with a visible center or enclosed filling, depending on style.",
+      "text": "K? Kolache! Yeasted dough supports a traditional sweet filling | proofing gives the dough time to rise.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L ... L ... Lemon Tart. A lemon tart has a pastry shell filled with a smooth lemon filling.",
+      "text": "L is Lemon Tart. Pastry shell and lemon filling require recipe-specific bake/chill sequence | adult heat management.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Muffin steps in for M. Muffin in our sight | layer, crumb, or topping gives the clue just right",
+      "text": "M — Muffin! Quick batter is combined briefly, portioned, then baked | overworking can change crumb texture.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "What does N reveal? Nut Bread! Nut bread is a loaf with visible nut pieces mixed through the crumb.",
+      "text": "N ... N ... Nut Bread! Quick/yeast loaf depending recipe with nuts through crumb | nut allergens make label/household awareness important.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "through the storybook baking-day window, O meets Orange Cake. It is a cake whose sponge or topping is flavored with orange; layers, crumb, and citrus decoration are visual clues.",
+      "text": "O? Orange Cake! Citrus zest/juice can flavor batter or finish | aromatic peel oils add character before/after bake depending recipe.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P—Pie! It has a pastry crust holding a filling, sometimes with a top crust or decorative edge.",
+      "text": "P is Pie. Crust and filling require recipe-specific assembly and baking | hot steam/filling can burn after oven removal.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q ... Q ... Queen Cake. Queen Cake on display | crumb and layers give its shape away",
+      "text": "Q — Queen Cake! Small cake mapping with recipe variation | workflow follows actual recipe rather than the name alone.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Raisin Bread steps in for R. It is a loaf with visible raisins dotted through the crumb.",
+      "text": "R ... R ... Raisin Bread! Raisins distribute through bread dough | yeast fermentation and baking form the loaf.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "What does S reveal? Sprinkles! Sprinkles are tiny decorative pieces scattered over frosting, icing, or other surfaces.",
+      "text": "S? Sprinkles! Decorative finish applied after baking, often onto icing/frosting | finish stage, not oven ingredient by default.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "through the storybook baking-day window, T meets Tart. It has a shallow pastry shell with an open filling visible on top.",
+      "text": "T is Tart. Shallow pastry shell with filling | assembly and baking/chilling vary by filling.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Storybook baking—one-two-three!",
+      "text": "Plan, make, cool—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Bread and cake words, A to Z!",
+      "text": "Heat belongs with the adult; finishing waits for the bake to settle.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U—Ube Roll! Ube Roll baked in view | crust and shape become the clue",
+      "text": "U — Ube Roll! Rolled cake uses ube/purple-yam flavor or preparation | ube is Dioscorea alata, not taro; roll/fill after appropriate cooling.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V ... V ... Vanilla Cake. Vanilla cake is a sponge-style cake whose layers, crumb, frosting, or slice shape provide the picture clues.",
+      "text": "V ... V ... Vanilla Cake! Cake structure sets with heat; vanilla supplies aroma/flavor | cake cools before many finishes.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Wholegrain Bread steps in for W. It is a loaf whose crumb and crust may show darker grain flecks or seeds.",
+      "text": "W? Wholegrain Bread! Includes whole-grain flour components such as bran/germ | dough fermentation/baking produce loaf structure.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "What does X reveal? Xmas Cookie! An Xmas cookie is a shaped or decorated cookie identified by its outline and surface decoration.",
+      "text": "X is Xmas Cookie. Holiday-decoration label, not one recipe | cool baked cookie before icing/decorating.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "through the storybook baking-day window, Y meets Yule Log. Yule Log in our sight | layer, crumb, or topping gives the clue just right",
+      "text": "Y — Yule Log! Sponge is rolled with filling and decorated as a log | timing keeps the cake flexible enough without unsafe hot handling.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z—Zucchini Bread! It is a quick-bread loaf with a crust outside and soft crumb containing grated zucchini.",
+      "text": "Z ... Z ... Zucchini Bread! Grated zucchini adds water/plant solids to quick-bread batter | bake fully, cool, then slice.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Apple Pie! Round crust; apple filling.",
+      "text": "Workflow A ... Apple Pie! Round crust; apple filling.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Remember B ... Brownie! Flat brownie square.",
+      "text": "Bake stage B ... Brownie! Flat brownie square.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C? ... Cookie! Small flat cookie disk.",
+      "text": "Plan, heat, or cool—C? ... Cookie! Small flat cookie disk.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Find D, hold the beat ... Donut! Ring or filled round.",
+      "text": "Final-day D ... Donut! Ring or filled round.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Eclair! Long oblong; filling inside.",
+      "text": "Workflow E ... Eclair! Long oblong; filling inside.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Frosting! Thick topping swirl.",
+      "text": "Bake stage F ... Frosting! Thick topping swirl.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G? ... Gingerbread! Brown crumb; loaf, cake, or cookie outline.",
+      "text": "Plan, heat, or cool—G? ... Gingerbread! Brown crumb; loaf, cake, or cookie outline.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Find H, hold the beat ... Honey Bun! Coiled bun; thin glaze.",
+      "text": "Final-day H ... Honey Bun! Coiled bun; thin glaze.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Icing! Spread or drizzle icing.",
+      "text": "Workflow I ... Icing! Spread or drizzle icing.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Remember J ... Jelly Donut! Filled round; jelly center.",
+      "text": "Bake stage J ... Jelly Donut! Filled round; jelly center.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K? ... Kolache! Small pastry; filling center.",
+      "text": "Plan, heat, or cool—K? ... Kolache! Small pastry; filling center.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Find L, hold the beat ... Lemon Tart! Tart shell; lemon filling.",
+      "text": "Final-day L ... Lemon Tart! Tart shell; lemon filling.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -358,21 +358,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Storybook baking—one-two-three!",
+      "text": "Plan, make, cool—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Bread and cake words, A to Z!",
+      "text": "Heat belongs with the adult; finishing waits for the bake to settle.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Muffin! Cup base; rounded top.",
+      "text": "Workflow M ... Muffin! Cup base; rounded top.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Remember N ... Nut Bread! Loaf; nut-specked crumb.",
+      "text": "Bake stage N ... Nut Bread! Loaf; nut-specked crumb.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O? ... Orange Cake! Cake slice; citrus layer or decoration.",
+      "text": "Plan, heat, or cool—O? ... Orange Cake! Cake slice; citrus layer or decoration.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Find P, hold the beat ... Pie! Crust edge; filling inside.",
+      "text": "Final-day P ... Pie! Crust edge; filling inside.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Queen Cake! Small individual sponge shape.",
+      "text": "Workflow Q ... Queen Cake! Small individual sponge shape.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Remember R ... Raisin Bread! Loaf; raisin-specked crumb.",
+      "text": "Bake stage R ... Raisin Bread! Loaf; raisin-specked crumb.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S? ... Sprinkles! Tiny dots over topping.",
+      "text": "Plan, heat, or cool—S? ... Sprinkles! Tiny dots over topping.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Find T, hold the beat ... Tart! Shallow shell; open filling.",
+      "text": "Final-day T ... Tart! Shallow shell; open filling.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Ube Roll! Purple cake spiral.",
+      "text": "Workflow U ... Ube Roll! Purple cake spiral.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Remember V ... Vanilla Cake! Cake slice; crumb and layers.",
+      "text": "Bake stage V ... Vanilla Cake! Cake slice; crumb and layers.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W? ... Wholegrain Bread! Loaf; grain-flecked crumb.",
+      "text": "Plan, heat, or cool—W? ... Wholegrain Bread! Loaf; grain-flecked crumb.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X, hold the beat ... Xmas Cookie! Shaped cookie; decoration dots.",
+      "text": "Final-day X ... Xmas Cookie! Shaped cookie; decoration dots.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,21 +468,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Storybook baking—one-two-three!",
+      "text": "Plan, make, cool—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Bread and cake words, A to Z!",
+      "text": "Heat belongs with the adult; finishing waits for the bake to settle.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yule Log! Log shape; cake spiral.",
+      "text": "Workflow Y ... Yule Log! Log shape; cake spiral.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -490,7 +490,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Remember Z ... Zucchini Bread! Loaf; zucchini-flecked crumb.",
+      "text": "Bake stage Z ... Zucchini Bread! Loaf; zucchini-flecked crumb.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -498,14 +498,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Storybook baking—one-two-three!",
+      "text": "Oven off, rack cool, counter clean, recipe card closed.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Close the page softly—our bakery picture song stays in the melody!",
+      "text": "A to Z—and song one hundred—ends only after the baking day is safely done.",
       "objective": "narration",
       "objectReveal": "none"
     }

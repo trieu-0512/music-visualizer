@@ -6,8 +6,8 @@
   "tempoBpm": 92,
   "motifFamily": "pastry-bounce",
   "hook": [
-    "Pat the beat, let the letter rise!",
-    "Name the baked clue with your eyes!"
+    "Yeast, layer, batter—A-B-C!",
+    "Sort the structure before you bounce the rhyme."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat before confirmation",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "storybook bakery visitor using pretend motions only",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 notices shape, layers, crust, swirl, crumb or topping; keep it descriptive and musical rather than advertising sweetness.",
-    "round2Grammar": "Round 2 uses a clean recall gap and item-specific visual gestures: pies/tarts trace crust and filling; cupcakes show wrapper and top; donuts make ring/fill shapes; eclairs go oblong; macarons show two shells plus filling; layered pastries stack fingers; breads show loaf, score, roll, cross, raisins, nuts, or wholegrain flecks; pretzels knot; waffles grid; roll cakes spiral; toppings spread, drip, or sprinkle in the air. Ice Cream stays a frozen scoop clue. No real baking operations are instructed.",
+    "rhymeEngine": "dough-family-leavening-rhyme",
+    "chorusRhymeEngine": "yeast-layer-batter-hook",
+    "pointOfView": "a child classifying bakery structures",
+    "chorusFunction": "repeat yeast-layer-batter-crust",
+    "grooveMeter": "4/4 family-sort pulse",
+    "round1Grammar": "structure family fact",
+    "round2Grammar": "family cue -> recall beat -> target -> card-sort gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a marimba dough-bounce followed by one soft ukulele shape answer.",
     "signatureColor": "a marimba dough-bounce followed by one soft ukulele shape answer",
+    "authorialIntent": "Make Bread and Pastry Bounce a dough-family lesson: yeast bread, laminated pastry, quick bread, tart crust, cake batter and frozen ice cream are separated by structure/leavening instead of all being pretend dough.",
+    "lyricIdentity": "A child sorts baked goods by how structure forms—yeast gas, steam/layers, chemical leavening, egg foam, crust or freezing.",
+    "imageMotifs": [
+      "yeast bread crumb",
+      "Danish lamination",
+      "scone quick bread",
+      "pie crust",
+      "ice cream frozen exception"
+    ],
+    "semanticArc": [
+      "yeast doughs",
+      "laminated/crust pastries",
+      "cakes/quick breads",
+      "frozen/non-dough exceptions"
+    ],
+    "forbiddenGenericLanguage": [
+      "pretend dough for everything",
+      "pat roll all treats",
+      "all pastries yeast",
+      "bounce bread"
+    ],
     "chorusAfterRound1": [
       2,
       6

@@ -6,8 +6,8 @@
   "tempoBpm": 89,
   "motifFamily": "sweet-shop",
   "hook": [
-    "Picture case, row by row!",
-    "Name the treat and let it go!"
+    "Read, name, check—A-B-C!",
+    "The picture starts the clue; the ingredient label finishes it."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one browse beat before answer",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "storybook bakery visitor using pretend motions only",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "light swung 4/4",
-    "round1Grammar": "Round 1 notices shape, layers, crust, swirl, crumb or topping; keep it descriptive and musical rather than advertising sweetness.",
-    "round2Grammar": "Round 2 uses a clean recall gap and item-specific visual gestures: pies/tarts trace crust and filling; cupcakes show wrapper and top; donuts make ring/fill shapes; eclairs go oblong; macarons show two shells plus filling; layered pastries stack fingers; breads show loaf, score, roll, cross, raisins, nuts, or wholegrain flecks; pretzels knot; waffles grid; roll cakes spiral; toppings spread, drip, or sprinkle in the air. Ice Cream stays a frozen scoop clue. No real baking operations are instructed.",
+    "rhymeEngine": "bakery-label-ingredient-literacy-rhyme",
+    "chorusRhymeEngine": "read-name-check-hook",
+    "pointOfView": "a child reading bakery labels with an adult",
+    "chorusFunction": "repeat read-name-check",
+    "grooveMeter": "walking 4/4 display-case pulse",
+    "round1Grammar": "product identity plus recipe/allergen caveat",
+    "round2Grammar": "label cue -> recall beat -> target -> point/read gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a quiet acoustic shelf-pluck plus marimba confirmation.",
     "signatureColor": "a quiet acoustic shelf-pluck plus marimba confirmation",
+    "authorialIntent": "Make Sweet Shop Picture Walk a label-literacy song: ingredient names, allergens, serving labels and product categories matter more than appearance; the child reads before assuming what a pastry contains.",
+    "lyricIdentity": "A child walks the display case reading name cards and ingredient/allergen notes, learning that visual similarity cannot guarantee recipe contents.",
+    "imageMotifs": [
+      "allergen card",
+      "nut bread label",
+      "icing versus glaze label",
+      "hot cross bun name",
+      "X-shaped pretzel geometry card"
+    ],
+    "semanticArc": [
+      "name/category",
+      "ingredient variability",
+      "allergen label",
+      "final display literacy"
+    ],
+    "forbiddenGenericLanguage": [
+      "sweet shop all safe",
+      "name from shape alone",
+      "one recipe each",
+      "treat parade"
+    ],
     "chorusAfterRound1": [
       2,
       4,

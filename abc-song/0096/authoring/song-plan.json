@@ -6,8 +6,8 @@
   "tempoBpm": 86,
   "motifFamily": "bakery-morning",
   "hook": [
-    "Shape and swirl—A-B-C!",
-    "Bakery pictures, name with me!"
+    "Rise, bake, cool—A-B-C!",
+    "Finish comes later when the structure is ready."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two gentle beats before target",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "storybook bakery visitor using pretend motions only",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "elastic 4/4 bounce",
-    "round1Grammar": "Round 1 notices shape, layers, crust, swirl, crumb or topping; keep it descriptive and musical rather than advertising sweetness.",
-    "round2Grammar": "Round 2 uses a clean recall gap and item-specific visual gestures: pies/tarts trace crust and filling; cupcakes show wrapper and top; donuts make ring/fill shapes; eclairs go oblong; macarons show two shells plus filling; layered pastries stack fingers; breads show loaf, score, roll, cross, raisins, nuts, or wholegrain flecks; pretzels knot; waffles grid; roll cakes spiral; toppings spread, drip, or sprinkle in the air. Ice Cream stays a frozen scoop clue. No real baking operations are instructed.",
+    "rhymeEngine": "bakery-morning-process-timeline-rhyme",
+    "chorusRhymeEngine": "rise-bake-cool-hook",
+    "pointOfView": "a child observing professional bakery stages",
+    "chorusFunction": "repeat rise-bake-cool-finish",
+    "grooveMeter": "6/8 dawn-to-display build",
+    "round1Grammar": "process identity plus structure",
+    "round2Grammar": "process cue -> recall beat -> target -> timeline gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a warm guitar crumb-pluck and glockenspiel display ping after the target.",
     "signatureColor": "a warm guitar crumb-pluck and glockenspiel display ping after the target",
+    "authorialIntent": "Make Bakery Morning ABC a timeline from pre-dawn dough and oven work to cooling, filling, glazing and display, with foods described as outcomes of distinct processes rather than interchangeable sweets.",
+    "lyricIdentity": "A child watches a bakery wake in stages without operating equipment: dough rises, laminated pastry flakes, cakes cool, fillings and finishes come later.",
+    "imageMotifs": [
+      "bread proofing before dawn",
+      "Danish layers",
+      "eclair shell cooling",
+      "macaron shells filled later",
+      "glaze on cooled pastry"
+    ],
+    "semanticArc": [
+      "dough/proof",
+      "bake",
+      "cool/fill",
+      "finish/display"
+    ],
+    "forbiddenGenericLanguage": [
+      "bakery picture window",
+      "everything sweet",
+      "fresh from oven all day",
+      "shape swirl clue"
+    ],
     "chorusAfterRound1": [
       3,
       7
