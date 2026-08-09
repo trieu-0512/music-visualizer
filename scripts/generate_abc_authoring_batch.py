@@ -28,6 +28,8 @@ from abc_creative_gold_v5_81_85 import GOLD_V5_81_85_SPEC_PATCHES
 from abc_creative_gold_v5_86_90 import GOLD_V5_86_90_SPEC_PATCHES
 from abc_creative_gold_v5_91_95 import GOLD_V5_91_95_SPEC_PATCHES
 from abc_creative_gold_v5_96_100 import GOLD_V5_96_100_SPEC_PATCHES
+from abc_creative_gold_v5_101_105 import GOLD_V5_101_105_SPEC_PATCHES
+from abc_creative_gold_v5_101_200_support import OBJECT_CRAFT_REGISTRY
 from abc_creative_v4_11_50 import (
     object_craft as object_craft_v4_11_50,
     rhyme_phraselet as rhyme_phraselet_v4_11_50,
@@ -802,6 +804,8 @@ def creative_spec(profile: SongProfile) -> CreativeSpec | None:
         payload = {**payload, **GOLD_V5_91_95_SPEC_PATCHES[profile.song_id]}
     if payload is not None and profile.song_id in GOLD_V5_96_100_SPEC_PATCHES:
         payload = {**payload, **GOLD_V5_96_100_SPEC_PATCHES[profile.song_id]}
+    if profile.song_id in GOLD_V5_101_105_SPEC_PATCHES:
+        payload = {**(payload or {}), **GOLD_V5_101_105_SPEC_PATCHES[profile.song_id]}
     return CreativeSpec(**payload) if payload is not None else None
 
 
@@ -909,6 +913,8 @@ def curated_object_craft(profile: SongProfile, obj: str) -> tuple[str, str] | No
     # earlier, unrelated theme merely because the spelling matches.
     if 51 <= number <= 100:
         return object_craft_v4_51_100(profile.song_id, obj)
+    if 101 <= number <= 200:
+        return OBJECT_CRAFT_REGISTRY.get((profile.song_id, obj))
     craft = OBJECT_CRAFT.get(obj)
     if craft is None:
         craft = object_craft_v4_11_50(profile.song_id, obj)

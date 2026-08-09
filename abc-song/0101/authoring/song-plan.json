@@ -6,11 +6,79 @@
   "tempoBpm": 90,
   "motifFamily": "class-parade",
   "hook": [
-    "Classroom parade—A-B-C!",
-    "School things march for us to see!"
+    "Place, use, return—A-B-C!",
+    "Find the tool, then put the idea back where it belongs."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Picture Parade",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "classroom-place-purpose-chain",
+    "chorusRhymeEngine": "place-use-return-hook",
+    "pointOfView": "a child mapping where classroom supplies belong",
+    "chorusFunction": "reset place-use-return",
+    "grooveMeter": "steady 4/4 tidy-room walk",
+    "round1Grammar": "object -> real function -> storage/use distinction",
+    "round2Grammar": "neutral recall -> exact target -> safe point/shape action",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "place-purpose",
+    "authorialIntent": "Turn Classroom Picture Parade into an organization walk: supplies move from carry-in to work surface, reference area, storage, and return-home positions, so objects have jobs instead of merely marching past.",
+    "lyricIdentity": "A child follows where classroom objects belong and why; organization becomes the narrative spine, with tools that can cut, stain, or store data given explicit boundaries.",
+    "imageMotifs": [
+      "backpack arrival",
+      "paper-and-pencil work zone",
+      "globe and map reference shelf",
+      "organizer compartments",
+      "zip-up return routine"
+    ],
+    "semanticArc": [
+      "arrive and unpack",
+      "work and reference",
+      "organize and retrieve",
+      "return and reset"
+    ],
+    "forbiddenGenericLanguage": [
+      "classroom parade",
+      "school things march",
+      "put it in the parade",
+      "everything is a learning tool"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

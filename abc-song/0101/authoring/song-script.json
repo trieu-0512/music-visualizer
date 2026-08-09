@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore classroom supplies with me!",
+      "text": "Backpack by the hook, paper at the work table, globe on the reference shelf.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Classroom parade—A-B-C!",
+      "text": "A classroom gets easier to use when every object has a place and a purpose.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A puts Art Paper in our classroom parade.",
+      "text": "A — Art Paper! | Drawing/craft paper; thickness and surface vary by medium.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B puts Backpack in our classroom parade.",
+      "text": "B ... B ... Backpack! | School bag; two fitted shoulder straps help spread a sensible load.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C puts Crayon in our classroom parade.",
+      "text": "C? Crayon! | Colored wax-based drawing stick makes broad marks without liquid ink; classroom versions should be age-appropriate and non-toxic.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D puts Dictionary in our classroom parade.",
+      "text": "D is Dictionary. Word reference gives spelling, meaning, pronunciation, and usage. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E puts Eraser in our classroom parade.",
+      "text": "E — Eraser! | Rubber-like material lifts many graphite marks from paper; it does not erase every kind of ink or damage-free mark.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F puts Folder in our classroom parade.",
+      "text": "F ... F ... Folder! | Folded cover keeps loose papers together and separates subjects or projects.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G puts Globe in our classroom parade.",
+      "text": "G? Globe! | Spherical Earth model reduces many shape distortions of flat maps, while remaining tiny-scale.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H puts Highlighter in our classroom parade.",
+      "text": "H is Highlighter. Translucent marker emphasizes selected text while leaving words visible; highlighting everything defeats its purpose. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Classroom parade—A-B-C!",
+      "text": "Place, use, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "School things march for us to see!",
+      "text": "Find the tool, then put the idea back where it belongs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I puts Ink in our classroom parade.",
+      "text": "I — Ink! | Colored liquid or paste carries pigment or dye to a surface and can stain, so lids and careful handling matter.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J puts Jigsaw Map in our classroom parade.",
+      "text": "J ... J ... Jigsaw Map! | Map puzzle breaks a geographic picture into interlocking pieces; matching shape and location rebuilds the whole.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K puts Knowledge Card in our classroom parade.",
+      "text": "K? Knowledge Card! | Project card holds a fact, clue, or concept; it is not one standardized product.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L puts Lunchbox in our classroom parade.",
+      "text": "L is Lunchbox. Food container; safe temperature control depends on contents and storage. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M puts Map in our classroom parade.",
+      "text": "M — Map! | Place model uses symbols, direction, scale, and selected features.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N puts Number Chart in our classroom parade.",
+      "text": "N ... N ... Number Chart! | Ordered grid or line displays numerals so learners can notice sequence, place, and numerical patterns.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O puts Organizer in our classroom parade.",
+      "text": "O? Organizer! | Compartments or labeled sections keep supplies separated so items can be found and returned efficiently.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P puts Pencil in our classroom parade.",
+      "text": "P is Pencil. Writing tool usually contains a graphite-and-clay core, not metallic lead; pressure changes line darkness. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Classroom parade—A-B-C!",
+      "text": "Place, use, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "School things march for us to see!",
+      "text": "Find the tool, then put the idea back where it belongs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q puts Question Card in our classroom parade.",
+      "text": "Q — Question Card! | Prompt asks for recall, explanation, comparison, or discussion; it is not the answer.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R puts Ruler in our classroom parade.",
+      "text": "R ... R ... Ruler! | Straight tool marks units such as centimeters or inches; measure from zero.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S puts Scissors in our classroom parade.",
+      "text": "S? Scissors! | Two pivoting blades cut material by shearing; preschool use requires suitable blunt-tip tools and adult supervision.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T puts Tape in our classroom parade.",
+      "text": "T is Tape. Flexible strip carries adhesive on one or both sides to join or hold materials temporarily or permanently. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U puts USB Drive in our classroom parade.",
+      "text": "U — USB Drive! | Flash-memory device stores files; supervised computer use prevents loss or mishandling.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V puts Violin Case in our classroom parade.",
+      "text": "V ... V ... Violin Case! | Protective container supports and shields a violin and bow during storage or transport; the case itself makes no musical pitch.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W puts Whiteboard in our classroom parade.",
+      "text": "W? Whiteboard! | Smooth reusable writing surface accepts dry-erase markers and can be wiped for the next idea.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X puts Xylophone in our classroom parade.",
+      "text": "X is Xylophone. Tuned-bar percussion instrument; shorter matching bars generally sound higher. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Classroom parade—A-B-C!",
+      "text": "Place, use, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "School things march for us to see!",
+      "text": "Find the tool, then put the idea back where it belongs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y puts Yellow Pencil in our classroom parade.",
+      "text": "Y — Yellow Pencil! | A pencil with a yellow-painted body still writes through its graphite core; body color does not change the writing mechanism.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z puts Zero Card in our classroom parade.",
+      "text": "Z ... Z ... Zero Card! | Card shows 0: no counted items in some contexts and a place-holding digit in others.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Art Paper! Point when the picture is displayed.",
+      "text": "Place check A ... Art Paper! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Backpack! Point when the picture is displayed.",
+      "text": "Find B ... Backpack! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Crayon! Point when the picture is displayed.",
+      "text": "Which one starts C? ... Crayon! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Dictionary! Point when the picture is displayed.",
+      "text": "Check D ... Dictionary! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Eraser! Point when the picture is displayed.",
+      "text": "Place check E ... Eraser! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Folder! Point when the picture is displayed.",
+      "text": "Find F ... Folder! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Globe! Point when the picture is displayed.",
+      "text": "Which one starts G? ... Globe! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Highlighter! Point when the picture is displayed.",
+      "text": "Check H ... Highlighter! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Classroom parade—A-B-C!",
+      "text": "Place, use, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "School things march for us to see!",
+      "text": "Find the tool, then put the idea back where it belongs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Ink! Point when the picture is displayed.",
+      "text": "Place check I ... Ink! Point to the closed ink picture; do not mime pouring.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jigsaw Map! Point when the picture is displayed.",
+      "text": "Find J ... Jigsaw Map! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Knowledge Card! Point when the picture is displayed.",
+      "text": "Which one starts K? ... Knowledge Card! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Lunchbox! Point when the picture is displayed.",
+      "text": "Check L ... Lunchbox! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Map! Point when the picture is displayed.",
+      "text": "Place check M ... Map! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Number Chart! Point when the picture is displayed.",
+      "text": "Find N ... Number Chart! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Organizer! Point when the picture is displayed.",
+      "text": "Which one starts O? ... Organizer! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Pencil! Point when the picture is displayed.",
+      "text": "Check P ... Pencil! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Classroom parade—A-B-C!",
+      "text": "Place, use, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "School things march for us to see!",
+      "text": "Find the tool, then put the idea back where it belongs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Question Card! Point when the picture is displayed.",
+      "text": "Place check Q ... Question Card! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Ruler! Point when the picture is displayed.",
+      "text": "Find R ... Ruler! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Scissors! Point when the picture is displayed.",
+      "text": "Which one starts S? ... Scissors! Point only; trace two blade shapes in the air while the real tool stays with an adult.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Tape! Point when the picture is displayed.",
+      "text": "Check T ... Tape! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... USB Drive! Point when the picture is displayed.",
+      "text": "Place check U ... USB Drive! Point to the USB picture; mime plugging into an imaginary port only.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Violin Case! Point when the picture is displayed.",
+      "text": "Find V ... Violin Case! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Whiteboard! Point when the picture is displayed.",
+      "text": "Which one starts W? ... Whiteboard! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xylophone! Point when the picture is displayed.",
+      "text": "Check X ... Xylophone! Tap two fingers gently on the opposite palm like two bars; no hard striking.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Classroom parade—A-B-C!",
+      "text": "Place, use, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "School things march for us to see!",
+      "text": "Find the tool, then put the idea back where it belongs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Pencil! Point when the picture is displayed.",
+      "text": "Place check Y ... Yellow Pencil! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zero Card! Point when the picture is displayed.",
+      "text": "Find Z ... Zero Card! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Classroom parade—A-B-C!",
+      "text": "Whiteboard cleared, pencil stored, backpack ready for the door.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z leaves the classroom organized for the next learner.",
       "objective": "narration",
       "objectReveal": "none"
     }

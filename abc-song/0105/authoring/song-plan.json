@@ -6,11 +6,79 @@
   "tempoBpm": 94,
   "motifFamily": "class-action",
   "hook": [
-    "Classroom action—A-B-C!",
-    "Point, find, learn with me!"
+    "Choose, do, clean—A-B-C!",
+    "The activity is not finished until the tools are safe and stored."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Classroom Action ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "activity-reset-cadence-rhyme",
+    "chorusRhymeEngine": "choose-do-clean-hook",
+    "pointOfView": "a child participating in supervised classroom activities",
+    "chorusFunction": "reset choose-do-clean",
+    "grooveMeter": "94 BPM stop-start-clean pulse",
+    "round1Grammar": "material/tool function plus safe activity boundary",
+    "round2Grammar": "retrieval -> exact target -> empty-hand or point gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "activity-reset",
+    "authorialIntent": "Make Classroom Action ABC about activity cycles: choose materials, do an age-appropriate task, stop, clean, store, and reset; action never means grabbing every tool.",
+    "lyricIdentity": "A child learns that making and studying include setup and cleanup, while powered, staining, pinching, sharp, or digital objects get specific safe roles.",
+    "imageMotifs": [
+      "materials chosen before activity",
+      "small glue dot",
+      "paintbrush rinse",
+      "stapler teacher station",
+      "clean workbook-and-pencil reset"
+    ],
+    "semanticArc": [
+      "choose",
+      "work",
+      "pause/check",
+      "clean and store"
+    ],
+    "forbiddenGenericLanguage": [
+      "classroom action",
+      "brings to today's activity",
+      "do everything yourself",
+      "grab the tool"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

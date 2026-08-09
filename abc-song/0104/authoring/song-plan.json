@@ -6,11 +6,79 @@
   "tempoBpm": 84,
   "motifFamily": "learn-look",
   "hook": [
-    "Learn and look—A-B-C!",
-    "Find the classroom clue with me!"
+    "Notice, ask, check—A-B-C!",
+    "A good answer can survive another look."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: Learn and Look A-Z",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "observe-question-check-rhyme",
+    "chorusRhymeEngine": "notice-ask-check-hook",
+    "pointOfView": "a curious child verifying classroom claims",
+    "chorusFunction": "repeat notice-ask-check",
+    "grooveMeter": "84 BPM spacious inquiry pulse",
+    "round1Grammar": "concrete object fact plus what it can and cannot establish",
+    "round2Grammar": "question-safe recall -> target -> verification gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "inquiry-check",
+    "authorialIntent": "Make Learn and Look A-Z an evidence habit: observe a clue, ask a question, consult a source or tool, and check the answer; cards and charts are prompts, not magic containers of knowledge.",
+    "lyricIdentity": "The child practices uncertainty and verification—seeing starts an idea, but books, measurements, maps, and questions help test it.",
+    "imageMotifs": [
+      "alphabet chart observation",
+      "question card pause",
+      "ruler check",
+      "map versus globe comparison",
+      "zero on number card"
+    ],
+    "semanticArc": [
+      "notice",
+      "ask",
+      "check with source/tool",
+      "revise or confirm"
+    ],
+    "forbiddenGenericLanguage": [
+      "learn and look",
+      "our learning clue",
+      "look means know",
+      "card gives the truth"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

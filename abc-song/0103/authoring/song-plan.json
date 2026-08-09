@@ -6,11 +6,79 @@
   "tempoBpm": 92,
   "motifFamily": "school-step",
   "hook": [
-    "Step through school—A-B-C!",
-    "Every school-day word with me!"
+    "Arrive, learn, pack—A-B-C!",
+    "Different parts of the day ask for different tools."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "clean 3D classroom storybook, colorful supplies, simple desks, isolated objects; visual identity: School Day Steps",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "schoolday-timecourse-rhyme",
+    "chorusRhymeEngine": "arrive-learn-pack-hook",
+    "pointOfView": "a child narrating one school day in time",
+    "chorusFunction": "mark transitions in the day",
+    "grooveMeter": "92 BPM morning-to-afternoon contour",
+    "round1Grammar": "object fact anchored to plausible day phase",
+    "round2Grammar": "time-neutral recall so no target gets a false schedule claim",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "day-arc",
+    "authorialIntent": "Turn School Day Steps into a real day arc: arrive, settle, learn, make, read, practice, pack, and leave; objects appear where they make temporal sense instead of on one endless walk.",
+    "lyricIdentity": "A child moves through a school day with changing energy and task type; the same room feels different during reading, making, practice, and pack-up.",
+    "imageMotifs": [
+      "desk at morning settle",
+      "library-book quiet block",
+      "art-paper making block",
+      "workbook practice",
+      "zipper-pouch pack-up"
+    ],
+    "semanticArc": [
+      "arrival and setup",
+      "learning blocks",
+      "quiet/practice blocks",
+      "pack-up and departure"
+    ],
+    "forbiddenGenericLanguage": [
+      "school-day walk",
+      "step through school",
+      "meets during our walk",
+      "all day is one activity"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }
