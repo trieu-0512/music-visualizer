@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Look up—sunlight breaks through green.",
+      "text": "Start where the light is dim. Now follow one trunk upward.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A bright little clue swings into the scene.",
+      "text": "The rainforest changes every few meters above our heads.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Anaconda — that's A. It is a reptile with scales that moves close to the ground or through branches.",
+      "text": "A — Anaconda! Heavy scaled body stays close to water and low cover | our vertical map begins near the bottom.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Spot B: Banana! A banana plant has huge leaves and grows clusters of curved fruit.",
+      "text": "B ... B ... Banana! Huge leaves spread from a tall herb | curved fruit hangs below the green fans.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C brings Chameleon. It has gripping feet, independently moving eyes, and a long tongue for catching prey.",
+      "text": "C? Chameleon! Gripping feet hold branch or twig | eyes scan sideways while the body stays nearly still.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D? Drongo! A drongo is a dark-colored bird known for agile flight and a forked or notched tail.",
+      "text": "D is Drongo. Agile dark bird crosses an open gap | forked or notched tail cutting through brighter air.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Under the green canopy, here is E with Emerald Tree Boa. It is a green snake that coils around rainforest branches.",
+      "text": "E — Emerald Tree Boa! Green coils rest around branches | one snake truly belonging in the tree layer.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Frog — that's F. It hops on land and swims with strong back legs.",
+      "text": "F ... F ... Frog! Strong back legs launch from wet ground or leaf | some rainforest frogs climb, others stay low.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Spot G: Gorilla! A gorilla is a primate that uses grasping hands to climb, hold, or move through its habitat.",
+      "text": "G? Gorilla! Powerful primate often moving on the forest floor | grasping hands can also help with climbing.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H brings Hornbill. It is a tropical bird with a large curved bill, often topped by a raised casque.",
+      "text": "H is Hornbill. Curved bill and casque show high against a light gap | broad wings cross between crowns.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Up in the canopy—A-B-C!",
+      "text": "Low, middle, high—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Tropical words grow high with me!",
+      "text": "Sunlight threads the canopy layer by layer.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I? Insect! Six legs to find | three body parts in line",
+      "text": "I — Insect! Six legs can work at every height | under litter, on bark, or among leaves above.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Under the green canopy, here is J with Jaguar. It is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "J ... J ... Jaguar! Spotted cat moves mainly through ground cover | but strong claws can take it up a tree.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kapok Tree — that's K. Trunk stands strong | leaves or needles spread along",
+      "text": "K? Kapok Tree! Massive trunk rises from the shaded floor | branches spread into the bright upper forest.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Spot L: Liana! A liana is a long woody vine that climbs through rainforest trees.",
+      "text": "L is Liana. Woody vine begins low and climbs by using trees for support | a living line between layers.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M brings Monkey. Swing and cling | grasping hands hold everything",
+      "text": "M — Monkey! Hands grip, feet push, body swings | branch to branch makes the middle and upper forest connected.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N? Nectar Bat! A nectar bat visits flowers and drinks nectar with a long tongue.",
+      "text": "N ... N ... Nectar Bat! Small wings move through flower-rich spaces | a long tongue reaches nectar where blooms open.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Under the green canopy, here is O with Ocelot. It is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "O? Ocelot! Spotted wild cat works through dense lower cover | a low-layer contrast to the birds overhead.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Palm — that's P. It is a woody plant with a trunk or strong stems and a crown of leaves or needles.",
+      "text": "P is Palm. Trunk or strong stems lift a crown of broad leaves | green fans catching higher light.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Spot Q: Queen Butterfly! A queen butterfly has orange-brown wings marked with dark veins and pale spots.",
+      "text": "Q — Queen Butterfly! Orange-brown wings cross sunlit gaps | small flutter between leaves at different heights.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R brings Rattan. It is a climbing palm with long flexible stems that weave through tropical forest.",
+      "text": "R ... R ... Rattan! Climbing palm sends long flexible stems through surrounding vegetation | another route upward.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S? Snake! A snake moves without legs by bending its long scaled body in muscular curves.",
+      "text": "S? Snake! Some stay low, some climb | a long scaled body can use very different rainforest layers.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Under the green canopy, here is T with Toucan. It is a tropical bird with an exceptionally large colorful bill.",
+      "text": "T is Toucan. Huge bill, perched body | one unmistakable silhouette high in the leafy crown.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Up in the canopy—A-B-C!",
+      "text": "Low, middle, high—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Tropical words grow high with me!",
+      "text": "Sunlight threads the canopy layer by layer.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Umbrella Leaf — that's U. Sway and grow | plant finds light from down below",
+      "text": "U — Umbrella Leaf! Broad leaf catches light like a green roof | shade forms beneath it.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Spot V: Vine! Vine is a plant adapted to its habitat, using leaves, stems, roots, or climbing growth to reach water and light.",
+      "text": "V ... V ... Vine! Stem reaches and trails through support | vertical green stitching one layer to another.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W brings Waterfall. Water falls tall | rushing sheet by rocky wall",
+      "text": "W? Waterfall! It ignores our neat layers | water drops from high rock toward the forest floor in one long line.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X? Xenops! A xenops is a small tropical bird that searches bark and branches for insects.",
+      "text": "X is Xenops. Small tropical bird works along bark and branches | searching surfaces for insects.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Under the green canopy, here is Y with Yellow Anaconda. It is a large South American snake with dark blotches on yellowish skin.",
+      "text": "Y — Yellow Anaconda! Large blotched snake stays tied to low wet habitat | another reason not to call every rainforest animal a canopy animal.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zingiber Plant — that's Z. It is a tropical ginger relative that grows leafy stems from underground rhizomes.",
+      "text": "Z ... Z ... Zingiber Plant! Leafy stems rise from rhizomes underground | a tropical plant closing our map near the lower green.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,28 +255,28 @@
     {
       "id": "chorus-r1-7-1",
       "sectionId": "chorus-r1-7",
-      "text": "Up in the canopy—A-B-C!",
+      "text": "Low, middle, high—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-7-2",
       "sectionId": "chorus-r1-7",
-      "text": "Tropical words grow high with me!",
+      "text": "Sunlight threads the canopy layer by layer.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "interlude-1",
       "sectionId": "mid-interlude",
-      "text": "The canopy hushes for one beat—now the clues come back.",
+      "text": "Look down from the canopy for one quiet beat—what layers can we remember?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Spot A ... Anaconda! Trace one slow curving path with a finger.",
+      "text": "Layer map A ... Anaconda! Trace one slow curving path with a finger.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -284,7 +284,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Remember B ... Banana! Point to the matching picture, then make one small shape gesture.",
+      "text": "Low or high, B ... Banana! Point to the matching picture, then make one small shape gesture.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -292,7 +292,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C? ... Chameleon! Trace one slow curving path with a finger.",
+      "text": "Where is C? ... Chameleon! Trace one slow curving path with a finger.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -300,7 +300,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Find D ... Drongo! Lift two gentle wings, then hold still.",
+      "text": "Canopy clue D ... Drongo! Lift two gentle wings, then hold still.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -308,7 +308,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Spot E ... Emerald Tree Boa! Trace one slow curving path with a finger.",
+      "text": "Layer map E ... Emerald Tree Boa! Trace one slow curving path with a finger.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -316,7 +316,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Frog! Make one little finger-hop.",
+      "text": "Low or high, F ... Frog! Make one little finger-hop.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -324,7 +324,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G? ... Gorilla! Reach one hand up like a gentle climber.",
+      "text": "Where is G? ... Gorilla! Reach one hand up like a gentle climber.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -332,7 +332,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Find H ... Hornbill! Lift two gentle wings, then hold still.",
+      "text": "Canopy clue H ... Hornbill! Lift two gentle wings, then hold still.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -340,7 +340,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Spot I ... Insect! Make tiny walking fingers.",
+      "text": "Layer map I ... Insect! Make tiny walking fingers.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -348,7 +348,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Remember J ... Jaguar! Make two quiet paw-steps.",
+      "text": "Low or high, J ... Jaguar! Make two quiet paw-steps.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -356,7 +356,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K? ... Kapok Tree! Reach both hands up like branches.",
+      "text": "Where is K? ... Kapok Tree! Reach both hands up like branches.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -364,7 +364,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Find L ... Liana! Grow one hand upward, then sway.",
+      "text": "Canopy clue L ... Liana! Grow one hand upward, then sway.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -372,7 +372,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Spot M ... Monkey! Reach one hand up like a gentle climber.",
+      "text": "Layer map M ... Monkey! Reach one hand up like a gentle climber.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Remember N ... Nectar Bat! Point to the matching picture, then make one small shape gesture.",
+      "text": "Low or high, N ... Nectar Bat! Point to the matching picture, then make one small shape gesture.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O? ... Ocelot! Make two quiet paw-steps.",
+      "text": "Where is O? ... Ocelot! Make two quiet paw-steps.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Find P ... Palm! Reach both hands up like branches.",
+      "text": "Canopy clue P ... Palm! Reach both hands up like branches.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,21 +404,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Up in the canopy—A-B-C!",
+      "text": "Low, middle, high—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Tropical words grow high with me!",
+      "text": "Sunlight threads the canopy layer by layer.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Spot Q ... Queen Butterfly! Wiggle tiny fingers or make a small flutter.",
+      "text": "Layer map Q ... Queen Butterfly! Wiggle tiny fingers or make a small flutter.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -426,7 +426,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Remember R ... Rattan! Grow one hand upward, then sway.",
+      "text": "Low or high, R ... Rattan! Grow one hand upward, then sway.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -434,7 +434,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S? ... Snake! Trace one slow curving path with a finger.",
+      "text": "Where is S? ... Snake! Trace one slow curving path with a finger.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -442,7 +442,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Find T ... Toucan! Lift two gentle wings, then hold still.",
+      "text": "Canopy clue T ... Toucan! Lift two gentle wings, then hold still.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -450,7 +450,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Spot U ... Umbrella Leaf! Grow one hand upward, then sway.",
+      "text": "Layer map U ... Umbrella Leaf! Grow one hand upward, then sway.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -458,7 +458,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Remember V ... Vine! Grow one hand upward, then sway.",
+      "text": "Low or high, V ... Vine! Grow one hand upward, then sway.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -466,7 +466,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W? ... Waterfall! Let both hands tumble gently downward.",
+      "text": "Where is W? ... Waterfall! Let both hands tumble gently downward.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -474,7 +474,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X ... Xenops! Wiggle tiny fingers or make a small flutter.",
+      "text": "Canopy clue X ... Xenops! Wiggle tiny fingers or make a small flutter.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -482,7 +482,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Spot Y ... Yellow Anaconda! Trace one slow curving path with a finger.",
+      "text": "Layer map Y ... Yellow Anaconda! Trace one slow curving path with a finger.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -490,7 +490,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Remember Z ... Zingiber Plant! Grow one hand upward, then sway.",
+      "text": "Low or high, Z ... Zingiber Plant! Grow one hand upward, then sway.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -498,28 +498,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Up in the canopy—A-B-C!",
+      "text": "Low, middle, high—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Tropical words grow high with me!",
+      "text": "Sunlight threads the canopy layer by layer.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Up in the canopy—A-B-C!",
+      "text": "From the bright crown, our eyes travel back to the shaded floor.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—canopy sway stays with me!",
+      "text": "A to Z has climbed the whole green height.",
       "objective": "narration",
       "objectReveal": "none"
     }

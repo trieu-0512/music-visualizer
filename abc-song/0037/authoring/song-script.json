@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Hush... pale light over the snow.",
+      "text": "Low light lies blue in the snow while one dark wing crosses it.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "One quiet letter glows on the tundra.",
+      "text": "Polar color is quiet until contrast teaches us where to look.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Arctic Fox — that's A. White in the light | thick fur warm in Arctic white",
+      "text": "A — Arctic Fox! Thick fur can look pale against winter snow | shape appears through shadow, ears, and movement.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Spot B: Beluga! A beluga is a pale whale with a rounded forehead that lives in cold northern seas.",
+      "text": "B ... B ... Beluga! Pale whale moves under blue-gray water | rounded forehead catches soft surface light.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C brings Caribou. Hooves go slow | sure-foot steps along below",
+      "text": "C? Caribou! Brown-gray body and antlers stand against open snow | dark legs sharpen the outline.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D? Dovekie! A dovekie is a small black-and-white seabird that dives for food in cold water.",
+      "text": "D is Dovekie. Black-and-white seabird | strong contrast makes a tiny bird readable against sea and sky.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Across the snow and ice, here is E with Ermine. It is a small weasel whose coat can turn white in winter in cold regions.",
+      "text": "E — Ermine! Small weasel may wear white winter fur in cold regions | dark eyes and nose remain clear points.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Floe — that's F. An ice floe is a flat piece of floating sea ice.",
+      "text": "F ... F ... Floe! Flat sea ice carries pale light on top | blue water cuts a darker edge around it.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Spot G: Goose! Glide wide | grassy banks on either side",
+      "text": "G? Goose! Feathered body crosses low tundra | color changes with species, but shape and wingbeat stay useful clues.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H brings Harp Seal. It is a northern seal whose adults have a dark harp-shaped marking on the back.",
+      "text": "H is Harp Seal. Pale coat can carry a dark harp-shaped marking in adults | pattern holds even in low color.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Tundra glow—A-B-C!",
+      "text": "Pale, dark, blue—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Ice and snow shine back to me!",
+      "text": "Low light makes small colors matter more.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I? Icefish! Blue below | ocean swimmer on the go",
+      "text": "I — Icefish! Cold-water fish stays below the bright ice surface | underwater light softens every edge.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Across the snow and ice, here is J with Jaeger. It is a strong-flying seabird of northern oceans and tundra.",
+      "text": "J ... J ... Jaeger! Darker seabird sweeps over pale ground and water | contrast makes fast flight easy to follow.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Krill — that's K. Dive and glide | cold-water life moves side to side",
+      "text": "K? Krill! Tiny crustaceans gather in cold water | small bodies become visible through number, not bold color.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Spot L: Lynx! A lynx is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "L is Lynx. Fur, ear tufts, and quiet outline | a warm-toned wild cat shape against colder ground.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M brings Musk Ox. Hooves on ground | steady little steps go round",
+      "text": "M — Musk Ox! Dark shaggy coat stands heavy against snow | long hair makes a broad silhouette.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N? Northern Fulmar! A northern fulmar is a seabird that glides on stiff wings over cold ocean water.",
+      "text": "N ... N ... Northern Fulmar! Gray-white seabird glides over steel-blue water | soft colors, strong wing shape.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Across the snow and ice, here is O with Owl. Owl in the night | round eyes watching, wings in flight",
+      "text": "O? Owl! Round head and wings can appear as pale or dark shapes depending on species | silhouette matters more than glitter.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Puffin — that's P. It is a black-and-white seabird with a colorful bill and strong wings for both flight and underwater swimming.",
+      "text": "P is Puffin. Black-and-white body with a colorful bill | one small patch of strong color near cold water.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Spot Q: Quartz! Quartz is a hard mineral that can sparkle with a glassy surface.",
+      "text": "Q — Quartz! Hard mineral catches low-angle light with a glassy flash | a stone clue, not living glow.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R brings Ringed Seal. It is a small Arctic seal with pale ring-shaped markings on its coat.",
+      "text": "R ... R ... Ringed Seal! Pale ring patterns mark a gray coat | circles break up the body against ice and sea.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S? Snowy Owl! Wing to sky | feathered bird goes gliding by",
+      "text": "S? Snowy Owl! Pale feathers blend with snow | dark eyes give the face its clearest contrast.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Across the snow and ice, here is T with Tundra. It is cold open land where trees are scarce and low plants grow.",
+      "text": "T is Tundra. Low plants, snow, rock, and long sky | a wide background where tiny color differences matter.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Umiak — that's U. It is a traditional open Arctic boat used to carry people and supplies.",
+      "text": "U — Umiak! Traditional open Arctic boat | dark hull shape can sit clearly against pale shore or water.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Spot V: Vole! A vole is a small mammal that moves close to the ground and searches its habitat for food or shelter.",
+      "text": "V ... V ... Vole! Small ground mammal stays low | little dark movement against snow can reveal it before detail does.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W brings Walrus. Tusks in view | whiskered walrus in the blue",
+      "text": "W? Walrus! Brown heavy body, pale tusks | warm earth color against cold blue-gray sea.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X? X-ray Fish! An X-ray fish has a partly see-through body that can reveal tiny bones.",
+      "text": "X is X-ray Fish. Partly transparent body can reveal internal structures | an unusual light-and-body clue far from Arctic camouflage.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Tundra glow—A-B-C!",
+      "text": "Pale, dark, blue—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Ice and snow shine back to me!",
+      "text": "Low light makes small colors matter more.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Across the snow and ice, here is Y with Yellow-billed Loon. Wing to sky | feathered bird goes gliding by",
+      "text": "Y — Yellow-billed Loon! Dark-and-pale northern bird | the yellow bill becomes a small strong color at the end of day.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zoarcid Fish — that's Z. It is an eel-shaped fish from a family often called eelpouts.",
+      "text": "Z ... Z ... Zoarcid Fish! Eel-shaped cold-water fish | soft underwater light follows the long body into blue shadow.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,14 +255,14 @@
     {
       "id": "interlude-1",
       "sectionId": "mid-interlude",
-      "text": "Snow goes quiet for one breath—now call the cold-climate words back.",
+      "text": "Close your eyes for one beat—what pale, dark, or blue clues return?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Spot A ... Arctic Fox! Make two quiet paw-steps.",
+      "text": "Light clue A ... Arctic Fox! Make two quiet paw-steps.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Remember B ... Beluga! Glide one hand gently like a swimmer.",
+      "text": "Contrast B ... Beluga! Glide one hand gently like a swimmer.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C? ... Caribou! Tap two quiet hoof-beats with your fingers.",
+      "text": "Pale or dark, C? ... Caribou! Tap two quiet hoof-beats with your fingers.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Find D ... Dovekie! Lift two gentle wings, then hold still.",
+      "text": "Blue-shadow D ... Dovekie! Lift two gentle wings, then hold still.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Spot E ... Ermine! Make one small quiet paw-step.",
+      "text": "Light clue E ... Ermine! Make one small quiet paw-step.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Floe! Trace the land or ice shape in the air.",
+      "text": "Contrast F ... Floe! Trace the land or ice shape in the air.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G? ... Goose! Glide one hand across the water.",
+      "text": "Pale or dark, G? ... Goose! Glide one hand across the water.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Find H ... Harp Seal! Glide one hand gently like a swimmer.",
+      "text": "Blue-shadow H ... Harp Seal! Glide one hand gently like a swimmer.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Spot I ... Icefish! Glide one hand gently like a swimmer.",
+      "text": "Light clue I ... Icefish! Glide one hand gently like a swimmer.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Remember J ... Jaeger! Lift two gentle wings, then hold still.",
+      "text": "Contrast J ... Jaeger! Lift two gentle wings, then hold still.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K? ... Krill! Glide one hand gently like a swimmer.",
+      "text": "Pale or dark, K? ... Krill! Glide one hand gently like a swimmer.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Find L ... Lynx! Make two quiet paw-steps.",
+      "text": "Blue-shadow L ... Lynx! Make two quiet paw-steps.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -358,21 +358,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Tundra glow—A-B-C!",
+      "text": "Pale, dark, blue—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Ice and snow shine back to me!",
+      "text": "Low light makes small colors matter more.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Spot M ... Musk Ox! Tap two quiet hoof-beats with your fingers.",
+      "text": "Light clue M ... Musk Ox! Tap two quiet hoof-beats with your fingers.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Remember N ... Northern Fulmar! Lift two gentle wings, then hold still.",
+      "text": "Contrast N ... Northern Fulmar! Lift two gentle wings, then hold still.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O? ... Owl! Lift two gentle wings, then hold still.",
+      "text": "Pale or dark, O? ... Owl! Lift two gentle wings, then hold still.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Find P ... Puffin! Lift two gentle wings, then hold still.",
+      "text": "Blue-shadow P ... Puffin! Lift two gentle wings, then hold still.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Spot Q ... Quartz! Trace the land or ice shape in the air.",
+      "text": "Light clue Q ... Quartz! Trace the land or ice shape in the air.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Remember R ... Ringed Seal! Glide one hand gently like a swimmer.",
+      "text": "Contrast R ... Ringed Seal! Glide one hand gently like a swimmer.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S? ... Snowy Owl! Lift two gentle wings, then hold still.",
+      "text": "Pale or dark, S? ... Snowy Owl! Lift two gentle wings, then hold still.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Find T ... Tundra! Trace the land or ice shape in the air.",
+      "text": "Blue-shadow T ... Tundra! Trace the land or ice shape in the air.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Spot U ... Umiak! Point to the matching picture, then make one small shape gesture.",
+      "text": "Light clue U ... Umiak! Point to the matching picture, then make one small shape gesture.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Remember V ... Vole! Make two tiny walking or hopping finger-steps.",
+      "text": "Contrast V ... Vole! Make two tiny walking or hopping finger-steps.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W? ... Walrus! Glide one hand gently like a swimmer.",
+      "text": "Pale or dark, W? ... Walrus! Glide one hand gently like a swimmer.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X ... X-ray Fish! Make a gentle fish-swim with one hand.",
+      "text": "Blue-shadow X ... X-ray Fish! Make a gentle fish-swim with one hand.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,7 +468,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Spot Y ... Yellow-billed Loon! Lift two gentle wings, then hold still.",
+      "text": "Light clue Y ... Yellow-billed Loon! Lift two gentle wings, then hold still.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -476,7 +476,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Remember Z ... Zoarcid Fish! Glide one hand gently like a swimmer.",
+      "text": "Contrast Z ... Zoarcid Fish! Glide one hand gently like a swimmer.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -484,28 +484,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Tundra glow—A-B-C!",
+      "text": "Pale, dark, blue—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Ice and snow shine back to me!",
+      "text": "Low light makes small colors matter more.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Tundra glow—A-B-C!",
+      "text": "Blue shadow deepens; one yellow bill is still easy to find.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—tundra glow stays with me!",
+      "text": "A to Z fades into a softer kind of light.",
       "objective": "narration",
       "objectReveal": "none"
     }

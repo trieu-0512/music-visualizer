@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Whoosh... one red leaf spins down.",
+      "text": "One leaf lets go, turns once, and lands without hurrying.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Autumn letters drift without a sound.",
+      "text": "Autumn changes the forest unevenly—that is what makes it worth watching.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Look at A: Acorn! It is the hard-shelled seed of an oak tree, topped by a little cup.",
+      "text": "A — Acorn! Hard oak seed drops and rolls | a small autumn weight beneath loosening leaves.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B — Birch. Birch trees are easy to notice by their pale bark, often peeling in thin papery layers.",
+      "text": "B ... B ... Birch! Pale bark stays bright | many birch leaves turn yellow before they fall.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Under the trees, C meets Chipmunk. Hop or hide | little mammal moves outside",
+      "text": "C? Chipmunk! Quick paws move among seeds and leaves | autumn ground cover rustles around the small mammal.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D ... D ... Deer! A deer has sturdy legs and hooves and moves around on land.",
+      "text": "D is Deer. Hooves cross cooler soil | ears rise above grass losing some summer height.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "What did E find? Evergreen! Trunk stands strong | leaves or needles spread along",
+      "text": "E — Evergreen! While other leaves loosen, evergreen foliage stays | one deep green note inside changing color.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Look at F: Fox! It has pointed ears, a long bushy tail, and quiet paws for moving through its habitat.",
+      "text": "F ... F ... Fox! Bushy tail passes through copper leaves | soft paws barely move the cold ground.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G — Grass. Root down low | leaves reach up and grow",
+      "text": "G? Grass! Green fades toward straw in some patches | thin blades bend under fallen leaves.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Under the trees, H meets Hedgehog. It has a coat of stiff spines and can curl its body into a tight ball.",
+      "text": "H is Hedgehog. Spines slip through leaf cover | cool days make sheltered ground feel deeper.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Leaves drift down—A-B-C!",
+      "text": "Gold turns, red falls—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Autumn forest, sing with me!",
+      "text": "Some things change; some green stays with the trees.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I ... I ... Ivy! Climb and wind | ivy leaves trail close behind",
+      "text": "I — Ivy! Climbing leaves keep tracing bark | green against trunks where other foliage thins.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "What did J find? Juniper! It is an evergreen shrub or tree with needle- or scale-like leaves and berry-like seed cones.",
+      "text": "J ... J ... Juniper! Evergreen leaves and berry-like seed cones | a color that does not follow every falling leaf.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Look at K: Knot! It is a hard, twisted place in wood where a branch grew from the trunk.",
+      "text": "K? Knot! As branches show through thinner foliage | the old twist in wood becomes easier to notice.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L — Lynx. A lynx is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "L is Lynx. Quiet paws cross a colder floor | wild fur moves through longer evening shadow.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Under the trees, M meets Mushroom. It is the fruiting body of a fungus, often shaped like a cap on a stalk.",
+      "text": "M — Mushroom! Damp autumn ground can lift caps from leaf litter | soft shapes after rain.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N ... N ... Nest! A nest is a place birds build to hold eggs and chicks.",
+      "text": "N ... N ... Nest! When leaves thin, old branch-cups can be easier to spot | we still watch from a respectful distance.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "What did O find? Oak! Tree to sky | branches lift up high",
+      "text": "O? Oak! Leaves loosen one by one | acorns below carry the tree's next beginning.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Look at P: Pine! It is an evergreen tree with bundles of needles and woody cones.",
+      "text": "P is Pine. Needles stay green while broad leaves fall nearby | another way a forest can hold autumn.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q — Quail. Quail on the trail | ground bird with a little tail",
+      "text": "Q — Quail! Small ground bird moves through dry cover | quick feet disappear under leaf-color.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Under the trees, R meets River. A river flows downhill in a channel toward other water.",
+      "text": "R ... R ... River! Cold water keeps moving | fallen leaves turn, spin, and travel along the bank.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S ... S ... Spruce! Roots down low | branches reach and grow",
+      "text": "S? Spruce! Needle-covered branches remain green | dark shape against gold and bare twigs.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "What did T find? Tree! It has a woody trunk lifting branches and leaves high above its roots.",
+      "text": "T is Tree. Canopy thins, branches show | the same trunk wears a different season overhead.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Leaves drift down—A-B-C!",
+      "text": "Gold turns, red falls—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Autumn forest, sing with me!",
+      "text": "Some things change; some green stays with the trees.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Look at U: Upland Fern! Sway and grow | plant finds light from down below",
+      "text": "U — Upland Fern! Fronds can fade and fold as weather cools | feathered shapes settling toward the ground.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V — Violet. A violet is a small low-growing plant with soft purple, blue, white, or yellow flowers.",
+      "text": "V ... V ... Violet! Low leaves stay close to the soil | small green shapes beneath the fallen color.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Under the trees, W meets Wolf. It is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "W? Wolf! A distant wild shape crosses cooler country | we observe only from far away.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X ... X ... Xylophone! A xylophone is our X-word helper: a row of tuned bars makes different notes when struck.",
+      "text": "At the cabin porch, X is Xylophone—our X-word helper | a few wooden notes echo the tap of falling seeds.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "What did Y find? Yellow Warbler! Wing to sky | feathered bird goes gliding by",
+      "text": "Y — Yellow Warbler! A brief yellow flash among autumn leaves | one small bird-color before the branches open wider.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Look at Z: Zebra Swallowtail! It is a butterfly with black-and-white striped wings and long tails.",
+      "text": "Z ... Z ... Zebra Swallowtail! On a last warm patch, striped wings pass low | summer-like motion at the edge of the cooling season.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Look for A ... Acorn! Make a tiny cup-and-cap shape with two fingers.",
+      "text": "Autumn clue A ... Acorn! Make a tiny cup-and-cap shape with two fingers.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Birch! Reach both hands up like branches.",
+      "text": "Season check B ... Birch! Reach both hands up like branches.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Clue C? ... Chipmunk! Make two tiny walking or hopping finger-steps.",
+      "text": "Changed or steady, C? ... Chipmunk! Make two tiny walking or hopping finger-steps.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... D ... Deer! Tap two quiet hoof-beats with your fingers.",
+      "text": "Autumn recall D ... Deer! Tap two quiet hoof-beats with your fingers.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Look for E ... Evergreen! Reach both hands up like branches.",
+      "text": "Autumn clue E ... Evergreen! Reach both hands up like branches.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Fox! Make two quiet paw-steps.",
+      "text": "Season check F ... Fox! Make two quiet paw-steps.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Clue G? ... Grass! Grow one hand upward, then sway.",
+      "text": "Changed or steady, G? ... Grass! Grow one hand upward, then sway.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... H ... Hedgehog! Make two tiny walking or hopping finger-steps.",
+      "text": "Autumn recall H ... Hedgehog! Make two tiny walking or hopping finger-steps.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Look for I ... Ivy! Grow one hand upward, then sway.",
+      "text": "Autumn clue I ... Ivy! Grow one hand upward, then sway.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Juniper! Reach both hands up like branches.",
+      "text": "Season check J ... Juniper! Reach both hands up like branches.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Clue K? ... Knot! Twist two fingers together like a wood knot.",
+      "text": "Changed or steady, K? ... Knot! Twist two fingers together like a wood knot.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... L ... Lynx! Make two quiet paw-steps.",
+      "text": "Autumn recall L ... Lynx! Make two quiet paw-steps.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -358,7 +358,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Look for M ... Mushroom! Make one hand into a little mushroom cap.",
+      "text": "Autumn clue M ... Mushroom! Make one hand into a little mushroom cap.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -366,7 +366,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nest! Cup both hands like a nest.",
+      "text": "Season check N ... Nest! Cup both hands like a nest.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -374,7 +374,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Clue O? ... Oak! Reach both hands up like branches.",
+      "text": "Changed or steady, O? ... Oak! Reach both hands up like branches.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -382,7 +382,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... P ... Pine! Reach both hands up like branches.",
+      "text": "Autumn recall P ... Pine! Reach both hands up like branches.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -390,21 +390,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Leaves drift down—A-B-C!",
+      "text": "Gold turns, red falls—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Autumn forest, sing with me!",
+      "text": "Some things change; some green stays with the trees.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Look for Q ... Quail! Make tiny pecking finger taps.",
+      "text": "Autumn clue Q ... Quail! Make tiny pecking finger taps.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... River! Move one hand in a winding path.",
+      "text": "Season check R ... River! Move one hand in a winding path.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Clue S? ... Spruce! Reach both hands up like branches.",
+      "text": "Changed or steady, S? ... Spruce! Reach both hands up like branches.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... T ... Tree! Reach both hands up like branches.",
+      "text": "Autumn recall T ... Tree! Reach both hands up like branches.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Look for U ... Upland Fern! Grow one hand upward, then sway.",
+      "text": "Autumn clue U ... Upland Fern! Grow one hand upward, then sway.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Violet! Open both hands like a flower.",
+      "text": "Season check V ... Violet! Open both hands like a flower.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Clue W? ... Wolf! Make two quiet paw-steps.",
+      "text": "Changed or steady, W? ... Wolf! Make two quiet paw-steps.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... X ... Xylophone! Tap two fingers in the air like gentle xylophone mallets.",
+      "text": "Autumn recall X ... Xylophone! Tap two fingers in the air like gentle xylophone mallets.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,7 +468,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Look for Y ... Yellow Warbler! Lift two gentle wings, then hold still.",
+      "text": "Autumn clue Y ... Yellow Warbler! Lift two gentle wings, then hold still.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -476,7 +476,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zebra Swallowtail! Wiggle tiny fingers or make a small flutter.",
+      "text": "Season check Z ... Zebra Swallowtail! Wiggle tiny fingers or make a small flutter.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -484,28 +484,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Leaves drift down—A-B-C!",
+      "text": "Gold turns, red falls—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Autumn forest, sing with me!",
+      "text": "Some things change; some green stays with the trees.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Leaves drift down—A-B-C!",
+      "text": "The river carries one last leaf past the darkening bank.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—leaf sway stays with me!",
+      "text": "A to Z ends cooler, quieter, and more open than it began.",
       "objective": "narration",
       "objectReveal": "none"
     }

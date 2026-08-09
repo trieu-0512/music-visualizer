@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Water hums under a roof of leaves.",
+      "text": "Dark water moves under a roof of leaves.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "The river carries a letter downstream.",
+      "text": "We follow one slow bend without pretending the whole rainforest lives in the river.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Look at A: Anaconda! It is a reptile with scales that moves close to the ground or through branches.",
+      "text": "A — Anaconda! Heavy scaled body near wet bank and water | a low curve beside the moving current.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B — Boa. A boa is a thick-bodied snake that moves by muscular curves and can coil around branches.",
+      "text": "B ... B ... Boa! Thick-bodied snake can coil on branches | one dry perch above the river route.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Under the green canopy, C meets Ceiba Tree. Tree to sky | branches lift up high",
+      "text": "C? Ceiba Tree! Huge trunk rises from bank-side forest | crown disappears into the roof over our water.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D ... D ... Dragonfly! A dragonfly is a small creature that can be noticed by its legs, body shape, or movement.",
+      "text": "D is Dragonfly. Wings hover over the surface | quick turns catch reflected light at the first bend.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "What did E find? Elephant! It uses its long flexible trunk to smell, touch, drink, and pick things up.",
+      "text": "E — Elephant! Large feet stay on land | trunk can reach, smell, touch, and drink near water's edge.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Look at F: Fern! It unfurls divided green fronds from curled young growth called fiddleheads.",
+      "text": "F ... F ... Fern! Divided fronds lean from damp ground | quiet green at the edge of the current.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G — Gorilla. A gorilla is a primate that uses grasping hands to climb, hold, or move through its habitat.",
+      "text": "G? Gorilla! Powerful primate remains on forest ground and bank-side cover | not every river clue belongs in water.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Under the green canopy, H meets Hornbill. It is a tropical bird with a large curved bill, often topped by a raised casque.",
+      "text": "H is Hornbill. Large bill crosses overhead | broad wings move from one bank of green to the other.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Canopy river—A-B-C!",
+      "text": "Bank, bend, flow—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Flowing jungle words for me!",
+      "text": "Water below, green overhead, onward we go.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I ... I ... Iguana! An iguana is a large lizard with a long tail and a row of spines along its back.",
+      "text": "I — Iguana! Long tail lies along a branch or bank-side perch | spines make a clear silhouette above reflection.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "What did J find? Jungle Vine! It climbs through other plants to reach light in the canopy.",
+      "text": "J ... J ... Jungle Vine! Climbing stem drops through the green roof | one line nearly touching the river view.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Look at K: Kinkajou! Near the ground | tiny footsteps move around",
+      "text": "K? Kinkajou! Night-active branch traveler | gripping feet move above the route, not through the current.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L — Liana. A liana is a long woody vine that climbs through rainforest trees.",
+      "text": "L is Liana. Woody climber loops from trunk to trunk | its curve repeats in the water below.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Under the green canopy, M meets Monkey. Swing and cling | grasping hands hold everything",
+      "text": "M — Monkey! Branch grip, swing, pause | movement overhead follows the river bend beneath.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N ... N ... Nest! A nest is a place birds build to hold eggs and chicks.",
+      "text": "N ... N ... Nest! Twig cup held above the corridor | we pass quietly and leave it undisturbed.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "What did O find? Ocelot! It is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "O? Ocelot! Spotted cat moves through lower bank-side cover | quick shadow between roots and leaves.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Look at P: Palm! It is a woody plant with a trunk or strong stems and a crown of leaves or needles.",
+      "text": "P is Palm. Crown of broad leaves leans toward open light | reflection breaks into green pieces on the water.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q — Quetzal. Feather light | beak and wings come into sight",
+      "text": "Q — Quetzal! Bright bird crosses a canopy gap | color flashes above a darker river mirror.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Under the green canopy, R meets Rattan. It is a climbing palm with long flexible stems that weave through tropical forest.",
+      "text": "R ... R ... Rattan! Climbing palm weaves long flexible stems | tangled bank-side lines follow us downstream.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S ... S ... Sloth! Slow as we go | sloth hangs gently, moving low",
+      "text": "S? Sloth! Slow body hangs beneath a branch | current moves faster below than the animal moves above.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "What did T find? Toucan! It is a tropical bird with an exceptionally large colorful bill.",
+      "text": "T is Toucan. Huge bill perches over the corridor | one bold shape where canopy opens.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Look at U: Uakari! It is a rainforest monkey with a short tail and a distinctive bare face.",
+      "text": "U — Uakari! Short-tailed rainforest monkey moves among branches | another overhead clue beyond the next bend.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V — Vine. Vine is a plant adapted to its habitat, using leaves, stems, roots, or climbing growth to reach water and light.",
+      "text": "V ... V ... Vine! Stem climbs, trails, and crosses supports | green lines frame the river without becoming water plants.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Under the green canopy, W meets Water Vine. Leaf in light | green stems stretch up bright",
+      "text": "W? Water Vine! Long green stem threads through humid forest | a living line near our last shaded bend.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X ... X ... Xylophone! A xylophone is our X-word helper: a row of tuned bars makes different notes when struck.",
+      "text": "At the river camp, X is Xylophone—our X-word helper | tuned bars echo the three-beat current after the boat is still.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Canopy river—A-B-C!",
+      "text": "Bank, bend, flow—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Flowing jungle words for me!",
+      "text": "Water below, green overhead, onward we go.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "What did Y find? Yellow Anaconda! It is a large South American snake with dark blotches on yellowish skin.",
+      "text": "Y — Yellow Anaconda! Large yellowish snake with dark blotches | a wet-habitat curve seen from respectful distance.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Look at Z: Zingiber Plant! It is a tropical ginger relative that grows leafy stems from underground rhizomes.",
+      "text": "Z ... Z ... Zingiber Plant! Leafy stems rise from underground rhizomes | tropical green waiting near the landing.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,14 +255,14 @@
     {
       "id": "interlude-1",
       "sectionId": "mid-interlude",
-      "text": "The canopy hushes for one beat—now the clues come back.",
+      "text": "Let the boat-glide stop for one beat—what river-corridor clues return?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Look for A ... Anaconda! Trace one slow curving path with a finger.",
+      "text": "River-corridor clue A ... Anaconda! Trace one slow curving path with a finger.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Boa! Trace one slow curving path with a finger.",
+      "text": "Bank-or-branch B ... Boa! Trace one slow curving path with a finger.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Clue C? ... Ceiba Tree! Reach both hands up like branches.",
+      "text": "Where on the route, C? ... Ceiba Tree! Reach both hands up like branches.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... D ... Dragonfly! Wiggle tiny fingers or make a small flutter.",
+      "text": "Next bend, D ... Dragonfly! Wiggle tiny fingers or make a small flutter.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Look for E ... Elephant! Swing one arm gently like a trunk.",
+      "text": "River-corridor clue E ... Elephant! Swing one arm gently like a trunk.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Fern! Grow one hand upward, then sway.",
+      "text": "Bank-or-branch F ... Fern! Grow one hand upward, then sway.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Clue G? ... Gorilla! Reach one hand up like a gentle climber.",
+      "text": "Where on the route, G? ... Gorilla! Reach one hand up like a gentle climber.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... H ... Hornbill! Lift two gentle wings, then hold still.",
+      "text": "Next bend, H ... Hornbill! Lift two gentle wings, then hold still.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Look for I ... Iguana! Trace one slow curving path with a finger.",
+      "text": "River-corridor clue I ... Iguana! Trace one slow curving path with a finger.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jungle Vine! Grow one hand upward, then sway.",
+      "text": "Bank-or-branch J ... Jungle Vine! Grow one hand upward, then sway.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Clue K? ... Kinkajou! Make two tiny walking or hopping finger-steps.",
+      "text": "Where on the route, K? ... Kinkajou! Make two tiny walking or hopping finger-steps.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... L ... Liana! Grow one hand upward, then sway.",
+      "text": "Next bend, L ... Liana! Grow one hand upward, then sway.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -358,21 +358,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Canopy river—A-B-C!",
+      "text": "Bank, bend, flow—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Flowing jungle words for me!",
+      "text": "Water below, green overhead, onward we go.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Look for M ... Monkey! Reach one hand up like a gentle climber.",
+      "text": "River-corridor clue M ... Monkey! Reach one hand up like a gentle climber.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nest! Cup both hands like a nest.",
+      "text": "Bank-or-branch N ... Nest! Cup both hands like a nest.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Clue O? ... Ocelot! Make two quiet paw-steps.",
+      "text": "Where on the route, O? ... Ocelot! Make two quiet paw-steps.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... P ... Palm! Reach both hands up like branches.",
+      "text": "Next bend, P ... Palm! Reach both hands up like branches.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Look for Q ... Quetzal! Lift two gentle wings, then hold still.",
+      "text": "River-corridor clue Q ... Quetzal! Lift two gentle wings, then hold still.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Rattan! Grow one hand upward, then sway.",
+      "text": "Bank-or-branch R ... Rattan! Grow one hand upward, then sway.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Clue S? ... Sloth! Point to the matching picture, then make one small shape gesture.",
+      "text": "Where on the route, S? ... Sloth! Point to the matching picture, then make one small shape gesture.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... T ... Toucan! Lift two gentle wings, then hold still.",
+      "text": "Next bend, T ... Toucan! Lift two gentle wings, then hold still.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Look for U ... Uakari! Reach one hand up like a gentle climber.",
+      "text": "River-corridor clue U ... Uakari! Reach one hand up like a gentle climber.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Vine! Grow one hand upward, then sway.",
+      "text": "Bank-or-branch V ... Vine! Grow one hand upward, then sway.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Clue W? ... Water Vine! Grow one hand upward, then sway.",
+      "text": "Where on the route, W? ... Water Vine! Grow one hand upward, then sway.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... X ... Xylophone! Tap two fingers in the air like gentle xylophone mallets.",
+      "text": "Next bend, X ... Xylophone! Tap two fingers in the air like gentle xylophone mallets.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,7 +468,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Look for Y ... Yellow Anaconda! Trace one slow curving path with a finger.",
+      "text": "River-corridor clue Y ... Yellow Anaconda! Trace one slow curving path with a finger.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -476,7 +476,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zingiber Plant! Grow one hand upward, then sway.",
+      "text": "Bank-or-branch Z ... Zingiber Plant! Grow one hand upward, then sway.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -484,28 +484,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Canopy river—A-B-C!",
+      "text": "Bank, bend, flow—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Flowing jungle words for me!",
+      "text": "Water below, green overhead, onward we go.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Canopy river—A-B-C!",
+      "text": "The landing appears where the current finally softens.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—canopy river stays with me!",
+      "text": "A to Z drifts out beneath the last green reflection.",
       "objective": "narration",
       "objectReveal": "none"
     }

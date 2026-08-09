@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Slither low, flutter high, leaves go swish.",
+      "text": "One thing darts. One thing climbs. One thing barely moves at all.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Every jungle motion carries a clue.",
+      "text": "The jungle writes paths through the green.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A ... A ... Anteater! It has a long snout and sticky tongue for reaching ants and termites.",
+      "text": "A — Anteater! Long snout leads, sturdy legs follow | searching along the ground for ants and termites.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Banana — remember B. A banana plant has huge leaves and grows clusters of curved fruit.",
+      "text": "B ... B ... Banana! Huge leaves sway, fruit hangs | the plant anchors the scene while animals move around it.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Under the green canopy, C finds Ceiba Tree. Tree to sky | branches lift up high",
+      "text": "C? Ceiba Tree! Trunk rises, branches spread | one still giant that gives many moving paths a place to cross.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D — Dragonfly. A dragonfly is a small creature that can be noticed by its legs, body shape, or movement.",
+      "text": "D is Dragonfly. Four wings dart and hover | quick turns stitch bright lines over wet green.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Which clue starts with E? Elephant! It uses its long flexible trunk to smell, touch, drink, and pick things up.",
+      "text": "E — Elephant! Slow feet carry a huge body | flexible trunk curls, reaches, lifts, and drinks.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F ... F ... Fern! It unfurls divided green fronds from curled young growth called fiddleheads.",
+      "text": "F ... F ... Fern! Fronds unfurl rather than run | growth is the motion of this quiet target.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Gecko — remember G. Many geckos have gripping toe pads that help them cling to bark, leaves, or other surfaces.",
+      "text": "G? Gecko! Toe pads cling | body pauses on bark, then slips to a new hold.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Under the green canopy, H finds Howler Monkey. It is a tree-dwelling monkey famous for very loud calls.",
+      "text": "H is Howler Monkey. Branches sway under a climbing body | loud calls travel farther than the animal moves.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I — Insect. Six legs to find | three body parts in line",
+      "text": "I — Insect! Six legs crawl, wings may buzz or dart | tiny bodies make many kinds of paths.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Which clue starts with J? Jaguar! It is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "J ... J ... Jaguar! Spotted cat steps through cover with powerful quiet motion | we watch only from a safe distance.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K ... K ... Kinkajou! Near the ground | tiny footsteps move around",
+      "text": "K? Kinkajou! Feet grip branches, tail balances | night movement curls through the canopy.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Liana — remember L. A liana is a long woody vine that climbs through rainforest trees.",
+      "text": "L is Liana. Woody vine climbs by growing along supports | a slow motion written into the forest itself.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Jungle green—A-B-C!",
+      "text": "Slither, climb, glide—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Plants and creatures, look and see!",
+      "text": "Different bodies move through green differently.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Under the green canopy, M finds Macaw. Bright in flight | broad wings flash with color and light",
+      "text": "M — Macaw! Broad wings beat, then glide | a flash of color crossing open air.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N — Nest. A nest is a place birds build to hold eggs and chicks.",
+      "text": "N ... N ... Nest! Twigs stay still in a cup | movement comes and goes around this sheltered center.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Which clue starts with O? Ocelot! It is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "O? Ocelot! Low spotted cat steps through dense cover | quiet body, quick change of direction.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P ... P ... Parrot! It has a strong curved beak and gripping feet for holding onto branches and food.",
+      "text": "P is Parrot. Feet grip, beak helps climb | short branch movements before the wings take over.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Quetzal — remember Q. Feather light | beak and wings come into sight",
+      "text": "Q — Quetzal! Long feathers trail behind flight | a green-bright bird path between branches.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Under the green canopy, R finds Rattan. It is a climbing palm with long flexible stems that weave through tropical forest.",
+      "text": "R ... R ... Rattan! Long climbing stems bend and weave | plant growth makes a slow spiral through the forest.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S — Snake. A snake moves without legs by bending its long scaled body in muscular curves.",
+      "text": "S? Snake! Muscles send curves down a long scaled body | observe the slither without approaching.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Which clue starts with T? Tapir! It is a sturdy forest mammal with a short flexible snout used to grasp leaves.",
+      "text": "T is Tapir. Sturdy legs step through low vegetation | short flexible snout reaches leaves ahead.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U ... U ... Umbrella Leaf! Sway and grow | plant finds light from down below",
+      "text": "U — Umbrella Leaf! Broad surface nods under rain | a plant-motion made by water and wind.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Vine — remember V. Vine is a plant adapted to its habitat, using leaves, stems, roots, or climbing growth to reach water and light.",
+      "text": "V ... V ... Vine! Climb, trail, curl | stems borrow support instead of building a trunk.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Under the green canopy, W finds Water Vine. Leaf in light | green stems stretch up bright",
+      "text": "W? Water Vine! Green stem stretches through light | a living line crossing other movement paths.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X — Xenops. A xenops is a small tropical bird that searches bark and branches for insects.",
+      "text": "X is Xenops. Small bird creeps along bark and branches | searching surfaces for insects.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Jungle green—A-B-C!",
+      "text": "Slither, climb, glide—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Plants and creatures, look and see!",
+      "text": "Different bodies move through green differently.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Which clue starts with Y? Yellow Butterfly! It is a butterfly with broad patterned wings that visits plants and flowers.",
+      "text": "Y — Yellow Butterfly! Broad wings flutter from plant to plant | light motion near flowers and leaves.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z ... Z ... Zebra Longwing! It is a butterfly with long black wings striped pale yellow.",
+      "text": "Z ... Z ... Zebra Longwing! Long dark wings striped pale yellow | smooth gliding closes the jungle choreography.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Call A ... Anteater! Reach one finger out like a long tongue.",
+      "text": "Motion map A ... Anteater! Reach one finger out like a long tongue.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... B ... Banana! Point to the matching picture, then make one small shape gesture.",
+      "text": "Trace B ... Banana! Point to the matching picture, then make one small shape gesture.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Ready for C? ... Ceiba Tree! Reach both hands up like branches.",
+      "text": "Moving or still, C? ... Ceiba Tree! Reach both hands up like branches.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Show D ... Dragonfly! Wiggle tiny fingers or make a small flutter.",
+      "text": "Freeze and find D ... Dragonfly! Wiggle tiny fingers or make a small flutter.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Call E ... Elephant! Swing one arm gently like a trunk.",
+      "text": "Motion map E ... Elephant! Swing one arm gently like a trunk.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... F ... Fern! Grow one hand upward, then sway.",
+      "text": "Trace F ... Fern! Grow one hand upward, then sway.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Ready for G? ... Gecko! Trace one slow curving path with a finger.",
+      "text": "Moving or still, G? ... Gecko! Trace one slow curving path with a finger.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Show H ... Howler Monkey! Reach one hand up like a gentle climber.",
+      "text": "Freeze and find H ... Howler Monkey! Reach one hand up like a gentle climber.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Call I ... Insect! Make tiny walking fingers.",
+      "text": "Motion map I ... Insect! Make tiny walking fingers.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... J ... Jaguar! Make two quiet paw-steps.",
+      "text": "Trace J ... Jaguar! Make two quiet paw-steps.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Ready for K? ... Kinkajou! Make two tiny walking or hopping finger-steps.",
+      "text": "Moving or still, K? ... Kinkajou! Make two tiny walking or hopping finger-steps.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Show L ... Liana! Grow one hand upward, then sway.",
+      "text": "Freeze and find L ... Liana! Grow one hand upward, then sway.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Call M ... Macaw! Lift two gentle wings, then hold still.",
+      "text": "Motion map M ... Macaw! Lift two gentle wings, then hold still.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -359,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... N ... Nest! Cup both hands like a nest.",
+      "text": "Trace N ... Nest! Cup both hands like a nest.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -367,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Ready for O? ... Ocelot! Make two quiet paw-steps.",
+      "text": "Moving or still, O? ... Ocelot! Make two quiet paw-steps.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -375,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Show P ... Parrot! Lift two gentle wings, then hold still.",
+      "text": "Freeze and find P ... Parrot! Lift two gentle wings, then hold still.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -383,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Jungle green—A-B-C!",
+      "text": "Slither, climb, glide—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Plants and creatures, look and see!",
+      "text": "Different bodies move through green differently.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Call Q ... Quetzal! Lift two gentle wings, then hold still.",
+      "text": "Motion map Q ... Quetzal! Lift two gentle wings, then hold still.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... R ... Rattan! Grow one hand upward, then sway.",
+      "text": "Trace R ... Rattan! Grow one hand upward, then sway.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Ready for S? ... Snake! Trace one slow curving path with a finger.",
+      "text": "Moving or still, S? ... Snake! Trace one slow curving path with a finger.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Show T ... Tapir! Curl one hand forward like a short flexible snout.",
+      "text": "Freeze and find T ... Tapir! Curl one hand forward like a short flexible snout.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Call U ... Umbrella Leaf! Grow one hand upward, then sway.",
+      "text": "Motion map U ... Umbrella Leaf! Grow one hand upward, then sway.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... V ... Vine! Grow one hand upward, then sway.",
+      "text": "Trace V ... Vine! Grow one hand upward, then sway.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Ready for W? ... Water Vine! Grow one hand upward, then sway.",
+      "text": "Moving or still, W? ... Water Vine! Grow one hand upward, then sway.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Show X ... Xenops! Wiggle tiny fingers or make a small flutter.",
+      "text": "Freeze and find X ... Xenops! Wiggle tiny fingers or make a small flutter.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Call Y ... Yellow Butterfly! Wiggle tiny fingers or make a small flutter.",
+      "text": "Motion map Y ... Yellow Butterfly! Wiggle tiny fingers or make a small flutter.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Z ... Zebra Longwing! Wiggle tiny fingers or make a small flutter.",
+      "text": "Trace Z ... Zebra Longwing! Wiggle tiny fingers or make a small flutter.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Jungle green—A-B-C!",
+      "text": "Slither, climb, glide—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Plants and creatures, look and see!",
+      "text": "Different bodies move through green differently.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Jungle green—A-B-C!",
+      "text": "The last butterfly path disappears between leaves.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—jungle bounce stays with me!",
+      "text": "A to Z leaves motion hanging in the green.",
       "objective": "narration",
       "objectReveal": "none"
     }

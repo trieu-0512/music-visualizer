@@ -6,8 +6,8 @@
   "tempoBpm": 90,
   "motifFamily": "polar-parade",
   "hook": [
-    "Polar parade—A-B-C!",
-    "Snowy animals march with me!"
+    "Step, fly, dive—A-B-C!",
+    "Land, ice, sea—each body finds a way."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one clear beat before answer",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a warm, calm observer noticing snow, ice, seabirds and cold-climate wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 4/4 bounce",
-    "round1Grammar": "Round 1 stays spacious and warm, contrasting snow/ice images with animal motion; rare names remain near speech rhythm.",
-    "round2Grammar": "Round 2 thins the arrangement, leaves one to two beats for recall and confirms with a simple cold-climate motion.",
+    "rhymeEngine": "polar-land-ice-sea-motion-rhyme",
+    "chorusRhymeEngine": "step-dive-swim-hook",
+    "pointOfView": "a child comparing honest ways animals cross land, ice, air and cold water",
+    "chorusFunction": "reset the land-ice-sea movement map rather than force all animals into marching",
+    "grooveMeter": "light 4/4 with grounded steps, open flight phrases and fluid swim tails",
+    "round1Grammar": "hand-written locomotion contrasts; nonliving ice, tundra and quartz anchor movement instead of being made to move like animals",
+    "round2Grammar": "surface/motion cue -> recall beat -> target -> safe abstract gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft bell sparkle after targets over a warm acoustic pulse",
     "signatureColor": "soft bell sparkle after targets over a warm acoustic pulse",
+    "authorialIntent": "Turn the polar parade into a study of movement across three surfaces—snow, ice and sea—so walking, flying, diving and swimming replace a generic marching-song idea.",
+    "lyricIdentity": "A child watches transitions between land, ice edge, air and water; recurring language uses step, slide, dive, surface, cross, launch and return.",
+    "imageMotifs": [
+      "caribou hoof on snow",
+      "dovekie dive",
+      "seal at ice edge",
+      "orca surfacing",
+      "walrus hauling near shore"
+    ],
+    "semanticArc": [
+      "begin on snowy ground",
+      "reach ice edge and seabirds",
+      "move into cold ocean",
+      "return to tundra and shore with many movement types"
+    ],
+    "forbiddenGenericLanguage": [
+      "snowy animals march with me",
+      "polar parade",
+      "everyone marches",
+      "cold fun"
+    ],
     "chorusAfterRound1": [
       2,
       5

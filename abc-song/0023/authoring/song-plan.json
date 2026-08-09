@@ -6,8 +6,8 @@
   "tempoBpm": 90,
   "motifFamily": "birdsong-hop",
   "hook": [
-    "Hear the forest—A-B-C!",
-    "Birds and plants sing back to me!"
+    "Call, echo, hush—A-B-C!",
+    "Branch to branch, the forest answers carefully."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one-beat silent pocket before target",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a quiet woodland walker following tracks, leaves, birds and tree shapes",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "stop-go 4/4 pulse",
-    "round1Grammar": "Round 1 uses small woodland observations—bark, wings, tracks, leaves, shade and movement—with plenty of air.",
-    "round2Grammar": "Round 2 uses quiet cue-gap-answer phrasing, then one woodland motion such as hop, flap, sway, tap or trace.",
+    "rhymeEngine": "birdsong-call-answer-delayed-rhyme",
+    "chorusRhymeEngine": "call-echo-hush-hook",
+    "pointOfView": "a child locating forest things by sound and by the silence between sounds",
+    "chorusFunction": "teach near/far listening and return to the call-answer-hush pattern",
+    "grooveMeter": "open 4/4 with stop-start call-and-silence pockets",
+    "round1Grammar": "hand-written auditory map; audible targets get honest sound verbs while silent plants and objects are framed as pauses or visual anchors",
+    "round2Grammar": "near/far or quiet cue -> recall beat -> target -> restrained listening gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. wood-flute or pizzicato leaf answers between target phrases",
     "signatureColor": "wood-flute or pizzicato leaf answers between target phrases",
+    "authorialIntent": "Compose the forest as a listening map where calls, wing sounds, river noise and deliberate silence reveal distance; non-sounding objects become the quiet spaces between calls.",
+    "lyricIdentity": "A child listens branch to branch; recurring language uses call, answer, echo, rustle, hush, far, near and between.",
+    "imageMotifs": [
+      "grouse wing-burst",
+      "jay call",
+      "river under birdsong",
+      "quiet nest",
+      "wolf call far beyond the trail"
+    ],
+    "semanticArc": [
+      "first calls wake the trees",
+      "sounds move near and far",
+      "river and trail widen the listening map",
+      "evening quiet gathers the final calls"
+    ],
+    "forbiddenGenericLanguage": [
+      "birds and plants sing back to me",
+      "forest music everywhere",
+      "sing with me",
+      "every object makes a sound"
+    ],
     "chorusAfterRound1": [
       2,
       6

@@ -6,8 +6,8 @@
   "tempoBpm": 92,
   "motifFamily": "scout-march",
   "hook": [
-    "Scout the trail—A-B-C!",
-    "Spot each woodland clue with me!"
+    "Clue, sketch, check—A-B-C!",
+    "See it, name it, leave it where it should be."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one clear beat before answer",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a quiet woodland walker following tracks, leaves, birds and tree shapes",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "walking 4/4 folk",
-    "round1Grammar": "Round 1 uses small woodland observations—bark, wings, tracks, leaves, shade and movement—with plenty of air.",
-    "round2Grammar": "Round 2 uses quiet cue-gap-answer phrasing, then one woodland motion such as hop, flap, sway, tap or trace.",
+    "rhymeEngine": "field-note-observation-slant-rhyme",
+    "chorusRhymeEngine": "clue-sketch-check-refrain",
+    "pointOfView": "a preschool field scout making safe observations and leaving wildlife, nests, mushrooms and logs undisturbed",
+    "chorusFunction": "reinforce observe-record-leave rather than chase-touch-collect",
+    "grooveMeter": "walking 4/4 folk with pencil-tap pickups and open rests",
+    "round1Grammar": "hand-written field-note entries with visible evidence, safe distance, and concise facts",
+    "round2Grammar": "field-note cue -> recall beat -> target -> sketch/point/shape gesture, never collect",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. wood-flute or pizzicato leaf answers between target phrases",
     "signatureColor": "wood-flute or pizzicato leaf answers between target phrases",
+    "authorialIntent": "Make woodland exploration feel like careful field observation: notice evidence, sketch shapes, check a clue, and leave living things undisturbed instead of turning scouting into chasing or collecting.",
+    "lyricIdentity": "A child keeps a tiny field notebook; recurring verbs are notice, sketch, mark, compare, leave, check and observe-from-distance.",
+    "imageMotifs": [
+      "pencil field note",
+      "hoof and paw tracks",
+      "cone and bark shapes",
+      "hollow log left untouched",
+      "bird silhouette above trail"
+    ],
+    "semanticArc": [
+      "open the notebook at the trailhead",
+      "collect observations without collecting objects",
+      "learn distance and habitat clues",
+      "close the notebook and leave the woodland as found"
+    ],
+    "forbiddenGenericLanguage": [
+      "spot each woodland clue with me",
+      "explorer eyes",
+      "collect every clue",
+      "fun on the trail"
+    ],
     "chorusAfterRound1": [
       3,
       5
@@ -47,7 +68,7 @@
       4,
       7
     ],
-    "hasMidInterlude": false,
+    "hasMidInterlude": true,
     "objectCraftRequired": true
   },
   "objectCraftCoverage": {

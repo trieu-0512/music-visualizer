@@ -6,8 +6,8 @@
   "tempoBpm": 86,
   "motifFamily": "canopy-sway",
   "hook": [
-    "Up in the canopy—A-B-C!",
-    "Tropical words grow high with me!"
+    "Low, middle, high—A-B-C!",
+    "Sunlight threads the canopy layer by layer."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two short beats for retrieval",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a curious canopy guide following movement, color, water and animal calls",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 uses vivid motion and layered habitat images—flutter, climb, slither, drip and sway—without turning into rapid patter.",
-    "round2Grammar": "Round 2 becomes stop-start call-and-response with one clean gap and a compact movement tied to the target.",
+    "rhymeEngine": "vertical-canopy-rising-chain",
+    "chorusRhymeEngine": "low-mid-high-open-hook",
+    "pointOfView": "a child mapping rainforest height from ground layer to canopy and back down",
+    "chorusFunction": "restate vertical orientation and make height the memory device",
+    "grooveMeter": "rising 6/8 with low-to-high melodic contour",
+    "round1Grammar": "hand-written vertical placement; do not falsely place ground animals high in trees, instead use contrast between layers",
+    "round2Grammar": "layer cue -> recall beat -> target -> point low/mid/high or object-specific gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft marimba droplets and hand-percussion answers, never masking words",
     "signatureColor": "soft marimba droplets and hand-percussion answers, never masking words",
+    "authorialIntent": "Make the canopy understandable as vertical space: floor, trunk, midstory and crown each hold different clues, and sunlight becomes the thread that pulls the alphabet upward.",
+    "lyricIdentity": "A child looks from low roots to high leaves; recurring language uses floor, trunk, climb, mid-level, overhead, gap, crown, shaft of light and down again.",
+    "imageMotifs": [
+      "sun shaft through leaves",
+      "kapok trunk rising",
+      "liana and rattan climbing",
+      "toucan silhouette overhead",
+      "waterfall glimpsed through canopy gaps"
+    ],
+    "semanticArc": [
+      "begin on the shaded floor",
+      "follow trunks and climbers upward",
+      "reach bright canopy animals and leaves",
+      "look back down through the layered forest"
+    ],
+    "forbiddenGenericLanguage": [
+      "tropical words grow high with me",
+      "jungle up high",
+      "everything lives in the canopy",
+      "look and see"
+    ],
     "chorusAfterRound1": [
       2,
       5,

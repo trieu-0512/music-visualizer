@@ -6,8 +6,8 @@
   "tempoBpm": 85,
   "motifFamily": "rock-bloom",
   "hook": [
-    "Rock and bloom—A-B-C!",
-    "Desert plants are fun to see!"
+    "Stone stays, petals open—A-B-C!",
+    "Some desert moments last; some only pass."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two gentle beats for retrieval",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a gentle field-guide walk following tracks, shade, plants and desert wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "stop-go 4/4 pulse",
-    "round1Grammar": "Round 1 uses heat, shade, tracks, spines, stone and animal motion as concrete images, with short lines beside longer scene phrases.",
-    "round2Grammar": "Round 2 uses short search cues, one recall beat and a safe motion—step, glide, point, spread, trace or sway.",
+    "rhymeEngine": "stone-bloom-contrast-assonance",
+    "chorusRhymeEngine": "still-open-pass-hook",
+    "pointOfView": "a quiet observer comparing geological stillness with short-lived movement, bloom and water",
+    "chorusFunction": "hold the contrast between what stays and what briefly changes",
+    "grooveMeter": "open 4/4 with long stone holds and short living pickups",
+    "round1Grammar": "hand-written contrast images; geology lines can be sparse while living lines move more quickly",
+    "round2Grammar": "still/moving cue -> recall beat -> target -> safe contrast gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. dry shaker footsteps and sparse marimba echoes with open space",
     "signatureColor": "dry shaker footsteps and sparse marimba echoes with open space",
+    "authorialIntent": "Set hard desert geology beside brief living change: rock, dune and wadi may hold still for long stretches while flowers, birds and animals appear, move, bloom or vanish on much shorter clocks.",
+    "lyricIdentity": "A child compares still/moving, hard/soft, old/new and dry/bloom; recurring language uses stone, edge, grain, open, pass, wait and after rain.",
+    "imageMotifs": [
+      "limestone face",
+      "agave rosette against rock",
+      "prickly-pear bloom",
+      "wadi after rain",
+      "nighthawk at dusk"
+    ],
+    "semanticArc": [
+      "begin with stone and plant contrast",
+      "animals cross the still landscape",
+      "water and bloom interrupt dryness",
+      "evening returns the scene to long quiet"
+    ],
+    "forbiddenGenericLanguage": [
+      "desert plants are fun to see",
+      "rock and bloom for me",
+      "everything is dry",
+      "shining bright"
+    ],
     "chorusAfterRound1": [
       3,
       7

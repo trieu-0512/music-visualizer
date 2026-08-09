@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "snow-friend",
   "hook": [
-    "Snowy wildlife—A-B-C!",
-    "Cold-climate friends, come sing with me!"
+    "Fur, feather, flipper—A-B-C!",
+    "Different bodies meet the cold differently."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one clear beat before target",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a warm, calm observer noticing snow, ice, seabirds and cold-climate wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 3/4 or swung sway",
-    "round1Grammar": "Round 1 stays spacious and warm, contrasting snow/ice images with animal motion; rare names remain near speech rhythm.",
-    "round2Grammar": "Round 2 thins the arrangement, leaves one to two beats for recall and confirms with a simple cold-climate motion.",
+    "rhymeEngine": "fur-feather-flipper-feature-rhyme",
+    "chorusRhymeEngine": "fur-feather-flipper-hook",
+    "pointOfView": "a child comparing visible body features that help different animals live in cold places",
+    "chorusFunction": "group body strategies while preserving differences between mammals, birds, fish and context objects",
+    "grooveMeter": "gentle 3/4 feature-study sway with crisp target space",
+    "round1Grammar": "hand-written body-feature comparisons; nonliving and off-habitat mapping helpers are explicitly framed as context",
+    "round2Grammar": "feature cue -> recall beat -> target -> body-shape or safe pointing gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft bell sparkle after targets over a warm acoustic pulse",
     "signatureColor": "soft bell sparkle after targets over a warm acoustic pulse",
+    "authorialIntent": "Compare cold-climate body solutions—fur, feather, flipper, broad paw, shaggy coat, tusk, diving body—while treating ice, tundra, boats and Xylophone as context rather than pretending every target has a biological adaptation.",
+    "lyricIdentity": "A child notices body covering and shape; recurring language uses fur, feather, flipper, layer, broad, compact, shaggy, surface and warm-body tool.",
+    "imageMotifs": [
+      "arctic-fox fur",
+      "eider feathers",
+      "seal flippers",
+      "musk-ox shaggy coat",
+      "walrus tusks and whiskers"
+    ],
+    "semanticArc": [
+      "fur and feathers begin the comparison",
+      "sea mammals add flippers and body mass",
+      "birds/fish show different cold strategies",
+      "context objects close the lesson without false biology"
+    ],
+    "forbiddenGenericLanguage": [
+      "cold-climate friends come sing with me",
+      "snowy wildlife",
+      "everyone has thick fur",
+      "warm and cozy"
+    ],
     "chorusAfterRound1": [
       3,
       7

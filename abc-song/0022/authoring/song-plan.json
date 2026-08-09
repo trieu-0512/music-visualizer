@@ -6,8 +6,8 @@
   "tempoBpm": 82,
   "motifFamily": "forest-floor",
   "hook": [
-    "Down on the forest floor—A-B-C!",
-    "Leaves and logs are fun to see!"
+    "Leaf, root, stone—A-B-C!",
+    "The forest floor holds stories under every tree."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two-beat calm retrieval space",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a quiet woodland walker following tracks, leaves, birds and tree shapes",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 uses small woodland observations—bark, wings, tracks, leaves, shade and movement—with plenty of air.",
-    "round2Grammar": "Round 2 uses quiet cue-gap-answer phrasing, then one woodland motion such as hop, flap, sway, tap or trace.",
+    "rhymeEngine": "forest-floor-layered-linked-rhyme",
+    "chorusRhymeEngine": "root-litter-layer-refrain",
+    "pointOfView": "a child kneeling at ground level and following connections from leaf litter into roots, water and underbrush",
+    "chorusFunction": "return attention to the shared ground beneath very different forest things",
+    "grooveMeter": "low gentle 6/8 with descending-to-rising phrase shapes",
+    "round1Grammar": "hand-written ecological close-ups; ground relation and physical layer matter more than decorative rhyme",
+    "round2Grammar": "ground-layer cue -> recall beat -> target -> safe close-up gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. wood-flute or pizzicato leaf answers between target phrases",
     "signatureColor": "wood-flute or pizzicato leaf answers between target phrases",
+    "authorialIntent": "Turn the forest floor into a layered living system: seed, litter, fungus, insects, roots, stones, underbrush and visiting animals all share the same ground without reducing the song to a taxonomy list.",
+    "lyricIdentity": "A kneeling observer reads the forest from ground level upward; recurring language uses under, through, beneath, litter, root, damp, layer and rise.",
+    "imageMotifs": [
+      "acorn in leaf litter",
+      "fern and mushroom close-up",
+      "insect under a leaf",
+      "roots beside quartz and river",
+      "underbrush rising toward trunks"
+    ],
+    "semanticArc": [
+      "start with seeds and litter",
+      "discover small life and damp growth",
+      "connect roots, rock and water",
+      "rise from underbrush toward birds and canopy"
+    ],
+    "forbiddenGenericLanguage": [
+      "leaves and logs are fun to see",
+      "forest floor for you and me",
+      "everything grows",
+      "look and learn today"
+    ],
     "chorusAfterRound1": [
       2,
       5

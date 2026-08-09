@@ -6,8 +6,8 @@
   "tempoBpm": 89,
   "motifFamily": "rainforest-walk",
   "hook": [
-    "Explorer eyes—A-B-C!",
-    "Find the jungle clues with me!"
+    "Glimpse, shape, reveal—A-B-C!",
+    "Good explorer eyes can wait before they name."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one-beat cue gap with soft backing",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a curious canopy guide following movement, color, water and animal calls",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "walking 4/4 folk",
-    "round1Grammar": "Round 1 uses vivid motion and layered habitat images—flutter, climb, slither, drip and sway—without turning into rapid patter.",
-    "round2Grammar": "Round 2 becomes stop-start call-and-response with one clean gap and a compact movement tied to the target.",
+    "rhymeEngine": "binocular-clue-reveal-rhyme",
+    "chorusRhymeEngine": "glimpse-shape-reveal-hook",
+    "pointOfView": "a careful child observer solving visual clues from a fixed respectful distance",
+    "chorusFunction": "slow the search into glimpse-shape-name rather than speed spotting",
+    "grooveMeter": "walking 4/4 with suspense rests before reveals",
+    "round1Grammar": "hand-written clue-first observations with varied syntax; dangerous or shy wildlife is never approached for a better view",
+    "round2Grammar": "visual clue -> recall beat -> target reveal -> safe pointing/framing gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft marimba droplets and hand-percussion answers, never masking words",
     "signatureColor": "soft marimba droplets and hand-percussion answers, never masking words",
+    "authorialIntent": "Turn rainforest exploration into a visual mystery: partial silhouettes, color patches, leaf movement and texture clues appear before the full target, teaching careful noticing rather than frantic spotting.",
+    "lyricIdentity": "A child uses binocular-like framing; recurring language uses edge, glimpse, patch, shape, behind, reveal, still, closer-with-eyes and not-with-feet.",
+    "imageMotifs": [
+      "green coil behind leaves",
+      "dragonfly flash",
+      "howler silhouette",
+      "orchid shape in shade",
+      "quetzal color through a gap"
+    ],
+    "semanticArc": [
+      "first glimpses are partial",
+      "clues become more specific",
+      "harder camouflage and distance clues appear",
+      "final reveals teach patience over chasing"
+    ],
+    "forbiddenGenericLanguage": [
+      "explorer eyes come look with me",
+      "find the jungle clues with me",
+      "something moved",
+      "spot it fast"
+    ],
     "chorusAfterRound1": [
       2,
       5

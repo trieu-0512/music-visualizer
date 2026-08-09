@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "desert-step",
   "hook": [
-    "Follow the tracks—A-B-C!",
-    "Desert friends walk on with me!"
+    "Print, trace, fade—A-B-C!",
+    "Read the sand, then let the wind erase the trail."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one clear beat before target",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a gentle field-guide walk following tracks, shade, plants and desert wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 4/4 bounce",
-    "round1Grammar": "Round 1 uses heat, shade, tracks, spines, stone and animal motion as concrete images, with short lines beside longer scene phrases.",
-    "round2Grammar": "Round 2 uses short search cues, one recall beat and a safe motion—step, glide, point, spread, trace or sway.",
+    "rhymeEngine": "desert-track-trace-linked-rhyme",
+    "chorusRhymeEngine": "print-line-fade-hook",
+    "pointOfView": "a child reading desert signs from a safe distance and distinguishing moving traces from stationary landmarks",
+    "chorusFunction": "return to print-trace-landmark and the idea that wind eventually erases signs",
+    "grooveMeter": "dry 4/4 walking pulse with footprint rests",
+    "round1Grammar": "hand-written trace observations; animal tracks, plant forms and rock markers are clearly different kinds of clues",
+    "round2Grammar": "track or landmark cue -> recall beat -> target -> safe point/trace gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. dry shaker footsteps and sparse marimba echoes with open space",
     "signatureColor": "dry shaker footsteps and sparse marimba echoes with open space",
+    "authorialIntent": "Make the desert readable through traces: pawprints, hoof marks, tail lines, bird steps, wind-shaped sand and stationary plant or rock landmarks tell a story without claiming every target leaves a track.",
+    "lyricIdentity": "A child reads signs left on open ground; recurring language uses print, trace, line, mark, crossing, fade, still marker and wind-erased.",
+    "imageMotifs": [
+      "hoofprints across hard sand",
+      "roadrunner steps",
+      "scorpion track line",
+      "quartz marker",
+      "wind erasing the trail"
+    ],
+    "semanticArc": [
+      "first fresh track appears",
+      "different bodies leave different signs",
+      "plants and rocks become fixed landmarks",
+      "wind softens every trace by evening"
+    ],
+    "forbiddenGenericLanguage": [
+      "desert friends walk on with me",
+      "follow every track",
+      "fun in the sand",
+      "everything leaves footprints"
+    ],
     "chorusAfterRound1": [
       3,
       5
@@ -47,7 +68,7 @@
       4,
       7
     ],
-    "hasMidInterlude": false,
+    "hasMidInterlude": true,
     "objectCraftRequired": true
   },
   "objectCraftCoverage": {

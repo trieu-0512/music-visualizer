@@ -6,8 +6,8 @@
   "tempoBpm": 87,
   "motifFamily": "oasis-sway",
   "hook": [
-    "Oasis friends—A-B-C!",
-    "Desert wildlife, sing with me!"
+    "Dry road, blue shade—A-B-C!",
+    "Water changes what can gather nearby."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two short beats before target",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a gentle field-guide walk following tracks, shade, plants and desert wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 3/4 or swung sway",
-    "round1Grammar": "Round 1 uses heat, shade, tracks, spines, stone and animal motion as concrete images, with short lines beside longer scene phrases.",
-    "round2Grammar": "Round 2 uses short search cues, one recall beat and a safe motion—step, glide, point, spread, trace or sway.",
+    "rhymeEngine": "oasis-arrival-gather-release-rhyme",
+    "chorusRhymeEngine": "dry-blue-shade-hook",
+    "pointOfView": "a child resting at a respectful oasis viewpoint and noticing how water changes nearby habitat",
+    "chorusFunction": "mark the transition from dry approach to water-and-shade center",
+    "grooveMeter": "gentle 3/4 arrival sway with cooler chorus voicing",
+    "round1Grammar": "hand-written oasis-centered scenes; animals may live nearby or visit, but are never forced into one drinking-party narrative",
+    "round2Grammar": "dry/shade/water cue -> recall beat -> target -> safe point/cup/shape gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. dry shaker footsteps and sparse marimba echoes with open space",
     "signatureColor": "dry shaker footsteps and sparse marimba echoes with open space",
+    "authorialIntent": "Make an oasis meaningful as a concentration of water, shade and visitors within a dry landscape: approach through heat, arrive at blue/green relief, notice who uses nearby habitat, then follow the water story into a wadi.",
+    "lyricIdentity": "A child approaches and rests near water; recurring language uses dry road, blue patch, shade, drink, bank, visit, leave space and water-after-rain.",
+    "imageMotifs": [
+      "first blue glimpse",
+      "palm shade",
+      "animal tracks near water but not crowded",
+      "wadi channel",
+      "thorn shrub at dry edge"
+    ],
+    "semanticArc": [
+      "dry approach",
+      "water and shade reveal the oasis",
+      "wildlife visits surrounding habitat",
+      "water story expands into wadi and dry edge"
+    ],
+    "forbiddenGenericLanguage": [
+      "oasis friends sing with me",
+      "desert wildlife party",
+      "everyone comes to drink",
+      "blue water fun"
+    ],
     "chorusAfterRound1": [
       3,
       6

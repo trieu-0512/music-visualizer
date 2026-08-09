@@ -6,8 +6,8 @@
   "tempoBpm": 91,
   "motifFamily": "dune-walk",
   "hook": [
-    "Across the dunes—A-B-C!",
-    "Explorer eyes, come look with me!"
+    "Crest, slope, horizon—A-B-C!",
+    "Wind redraws the route, but landmarks help us see."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat of silence before confirmation",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a gentle field-guide walk following tracks, shade, plants and desert wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "walking 4/4 folk",
-    "round1Grammar": "Round 1 uses heat, shade, tracks, spines, stone and animal motion as concrete images, with short lines beside longer scene phrases.",
-    "round2Grammar": "Round 2 uses short search cues, one recall beat and a safe motion—step, glide, point, spread, trace or sway.",
+    "rhymeEngine": "dune-crest-slope-spatial-rhyme",
+    "chorusRhymeEngine": "crest-slope-horizon-hook",
+    "pointOfView": "a child navigating desert topography by shape, shadow and distant landmarks",
+    "chorusFunction": "reorient the listener to crest-slope-horizon before the next route section",
+    "grooveMeter": "walking 4/4 with rising crest phrases and descending lee-side phrases",
+    "round1Grammar": "hand-written spatial route; object facts serve navigation and habitat rather than a generic explorer template",
+    "round2Grammar": "route-position cue -> recall beat -> target -> up/down/point gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. dry shaker footsteps and sparse marimba echoes with open space",
     "signatureColor": "dry shaker footsteps and sparse marimba echoes with open space",
+    "authorialIntent": "Turn a dune walk into spatial navigation: crest, slope, lee side, horizon, shadow and wind direction make the alphabet feel like crossing landforms rather than repeating animal facts.",
+    "lyricIdentity": "A child climbs and descends dunes with map-like language; recurring words are crest, slope, lee, horizon, upwind, downwind, shadow and next rise.",
+    "imageMotifs": [
+      "dune crest line",
+      "wind ripples",
+      "long fennec shadow",
+      "Joshua tree horizon mark",
+      "roadrunner crossing a slope"
+    ],
+    "semanticArc": [
+      "approach first dune",
+      "cross alternating crests and sheltered sides",
+      "use plants/animals as orientation marks",
+      "reach final horizon as wind redraws slopes"
+    ],
+    "forbiddenGenericLanguage": [
+      "across the dunes come look with me",
+      "one dune two dunes",
+      "explorer eyes",
+      "up and down all day"
+    ],
     "chorusAfterRound1": [
       2,
       5,

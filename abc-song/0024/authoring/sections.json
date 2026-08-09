@@ -27,7 +27,7 @@
       "D"
     ],
     "line_count": 4,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-teach",
     "energy_level": "medium",
     "response_frame": null,
@@ -48,7 +48,7 @@
       "H"
     ],
     "line_count": 4,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-teach",
     "energy_level": "medium",
     "response_frame": null,
@@ -69,7 +69,7 @@
       "L"
     ],
     "line_count": 4,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-teach",
     "energy_level": "medium",
     "response_frame": null,
@@ -85,7 +85,7 @@
     "learning_objective": "verbatim-sequence",
     "letters": [],
     "line_count": 2,
-    "rhyme_scheme": "refrain-driven",
+    "rhyme_scheme": "clue-sketch-check-refrain",
     "motif_id": "scout-march-hook",
     "energy_level": "high",
     "response_frame": null,
@@ -106,7 +106,7 @@
       "P"
     ],
     "line_count": 4,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-teach",
     "energy_level": "medium",
     "response_frame": null,
@@ -127,7 +127,7 @@
       "T"
     ],
     "line_count": 4,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-teach",
     "energy_level": "medium",
     "response_frame": null,
@@ -143,7 +143,7 @@
     "learning_objective": "verbatim-sequence",
     "letters": [],
     "line_count": 2,
-    "rhyme_scheme": "refrain-driven",
+    "rhyme_scheme": "clue-sketch-check-refrain",
     "motif_id": "scout-march-hook",
     "energy_level": "high",
     "response_frame": null,
@@ -164,7 +164,7 @@
       "X"
     ],
     "line_count": 4,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-teach",
     "energy_level": "medium",
     "response_frame": null,
@@ -183,7 +183,7 @@
       "Z"
     ],
     "line_count": 2,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-teach",
     "energy_level": "medium",
     "response_frame": null,
@@ -191,6 +191,22 @@
     "tempo_bpm": 92,
     "density_override_evidence": null,
     "notes": "Controlled syntax/line-length variation may occur inside the shared motif family; target word remains clear and early."
+  },
+  {
+    "section_id": "mid-interlude",
+    "section_type": "interlude",
+    "round": null,
+    "learning_objective": "transition",
+    "letters": [],
+    "line_count": 1,
+    "rhyme_scheme": "refrain-driven",
+    "motif_id": "scout-march-interlude",
+    "energy_level": "medium-low",
+    "response_frame": null,
+    "refrain_or_chorus_identity": null,
+    "tempo_bpm": 92,
+    "density_override_evidence": null,
+    "notes": "Optional song-specific reset between teaching and retrieval rounds."
   },
   {
     "section_id": "r2-a-d",
@@ -204,7 +220,7 @@
       "D"
     ],
     "line_count": 4,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-retrieve",
     "energy_level": "medium-high",
     "response_frame": "one clear beat before answer",
@@ -225,7 +241,7 @@
       "H"
     ],
     "line_count": 4,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-retrieve",
     "energy_level": "medium-high",
     "response_frame": "one clear beat before answer",
@@ -246,7 +262,7 @@
       "L"
     ],
     "line_count": 4,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-retrieve",
     "energy_level": "medium-high",
     "response_frame": "one clear beat before answer",
@@ -267,7 +283,7 @@
       "P"
     ],
     "line_count": 4,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-retrieve",
     "energy_level": "medium-high",
     "response_frame": "one clear beat before answer",
@@ -283,7 +299,7 @@
     "learning_objective": "verbatim-sequence",
     "letters": [],
     "line_count": 2,
-    "rhyme_scheme": "refrain-driven",
+    "rhyme_scheme": "clue-sketch-check-refrain",
     "motif_id": "scout-march-hook",
     "energy_level": "high",
     "response_frame": null,
@@ -304,7 +320,7 @@
       "T"
     ],
     "line_count": 4,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-retrieve",
     "energy_level": "medium-high",
     "response_frame": "one clear beat before answer",
@@ -325,7 +341,7 @@
       "X"
     ],
     "line_count": 4,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-retrieve",
     "energy_level": "medium-high",
     "response_frame": "one clear beat before answer",
@@ -344,7 +360,7 @@
       "Z"
     ],
     "line_count": 2,
-    "rhyme_scheme": "mixed-internal-phraselet",
+    "rhyme_scheme": "field-note-observation-slant-rhyme",
     "motif_id": "scout-march-retrieve",
     "energy_level": "medium-high",
     "response_frame": "one clear beat before answer",
@@ -360,7 +376,7 @@
     "learning_objective": "verbatim-sequence",
     "letters": [],
     "line_count": 2,
-    "rhyme_scheme": "refrain-driven",
+    "rhyme_scheme": "clue-sketch-check-refrain",
     "motif_id": "scout-march-hook",
     "energy_level": "high",
     "response_frame": null,

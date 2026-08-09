@@ -6,8 +6,8 @@
   "tempoBpm": 92,
   "motifFamily": "arctic-trek",
   "hook": [
-    "Arctic trek—A-B-C!",
-    "Find the icy clues with me!"
+    "Map, route, change—A-B-C!",
+    "Land, ice, water tell us how to travel next."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one-beat cue gap with backing thinned",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a warm, calm observer noticing snow, ice, seabirds and cold-climate wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "walking 4/4 folk",
-    "round1Grammar": "Round 1 stays spacious and warm, contrasting snow/ice images with animal motion; rare names remain near speech rhythm.",
-    "round2Grammar": "Round 2 thins the arrangement, leaves one to two beats for recall and confirms with a simple cold-climate motion.",
+    "rhymeEngine": "arctic-route-mode-change-rhyme",
+    "chorusRhymeEngine": "map-route-change-hook",
+    "pointOfView": "a child on a supervised Arctic learning expedition where terrain determines travel mode and wildlife sets distance rules",
+    "chorusFunction": "restate map-route-change and prepare the next terrain transition",
+    "grooveMeter": "walking 4/4 with mode-change half-time transitions",
+    "round1Grammar": "hand-written route progression; travel objects have real functions and animals remain observations rather than obstacles or trophies",
+    "round2Grammar": "route cue -> recall beat -> target -> map/point/shape gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft bell sparkle after targets over a warm acoustic pulse",
     "signatureColor": "soft bell sparkle after targets over a warm acoustic pulse",
+    "authorialIntent": "Make an Arctic trek a sequence of changing travel conditions: walk on tundra, use sled routes on snow, stop at ice edge, shift to qajaq or umiak on water, and read wildlife without treating expedition as conquest.",
+    "lyricIdentity": "A child follows a supervised route and changes travel mode when terrain changes; recurring language uses map, route, runner, shore, launch, turn back, safe distance and next leg.",
+    "imageMotifs": [
+      "map at tundra start",
+      "dog-sled runners",
+      "floe and glacier checkpoint",
+      "qajaq/umiak at shore",
+      "walrus at distant ice edge"
+    ],
+    "semanticArc": [
+      "prepare and walk",
+      "cross snow and ice by route",
+      "reach water and change craft",
+      "finish at shore with wildlife left undisturbed"
+    ],
+    "forbiddenGenericLanguage": [
+      "find the icy clues with me",
+      "Arctic explorer",
+      "conquer the ice",
+      "go anywhere"
+    ],
     "chorusAfterRound1": [
       2,
       5

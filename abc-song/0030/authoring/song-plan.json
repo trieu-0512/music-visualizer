@@ -6,8 +6,8 @@
   "tempoBpm": 84,
   "motifFamily": "canopy-river",
   "hook": [
-    "Canopy river—A-B-C!",
-    "Flowing jungle words for me!"
+    "Bank, bend, flow—A-B-C!",
+    "Water below, green overhead, onward we go."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two-beat supportive pause",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a curious canopy guide following movement, color, water and animal calls",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 3/4 or swung sway",
-    "round1Grammar": "Round 1 uses vivid motion and layered habitat images—flutter, climb, slither, drip and sway—without turning into rapid patter.",
-    "round2Grammar": "Round 2 becomes stop-start call-and-response with one clean gap and a compact movement tied to the target.",
+    "rhymeEngine": "canopy-river-flow-return-rhyme",
+    "chorusRhymeEngine": "bend-flow-overhead-hook",
+    "pointOfView": "a child on an imagined slow river journey observing banks, water, trunks and canopy without claiming every target is aquatic",
+    "chorusFunction": "restart the gentle current and orient bank-below-overhead",
+    "grooveMeter": "flowing 3/4 with long downstream phrase tails",
+    "round1Grammar": "hand-written river-corridor scenes; each target is honestly placed on bank, ground, branch, canopy or water-adjacent space",
+    "round2Grammar": "river-position cue -> recall beat -> target -> safe flow/point gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft marimba droplets and hand-percussion answers, never masking words",
     "signatureColor": "soft marimba droplets and hand-percussion answers, never masking words",
+    "authorialIntent": "Carry the alphabet along a rainforest river corridor where current, bank, overhanging canopy and reflected light connect objects that live at different heights.",
+    "lyricIdentity": "A child rides an imagined slow river route; recurring language uses bank, current, bend, reflection, overhang, downstream, crossing and shore.",
+    "imageMotifs": [
+      "dark river under green roof",
+      "anaconda near bank",
+      "hornbill crossing overhead",
+      "rattan reflected in water",
+      "water vine and ginger at final bend"
+    ],
+    "semanticArc": [
+      "push away from shaded bank",
+      "follow bends under animals and climbers",
+      "mid-route reflections mix canopy and water",
+      "return to a quiet landing downstream"
+    ],
+    "forbiddenGenericLanguage": [
+      "flowing jungle words for me",
+      "river fun",
+      "everything swims",
+      "sail and see"
+    ],
     "chorusAfterRound1": [
       2,
       6

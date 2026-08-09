@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Crunch-crunch—tiny tracks in snow.",
+      "text": "One track crosses snow; one wing crosses air; one flipper cuts the sea.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "The polar parade is starting to go.",
+      "text": "There is no single way to move through the polar world.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A — Auk! Wing to sky | feathered bird goes gliding by",
+      "text": "A — Auk! Compact seabird uses wings in air and underwater | one body crossing two kinds of space.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B ... B ... Bear! A bear is a large furry mammal with strong legs, broad paws, and an excellent sense of smell.",
+      "text": "B ... B ... Bear! Broad paws carry a large furry mammal over land | movement stays grounded and powerful.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C is for Caribou. Hooves go slow | sure-foot steps along below",
+      "text": "C? Caribou! Broad hooves travel snow and soft tundra | long-distance walking begins our land route.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "What does D bring? Dovekie! A dovekie is a small black-and-white seabird that dives for food in cold water.",
+      "text": "D is Dovekie. Small black-and-white seabird dives into cold water | flight turns suddenly into swimming.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Across the snow and ice, E meets Eider. Feather light | beak and wings come into sight",
+      "text": "E — Eider! Sea duck paddles, dives, then lifts on strong wings | shore, water, air in one route.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F — Fur Seal! It swims with strong flippers and has a thick coat of fur.",
+      "text": "F ... F ... Fur Seal! Front flippers steer a fast swimmer | thick fur belongs to a body built for cold coasts.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G ... G ... Glacier! Ice moves slow | glacier creeping down below",
+      "text": "G? Glacier! Huge ice mass moves very slowly over land | a non-animal motion measured on a far longer clock.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H is for Harp Seal. It is a northern seal whose adults have a dark harp-shaped marking on the back.",
+      "text": "H is Harp Seal. Flippers push through water, body rests on ice | movement changes at the ice edge.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Polar parade—A-B-C!",
+      "text": "Step, fly, dive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Snowy animals march with me!",
+      "text": "Land, ice, sea—each body finds a way.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "What does I bring? Iceberg! Iceberg bright | most stays hidden out of sight",
+      "text": "I — Iceberg! Floating ice drifts with water and wind | no legs, wings, or flippers needed.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Across the snow and ice, J meets Jellyfish. It drifts with a soft bell-shaped body and trailing tentacles.",
+      "text": "J ... J ... Jellyfish! Soft bell pulses while current carries it | a drifting kind of ocean movement.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K — Kittiwake! Feather light | beak and wings come into sight",
+      "text": "K? Kittiwake! Long wings carry a seabird over cold water | landing places wait on shore or cliffs.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L ... L ... Lemming! A lemming is a small northern rodent that lives on tundra and eats plants.",
+      "text": "L is Lemming. Small northern rodent runs close to tundra ground | tiny steps under a huge sky.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M is for Murre. Wing to sky | feathered bird goes gliding by",
+      "text": "M — Murre! Seabird flies above waves and dives below them | another air-to-water switch.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "What does N bring? Northern Fulmar! A northern fulmar is a seabird that glides on stiff wings over cold ocean water.",
+      "text": "N ... N ... Northern Fulmar! Stiff wings glide low over ocean | long smooth motion using moving air.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Across the snow and ice, O meets Orca. Blue below | ocean swimmer on the go",
+      "text": "O? Orca! Powerful tail drives a large dolphin through cold sea | the back rises to breathe at the surface.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P — Polar Bear! It is a large Arctic bear with thick fur and broad paws.",
+      "text": "P is Polar Bear. Broad paws cross ice and snow, and the bear can swim | one animal linking land and sea.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q ... Q ... Quartz! Quartz is a hard mineral that can sparkle with a glassy surface.",
+      "text": "Q — Quartz! Hard mineral stays where rock holds it | a still marker among all these moving bodies.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R is for Reindeer. Reindeer are caribou; their broad hooves help them travel over snow and soft ground.",
+      "text": "R ... R ... Reindeer! Reindeer are caribou | broad hooves support travel over snow and soft ground.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "What does S bring? Snowy Owl! Wing to sky | feathered bird goes gliding by",
+      "text": "S? Snowy Owl! Broad wings cross open tundra | feathered flight above low snow.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Across the snow and ice, T meets Tundra. It is cold open land where trees are scarce and low plants grow.",
+      "text": "T is Tundra. Cold open land with few or no trees | the ground stage for walkers, runners, and nests.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Polar parade—A-B-C!",
+      "text": "Step, fly, dive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Snowy animals march with me!",
+      "text": "Land, ice, sea—each body finds a way.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U — Upland Goose! Perch, then fly | quick wingbeats cross the sky",
+      "text": "U — Upland Goose! Strong legs walk ground and wings take over in flight | another two-mode traveler.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V ... V ... Velvet Scoter! A velvet scoter is a dark sea duck with a pale wing patch.",
+      "text": "V ... V ... Velvet Scoter! Dark sea duck with pale wing patch | paddling, diving, and flying across coastal water.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W is for Walrus. Tusks in view | whiskered walrus in the blue",
+      "text": "W? Walrus! Flippers move a heavy body through sea | tusks and foreflippers help at the shore and ice edge.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "What does X bring? Xylophone! A xylophone is our X-word helper: a row of tuned bars makes different notes when struck.",
+      "text": "At the warm shelter, X is Xylophone—our X-word helper | tuned bars mark step, glide, dive without pretending to be polar wildlife.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Across the snow and ice, Y meets Yellow-billed Loon. Wing to sky | feathered bird goes gliding by",
+      "text": "Y — Yellow-billed Loon! Large loon flies and dives | yellow bill points ahead over cold northern water.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z — Zoarcid Fish! It is an eel-shaped fish from a family often called eelpouts.",
+      "text": "Z ... Z ... Zoarcid Fish! Eel-shaped fish bends through cold water | our final route stays completely below the surface.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Auk! Lift two gentle wings, then hold still.",
+      "text": "Surface clue A ... Auk! Lift two gentle wings, then hold still.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B? ... Bear! Make two quiet paw-steps.",
+      "text": "Movement clue B ... Bear! Make two quiet paw-steps.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Find C ... Caribou! Tap two quiet hoof-beats with your fingers.",
+      "text": "Land, air, or sea—C? ... Caribou! Tap two quiet hoof-beats with your fingers.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... D ... Dovekie! Lift two gentle wings, then hold still.",
+      "text": "Polar route D ... Dovekie! Lift two gentle wings, then hold still.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Eider! Lift two gentle wings, then hold still.",
+      "text": "Surface clue E ... Eider! Lift two gentle wings, then hold still.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F? ... Fur Seal! Glide one hand gently like a swimmer.",
+      "text": "Movement clue F ... Fur Seal! Glide one hand gently like a swimmer.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Find G ... Glacier! Trace the land or ice shape in the air.",
+      "text": "Land, air, or sea—G? ... Glacier! Trace the land or ice shape in the air.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... H ... Harp Seal! Glide one hand gently like a swimmer.",
+      "text": "Polar route H ... Harp Seal! Glide one hand gently like a swimmer.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Iceberg! Trace the land or ice shape in the air.",
+      "text": "Surface clue I ... Iceberg! Trace the land or ice shape in the air.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J? ... Jellyfish! Pulse your fingers softly like a drifting bell.",
+      "text": "Movement clue J ... Jellyfish! Pulse your fingers softly like a drifting bell.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Find K ... Kittiwake! Lift two gentle wings, then hold still.",
+      "text": "Land, air, or sea—K? ... Kittiwake! Lift two gentle wings, then hold still.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... L ... Lemming! Make two tiny walking or hopping finger-steps.",
+      "text": "Polar route L ... Lemming! Make two tiny walking or hopping finger-steps.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,21 +351,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Polar parade—A-B-C!",
+      "text": "Step, fly, dive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Snowy animals march with me!",
+      "text": "Land, ice, sea—each body finds a way.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Murre! Lift two gentle wings, then hold still.",
+      "text": "Surface clue M ... Murre! Lift two gentle wings, then hold still.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -373,7 +373,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N? ... Northern Fulmar! Lift two gentle wings, then hold still.",
+      "text": "Movement clue N ... Northern Fulmar! Lift two gentle wings, then hold still.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -381,7 +381,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Find O ... Orca! Glide one hand gently like a swimmer.",
+      "text": "Land, air, or sea—O? ... Orca! Glide one hand gently like a swimmer.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -389,7 +389,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... P ... Polar Bear! Make two quiet paw-steps.",
+      "text": "Polar route P ... Polar Bear! Make two quiet paw-steps.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -397,7 +397,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quartz! Trace the land or ice shape in the air.",
+      "text": "Surface clue Q ... Quartz! Trace the land or ice shape in the air.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R? ... Reindeer! Tap two quiet hoof-beats with your fingers.",
+      "text": "Movement clue R ... Reindeer! Tap two quiet hoof-beats with your fingers.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Find S ... Snowy Owl! Lift two gentle wings, then hold still.",
+      "text": "Land, air, or sea—S? ... Snowy Owl! Lift two gentle wings, then hold still.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... T ... Tundra! Trace the land or ice shape in the air.",
+      "text": "Polar route T ... Tundra! Trace the land or ice shape in the air.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Upland Goose! Lift two gentle wings, then hold still.",
+      "text": "Surface clue U ... Upland Goose! Lift two gentle wings, then hold still.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V? ... Velvet Scoter! Lift two gentle wings, then hold still.",
+      "text": "Movement clue V ... Velvet Scoter! Lift two gentle wings, then hold still.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Find W ... Walrus! Glide one hand gently like a swimmer.",
+      "text": "Land, air, or sea—W? ... Walrus! Glide one hand gently like a swimmer.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... X ... Xylophone! Tap two fingers in the air like gentle xylophone mallets.",
+      "text": "Polar route X ... Xylophone! Tap two fingers in the air like gentle xylophone mallets.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,21 +461,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Polar parade—A-B-C!",
+      "text": "Step, fly, dive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Snowy animals march with me!",
+      "text": "Land, ice, sea—each body finds a way.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow-billed Loon! Lift two gentle wings, then hold still.",
+      "text": "Surface clue Y ... Yellow-billed Loon! Lift two gentle wings, then hold still.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -483,7 +483,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z? ... Zoarcid Fish! Glide one hand gently like a swimmer.",
+      "text": "Movement clue Z ... Zoarcid Fish! Glide one hand gently like a swimmer.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -491,14 +491,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Polar parade—A-B-C!",
+      "text": "The last swimmer slips below; the last bird clears the shore.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—polar parade stays with me!",
+      "text": "A to Z leaves tracks in three different worlds.",
       "objective": "narration",
       "objectReveal": "none"
     }

@@ -1,20 +1,20 @@
 {
   "auditVersion": 4,
   "auditStandard": "creative-v4",
-  "status": "PASS_WITH_REVIEW",
+  "status": "PASS",
   "range": "0031-0040",
   "songs": 10,
   "schemaAndSemanticFailures": 0,
-  "warnings": 6,
+  "warnings": 0,
   "designReworkSongs": 0,
   "uniqueHooks": 10,
   "uniqueStyles": 10,
-  "uniqueSectionForms": 7,
+  "uniqueSectionForms": 8,
   "uniqueCreativeFingerprints": 10,
-  "maxLyricSimilarity": 0.0363,
+  "maxLyricSimilarity": 0.0238,
   "mostSimilarPair": [
-    "0031",
-    "0035"
+    "0036",
+    "0039"
   ],
   "batchWarnings": [],
   "songsDetail": [
@@ -22,26 +22,42 @@
       "songId": "0031",
       "theme": "Desert Animals",
       "targetLines": 52,
-      "lyricWordCount": 803,
+      "lyricWordCount": 927,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "is-for",
-        "narrative-or-other",
+        "letter-led-sentence",
         "question-answer",
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
+        "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
         "U",
-        "W"
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -52,37 +68,52 @@
           4,
           7
         ],
-        "hasMidInterlude": false
+        "hasMidInterlude": true
       },
       "pronunciationReviewTargets": [],
       "errors": [],
-      "warnings": [
-        "Round 1 chunk QRST has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
-        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
-      ]
+      "warnings": []
     },
     {
       "songId": "0032",
       "theme": "Cactus & Dunes",
       "targetLines": 52,
-      "lyricWordCount": 840,
+      "lyricWordCount": 918,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
-        "action-first",
+        "direct-letter-object",
         "letter-led-sentence",
-        "narrative-or-other",
-        "object-first",
-        "question-answer"
+        "question-answer",
+        "repeated-letter"
       ],
       "rhymeBearingRound1": [
+        "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
         "U",
-        "W"
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -97,35 +128,48 @@
       },
       "pronunciationReviewTargets": [],
       "errors": [],
-      "warnings": [
-        "Round 1 chunk QRST has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
-        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
-      ]
+      "warnings": []
     },
     {
       "songId": "0033",
       "theme": "Desert Plants & Rocks",
       "targetLines": 52,
-      "lyricWordCount": 841,
+      "lyricWordCount": 858,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "narrative-or-other",
-        "object-first",
+        "letter-led-sentence",
         "question-answer",
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
         "Q",
+        "R",
+        "S",
+        "T",
         "U",
-        "Y"
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -146,26 +190,42 @@
       "songId": "0034",
       "theme": "Desert Explorer",
       "targetLines": 52,
-      "lyricWordCount": 840,
+      "lyricWordCount": 933,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "is-for",
-        "narrative-or-other",
-        "object-first",
-        "question-answer"
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
       ],
       "rhymeBearingRound1": [
+        "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
+        "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
         "Q",
+        "R",
+        "S",
+        "T",
         "U",
-        "W"
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -181,33 +241,48 @@
       },
       "pronunciationReviewTargets": [],
       "errors": [],
-      "warnings": [
-        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
-      ]
+      "warnings": []
     },
     {
       "songId": "0035",
       "theme": "Oasis & Wildlife",
       "targetLines": 52,
-      "lyricWordCount": 827,
+      "lyricWordCount": 917,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
-        "action-first",
         "direct-letter-object",
-        "narrative-or-other",
+        "letter-led-sentence",
         "question-answer",
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
+        "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
+        "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
         "Q",
-        "U"
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -222,37 +297,49 @@
       },
       "pronunciationReviewTargets": [],
       "errors": [],
-      "warnings": [
-        "Round 1 chunk YZ has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
-      ]
+      "warnings": []
     },
     {
       "songId": "0036",
       "theme": "Polar Animals",
       "targetLines": 52,
-      "lyricWordCount": 767,
+      "lyricWordCount": 898,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "is-for",
+        "letter-led-sentence",
         "narrative-or-other",
         "question-answer",
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
         "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
+        "Q",
+        "R",
         "S",
+        "T",
         "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -273,27 +360,42 @@
       "songId": "0037",
       "theme": "Ice & Tundra",
       "targetLines": 52,
-      "lyricWordCount": 814,
+      "lyricWordCount": 893,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
-        "action-first",
+        "direct-letter-object",
         "letter-led-sentence",
-        "narrative-or-other",
-        "object-first",
-        "question-answer"
+        "question-answer",
+        "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
+        "E",
+        "F",
         "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
+        "Q",
+        "R",
         "S",
+        "T",
+        "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -314,28 +416,42 @@
       "songId": "0038",
       "theme": "Frozen Ocean",
       "targetLines": 52,
-      "lyricWordCount": 814,
+      "lyricWordCount": 898,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "narrative-or-other",
-        "object-first",
+        "letter-led-sentence",
         "question-answer",
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
         "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
+        "Q",
+        "R",
         "S",
+        "T",
+        "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -356,27 +472,43 @@
       "songId": "0039",
       "theme": "Arctic Explorer",
       "targetLines": 52,
-      "lyricWordCount": 828,
+      "lyricWordCount": 912,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "is-for",
+        "letter-led-sentence",
         "narrative-or-other",
-        "object-first",
-        "question-answer"
+        "question-answer",
+        "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
+        "E",
+        "F",
         "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
+        "Q",
+        "R",
         "S",
+        "T",
+        "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -397,29 +529,43 @@
       "songId": "0040",
       "theme": "Snowy Wildlife",
       "targetLines": 52,
-      "lyricWordCount": 818,
+      "lyricWordCount": 917,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
-        "action-first",
         "direct-letter-object",
+        "letter-led-sentence",
         "narrative-or-other",
         "question-answer",
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
         "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
+        "Q",
+        "R",
         "S",
+        "T",
         "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [

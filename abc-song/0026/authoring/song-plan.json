@@ -6,8 +6,8 @@
   "tempoBpm": 92,
   "motifFamily": "rainforest-beat",
   "hook": [
-    "Rainforest rhythm—A-B-C!",
-    "Jungle words bounce back to me!"
+    "Drip, rustle, hush—A-B-C!",
+    "Layer by layer, the rainforest keeps time."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat of quiet after cue",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a curious canopy guide following movement, color, water and animal calls",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 4/4 bounce",
-    "round1Grammar": "Round 1 uses vivid motion and layered habitat images—flutter, climb, slither, drip and sway—without turning into rapid patter.",
-    "round2Grammar": "Round 2 becomes stop-start call-and-response with one clean gap and a compact movement tied to the target.",
+    "rhymeEngine": "rainforest-layered-percussion-rhyme",
+    "chorusRhymeEngine": "drip-rustle-hush-refrain",
+    "pointOfView": "a child listening to different rainforest layers as separate parts of one restrained rhythm",
+    "chorusFunction": "reassemble drip, rustle, wing and hush without covering learning words",
+    "grooveMeter": "syncopated but gentle 4/4 with wet-leaf rests",
+    "round1Grammar": "hand-written sensory lines; only truthful sounds become percussion and silent targets get visual or tactile rests",
+    "round2Grammar": "rhythm cue -> recall beat -> target -> one safe motion",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft marimba droplets and hand-percussion answers, never masking words",
     "signatureColor": "soft marimba droplets and hand-percussion answers, never masking words",
+    "authorialIntent": "Build a rainforest rhythm from honest layers of water, leaf movement, wingbeats, calls and silence so the child hears an ecosystem instead of a generic jungle beat.",
+    "lyricIdentity": "A listener follows drip, rustle, flutter, call, splash and hush from wet ground to canopy; silent plants become rests in the rhythm.",
+    "imageMotifs": [
+      "drips on broad leaves",
+      "gecko feet on bark",
+      "macaw wing flash",
+      "frog in wet leaf litter",
+      "waterfall under the canopy"
+    ],
+    "semanticArc": [
+      "rain starts the pulse",
+      "animals add short movement sounds",
+      "color and calls widen the canopy",
+      "waterfall gathers the rhythm and releases it"
+    ],
+    "forbiddenGenericLanguage": [
+      "jungle words bounce back to me",
+      "rainforest fun",
+      "everything makes music",
+      "bright and wild"
+    ],
     "chorusAfterRound1": [
       3,
       7

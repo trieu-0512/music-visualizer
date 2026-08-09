@@ -6,8 +6,8 @@
   "tempoBpm": 94,
   "motifFamily": "jungle-bounce",
   "hook": [
-    "Jungle green—A-B-C!",
-    "Plants and creatures, look and see!"
+    "Slither, climb, glide—A-B-C!",
+    "Different bodies move through green differently."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "short one-beat answer gap",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a curious canopy guide following movement, color, water and animal calls",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "stop-go 4/4 pulse",
-    "round1Grammar": "Round 1 uses vivid motion and layered habitat images—flutter, climb, slither, drip and sway—without turning into rapid patter.",
-    "round2Grammar": "Round 2 becomes stop-start call-and-response with one clean gap and a compact movement tied to the target.",
+    "rhymeEngine": "jungle-motion-verb-weave",
+    "chorusRhymeEngine": "slither-climb-glide-hook",
+    "pointOfView": "a child tracing honest movement paths while still noticing stationary plants, nests and trunks",
+    "chorusFunction": "reset the motion vocabulary without asking children to imitate dangerous wildlife",
+    "grooveMeter": "stop-go 4/4 with contrasting motion pockets",
+    "round1Grammar": "hand-written motion-specific lines; stationary targets anchor the choreography and dangerous animals stay observation-only",
+    "round2Grammar": "motion cue -> recall beat -> target -> safe abstract or object-specific gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft marimba droplets and hand-percussion answers, never masking words",
     "signatureColor": "soft marimba droplets and hand-percussion answers, never masking words",
+    "authorialIntent": "Use movement as the organizing language: every living target has its own honest motion—climb, cling, glide, slither, step, swing, flutter—while plants and nests become anchors that motion passes around.",
+    "lyricIdentity": "A child watches motion paths across the jungle; verbs carry the rhyme and line rhythm more than object definitions do.",
+    "imageMotifs": [
+      "dragonfly dart",
+      "gecko cling",
+      "howler branch sway",
+      "tapir step",
+      "butterfly glide"
+    ],
+    "semanticArc": [
+      "small motions begin low",
+      "climbing and swinging widen the paths",
+      "large animals cross the scene",
+      "light wing motions close the sequence"
+    ],
+    "forbiddenGenericLanguage": [
+      "plants and creatures look and see",
+      "jungle green for me",
+      "move move move",
+      "everything swings"
+    ],
     "chorusAfterRound1": [
       3,
       6

@@ -6,8 +6,8 @@
   "tempoBpm": 86,
   "motifFamily": "ice-flow",
   "hook": [
-    "Frozen ocean—A-B-C!",
-    "Cold blue words swim back to me!"
+    "Above, edge, below—A-B-C!",
+    "Under the ice, a cold ocean keeps moving."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two short beats before confirmation",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a warm, calm observer noticing snow, ice, seabirds and cold-climate wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "stop-go 4/4 pulse",
-    "round1Grammar": "Round 1 stays spacious and warm, contrasting snow/ice images with animal motion; rare names remain near speech rhythm.",
-    "round2Grammar": "Round 2 thins the arrangement, leaves one to two beats for recall and confirms with a simple cold-climate motion.",
+    "rhymeEngine": "sea-ice-boundary-foodweb-rhyme",
+    "chorusRhymeEngine": "above-edge-below-hook",
+    "pointOfView": "a child studying the sea-ice boundary and separating marine life from shore and travel objects",
+    "chorusFunction": "orient above ice, ice edge and below water before another ecology block",
+    "grooveMeter": "stop-go 4/4 with submerged legato sections",
+    "round1Grammar": "hand-written sea-ice ecology; links are factual and land/transport targets stay outside the food-web claim",
+    "round2Grammar": "above/edge/below cue -> recall beat -> target -> safe position gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft bell sparkle after targets over a warm acoustic pulse",
     "signatureColor": "soft bell sparkle after targets over a warm acoustic pulse",
+    "authorialIntent": "Build the frozen-ocean song around the boundary between sea ice and water: tiny drifting life supports fish, birds dive, seals and whales surface, while land tools and animals remain clearly outside the marine food web.",
+    "lyricIdentity": "A child looks above ice, at the edge, and below water; recurring language uses under-ice, surface, edge, drift, dive, breathe and food-web link.",
+    "imageMotifs": [
+      "zooplankton drifting below ice",
+      "cod and icefish",
+      "dovekie/murre dive",
+      "seal breathing at ice edge",
+      "whale surfacing beyond floe"
+    ],
+    "semanticArc": [
+      "start at ice surface",
+      "look below to small ocean life and fish",
+      "follow divers and marine mammals",
+      "return to shore where sleds and land animals belong"
+    ],
+    "forbiddenGenericLanguage": [
+      "cold blue words swim back to me",
+      "everything swims",
+      "frozen ocean fun",
+      "under the ice all day"
+    ],
     "chorusAfterRound1": [
       3,
       5

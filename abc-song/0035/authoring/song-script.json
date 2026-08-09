@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Palm shade, blue water—there it is!",
+      "text": "At first it is only a blue line under palms.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "An oasis letter has come to visit.",
+      "text": "Then shade, water, tracks, and green tell us why this place matters.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Look at A: Armadillo! It is a reptile with scales that moves close to the ground or through branches.",
+      "text": "A — Armadillo! Armored mammal travels dry ground nearby | not every oasis visitor stands at the water's edge.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B — Bighorn Sheep. A bighorn sheep is a mountain and desert sheep whose adults can carry heavy curved horns.",
+      "text": "B ... B ... Bighorn Sheep! Curved horns and split hooves | rocky dry country can lead animals toward scattered water sources.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Across the warm sand, C meets Camel. Hooves go slow | sure-foot steps along below",
+      "text": "C? Camel! Broad feet and large body cross dry land | a classic traveler through landscapes where water is spaced far apart.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D ... D ... Dune! A dune is a hill or ridge of sand shaped by wind.",
+      "text": "D is Dune. Wind-shaped sand still surrounds the blue-green center | oasis does not erase the desert around it.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "What did E find? Eagle! Feather light | beak and wings come into sight",
+      "text": "E — Eagle! High wings cross over palms and open ground | a sky visitor above the water story.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Look at F: Fox! It has pointed ears, a long bushy tail, and quiet paws for moving through its habitat.",
+      "text": "F ... F ... Fox! Quiet paws move along dry cover | shade and water influence where life can pass.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G — Gecko. Many geckos have gripping toe pads that help them cling to bark, leaves, or other surfaces.",
+      "text": "G? Gecko! Small lizard holds to rock, wall, or trunk | a close-up animal in the cooler edge habitat.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Across the warm sand, H meets Hawk. It is a keen-eyed bird of prey with strong wings and grasping feet.",
+      "text": "H is Hawk. Keen eyes scan from above | water, trees, and open ground make different hunting spaces below.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I ... I ... Ibex! Hooves go slow | sure-foot steps along below",
+      "text": "I — Ibex! Sure hooves handle rocky slopes | access to water matters even when the animal is far from the pool.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "What did J find? Joshua Tree! It is a desert plant with stiff pointed leaves on branching trunks.",
+      "text": "J ... J ... Joshua Tree! Stiff leaves on branching trunks | a dry-land landmark beyond the greener oasis core.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Look at K: Kestrel! Feather light | beak and wings come into sight",
+      "text": "K? Kestrel! Small falcon perches or hovers | one light sky clue above palms and scrub.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L — Limestone. Limestone is a pale sedimentary rock often formed from calcium-rich material.",
+      "text": "L is Limestone. Pale rock holds heat beside shade | hard ground frames the softer water reflection.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Oasis friends—A-B-C!",
+      "text": "Dry road, blue shade—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Desert wildlife, sing with me!",
+      "text": "Water changes what can gather nearby.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Across the warm sand, M meets Meerkat. Small and quick | little feet go tick-tick-tick",
+      "text": "M — Meerkat! Small social mammal scans open country | dry habitat continues beyond the palm shade.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N ... N ... Nighthawk! A nighthawk is a dusk-flying bird that catches insects in the air with a wide mouth.",
+      "text": "N ... N ... Nighthawk! Dusk flight begins as the oasis edge cools | insects and evening air change the scene.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "What did O find? Oasis! Shade by the blue | oasis water brings green plants into view",
+      "text": "O? Oasis! Water and vegetation gather inside dry country | the central idea of the whole route.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Look at P: Palm! It is a woody plant with a trunk or strong stems and a crown of leaves or needles.",
+      "text": "P is Palm. Crown of broad leaves throws shade | green reflection trembles where fronds meet water.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q — Quail. Quail on the trail | ground bird with a little tail",
+      "text": "Q — Quail! Small ground bird uses cover near the greener edge | quick feet stay low beneath taller shapes.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Across the warm sand, R meets Rattlesnake. It is a snake with a rattle at the end of its tail; we observe it from a safe distance.",
+      "text": "R ... R ... Rattlesnake! Tail rattle and scaled body | venomous wildlife keeps its space, and we keep ours.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S ... S ... Sand! Sand is made of many tiny grains of rock or mineral.",
+      "text": "S? Sand! Tiny grains continue right to the oasis edge | dry texture beside cool reflection.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "What did T find? Tortoise! It is a reptile with scales that moves close to the ground or through branches.",
+      "text": "T is Tortoise. Hard shell and sturdy feet | slow desert life may use shade and suitable water without becoming an oasis-only animal.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Look at U: Umbrella Thorn! Sway and grow | plant finds light from down below",
+      "text": "U — Umbrella Thorn! Spreading thorny crown makes a patch of shade | dry-edge green beyond the palms.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V — Vulture. A vulture is a large soaring bird that helps clean ecosystems by eating dead animals.",
+      "text": "V ... V ... Vulture! Broad wings soar over open country | a distant scavenger linked to the wider ecosystem, not the water alone.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Across the warm sand, W meets Wadi. It is a dry valley or channel that can carry water after rain.",
+      "text": "W? Wadi! Usually dry channel can carry water after rain | the oasis story widens into water that appears and disappears.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X ... X ... Xerus! A xerus is an African ground squirrel that lives in open dry country.",
+      "text": "X is Xerus. African ground squirrel of dry open country | quick movement at the drier edge of our oasis map.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Oasis friends—A-B-C!",
+      "text": "Dry road, blue shade—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Desert wildlife, sing with me!",
+      "text": "Water changes what can gather nearby.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "What did Y find? Yellow Scorpion! It is a pale desert scorpion; we only observe it from a safe distance.",
+      "text": "Y — Yellow Scorpion! Pale desert scorpion | one more reason to look carefully and never reach into rocks or shade holes.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Look at Z: Ziziphus Shrub! It is a hardy thorny plant that can bear small round fruits.",
+      "text": "Z ... Z ... Ziziphus Shrub! Thorny hardy shrub can carry small fruits | green persists where roots find enough moisture.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Look for A ... Armadillo! Trace one slow curving path with a finger.",
+      "text": "Oasis-map clue A ... Armadillo! Trace one slow curving path with a finger.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Bighorn Sheep! Tap two quiet hoof-beats with your fingers.",
+      "text": "Shade-or-open B ... Bighorn Sheep! Tap two quiet hoof-beats with your fingers.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Clue C? ... Camel! Tap two quiet hoof-beats with your fingers.",
+      "text": "Water or dry edge—C? ... Camel! Tap two quiet hoof-beats with your fingers.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... D ... Dune! Trace the land or ice shape in the air.",
+      "text": "Next oasis clue D ... Dune! Trace the land or ice shape in the air.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Look for E ... Eagle! Lift two gentle wings, then hold still.",
+      "text": "Oasis-map clue E ... Eagle! Lift two gentle wings, then hold still.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Fox! Make two quiet paw-steps.",
+      "text": "Shade-or-open F ... Fox! Make two quiet paw-steps.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Clue G? ... Gecko! Trace one slow curving path with a finger.",
+      "text": "Water or dry edge—G? ... Gecko! Trace one slow curving path with a finger.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... H ... Hawk! Point to the matching picture, then make one small shape gesture.",
+      "text": "Next oasis clue H ... Hawk! Point to the matching picture, then make one small shape gesture.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Look for I ... Ibex! Tap two quiet hoof-beats with your fingers.",
+      "text": "Oasis-map clue I ... Ibex! Tap two quiet hoof-beats with your fingers.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Joshua Tree! Reach both hands up like branches.",
+      "text": "Shade-or-open J ... Joshua Tree! Reach both hands up like branches.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Clue K? ... Kestrel! Lift two gentle wings, then hold still.",
+      "text": "Water or dry edge—K? ... Kestrel! Lift two gentle wings, then hold still.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... L ... Limestone! Trace the land or ice shape in the air.",
+      "text": "Next oasis clue L ... Limestone! Trace the land or ice shape in the air.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Look for M ... Meerkat! Make two tiny walking or hopping finger-steps.",
+      "text": "Oasis-map clue M ... Meerkat! Make two tiny walking or hopping finger-steps.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -359,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nighthawk! Point to the matching picture, then make one small shape gesture.",
+      "text": "Shade-or-open N ... Nighthawk! Point to the matching picture, then make one small shape gesture.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -367,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Clue O? ... Oasis! Trace the land or ice shape in the air.",
+      "text": "Water or dry edge—O? ... Oasis! Trace the land or ice shape in the air.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -375,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... P ... Palm! Reach both hands up like branches.",
+      "text": "Next oasis clue P ... Palm! Reach both hands up like branches.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -383,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Oasis friends—A-B-C!",
+      "text": "Dry road, blue shade—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Desert wildlife, sing with me!",
+      "text": "Water changes what can gather nearby.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Look for Q ... Quail! Make tiny pecking finger taps.",
+      "text": "Oasis-map clue Q ... Quail! Make tiny pecking finger taps.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Rattlesnake! Trace one slow curving path with a finger.",
+      "text": "Shade-or-open R ... Rattlesnake! Trace one slow curving path with a finger.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Clue S? ... Sand! Trace the land or ice shape in the air.",
+      "text": "Water or dry edge—S? ... Sand! Trace the land or ice shape in the air.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... T ... Tortoise! Trace one slow curving path with a finger.",
+      "text": "Next oasis clue T ... Tortoise! Trace one slow curving path with a finger.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Look for U ... Umbrella Thorn! Grow one hand upward, then sway.",
+      "text": "Oasis-map clue U ... Umbrella Thorn! Grow one hand upward, then sway.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Vulture! Lift two gentle wings, then hold still.",
+      "text": "Shade-or-open V ... Vulture! Lift two gentle wings, then hold still.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Clue W? ... Wadi! Trace the land or ice shape in the air.",
+      "text": "Water or dry edge—W? ... Wadi! Trace the land or ice shape in the air.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... X ... Xerus! Point to the matching picture, then make one small shape gesture.",
+      "text": "Next oasis clue X ... Xerus! Point to the matching picture, then make one small shape gesture.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Look for Y ... Yellow Scorpion! Wiggle tiny fingers or make a small flutter.",
+      "text": "Oasis-map clue Y ... Yellow Scorpion! Wiggle tiny fingers or make a small flutter.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Ziziphus Shrub! Grow one hand upward, then sway.",
+      "text": "Shade-or-open Z ... Ziziphus Shrub! Grow one hand upward, then sway.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Oasis friends—A-B-C!",
+      "text": "Dry road, blue shade—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Desert wildlife, sing with me!",
+      "text": "Water changes what can gather nearby.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Oasis friends—A-B-C!",
+      "text": "Beyond the palms, the ground opens dry again.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—oasis sway stays with me!",
+      "text": "A to Z carries the water story into the wadi.",
       "objective": "narration",
       "objectReveal": "none"
     }

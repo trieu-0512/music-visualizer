@@ -6,8 +6,8 @@
   "tempoBpm": 85,
   "motifFamily": "woodland-step",
   "hook": [
-    "Tiptoe softly—A-B-C!",
-    "Woodland friends, come walk with me!"
+    "Step, stop, listen—A-B-C!",
+    "The quiet woods keep answering softly."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one clear beat with arrangement thinned",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a quiet woodland walker following tracks, leaves, birds and tree shapes",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 4/4 bounce",
-    "round1Grammar": "Round 1 uses small woodland observations—bark, wings, tracks, leaves, shade and movement—with plenty of air.",
-    "round2Grammar": "Round 2 uses quiet cue-gap-answer phrasing, then one woodland motion such as hop, flap, sway, tap or trace.",
+    "rhymeEngine": "woodland-footstep-sound-mosaic",
+    "chorusRhymeEngine": "crunch-hush-echo-hook",
+    "pointOfView": "a child walking softly enough to notice tiny woodland sounds before seeing their sources",
+    "chorusFunction": "reset the listening rule: step, stop, hear, then name",
+    "grooveMeter": "soft 4/4 walking pulse with leaf-crunch rests",
+    "round1Grammar": "hand-written sound-and-texture observations; facts stay concrete while sound words recur only where the object can honestly support them",
+    "round2Grammar": "listen cue -> one silent recall beat -> target -> one quiet safe gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. wood-flute or pizzicato leaf answers between target phrases",
     "signatureColor": "wood-flute or pizzicato leaf answers between target phrases",
+    "authorialIntent": "Make the alphabet feel like a quiet woodland walk heard as much as seen: leaf-crunch, bark-whisper, wing-burst, paw-step and woodpecker drum guide attention without turning the forest into noise.",
+    "lyricIdentity": "A child walks softly and listens for small sound clues; recurring language uses crunch, hush, rustle, tap, drum, whisper and sudden silence.",
+    "imageMotifs": [
+      "leaf-crunch underfoot",
+      "papery and ridged bark",
+      "soft paws in cover",
+      "fallen log shelter",
+      "woodpecker drum overhead"
+    ],
+    "semanticArc": [
+      "enter on quiet footsteps",
+      "trees and bark shape the soundscape",
+      "animals interrupt the hush",
+      "the walk ends with the forest quiet again"
+    ],
+    "forbiddenGenericLanguage": [
+      "woodland friends come walk with me",
+      "fun in the forest",
+      "look and see",
+      "shining bright"
+    ],
     "chorusAfterRound1": [
       3,
       6
@@ -47,7 +68,7 @@
       4,
       7
     ],
-    "hasMidInterlude": false,
+    "hasMidInterlude": true,
     "objectCraftRequired": true
   },
   "objectCraftCoverage": {

@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Hot sun, cool shade, cactus standing tall.",
+      "text": "Sun climbs; the shadow of one cactus gets shorter.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A bouncing letter peeks around it all.",
+      "text": "Desert life is not one trick—it is many ways to handle heat and little water.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Armadillo — that's A. It is a reptile with scales that moves close to the ground or through branches.",
+      "text": "A — Armadillo! Mammal with bony armor plates | low body searches dry ground when conditions are safer.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Spot B: Beetle! A beetle is a small creature that can be noticed by its legs, body shape, or movement.",
+      "text": "B ... B ... Beetle! Six legs cross sand or stone | small bodies often use timing and shelter to avoid the fiercest heat.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C brings Cactus. Spines in the sun | cactus stores water when rain is done",
+      "text": "C? Cactus! Thick tissues can store water | spines replace broad leaves on many desert species.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D? Desert Tortoise! A desert tortoise carries a hard shell and shelters from extreme heat in burrows.",
+      "text": "D is Desert Tortoise. Hard shell above, burrow below | underground shelter helps escape extreme heat.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Across the warm sand, here is E with Euphorbia. Leaf in light | green stems stretch up bright",
+      "text": "E — Euphorbia! Some desert euphorbias have thick succulent stems | another plant strategy for dry places.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Fennec — that's F. It is a small desert fox with very large ears that help release heat and detect sounds.",
+      "text": "F ... F ... Fennec! Very large ears help release heat and catch faint sounds | small fox built for desert nights.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Spot G: Gecko! Many geckos have gripping toe pads that help them cling to bark, leaves, or other surfaces.",
+      "text": "G? Gecko! Small lizard grips rock or wall | shade and cooler hours matter more than standing in open noon.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H brings Hawk. It is a keen-eyed bird of prey with strong wings and grasping feet.",
+      "text": "H is Hawk. Wings ride rising air above hot ground | a bird using the sky while shadows shrink below.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Cactus bounce—A-B-C!",
+      "text": "Sun, shade, one drop—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Dunes and desert, look with me!",
+      "text": "Desert life makes every cool place count.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I? Iguana! An iguana is a large lizard with a long tail and a row of spines along its back.",
+      "text": "I — Iguana! Scaled body and long tail | a lizard seeks the right place and time rather than one magical heat-proof trick.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Across the warm sand, here is J with Jackrabbit. It has very long ears and powerful hind legs for fast leaps across open ground.",
+      "text": "J ... J ... Jackrabbit! Huge ears can release body heat | long hind legs cross open ground quickly.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kangaroo Rat — that's K. Near the ground | tiny footsteps move around",
+      "text": "K? Kangaroo Rat! Powerful hind legs, small night-active body | desert life often waits for cooler darkness.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Spot L: Limestone! Limestone is a pale sedimentary rock often formed from calcium-rich material.",
+      "text": "L is Limestone. Pale rock holds no water-saving behavior | it simply changes how heat, shade and ground feel around it.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M brings Meerkat. Small and quick | little feet go tick-tick-tick",
+      "text": "M — Meerkat! Small mammal stands to scan, then returns to group or shelter | open sun is only part of its day.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N? Nopales! Nopales are the flat green pads of prickly pear cactus.",
+      "text": "N ... N ... Nopales! Flat prickly-pear pads are succulent cactus tissue | thick green surfaces hold moisture.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Across the warm sand, here is O with Oasis. Shade by the blue | oasis water brings green plants into view",
+      "text": "O? Oasis! Water and shade gather in one dry landscape | green becomes possible where moisture reaches roots.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Palm — that's P. It is a woody plant with a trunk or strong stems and a crown of leaves or needles.",
+      "text": "P is Palm. Leaf crown lifts over a trunk or stems | oasis shade can spread beneath broad fronds.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Spot Q: Quartz! Quartz is a hard mineral that can sparkle with a glassy surface.",
+      "text": "Q — Quartz! Hard glassy mineral catches sun | a heat-and-light clue, not a living adaptation.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R brings Rattlesnake. It is a snake with a rattle at the end of its tail; we observe it from a safe distance.",
+      "text": "R ... R ... Rattlesnake! Rattle at the tail, scaled body | venomous wildlife is observed only from a safe distance.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S? Scorpion! A scorpion has pincers and a curved stinging tail; we only observe it safely from a distance.",
+      "text": "S? Scorpion! Pincers, many walking legs, curved stinging tail | another animal we never touch or approach.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Across the warm sand, here is T with Tortoise. It is a reptile with scales that moves close to the ground or through branches.",
+      "text": "T is Tortoise. Low shell and sturdy feet | slow travel makes shade and timing especially important.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Cactus bounce—A-B-C!",
+      "text": "Sun, shade, one drop—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Dunes and desert, look with me!",
+      "text": "Desert life makes every cool place count.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Urial — that's U. Hooves go slow | sure-foot steps along below",
+      "text": "U — Urial! Wild sheep with sure hooves | shade, terrain and access to water shape life in dry country.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Spot V: Vulture! A vulture is a large soaring bird that helps clean ecosystems by eating dead animals.",
+      "text": "V ... V ... Vulture! Broad wings soar efficiently | height and moving air can reduce the need for constant flapping.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W brings Wren. Feather light | beak and wings come into sight",
+      "text": "W? Wren! Small bird uses cover, shade and brief movement | not every desert strategy is about storing water inside a body.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X? Xerophyte! A xerophyte is a plant adapted to live where water is scarce.",
+      "text": "X is Xerophyte. A plant adapted to dry conditions | the word itself points to surviving where water is scarce.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Across the warm sand, here is Y with Yellow Scorpion. It is a pale desert scorpion; we only observe it from a safe distance.",
+      "text": "Y — Yellow Scorpion! Pale desert scorpion | keep distance and let shade belong to wildlife too.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Ziziphus Shrub — that's Z. It is a hardy thorny plant that can bear small round fruits.",
+      "text": "Z ... Z ... Ziziphus Shrub! Hardy thorny shrub can bear small fruits | woody shade holds on through dry conditions.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Spot A ... Armadillo! Trace one slow curving path with a finger.",
+      "text": "Heat-or-shade A ... Armadillo! Trace one slow curving path with a finger.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Remember B ... Beetle! Wiggle tiny fingers or make a small flutter.",
+      "text": "Desert strategy B ... Beetle! Wiggle tiny fingers or make a small flutter.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C? ... Cactus! Grow one hand upward, then sway.",
+      "text": "Sun, shade, or water—C? ... Cactus! Grow one hand upward, then sway.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Find D ... Desert Tortoise! Trace one slow curving path with a finger.",
+      "text": "Cool-down clue D ... Desert Tortoise! Trace one slow curving path with a finger.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Spot E ... Euphorbia! Grow one hand upward, then sway.",
+      "text": "Heat-or-shade E ... Euphorbia! Grow one hand upward, then sway.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Fennec! Hold two hands up like very large ears.",
+      "text": "Desert strategy F ... Fennec! Hold two hands up like very large ears.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G? ... Gecko! Trace one slow curving path with a finger.",
+      "text": "Sun, shade, or water—G? ... Gecko! Trace one slow curving path with a finger.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Find H ... Hawk! Point to the matching picture, then make one small shape gesture.",
+      "text": "Cool-down clue H ... Hawk! Point to the matching picture, then make one small shape gesture.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Spot I ... Iguana! Trace one slow curving path with a finger.",
+      "text": "Heat-or-shade I ... Iguana! Trace one slow curving path with a finger.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Remember J ... Jackrabbit! Make one gentle two-finger leap.",
+      "text": "Desert strategy J ... Jackrabbit! Make one gentle two-finger leap.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K? ... Kangaroo Rat! Make two tiny walking or hopping finger-steps.",
+      "text": "Sun, shade, or water—K? ... Kangaroo Rat! Make two tiny walking or hopping finger-steps.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Find L ... Limestone! Trace the land or ice shape in the air.",
+      "text": "Cool-down clue L ... Limestone! Trace the land or ice shape in the air.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -358,7 +358,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Spot M ... Meerkat! Make two tiny walking or hopping finger-steps.",
+      "text": "Heat-or-shade M ... Meerkat! Make two tiny walking or hopping finger-steps.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -366,7 +366,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Remember N ... Nopales! Pretend to pick it gently, then show the picture.",
+      "text": "Desert strategy N ... Nopales! Point to the flat cactus pads; keep hands away from spines.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -374,7 +374,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O? ... Oasis! Trace the land or ice shape in the air.",
+      "text": "Sun, shade, or water—O? ... Oasis! Trace the land or ice shape in the air.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -382,7 +382,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Find P ... Palm! Reach both hands up like branches.",
+      "text": "Cool-down clue P ... Palm! Reach both hands up like branches.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -390,21 +390,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Cactus bounce—A-B-C!",
+      "text": "Sun, shade, one drop—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Dunes and desert, look with me!",
+      "text": "Desert life makes every cool place count.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Spot Q ... Quartz! Trace the land or ice shape in the air.",
+      "text": "Heat-or-shade Q ... Quartz! Trace the land or ice shape in the air.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Remember R ... Rattlesnake! Trace one slow curving path with a finger.",
+      "text": "Desert strategy R ... Rattlesnake! Trace one slow curving path with a finger.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S? ... Scorpion! Wiggle tiny fingers or make a small flutter.",
+      "text": "Sun, shade, or water—S? ... Scorpion! Wiggle tiny fingers or make a small flutter.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Find T ... Tortoise! Trace one slow curving path with a finger.",
+      "text": "Cool-down clue T ... Tortoise! Trace one slow curving path with a finger.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Spot U ... Urial! Tap two quiet hoof-beats with your fingers.",
+      "text": "Heat-or-shade U ... Urial! Tap two quiet hoof-beats with your fingers.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Remember V ... Vulture! Lift two gentle wings, then hold still.",
+      "text": "Desert strategy V ... Vulture! Lift two gentle wings, then hold still.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W? ... Wren! Lift two gentle wings, then hold still.",
+      "text": "Sun, shade, or water—W? ... Wren! Lift two gentle wings, then hold still.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X ... Xerophyte! Grow one hand upward, then sway.",
+      "text": "Cool-down clue X ... Xerophyte! Grow one hand upward, then sway.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,7 +468,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Spot Y ... Yellow Scorpion! Wiggle tiny fingers or make a small flutter.",
+      "text": "Heat-or-shade Y ... Yellow Scorpion! Wiggle tiny fingers or make a small flutter.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -476,7 +476,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Remember Z ... Ziziphus Shrub! Grow one hand upward, then sway.",
+      "text": "Desert strategy Z ... Ziziphus Shrub! Grow one hand upward, then sway.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -484,28 +484,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Cactus bounce—A-B-C!",
+      "text": "Sun, shade, one drop—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Dunes and desert, look with me!",
+      "text": "Desert life makes every cool place count.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Cactus bounce—A-B-C!",
+      "text": "The ground cools; small evening movement begins again.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—cactus bounce stays with me!",
+      "text": "A to Z waits out the heat and keeps going.",
       "objective": "narration",
       "objectReveal": "none"
     }

@@ -6,8 +6,8 @@
   "tempoBpm": 82,
   "motifFamily": "tundra-glow",
   "hook": [
-    "Tundra glow—A-B-C!",
-    "Ice and snow shine back to me!"
+    "Pale, dark, blue—A-B-C!",
+    "Low light makes small colors matter more."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two supportive beats of quiet",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a warm, calm observer noticing snow, ice, seabirds and cold-climate wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 stays spacious and warm, contrasting snow/ice images with animal motion; rare names remain near speech rhythm.",
-    "round2Grammar": "Round 2 thins the arrangement, leaves one to two beats for recall and confirms with a simple cold-climate motion.",
+    "rhymeEngine": "polar-light-contrast-open-cadence",
+    "chorusRhymeEngine": "pale-dark-blue-hook",
+    "pointOfView": "a child learning to see subtle color and contrast in snow, tundra and cold water",
+    "chorusFunction": "restate pale-dark-blue contrast without turning the song into a glitter effect",
+    "grooveMeter": "slow open 6/8 with held reflected-light phrases",
+    "round1Grammar": "hand-written color-and-light observations; facts stay concrete and not every target is described as white or glowing",
+    "round2Grammar": "light/contrast cue -> recall beat -> target -> gentle point/shape gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. soft bell sparkle after targets over a warm acoustic pulse",
     "signatureColor": "soft bell sparkle after targets over a warm acoustic pulse",
+    "authorialIntent": "Use reflected polar light as the organizing image: snow, floe, pale animals, dark birds and open water change how color is noticed in a low-light tundra world.",
+    "lyricIdentity": "A quiet child observer watches contrast rather than sparkle clichés; recurring language uses pale, blue-shadow, low sun, dark-on-white, reflection, soft edge and glow.",
+    "imageMotifs": [
+      "arctic fox against snow",
+      "beluga under blue water",
+      "dark jaeger over pale tundra",
+      "quartz catching low light",
+      "yellow loon bill at dusk"
+    ],
+    "semanticArc": [
+      "pale morning reveals low-contrast forms",
+      "dark and bright animals sharpen the scene",
+      "sea and ice reflect different color",
+      "blue evening closes with small warm details"
+    ],
+    "forbiddenGenericLanguage": [
+      "ice and snow shine back to me",
+      "tundra glow",
+      "sparkle everywhere",
+      "everything is white"
+    ],
     "chorusAfterRound1": [
       2,
       6
