@@ -6,11 +6,79 @@
   "tempoBpm": 93,
   "motifFamily": "circuit-beat",
   "hook": [
-    "Circuits, gadgets—A-B-C!",
-    "Picture-board science, sing with me!"
+    "Store, switch, convert—A-B-C!",
+    "Name the signal job before the gadget beat."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Circuit Gadget Beat",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "signal-transform-rhyme",
+    "chorusRhymeEngine": "store-switch-convert-hook",
+    "pointOfView": "a child classifying circuit transformations",
+    "chorusFunction": "repeat store-switch-convert-connect",
+    "grooveMeter": "90 BPM discrete-step 4/4",
+    "round1Grammar": "component -> signal function -> rating/limit",
+    "round2Grammar": "function recall -> target -> non-contact diagram gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "signal-transform",
+    "authorialIntent": "Make Circuit Gadget Beat a signal-chain song: capacitor, transistor, logic, microcontroller, DAC, LED, sensors and USB/networking transform/store/route signals; voltage regulator protects operating ranges.",
+    "lyricIdentity": "A child asks whether a component stores, switches, computes, converts, senses, communicates, or outputs—not whether it is simply a 'gadget part'.",
+    "imageMotifs": [
+      "capacitor charge",
+      "logic gate",
+      "DAC steps-to-voltage",
+      "LED output",
+      "USB cable"
+    ],
+    "semanticArc": [
+      "store/switch",
+      "logic/compute",
+      "convert/output",
+      "connect/regulate"
+    ],
+    "forbiddenGenericLanguage": [
+      "circuit beat electricity play",
+      "touch circuit",
+      "all chips compute same",
+      "LED makes power"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 4,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

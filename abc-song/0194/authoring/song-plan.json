@@ -6,11 +6,79 @@
   "tempoBpm": 87,
   "motifFamily": "robot-book",
   "hook": [
-    "Robot builder—A-B-C!",
-    "Parts and tools are pictures to see!"
+    "Build, test, check—A-B-C!",
+    "Feedback tells the next revision."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Robot Builder Picture Book",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "build-debug-rhyme",
+    "chorusRhymeEngine": "build-test-check-hook",
+    "pointOfView": "a child following an engineering build book",
+    "chorusFunction": "repeat build-test-check-revise",
+    "grooveMeter": "84 BPM page-turn engineering 6/8",
+    "round1Grammar": "component -> build/debug role -> limit",
+    "round2Grammar": "workflow recall -> target -> safe diagram gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "build-debug",
+    "authorialIntent": "Make Robot Builder Picture Book a build-and-debug workflow: define axes/joints, mount motor/gear, wire interface, add sensors, load firmware, test slowly, compare command to feedback, revise.",
+    "lyricIdentity": "A child reads an engineering picture book where debugging is expected and X-shaped Robot Arm is only project geometry, not a standard robot class.",
+    "imageMotifs": [
+      "joint diagram",
+      "motor gearbox",
+      "interface board",
+      "encoder wheel",
+      "debug arrow"
+    ],
+    "semanticArc": [
+      "mechanical build",
+      "electrical interface",
+      "software/sensing",
+      "test/revise"
+    ],
+    "forbiddenGenericLanguage": [
+      "robot builds itself",
+      "first try works",
+      "x robot special class",
+      "debug means broken maker"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 1,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

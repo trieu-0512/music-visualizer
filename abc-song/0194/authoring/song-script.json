@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore robot builder with me!",
+      "text": "Build the joint, connect the motor, wire the sensor, load firmware, test slowly, compare feedback.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Robot builder—A-B-C!",
+      "text": "Debugging is part of building, not proof the project failed.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Our robot-builder book pairs A with Atom Model on the page.",
+      "text": "A — Arduino Board! | Microcontroller development-board family; processor, voltage, and pins depend on model.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Our robot-builder book pairs B with Beaker on the page.",
+      "text": "B ... B ... Battery! | Electrochemical device converts stored chemical energy to electrical energy; polarity, voltage, chemistry, charging, and disposal must match the device.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Our robot-builder book pairs C with Computer on the page.",
+      "text": "C? Capacitor! | Component stores electric charge/energy in an electric field; capacitance, voltage rating, polarity for some types, and discharge matter.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Our robot-builder book pairs D with Drone on the page.",
+      "text": "D is Daughter Board. Secondary circuit board plugs/connects to a main board to add specialized functions. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Our robot-builder book pairs E with Electromagnet on the page.",
+      "text": "E — Encoder Wheel! | Patterned wheel/disc works with a sensor to encode rotation; slot/mark count affects resolution.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Our robot-builder book pairs F with Fuse on the page.",
+      "text": "F ... F ... Firmware! | Software stored close to hardware controls low-level device behavior; it can be updated but must match device/version.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Our robot-builder book pairs G with Goggles on the page.",
+      "text": "G? Gearbox! | Mechanical gear train changes speed, torque, or direction between input and output shafts.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Our robot-builder book pairs H with Hydraulic Arm on the page.",
+      "text": "H is Heat Sensor. Broad sensor label for temperature/thermal detection; thermistors, IC sensors, thermocouples, and infrared sensors measure differently. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Robot builder—A-B-C!",
+      "text": "Build, test, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Parts and tools are pictures to see!",
+      "text": "Feedback tells the next revision.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Our robot-builder book pairs I with Indicator Light on the page.",
+      "text": "I — Interface Board! | Board adapts connectors, voltage levels, signals, or protocols between subsystems.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Our robot-builder book pairs J with Jet Robot on the page.",
+      "text": "J ... J ... Joystick! | Human input control reports direction and sometimes buttons/axes; it sends commands rather than directly moving a robot joint.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Our robot-builder book pairs K with Kit on the page.",
+      "text": "K? Keyboard! | Key-based input device sends codes/commands to a computer or controller; software interprets those inputs.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Our robot-builder book pairs L with Laser on the page.",
+      "text": "L is Logic Gate. Digital circuit implements Boolean operations such as AND, OR, or NOT on logic-level inputs. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Our robot-builder book pairs M with Microscope on the page.",
+      "text": "M — Motor! | Electromechanical actuator converts electrical energy into rotational or linear mechanical motion depending type.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Our robot-builder book pairs N with Nut on the page.",
+      "text": "N ... N ... Network Cable! | Wired medium carries data signals between network devices; connector/category and supported speed depend on cable standard.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Our robot-builder book pairs O with Oscilloscope on the page.",
+      "text": "O? Optical Sensor! | Sensor responds to light using photodiodes, phototransistors, imaging elements, or other optical methods.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Our robot-builder book pairs P with Pipette on the page.",
+      "text": "P is Power Supply. Source converts/provides electrical power at specified voltage/current; current capability and polarity must match load. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Robot builder—A-B-C!",
+      "text": "Build, test, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Parts and tools are pictures to see!",
+      "text": "Feedback tells the next revision.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Our robot-builder book pairs Q with QR Code on the page.",
+      "text": "Q — Quantum Sensor! | Sensor class uses quantum effects for precise measurement; it is not a quantum computer by definition.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Our robot-builder book pairs R with Robot on the page.",
+      "text": "R ... R ... Robot Arm! | Mechanical linkage with joints/actuators positions an end effector; controller and program determine commanded motion.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Our robot-builder book pairs S with Switch on the page.",
+      "text": "S? Servo! | Actuator system uses feedback to control position, speed, or torque; hobby servos typically combine motor, gears, sensor, and controller.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Our robot-builder book pairs T with Transistor on the page.",
+      "text": "T is Touch Sensor. Sensor detects contact or touch-related changes using capacitive, resistive, force, or other methods. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Our robot-builder book pairs U with USB Cable on the page.",
+      "text": "U — USB Cable! | Cable carries power and/or data under USB standards; connector shape alone does not guarantee supported power or data rate.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Our robot-builder book pairs V with Vacuum Tube on the page.",
+      "text": "V ... V ... Voltage Regulator! | Circuit maintains or converts output voltage within a specified range; it cannot safely ignore current, heat, or input limits.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Our robot-builder book pairs W with Wheel on the page.",
+      "text": "W? Wheel Encoder! | Encoder measures wheel rotation to estimate speed/distance; wheel slip means estimated travel can differ from true ground movement.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Our robot-builder book pairs X with X-axis Plotter on the page.",
+      "text": "X is X-shaped Robot Arm. Project robot-arm model with X-like geometry; shape is a visual clue and does not define a standard industrial kinematic type. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Robot builder—A-B-C!",
+      "text": "Build, test, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Parts and tools are pictures to see!",
+      "text": "Feedback tells the next revision.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Our robot-builder book pairs Y with Yoke Robot on the page.",
+      "text": "Y — Yaw Sensor! | Project label for sensor estimating rotation about a vertical/yaw axis, often using gyroscope or fused inertial data; drift/calibration can matter.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Our robot-builder book pairs Z with Zero-gravity Robot on the page.",
+      "text": "Z ... Z ... Z-axis Sensor! | Project sensor assigned to a Z-axis measurement in a coordinate system; axis meaning depends on machine orientation and sensor type.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Book cue: A ... Atom Model! Point, no tool play.",
+      "text": "Build recall A ... Arduino Board! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Book cue: B ... Beaker! Point, no tool play.",
+      "text": "Find B ... Battery! Point; match polarity/chemistry only under adult guidance.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Book cue: C ... Computer! Point, no tool play.",
+      "text": "Which one starts C? ... Capacitor! Point only; real electrical/lab equipment stays with trained adults.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Book cue: D ... Drone! Point, no tool play.",
+      "text": "Check D ... Daughter Board! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Book cue: E ... Electromagnet! Point, no tool play.",
+      "text": "Build recall E ... Encoder Wheel! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Book cue: F ... Fuse! Point, no tool play.",
+      "text": "Find F ... Firmware! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Book cue: G ... Goggles! Point, no tool play.",
+      "text": "Which one starts G? ... Gearbox! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Book cue: H ... Hydraulic Arm! Point, no tool play.",
+      "text": "Check H ... Heat Sensor! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Robot builder—A-B-C!",
+      "text": "Build, test, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Parts and tools are pictures to see!",
+      "text": "Feedback tells the next revision.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Book cue: I ... Indicator Light! Point, no tool play.",
+      "text": "Build recall I ... Interface Board! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Book cue: J ... Jet Robot! Point, no tool play.",
+      "text": "Find J ... Joystick! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Book cue: K ... Kit! Point, no tool play.",
+      "text": "Which one starts K? ... Keyboard! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Book cue: L ... Laser! Point, no tool play.",
+      "text": "Check L ... Logic Gate! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Book cue: M ... Microscope! Point, no tool play.",
+      "text": "Build recall M ... Motor! Rotate one finger slowly; no powered mechanism handling.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Book cue: N ... Nut! Point, no tool play.",
+      "text": "Find N ... Network Cable! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Book cue: O ... Oscilloscope! Point, no tool play.",
+      "text": "Which one starts O? ... Optical Sensor! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Book cue: P ... Pipette! Point, no tool play.",
+      "text": "Check P ... Power Supply! Point only; real electrical/lab equipment stays with trained adults.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Robot builder—A-B-C!",
+      "text": "Build, test, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Parts and tools are pictures to see!",
+      "text": "Feedback tells the next revision.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Book cue: Q ... QR Code! Point, no tool play.",
+      "text": "Build recall Q ... Quantum Sensor! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Book cue: R ... Robot! Point, no tool play.",
+      "text": "Find R ... Robot Arm! Bend one elbow slowly; keep real robot work envelope clear.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Book cue: S ... Switch! Point, no tool play.",
+      "text": "Which one starts S? ... Servo! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Book cue: T ... Transistor! Point, no tool play.",
+      "text": "Check T ... Touch Sensor! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Book cue: U ... USB Cable! Point, no tool play.",
+      "text": "Build recall U ... USB Cable! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Book cue: V ... Vacuum Tube! Point, no tool play.",
+      "text": "Find V ... Voltage Regulator! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Book cue: W ... Wheel! Point, no tool play.",
+      "text": "Which one starts W? ... Wheel Encoder! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Book cue: X ... X-axis Plotter! Point, no tool play.",
+      "text": "Check X ... X-shaped Robot Arm! Air-trace X geometry; no real robot interaction.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Robot builder—A-B-C!",
+      "text": "Build, test, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Parts and tools are pictures to see!",
+      "text": "Feedback tells the next revision.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Book cue: Y ... Yoke Robot! Point, no tool play.",
+      "text": "Build recall Y ... Yaw Sensor! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Book cue: Z ... Zero-gravity Robot! Point, no tool play.",
+      "text": "Find Z ... Z-axis Sensor! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Robot builder—A-B-C!",
+      "text": "X-shaped Robot Arm stays a project shape, Z-axis Sensor stays coordinate-dependent.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z closes the book with one more revision possible.",
       "objective": "narration",
       "objectReveal": "none"
     }

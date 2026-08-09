@@ -6,11 +6,79 @@
   "tempoBpm": 90,
   "motifFamily": "machine-lab",
   "hook": [
-    "Lab machines—A-B-C!",
-    "Gadgets and tools, look with me!"
+    "Power, signal, drive—A-B-C!",
+    "Check each layer before blaming the whole machine."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Machine Lab ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "system-stack-rhyme",
+    "chorusRhymeEngine": "power-signal-drive-hook",
+    "pointOfView": "a child reading a machine block diagram",
+    "chorusFunction": "repeat power-signal-drive-check",
+    "grooveMeter": "86 BPM block-stack 6/8",
+    "round1Grammar": "component -> system layer -> interface caveat",
+    "round2Grammar": "architecture recall -> target -> diagram gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "system-stack",
+    "authorialIntent": "Make Machine Lab ABC an architecture stack: power, wiring/prototype, processor/firmware, communication, sensors, drivers, motors/gearbox, measurement—each layer solves a different engineering problem.",
+    "lyricIdentity": "A child builds a block diagram and learns that a machine fails when interfaces, voltage, addressing, code, or mechanics disagree.",
+    "imageMotifs": [
+      "power supply",
+      "breadboard",
+      "firmware",
+      "I2C sensor",
+      "H-bridge motor"
+    ],
+    "semanticArc": [
+      "power/connect",
+      "compute/communicate",
+      "sense/drive",
+      "measure/debug"
+    ],
+    "forbiddenGenericLanguage": [
+      "machine magic",
+      "plug anything",
+      "code fixes hardware",
+      "multimeter toy"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 2,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

@@ -1,111 +1,111 @@
 [Intro]
-Come explore lab and machines with me!
-Lab machines—A-B-C!
+Power first, connections next, firmware gives instructions, sensor reports, H-bridge drives motor.
+A machine is a stack of interfaces.
 
 [Verse 1]
-At our science display, A shows Atom Model behind the safety line.
-At our science display, B shows Beaker behind the safety line.
-At our science display, C shows Circuit behind the safety line.
-At our science display, D shows Dynamo behind the safety line.
+A — Arduino Board! | Microcontroller development-board family; processor, voltage, and pins depend on model.
+B ... B ... Breadboard! | Reusable solderless prototyping board connects components through internal spring contacts; it is for low-voltage circuits, not mains electricity.
+C? Circuit Board! | Rigid/flexible substrate supports and electrically connects components through conductive traces and pads.
+D is Digital Multimeter. Instrument measures voltage, current, resistance and other quantities depending model; mode/range/probe placement must match the measurement. |
 
 [Verse 2]
-At our science display, E shows Electromagnet behind the safety line.
-At our science display, F shows Fuse behind the safety line.
-At our science display, G shows Gear behind the safety line.
-At our science display, H shows Headset behind the safety line.
+E — Electric Motor! | Motor converts electrical energy to mechanical motion through electromagnetic interactions; many motor types use different drive electronics.
+F ... F ... Firmware! | Software stored close to hardware controls low-level device behavior; it can be updated but must match device/version.
+G? Gearbox! | Mechanical gear train changes speed, torque, or direction between input and output shafts.
+H is H-bridge. Electronic switching circuit drives current through a motor in either direction; shoot-through and voltage/current limits require proper control. |
 
 [Chorus]
-Lab machines—A-B-C!
-Gadgets and tools, look with me!
+Power, signal, drive—A-B-C!
+Check each layer before blaming the whole machine.
 
 [Verse 3]
-At our science display, I shows Insulator behind the safety line.
-At our science display, J shows Jumper Wire behind the safety line.
-At our science display, K shows Keyboard behind the safety line.
-At our science display, L shows Lab Coat behind the safety line.
+I — I2C Sensor! | Sensor communicating over I²C digital bus shares clock/data lines with addressed devices; voltage levels and addresses must be compatible.
+J ... J ... Joystick! | Human input control reports direction and sometimes buttons/axes; it sends commands rather than directly moving a robot joint.
+K? Keyboard! | Key-based input device sends codes/commands to a computer or controller; software interprets those inputs.
+L is Logic Gate. Digital circuit implements Boolean operations such as AND, OR, or NOT on logic-level inputs. |
 
 [Verse 4]
-At our science display, M shows Microscope behind the safety line.
-At our science display, N shows Notebook behind the safety line.
-At our science display, O shows Optical Sensor behind the safety line.
-At our science display, P shows Processor behind the safety line.
+M — Machine Vision Camera! | Camera captures images for automated analysis; algorithms infer features from pixels and can make errors.
+N ... N ... Network Cable! | Wired medium carries data signals between network devices; connector/category and supported speed depend on cable standard.
+O? Optical Sensor! | Sensor responds to light using photodiodes, phototransistors, imaging elements, or other optical methods.
+P is Power Supply. Source converts/provides electrical power at specified voltage/current; current capability and polarity must match load. |
 
 [Chorus]
-Lab machines—A-B-C!
-Gadgets and tools, look with me!
+Power, signal, drive—A-B-C!
+Check each layer before blaming the whole machine.
 
 [Verse 5]
-At our science display, Q shows Quantum Model behind the safety line.
-At our science display, R shows Resistor behind the safety line.
-At our science display, S shows Sensor behind the safety line.
-At our science display, T shows Test Tube behind the safety line.
+Q — Quantum Sensor! | Sensor class uses quantum effects for precise measurement; it is not a quantum computer by definition.
+R ... R ... Relay! | Electrically controlled switch isolates or redirects circuits; electromechanical and solid-state relays behave differently.
+S? Servo! | Actuator system uses feedback to control position, speed, or torque; hobby servos typically combine motor, gears, sensor, and controller.
+T is Touch Sensor. Sensor detects contact or touch-related changes using capacitive, resistive, force, or other methods. |
 
 [Verse 6]
-At our science display, U shows USB Cable behind the safety line.
-At our science display, V shows Voltmeter behind the safety line.
-At our science display, W shows Wheel behind the safety line.
-At our science display, X shows X-axis Plotter behind the safety line.
+U — Ultrasonic Module! | Packaged ultrasonic transmitter/receiver module often used for ranging; it needs correct voltage, timing, and geometry.
+V ... V ... Voltage Regulator! | Circuit maintains or converts output voltage within a specified range; it cannot safely ignore current, heat, or input limits.
+W? Wheel Encoder! | Encoder measures wheel rotation to estimate speed/distance; wheel slip means estimated travel can differ from true ground movement.
+X is X-ray Sensor. Detector converts X-ray energy into signals for imaging; operation requires professional radiation controls. |
 
 [Chorus]
-Lab machines—A-B-C!
-Gadgets and tools, look with me!
+Power, signal, drive—A-B-C!
+Check each layer before blaming the whole machine.
 
 [Verse 7]
-At our science display, Y shows Yoke Robot behind the safety line.
-At our science display, Z shows Zero-gravity Robot behind the safety line.
+Y — Yaw Sensor! | Project label for sensor estimating rotation about a vertical/yaw axis, often using gyroscope or fused inertial data; drift/calibration can matter.
+Z ... Z ... Zero-voltage Meter! | Project meter label for checking a zero/near-zero voltage condition; zero reading depends on instrument range, connection, and actual circuit state.
 
 [Call and Response 1]
-Display pause: A ... Atom Model! Point when the labels align.
-Display pause: B ... Beaker! Point when the labels align.
-Display pause: C ... Circuit! Point when the labels align.
-Display pause: D ... Dynamo! Point when the labels align.
+Layer recall A ... Arduino Board! Point once; air-trace its outline.
+Find B ... Breadboard! Point once; name its main job.
+Which one starts C? ... Circuit Board! Point once; show its shape with empty hands.
+Check D ... Digital Multimeter! Point only; real electrical/lab equipment stays with trained adults.
 
 [Call and Response 2]
-Display pause: E ... Electromagnet! Point when the labels align.
-Display pause: F ... Fuse! Point when the labels align.
-Display pause: G ... Gear! Point when the labels align.
-Display pause: H ... Headset! Point when the labels align.
+Layer recall E ... Electric Motor! Rotate one finger slowly; no powered mechanism handling.
+Find F ... Firmware! Point once; name its main job.
+Which one starts G? ... Gearbox! Point once; show its shape with empty hands.
+Check H ... H-bridge! Point once; recall one Round-1 clue.
 
 [Chorus]
-Lab machines—A-B-C!
-Gadgets and tools, look with me!
+Power, signal, drive—A-B-C!
+Check each layer before blaming the whole machine.
 
 [Call and Response 3]
-Display pause: I ... Insulator! Point when the labels align.
-Display pause: J ... Jumper Wire! Point when the labels align.
-Display pause: K ... Keyboard! Point when the labels align.
-Display pause: L ... Lab Coat! Point when the labels align.
+Layer recall I ... I2C Sensor! Point once; air-trace its outline.
+Find J ... Joystick! Point once; name its main job.
+Which one starts K? ... Keyboard! Point once; show its shape with empty hands.
+Check L ... Logic Gate! Point once; recall one Round-1 clue.
 
 [Call and Response 4]
-Display pause: M ... Microscope! Point when the labels align.
-Display pause: N ... Notebook! Point when the labels align.
-Display pause: O ... Optical Sensor! Point when the labels align.
-Display pause: P ... Processor! Point when the labels align.
+Layer recall M ... Machine Vision Camera! Frame a picture with fingers; say image analysis can be wrong.
+Find N ... Network Cable! Point once; name its main job.
+Which one starts O? ... Optical Sensor! Point once; show its shape with empty hands.
+Check P ... Power Supply! Point only; real electrical/lab equipment stays with trained adults.
 
 [Chorus]
-Lab machines—A-B-C!
-Gadgets and tools, look with me!
+Power, signal, drive—A-B-C!
+Check each layer before blaming the whole machine.
 
 [Call and Response 5]
-Display pause: Q ... Quantum Model! Point when the labels align.
-Display pause: R ... Resistor! Point when the labels align.
-Display pause: S ... Sensor! Point when the labels align.
-Display pause: T ... Test Tube! Point when the labels align.
+Layer recall Q ... Quantum Sensor! Point once; air-trace its outline.
+Find R ... Relay! Point only; real electrical/lab equipment stays with trained adults.
+Which one starts S? ... Servo! Point once; show its shape with empty hands.
+Check T ... Touch Sensor! Point once; recall one Round-1 clue.
 
 [Call and Response 6]
-Display pause: U ... USB Cable! Point when the labels align.
-Display pause: V ... Voltmeter! Point when the labels align.
-Display pause: W ... Wheel! Point when the labels align.
-Display pause: X ... X-axis Plotter! Point when the labels align.
+Layer recall U ... Ultrasonic Module! Point once; air-trace its outline.
+Find V ... Voltage Regulator! Point once; name its main job.
+Which one starts W? ... Wheel Encoder! Point once; show its shape with empty hands.
+Check X ... X-ray Sensor! Point only; real electrical/lab equipment stays with trained adults.
 
 [Chorus]
-Lab machines—A-B-C!
-Gadgets and tools, look with me!
+Power, signal, drive—A-B-C!
+Check each layer before blaming the whole machine.
 
 [Call and Response 7]
-Display pause: Y ... Yoke Robot! Point when the labels align.
-Display pause: Z ... Zero-gravity Robot! Point when the labels align.
+Layer recall Y ... Yaw Sensor! Point once; air-trace its outline.
+Find Z ... Zero-voltage Meter! Point only; real electrical/lab equipment stays with trained adults.
 
 [Outro]
-Lab machines—A-B-C!
-Great pointing, great saying—A to Z!
+Multimeter stays adult lab equipment, X-ray Sensor stays controlled, firmware stays matched to hardware.
+A to Z ends with the architecture connected.

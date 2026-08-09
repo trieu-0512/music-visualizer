@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "science-lab-look",
   "hook": [
-    "Science robots—A-B-C!",
-    "Look at lab tools safely with me!"
+    "Sense, code, move—A-B-C!",
+    "Follow the signal instead of giving the machine a mind."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D science-and-robots storybook, supervised lab displays and toy-like machines, clean educational layouts; visual identity: Robot Science Lab Look",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "sense-compute-act-rhyme",
+    "chorusRhymeEngine": "sense-code-move-hook",
+    "pointOfView": "a child tracing a robot control loop",
+    "chorusFunction": "repeat sense-code-act-feedback",
+    "grooveMeter": "88 BPM signal-loop 4/4",
+    "round1Grammar": "component -> technical role -> limitation",
+    "round2Grammar": "signal recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "control-loop",
+    "authorialIntent": "Make Robot Science Lab Look a sense-think-act loop: sensors measure, controller computes according to code/model, actuators move, encoders feed back; power/cooling/networking support the loop.",
+    "lyricIdentity": "A child follows signal flow without anthropomorphizing the robot or assuming AI means awareness.",
+    "imageMotifs": [
+      "infrared sensor",
+      "AI chip",
+      "servo",
+      "wheel encoder",
+      "heat sink"
+    ],
+    "semanticArc": [
+      "sense",
+      "compute",
+      "act",
+      "feedback/support"
+    ],
+    "forbiddenGenericLanguage": [
+      "robot thinks like person",
+      "AI feels",
+      "sensor knows",
+      "quantum magic"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 4,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

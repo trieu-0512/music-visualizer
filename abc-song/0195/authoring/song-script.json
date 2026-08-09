@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore future science with me!",
+      "text": "AI calculates models, quantum sensors measure delicate effects, lasers make coherent light, X-ray arrays detect radiation.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Future science—A-B-C!",
+      "text": "Future science still has to answer to evidence and safety.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "In our future-science gallery, A brings Atom Model into view.",
+      "text": "A — AI Chip! | Processor/accelerator optimized for machine-learning calculations; running a model does not make the chip conscious.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "In our future-science gallery, B brings Battery into view.",
+      "text": "B ... B ... Battery! | Electrochemical device converts stored chemical energy to electrical energy; polarity, voltage, chemistry, charging, and disposal must match the device.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "In our future-science gallery, C brings Computer into view.",
+      "text": "C? Circuit Board! | Rigid/flexible substrate supports and electrically connects components through conductive traces and pads.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "In our future-science gallery, D brings Drone into view.",
+      "text": "D is DAC. Digital-to-analog converter turns digital numeric codes into corresponding analog voltage/current within its range and resolution. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "In our future-science gallery, E brings Experiment Tube into view.",
+      "text": "E — Encoder! | Sensor/device converts position, motion, or another state into coded electrical/digital information; rotary and linear encoders are common.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "In our future-science gallery, F brings Flask into view.",
+      "text": "F ... F ... FPGA! | Field-programmable gate array contains configurable digital logic blocks/interconnects that can be reprogrammed for hardware functions.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "In our future-science gallery, G brings Gear into view.",
+      "text": "G? Gyroscope! | Sensor or spinning device measures/maintains orientation; electronic gyroscopes often measure angular rate using MEMS structures.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "In our future-science gallery, H brings Headset into view.",
+      "text": "H is High Voltage. Electrical condition with serious shock/arc hazards; thresholds depend on standards and it is never preschool experimentation. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Future science—A-B-C!",
+      "text": "Claim, evidence, limit—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Bright inventions, look with me!",
+      "text": "New technology still follows physics.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "In our future-science gallery, I brings Indicator Light into view.",
+      "text": "I — Infrared Sensor! | Sensor detects infrared radiation or uses IR light for ranging/presence depending design; infrared is electromagnetic radiation beyond visible red.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "In our future-science gallery, J brings Jet Robot into view.",
+      "text": "J ... J ... Joystick! | Human input control reports direction and sometimes buttons/axes; it sends commands rather than directly moving a robot joint.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "In our future-science gallery, K brings Kit into view.",
+      "text": "K? Keyboard! | Key-based input device sends codes/commands to a computer or controller; software interprets those inputs.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "In our future-science gallery, L brings Lab Coat into view.",
+      "text": "L is Laser Module. Device makes coherent light; direct eye exposure can injure, so real modules need rated lab safety controls. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "In our future-science gallery, M brings Microscope into view.",
+      "text": "M — Microcontroller! | Computer-on-chip combines CPU, memory and peripherals; programs determine behavior.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "In our future-science gallery, N brings Nut into view.",
+      "text": "N ... N ... Network Cable! | Wired medium carries data signals between network devices; connector/category and supported speed depend on cable standard.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "In our future-science gallery, O brings Optical Sensor into view.",
+      "text": "O? Oscilloscope! | Instrument plots voltage versus time/signals; trained users connect probes within safe limits.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "In our future-science gallery, P brings Processor into view.",
+      "text": "P is Power Supply. Source converts/provides electrical power at specified voltage/current; current capability and polarity must match load. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Future science—A-B-C!",
+      "text": "Claim, evidence, limit—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Bright inventions, look with me!",
+      "text": "New technology still follows physics.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "In our future-science gallery, Q brings QR Code into view.",
+      "text": "Q — Quantum Sensor! | Sensor class uses quantum effects for precise measurement; it is not a quantum computer by definition.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "In our future-science gallery, R brings Resistor into view.",
+      "text": "R ... R ... Robot Arm! | Mechanical linkage with joints/actuators positions an end effector; controller and program determine commanded motion.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "In our future-science gallery, S brings Switch into view.",
+      "text": "S? Sensor! | Device detects a physical quantity/event and converts it into usable data/signal; every sensor has limits, noise, and calibration considerations.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "In our future-science gallery, T brings Test Tube into view.",
+      "text": "T is Transistor. Semiconductor component controls current/voltage and can switch or amplify; bipolar and field-effect types differ. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "In our future-science gallery, U brings Ultrasonic Sensor into view.",
+      "text": "U — UV Sensor! | Sensor measures ultraviolet intensity; measurement never requires deliberate skin/eye exposure.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "In our future-science gallery, V brings Voltmeter into view.",
+      "text": "V ... V ... Voltage Regulator! | Circuit maintains or converts output voltage within a specified range; it cannot safely ignore current, heat, or input limits.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "In our future-science gallery, W brings Wire into view.",
+      "text": "W? Wheel Encoder! | Encoder measures wheel rotation to estimate speed/distance; wheel slip means estimated travel can differ from true ground movement.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "In our future-science gallery, X brings X-ray Image into view.",
+      "text": "X is X-ray Sensor Array. Multiple X-ray detector elements form images; operation belongs in controlled professional systems. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Future science—A-B-C!",
+      "text": "Claim, evidence, limit—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Bright inventions, look with me!",
+      "text": "New technology still follows physics.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "In our future-science gallery, Y brings Yoke Robot into view.",
+      "text": "Y — Yaw Sensor! | Project label for sensor estimating rotation about a vertical/yaw axis, often using gyroscope or fused inertial data; drift/calibration can matter.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "In our future-science gallery, Z brings Zero-gravity Robot into view.",
+      "text": "Z ... Z ... Zero-voltage Meter! | Project meter label for checking a zero/near-zero voltage condition; zero reading depends on instrument range, connection, and actual circuit state.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Gallery pause: A ... Atom Model! Point to the clue.",
+      "text": "Evidence recall A ... AI Chip! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Gallery pause: B ... Battery! Point to the clue.",
+      "text": "Find B ... Battery! Point; match polarity/chemistry only under adult guidance.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Gallery pause: C ... Computer! Point to the clue.",
+      "text": "Which one starts C? ... Circuit Board! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Gallery pause: D ... Drone! Point to the clue.",
+      "text": "Check D ... DAC! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Gallery pause: E ... Experiment Tube! Point to the clue.",
+      "text": "Evidence recall E ... Encoder! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Gallery pause: F ... Flask! Point to the clue.",
+      "text": "Find F ... FPGA! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Gallery pause: G ... Gear! Point to the clue.",
+      "text": "Which one starts G? ... Gyroscope! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Gallery pause: H ... Headset! Point to the clue.",
+      "text": "Check H ... High Voltage! Point only; real electrical/lab equipment stays with trained adults.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Future science—A-B-C!",
+      "text": "Claim, evidence, limit—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Bright inventions, look with me!",
+      "text": "New technology still follows physics.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Gallery pause: I ... Indicator Light! Point to the clue.",
+      "text": "Evidence recall I ... Infrared Sensor! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Gallery pause: J ... Jet Robot! Point to the clue.",
+      "text": "Find J ... Joystick! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Gallery pause: K ... Kit! Point to the clue.",
+      "text": "Which one starts K? ... Keyboard! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Gallery pause: L ... Lab Coat! Point to the clue.",
+      "text": "Check L ... Laser Module! Point only; real electrical/lab equipment stays with trained adults.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Gallery pause: M ... Microscope! Point to the clue.",
+      "text": "Evidence recall M ... Microcontroller! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Gallery pause: N ... Nut! Point to the clue.",
+      "text": "Find N ... Network Cable! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Gallery pause: O ... Optical Sensor! Point to the clue.",
+      "text": "Which one starts O? ... Oscilloscope! Point only; real electrical/lab equipment stays with trained adults.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Gallery pause: P ... Processor! Point to the clue.",
+      "text": "Check P ... Power Supply! Point only; real electrical/lab equipment stays with trained adults.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Future science—A-B-C!",
+      "text": "Claim, evidence, limit—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Bright inventions, look with me!",
+      "text": "New technology still follows physics.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Gallery pause: Q ... QR Code! Point to the clue.",
+      "text": "Evidence recall Q ... Quantum Sensor! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Gallery pause: R ... Resistor! Point to the clue.",
+      "text": "Find R ... Robot Arm! Bend one elbow slowly; keep real robot work envelope clear.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Gallery pause: S ... Switch! Point to the clue.",
+      "text": "Which one starts S? ... Sensor! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Gallery pause: T ... Test Tube! Point to the clue.",
+      "text": "Check T ... Transistor! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Gallery pause: U ... Ultrasonic Sensor! Point to the clue.",
+      "text": "Evidence recall U ... UV Sensor! Point; no intentional UV exposure.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Gallery pause: V ... Voltmeter! Point to the clue.",
+      "text": "Find V ... Voltage Regulator! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Gallery pause: W ... Wire! Point to the clue.",
+      "text": "Which one starts W? ... Wheel Encoder! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Gallery pause: X ... X-ray Image! Point to the clue.",
+      "text": "Check X ... X-ray Sensor Array! Point only; real electrical/lab equipment stays with trained adults.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Future science—A-B-C!",
+      "text": "Claim, evidence, limit—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Bright inventions, look with me!",
+      "text": "New technology still follows physics.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Gallery pause: Y ... Yoke Robot! Point to the clue.",
+      "text": "Evidence recall Y ... Yaw Sensor! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Gallery pause: Z ... Zero-gravity Robot! Point to the clue.",
+      "text": "Find Z ... Zero-voltage Meter! Point only; real electrical/lab equipment stays with trained adults.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Future science—A-B-C!",
+      "text": "High Voltage stays behind the lab boundary, X-ray array stays controlled, Zero-voltage Meter stays a measurement state.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends with curiosity stronger than hype.",
       "objective": "narration",
       "objectReveal": "none"
     }
