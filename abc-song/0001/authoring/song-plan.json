@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "splash-step",
   "hook": [
-    "Splash the letters, A-B-C!",
-    "Ocean words roll back to me!"
+    "Splash, glide, dive—A-B-C!",
+    "Every wave brings a word to me!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat of quiet after the letter cue",
@@ -38,6 +38,27 @@
     "round2Grammar": "cue-gap-answer plus object-conditioned gesture; rotate direct, repeated, question and find forms",
     "sectionContrast": "Round 1 sparse marimba/ukulele; chorus wider; Round 2 stop-start with percussion dropouts",
     "signatureColor": "marimba splash answer after each target",
+    "authorialIntent": "Turn alphabet learning into one widening ocean dive: begin with a splash, move through reef shelter and deeper water, then rise toward the surface again so the child feels motion, scale, and wonder rather than a list of sea nouns.",
+    "lyricIdentity": "Water-motion language leads the song: splash, glide, drift, dip, rise, breathe. Quick surface hits alternate with spacious underwater images; blue, depth, shelter, ripple, and breath recur without becoming fixed tails.",
+    "imageMotifs": [
+      "splash rings",
+      "reef rooms",
+      "blue depth",
+      "surface breath",
+      "gliding fins"
+    ],
+    "semanticArc": [
+      "surface splash and markers",
+      "reef shelter and swimming motion",
+      "deeper creatures and hidden spaces",
+      "rise toward surface light and carry the words home"
+    ],
+    "forbiddenGenericLanguage": [
+      "fun to see",
+      "shining bright",
+      "in our world today",
+      "come sing with me"
+    ],
     "chorusAfterRound1": [
       2,
       5

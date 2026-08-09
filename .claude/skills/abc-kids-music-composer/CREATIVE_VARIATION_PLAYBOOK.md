@@ -58,6 +58,30 @@ SIGNATURE SOUND / RHYTHMIC CELL
 
 Two nearby songs in a series should not share most of the same fingerprint dimensions unless deliberate series continuity requires it.
 
+### 2B. Authorial Intent and Lyric Identity
+
+Technical variation is not enough. A song can use a different rhyme scheme, meter, and target-entry rotation and still feel anonymous if every line is only `target + accurate fact`.
+
+Before writing A–Z, answer five questions:
+
+```text
+1. INTENTION — What experience are we creating for the child?
+2. NARRATOR — Who notices/speaks, and from what physical or imaginative position?
+3. IMAGE MOTIFS — Which 3–6 concrete images recur naturally across the song?
+4. SEMANTIC ARC — What changes from the first section to the last?
+5. SIGNATURE LANGUAGE — What verbal behavior belongs especially to this song?
+```
+
+Examples of signature language behavior include a tide leaving clues for a beachcomber, one ripple widening and traveling, compact deck calls from a boat crew, one line-image becoming the doorway into the next, a field notebook using clipped sensory evidence, or a wetland narrator letting silence and reflected light carry more weight than rhyme.
+
+Write a small negative palette too: stock tails or generic claims that do not belong in this song (`come sing with me`, `in our world today`, `fun to see`, `shining bright`) unless one is deliberately the macro hook. Avoiding generic language is often as important as adding clever language.
+
+#### The identity-without-nouns test
+
+Mentally hide the letters and mapped object names in 6–10 representative Round-1 lines. The remaining language should still reveal at least some of the song's identity through verbs, imagery, cadence, point of view, or narrative progression.
+
+Do not make identity a new template. A signature device should recur enough to be perceived, then make room for object-specific facts and natural language.
+
 Useful contrast dimensions:
 
 - straight 4/4 vs lilting 6/8 vs light swing vs march-like 2-feel;

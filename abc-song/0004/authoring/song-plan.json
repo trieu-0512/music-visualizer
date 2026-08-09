@@ -6,8 +6,8 @@
   "tempoBpm": 86,
   "motifFamily": "sail-glide",
   "hook": [
-    "Sail and see from A to Z!",
-    "Every letter finds a clue!"
+    "One clue opens into two;",
+    "Sail A to Z across the blue."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "soft two-beat retrieval space for older preschoolers",
@@ -38,6 +38,27 @@
     "round2Grammar": "quiet cue-gap-answer with show/trace/glide gestures",
     "sectionContrast": "verses intimate kalimba; chorus expands marimba/ukulele; Round 2 removes pads and leaves spacious pulse",
     "signatureColor": "kalimba ripple into warm marimba cadence",
+    "authorialIntent": "Write the alphabet as one continuous sailing tale in which each image hands a word, sound, or place into the next; the child should feel that A to Z is a journey rather than 26 separate cards.",
+    "lyricIdentity": "Linked-image language is the signature: the end of one scene becomes the doorway into the next. Water, shore, glow, breath, surface, and distance recur as connective tissue while the narrator stays gentle and observant.",
+    "imageMotifs": [
+      "morning water-road",
+      "shore-to-sea transitions",
+      "glow and reflection",
+      "surface breath",
+      "evening gold"
+    ],
+    "semanticArc": [
+      "morning departure",
+      "shore and reef pass by",
+      "the voyage reaches wider/deeper water",
+      "last light closes the linked chain"
+    ],
+    "forbiddenGenericLanguage": [
+      "fun to see",
+      "come look with me",
+      "today",
+      "nice and neat"
+    ],
     "chorusAfterRound1": [
       3,
       7

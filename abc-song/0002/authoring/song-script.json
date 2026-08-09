@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "What washed up beside the blue?",
+      "text": "Low tide pulls a silver line away.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Shoreline letters—here's our clue!",
+      "text": "What little letter-clues did the shoreline save?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Anchor — that's A. Down to the sand | heavy hold keeps a boat close at hand.",
+      "text": "Anchor — that's A. Low tide shows the sand | heavy metal drops to hold a boat close at hand.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "What does D bring? Dock! From shore it reaches out where boats come into view.",
+      "text": "What does D bring? Dock! The shoreline reaches out | a long platform where boats come close.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "What does I bring? Isopod! Hard segmented body, with many little legs underneath.",
+      "text": "What does I bring? Isopod! Under shoreline cover, a hard segmented body carries many little legs underneath.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,14 +115,14 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Shoreline letters, one-two-three!",
+      "text": "Tide rolls out—look what we found!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Name the coast from A to Z!",
+      "text": "Letter treasures all around!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Spot V: Vessel! A boat or ship made to travel over water far.",
+      "text": "Spot V: Vessel! Beyond the beach line, a boat or ship travels over open water.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -233,7 +233,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zooplankton — that's Z. Tiny drifters travel where the moving water carries them too.",
+      "text": "Zooplankton — that's Z. Too tiny to choose a path | moving water carries the drifters along.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -241,14 +241,14 @@
     {
       "id": "chorus-r1-7-1",
       "sectionId": "chorus-r1-7",
-      "text": "Shoreline letters, one-two-three!",
+      "text": "Tide rolls out—look what we found!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-7-2",
       "sectionId": "chorus-r1-7",
-      "text": "Name the coast from A to Z!",
+      "text": "Letter treasures all around!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -351,14 +351,14 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Shoreline letters, one-two-three!",
+      "text": "Tide rolls out—look what we found!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Name the coast from A to Z!",
+      "text": "Letter treasures all around!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Shoreline letters, one-two-three!",
+      "text": "Tide rolls out—look what we found!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Name the coast from A to Z!",
+      "text": "Letter treasures all around!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Shoreline letters, A to Z!",
+      "text": "Tide rolls in and smooths the sand.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "We named the coast beside the sea!",
+      "text": "Our letter treasures stay in hand.",
       "objective": "narration",
       "objectReveal": "none"
     }

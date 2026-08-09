@@ -11,10 +11,10 @@
   "uniqueStyles": 10,
   "uniqueSectionForms": 7,
   "uniqueCreativeFingerprints": 10,
-  "maxLyricSimilarity": 0.1454,
+  "maxLyricSimilarity": 0.1371,
   "mostSimilarPair": [
     "0006",
-    "0010"
+    "0009"
   ],
   "batchWarnings": [],
   "songsDetail": [
@@ -22,7 +22,7 @@
       "songId": "0001",
       "theme": "Ocean Animals & Coast",
       "targetLines": 52,
-      "lyricWordCount": 692,
+      "lyricWordCount": 714,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -37,7 +37,9 @@
         "C",
         "E",
         "G",
+        "H",
         "I",
+        "J",
         "K",
         "M",
         "N",
@@ -70,7 +72,7 @@
       "songId": "0002",
       "theme": "Sea Life & Shores",
       "targetLines": 52,
-      "lyricWordCount": 704,
+      "lyricWordCount": 724,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -83,6 +85,7 @@
       "rhymeBearingRound1": [
         "A",
         "C",
+        "D",
         "E",
         "K",
         "M",
@@ -91,7 +94,8 @@
         "S",
         "U",
         "W",
-        "Y"
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -112,7 +116,7 @@
       "songId": "0003",
       "theme": "Ocean Creatures & Boats",
       "targetLines": 52,
-      "lyricWordCount": 744,
+      "lyricWordCount": 763,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -152,14 +156,13 @@
       "songId": "0004",
       "theme": "Ocean Nature & Travel",
       "targetLines": 52,
-      "lyricWordCount": 727,
+      "lyricWordCount": 738,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
         "is-for",
         "narrative-or-other",
-        "object-first",
         "question-answer"
       ],
       "rhymeBearingRound1": [
@@ -209,7 +212,7 @@
       "songId": "0005",
       "theme": "Coast Explorer",
       "targetLines": 52,
-      "lyricWordCount": 721,
+      "lyricWordCount": 752,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -254,7 +257,7 @@
       "songId": "0006",
       "theme": "Pond & River Life",
       "targetLines": 52,
-      "lyricWordCount": 755,
+      "lyricWordCount": 792,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -305,7 +308,7 @@
       "songId": "0007",
       "theme": "Lakes & Waterways",
       "targetLines": 52,
-      "lyricWordCount": 695,
+      "lyricWordCount": 728,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -350,7 +353,7 @@
       "songId": "0008",
       "theme": "Freshwater Animals",
       "targetLines": 52,
-      "lyricWordCount": 716,
+      "lyricWordCount": 731,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -399,7 +402,7 @@
       "songId": "0009",
       "theme": "Wetland Nature",
       "targetLines": 52,
-      "lyricWordCount": 751,
+      "lyricWordCount": 769,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -438,7 +441,7 @@
       "songId": "0010",
       "theme": "Riverbank Explorer",
       "targetLines": 52,
-      "lyricWordCount": 733,
+      "lyricWordCount": 750,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [

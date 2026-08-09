@@ -6,8 +6,8 @@
   "tempoBpm": 91,
   "motifFamily": "friend-bounce",
   "hook": [
-    "Freshwater friends—A-B-C!",
-    "Swim, hop, glide from A to Z!"
+    "Sway, paddle, hop, then glide!",
+    "Freshwater letters move side by side."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "brief retrieval pause, then warm confirmation",
@@ -38,6 +38,27 @@
     "round2Grammar": "cue, gap, confirmation and safe mimed motion; Hydrilla remains point-only",
     "sectionContrast": "Round 1 marimba/ukulele; chorus adds snaps; Round 2 soft kick drops out on targets and uses finger-tap answers",
     "signatureColor": "marimba two-note animal-motion answer",
+    "authorialIntent": "Compose A to Z as a freshwater movement score: each plant, animal, or object contributes a visible motion, and the child learns by feeling a sequence of sway, paddle, hop, flash, float, and glide.",
+    "lyricIdentity": "Motion verbs are the melody's vocabulary. Lines should show how different bodies move through the same water world, using clusters of related action-sounds rather than generic location description.",
+    "imageMotifs": [
+      "swaying stems",
+      "paddle strokes",
+      "tail flicks",
+      "quick flashes",
+      "floating leaves"
+    ],
+    "semanticArc": [
+      "water begins to move",
+      "creatures answer with different motions",
+      "motion grows more varied across bank and channel",
+      "one last tail flick and leaf sway settle the song"
+    ],
+    "forbiddenGenericLanguage": [
+      "fun to see",
+      "in our freshwater world",
+      "come swim with me",
+      "today"
+    ],
     "chorusAfterRound1": [
       2,
       5

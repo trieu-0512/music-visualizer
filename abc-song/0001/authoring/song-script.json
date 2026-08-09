@@ -5,14 +5,14 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Splash-swish—what letter jumped in?",
+      "text": "Splash—one ring, then two, then three.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Splash the letters, A-B-C!",
+      "text": "Follow the ripples; letters are diving in.",
       "objective": "narration",
       "objectReveal": "none"
     },
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H is for Harbor—sheltered water quiets waves and lets the boats rest too.",
+      "text": "H is for Harbor—waves lose their hurry here | sheltered water gives boats a quieter place to rest.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,14 +83,14 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Splash the letters, A-B-C!",
+      "text": "Splash, glide, dive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Ocean words roll back to me!",
+      "text": "Every wave brings a word to me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Here comes J with Jetty—a walkway starting on shore and reaching out over the water.",
+      "text": "Here comes J with Jetty—dry land keeps walking | a narrow path reaches out over the water.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Here comes O with Octopus. Eight arms flow | soft body squeezes through a narrow place.",
+      "text": "Here comes O with Octopus. Eight arms gather, open | soft body pours through a narrow place.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,14 +193,14 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Splash the letters, A-B-C!",
+      "text": "Splash, glide, dive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Ocean words roll back to me!",
+      "text": "Every wave brings a word to me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V ... V ... Violet Sea Snail! Purple-blue and tiny, it floats near the surface on the swell.",
+      "text": "V ... V ... Violet Sea Snail! At the skin of the sea, a tiny purple-blue body floats with the swell.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W is for Whale. Rise for a breath | giant mammal diving down to depth.",
+      "text": "W is for Whale. Up from blue depth | one giant breath, then the body turns below.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -390,14 +390,14 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Splash the letters, A-B-C!",
+      "text": "Splash, glide, dive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Ocean words roll back to me!",
+      "text": "Every wave brings a word to me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -484,28 +484,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Splash the letters, A-B-C!",
+      "text": "Splash, glide, dive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Ocean words roll back to me!",
+      "text": "Every wave brings a word to me!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "One last splash—A-B-C!",
+      "text": "One last ripple rises free.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Ocean words are riding with me!",
+      "text": "A to Z comes home from sea.",
       "objective": "narration",
       "objectReveal": "none"
     }

@@ -65,6 +65,11 @@ class CreativeSpec:
     round2_grammar: str
     section_contrast: str
     signature_color: str
+    authorial_intent: str = ""
+    lyric_identity: str = ""
+    image_motifs: tuple[str, ...] = ()
+    semantic_arc: tuple[str, ...] = ()
+    forbidden_generic_language: tuple[str, ...] = ()
     intro_lines: tuple[str, ...] = ()
     hook_lines: tuple[str, ...] = ()
     outro_lines: tuple[str, ...] = ()
@@ -779,6 +784,11 @@ def creative_fingerprint(profile: SongProfile) -> dict[str, Any]:
         "round2Grammar": spec.round2_grammar,
         "sectionContrast": spec.section_contrast,
         "signatureColor": spec.signature_color,
+        "authorialIntent": spec.authorial_intent,
+        "lyricIdentity": spec.lyric_identity,
+        "imageMotifs": list(spec.image_motifs),
+        "semanticArc": list(spec.semantic_arc),
+        "forbiddenGenericLanguage": list(spec.forbidden_generic_language),
         "chorusAfterRound1": list(spec.chorus_after_round1),
         "chorusAfterRound2": list(spec.chorus_after_round2),
         "hasMidInterlude": bool(spec.interlude_lines),

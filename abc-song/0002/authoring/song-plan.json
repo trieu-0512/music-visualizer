@@ -6,8 +6,8 @@
   "tempoBpm": 90,
   "motifFamily": "shore-skip",
   "hook": [
-    "Shoreline letters, one-two-three!",
-    "Name the coast from A to Z!"
+    "Tide rolls out—look what we found!",
+    "Letter treasures all around!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "brief predictable pause before the answer",
@@ -38,6 +38,27 @@
     "round2Grammar": "search cue, brief gap, answer, then one small gesture",
     "sectionContrast": "Round 1 guitar-forward and airy; chorus adds glockenspiel; Round 2 strips to bass pulse and hand taps",
     "signatureColor": "soft surf-guitar upstroke with glockenspiel answer",
+    "authorialIntent": "Make the alphabet feel like beachcombing at low tide: the sea pulls back, leaves clues, and the child gathers each discovery as a small shoreline treasure.",
+    "lyricIdentity": "Discovery verbs and tide-made images lead: washed up, tucked, traced, bobbed, left behind, found. Sand, tide lines, shallow blue, shells, and shore marks recur while the narrator sounds like a child collector rather than a lecturer.",
+    "imageMotifs": [
+      "low-tide line",
+      "sand marks",
+      "washed-up clues",
+      "shallow blue",
+      "shoreline treasures"
+    ],
+    "semanticArc": [
+      "tide pulls back",
+      "small clues appear",
+      "larger coast-and-sea discoveries widen the view",
+      "tide returns while the found words remain"
+    ],
+    "forbiddenGenericLanguage": [
+      "fun to see",
+      "today",
+      "come with me",
+      "nice and neat"
+    ],
     "chorusAfterRound1": [
       3,
       7

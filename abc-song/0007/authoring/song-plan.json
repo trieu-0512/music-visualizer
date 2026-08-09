@@ -6,8 +6,8 @@
   "tempoBpm": 90,
   "motifFamily": "waterway-hop",
   "hook": [
-    "Paddle on—A-B-C!",
-    "Waterway words, call with me!"
+    "Paddle, pause—what's round the bend?",
+    "Say the word, then paddle again."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat of silence before confirmation",
@@ -38,6 +38,27 @@
     "round2Grammar": "one-beat silence, target answer, then compact gesture; hard names slow down",
     "sectionContrast": "Round 1 banjo plucks stay sparse; chorus adds clap; Round 2 uses bass/wood pulse with whistle only between answers",
     "signatureColor": "single banjo pluck pickup plus tiny whistle response",
+    "authorialIntent": "Turn the alphabet into a paddle route where every bend creates anticipation: pause, look, name what appears, then move on. The recurring pleasure is discovery around the next turn.",
+    "lyricIdentity": "Route language—bend, reach, bank, channel, paddle, pause, again—plus compact answer-rhymes that behave like instrumental replies. The narrator is a calm guide in a moving boat, not a static picture-book host.",
+    "imageMotifs": [
+      "paddle strokes",
+      "river bends",
+      "quiet reaches",
+      "bank-side pauses",
+      "new view around a turn"
+    ],
+    "semanticArc": [
+      "launch from the first bank",
+      "move through bends and shallow reaches",
+      "cross varied waterway habitats",
+      "paddles rest after the final turn"
+    ],
+    "forbiddenGenericLanguage": [
+      "fun to see",
+      "come sing with me",
+      "along the way",
+      "say it true"
+    ],
     "chorusAfterRound1": [
       3,
       6

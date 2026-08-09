@@ -6,8 +6,8 @@
   "tempoBpm": 89,
   "motifFamily": "river-walk",
   "hook": [
-    "Step by step beside the stream!",
-    "A to Z—name what we've seen!"
+    "Step by step, bend by bend.",
+    "Find a word, then walk again."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one-beat cue gap before answer",
@@ -38,6 +38,27 @@
     "round2Grammar": "one-beat cue gap and a compact gesture; no generic tale/point formula",
     "sectionContrast": "Round 1 guitar/shaker walking pulse; chorus adds glockenspiel; Round 2 strips to stomps and bass",
     "signatureColor": "two soft footstep taps before every new section",
+    "authorialIntent": "Make the alphabet a real riverbank walk: each letter is something the child notices by taking another step, and the repeated bend-by-bend motion turns observation into memory.",
+    "lyricIdentity": "Walking verbs and trail geography lead—step, bend, bank, pass, pause, follow, cross, look back. Ballad rhyme appears mainly as a walking cadence, while concrete observations keep the narrator grounded in the path.",
+    "imageMotifs": [
+      "footsteps",
+      "river bends",
+      "bank-side flowers",
+      "small moving creatures",
+      "path beside the stream"
+    ],
+    "semanticArc": [
+      "first steps beside the stream",
+      "near-bank discoveries",
+      "longer look across water and valley",
+      "steps slow and the walk becomes a remembered A-to-Z trail"
+    ],
+    "forbiddenGenericLanguage": [
+      "fun to see",
+      "tell the tale",
+      "come with me",
+      "nice and neat"
+    ],
     "chorusAfterRound1": [
       2,
       5

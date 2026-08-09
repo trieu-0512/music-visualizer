@@ -433,6 +433,26 @@ section contrast plan
 signature rhythmic/instrumental color
 ```
 
+For catalog-quality work, define an **authorial-intent layer** before drafting individual target lines:
+
+```text
+AUTHORIAL INTENT
+= what the song wants the child to feel, do, or notice beyond merely naming 26 objects
+
+LYRIC IDENTITY
+= narrator stance + recurring verb/image vocabulary + one signature language behavior
+
+SEMANTIC ARC
+= how the image world progresses across the song, for example arrive -> discover -> deepen -> return
+
+GENERIC-LANGUAGE BAN
+= a small set of stock phrases/tails this song deliberately avoids
+```
+
+This layer is a creative heuristic, never a pedagogical hard gate. It must not force a wrong fact, awkward lexical stress, unsafe action, changed mapping, or less intelligible target.
+
+Identity test: if the letter labels and mapped nouns were temporarily hidden, several remaining lines should still reveal which song/world they belong to through viewpoint, verbs, images, rhythm, or recurring poetic behavior. Do not achieve this by repeating one decorative catchphrase 26 times.
+
 Keep mapping, pronunciation, objective, motif family, and target intelligibility stable. Vary syntax, line length, semantic verb, internal rhythm, rhyme position, pickup/downbeat placement, and object-conditioned imagery deliberately.
 
 Severe unintentional template monotony is a **design REWORK condition** for catalog-quality songs even when schemas pass. Examples:

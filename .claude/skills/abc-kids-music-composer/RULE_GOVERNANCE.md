@@ -271,6 +271,18 @@ Target outcome: fewer contradictions and clearer execution, not maximum rule cou
   failure_severity: WARN when prompt is only genre + instruments and misses critical section behavior
   regression_case: prompted gap remains PENDING AUDIO; section-aware prompt preferred
   owner_file: SKILL.md + REFERENCE.md + LINT_SPEC.md
+
+- rule_id: CV-LYR-003
+  title: Authorial intent and lyric identity
+  scope: catalog-quality preschool/ABC songwriting
+  class: HEURISTIC
+  applies_when: creating or deeply rewriting a full song intended to have its own catalog identity
+  does_not_apply_when: user requests a deliberately neutral drill/chant or exact locked lyric must remain verbatim
+  evidence_class: [CRAFT_REFERENCE, PROJECT_HEURISTIC]
+  override_policy: mapping, pronunciation, semantics, safety, and intelligibility always outrank identity devices; a strong simple chant may intentionally use less narrative identity
+  failure_severity: WARN or REWORK when technically varied songs remain interchangeable after target nouns are removed
+  regression_case: different rhyme schemes do not count as distinct identity if the remaining language is generic; coherent narrator/image/verb/arc language passes
+  owner_file: SKILL.md + CREATIVE_VARIATION_PLAYBOOK.md
 ```
 ## Audit-standard versioning
 

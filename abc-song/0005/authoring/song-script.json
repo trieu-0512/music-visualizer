@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Explorer eyes—up, down, near, far!",
+      "text": "Notebook open. Eyes up. Listen close.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A new coast clue is where you are.",
+      "text": "Every letter leaves a different kind of clue.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Spot A: Anchor! Drop, stop | heavy hold helps the boat stay in place.",
+      "text": "First notebook mark—A: Anchor! Drop, stop | heavy hold helps the boat stay in place.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "What clue starts at H? Harbor! Surf grows soft; sheltered water lets the boats rest.",
+      "text": "Sound clue H: Harbor! Surf grows soft; sheltered water lets the boats rest.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,14 +83,14 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Explorer eyes—A-B-C!",
+      "text": "Look twice, listen once—what do you know?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Spot the coast and call with me!",
+      "text": "Find the clue, then let the letter show!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Along the coast, N finds Nautilus. Coil after coil, chambers hide inside its shell.",
+      "text": "Spiral clue N: Nautilus. Coil after coil, chambers hide inside its shell.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Spot P: Pufferfish! Under threat its body can look rounder, a sudden change in shape.",
+      "text": "Shape clue P: Pufferfish! Under threat its body can look rounder—a sudden change in shape.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,14 +193,14 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Explorer eyes—A-B-C!",
+      "text": "Look twice, listen once—what do you know?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Spot the coast and call with me!",
+      "text": "Find the clue, then let the letter show!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V — Vessel. A boat or ship built to travel over water.",
+      "text": "Travel clue V: Vessel. A boat or ship built to carry people or things over water.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Along the coast, X finds X-ray Tetra. Translucent body lets us partly see through.",
+      "text": "Light-through clue X: X-ray Tetra. Its translucent body lets us partly see through.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -351,14 +351,14 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Explorer eyes—A-B-C!",
+      "text": "Look twice, listen once—what do you know?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Spot the coast and call with me!",
+      "text": "Find the clue, then let the letter show!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -461,14 +461,14 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Explorer eyes—A-B-C!",
+      "text": "Look twice, listen once—what do you know?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Spot the coast and call with me!",
+      "text": "Find the clue, then let the letter show!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -491,14 +491,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Explorer eyes found A to Z!",
+      "text": "Notebook shut; one last gull crosses through.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Coast clues packed—what a journey!",
+      "text": "A to Z—our coast is full of clues.",
       "objective": "narration",
       "objectReveal": "none"
     }

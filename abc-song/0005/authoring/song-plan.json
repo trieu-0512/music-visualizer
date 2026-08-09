@@ -6,8 +6,8 @@
   "tempoBpm": 94,
   "motifFamily": "coast-clap",
   "hook": [
-    "Explorer eyes—A-B-C!",
-    "Spot the coast and call with me!"
+    "Look twice, listen once—what do you know?",
+    "Find the clue, then let the letter show!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "short one-beat retrieval gap",
@@ -38,6 +38,27 @@
     "round2Grammar": "brief recall gap followed by gesture or pretend-binocular action without generic point-and-say repetition",
     "sectionContrast": "Round 1 claves and guitar; chorus adds claps; Round 2 uses muted guitar plus sparse marimba clues",
     "signatureColor": "two-clave explorer tick before section turns",
+    "authorialIntent": "Make every letter feel like field evidence in a young explorer's notebook: notice one telling shape, motion, texture, sound, or function and let that clue earn the line.",
+    "lyricIdentity": "Clipped observation language, sensory evidence, and notebook-like clue phrases. Internal rhyme/alliteration should sound like quick pencil marks—drop/stop, slip/slide, wing/wind—not ornamental nursery filler.",
+    "imageMotifs": [
+      "open notebook",
+      "tracks and marks",
+      "shape clues",
+      "motion clues",
+      "binocular-distance clues"
+    ],
+    "semanticArc": [
+      "open the field notebook",
+      "collect motion and shoreline evidence",
+      "compare shapes/shelters/functions",
+      "close the notebook with a coast full of remembered clues"
+    ],
+    "forbiddenGenericLanguage": [
+      "fun to see",
+      "shining bright",
+      "on our trail",
+      "without fail"
+    ],
     "chorusAfterRound1": [
       2,
       5

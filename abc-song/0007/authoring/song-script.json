@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Paddle left... paddle right...",
+      "text": "Paddle left. Pause. What's round the bend?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A new letter bends into sight!",
+      "text": "A new letter waits where the water turns.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Paddle to A: Alligator! Bank-side rest | then a quiet glide comes next.",
+      "text": "Launch at A: Alligator! Bank-side rest | then a quiet glide comes next.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "What's waiting at E? Egret! Stand and scan | long legs pause in shallow water.",
+      "text": "First bend—what's waiting at E? Egret! Stand and scan | long legs pause in shallow water.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Paddle to F: Fishing Rod! Long pole, fishing line, and reel make the picture clue.",
+      "text": "At the bank, F: Fishing Rod! Long pole, fishing line, and reel—three parts easy to spot.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Paddle to K: Kayak! On the track | double paddle forward and back.",
+      "text": "Next reach, K: Kayak! On the track | double paddle forward and back.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,14 +115,14 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Paddle on—A-B-C!",
+      "text": "Paddle, pause—what's round the bend?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Waterway words, call with me!",
+      "text": "Say the word, then paddle again.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "River — that's R. Bend after bend | water runs downhill through a channel.",
+      "text": "Around another bend, R is River. Bend after bend | water runs downhill through a channel.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Paddle on—A-B-C!",
+      "text": "Paddle, pause—what's round the bend?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Waterway words, call with me!",
+      "text": "Say the word, then paddle again.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "What's waiting at Y? Yellow Water Lily! Yellow in light | broad leaves float, flower bright.",
+      "text": "Near the last turn, what's waiting at Y? Yellow Water Lily! Yellow in light | broad leaves float, flower bright.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -383,14 +383,14 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Paddle on—A-B-C!",
+      "text": "Paddle, pause—what's round the bend?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Waterway words, call with me!",
+      "text": "Say the word, then paddle again.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Paddle on—A-B-C!",
+      "text": "Paddle, pause—what's round the bend?",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Waterway words, call with me!",
+      "text": "Say the word, then paddle again.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Paddles rest—A to Z.",
+      "text": "Paddles rest; the shoreline stays.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Waterway words came back to me!",
+      "text": "A to Z rode all the waterways.",
       "objective": "narration",
       "objectReveal": "none"
     }

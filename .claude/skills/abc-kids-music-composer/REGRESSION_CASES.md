@@ -103,6 +103,8 @@ Same chorus text repeated twice:
 - Nearby catalog songs all opening with `Come explore THEME with me` -> catalog diversity WARN unless a fixed series ritual is intentional.
 - Ten creative catalog songs all inserting the chorus after the exact same Round-1/2 chunks with no deliberate series reason -> form-diversity WARN; vary chorus/refrain placement and/or interlude/turnaround behavior while preserving learning order.
 - Nearby songs that differ only by instrument swaps but share opening, groove, Round-1 grammar, chorus function and Round-2 grammar -> style-fingerprint WARN.
+- Two songs may use different rhyme engines yet still need creative REWORK if hiding the letters/target nouns leaves interchangeable generic factual prose.
+- A catalog-quality song may define an authorial intention, narrator stance, recurring image/verb palette, semantic progression, and a small generic-language ban; these are identity heuristics, never reasons to distort facts or pronunciation.
 
 ## Cross-genre craft transfer
 

@@ -5,14 +5,14 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Drip... hush... wings over the reeds.",
+      "text": "Hush. One drop. A wing crosses the reeds.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Morning wakes one letter at a time.",
+      "text": "Morning opens slowly, one letter at a time.",
       "objective": "narration",
       "objectReveal": "none"
     },
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "At wetland dawn, B meets Beaver. Flat tail cuts a small V through the reflected sky.",
+      "text": "Near the reeds, B meets Beaver. Flat tail cuts a small V through the reflected sky.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C — Canoe. Paddle dips softly; rings widen behind the blade.",
+      "text": "C — Canoe. One paddle dips; silver rings widen behind the blade, then fade.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E ... E ... Egret. Long legs hold still in the shallows while the water moves around them.",
+      "text": "E ... E ... Egret. Long legs hold still; the whole shallow world keeps moving around them.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "At wetland dawn, G meets Green Algae. Green sheen | soft patches tint water and wet surfaces.",
+      "text": "In reflected water, G meets Green Algae. Green sheen | soft patches tint water and wet surfaces.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kingfisher — our K. Flash and splash | quick dive for a fish, then stillness on a perch.",
+      "text": "Kingfisher — our K. One flash breaks the reflection | quick dive for a fish, then stillness on a perch.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "At wetland dawn, L meets Lily Pad. Flat green leaf rests on the water like a plate.",
+      "text": "On the quiet surface, L meets Lily Pad. Flat green leaf rests on the water like a plate.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,14 +115,14 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Wetland wonders—A-B-C!",
+      "text": "Hush and listen—water, wing.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Reeds and wings and water sing!",
+      "text": "Wetland letters softly sing.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O ... O ... Otter. Float, turn, dive; the smooth body redraws the surface.",
+      "text": "O ... O ... Otter. Float, turn, dive; the smooth body writes a line on the surface, then erases it.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "At wetland dawn, Q meets Quail. Peck, step | small ground bird moving through low cover.",
+      "text": "Under low cover, Q meets Quail. Peck, step | small ground bird moving through the wetland edge.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R — Reed. Tall stem leans, straightens, then leans again at the water's edge.",
+      "text": "R — Reed. Tall stem leans, straightens, then leans again; its reflection follows below.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "At wetland dawn, V meets Vallisneria. Long ribbon-like leaves grow underwater in freshwater.",
+      "text": "Below the surface, V meets Vallisneria. Long ribbon-like leaves grow underwater in freshwater.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -241,14 +241,14 @@
     {
       "id": "chorus-r1-7-1",
       "sectionId": "chorus-r1-7",
-      "text": "Wetland wonders—A-B-C!",
+      "text": "Hush and listen—water, wing.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-7-2",
       "sectionId": "chorus-r1-7",
-      "text": "Reeds and wings and water sing!",
+      "text": "Wetland letters softly sing.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -390,14 +390,14 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Wetland wonders—A-B-C!",
+      "text": "Hush and listen—water, wing.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Reeds and wings and water sing!",
+      "text": "Wetland letters softly sing.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -484,28 +484,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Wetland wonders—A-B-C!",
+      "text": "Hush and listen—water, wing.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Reeds and wings and water sing!",
+      "text": "Wetland letters softly sing.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Wetland quiet, A to Z.",
+      "text": "Light goes low; the reeds grow still.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Reeds and water keep the melody.",
+      "text": "One last ripple, then the wetland sleeps.",
       "objective": "narration",
       "objectReveal": "none"
     }

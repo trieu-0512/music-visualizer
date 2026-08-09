@@ -6,8 +6,8 @@
   "tempoBpm": 82,
   "motifFamily": "wetland-sway",
   "hook": [
-    "Wetland wonders—A-B-C!",
-    "Reeds and wings and water sing!"
+    "Hush and listen—water, wing.",
+    "Wetland letters softly sing."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two beats of quiet for retrieval",
@@ -38,6 +38,27 @@
     "round2Grammar": "two-beat recall window then small hand gesture; rare plant names receive unhurried confirmation",
     "sectionContrast": "Round 1 airy kalimba; chorus gains bass and soft harmony; Round 2 nearly percussion-free",
     "signatureColor": "single kalimba droplet between phrases",
+    "authorialIntent": "Create a quiet wetland listening poem where stillness matters as much as motion: each letter briefly disturbs reflection, reed, water, or air, then the scene settles again.",
+    "lyricIdentity": "Hushed sensory language, reflected light, tiny sounds, and sparse verbs. Flash, dip, ring, lean, drift, and stillness recur; rhyme is occasional so silence and image can carry the song.",
+    "imageMotifs": [
+      "reed shadows",
+      "water reflections",
+      "single ripples",
+      "brief wing flashes",
+      "returning stillness"
+    ],
+    "semanticArc": [
+      "hushed surface and first movement",
+      "small flashes disturb the calm",
+      "growth/change becomes noticeable",
+      "motion thins until the wetland rests again"
+    ],
+    "forbiddenGenericLanguage": [
+      "fun to see",
+      "bright and clear",
+      "come sing with me",
+      "today"
+    ],
     "chorusAfterRound1": [
       3,
       7
