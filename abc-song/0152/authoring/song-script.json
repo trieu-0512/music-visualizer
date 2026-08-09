@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore city places with me!",
+      "text": "Crosswalk asks us to check traffic, intersection asks us to read signals, overpass separates routes.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "City places—A-B-C!",
+      "text": "City movement begins with stopping where paths conflict.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "At city stop A, we see Ambulance in the picture.",
+      "text": "A — Ambulance! | Emergency medical vehicle carries patients, clinicians, and equipment; sirens/lights do not give bystanders permission to follow closely.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "At city stop B, we see Bakery in the picture.",
+      "text": "B ... B ... Bakery! | Shop/workplace produces or sells breads/pastries; hot ovens and back-of-house equipment stay staff-only.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "At city stop C, we see Crosswalk in the picture.",
+      "text": "C? Crosswalk! | Marked pedestrian crossing; users still look/listen and follow signals because paint does not physically stop vehicles.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "At city stop D, we see Department Store in the picture.",
+      "text": "D is Department Store. Large retail store organized into multiple merchandise departments; it is a commercial place, not a public service office. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "At city stop E, we see Exit Sign in the picture.",
+      "text": "E — Exit Sign! | Sign identifies an exit or escape direction; in emergencies follow the actual route and staff instructions.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "At city stop F, we see Fountain in the picture.",
+      "text": "F ... F ... Fountain! | Decorative water feature circulates/sprays water; it is not automatically safe for drinking or wading.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "At city stop G, we see Grocery Store in the picture.",
+      "text": "G? Grocery Store! | Retail store sells food and household goods; refrigerated, shelf, and checkout areas organize products/flow.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "At city stop H, we see Hospital in the picture.",
+      "text": "H is Hospital. Healthcare facility provides diagnosis/treatment, emergency, inpatient, or specialist services; access and roles vary by department. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "City places—A-B-C!",
+      "text": "Stop, look, cross—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Stop and spot a place with me!",
+      "text": "Read the route before moving.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "At city stop I, we see Intersection in the picture.",
+      "text": "I — Intersection! | Road junction where paths cross; signals/signs/markings coordinate conflicting movements.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "At city stop J, we see Juice Shop in the picture.",
+      "text": "J ... J ... Juice Shop! | Food/drink business prepares or sells juice; ingredients/allergens and hygiene matter more than the shop name.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "At city stop K, we see Kiosk in the picture.",
+      "text": "K? Kiosk! | Small booth or stand provides tickets, information, food, or goods depending location.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "At city stop L, we see Laundromat in the picture.",
+      "text": "L is Laundromat. Self-service laundry facility contains washers/dryers; machines, detergents, hot surfaces, and doors require adult supervision. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "At city stop M, we see Mailbox in the picture.",
+      "text": "M — Mailbox! | Receptacle for outgoing/incoming mail; access and collection rules depend on postal system.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "At city stop N, we see Neighborhood in the picture.",
+      "text": "N ... N ... Neighborhood! | Local area around homes, streets, services, and shared spaces; it has no single universal boundary shape.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "At city stop O, we see Overpass in the picture.",
+      "text": "O? Overpass! | Bridge carries one road/path above another, separating traffic levels.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "At city stop P, we see Park in the picture.",
+      "text": "P is Park. Public green/recreation space can contain paths, play areas, fields, water, or habitat; posted rules vary. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "City places—A-B-C!",
+      "text": "Stop, look, cross—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Stop and spot a place with me!",
+      "text": "Read the route before moving.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "At city stop Q, we see Queue in the picture.",
+      "text": "Q — Queue! | Ordered line of people waiting for service; it organizes turns rather than being a place/building itself.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "At city stop R, we see Road in the picture.",
+      "text": "R ... R ... Road! | Prepared route for vehicles and sometimes designated cycling/walking areas; pedestrians use sidewalks/crossings where provided.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "At city stop S, we see School in the picture.",
+      "text": "S? School! | Education institution with classrooms, staff, shared facilities, and safety/arrival routines.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "At city stop T, we see Taxi in the picture.",
+      "text": "T is Taxi. Passenger-for-hire road service; legal licensing, fares, and pickup rules vary by place. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "At city stop U, we see Underground Train in the picture.",
+      "text": "U — Underground Train! | Rail transit operating through tunnels/underground sections; platforms and tracks remain controlled areas.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "At city stop V, we see Van in the picture.",
+      "text": "V ... V ... Van! | Enclosed road vehicle for passengers/cargo; exact use depends configuration.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "At city stop W, we see Water Fountain in the picture.",
+      "text": "W? Water Fountain! | Public drinking fountain supplies potable water when maintained for that purpose; it differs from decorative fountain.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "At city stop X, we see X-crossing in the picture.",
+      "text": "X is X-crossing. Project X-shaped crossing marker; users must follow the actual road/rail crossing signals rather than the X shape alone. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "City places—A-B-C!",
+      "text": "Stop, look, cross—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Stop and spot a place with me!",
+      "text": "Read the route before moving.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "At city stop Y, we see Yoga Studio in the picture.",
+      "text": "Y — Yoga Studio! | Dedicated space for guided or independent yoga practice; instruction should suit age, ability, and health needs.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "At city stop Z, we see Zone Sign in the picture.",
+      "text": "Z ... Z ... Zone Sign! | Sign marks a regulated or named area such as parking, speed, school, fare, or loading zone; exact rule comes from text/symbols.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Stop sign: A ... Ambulance! Point to the city clue.",
+      "text": "Route recall A ... Ambulance! Point only; no chasing/siren play.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Stop sign: B ... Bakery! Point to the city clue.",
+      "text": "Find B ... Bakery! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Stop sign: C ... Crosswalk! Point to the city clue.",
+      "text": "Which one starts C? ... Crosswalk! Trace stripes, then show stop-look cue.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Stop sign: D ... Department Store! Point to the city clue.",
+      "text": "Check D ... Department Store! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Stop sign: E ... Exit Sign! Point to the city clue.",
+      "text": "Route recall E ... Exit Sign! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Stop sign: F ... Fountain! Point to the city clue.",
+      "text": "Find F ... Fountain! Point; say decorative water is not drinking water.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Stop sign: G ... Grocery Store! Point to the city clue.",
+      "text": "Which one starts G? ... Grocery Store! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Stop sign: H ... Hospital! Point to the city clue.",
+      "text": "Check H ... Hospital! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "City places—A-B-C!",
+      "text": "Stop, look, cross—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Stop and spot a place with me!",
+      "text": "Read the route before moving.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Stop sign: I ... Intersection! Point to the city clue.",
+      "text": "Route recall I ... Intersection! Cross two fingers, then show stop/look.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Stop sign: J ... Juice Shop! Point to the city clue.",
+      "text": "Find J ... Juice Shop! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Stop sign: K ... Kiosk! Point to the city clue.",
+      "text": "Which one starts K? ... Kiosk! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Stop sign: L ... Laundromat! Point to the city clue.",
+      "text": "Check L ... Laundromat! Point; adult handles detergent and machine doors.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Stop sign: M ... Mailbox! Point to the city clue.",
+      "text": "Route recall M ... Mailbox! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Stop sign: N ... Neighborhood! Point to the city clue.",
+      "text": "Find N ... Neighborhood! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Stop sign: O ... Overpass! Point to the city clue.",
+      "text": "Which one starts O? ... Overpass! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Stop sign: P ... Park! Point to the city clue.",
+      "text": "Check P ... Park! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "City places—A-B-C!",
+      "text": "Stop, look, cross—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Stop and spot a place with me!",
+      "text": "Read the route before moving.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Stop sign: Q ... Queue! Point to the city clue.",
+      "text": "Route recall Q ... Queue! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Stop sign: R ... Road! Point to the city clue.",
+      "text": "Find R ... Road! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Stop sign: S ... School! Point to the city clue.",
+      "text": "Which one starts S? ... School! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Stop sign: T ... Taxi! Point to the city clue.",
+      "text": "Check T ... Taxi! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Stop sign: U ... Underground Train! Point to the city clue.",
+      "text": "Route recall U ... Underground Train! Point; draw a platform edge and stay back.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Stop sign: V ... Van! Point to the city clue.",
+      "text": "Find V ... Van! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Stop sign: W ... Water Fountain! Point to the city clue.",
+      "text": "Which one starts W? ... Water Fountain! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Stop sign: X ... X-crossing! Point to the city clue.",
+      "text": "Check X ... X-crossing! Make an X, then show stop/look cue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "City places—A-B-C!",
+      "text": "Stop, look, cross—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Stop and spot a place with me!",
+      "text": "Read the route before moving.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Stop sign: Y ... Yoga Studio! Point to the city clue.",
+      "text": "Route recall Y ... Yoga Studio! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Stop sign: Z ... Zone Sign! Point to the city clue.",
+      "text": "Find Z ... Zone Sign! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "City places—A-B-C!",
+      "text": "Road stays for traffic, subway track stays beyond the platform edge, the last sign is read.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z arrives without rushing a crossing.",
       "objective": "narration",
       "objectReveal": "none"
     }

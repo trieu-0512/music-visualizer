@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Let's explore town together!",
+      "text": "Start at the bus stop, follow a road, cross at a safe point, then reach a destination.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Town map—A-B-C!",
+      "text": "A town map is a network, not an alphabet line.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Our town map gives A the landmark Ambulance to find.",
+      "text": "A — Ambulance! | Emergency medical vehicle carries patients, clinicians, and equipment; sirens/lights do not give bystanders permission to follow closely.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Our town map gives B the landmark Bus Stop to find.",
+      "text": "B ... B ... Bus Stop! | Designated place where buses pick up/drop off passengers; riders wait back from traffic and check route information.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Our town map gives C the landmark City Hall to find.",
+      "text": "C? City Hall! | Municipal government building/offices support local administration and public services; access areas and procedures vary.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Our town map gives D the landmark Doctor to find.",
+      "text": "D is Doctor. Medical professional diagnoses/treats health conditions; examination and treatment require consent, training, and clinical setting. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Our town map gives E the landmark Elevator to find.",
+      "text": "E — Elevator! | Lift transports people/goods vertically between floors; doors, capacity, and emergency controls require normal safety behavior.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Our town map gives F the landmark Fire Station to find.",
+      "text": "F ... F ... Fire Station! | Base for firefighters, engines, rescue equipment, and training; emergency bays must stay clear.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Our town map gives G the landmark Grocery Store to find.",
+      "text": "G? Grocery Store! | Retail store sells food and household goods; refrigerated, shelf, and checkout areas organize products/flow.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Our town map gives H the landmark Hospital to find.",
+      "text": "H is Hospital. Healthcare facility provides diagnosis/treatment, emergency, inpatient, or specialist services; access and roles vary by department. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Town map—A-B-C!",
+      "text": "Start, connect, arrive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Follow every clue with me!",
+      "text": "Build the route from real connections.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Our town map gives I the landmark Information Sign to find.",
+      "text": "I — Information Sign! | Sign provides direction, rules, maps, or place names; wording/symbols must be read in context.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Our town map gives J the landmark Junction to find.",
+      "text": "J ... J ... Junction! | Place where routes meet or split; road users follow signs, signals, markings, and right-of-way rules.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Our town map gives K the landmark Kindergarten to find.",
+      "text": "K? Kindergarten! | Early-childhood education setting focused on learning, play, routines, and social development; age structure varies by country.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Our town map gives L the landmark Laundromat to find.",
+      "text": "L is Laundromat. Self-service laundry facility contains washers/dryers; machines, detergents, hot surfaces, and doors require adult supervision. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Our town map gives M the landmark Mailbox to find.",
+      "text": "M — Mailbox! | Receptacle for outgoing/incoming mail; access and collection rules depend on postal system.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Our town map gives N the landmark Newsstand to find.",
+      "text": "N ... N ... Newsstand! | Small retail stand sells newspapers, magazines, snacks, or small goods; inventory varies.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Our town map gives O the landmark Overpass to find.",
+      "text": "O? Overpass! | Bridge carries one road/path above another, separating traffic levels.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Our town map gives P the landmark Park to find.",
+      "text": "P is Park. Public green/recreation space can contain paths, play areas, fields, water, or habitat; posted rules vary. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Town map—A-B-C!",
+      "text": "Start, connect, arrive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Follow every clue with me!",
+      "text": "Build the route from real connections.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Our town map gives Q the landmark Quilt Shop to find.",
+      "text": "Q — Quilt Shop! | Retail/craft shop sells quilts, fabric, thread, or sewing supplies; needles/cutters remain adult-managed.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Our town map gives R the landmark Road to find.",
+      "text": "R ... R ... Road! | Prepared route for vehicles and sometimes designated cycling/walking areas; pedestrians use sidewalks/crossings where provided.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Our town map gives S the landmark Subway to find.",
+      "text": "S? Subway! | Urban rapid-transit railway that may run underground, elevated, or at surface; platforms/tracks are controlled areas.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Our town map gives T the landmark Taxi to find.",
+      "text": "T is Taxi. Passenger-for-hire road service; legal licensing, fares, and pickup rules vary by place. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Our town map gives U the landmark University to find.",
+      "text": "U — University! | Higher-education institution supports teaching, research, and services across many buildings/departments.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Our town map gives V the landmark Van to find.",
+      "text": "V ... V ... Van! | Enclosed road vehicle for passengers/cargo; exact use depends configuration.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Our town map gives W the landmark Walkway to find.",
+      "text": "W? Walkway! | Designated pedestrian path separates or guides foot traffic; surface and crossing rules still matter.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Our town map gives X the landmark X-ray Clinic to find.",
+      "text": "X is X-ray Clinic. Medical imaging clinic uses controlled X-ray equipment operated by trained professionals; patients follow positioning and radiation-safety instructions. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Town map—A-B-C!",
+      "text": "Start, connect, arrive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Follow every clue with me!",
+      "text": "Build the route from real connections.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Our town map gives Y the landmark Yoga Studio to find.",
+      "text": "Y — Yoga Studio! | Dedicated space for guided or independent yoga practice; instruction should suit age, ability, and health needs.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Our town map gives Z the landmark Zone Sign to find.",
+      "text": "Z ... Z ... Zone Sign! | Sign marks a regulated or named area such as parking, speed, school, fare, or loading zone; exact rule comes from text/symbols.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Map clue: A ... Ambulance! Point when the two align.",
+      "text": "Map recall A ... Ambulance! Point only; no chasing/siren play.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Map clue: B ... Bus Stop! Point when the two align.",
+      "text": "Find B ... Bus Stop! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Map clue: C ... City Hall! Point when the two align.",
+      "text": "Which one starts C? ... City Hall! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Map clue: D ... Doctor! Point when the two align.",
+      "text": "Check D ... Doctor! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Map clue: E ... Elevator! Point when the two align.",
+      "text": "Map recall E ... Elevator! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Map clue: F ... Fire Station! Point when the two align.",
+      "text": "Find F ... Fire Station! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Map clue: G ... Grocery Store! Point when the two align.",
+      "text": "Which one starts G? ... Grocery Store! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Map clue: H ... Hospital! Point when the two align.",
+      "text": "Check H ... Hospital! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Town map—A-B-C!",
+      "text": "Start, connect, arrive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Follow every clue with me!",
+      "text": "Build the route from real connections.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Map clue: I ... Information Sign! Point when the two align.",
+      "text": "Map recall I ... Information Sign! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Map clue: J ... Junction! Point when the two align.",
+      "text": "Find J ... Junction! Make a Y with fingers; say follow signs/signals.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Map clue: K ... Kindergarten! Point when the two align.",
+      "text": "Which one starts K? ... Kindergarten! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Map clue: L ... Laundromat! Point when the two align.",
+      "text": "Check L ... Laundromat! Point; adult handles detergent and machine doors.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Map clue: M ... Mailbox! Point when the two align.",
+      "text": "Map recall M ... Mailbox! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Map clue: N ... Newsstand! Point when the two align.",
+      "text": "Find N ... Newsstand! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Map clue: O ... Overpass! Point when the two align.",
+      "text": "Which one starts O? ... Overpass! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Map clue: P ... Park! Point when the two align.",
+      "text": "Check P ... Park! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Town map—A-B-C!",
+      "text": "Start, connect, arrive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Follow every clue with me!",
+      "text": "Build the route from real connections.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Map clue: Q ... Quilt Shop! Point when the two align.",
+      "text": "Map recall Q ... Quilt Shop! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Map clue: R ... Road! Point when the two align.",
+      "text": "Find R ... Road! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Map clue: S ... Subway! Point when the two align.",
+      "text": "Which one starts S? ... Subway! Point; draw a platform edge and stay back.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Map clue: T ... Taxi! Point when the two align.",
+      "text": "Check T ... Taxi! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Map clue: U ... University! Point when the two align.",
+      "text": "Map recall U ... University! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Map clue: V ... Van! Point when the two align.",
+      "text": "Find V ... Van! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Map clue: W ... Walkway! Point when the two align.",
+      "text": "Which one starts W? ... Walkway! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Map clue: X ... X-ray Clinic! Point when the two align.",
+      "text": "Check X ... X-ray Clinic! Point only; trained professionals operate imaging equipment.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Town map—A-B-C!",
+      "text": "Start, connect, arrive—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Follow every clue with me!",
+      "text": "Build the route from real connections.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Map clue: Y ... Yoga Studio! Point when the two align.",
+      "text": "Map recall Y ... Yoga Studio! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Map clue: Z ... Zone Sign! Point when the two align.",
+      "text": "Find Z ... Zone Sign! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Town map—A-B-C!",
+      "text": "Route retraces to the start; X-ray Clinic stays medical, Zone Sign stays a rule marker.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z closes the map with connections remembered.",
       "objective": "narration",
       "objectReveal": "none"
     }

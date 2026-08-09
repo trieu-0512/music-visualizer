@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore streets and buildings with me!",
+      "text": "A sign can say City Hall, a marquee can say Theater, a school gate can mark student access.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Streets and buildings—A-B-C!",
+      "text": "A building's facade gives clues, not the whole story.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Down our picture street, A shows Apartment by the buildings.",
+      "text": "A — Apartment! | Private dwelling unit inside a larger building; hallways/elevators may be shared while the home itself is private.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Down our picture street, B shows Bakery by the buildings.",
+      "text": "B ... B ... Bakery! | Shop/workplace produces or sells breads/pastries; hot ovens and back-of-house equipment stay staff-only.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Down our picture street, C shows City Hall by the buildings.",
+      "text": "C? City Hall! | Municipal government building/offices support local administration and public services; access areas and procedures vary.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Down our picture street, D shows Doctor by the buildings.",
+      "text": "D is Doctor. Medical professional diagnoses/treats health conditions; examination and treatment require consent, training, and clinical setting. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Down our picture street, E shows Elevator by the buildings.",
+      "text": "E — Elevator! | Lift transports people/goods vertically between floors; doors, capacity, and emergency controls require normal safety behavior.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Down our picture street, F shows Fire Station by the buildings.",
+      "text": "F ... F ... Fire Station! | Base for firefighters, engines, rescue equipment, and training; emergency bays must stay clear.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Down our picture street, G shows Garage by the buildings.",
+      "text": "G? Garage! | Building or bay stores/repairs vehicles; active repair areas can contain moving cars, tools, chemicals, and are not play spaces.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Down our picture street, H shows Hotel by the buildings.",
+      "text": "H is Hotel. Lodging business provides guest rooms and services; guest/private/service areas have different access. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Streets and buildings—A-B-C!",
+      "text": "Sign, door, route—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Look along the block with me!",
+      "text": "Look for evidence before naming the place.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Down our picture street, I shows Intersection by the buildings.",
+      "text": "I — Intersection! | Road junction where paths cross; signals/signs/markings coordinate conflicting movements.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Down our picture street, J shows Juice Shop by the buildings.",
+      "text": "J ... J ... Juice Shop! | Food/drink business prepares or sells juice; ingredients/allergens and hygiene matter more than the shop name.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Down our picture street, K shows Kindergarten by the buildings.",
+      "text": "K? Kindergarten! | Early-childhood education setting focused on learning, play, routines, and social development; age structure varies by country.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Down our picture street, L shows Laundromat by the buildings.",
+      "text": "L is Laundromat. Self-service laundry facility contains washers/dryers; machines, detergents, hot surfaces, and doors require adult supervision. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Down our picture street, M shows Market by the buildings.",
+      "text": "M — Market! | Place where multiple sellers offer food or goods; stall type and opening pattern vary widely.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Down our picture street, N shows Newsstand by the buildings.",
+      "text": "N ... N ... Newsstand! | Small retail stand sells newspapers, magazines, snacks, or small goods; inventory varies.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Down our picture street, O shows Overpass by the buildings.",
+      "text": "O? Overpass! | Bridge carries one road/path above another, separating traffic levels.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Down our picture street, P shows Police Car by the buildings.",
+      "text": "P is Police Car. Marked or unmarked law-enforcement vehicle used for patrol/response; emergency operations belong to trained officers. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Streets and buildings—A-B-C!",
+      "text": "Sign, door, route—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Look along the block with me!",
+      "text": "Look for evidence before naming the place.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Down our picture street, Q shows Quilt Shop by the buildings.",
+      "text": "Q — Quilt Shop! | Retail/craft shop sells quilts, fabric, thread, or sewing supplies; needles/cutters remain adult-managed.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Down our picture street, R shows Road by the buildings.",
+      "text": "R ... R ... Road! | Prepared route for vehicles and sometimes designated cycling/walking areas; pedestrians use sidewalks/crossings where provided.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Down our picture street, S shows School by the buildings.",
+      "text": "S? School! | Education institution with classrooms, staff, shared facilities, and safety/arrival routines.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Down our picture street, T shows Theater by the buildings.",
+      "text": "T is Theater. Venue presents plays, films, music, or performances; audience, stage, backstage, and technical areas have different access. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Down our picture street, U shows Underground Train by the buildings.",
+      "text": "U — Underground Train! | Rail transit operating through tunnels/underground sections; platforms and tracks remain controlled areas.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Down our picture street, V shows Van by the buildings.",
+      "text": "V ... V ... Van! | Enclosed road vehicle for passengers/cargo; exact use depends configuration.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Down our picture street, W shows Walkway by the buildings.",
+      "text": "W? Walkway! | Designated pedestrian path separates or guides foot traffic; surface and crossing rules still matter.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Down our picture street, X shows X-crossing by the buildings.",
+      "text": "X is X-crossing. Project X-shaped crossing marker; users must follow the actual road/rail crossing signals rather than the X shape alone. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Streets and buildings—A-B-C!",
+      "text": "Sign, door, route—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Look along the block with me!",
+      "text": "Look for evidence before naming the place.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Down our picture street, Y shows Yard by the buildings.",
+      "text": "Y — Yard! | Outdoor area beside/around a building; private/public access depends ownership and use.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Down our picture street, Z shows Zoo by the buildings.",
+      "text": "Z ... Z ... Zoo! | Facility houses animals for public viewing, education, conservation, and care; visitors keep barriers, no feeding/touching unless explicitly managed.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Block cue: A ... Apartment! Point when the answer rings.",
+      "text": "Street recall A ... Apartment! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Block cue: B ... Bakery! Point when the answer rings.",
+      "text": "Find B ... Bakery! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Block cue: C ... City Hall! Point when the answer rings.",
+      "text": "Which one starts C? ... City Hall! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Block cue: D ... Doctor! Point when the answer rings.",
+      "text": "Check D ... Doctor! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Block cue: E ... Elevator! Point when the answer rings.",
+      "text": "Street recall E ... Elevator! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Block cue: F ... Fire Station! Point when the answer rings.",
+      "text": "Find F ... Fire Station! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Block cue: G ... Garage! Point when the answer rings.",
+      "text": "Which one starts G? ... Garage! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Block cue: H ... Hotel! Point when the answer rings.",
+      "text": "Check H ... Hotel! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Streets and buildings—A-B-C!",
+      "text": "Sign, door, route—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Look along the block with me!",
+      "text": "Look for evidence before naming the place.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Block cue: I ... Intersection! Point when the answer rings.",
+      "text": "Street recall I ... Intersection! Cross two fingers, then show stop/look.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Block cue: J ... Juice Shop! Point when the answer rings.",
+      "text": "Find J ... Juice Shop! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Block cue: K ... Kindergarten! Point when the answer rings.",
+      "text": "Which one starts K? ... Kindergarten! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Block cue: L ... Laundromat! Point when the answer rings.",
+      "text": "Check L ... Laundromat! Point; adult handles detergent and machine doors.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Block cue: M ... Market! Point when the answer rings.",
+      "text": "Street recall M ... Market! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Block cue: N ... Newsstand! Point when the answer rings.",
+      "text": "Find N ... Newsstand! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Block cue: O ... Overpass! Point when the answer rings.",
+      "text": "Which one starts O? ... Overpass! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Block cue: P ... Police Car! Point when the answer rings.",
+      "text": "Check P ... Police Car! Point only; no siren imitation.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Streets and buildings—A-B-C!",
+      "text": "Sign, door, route—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Look along the block with me!",
+      "text": "Look for evidence before naming the place.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Block cue: Q ... Quilt Shop! Point when the answer rings.",
+      "text": "Street recall Q ... Quilt Shop! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Block cue: R ... Road! Point when the answer rings.",
+      "text": "Find R ... Road! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Block cue: S ... School! Point when the answer rings.",
+      "text": "Which one starts S? ... School! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Block cue: T ... Theater! Point when the answer rings.",
+      "text": "Check T ... Theater! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Block cue: U ... Underground Train! Point when the answer rings.",
+      "text": "Street recall U ... Underground Train! Point; draw a platform edge and stay back.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Block cue: V ... Van! Point when the answer rings.",
+      "text": "Find V ... Van! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Block cue: W ... Walkway! Point when the answer rings.",
+      "text": "Which one starts W? ... Walkway! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Block cue: X ... X-crossing! Point when the answer rings.",
+      "text": "Check X ... X-crossing! Make an X, then show stop/look cue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Streets and buildings—A-B-C!",
+      "text": "Sign, door, route—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Look along the block with me!",
+      "text": "Look for evidence before naming the place.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Block cue: Y ... Yard! Point when the answer rings.",
+      "text": "Street recall Y ... Yard! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Block cue: Z ... Zoo! Point when the answer rings.",
+      "text": "Find Z ... Zoo! Point; keep barrier/no-feeding gesture.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Streets and buildings—A-B-C!",
+      "text": "Backstage stays private, zoo barrier stays closed, road and walkway stay separate.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z closes the street-reading notebook.",
       "objective": "narration",
       "objectReveal": "none"
     }

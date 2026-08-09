@@ -6,11 +6,79 @@
   "tempoBpm": 93,
   "motifFamily": "street-beat",
   "hook": [
-    "Streets and buildings—A-B-C!",
-    "Look along the block with me!"
+    "Sign, door, route—A-B-C!",
+    "Look for evidence before naming the place."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D neighborhood storybook, friendly streets and buildings, clean isolated subjects; visual identity: Street Building Beat",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "facade-function-rhyme",
+    "chorusRhymeEngine": "sign-door-route-hook",
+    "pointOfView": "a child reading street/building clues",
+    "chorusFunction": "repeat sign-door-route",
+    "grooveMeter": "84 BPM observational 6/8",
+    "round1Grammar": "target -> visible/function clue -> access caveat",
+    "round2Grammar": "evidence recall -> target -> safe point gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "facade-evidence",
+    "authorialIntent": "Make Street Building Beat about facade-to-function evidence: building type, street access, public service, business, transport and outdoor space are inferred from signs/entrances, not from architecture alone.",
+    "lyricIdentity": "A child looks at door, sign, window, route, and public/private clue before naming what a building or street element does.",
+    "imageMotifs": [
+      "city hall sign",
+      "hotel entrance",
+      "school gate",
+      "theater marquee",
+      "walkway"
+    ],
+    "semanticArc": [
+      "facade clues",
+      "public/private",
+      "services/business",
+      "street connections"
+    ],
+    "forbiddenGenericLanguage": [
+      "building beat",
+      "shape tells whole job",
+      "enter backstage",
+      "street party"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

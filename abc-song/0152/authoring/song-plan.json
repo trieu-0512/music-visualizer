@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "city-stop",
   "hook": [
-    "City places—A-B-C!",
-    "Stop and spot a place with me!"
+    "Stop, look, cross—A-B-C!",
+    "Read the route before moving."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D neighborhood storybook, friendly streets and buildings, clean isolated subjects; visual identity: City Place Stop",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "city-stop-route-rhyme",
+    "chorusRhymeEngine": "stop-look-cross-hook",
+    "pointOfView": "a child navigating city streets with an adult",
+    "chorusFunction": "repeat stop-look-cross",
+    "grooveMeter": "86 BPM stop-go 4/4",
+    "round1Grammar": "place/road object -> navigation role -> safety",
+    "round2Grammar": "recall -> target -> still directional gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "city-navigation",
+    "authorialIntent": "Make City Place Stop a stop-and-cross navigation song: crosswalk, intersection, road, overpass, exit/zone signs, transit and pedestrian places teach how movement through a city is organized.",
+    "lyricIdentity": "A child pauses at every traffic conflict and reads infrastructure before continuing; shops and parks become destinations rather than road rules.",
+    "imageMotifs": [
+      "crosswalk",
+      "intersection",
+      "overpass",
+      "exit sign",
+      "subway platform"
+    ],
+    "semanticArc": [
+      "walk",
+      "cross",
+      "transit",
+      "arrive"
+    ],
+    "forbiddenGenericLanguage": [
+      "city stop game",
+      "run crosswalk",
+      "road is playground",
+      "sign always same"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

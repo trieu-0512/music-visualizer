@@ -6,11 +6,79 @@
   "tempoBpm": 86,
   "motifFamily": "neighbor-hello",
   "hook": [
-    "Neighborhood hello—A-B-C!",
-    "Friendly places, come with me!"
+    "Hello, wait, respect—A-B-C!",
+    "Good manners fit the situation."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D neighborhood storybook, friendly streets and buildings, clean isolated subjects; visual identity: Neighborhood Hello ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "neighborhood-etiquette-rhyme",
+    "chorusRhymeEngine": "hello-wait-respect-hook",
+    "pointOfView": "a child practicing neighborhood etiquette",
+    "chorusFunction": "repeat greet-wait-respect",
+    "grooveMeter": "86 BPM conversational 4/4",
+    "round1Grammar": "place/person/vehicle -> social/service role -> etiquette",
+    "round2Grammar": "social-neutral recall -> target -> non-contact gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "neighborhood-etiquette",
+    "authorialIntent": "Make Neighborhood Hello ABC about shared-life etiquette: emergency services, shops, library, restaurant, transit, clinics and studios have different reasons for visiting, rules, noise levels, waiting, and privacy.",
+    "lyricIdentity": "The 'hello' is social awareness, not forced friendliness: wait your turn, respect workers, privacy, quiet areas, and emergency access.",
+    "imageMotifs": [
+      "library quiet",
+      "restaurant queue",
+      "ambulance clear path",
+      "clinic privacy",
+      "subway queue"
+    ],
+    "semanticArc": [
+      "greet/enter",
+      "wait/use",
+      "respect/privacy",
+      "leave/share"
+    ],
+    "forbiddenGenericLanguage": [
+      "hello everyone hug",
+      "neighborhood friends all",
+      "ambulance hello",
+      "enter every office"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }
