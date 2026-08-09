@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore playground sports with me!",
+      "text": "Cone says where, lane says through, whistle can say stop, water break says pause.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Stop and go—A-B-C!",
+      "text": "Shared sports space works when everyone can read the same signals.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "At our playground, A points to Archery Target before we go.",
+      "text": "A — Archery Target! | Marked surface receives arrows in archery; real archery requires trained supervision, range rules, and controlled shooting lines.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "At our playground, B points to Bicycle before we go.",
+      "text": "B ... B ... Bicycle! | Two-wheeled pedal vehicle steered by handlebars; helmet, brakes, fit, and traffic-safe space matter.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "At our playground, C points to Cricket Bat before we go.",
+      "text": "C? Cricket Bat! | Flat-bladed bat used by a batter in cricket; ball speed means sport rules and protective equipment matter.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "At our playground, D points to Dumbbell before we go.",
+      "text": "D is Dumbbell. Handheld resistance weight; load and technique must fit age, strength, and coaching rather than copying adult lifting. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "At our playground, E points to Exercise Mat before we go.",
+      "text": "E — Exercise Mat! | Padded surface cushions floor exercises; thickness and grip should fit the activity.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "At our playground, F points to Football before we go.",
+      "text": "F ... F ... Football! | Ball used in football codes; size, shape, and rules differ between association football, American football, rugby codes, and others.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "At our playground, G points to Goal before we go.",
+      "text": "G? Goal! | Scoring target or boundary in many sports; dimensions and scoring rules depend on the game.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "At our playground, H points to Hoop before we go.",
+      "text": "H is Hoop. Circular ring can mark a target or movement station; activity and size determine safe use. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Stop and go—A-B-C!",
+      "text": "Stop, look, route—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Playground sports, move with me!",
+      "text": "Space before speed keeps play readable.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "At our playground, I points to Inline Skates before we go.",
+      "text": "I — Inline Skates! | Boots with wheels in one line; helmet and appropriate protective gear plus a smooth safe area reduce injury risk.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "At our playground, J points to Jersey before we go.",
+      "text": "J ... J ... Jersey! | Sport shirt identifies player/team and provides clothing comfort; it is not protective gear by itself.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "At our playground, K points to Kayak before we go.",
+      "text": "K? Kayak! | Small paddle craft typically propelled with a double-bladed paddle; personal flotation and water-safety supervision are essential.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "At our playground, L points to Lane Marker before we go.",
+      "text": "L is Lane Marker. Line, cone, rope, or float system separates activity lanes; it organizes traffic and fair space. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "At our playground, M points to Medal before we go.",
+      "text": "M — Medal! | Award token recognizes placement, completion, or achievement; it is not sports equipment used to perform the event.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "At our playground, N points to Net before we go.",
+      "text": "N ... N ... Net! | Mesh barrier or target used in many sports; height, tension, and role depend on game.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "At our playground, O points to Obstacle before we go.",
+      "text": "O? Obstacle! | Object or feature to move around, over, or through in a designed course; difficulty should match skill and supervision.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "At our playground, P points to Puck before we go.",
+      "text": "P is Puck. Flat disk used in hockey variants; hard pucks can travel fast and require sport-specific protective gear. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Stop and go—A-B-C!",
+      "text": "Stop, look, route—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Playground sports, move with me!",
+      "text": "Space before speed keeps play readable.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "At our playground, Q points to Quoits Ring before we go.",
+      "text": "Q — Quoits Ring! | Ring tossed toward a peg or target; soft age-appropriate versions reduce impact risk.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "At our playground, R points to Relay Baton before we go.",
+      "text": "R ... R ... Relay Baton! | Light tube passed between relay runners in an exchange zone; successful handoff matters more than throwing it.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "At our playground, S points to Skateboard before we go.",
+      "text": "S? Skateboard! | Board on four wheels controlled by balance; helmet/protective gear and a traffic-free practice area are important.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "At our playground, T points to Tennis Ball before we go.",
+      "text": "T is Tennis Ball. Felt-covered hollow rubber ball designed to bounce for tennis; racket striking happens in clear court space. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "At our playground, U points to Unicycle before we go.",
+      "text": "U — Unicycle! | Single-wheel pedal cycle requiring advanced balance; helmet and controlled practice area are important.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "At our playground, V points to Volleyball before we go.",
+      "text": "V ... V ... Volleyball! | Inflated ball struck over a net in volleyball; teams keep it from touching their court under the rules.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "At our playground, W points to Water Bottle before we go.",
+      "text": "W? Water Bottle! | Container supports hydration; personal bottles should not be shared mouth-to-mouth.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "At our playground, X points to X-shaped Agility Marker before we go.",
+      "text": "X is X-shaped Agility Marker. X-shaped floor marker indicates a station or foot-placement target; it is a visual cue, not an obstacle to jump blindly. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Stop and go—A-B-C!",
+      "text": "Stop, look, route—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Playground sports, move with me!",
+      "text": "Space before speed keeps play readable.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "At our playground, Y points to Yellow Jersey before we go.",
+      "text": "Y — Yellow Jersey! | Yellow sport jersey may identify a team or special competition status; meaning depends on the event.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "At our playground, Z points to Zigzag Cone before we go.",
+      "text": "Z ... Z ... Zigzag Cone! | Cone arranged or marked for zigzag routes; the cone defines a path rather than requiring maximum speed.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Stop! A ... Archery Target! Say it, then go.",
+      "text": "Space recall A ... Archery Target! Point to the target; no shooting mime.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Stop! B ... Bicycle! Say it, then go.",
+      "text": "Find B ... Bicycle! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Stop! C ... Cricket Bat! Say it, then go.",
+      "text": "Which one starts C? ... Cricket Bat! Point and air-trace the bat; no swinging near people.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Stop! D ... Dumbbell! Say it, then go.",
+      "text": "Check D ... Dumbbell! Point only; no lifting challenge.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Stop! E ... Exercise Mat! Say it, then go.",
+      "text": "Space recall E ... Exercise Mat! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Stop! F ... Football! Say it, then go.",
+      "text": "Find F ... Football! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Stop! G ... Goal! Say it, then go.",
+      "text": "Which one starts G? ... Goal! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Stop! H ... Hoop! Say it, then go.",
+      "text": "Check H ... Hoop! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Stop and go—A-B-C!",
+      "text": "Stop, look, route—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Playground sports, move with me!",
+      "text": "Space before speed keeps play readable.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Stop! I ... Inline Skates! Say it, then go.",
+      "text": "Space recall I ... Inline Skates! Point; mime helmet strap while standing still.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Stop! J ... Jersey! Say it, then go.",
+      "text": "Find J ... Jersey! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Stop! K ... Kayak! Say it, then go.",
+      "text": "Which one starts K? ... Kayak! Air-paddle slowly while seated/standing still; name flotation gear.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Stop! L ... Lane Marker! Say it, then go.",
+      "text": "Check L ... Lane Marker! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Stop! M ... Medal! Say it, then go.",
+      "text": "Space recall M ... Medal! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Stop! N ... Net! Say it, then go.",
+      "text": "Find N ... Net! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Stop! O ... Obstacle! Say it, then go.",
+      "text": "Which one starts O? ... Obstacle! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Stop! P ... Puck! Say it, then go.",
+      "text": "Check P ... Puck! Air-trace a flat disk; no slap-shot mime.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Stop and go—A-B-C!",
+      "text": "Stop, look, route—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Playground sports, move with me!",
+      "text": "Space before speed keeps play readable.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Stop! Q ... Quoits Ring! Say it, then go.",
+      "text": "Space recall Q ... Quoits Ring! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Stop! R ... Relay Baton! Say it, then go.",
+      "text": "Find R ... Relay Baton! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Stop! S ... Skateboard! Say it, then go.",
+      "text": "Which one starts S? ... Skateboard! Point; show helmet gesture, no riding mime.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Stop! T ... Tennis Ball! Say it, then go.",
+      "text": "Check T ... Tennis Ball! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Stop! U ... Unicycle! Say it, then go.",
+      "text": "Space recall U ... Unicycle! Point only; no balance stunt.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Stop! V ... Volleyball! Say it, then go.",
+      "text": "Find V ... Volleyball! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Stop! W ... Water Bottle! Say it, then go.",
+      "text": "Which one starts W? ... Water Bottle! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Stop! X ... X-shaped Agility Marker! Say it, then go.",
+      "text": "Check X ... X-shaped Agility Marker! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Stop and go—A-B-C!",
+      "text": "Stop, look, route—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Playground sports, move with me!",
+      "text": "Space before speed keeps play readable.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Stop! Y ... Yellow Jersey! Say it, then go.",
+      "text": "Space recall Y ... Yellow Jersey! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Stop! Z ... Zigzag Cone! Say it, then go.",
+      "text": "Find Z ... Zigzag Cone! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Stop and go—A-B-C!",
+      "text": "Board wheels stop, baton rests, bottle comes back before the next round.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z leaves the playground lanes clear.",
       "objective": "narration",
       "objectReveal": "none"
     }

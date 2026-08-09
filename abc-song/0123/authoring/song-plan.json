@@ -6,11 +6,79 @@
   "tempoBpm": 92,
   "motifFamily": "gear-ride",
   "hook": [
-    "Balls and bikes—A-B-C!",
-    "Sports gear rolls with me!"
+    "Push, control, pause—A-B-C!",
+    "Movement is more than going faster."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Balls Bikes Gear Ride",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "energy-control-rhyme",
+    "chorusRhymeEngine": "push-roll-pause-hook",
+    "pointOfView": "a child observing motion and recovery",
+    "chorusFunction": "repeat push-control-pause",
+    "grooveMeter": "90 BPM exertion-recovery contour",
+    "round1Grammar": "object physics/function plus age-appropriate boundary",
+    "round2Grammar": "recall -> target -> low-intensity gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "energy-recovery",
+    "authorialIntent": "Make Balls Bikes Gear Ride about energy and control: rolling, bouncing, pedaling, paddling, resistance, hydration, and recovery are linked to the right objects without turning the song into an exercise challenge.",
+    "lyricIdentity": "The child watches how energy enters and leaves a movement system, then pauses for gear and recovery.",
+    "imageMotifs": [
+      "ball bounce",
+      "bike wheel",
+      "paddle push",
+      "mat rest",
+      "water bottle"
+    ],
+    "semanticArc": [
+      "input force",
+      "motion/control",
+      "protection",
+      "pause/hydrate/recover"
+    ],
+    "forbiddenGenericLanguage": [
+      "go faster",
+      "strong kids only",
+      "lift heavy",
+      "ride everything"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

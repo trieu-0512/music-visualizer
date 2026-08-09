@@ -6,11 +6,79 @@
   "tempoBpm": 95,
   "motifFamily": "active-name",
   "hook": [
-    "Active kids—A-B-C!",
-    "Move, then name the word with me!"
+    "Start, practice, progress—A-B-C!",
+    "Control comes before challenge."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Active Kids A-Z",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "skill-progression-rhyme",
+    "chorusRhymeEngine": "start-practice-progress-hook",
+    "pointOfView": "a child scaling challenge safely",
+    "chorusFunction": "repeat start-practice-progress",
+    "grooveMeter": "88 BPM progressive 6/8",
+    "round1Grammar": "sport object -> skill context -> supervision/progression",
+    "round2Grammar": "safe recall with no stunt gestures",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "challenge-scale",
+    "authorialIntent": "Make Active Kids A-Z about challenge scaling: every activity has an easier entry, a skill progression, equipment fit, and a point where trained coaching is needed; activity is not a competition for intensity.",
+    "lyricIdentity": "A child learns that active can mean controlled practice, not stunts; archery, kayaking, skating, trampoline and vault require distinct supervision.",
+    "imageMotifs": [
+      "helmet fit",
+      "soft quoits",
+      "kayak PFD",
+      "skate practice",
+      "vault coach card"
+    ],
+    "semanticArc": [
+      "easy entry",
+      "skill progression",
+      "protective setup",
+      "coach/facility boundary"
+    ],
+    "forbiddenGenericLanguage": [
+      "active kids go hard",
+      "be the best",
+      "try the stunt",
+      "no fear"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 2,
+    "usedRound1": 2,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

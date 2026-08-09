@@ -6,11 +6,79 @@
   "tempoBpm": 96,
   "motifFamily": "sports-cheer",
   "hook": [
-    "Sports gear cheer—A-B-C!",
-    "Move and name the gear with me!"
+    "Protect, play, mark—A-B-C!",
+    "Name the role before the cheer."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Sports Gear Cheer",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "sport-role-rhyme",
+    "chorusRhymeEngine": "protect-play-mark-hook",
+    "pointOfView": "a child classifying sport roles",
+    "chorusFunction": "repeat protect-play-mark",
+    "grooveMeter": "92 BPM measured cheer 4/4",
+    "round1Grammar": "object -> sport role -> safety/context",
+    "round2Grammar": "role-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "sport-role",
+    "authorialIntent": "Make Sports Gear Cheer a protection-and-role map: protective gear, playing implements, field markers, clothing, craft, and athlete are separate roles; cheering never becomes a catalog of 'gear'.",
+    "lyricIdentity": "A child asks what protects, what propels, what marks space, and what merely identifies a participant.",
+    "imageMotifs": [
+      "helmet/goggles protection",
+      "cone boundary",
+      "kayak paddle",
+      "number bib",
+      "vault apparatus"
+    ],
+    "semanticArc": [
+      "protect",
+      "play implements",
+      "space markers",
+      "identity/apparatus"
+    ],
+    "forbiddenGenericLanguage": [
+      "sports gear cheer",
+      "all gear",
+      "put it on",
+      "every object makes you active"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 2,
+    "usedRound1": 2,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

@@ -6,11 +6,79 @@
   "tempoBpm": 97,
   "motifFamily": "stop-go",
   "hook": [
-    "Stop and go—A-B-C!",
-    "Playground sports, move with me!"
+    "Stop, look, route—A-B-C!",
+    "Space before speed keeps play readable."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Playground Sports Stop-Go",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "space-signal-rhyme",
+    "chorusRhymeEngine": "stop-look-route-hook",
+    "pointOfView": "a child reading shared activity space",
+    "chorusFunction": "repeat stop-look-route",
+    "grooveMeter": "92 BPM stop-go 4/4",
+    "round1Grammar": "object fact plus spatial role/safety",
+    "round2Grammar": "recall -> target -> still or directional gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "space-signal",
+    "authorialIntent": "Make Playground Sports Stop-Go a spatial-awareness song: start/stop cues, lanes, goals, nets, obstacle spacing, wheeled traffic, and hydration create shared safe space; kayak and archery remain off-playground comparison cards.",
+    "lyricIdentity": "A child reads space before speed, treating lines and markers as communication between players.",
+    "imageMotifs": [
+      "start cone",
+      "lane marker",
+      "goal/net",
+      "skateboard zone",
+      "water break"
+    ],
+    "semanticArc": [
+      "start/stop",
+      "lanes/routes",
+      "shared targets",
+      "pause/clear area"
+    ],
+    "forbiddenGenericLanguage": [
+      "playground sports all",
+      "go go go",
+      "race everywhere",
+      "kayak playground"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

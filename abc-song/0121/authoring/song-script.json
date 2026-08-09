@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore sports and games with me!",
+      "text": "Goggles can protect eyes, a cone marks space, a paddle moves water, a bib identifies an athlete.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Sports gear cheer—A-B-C!",
+      "text": "Sports objects do different jobs before anyone starts moving.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A shows Athlete beside our sports field today.",
+      "text": "A — Athlete! | Person who trains or participates in physical sport; skill develops through practice, recovery, coaching, and appropriate challenge.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B shows Bicycle beside our sports field today.",
+      "text": "B ... B ... Bicycle! | Two-wheeled pedal vehicle steered by handlebars; helmet, brakes, fit, and traffic-safe space matter.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C shows Cone beside our sports field today.",
+      "text": "C? Cone! | Bright marker defines boundaries, turns, stations, or lanes; it organizes space rather than making the movement itself.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D shows Diving Board beside our sports field today.",
+      "text": "D is Diving Board. Springing or rigid platform used for supervised diving at a designed pool; depth, rules, and trained supervision are essential. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E shows Exercise Mat beside our sports field today.",
+      "text": "E — Exercise Mat! | Padded surface cushions floor exercises; thickness and grip should fit the activity.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F shows Football beside our sports field today.",
+      "text": "F ... F ... Football! | Ball used in football codes; size, shape, and rules differ between association football, American football, rugby codes, and others.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G shows Goggles beside our sports field today.",
+      "text": "G? Goggles! | Eye protection or swim eyewear; fit and sport determine whether they block water, wind, debris, or impact.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H shows Hoop beside our sports field today.",
+      "text": "H is Hoop. Circular ring can mark a target or movement station; activity and size determine safe use. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Sports gear cheer—A-B-C!",
+      "text": "Protect, play, mark—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Move and name the gear with me!",
+      "text": "Name the role before the cheer.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I shows Inline Skates beside our sports field today.",
+      "text": "I — Inline Skates! | Boots with wheels in one line; helmet and appropriate protective gear plus a smooth safe area reduce injury risk.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J shows Jersey beside our sports field today.",
+      "text": "J ... J ... Jersey! | Sport shirt identifies player/team and provides clothing comfort; it is not protective gear by itself.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K shows Kayak beside our sports field today.",
+      "text": "K? Kayak! | Small paddle craft typically propelled with a double-bladed paddle; personal flotation and water-safety supervision are essential.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L shows Lacrosse Stick beside our sports field today.",
+      "text": "L is Lacrosse Stick. Shaft with netted head carries, passes, and shoots a lacrosse ball; protective equipment and rules control contact. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M shows Mat beside our sports field today.",
+      "text": "M — Mat! | General padded or marked surface; exact sport decides thickness, grip, shock absorption, and boundaries.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N shows Number Bib beside our sports field today.",
+      "text": "N ... N ... Number Bib! | Wearable number identifies a competitor; it records identity/order rather than measuring performance.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O shows Oar beside our sports field today.",
+      "text": "O? Oar! | Long lever used from a fixed oarlock in rowing; different from a free handheld paddle.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P shows Paddle beside our sports field today.",
+      "text": "P is Paddle. Handheld blade pushes against water to propel or steer a craft; blade and shaft design vary by sport. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Sports gear cheer—A-B-C!",
+      "text": "Protect, play, mark—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Move and name the gear with me!",
+      "text": "Name the role before the cheer.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q shows Quad Skates beside our sports field today.",
+      "text": "Q — Quad Skates! | Roller skates with two pairs of wheels; helmet and protective gear plus safe surface are important.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R shows Racket beside our sports field today.",
+      "text": "R ... R ... Racket! | Handled frame with strings or solid face used to strike a ball/shuttle in racket sports; type depends on sport.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S shows Soccer Ball beside our sports field today.",
+      "text": "S? Soccer Ball! | Round association-football ball kicked, passed, or headed under game rules; size varies by age/group.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T shows Tennis Ball beside our sports field today.",
+      "text": "T is Tennis Ball. Felt-covered hollow rubber ball designed to bounce for tennis; racket striking happens in clear court space. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U shows Unicycle beside our sports field today.",
+      "text": "U — Unicycle! | Single-wheel pedal cycle requiring advanced balance; helmet and controlled practice area are important.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V shows Vault beside our sports field today.",
+      "text": "V ... V ... Vault! | In gymnastics, vault is an apparatus/event involving a run, springboard, support, and landing; trained coaching and mats are essential.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W shows Whistle beside our sports field today.",
+      "text": "W? Whistle! | Signal device can start/stop play or attract attention; loud use stays away from ears.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X shows X-shaped Agility Marker beside our sports field today.",
+      "text": "X is X-shaped Agility Marker. X-shaped floor marker indicates a station or foot-placement target; it is a visual cue, not an obstacle to jump blindly. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Sports gear cheer—A-B-C!",
+      "text": "Protect, play, mark—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Move and name the gear with me!",
+      "text": "Name the role before the cheer.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y shows Yellow Jersey beside our sports field today.",
+      "text": "Y — Yellow Jersey! | Yellow sport jersey may identify a team or special competition status; meaning depends on the event.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z shows Zigzag Cone beside our sports field today.",
+      "text": "Z ... Z ... Zigzag Cone! | Cone arranged or marked for zigzag routes; the cone defines a path rather than requiring maximum speed.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Coach calls A ... Athlete! Point, then say.",
+      "text": "Role recall A ... Athlete! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Coach calls B ... Bicycle! Point, then say.",
+      "text": "Find B ... Bicycle! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Coach calls C ... Cone! Point, then say.",
+      "text": "Which one starts C? ... Cone! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Coach calls D ... Diving Board! Point, then say.",
+      "text": "Check D ... Diving Board! Point only; no jumping gesture—name pool supervision.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Coach calls E ... Exercise Mat! Point, then say.",
+      "text": "Role recall E ... Exercise Mat! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Coach calls F ... Football! Point, then say.",
+      "text": "Find F ... Football! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Coach calls G ... Goggles! Point, then say.",
+      "text": "Which one starts G? ... Goggles! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Coach calls H ... Hoop! Point, then say.",
+      "text": "Check H ... Hoop! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Sports gear cheer—A-B-C!",
+      "text": "Protect, play, mark—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Move and name the gear with me!",
+      "text": "Name the role before the cheer.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Coach calls I ... Inline Skates! Point, then say.",
+      "text": "Role recall I ... Inline Skates! Point; mime helmet strap while standing still.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Coach calls J ... Jersey! Point, then say.",
+      "text": "Find J ... Jersey! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Coach calls K ... Kayak! Point, then say.",
+      "text": "Which one starts K? ... Kayak! Air-paddle slowly while seated/standing still; name flotation gear.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Coach calls L ... Lacrosse Stick! Point, then say.",
+      "text": "Check L ... Lacrosse Stick! Air-trace the stick/head; no checking or swinging.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Coach calls M ... Mat! Point, then say.",
+      "text": "Role recall M ... Mat! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Coach calls N ... Number Bib! Point, then say.",
+      "text": "Find N ... Number Bib! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Coach calls O ... Oar! Point, then say.",
+      "text": "Which one starts O? ... Oar! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Coach calls P ... Paddle! Point, then say.",
+      "text": "Check P ... Paddle! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Sports gear cheer—A-B-C!",
+      "text": "Protect, play, mark—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Move and name the gear with me!",
+      "text": "Name the role before the cheer.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Coach calls Q ... Quad Skates! Point, then say.",
+      "text": "Role recall Q ... Quad Skates! Point; mime helmet strap while standing still.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Coach calls R ... Racket! Point, then say.",
+      "text": "Find R ... Racket! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Coach calls S ... Soccer Ball! Point, then say.",
+      "text": "Which one starts S? ... Soccer Ball! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Coach calls T ... Tennis Ball! Point, then say.",
+      "text": "Check T ... Tennis Ball! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Coach calls U ... Unicycle! Point, then say.",
+      "text": "Role recall U ... Unicycle! Point only; no balance stunt.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Coach calls V ... Vault! Point, then say.",
+      "text": "Find V ... Vault! Point only; trace the apparatus shape, no vaulting imitation.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Coach calls W ... Whistle! Point, then say.",
+      "text": "Which one starts W? ... Whistle! Point only; no loud whistle sound.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Coach calls X ... X-shaped Agility Marker! Point, then say.",
+      "text": "Check X ... X-shaped Agility Marker! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Sports gear cheer—A-B-C!",
+      "text": "Protect, play, mark—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Move and name the gear with me!",
+      "text": "Name the role before the cheer.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Coach calls Y ... Yellow Jersey! Point, then say.",
+      "text": "Role recall Y ... Yellow Jersey! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Coach calls Z ... Zigzag Cone! Point, then say.",
+      "text": "Find Z ... Zigzag Cone! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Sports gear cheer—A-B-C!",
+      "text": "Whistle stays a signal, medal stays an award, vault stays a coached apparatus.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z leaves every sports object in its real role.",
       "objective": "narration",
       "objectReveal": "none"
     }

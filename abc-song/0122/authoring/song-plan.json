@@ -6,11 +6,79 @@
   "tempoBpm": 98,
   "motifFamily": "move-freeze",
   "hook": [
-    "Move and play—A-B-C!",
-    "Little motions, follow me!"
+    "Roll, glide, pass, stop—A-B-C!",
+    "Choose the verb that fits the sport."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D preschool sports storybook, safe gear, simple active scenes; visual identity: Move and Play Letters",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "movement-quality-rhyme",
+    "chorusRhymeEngine": "roll-glide-pass-stop-hook",
+    "pointOfView": "a child matching movement verbs to sport objects",
+    "chorusFunction": "cycle movement qualities",
+    "grooveMeter": "94 BPM motion-stop pulse",
+    "round1Grammar": "function plus correct motion, with non-movement exceptions",
+    "round2Grammar": "motion-neutral retrieval -> exact target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "movement-quality",
+    "authorialIntent": "Make Move and Play Letters a movement-quality song: throw, roll, glide, kick, pass, balance, float, stop and signal are differentiated, while medal/uniform/Xylophone remain non-movement comparison cards.",
+    "lyricIdentity": "A child chooses a movement verb only when the object truly supports it and accepts that some mapped items are organizational or symbolic.",
+    "imageMotifs": [
+      "frisbee glide",
+      "relay baton pass",
+      "kickboard float support",
+      "cone stop",
+      "medal card"
+    ],
+    "semanticArc": [
+      "move objects",
+      "move body",
+      "mark/control space",
+      "non-movement comparison"
+    ],
+    "forbiddenGenericLanguage": [
+      "move and play every item",
+      "move it all",
+      "medal moves",
+      "xylophone sport"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }
