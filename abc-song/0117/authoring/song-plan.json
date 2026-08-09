@@ -6,11 +6,79 @@
   "tempoBpm": 90,
   "motifFamily": "playroom-hunt",
   "hook": [
-    "Playroom hunt—A-B-C!",
-    "Find the toy that's meant to be!"
+    "Table, floor, outside—A-B-C!",
+    "Match the toy to the space it needs."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Playroom Letter Hunt",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "play-zone-rhyme",
+    "chorusRhymeEngine": "table-floor-outside-hook",
+    "pointOfView": "a child choosing a safe play zone",
+    "chorusFunction": "repeat zone choices",
+    "grooveMeter": "90 BPM search-stop pulse",
+    "round1Grammar": "toy fact plus suitable-space note when important",
+    "round2Grammar": "recall target -> safe zone gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "play-zone",
+    "authorialIntent": "Turn Playroom Letter Hunt into a room-zoning hunt: tabletop, floor-building, soft-play, pretend-story and outdoor/movement toys are separated so a Kite, Jump Rope, Scooter or Unicycle is not treated as ordinary indoor playroom use.",
+    "lyricIdentity": "The child finds a toy, then decides where it can be used safely rather than simply grabbing it.",
+    "imageMotifs": [
+      "puzzle table",
+      "block floor mat",
+      "soft toy corner",
+      "kite outdoor card",
+      "scooter helmet card"
+    ],
+    "semanticArc": [
+      "tabletop",
+      "floor/pretend",
+      "small-parts boundaries",
+      "outdoor movement cards"
+    ],
+    "forbiddenGenericLanguage": [
+      "playroom hunt",
+      "everything in playroom",
+      "ride indoors",
+      "find and grab"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

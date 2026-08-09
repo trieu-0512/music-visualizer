@@ -1,0 +1,282 @@
+{
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
+  "status": "PASS",
+  "range": "0116-0120",
+  "songs": 5,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "designReworkSongs": 0,
+  "uniqueHooks": 5,
+  "uniqueStyles": 5,
+  "uniqueSectionForms": 1,
+  "uniqueCreativeFingerprints": 5,
+  "maxLyricSimilarity": 0.1296,
+  "mostSimilarPair": [
+    "0116",
+    "0119"
+  ],
+  "batchWarnings": [],
+  "songsDetail": [
+    {
+      "songId": "0116",
+      "theme": "Toy Box",
+      "targetLines": 52,
+      "lyricWordCount": 963,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0117",
+      "theme": "Playroom Fun",
+      "targetLines": 52,
+      "lyricWordCount": 999,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0118",
+      "theme": "Games & Toys",
+      "targetLines": 52,
+      "lyricWordCount": 994,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0119",
+      "theme": "Building & Pretend Play",
+      "targetLines": 52,
+      "lyricWordCount": 980,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0120",
+      "theme": "Playground Toys",
+      "targetLines": 52,
+      "lyricWordCount": 990,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

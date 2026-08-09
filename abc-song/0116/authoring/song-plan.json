@@ -6,11 +6,79 @@
   "tempoBpm": 95,
   "motifFamily": "toybox-pop",
   "hook": [
-    "Toy box pop—A-B-C!",
-    "Pick a toy and sing with me!"
+    "Stack, roll, spin—A-B-C!",
+    "Ask what the toy lets us change or notice."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Toy Box Letter Pop",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "toy-mechanism-rhyme",
+    "chorusRhymeEngine": "stack-roll-spin-hook",
+    "pointOfView": "a child classifying play mechanisms",
+    "chorusFunction": "reset mechanism verbs",
+    "grooveMeter": "94 BPM compartment pop 4/4",
+    "round1Grammar": "toy -> mechanism/affordance -> limitation",
+    "round2Grammar": "mechanism-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "toy-mechanism",
+    "authorialIntent": "Make Toy Box Letter Pop a mechanism box: stack, roll, spin, reflect, interlock, inflate, draw and puzzle mechanisms are compared, while purely representational toys are labeled as such.",
+    "lyricIdentity": "A child opens one compartment at a time and predicts what physical interaction the toy supports.",
+    "imageMotifs": [
+      "stacking blocks",
+      "gyroscope spin",
+      "kaleidoscope mirrors",
+      "inflatable ball rebound",
+      "puzzle edge match"
+    ],
+    "semanticArc": [
+      "build/fit",
+      "roll/spin",
+      "visual mechanisms",
+      "representation/soft toys"
+    ],
+    "forbiddenGenericLanguage": [
+      "toy box pop",
+      "pick a toy",
+      "every toy bounces",
+      "toy fun"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

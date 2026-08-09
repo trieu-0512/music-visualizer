@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "pretend-build",
   "hook": [
-    "Build, pretend—A-B-C!",
-    "Make-believe and play with me!"
+    "Build, place, imagine—A-B-C!",
+    "Change the story when the next idea arrives."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Build Pretend Play",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "build-story-revision-rhyme",
+    "chorusRhymeEngine": "build-place-character-hook",
+    "pointOfView": "a child revising a pretend-play world",
+    "chorusFunction": "repeat setting-character-change",
+    "grooveMeter": "88 BPM story-building sway",
+    "round1Grammar": "toy affordance plus open-ended limitation",
+    "round2Grammar": "story-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "pretend-affordance",
+    "authorialIntent": "Make Build Pretend Play about affordances: construction pieces build structures, figures carry stories, vehicles suggest routes, and open-ended objects can change roles without claiming a toy has one correct story.",
+    "lyricIdentity": "A child builds a tiny world, then changes the story while keeping physical constraints and small-part safety visible.",
+    "imageMotifs": [
+      "interlocking build",
+      "action-figure story",
+      "toy train route",
+      "origami prop",
+      "soft animal character"
+    ],
+    "semanticArc": [
+      "build setting",
+      "choose characters",
+      "move story",
+      "rebuild/change ending"
+    ],
+    "forbiddenGenericLanguage": [
+      "pretend play one story",
+      "toy tells story",
+      "everything is character",
+      "magic build"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

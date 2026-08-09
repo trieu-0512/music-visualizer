@@ -6,11 +6,79 @@
   "tempoBpm": 94,
   "motifFamily": "playground-roll",
   "hook": [
-    "Playground toys—A-B-C!",
-    "Roll and bounce along with me!"
+    "Pack, space, check—A-B-C!",
+    "Choose the toy for the place, not just the letter."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Playground Toy Train",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "portable-play-rhyme",
+    "chorusRhymeEngine": "pack-space-check-hook",
+    "pointOfView": "a child choosing portable toys for a setting",
+    "chorusFunction": "repeat pack-space-check",
+    "grooveMeter": "92 BPM pack-and-go 4/4",
+    "round1Grammar": "toy fact plus setting suitability when relevant",
+    "round2Grammar": "neutral recall -> target -> pack/stay gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "portable-play",
+    "authorialIntent": "Repair Playground Toy Train by treating its mixed mapping as a portability/suitability sort: some toys travel easily to a playground table or blanket, while marbles, card decks, rattles, stuffed toys and Xylophone Toy may be better in controlled spaces.",
+    "lyricIdentity": "A child packs a play bag by asking about space, surface, wind, small parts, noise, and cleanup—not by assuming every mapped toy is playground equipment.",
+    "imageMotifs": [
+      "play bag",
+      "frisbee open field",
+      "blocks on blanket",
+      "marble stay-home card",
+      "soft toy clean zone"
+    ],
+    "semanticArc": [
+      "packable",
+      "open-space",
+      "small-part/noise checks",
+      "return/cleanup"
+    ],
+    "forbiddenGenericLanguage": [
+      "playground toy train",
+      "every toy outdoors",
+      "roll and bounce all",
+      "playground equipment"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

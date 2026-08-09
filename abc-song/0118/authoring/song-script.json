@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore games and toys with me!",
+      "text": "A puzzle has a solution goal; a card game has rules and turns; a doll can be open-ended play.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Game time—A-B-C!",
+      "text": "Game night works better when we know which kind of play we are doing.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Our game board gives A the picture Alphabet Blocks this round.",
+      "text": "A — Alphabet Blocks! | Blocks carry letters or pictures on faces; stacking adds spatial play while letter faces support recognition.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Our game board gives B the picture Ball this round.",
+      "text": "B ... B ... Ball! | Round play object rolls or bounces depending material and inflation; size should fit the age and activity.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Our game board gives C the picture Car Toy this round.",
+      "text": "C? Car Toy! | Toy representation of a car; rolling wheels are common, but propulsion method depends on the specific toy.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Our game board gives D the picture Doll this round.",
+      "text": "D is Doll. Human- or character-shaped play figure supports caregiving and storytelling play; parts and accessories must be age-appropriate. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Our game board gives E the picture Etch-a-Sketch this round.",
+      "text": "E — Etch-a-Sketch! | Classic mechanical drawing toy uses two knobs to move a stylus horizontally and vertically behind a screen.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Our game board gives F the picture Frisbee this round.",
+      "text": "F ... F ... Frisbee! | Flying disc glides after a spinning throw; outdoor space and distance from people or roads matter.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Our game board gives G the picture Gyroscope this round.",
+      "text": "G? Gyroscope! | Spinning rotor tends to resist changes to its orientation through angular momentum; toy versions demonstrate rotation.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Our game board gives H the picture Hobby Horse this round.",
+      "text": "H is Hobby Horse. Pretend horse toy, often a horse head on a stick or rocking form; clear space prevents collisions. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Game time—A-B-C!",
+      "text": "Goal, rule, turn—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Toys and games for you and me!",
+      "text": "Winning is one outcome; playing the rule fairly is the shared job.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Our game board gives I the picture Interlocking Blocks this round.",
+      "text": "I — Interlocking Blocks! | Building pieces connect through fitted shapes or studs; connection strength and geometry affect structures.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Our game board gives J the picture Jump Rope this round.",
+      "text": "J ... J ... Jump Rope! | Rope turned for jumping games; clear space and supervised use prevent trips or wrapping around the body.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Our game board gives K the picture Kaleidoscope this round.",
+      "text": "K? Kaleidoscope! | Mirrors inside a tube reflect colored pieces into repeated symmetrical patterns as the view changes.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Our game board gives L the picture Letter Tiles this round.",
+      "text": "L is Letter Tiles. Individual tiles display letters for sorting, spelling, or word play; they are movable symbols rather than fixed text. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Our game board gives M the picture Model Car this round.",
+      "text": "M — Model Car! | Small-scale representation of a car; wheels may roll, but exact mechanism depends on the model.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Our game board gives N the picture Nesting Blocks this round.",
+      "text": "N ... N ... Nesting Blocks! | Graduated hollow blocks fit inside one another and can also stack, teaching size order and containment.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Our game board gives O the picture Octopus Toy this round.",
+      "text": "O? Octopus Toy! | Octopus-shaped toy is identified by form; material, seams, and detachable parts determine safe use.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Our game board gives P the picture Puzzle this round.",
+      "text": "P is Puzzle. Problem or object designed to be solved by matching, arranging, reasoning, or fitting pieces. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Game time—A-B-C!",
+      "text": "Goal, rule, turn—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Toys and games for you and me!",
+      "text": "Winning is one outcome; playing the rule fairly is the shared job.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Our game board gives Q the picture Quoits Ring this round.",
+      "text": "Q — Quoits Ring! | Ring used in tossing games toward a peg or target; soft, age-appropriate rings reduce impact risk.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Our game board gives R the picture Rattle this round.",
+      "text": "R ... R ... Rattle! | Enclosed loose pieces or a moving part create sound when shaken; casing must stay intact so small contents cannot escape.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Our game board gives S the picture Scooter this round.",
+      "text": "S? Scooter! | Wheeled ride-on platform steered by handlebars in common designs; helmet, suitable area, and supervision matter.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Our game board gives T the picture Toy Train this round.",
+      "text": "T is Toy Train. Toy representation of railway vehicles; track, coupling, power, and wheel mechanisms depend on the set. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Our game board gives U the picture Unicycle this round.",
+      "text": "U — Unicycle! | Single-wheel ride-on cycle requires balance skill and protective equipment; it is not a preschool indoor riding toy.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Our game board gives V the picture Vehicle Toy this round.",
+      "text": "V ... V ... Vehicle Toy! | Broad category for toy representations of transport; wheels, motors, scale, and function vary by model.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Our game board gives W the picture Wooden Blocks this round.",
+      "text": "W? Wooden Blocks! | Solid wood construction pieces can stack and balance; smooth edges and non-toxic finishes matter.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Our game board gives X the picture X-shaped Puzzle this round.",
+      "text": "X is X-shaped Puzzle. Puzzle target uses a clear X-shaped piece or outline; the X form is the identification clue. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Game time—A-B-C!",
+      "text": "Goal, rule, turn—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Toys and games for you and me!",
+      "text": "Winning is one outcome; playing the rule fairly is the shared job.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Our game board gives Y the picture Yo-yo this round.",
+      "text": "Y — Yo-yo! | Spool-like toy travels up and down a string through rotation; string length and clear space require supervision.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Our game board gives Z the picture Zipper Toy Bag this round.",
+      "text": "Z ... Z ... Zipper Toy Bag! | Bag with zipper stores toys and loose parts; storage helps keep small components together.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Your turn: A ... Alphabet Blocks! Point when it is found.",
+      "text": "Turn recall A ... Alphabet Blocks! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Your turn: B ... Ball! Point when it is found.",
+      "text": "Find B ... Ball! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Your turn: C ... Car Toy! Point when it is found.",
+      "text": "Which one starts C? ... Car Toy! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Your turn: D ... Doll! Point when it is found.",
+      "text": "Check D ... Doll! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Your turn: E ... Etch-a-Sketch! Point when it is found.",
+      "text": "Turn recall E ... Etch-a-Sketch! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Your turn: F ... Frisbee! Point when it is found.",
+      "text": "Find F ... Frisbee! Air-trace a flat disc; no throwing indoors.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Your turn: G ... Gyroscope! Point when it is found.",
+      "text": "Which one starts G? ... Gyroscope! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Your turn: H ... Hobby Horse! Point when it is found.",
+      "text": "Check H ... Hobby Horse! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Game time—A-B-C!",
+      "text": "Goal, rule, turn—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Toys and games for you and me!",
+      "text": "Winning is one outcome; playing the rule fairly is the shared job.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Your turn: I ... Interlocking Blocks! Point when it is found.",
+      "text": "Turn recall I ... Interlocking Blocks! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Your turn: J ... Jump Rope! Point when it is found.",
+      "text": "Find J ... Jump Rope! Air-draw one rope arc; do not wrap anything around the body.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Your turn: K ... Kaleidoscope! Point when it is found.",
+      "text": "Which one starts K? ... Kaleidoscope! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Your turn: L ... Letter Tiles! Point when it is found.",
+      "text": "Check L ... Letter Tiles! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Your turn: M ... Model Car! Point when it is found.",
+      "text": "Turn recall M ... Model Car! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Your turn: N ... Nesting Blocks! Point when it is found.",
+      "text": "Find N ... Nesting Blocks! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Your turn: O ... Octopus Toy! Point when it is found.",
+      "text": "Which one starts O? ... Octopus Toy! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Your turn: P ... Puzzle! Point when it is found.",
+      "text": "Check P ... Puzzle! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Game time—A-B-C!",
+      "text": "Goal, rule, turn—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Toys and games for you and me!",
+      "text": "Winning is one outcome; playing the rule fairly is the shared job.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Your turn: Q ... Quoits Ring! Point when it is found.",
+      "text": "Turn recall Q ... Quoits Ring! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Your turn: R ... Rattle! Point when it is found.",
+      "text": "Find R ... Rattle! Shake a closed empty fist softly; never open a real rattle.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Your turn: S ... Scooter! Point when it is found.",
+      "text": "Which one starts S? ... Scooter! Point and mime holding handlebars while standing still.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Your turn: T ... Toy Train! Point when it is found.",
+      "text": "Check T ... Toy Train! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Your turn: U ... Unicycle! Point when it is found.",
+      "text": "Turn recall U ... Unicycle! Point only; no balance stunt imitation.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Your turn: V ... Vehicle Toy! Point when it is found.",
+      "text": "Find V ... Vehicle Toy! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Your turn: W ... Wooden Blocks! Point when it is found.",
+      "text": "Which one starts W? ... Wooden Blocks! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Your turn: X ... X-shaped Puzzle! Point when it is found.",
+      "text": "Check X ... X-shaped Puzzle! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Game time—A-B-C!",
+      "text": "Goal, rule, turn—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Toys and games for you and me!",
+      "text": "Winning is one outcome; playing the rule fairly is the shared job.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Your turn: Y ... Yo-yo! Point when it is found.",
+      "text": "Turn recall Y ... Yo-yo! Move one empty hand gently down and up; no string around fingers or neck.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Your turn: Z ... Zipper Toy Bag! Point when it is found.",
+      "text": "Find Z ... Zipper Toy Bag! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Game time—A-B-C!",
+      "text": "Cards gathered, puzzle pieces counted, riding toys still on the outside card.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends with the game space ready for another fair turn.",
       "objective": "narration",
       "objectReveal": "none"
     }

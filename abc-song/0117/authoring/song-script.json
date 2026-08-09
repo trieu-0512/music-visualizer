@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore playroom fun with me!",
+      "text": "Puzzle at the table, blocks on the floor, kite outside, scooter in a safe riding area.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Playroom hunt—A-B-C!",
+      "text": "Finding the toy is only half the hunt; finding its safe space is the other half.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Around the playroom, A spots Action Figure nearby.",
+      "text": "A — Action Figure! | Small articulated character figure supports posing and pretend narratives; small accessories can be choking hazards.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Around the playroom, B spots Ball nearby.",
+      "text": "B ... B ... Ball! | Round play object rolls or bounces depending material and inflation; size should fit the age and activity.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Around the playroom, C spots Crayon nearby.",
+      "text": "C? Crayon! | Wax drawing stick adds mark-making to play; it belongs on suitable paper, not toys, walls, or mouths.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Around the playroom, D spots Dominoes nearby.",
+      "text": "D is Dominoes. Flat tiles can be matched by markings or stood in chains; game rules and toppling play are different activities. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Around the playroom, E spots Excavator Toy nearby.",
+      "text": "E — Excavator Toy! | Toy model represents an excavator with boom, stick, bucket, and tracked/wheeled base depending design.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Around the playroom, F spots Finger Puppet nearby.",
+      "text": "F ... F ... Finger Puppet! | Small character fits over a finger for storytelling; size and detachable pieces must be age-appropriate.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Around the playroom, G spots Game Board nearby.",
+      "text": "G? Game Board! | Marked surface organizes spaces, paths, or zones for a game; rules give the marks their meaning.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Around the playroom, H spots Hoop nearby.",
+      "text": "H is Hoop. Circular ring supports rolling, tossing, stepping, or waist-spinning games depending size and setting. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Playroom hunt—A-B-C!",
+      "text": "Table, floor, outside—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Find the toy that's meant to be!",
+      "text": "Match the toy to the space it needs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Around the playroom, I spots Interlocking Blocks nearby.",
+      "text": "I — Interlocking Blocks! | Building pieces connect through fitted shapes or studs; connection strength and geometry affect structures.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Around the playroom, J spots Jump Rope nearby.",
+      "text": "J ... J ... Jump Rope! | Rope turned for jumping games; clear space and supervised use prevent trips or wrapping around the body.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Around the playroom, K spots Kite nearby.",
+      "text": "K? Kite! | Light frame/sail flies in wind on a line; use in open areas far from roads, storms, and power lines.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Around the playroom, L spots Letter Tiles nearby.",
+      "text": "L is Letter Tiles. Individual tiles display letters for sorting, spelling, or word play; they are movable symbols rather than fixed text. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Around the playroom, M spots Marble nearby.",
+      "text": "M — Marble! | Small hard sphere rolls smoothly and can be used in games; its size creates a serious choking hazard for young children.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Around the playroom, N spots Number Puzzle nearby.",
+      "text": "N ... N ... Number Puzzle! | Puzzle uses numerals or quantities as matching clues, combining shape fitting with number recognition.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Around the playroom, O spots Octopus Toy nearby.",
+      "text": "O? Octopus Toy! | Octopus-shaped toy is identified by form; material, seams, and detachable parts determine safe use.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Around the playroom, P spots Plush Bear nearby.",
+      "text": "P is Plush Bear. Soft stuffed bear toy; secure seams and attached parts matter more than the exact fur texture. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Playroom hunt—A-B-C!",
+      "text": "Table, floor, outside—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Find the toy that's meant to be!",
+      "text": "Match the toy to the space it needs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Around the playroom, Q spots Quiz Game nearby.",
+      "text": "Q — Quiz Game! | Question-and-answer game tests recall or reasoning; a missed answer is a chance to learn, not a judgment of the player.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Around the playroom, R spots Rattle nearby.",
+      "text": "R ... R ... Rattle! | Enclosed loose pieces or a moving part create sound when shaken; casing must stay intact so small contents cannot escape.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Around the playroom, S spots Scooter nearby.",
+      "text": "S? Scooter! | Wheeled ride-on platform steered by handlebars in common designs; helmet, suitable area, and supervision matter.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Around the playroom, T spots Teddy Bear nearby.",
+      "text": "T is Teddy Bear. Soft stuffed bear-shaped toy supports comfort or pretend play; loose eyes, seams, and stuffing must stay secure. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Around the playroom, U spots Unicycle nearby.",
+      "text": "U — Unicycle! | Single-wheel ride-on cycle requires balance skill and protective equipment; it is not a preschool indoor riding toy.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Around the playroom, V spots Vehicle Toy nearby.",
+      "text": "V ... V ... Vehicle Toy! | Broad category for toy representations of transport; wheels, motors, scale, and function vary by model.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Around the playroom, W spots Wagon nearby.",
+      "text": "W? Wagon! | Low wheeled cart can carry toys or be pulled; riding rules depend on design and adult supervision.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Around the playroom, X spots X-shaped Puzzle nearby.",
+      "text": "X is X-shaped Puzzle. Puzzle target uses a clear X-shaped piece or outline; the X form is the identification clue. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Playroom hunt—A-B-C!",
+      "text": "Table, floor, outside—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Find the toy that's meant to be!",
+      "text": "Match the toy to the space it needs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Around the playroom, Y spots Yarn Doll nearby.",
+      "text": "Y — Yarn Doll! | Figure made by wrapping and tying yarn; loose fibers or long strands require supervised craft/play.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Around the playroom, Z spots Zoom Car nearby.",
+      "text": "Z ... Z ... Zoom Car! | Project label for a small toy car; do not invent a pull-back, battery, or friction motor unless the pictured model shows one.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Hunt for A ... Action Figure! Point when it catches your eye.",
+      "text": "Zone recall A ... Action Figure! Pose two fingers; keep tiny accessories out of mouths.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Hunt for B ... Ball! Point when it catches your eye.",
+      "text": "Find B ... Ball! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Hunt for C ... Crayon! Point when it catches your eye.",
+      "text": "Which one starts C? ... Crayon! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Hunt for D ... Dominoes! Point when it catches your eye.",
+      "text": "Check D ... Dominoes! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Hunt for E ... Excavator Toy! Point when it catches your eye.",
+      "text": "Zone recall E ... Excavator Toy! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Hunt for F ... Finger Puppet! Point when it catches your eye.",
+      "text": "Find F ... Finger Puppet! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Hunt for G ... Game Board! Point when it catches your eye.",
+      "text": "Which one starts G? ... Game Board! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Hunt for H ... Hoop! Point when it catches your eye.",
+      "text": "Check H ... Hoop! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Playroom hunt—A-B-C!",
+      "text": "Table, floor, outside—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Find the toy that's meant to be!",
+      "text": "Match the toy to the space it needs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Hunt for I ... Interlocking Blocks! Point when it catches your eye.",
+      "text": "Zone recall I ... Interlocking Blocks! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Hunt for J ... Jump Rope! Point when it catches your eye.",
+      "text": "Find J ... Jump Rope! Air-draw one rope arc; do not wrap anything around the body.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Hunt for K ... Kite! Point when it catches your eye.",
+      "text": "Which one starts K? ... Kite! Trace a diamond in the air; name open-sky safety.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Hunt for L ... Letter Tiles! Point when it catches your eye.",
+      "text": "Check L ... Letter Tiles! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Hunt for M ... Marble! Point when it catches your eye.",
+      "text": "Zone recall M ... Marble! Point only; show a tiny circle with fingers—no real marble for preschool play.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Hunt for N ... Number Puzzle! Point when it catches your eye.",
+      "text": "Find N ... Number Puzzle! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Hunt for O ... Octopus Toy! Point when it catches your eye.",
+      "text": "Which one starts O? ... Octopus Toy! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Hunt for P ... Plush Bear! Point when it catches your eye.",
+      "text": "Check P ... Plush Bear! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Playroom hunt—A-B-C!",
+      "text": "Table, floor, outside—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Find the toy that's meant to be!",
+      "text": "Match the toy to the space it needs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Hunt for Q ... Quiz Game! Point when it catches your eye.",
+      "text": "Zone recall Q ... Quiz Game! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Hunt for R ... Rattle! Point when it catches your eye.",
+      "text": "Find R ... Rattle! Shake a closed empty fist softly; never open a real rattle.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Hunt for S ... Scooter! Point when it catches your eye.",
+      "text": "Which one starts S? ... Scooter! Point and mime holding handlebars while standing still.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Hunt for T ... Teddy Bear! Point when it catches your eye.",
+      "text": "Check T ... Teddy Bear! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Hunt for U ... Unicycle! Point when it catches your eye.",
+      "text": "Zone recall U ... Unicycle! Point only; no balance stunt imitation.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Hunt for V ... Vehicle Toy! Point when it catches your eye.",
+      "text": "Find V ... Vehicle Toy! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Hunt for W ... Wagon! Point when it catches your eye.",
+      "text": "Which one starts W? ... Wagon! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Hunt for X ... X-shaped Puzzle! Point when it catches your eye.",
+      "text": "Check X ... X-shaped Puzzle! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Playroom hunt—A-B-C!",
+      "text": "Table, floor, outside—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Find the toy that's meant to be!",
+      "text": "Match the toy to the space it needs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Hunt for Y ... Yarn Doll! Point when it catches your eye.",
+      "text": "Zone recall Y ... Yarn Doll! Point and trace one yarn loop; keep long strands supervised.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Hunt for Z ... Zoom Car! Point when it catches your eye.",
+      "text": "Find Z ... Zoom Car! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Playroom hunt—A-B-C!",
+      "text": "Marble stays off the preschool floor; scooter and kite stay on their outdoor cards.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z leaves the playroom clear enough to walk.",
       "objective": "narration",
       "objectReveal": "none"
     }

@@ -6,11 +6,79 @@
   "tempoBpm": 93,
   "motifFamily": "game-turn",
   "hook": [
-    "Game time—A-B-C!",
-    "Toys and games for you and me!"
+    "Goal, rule, turn—A-B-C!",
+    "Winning is one outcome; playing the rule fairly is the shared job."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D playroom storybook, rounded safe toys, simple uncluttered scenes; visual identity: Game Night ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "rule-turn-goal-rhyme",
+    "chorusRhymeEngine": "goal-rule-turn-hook",
+    "pointOfView": "a child comparing structured games with free play",
+    "chorusFunction": "reset goal-rule-turn",
+    "grooveMeter": "88 BPM turn-taking 6/8",
+    "round1Grammar": "object fact plus game/free-play distinction",
+    "round2Grammar": "rule-neutral retrieval -> target -> quiet turn gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "rule-turn",
+    "authorialIntent": "Make Game Night ABC about rules and turn structure: free play, puzzles, card games, tossing games and riding toys are distinguished; not every toy belongs in a seated game night.",
+    "lyricIdentity": "A child asks 'what makes this a game—goal, rule, turn, or challenge?' and moves non-game objects to comparison cards.",
+    "imageMotifs": [
+      "turn marker",
+      "puzzle goal",
+      "Uno color card",
+      "quoits target",
+      "toy-train comparison card"
+    ],
+    "semanticArc": [
+      "goal/rules",
+      "turns",
+      "skill/chance",
+      "free-play comparison"
+    ],
+    "forbiddenGenericLanguage": [
+      "game night every toy",
+      "your turn every object",
+      "all toys games",
+      "winning matters most"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }
