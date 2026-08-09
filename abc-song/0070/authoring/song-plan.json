@@ -6,8 +6,8 @@
   "tempoBpm": 90,
   "motifFamily": "birdwatch-step",
   "hook": [
-    "Call it once, echo it free!",
-    "Bird-name chorus, A to Z!"
+    "Look, listen, check—A-B-C!",
+    "One field mark starts the idea; several build the ID."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one clear observation beat before answer",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "patient young birdwatcher",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "story-song 3/4-to-4/4 feel",
-    "round1Grammar": "Round 1 uses birdwatching language—feather, beak, feet, perch, water or flight clues—and leaves long species names enough musical space.",
-    "round2Grammar": "Round 2 uses binocular-style cue-gap-answer timing followed by an object-conditioned clue: waders show long legs or curved/spear bills, seed birds show cone bills, parrots show hooked bills/climbing feet, trunk birds climb or tap, soarers glide, hummingbirds hover, nest makes a cup shape, and flightless birds use grounded walking or swimming gestures.",
+    "rhymeEngine": "birdwatch-multifieldmark-rhyme",
+    "chorusRhymeEngine": "look-listen-check-hook",
+    "pointOfView": "a child making cautious multi-trait bird identifications",
+    "chorusFunction": "repeat look-listen-check",
+    "grooveMeter": "steady 4/4 observation pulse",
+    "round1Grammar": "hand-written field marks with range/habitat; no nest disturbance",
+    "round2Grammar": "field-mark cue -> recall beat -> target -> point/sketch gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a pizzicato binocular-click followed by one clear bell note after the target.",
     "signatureColor": "a pizzicato binocular-click followed by one clear bell note after the target",
+    "authorialIntent": "Make Little Birdwatcher a disciplined field-identification song: size, silhouette, bill, legs, flight, habitat and call combine before a name; distance and nest ethics are built in.",
+    "lyricIdentity": "A child birdwatcher records multiple field marks and leaves uncertain IDs open instead of answering every echo instantly.",
+    "imageMotifs": [
+      "heron silhouette",
+      "kiwi range card",
+      "toucan bill",
+      "wren tail",
+      "upland sandpiper grassland stance"
+    ],
+    "semanticArc": [
+      "silhouette and size",
+      "bill/leg traits",
+      "habitat and behavior",
+      "call plus cautious final ID"
+    ],
+    "forbiddenGenericLanguage": [
+      "echoing birdwatch trail",
+      "answer with a letter",
+      "one clue identifies bird",
+      "birdwatch fun"
+    ],
     "chorusAfterRound1": [
       3,
       5

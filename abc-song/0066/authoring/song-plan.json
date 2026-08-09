@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "birdsong-lilt",
   "hook": [
-    "Wingbeat, word beat—A-B-C!",
-    "Name the bird you spot with me!"
+    "Call, song, drum—A-B-C!",
+    "Listen for the source before you name the bird."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat with bird effects muted",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "patient young birdwatcher",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "elastic 4/4 bounce",
-    "round1Grammar": "Round 1 uses birdwatching language—feather, beak, feet, perch, water or flight clues—and leaves long species names enough musical space.",
-    "round2Grammar": "Round 2 uses binocular-style cue-gap-answer timing followed by an object-conditioned clue: waders show long legs or curved/spear bills, seed birds show cone bills, parrots show hooked bills/climbing feet, trunk birds climb or tap, soarers glide, hummingbirds hover, nest makes a cup shape, and flightless birds use grounded walking or swimming gestures.",
+    "rhymeEngine": "bird-acoustic-source-rhyme",
+    "chorusRhymeEngine": "call-song-drum-hook",
+    "pointOfView": "a child building a listening map without assuming every bird sings",
+    "chorusFunction": "reset call-song-drum-silence",
+    "grooveMeter": "airy 4/4 with acoustic gaps",
+    "round1Grammar": "hand-written acoustic or visual clue; nest explicit non-bird",
+    "round2Grammar": "listen/look cue -> recall beat -> target -> safe gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a light flute chirp and one warm ukulele wingbeat after the target.",
     "signatureColor": "a light flute chirp and one warm ukulele wingbeat after the target",
+    "authorialIntent": "Make Birdsong Alphabet an acoustic field guide: song, call, coo, drumming, silence and non-vocal clues are distinguished instead of forcing every bird into tweeting.",
+    "lyricIdentity": "A child listens first, then checks bill, habitat and behavior; some targets are heard, some seen, and Nest is evidence rather than a bird.",
+    "imageMotifs": [
+      "dove coo",
+      "lark song above field",
+      "woodpecker drum",
+      "owl call at dusk",
+      "kiwi quiet on forest floor"
+    ],
+    "semanticArc": [
+      "soft calls",
+      "songs and contact calls",
+      "non-vocal sound and silence",
+      "visual clues and final listening map"
+    ],
+    "forbiddenGenericLanguage": [
+      "tweet tweet every bird",
+      "morning melody",
+      "all birds sing",
+      "feathered clue"
+    ],
     "chorusAfterRound1": [
       3,
       6

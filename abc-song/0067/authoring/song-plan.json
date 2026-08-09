@@ -6,8 +6,8 @@
   "tempoBpm": 84,
   "motifFamily": "nest-sway",
   "hook": [
-    "Spot the feather, say it clear!",
-    "Letter and bird are landing here!"
+    "Feather, shelter, care—A-B-C!",
+    "One bird flies, one swims, one nests close to earth."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two calm beats before answer",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "patient young birdwatcher",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 uses birdwatching language—feather, beak, feet, perch, water or flight clues—and leaves long species names enough musical space.",
-    "round2Grammar": "Round 2 uses binocular-style cue-gap-answer timing followed by an object-conditioned clue: waders show long legs or curved/spear bills, seed birds show cone bills, parrots show hooked bills/climbing feet, trunk birds climb or tap, soarers glide, hummingbirds hover, nest makes a cup shape, and flightless birds use grounded walking or swimming gestures.",
+    "rhymeEngine": "feather-function-nest-form-rhyme",
+    "chorusRhymeEngine": "feather-shelter-care-hook",
+    "pointOfView": "a child comparing feather and nest functions across bird lifestyles",
+    "chorusFunction": "reset feather-shelter-care",
+    "grooveMeter": "gentle 6/8 woven-texture sway",
+    "round1Grammar": "hand-written feather/nest function; flightless birds explicit",
+    "round2Grammar": "function cue -> recall beat -> target -> soft shape gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a soft woodblock perch-click followed by a small glockenspiel feather answer.",
     "signatureColor": "a soft woodblock perch-click followed by a small glockenspiel feather answer",
+    "authorialIntent": "Make Feather Nest Melody about what feathers and nests actually do: insulation, flight, waterproofing, display, egg protection and habitat-specific nest design, while flightless birds remain fully feathered birds.",
+    "lyricIdentity": "A child compares feather function and nesting strategy rather than treating feathers as decoration and nests as one twig cup.",
+    "imageMotifs": [
+      "albatross flight feathers",
+      "penguin dense feathers",
+      "flamingo nest mound",
+      "woodpecker cavity",
+      "ostrich ground nest"
+    ],
+    "semanticArc": [
+      "feather functions",
+      "nest diversity",
+      "flightless bird contrasts",
+      "habitat and parental-care recap"
+    ],
+    "forbiddenGenericLanguage": [
+      "feather nest melody",
+      "every nest is twigs",
+      "all feathers fly",
+      "binocular reply"
+    ],
     "chorusAfterRound1": [
       2,
       5,

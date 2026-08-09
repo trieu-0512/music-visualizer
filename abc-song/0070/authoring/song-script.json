@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "A bird calls once; the hill sends the sound back.",
+      "text": "Silhouette first. Bill second. Habitat third. Call only if we actually hear it.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "We answer with a letter and the bird name on its track.",
+      "text": "A careful birdwatcher lets several clues agree.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Albatross appears—A found it. Albatross wings spread wide | ocean winds can carry its glide",
+      "text": "A — Albatross! Enormous narrow-winged seabird | ocean habitat plus gliding silhouette makes the ID.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B ... Budgie; A budgie is a small parrot with a curved bill and two toes facing forward and two backward.",
+      "text": "B ... B ... Budgie! Small Australian parrot with curved bill and long tail | wild range matters despite common pet familiarity.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "A tiny pause for C, then Crane! Crane stands tall | long neck, long legs above them all",
+      "text": "C? Crane! Tall legs, long neck, straight bill | wetland or grassland silhouette, not just 'big bird'.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "across the echoing birdwatch trail, Duck belongs with D. A duck has webbed feet for paddling and a broad bill suited to its feeding style.",
+      "text": "D is Duck. Webbed feet and broad bill support water life | shape, behavior, and plumage narrow the species.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Question: E? Answer: Eagle. Eagle on the sky-line | feathered body gives a clue to find",
+      "text": "E — Eagle! Large hooked bill, broad wings, strong talons | distance prevents size illusion from fooling us.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Finch appears—F found it. It is a small bird often recognized by a compact body and seed-cracking cone-shaped bill.",
+      "text": "F ... F ... Finch! Small conical-billed seed eater | bill and flock behavior can guide ID.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G ... Goose; A goose is a large water bird with webbed feet, a broad bill, and a long neck.",
+      "text": "G? Goose! Long neck, webbed feet, heavy body | flock formation and calls add context.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "A tiny pause for H, then Heron! It is a long-legged wader with a long neck and spear-like bill for catching prey.",
+      "text": "H is Heron. Long neck often folds in flight; long legs trail behind | silhouette separates it from crane flight posture.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "across the echoing birdwatch trail, Ibis belongs with I. Ibis probes down | curved bill searches soft wet ground",
+      "text": "I — Ibis! Downcurved probing bill is the strongest field mark | wetland habitat confirms the shape.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Question: J? Answer: Junco. It is a small ground-feeding sparrow relative with a short cone-shaped bill.",
+      "text": "J ... J ... Junco! Small sparrow-like bird feeding near ground | plumage and white tail flashes help by region.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kiwi appears—K found it. Kiwi on the ground | tiny wings, strong legs stepping round",
+      "text": "K? Kiwi! Flightless nocturnal New Zealand bird | range alone prevents a false local ID in most of the world.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L ... Lorikeet; A lorikeet is a colorful parrot with a curved bill and a brush-tipped tongue adapted for nectar and pollen.",
+      "text": "L is Lorikeet. Brush-tipped tongue suits nectar feeding; curved bill shows parrot ancestry | region and color refine ID.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Call it once, echo it free!",
+      "text": "Look, listen, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Bird-name chorus, A to Z!",
+      "text": "One field mark starts the idea; several build the ID.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "A tiny pause for M, then Macaw! Macaw tail streams long | curved bill, bright colors, parrot strong",
+      "text": "M — Macaw! Huge parrot with long tail and massive curved bill | tropical American range is essential context.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "across the echoing birdwatch trail, Nuthatch belongs with N. A nuthatch is a small bird that often climbs along tree trunks and branches while searching bark for food.",
+      "text": "N ... N ... Nuthatch! Climbs bark and often descends head-first | behavior may identify it before plumage.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Question: O? Answer: Ostrich. Ostrich runs fast | flightless wings and long legs pass",
+      "text": "O? Ostrich! World's largest living bird, flightless with long running legs | African open-habitat card, unmistakable scale.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Penguin appears—P found it. It is a flightless seabird whose stiff wings work like flippers underwater.",
+      "text": "P is Penguin. Flightless seabird with flipper-like wings and upright stance | Southern Hemisphere marine context matters.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q ... Quail; Quail on the sky-line | feathered body gives a clue to find",
+      "text": "Q — Quail! Plump ground bird with short bill | quick ground movement and burst flight support the ID.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "A tiny pause for R, then Raven! It is a large black bird in the crow family with a heavy bill and broad wings.",
+      "text": "R ... R ... Raven! Large corvid with heavy bill and wedge-shaped tail in Common Raven | compare carefully with crows by region.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "across the echoing birdwatch trail, Swan belongs with S. Swan on the lake | long neck curves, webbed feet make a wake",
+      "text": "S? Swan! Very large waterbird with long neck | size, water habitat, and bill shape combine.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Question: T? Answer: Toucan. It is a tropical bird known for its very large, lightweight-looking colorful bill.",
+      "text": "T is Toucan. Huge colorful bill on a relatively light body | tropical American forest context prevents confusion.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Call it once, echo it free!",
+      "text": "Look, listen, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Bird-name chorus, A to Z!",
+      "text": "One field mark starts the idea; several build the ID.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Upland Sandpiper appears—U found it. Upland Sandpiper in sight | feathers, beak, and feet give clues just right",
+      "text": "U — Upland Sandpiper! Long-necked grassland shorebird relative | often found far from shore in open fields.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V ... Vulture; A vulture is a scavenging bird with broad soaring wings and a hooked bill.",
+      "text": "V ... V ... Vulture! Soaring silhouette, broad wings, scavenging ecology | identify from distance without approaching food or roosts.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "A tiny pause for W, then Wren! It is a small active songbird, often recognized by a short tail held upright.",
+      "text": "W? Wren! Tiny active bird with often cocked tail | dense cover and rapid movement are strong behavioral marks.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "across the echoing birdwatch trail, Xenops belongs with X. A xenops is a small tropical American bird that searches bark and branches for insects.",
+      "text": "X is Xenops. Small Neotropical bark-foraging bird | narrow bill and branch-creeping behavior guide ID.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Question: Y? Answer: Yellow Warbler. Yellow Warbler, small and bright | slender bill, yellow feathers in sight",
+      "text": "Y — Yellow Warbler! Small yellow warbler with thin insect-eating bill | color plus shape, habitat, and range make the ID.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zenaida Dove appears—Z found it. It is a warm brownish dove with a compact head and strong pointed wings.",
+      "text": "Z ... Z ... Zenaida Dove! Medium dove with soft coo and pointed wings | Caribbean and nearby regional context completes the note.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Question: A? ... Albatross! Stretch very long wings and glide slowly.",
+      "text": "Field mark A ... Albatross! Stretch very long wings and glide slowly.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... answer when ready ... Budgie! Hook one finger like a parrot bill; perch two gripping toes.",
+      "text": "Watch/listen B ... Budgie! Hook one finger like a parrot bill; perch two gripping toes.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Remember the C clue ... Crane! Stretch a long neck; take two tall wading steps.",
+      "text": "Which clues C? ... Crane! Stretch a long neck; take two tall wading steps.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D, one quiet beat ... Duck! Paddle two webbed feet with your fingers; show a broad bill.",
+      "text": "ID check D ... Duck! Paddle two webbed feet with your fingers; show a broad bill.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Question: E? ... Eagle! Hook one beak finger, then spread broad soaring wings.",
+      "text": "Field mark E ... Eagle! Hook one beak finger, then spread broad soaring wings.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... answer when ready ... Finch! Pinch a tiny cone bill; peck one pretend seed.",
+      "text": "Watch/listen F ... Finch! Pinch a tiny cone bill; peck one pretend seed.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Remember the G clue ... Goose! Paddle two webbed feet, then stretch a long neck.",
+      "text": "Which clues G? ... Goose! Paddle two webbed feet, then stretch a long neck.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H, one quiet beat ... Heron! Stretch a long neck; aim one spear-like bill.",
+      "text": "ID check H ... Heron! Stretch a long neck; aim one spear-like bill.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Question: I? ... Ibis! Curve one long bill downward; take two wading steps.",
+      "text": "Field mark I ... Ibis! Curve one long bill downward; take two wading steps.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... answer when ready ... Junco! Hop twice on the ground; pinch a small cone bill.",
+      "text": "Watch/listen J ... Junco! Hop twice on the ground; pinch a small cone bill.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Remember the K clue ... Kiwi! Walk two sturdy ground steps; trace one long bill.",
+      "text": "Which clues K? ... Kiwi! Walk two sturdy ground steps; trace one long bill.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L, one quiet beat ... Lorikeet! Hook a parrot bill, then touch a pretend flower.",
+      "text": "ID check L ... Lorikeet! Hook a parrot bill, then touch a pretend flower.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -358,21 +358,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Call it once, echo it free!",
+      "text": "Look, listen, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Bird-name chorus, A to Z!",
+      "text": "One field mark starts the idea; several build the ID.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Question: M? ... Macaw! Show a powerful curved bill and one long tail sweep.",
+      "text": "Field mark M ... Macaw! Show a powerful curved bill and one long tail sweep.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... answer when ready ... Nuthatch! Walk two fingers downward along a pretend tree trunk.",
+      "text": "Watch/listen N ... Nuthatch! Walk two fingers downward along a pretend tree trunk.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Remember the O clue ... Ostrich! Run two long ground steps—no flying gesture.",
+      "text": "Which clues O? ... Ostrich! Run two long ground steps—no flying gesture.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P, one quiet beat ... Penguin! Sweep two flipper-wings through pretend water.",
+      "text": "ID check P ... Penguin! Sweep two flipper-wings through pretend water.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Question: Q? ... Quail! Make a plump body shape; take two quick ground steps.",
+      "text": "Field mark Q ... Quail! Make a plump body shape; take two quick ground steps.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... answer when ready ... Raven! Open broad black wings, then show one heavy bill.",
+      "text": "Watch/listen R ... Raven! Open broad black wings, then show one heavy bill.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Remember the S clue ... Swan! Curve one long neck; paddle two webbed feet.",
+      "text": "Which clues S? ... Swan! Curve one long neck; paddle two webbed feet.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T, one quiet beat ... Toucan! Show one extra-large bill shape with both hands.",
+      "text": "ID check T ... Toucan! Show one extra-large bill shape with both hands.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Question: U? ... Upland Sandpiper! Take two tall grassland steps; point a slender bill.",
+      "text": "Field mark U ... Upland Sandpiper! Take two tall grassland steps; point a slender bill.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... answer when ready ... Vulture! Spread broad soaring wings and circle one slow turn.",
+      "text": "Watch/listen V ... Vulture! Spread broad soaring wings and circle one slow turn.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Remember the W clue ... Wren! Make a tiny body and tilt one short tail upright.",
+      "text": "Which clues W? ... Wren! Make a tiny body and tilt one short tail upright.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X, one quiet beat ... Xenops! Walk two fingers along bark, then pick one tiny insect.",
+      "text": "ID check X ... Xenops! Walk two fingers along bark, then pick one tiny insect.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,7 +468,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Question: Y? ... Yellow Warbler! Flutter once, then show a small bright-yellow body.",
+      "text": "Field mark Y ... Yellow Warbler! Flutter once, then show a small bright-yellow body.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -476,7 +476,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... answer when ready ... Zenaida Dove! Make a compact dove body, then one pointed-wing glide.",
+      "text": "Watch/listen Z ... Zenaida Dove! Make a compact dove body, then one pointed-wing glide.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -484,28 +484,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Call it once, echo it free!",
+      "text": "Look, listen, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Bird-name chorus, A to Z!",
+      "text": "One field mark starts the idea; several build the ID.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Call it once, echo it free!",
+      "text": "Binoculars down; no bird was chased and no nest was approached.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Close the page softly—our birdwatching song stays in the melody!",
+      "text": "A to Z ends with field notes ready for another look.",
       "objective": "narration",
       "objectReveal": "none"
     }

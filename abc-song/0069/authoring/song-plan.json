@@ -6,8 +6,8 @@
   "tempoBpm": 87,
   "motifFamily": "wing-water",
   "hook": [
-    "Twig by twig, beat by beat!",
-    "Bird and letter finally meet!"
+    "Wade, fly, run—A-B-C!",
+    "Feet and wings tell different travel stories."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "soft two-beat retrieval pause",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "patient young birdwatcher",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "light swung 4/4",
-    "round1Grammar": "Round 1 uses birdwatching language—feather, beak, feet, perch, water or flight clues—and leaves long species names enough musical space.",
-    "round2Grammar": "Round 2 uses binocular-style cue-gap-answer timing followed by an object-conditioned clue: waders show long legs or curved/spear bills, seed birds show cone bills, parrots show hooked bills/climbing feet, trunk birds climb or tap, soarers glide, hummingbirds hover, nest makes a cup shape, and flightless birds use grounded walking or swimming gestures.",
+    "rhymeEngine": "bird-locomotion-habitat-rhyme",
+    "chorusRhymeEngine": "wade-fly-run-hook",
+    "pointOfView": "a child comparing locomotion across bird habitats",
+    "chorusFunction": "reset wade-fly-run-climb",
+    "grooveMeter": "4/4 with motion-specific pockets",
+    "round1Grammar": "hand-written locomotion; flightless species explicit",
+    "round2Grammar": "movement cue -> recall beat -> target -> safe abstract gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a marimba twig-tap plus brushed-percussion nest answer after the target.",
     "signatureColor": "a marimba twig-tap plus brushed-percussion nest answer after the target",
+    "authorialIntent": "Make Wing and Water ABC a locomotion-and-habitat comparison: wading legs, webbed feet, diving, soaring, hovering, climbing, ground running and flightlessness replace the false nest-building premise.",
+    "lyricIdentity": "A child tracks how feet, wings, bills and habitat fit movement on water, land, trunk or air.",
+    "imageMotifs": [
+      "albatross glide",
+      "duck webbed foot",
+      "ibis probing",
+      "kiwi running",
+      "woodpecker climbing trunk"
+    ],
+    "semanticArc": [
+      "ocean/wetland movement",
+      "air specialists",
+      "ground and flightless birds",
+      "tree-climbing and songbird finish"
+    ],
+    "forbiddenGenericLanguage": [
+      "build a little nest beat",
+      "all birds fly",
+      "wingbeat meet",
+      "water and land friends"
+    ],
     "chorusAfterRound1": [
       2,
       6

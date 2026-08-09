@@ -6,8 +6,8 @@
   "tempoBpm": 94,
   "motifFamily": "bird-hop",
   "hook": [
-    "Feather down, bird name high!",
-    "A to Z across the sky!"
+    "Here, there, compare—A-B-C!",
+    "One yard opens a window to birds around the world."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one hop-sized beat before target",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "patient young birdwatcher",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "stop-and-go 4/4",
-    "round1Grammar": "Round 1 uses birdwatching language—feather, beak, feet, perch, water or flight clues—and leaves long species names enough musical space.",
-    "round2Grammar": "Round 2 uses binocular-style cue-gap-answer timing followed by an object-conditioned clue: waders show long legs or curved/spear bills, seed birds show cone bills, parrots show hooked bills/climbing feet, trunk birds climb or tap, soarers glide, hummingbirds hover, nest makes a cup shape, and flightless birds use grounded walking or swimming gestures.",
+    "rhymeEngine": "backyard-world-comparison-rhyme",
+    "chorusRhymeEngine": "here-there-compare-hook",
+    "pointOfView": "a child comparing backyard observations with world bird cards",
+    "chorusFunction": "reset here-there-compare",
+    "grooveMeter": "light 4/4 porch pulse with world-card pauses",
+    "round1Grammar": "hand-written habitat placement; non-backyard birds explicitly world comparisons",
+    "round2Grammar": "here/there cue -> recall beat -> target -> point/card gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a whistle hop and hand-clap stop after the target, with no bird sound covering diction.",
     "signatureColor": "a whistle hop and hand-clap stop after the target, with no bird sound covering diction",
+    "authorialIntent": "Repair the misleading Backyard Birds theme by turning it into a backyard observation board plus world-comparison cards: local-looking feeder birds sit beside clearly labeled birds from wetlands, tropics, open ocean or Southern Hemisphere habitats.",
+    "lyricIdentity": "A child starts at a yard feeder and compares each unfamiliar card to the backyard baseline, never claiming kiwi, ostrich, avocet or umbrellabird live in the yard.",
+    "imageMotifs": [
+      "bluebird on fence",
+      "goldfinch at seed head",
+      "kiwi world card",
+      "ostrich savanna card",
+      "avocet wetland card"
+    ],
+    "semanticArc": [
+      "yard baseline",
+      "wetland/coastal comparisons",
+      "tropical/flightless world cards",
+      "return to familiar small birds"
+    ],
+    "forbiddenGenericLanguage": [
+      "backyard bird hop",
+      "every bird in our yard",
+      "feather clue below",
+      "all birds visit feeders"
+    ],
     "chorusAfterRound1": [
       3,
       7

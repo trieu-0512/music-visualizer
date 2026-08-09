@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Tap-tap, twig-twig—build a little nest beat.",
+      "text": "One bird wades. One hovers. One runs because its wings cannot carry it into flight.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Bird names fly in where letters and wingbeats meet.",
+      "text": "Bird movement changes with body and habitat.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A is here; Albatross is why. Albatross wings spread wide | ocean winds can carry its glide",
+      "text": "A — Albatross! Long wings exploit ocean winds for efficient soaring | marine travel covers huge distances.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Bluebird answers B. A bluebird is a small thrush with blue plumage and a short straight bill.",
+      "text": "B ... B ... Bluebird! Perch-and-fly movement between open ground and branches | small thrush, not water specialist.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "around the nest-building tree, what belongs to C? Crane! Crane stands tall | long neck, long legs above them all",
+      "text": "C? Crane! Long legs wade through shallows and stride across wetlands | broad wings handle migration.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D—short beat—Duck. A duck has webbed feet for paddling and a broad bill suited to its feeding style.",
+      "text": "D is Duck. Webbed feet paddle; wings fly in most species | body bridges water and air.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Hear E; see Egret. Egret steps light | long legs and pointed bill in sight",
+      "text": "E — Egret! Long toes and legs move through shallow water | spear-like bill strikes at prey.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F is here; Flamingo is why. It is a long-legged water bird with a bent bill adapted for filter feeding.",
+      "text": "F ... F ... Flamingo! Long legs wade while webbed feet stir shallow water | flight carries flocks between wetlands.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Goldfinch answers G. Goldfinch small and bright | cone bill, yellow-dark wings in sight",
+      "text": "G? Goldfinch! Small perching bird uses quick wingbeats over land | seed-feeding route differs from waders.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "around the nest-building tree, what belongs to H? Hummingbird! It is a tiny bird that can hover by beating its wings extremely fast.",
+      "text": "H is Hummingbird. Rotating wing motion supports hovering and backward flight | extreme air specialist.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Twig by twig, beat by beat!",
+      "text": "Wade, fly, run—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Bird and letter finally meet!",
+      "text": "Feet and wings tell different travel stories.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I—short beat—Ibis. Ibis probes down | curved bill searches soft wet ground",
+      "text": "I — Ibis! Long curved bill probes mud while long legs wade | water-edge movement more than swimming.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Hear J; see Junco. It is a small ground-feeding sparrow relative with a short cone-shaped bill.",
+      "text": "J ... J ... Junco! Ground-hopping and short flights through brush | terrestrial songbird pattern.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K is here; Kiwi is why. Kiwi on the ground | tiny wings, strong legs stepping round",
+      "text": "K? Kiwi! Flightless bird runs and probes forest floor | tiny vestigial wings do not power flight.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Lark answers L. A lark is a ground bird with walking feet and, in many species, a strong aerial song.",
+      "text": "L is Lark. Ground bird that can launch into display or travel flight | land and air combine.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "around the nest-building tree, what belongs to M? Macaw! Macaw tail streams long | curved bill, bright colors, parrot strong",
+      "text": "M — Macaw! Strong parrot wings cross forest openings | grasping feet handle branches after landing.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N—short beat—Nuthatch. A nuthatch is a small bird that often climbs along tree trunks and branches while searching bark for food.",
+      "text": "N ... N ... Nuthatch! Strong feet climb trunks and can move head-first downward | tree-surface specialist.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Hear O; see Owl. It is a bird with forward-facing eyes and soft flight feathers; many species are active at night.",
+      "text": "O? Owl! Broad wings support quiet flight; strong talons seize prey | air movement often begins from a perch.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P is here; Parrot is why. It has a strong hooked bill and gripping feet with two toes forward and two backward.",
+      "text": "P is Parrot. Wings fly; zygodactyl feet climb and grip | bill can help with climbing too.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Quail answers Q. Quail on the sky-line | feathered body gives a clue to find",
+      "text": "Q — Quail! Ground-running bird with short burst flight | land movement dominates daily life.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "around the nest-building tree, what belongs to R? Robin! It is a ground-hopping songbird with a slim bill used to pick small foods.",
+      "text": "R ... R ... Robin! Runs or hops on ground, then flies to perches | mixed small-land-bird movement.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S—short beat—Swan. Swan on the lake | long neck curves, webbed feet make a wake",
+      "text": "S? Swan! Webbed feet paddle and powerful wings fly | long water takeoff needs space.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Hear T; see Tern. It is a slender water bird with narrow pointed wings; many species dive for fish.",
+      "text": "T is Tern. Long pointed wings support agile flight over water | many plunge or dip for prey.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U is here; Umbrellabird is why. Umbrellabird up high | umbrella crest makes the clue easy to spy",
+      "text": "U — Umbrellabird! Tropical forest bird moves between branches and air | display structures do not define locomotion.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Veery answers V. A veery is a small thrush with warm brown upperparts and faint spotting on the upper chest.",
+      "text": "V ... V ... Veery! Thrush walks/hops on forest floor and flies through understory | song is separate from movement.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "around the nest-building tree, what belongs to W? Woodpecker! Woodpecker on a tree | tapping bill and gripping feet are clues to see",
+      "text": "W? Woodpecker! Climbing feet and stiff tail brace against trunks | short flights connect trees.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X—short beat—Xantus Hummingbird. Xantus Hummingbird is tiny, with a slender bill and rapid wingbeats for hovering.",
+      "text": "X is Xantus Hummingbird. Tiny hovering specialist from Baja region | rapid wings contrast with grounded kiwi.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Twig by twig, beat by beat!",
+      "text": "Wade, fly, run—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Bird and letter finally meet!",
+      "text": "Feet and wings tell different travel stories.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Hear Y; see Yellow Warbler. Yellow Warbler, small and bright | slender bill, yellow feathers in sight",
+      "text": "Y — Yellow Warbler! Small migratory songbird uses quick flight among shrubs and trees | light body, air route.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z is here; Zenaida Dove is why. It is a warm brownish dove with a compact head and strong pointed wings.",
+      "text": "Z ... Z ... Zenaida Dove! Strong direct flight alternates with ground feeding | closes the land-air comparison.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Hear A ... say Albatross! Stretch very long wings and glide slowly.",
+      "text": "Move clue A ... Albatross! Stretch very long wings and glide slowly.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Find the picture for B ... Bluebird! Make one small perch, then flash two blue-wing shapes.",
+      "text": "Habitat/motion B ... Bluebird! Make one small perch, then flash two blue-wing shapes.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C calls ... Crane answers! Stretch a long neck; take two tall wading steps.",
+      "text": "Wade, fly, or run—C? ... Crane! Stretch a long neck; take two tall wading steps.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... wait ... Duck! Paddle two webbed feet with your fingers; show a broad bill.",
+      "text": "Route D ... Duck! Paddle two webbed feet with your fingers; show a broad bill.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Hear E ... say Egret! Take two tall wading steps; point a long straight bill.",
+      "text": "Move clue E ... Egret! Take two tall wading steps; point a long straight bill.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Find the picture for F ... Flamingo! Stand one finger-leg tall; bend a filtering bill shape.",
+      "text": "Habitat/motion F ... Flamingo! Stand one finger-leg tall; bend a filtering bill shape.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G calls ... Goldfinch answers! Pinch a seed bill; flick two bright wing patches.",
+      "text": "Wade, fly, or run—G? ... Goldfinch! Pinch a seed bill; flick two bright wing patches.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... wait ... Hummingbird! Hover two tiny hand-wings quickly in one spot.",
+      "text": "Route H ... Hummingbird! Hover two tiny hand-wings quickly in one spot.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Hear I ... say Ibis! Curve one long bill downward; take two wading steps.",
+      "text": "Move clue I ... Ibis! Curve one long bill downward; take two wading steps.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Find the picture for J ... Junco! Hop twice on the ground; pinch a small cone bill.",
+      "text": "Habitat/motion J ... Junco! Hop twice on the ground; pinch a small cone bill.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K calls ... Kiwi answers! Walk two sturdy ground steps; trace one long bill.",
+      "text": "Wade, fly, or run—K? ... Kiwi! Walk two sturdy ground steps; trace one long bill.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... wait ... Lark! Take two ground steps, then lift one small song-flight arc.",
+      "text": "Route L ... Lark! Take two ground steps, then lift one small song-flight arc.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Hear M ... say Macaw! Show a powerful curved bill and one long tail sweep.",
+      "text": "Move clue M ... Macaw! Show a powerful curved bill and one long tail sweep.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -359,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Find the picture for N ... Nuthatch! Walk two fingers downward along a pretend tree trunk.",
+      "text": "Habitat/motion N ... Nuthatch! Walk two fingers downward along a pretend tree trunk.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -367,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O calls ... Owl answers! Make two big forward eyes, then spread silent wings once.",
+      "text": "Wade, fly, or run—O? ... Owl! Make two big forward eyes, then spread silent wings once.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -375,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... wait ... Parrot! Hook one strong bill; grip a pretend branch with two toes.",
+      "text": "Route P ... Parrot! Hook one strong bill; grip a pretend branch with two toes.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -383,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Twig by twig, beat by beat!",
+      "text": "Wade, fly, run—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Bird and letter finally meet!",
+      "text": "Feet and wings tell different travel stories.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Hear Q ... say Quail! Make a plump body shape; take two quick ground steps.",
+      "text": "Move clue Q ... Quail! Make a plump body shape; take two quick ground steps.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Find the picture for R ... Robin! Hop twice on the ground, then peck once.",
+      "text": "Habitat/motion R ... Robin! Hop twice on the ground, then peck once.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S calls ... Swan answers! Curve one long neck; paddle two webbed feet.",
+      "text": "Wade, fly, or run—S? ... Swan! Curve one long neck; paddle two webbed feet.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... wait ... Tern! Point narrow wings, then make one quick dive arc.",
+      "text": "Route T ... Tern! Point narrow wings, then make one quick dive arc.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Hear U ... say Umbrellabird! Arch one hand like an umbrella crest above your head.",
+      "text": "Move clue U ... Umbrellabird! Arch one hand like an umbrella crest above your head.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Find the picture for V ... Veery! Make two quiet ground hops, then point to a softly spotted chest.",
+      "text": "Habitat/motion V ... Veery! Make two quiet ground hops, then point to a softly spotted chest.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W calls ... Woodpecker answers! Tap two fingers on your palm like a tree trunk.",
+      "text": "Wade, fly, or run—W? ... Woodpecker! Tap two fingers on your palm like a tree trunk.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... wait ... Xantus Hummingbird! Hover two tiny hand-wings quickly in one spot.",
+      "text": "Route X ... Xantus Hummingbird! Hover two tiny hand-wings quickly in one spot.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Hear Y ... say Yellow Warbler! Flutter once, then show a small bright-yellow body.",
+      "text": "Move clue Y ... Yellow Warbler! Flutter once, then show a small bright-yellow body.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Find the picture for Z ... Zenaida Dove! Make a compact dove body, then one pointed-wing glide.",
+      "text": "Habitat/motion Z ... Zenaida Dove! Make a compact dove body, then one pointed-wing glide.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Twig by twig, beat by beat!",
+      "text": "Wade, fly, run—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Bird and letter finally meet!",
+      "text": "Feet and wings tell different travel stories.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Twig by twig, beat by beat!",
+      "text": "The woodpecker climbs; the swan settles; the kiwi stays on ground.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A through Z—our birdwatching song lands on one bright final beat!",
+      "text": "A to Z ends with movement matched to habitat.",
       "objective": "narration",
       "objectReveal": "none"
     }
