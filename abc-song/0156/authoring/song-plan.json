@@ -6,11 +6,79 @@
   "tempoBpm": 89,
   "motifFamily": "helper-world",
   "hook": [
-    "Community helpers—A-B-C!",
-    "People helping you and me!"
+    "Role, skill, boundary—A-B-C!",
+    "Helping works best when people know their job."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helpers Around Us",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "helper-scope-rhyme",
+    "chorusRhymeEngine": "role-skill-boundary-hook",
+    "pointOfView": "a child comparing community roles",
+    "chorusFunction": "repeat role-skill-boundary",
+    "grooveMeter": "86 BPM respectful 4/4",
+    "round1Grammar": "role -> core work -> training/scope caveat",
+    "round2Grammar": "role recall -> target -> non-hazard gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "role-scope",
+    "authorialIntent": "Make Helpers Around Us a role-and-scope map: design, build, health, emergency, information, maintenance, service, science, teaching, volunteering and inspection are distinct; helping does not erase professional training.",
+    "lyricIdentity": "A child asks what problem a role addresses and what training/boundary it needs, avoiding hero stereotypes.",
+    "imageMotifs": [
+      "architect plan",
+      "firefighter team",
+      "librarian search",
+      "scientist evidence",
+      "volunteer badge"
+    ],
+    "semanticArc": [
+      "plan/create",
+      "health/safety",
+      "information/learning",
+      "service/community"
+    ],
+    "forbiddenGenericLanguage": [
+      "helpers save everyone",
+      "hero job",
+      "all helpers same",
+      "do the job yourself"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

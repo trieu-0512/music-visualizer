@@ -6,11 +6,79 @@
   "tempoBpm": 92,
   "motifFamily": "job-card",
   "hook": [
-    "Jobs around town—A-B-C!",
-    "Name the people working with me!"
+    "Person, service, place—A-B-C!",
+    "First check whether the card is actually a job."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Jobs Around Town Song",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "town-service-web-rhyme",
+    "chorusRhymeEngine": "person-service-place-hook",
+    "pointOfView": "a child linking jobs to services",
+    "chorusFunction": "repeat person-service-place",
+    "grooveMeter": "88 BPM town-service 6/8",
+    "round1Grammar": "job/vehicle -> service -> context",
+    "round2Grammar": "neutral recall -> exact target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "service-web",
+    "authorialIntent": "Repair Jobs Around Town by separating people from the Ambulance vehicle and by mapping jobs to services, workplaces, schedules, and public interactions without one-tool stereotypes.",
+    "lyricIdentity": "A child builds a service web: food, health, farming, language, cleaning, mail, safety, sports, animals and music; Ambulance is explicitly a vehicle card.",
+    "imageMotifs": [
+      "ambulance card",
+      "baker oven",
+      "interpreter conversation",
+      "mail route",
+      "vet clinic"
+    ],
+    "semanticArc": [
+      "service categories",
+      "public contact",
+      "special training",
+      "vehicle/non-job exception"
+    ],
+    "forbiddenGenericLanguage": [
+      "ambulance is a job",
+      "jobs parade",
+      "boys jobs girls jobs",
+      "one tool one job"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

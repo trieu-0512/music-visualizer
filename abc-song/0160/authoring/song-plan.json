@@ -6,11 +6,79 @@
   "tempoBpm": 90,
   "motifFamily": "helping-hands",
   "hook": [
-    "Helping hands—A-B-C!",
-    "Kind jobs make a community!"
+    "Hands, mind, team—A-B-C!",
+    "A job is more than its easiest gesture."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Helping Hands A-Z",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "hands-expertise-rhyme",
+    "chorusRhymeEngine": "hands-mind-team-hook",
+    "pointOfView": "a child comparing visible work and invisible expertise",
+    "chorusFunction": "repeat hands-mind-team",
+    "grooveMeter": "86 BPM reflective 4/4",
+    "round1Grammar": "role -> visible action + knowledge/safety boundary",
+    "round2Grammar": "role recall -> non-procedural gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "hands-expertise",
+    "authorialIntent": "Make Helping Hands A-Z about visible hands versus invisible expertise: many jobs use hands, but judgment, communication, training, planning, observation, and teamwork matter more than hand motions.",
+    "lyricIdentity": "A child notices why miming a job can be misleading, especially medical, electrical, rescue, welding, and legal work.",
+    "imageMotifs": [
+      "builder hands plus plan",
+      "doctor listening",
+      "judge reading",
+      "teacher pointing",
+      "welder shield"
+    ],
+    "semanticArc": [
+      "hands/tools",
+      "thinking/judgment",
+      "communication",
+      "safety/teamwork"
+    ],
+    "forbiddenGenericLanguage": [
+      "helping hands do job",
+      "mime the doctor",
+      "pretend welding",
+      "hands alone"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

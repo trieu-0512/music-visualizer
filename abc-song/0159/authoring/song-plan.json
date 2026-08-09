@@ -6,11 +6,79 @@
   "tempoBpm": 85,
   "motifFamily": "service-book",
   "hook": [
-    "Work and service—A-B-C!",
-    "Every helpful role we see!"
+    "Need, role, follow—A-B-C!",
+    "Service works when the right person handles the right part."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: Work Service Picture Book",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "need-service-rhyme",
+    "chorusRhymeEngine": "need-role-follow-hook",
+    "pointOfView": "a child reading service case pages",
+    "chorusFunction": "repeat need-role-follow-up",
+    "grooveMeter": "82 BPM page-turn 6/8",
+    "round1Grammar": "role/vehicle -> service need -> scope",
+    "round2Grammar": "case-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "service-case",
+    "authorialIntent": "Make Work Service Picture Book a public-service casebook: each page starts with a need—health, food, mail, sanitation, justice, rescue, transport, information—and identifies the role that can address part of it.",
+    "lyricIdentity": "The child learns that service starts from a need and that some needs require multiple roles or emergency systems.",
+    "imageMotifs": [
+      "mail delivery",
+      "clinic care",
+      "courtroom judge",
+      "rescue team",
+      "sanitation route"
+    ],
+    "semanticArc": [
+      "need",
+      "identify role",
+      "service action",
+      "follow-up"
+    ],
+    "forbiddenGenericLanguage": [
+      "service means servant",
+      "all work for me",
+      "call emergency for fun",
+      "judge catches people"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

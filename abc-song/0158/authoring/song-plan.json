@@ -6,11 +6,79 @@
   "tempoBpm": 94,
   "motifFamily": "help-parade",
   "hook": [
-    "People who help—A-B-C!",
-    "Kind community, sing with me!"
+    "Ask, pass, team—A-B-C!",
+    "One job can hand the next step to another."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D community-helper storybook, respectful everyday service scenes, clear foregrounds; visual identity: People Who Help Parade",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "collaboration-handoff-rhyme",
+    "chorusRhymeEngine": "ask-pass-team-hook",
+    "pointOfView": "a child tracing work handoffs",
+    "chorusFunction": "repeat ask-pass-team",
+    "grooveMeter": "84 BPM handoff 4/4",
+    "round1Grammar": "role -> contribution -> collaboration caveat",
+    "round2Grammar": "handoff-neutral recall -> target -> point gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "work-handoff",
+    "authorialIntent": "Make People Who Help Parade about collaboration chains rather than individual heroes: reporter verifies, interpreter bridges language, receptionist routes, nurse/doctor coordinate, quartermaster supplies, sanitation supports systems.",
+    "lyricIdentity": "A child follows how one task often passes between several people; 'Helper' remains a broad word, not a profession.",
+    "imageMotifs": [
+      "handoff note",
+      "interpreter bridge",
+      "nurse-doctor team",
+      "quartermaster supplies",
+      "sanitation route"
+    ],
+    "semanticArc": [
+      "request",
+      "handoff",
+      "specialist work",
+      "support/close loop"
+    ],
+    "forbiddenGenericLanguage": [
+      "hero parade",
+      "one person saves day",
+      "helper profession",
+      "everyone works alone"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }
