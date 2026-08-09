@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "pet-care",
   "hook": [
-    "Kind hands, clear words—A-B-C!",
-    "Pet-care pictures, name with me!"
+    "Water, food, shelter—A-B-C!",
+    "Care fits the species, every day."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one calm beat before confirmation",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "gentle pet-care helper",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "elastic 4/4 bounce",
-    "round1Grammar": "Round 1 alternates animal clues with care-item functions; care language stays gentle and never turns grooming or veterinary tools into child instructions.",
-    "round2Grammar": "Round 2 confirms with object-conditioned matching: animals use species-congruent swim, hop, paw, perch, sniff, or tail motions; bowls cup, beds flatten, shelters roof, wheels circle, tags hang, leashes trace a line, perches branch, scratching posts stand tall, and toys roll/tug/flutter. Clippers, cleaners, UV lamps, vet kits, and X-ray images remain point-and-name only—no clipping, medicating, heating, or tool use.",
+    "rhymeEngine": "pet-daily-needs-checklist-rhyme",
+    "chorusRhymeEngine": "water-food-shelter-hook",
+    "pointOfView": "a child helping with pet care under adult responsibility",
+    "chorusFunction": "reset water-food-shelter-health",
+    "grooveMeter": "calm 4/4 routine pulse",
+    "round1Grammar": "hand-written species-specific care; medical/grooming tools adult-guided",
+    "round2Grammar": "care cue -> recall beat -> target -> safe point/pretend gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a soft marimba paw-step and one warm bell after the target.",
     "signatureColor": "a soft marimba paw-step and one warm bell after the target",
+    "authorialIntent": "Make Pet Care ABC a daily-needs routine: species-appropriate habitat, fresh water, food, exercise, grooming, identification and veterinary care come before toys, with each animal's needs kept distinct.",
+    "lyricIdentity": "Morning-to-evening care checklist asks what the animal needs rather than what looks cute.",
+    "imageMotifs": [
+      "fresh water bowl",
+      "hamster wheel sized safely",
+      "iguana UVB basking area",
+      "cat scratching post",
+      "carrier ready for vet"
+    ],
+    "semanticArc": [
+      "habitat and water",
+      "food and exercise",
+      "grooming/ID",
+      "vet travel and rest"
+    ],
+    "forbiddenGenericLanguage": [
+      "pet words padding",
+      "pets are toys",
+      "one care fits all",
+      "cute pet fun"
+    ],
     "chorusAfterRound1": [
       2,
       4,

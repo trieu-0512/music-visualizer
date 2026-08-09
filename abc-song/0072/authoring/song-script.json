@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Soft paws, fresh water, a calm hello.",
+      "text": "Aquarium water belongs in one zone; litter belongs far from the food bowl; a quiet bed belongs somewhere else.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "One caring picture at a time—watch the alphabet grow.",
+      "text": "A good pet home is arranged around the animal, not the alphabet.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A—Aquarium! Aquarium clear and blue | clean water habitat is the clue",
+      "text": "A — Aquarium! Fish habitat needs adequate size, filtration, temperature and water quality | decoration comes after biology.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B ... B ... Bunny. Bunny has long ears and strong hind legs and needs room, suitable food, and gentle care.",
+      "text": "B ... B ... Bunny! Domestic rabbit needs large exercise space, hay, hiding and litter options | not a tiny cage corner.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Cat steps in for C. It has whiskers, padded paws, retractable claws, and a flexible tail.",
+      "text": "C? Cat! Home needs clean litter area, scratch surfaces, vertical/rest spaces, play and resources distributed to reduce stress.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "What does D reveal? Doghouse! A doghouse gives a dog outdoor shade and a protected resting space.",
+      "text": "D is Doghouse. Outdoor shelter can be one weather-protected rest spot | family contact and broader care still happen beyond it.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "around the cozy pet-home morning, E meets Ear Cleaner. Ear Cleaner on the scene | pet-care clue makes the meaning clean",
+      "text": "E — Ear Cleaner! Only pet-safe product used when appropriate and directed by a veterinarian | never pour random household liquid into ears.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F—Feather Toy! It is an enrichment toy that can flutter or move for supervised pet play.",
+      "text": "F ... F ... Feather Toy! Cat toy can mimic prey movement | supervised play prevents swallowing strings or detached feathers.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G ... G ... Guinea Pig. A guinea pig is a tailless social rodent with a rounded body that needs species-appropriate food, space, and companionship.",
+      "text": "G? Guinea Pig! Needs roomy enclosure, hay, vitamin-C-appropriate nutrition, hiding places, companionship with compatible guinea pigs, and floor time.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Hamster steps in for H. It has cheek pouches and digging feet and needs safe space and enrichment.",
+      "text": "H is Hamster. Deep bedding and hiding zones support burrowing | nocturnal rest needs a quiet daytime location.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Care, share, look and see!",
+      "text": "Place, clean, quiet—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Pet-home words from A to Z!",
+      "text": "Right care item, right species, right part of home.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "What does I reveal? ID Tag! ID Tag hangs small | contact details can help a lost pet home-call",
+      "text": "I — ID Tag! Identification information helps return lost pets | tag complements, not replaces, secure management and microchip where appropriate.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "around the cozy pet-home morning, J meets Jumping Toy. It is an enrichment toy designed to bounce or move during supervised play.",
+      "text": "J ... J ... Jumping Toy! Enrichment item must fit species and avoid unsafe heights, entrapment, or loose pieces.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K—Kitten! It has whiskers, padded paws, retractable claws, and a flexible tail.",
+      "text": "K? Kitten! Growing cat needs kitten-appropriate nutrition, litter setup, socialization, play, sleep, vaccination and veterinary care.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L ... L ... Litter Box. A litter box gives a cat or another suitable pet a designated toileting place.",
+      "text": "L is Litter Box. Toilet area for cats should be accessible, regularly scooped, and generally kept away from food and water.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Mouse steps in for M. Mouse on the scene | pet-care clue makes the meaning clean",
+      "text": "M — Mouse! Pet mice need secure ventilated enclosure, bedding, hides, nesting material, food and enrichment | social needs depend on sex and individual management.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "What does N reveal? Nail Clipper! A pet nail clipper trims nails; an experienced adult handles it carefully.",
+      "text": "N ... N ... Nail Clipper! Grooming tool belongs in adult-guided care | knowing nail anatomy matters more than speed.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "around the cozy pet-home morning, O meets Outdoor Kennel. It is a secure enclosure or shelter used for a dog under appropriate supervision and conditions.",
+      "text": "O? Outdoor Kennel! Secure outdoor area can provide temporary exercise or shelter | not a substitute for social contact, climate safety, and indoor care.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P—Perch! A perch gives a bird a raised place to stand, rest, or move between levels.",
+      "text": "P is Perch. Bird perches should vary in diameter and texture and allow clean foot placement | cage layout must preserve flight/movement space.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q ... Q ... Quilt Bed. Quilt Bed soft and low | resting place where a pet can settle slow",
+      "text": "Q — Quilt Bed! Washable soft rest zone can comfort some pets | choose material that cannot be dangerously shredded or swallowed.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Rope Toy steps in for R. It is an enrichment item for suitable supervised play such as carrying or tugging.",
+      "text": "R ... R ... Rope Toy! Tug or climbing toy must match species, supervision, fiber condition, and chewing behavior.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "What does S reveal? Scratching Post! Scratching Post stands tall | cat can stretch and scratch along the wall",
+      "text": "S? Scratching Post! Place where cat naturally wakes, travels, or marks | sturdy positioning turns furniture conflict into a better option.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "around the cozy pet-home morning, T meets Turtle. A pet turtle needs species-appropriate water or land space, temperature, light, and food.",
+      "text": "T is Turtle. Habitat can require water zone, basking zone, heat, filtration and UVB depending species | setup is a system, not a bowl.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Care, share, look and see!",
+      "text": "Place, clean, quiet—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Pet-home words from A to Z!",
+      "text": "Right care item, right species, right part of home.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U—Undercoat Brush! Undercoat Brush on the scene | pet-care clue makes the meaning clean",
+      "text": "U — Undercoat Brush! Coat-specific grooming tool removes loose undercoat | overbrushing or wrong tools can irritate skin.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V ... V ... Vet Kit. A vet kit holds tools a veterinarian may use to examine an animal's health.",
+      "text": "V ... V ... Vet Kit! At-home kit should support basic safe transport/records and veterinarian-recommended supplies | it does not replace diagnosis or treatment.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Water Bowl steps in for W. Water bowl stays near | fresh clean water waiting clear",
+      "text": "W? Water Bowl! Fresh water station stays clean and accessible | placement should reduce contamination.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "What does X reveal? X-ray Vet Image! An X-ray vet image lets a veterinarian examine bones and some internal structures without surgery.",
+      "text": "X is X-ray Vet Image. Diagnostic image made by veterinary equipment | interpretation belongs to trained veterinary professionals.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "around the cozy pet-home morning, Y meets Yellow Canary. Yellow Canary on the scene | pet-care clue makes the meaning clean",
+      "text": "Y — Yellow Canary! Bird home needs horizontal flight room, safe perches, balanced nutrition and predictable rest | cage is habitat, not decoration.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z—Zip Carrier! A ventilated zip carrier keeps a suitable pet contained during transport.",
+      "text": "Z ... Z ... Zip Carrier! Ventilated secure transport zone | familiar bedding or calm training can reduce travel stress.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Aquarium! Frame a tank; wave water inside.",
+      "text": "Home zone A ... Aquarium! Frame a tank; wave water inside.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Remember B ... Bunny! Lift two long ear fingers, then one gentle hop.",
+      "text": "Place B ... Bunny! Lift two long ear fingers, then one gentle hop.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C? ... Cat! Show whisker fingers, then one soft paw step.",
+      "text": "Which zone C? ... Cat! Show whisker fingers, then one soft paw step.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Find D, hold the beat ... Doghouse! Make a little roof with both hands.",
+      "text": "Home-care D ... Doghouse! Make a little roof with both hands.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Ear Cleaner! Point only; name its job while an adult handles the real item.",
+      "text": "Home zone E ... Ear Cleaner! Point only; name its job while an adult handles the real item.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Feather Toy! Flutter two pretend feathers with empty fingers.",
+      "text": "Place F ... Feather Toy! Flutter two pretend feathers with empty fingers.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G? ... Guinea Pig! Make a round little body, then two short walking steps.",
+      "text": "Which zone G? ... Guinea Pig! Make a round little body, then two short walking steps.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Find H, hold the beat ... Hamster! Puff cheek pouches; run tiny finger-steps.",
+      "text": "Home-care H ... Hamster! Puff cheek pouches; run tiny finger-steps.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... ID Tag! Trace a small hanging tag shape.",
+      "text": "Home zone I ... ID Tag! Trace a small hanging tag shape.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Remember J ... Jumping Toy! Bounce one pretend toy twice, then freeze.",
+      "text": "Place J ... Jumping Toy! Bounce one pretend toy twice, then freeze.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K? ... Kitten! Show tiny whiskers, then one soft paw step.",
+      "text": "Which zone K? ... Kitten! Show tiny whiskers, then one soft paw step.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Find L, hold the beat ... Litter Box! Frame a shallow box shape, then point to it.",
+      "text": "Home-care L ... Litter Box! Frame a shallow box shape, then point to it.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -358,21 +358,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Care, share, look and see!",
+      "text": "Place, clean, quiet—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Pet-home words from A to Z!",
+      "text": "Right care item, right species, right part of home.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Mouse! Show whiskers and one long tail line, then scurry twice.",
+      "text": "Home zone M ... Mouse! Show whiskers and one long tail line, then scurry twice.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Remember N ... Nail Clipper! Point only; name its job while an adult handles the real item.",
+      "text": "Place N ... Nail Clipper! Point only; name its job while an adult handles the real item.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O? ... Outdoor Kennel! Frame a secure kennel outline, then point to the shelter area.",
+      "text": "Which zone O? ... Outdoor Kennel! Frame a secure kennel outline, then point to the shelter area.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Find P, hold the beat ... Perch! Hold one finger like a branch, then perch the other hand.",
+      "text": "Home-care P ... Perch! Hold one finger like a branch, then perch the other hand.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quilt Bed! Flatten both palms into a soft bed.",
+      "text": "Home zone Q ... Quilt Bed! Flatten both palms into a soft bed.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Remember R ... Rope Toy! Twist two empty hands like a rope; no real pulling.",
+      "text": "Place R ... Rope Toy! Twist two empty hands like a rope; no real pulling.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S? ... Scratching Post! Hold one hand tall like a post; stretch the other upward.",
+      "text": "Which zone S? ... Scratching Post! Hold one hand tall like a post; stretch the other upward.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Find T, hold the beat ... Turtle! Make a shell dome; step slowly once.",
+      "text": "Home-care T ... Turtle! Make a shell dome; step slowly once.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Undercoat Brush! Brush the air once; point to the coat picture.",
+      "text": "Home zone U ... Undercoat Brush! Brush the air once; point to the coat picture.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Remember V ... Vet Kit! Point only; name its job while an adult handles the real item.",
+      "text": "Place V ... Vet Kit! Point only; name its job while an adult handles the real item.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W? ... Water Bowl! Cup a bowl; draw one water ripple.",
+      "text": "Which zone W? ... Water Bowl! Cup a bowl; draw one water ripple.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X, hold the beat ... X-ray Vet Image! Point only; name its job while an adult handles the real item.",
+      "text": "Home-care X ... X-ray Vet Image! Point only; name its job while an adult handles the real item.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,21 +468,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Care, share, look and see!",
+      "text": "Place, clean, quiet—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Pet-home words from A to Z!",
+      "text": "Right care item, right species, right part of home.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Canary! Perch one hand, then show a tiny seed bill.",
+      "text": "Home zone Y ... Yellow Canary! Perch one hand, then show a tiny seed bill.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -490,7 +490,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Remember Z ... Zip Carrier! Frame a carrier; close the pretend door.",
+      "text": "Place Z ... Zip Carrier! Frame a carrier; close the pretend door.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -498,14 +498,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Care, share, look and see!",
+      "text": "Litter cleaned, water refreshed, carrier stored open and familiar.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "One last beat—our pet-care tune comes home with me!",
+      "text": "A to Z leaves the home organized around real needs.",
       "objective": "narration",
       "objectReveal": "none"
     }

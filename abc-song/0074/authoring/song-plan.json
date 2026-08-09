@@ -6,8 +6,8 @@
   "tempoBpm": 84,
   "motifFamily": "small-friend",
   "hook": [
-    "Purr, chirp, splash—A-B-C!",
-    "Home-pet words, come sing with me!"
+    "Small body, big needs—A-B-C!",
+    "Space, diet, light, health: check the species."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two gentle beats before answer",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "gentle pet-care helper",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "light swung 4/4",
-    "round1Grammar": "Round 1 alternates animal clues with care-item functions; care language stays gentle and never turns grooming or veterinary tools into child instructions.",
-    "round2Grammar": "Round 2 confirms with object-conditioned matching: animals use species-congruent swim, hop, paw, perch, sniff, or tail motions; bowls cup, beds flatten, shelters roof, wheels circle, tags hang, leashes trace a line, perches branch, scratching posts stand tall, and toys roll/tug/flutter. Clippers, cleaners, UV lamps, vet kits, and X-ray images remain point-and-name only—no clipping, medicating, heating, or tool use.",
+    "rhymeEngine": "small-animal-needs-contrast-rhyme",
+    "chorusRhymeEngine": "small-body-big-needs-hook",
+    "pointOfView": "a child comparing care complexity across species",
+    "chorusFunction": "repeat small-body-big-needs",
+    "grooveMeter": "measured 4/4 comparison pulse",
+    "round1Grammar": "hand-written contrast; equipment belongs only to matching species",
+    "round2Grammar": "need-dimension cue -> recall beat -> target -> compare gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a kalimba paw/chirp figure with one soft shaker breath.",
     "signatureColor": "a kalimba paw/chirp figure with one soft shaker breath",
+    "authorialIntent": "Make Small Animal Friends a needs-are-not-size song: fish, rabbits, dogs, mice, iguanas, quail and canaries may all be 'small' in a picture set yet require radically different space, diet, temperature, social and veterinary care.",
+    "lyricIdentity": "A child compares one care dimension at a time and rejects the idea that small body means simple care.",
+    "imageMotifs": [
+      "aquarium system",
+      "rabbit hay pile",
+      "mouse nesting material",
+      "iguana basking",
+      "canary flight cage"
+    ],
+    "semanticArc": [
+      "space needs",
+      "diet needs",
+      "temperature/light/social needs",
+      "handling/health/transport"
+    ],
+    "forbiddenGenericLanguage": [
+      "little home awake",
+      "small pet simple",
+      "one cage fits all",
+      "pet-picture clue"
+    ],
     "chorusAfterRound1": [
       2,
       5,

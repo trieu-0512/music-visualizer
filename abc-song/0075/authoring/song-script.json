@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "The picture window opens—who is peeking through?",
+      "text": "Before choosing an animal, read the care sheet and prepare the habitat at home.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Find the letter, find the pet-care word, then show what it can do.",
+      "text": "A picture can start interest; responsibility decides what happens next.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Look—A! Look—Aquarium! Aquarium clear and blue | clean water habitat is the clue",
+      "text": "A — Aquarium! Prepare and cycle an appropriate aquatic system before fish arrive | empty setup first, animal later.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B lands on Bowl. A pet bowl holds food or fresh water.",
+      "text": "B ... B ... Bowl! Basic supply, but owning bowls proves nothing about readiness for a species.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Collar? Yes—C. Collar in a ring | fitted neckband may hold an ID thing",
+      "text": "C? Collar! Dog/cat identification or control item may be useful | correct fit comes after species and individual choice.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "along the pet-shop picture window, the D clue is Dog. Dog has padded paws and an exceptionally strong sense of smell.",
+      "text": "D is Dog. Long-term commitment includes training, exercise, health care, housing and time | individual needs vary.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Say E, then Exercise Wheel. Exercise Wheel turns round | safe running space without leaving the ground",
+      "text": "E — Exercise Wheel! Species-specific enrichment, not a generic sign that any small pet belongs in the same cage.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Look—F! Look—Fish! Fish breathe with gills and need clean, species-suitable water.",
+      "text": "F ... F ... Fish! Research adult size, schooling/territorial behavior, water parameters and lifespan before choosing a species.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G lands on Guinea Pig. A guinea pig is a tailless social rodent with a rounded body that needs species-appropriate food, space, and companionship.",
+      "text": "G? Guinea Pig! Social herbivore with hay-centered diet, vitamin C needs and large floor space | plan compatible companionship and vet access.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Hamster? Yes—H. It has cheek pouches and digging feet and needs safe space and enrichment.",
+      "text": "H is Hamster. Nocturnal burrower needs deep bedding, space and correct wheel | tiny starter cages can be inadequate.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "along the pet-shop picture window, the I clue is Iguana. Iguana tail runs long | scales and careful habitat make the clue strong",
+      "text": "I — Iguana! Specialized reptile with large adult size and demanding heat/UVB/diet needs | a serious long-term commitment.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Say J, then Jingle Ball. It is a rolling play toy that makes a small sound as it moves.",
+      "text": "J ... J ... Jingle Ball! Optional toy comes after habitat, nutrition, health and safety planning.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Look—K! Look—Kibble! Kibble in the bowl | right type, right portion make the feeding goal",
+      "text": "K? Kibble! Food supply must be appropriate to species and life stage | price and storage belong in the ongoing budget.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L lands on Litter Box. A litter box gives a cat or another suitable pet a designated toileting place.",
+      "text": "L is Litter Box. Cat supply needs ongoing cleaning, litter cost and suitable placement | readiness includes routine chores.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Window clue, what can it be?",
+      "text": "Learn, prepare, commit—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Pet-shop words from A to Z!",
+      "text": "If the lifelong needs do not fit, walking away is good care too.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Mouse? Yes—M. Mouse on the scene | pet-care clue makes the meaning clean",
+      "text": "M — Mouse! Research enclosure, social grouping, lifespan, enrichment and veterinary access before adoption.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "along the pet-shop picture window, the N clue is Nest. A nest gives suitable pet birds a sheltered place associated with eggs or chicks.",
+      "text": "N ... N ... Nest! Habitat feature may be needed for certain birds/rodents | never collect wild nests or assume every species needs one.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Say O, then Outdoor Kennel. It is a secure enclosure or shelter used for a dog under appropriate supervision and conditions.",
+      "text": "O? Outdoor Kennel! Shelter cannot replace family contact, exercise, climate safety or secure fencing.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Look—P! Look—Perch! A perch gives a bird a raised place to stand, rest, or move between levels.",
+      "text": "P is Perch. Bird setup requires multiple safe perch sizes and flight space | one perch does not make a cage adequate.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q lands on Quail. Quail in our care | shape or job tells why it is there",
+      "text": "Q — Quail! Ground bird needs floor space, cover, social planning and appropriate housing | research local rules and welfare before keeping.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Rope Toy? Yes—R. It is an enrichment item for suitable supervised play such as carrying or tugging.",
+      "text": "R ... R ... Rope Toy! Optional enrichment needs inspection and replacement | budget for wear.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "along the pet-shop picture window, the S clue is Seed Mix. Seed mix is food for some pet birds or small animals; the suitable mix and amount depend on the species.",
+      "text": "S? Seed Mix! Package on a shelf is not automatically a complete diet | species-specific nutrition research comes first.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Say T, then Turtle. A pet turtle needs species-appropriate water or land space, temperature, light, and food.",
+      "text": "T is Turtle. Many turtles live for decades and need large, specialized aquatic/terrestrial setup with heat and UVB | plan adult needs, not hatchling size.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Look—U! Look—UV Lamp! UV Lamp picture bright | expert-set reptile habitat may need its light",
+      "text": "U — UV Lamp! For reptiles requiring UVB, choose correct UVB output, placement and replacement schedule | equipment is a recurring responsibility.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V lands on Vet Kit. A vet kit holds tools a veterinarian may use to examine an animal's health.",
+      "text": "V ... V ... Vet Kit! Plan access to a species-experienced veterinarian and budget for preventive or emergency care.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Wheel? Yes—W. A pet wheel lets an appropriate small animal run for exercise inside its enclosure.",
+      "text": "W? Wheel! Correct exercise wheel is one component of a whole habitat | size and surface matter.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "along the pet-shop picture window, the X clue is Xylophone Toy. A xylophone-style pet toy has sound-making bars or pieces for suitable play.",
+      "text": "X is Xylophone Toy, our supply-picture clue | optional noise toy never outranks species welfare or calm choice.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,7 +225,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Say Y, then Yellow Canary. Yellow Canary on the scene | pet-care clue makes the meaning clean",
+      "text": "Y — Yellow Canary! Research lifespan, flight space, diet, light cycle and avian-vet access before bringing one home.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -233,7 +233,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Look—Z! Look—Zip Carrier! A ventilated zip carrier keeps a suitable pet contained during transport.",
+      "text": "Z ... Z ... Zip Carrier! Buy or prepare secure transport before the first trip | carrier is part of emergency and veterinary planning.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -241,14 +241,14 @@
     {
       "id": "chorus-r1-7-1",
       "sectionId": "chorus-r1-7",
-      "text": "Window clue, what can it be?",
+      "text": "Learn, prepare, commit—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-7-2",
       "sectionId": "chorus-r1-7",
-      "text": "Pet-shop words from A to Z!",
+      "text": "If the lifelong needs do not fit, walking away is good care too.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Look for A ... Aquarium! Frame a tank; wave water inside.",
+      "text": "Readiness A ... Aquarium! Frame a tank; wave water inside.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Letter first: B ... answer: Bowl! Cup both hands like a bowl.",
+      "text": "Plan B ... Bowl! Cup both hands like a bowl.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C? Hold ... Collar! Trace a collar circle in the air; keep it off your neck.",
+      "text": "Need or supply—C? ... Collar! Trace a collar circle in the air; keep it off your neck.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "One clue—D ... Dog! Make one sniffing nose gesture, then a paw step.",
+      "text": "Decision check D ... Dog! Make one sniffing nose gesture, then a paw step.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Look for E ... Exercise Wheel! Trace a wheel; run two finger-steps.",
+      "text": "Readiness E ... Exercise Wheel! Trace a wheel; run two finger-steps.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Letter first: F ... answer: Fish! Swim one hand slowly through the air.",
+      "text": "Plan F ... Fish! Swim one hand slowly through the air.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G? Hold ... Guinea Pig! Make a round little body, then two short walking steps.",
+      "text": "Need or supply—G? ... Guinea Pig! Make a round little body, then two short walking steps.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "One clue—H ... Hamster! Puff cheek pouches; run tiny finger-steps.",
+      "text": "Decision check H ... Hamster! Puff cheek pouches; run tiny finger-steps.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,21 +326,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Window clue, what can it be?",
+      "text": "Learn, prepare, commit—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Pet-shop words from A to Z!",
+      "text": "If the lifelong needs do not fit, walking away is good care too.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Look for I ... Iguana! Trace a long tail; take one low step.",
+      "text": "Readiness I ... Iguana! Trace a long tail; take one low step.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -348,7 +348,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Letter first: J ... answer: Jingle Ball! Roll a pretend ball; stop on the beat.",
+      "text": "Plan J ... Jingle Ball! Roll a pretend ball; stop on the beat.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -356,7 +356,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K? Hold ... Kibble! Point to pretend food pieces beside the bowl.",
+      "text": "Need or supply—K? ... Kibble! Point to pretend food pieces beside the bowl.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -364,7 +364,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "One clue—L ... Litter Box! Frame a shallow box shape, then point to it.",
+      "text": "Decision check L ... Litter Box! Frame a shallow box shape, then point to it.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -372,7 +372,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Look for M ... Mouse! Show whiskers and one long tail line, then scurry twice.",
+      "text": "Readiness M ... Mouse! Show whiskers and one long tail line, then scurry twice.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Letter first: N ... answer: Nest! Cup both hands into a bird nest.",
+      "text": "Plan N ... Nest! Cup both hands into a bird nest.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O? Hold ... Outdoor Kennel! Frame a secure kennel outline, then point to the shelter area.",
+      "text": "Need or supply—O? ... Outdoor Kennel! Frame a secure kennel outline, then point to the shelter area.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "One clue—P ... Perch! Hold one finger like a branch, then perch the other hand.",
+      "text": "Decision check P ... Perch! Hold one finger like a branch, then perch the other hand.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Look for Q ... Quail! Make a plump bird shape, then two ground steps.",
+      "text": "Readiness Q ... Quail! Make a plump bird shape, then two ground steps.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Letter first: R ... answer: Rope Toy! Twist two empty hands like a rope; no real pulling.",
+      "text": "Plan R ... Rope Toy! Twist two empty hands like a rope; no real pulling.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S? Hold ... Seed Mix! Dot three tiny pretend seeds beside the bird picture.",
+      "text": "Need or supply—S? ... Seed Mix! Dot three tiny pretend seeds beside the bird picture.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "One clue—T ... Turtle! Make a shell dome; step slowly once.",
+      "text": "Decision check T ... Turtle! Make a shell dome; step slowly once.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,21 +436,21 @@
     {
       "id": "chorus-r2-5-1",
       "sectionId": "chorus-r2-5",
-      "text": "Window clue, what can it be?",
+      "text": "Learn, prepare, commit—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-5-2",
       "sectionId": "chorus-r2-5",
-      "text": "Pet-shop words from A to Z!",
+      "text": "If the lifelong needs do not fit, walking away is good care too.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Look for U ... UV Lamp! Point only; name its job while an adult handles the real item.",
+      "text": "Readiness U ... UV Lamp! Point only; name its job while an adult handles the real item.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -458,7 +458,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Letter first: V ... answer: Vet Kit! Point only; name its job while an adult handles the real item.",
+      "text": "Plan V ... Vet Kit! Point only; name its job while an adult handles the real item.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -466,7 +466,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W? Hold ... Wheel! Trace a wheel; run two finger-steps.",
+      "text": "Need or supply—W? ... Wheel! Trace a wheel; run two finger-steps.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -474,7 +474,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "One clue—X ... Xylophone Toy! Tap three imaginary bars; stop.",
+      "text": "Decision check X ... Xylophone Toy! Tap three imaginary bars; stop.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -482,7 +482,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Look for Y ... Yellow Canary! Perch one hand, then show a tiny seed bill.",
+      "text": "Readiness Y ... Yellow Canary! Perch one hand, then show a tiny seed bill.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -490,7 +490,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Letter first: Z ... answer: Zip Carrier! Frame a carrier; close the pretend door.",
+      "text": "Plan Z ... Zip Carrier! Frame a carrier; close the pretend door.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -498,28 +498,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Window clue, what can it be?",
+      "text": "Learn, prepare, commit—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Pet-shop words from A to Z!",
+      "text": "If the lifelong needs do not fit, walking away is good care too.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Window clue, what can it be?",
+      "text": "List checked; no impulse purchase; every animal stays more important than the display.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Close the page softly—our pet-care tune stays in the melody!",
+      "text": "A to Z ends with readiness, whether or not a pet comes home.",
       "objective": "narration",
       "objectReveal": "none"
     }

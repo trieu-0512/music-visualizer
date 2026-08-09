@@ -6,8 +6,8 @@
   "tempoBpm": 86,
   "motifFamily": "home-pet",
   "hook": [
-    "Care, share, look and see!",
-    "Pet-home words from A to Z!"
+    "Place, clean, quiet—A-B-C!",
+    "Right care item, right species, right part of home."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two short beats of retrieval space",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "gentle pet-care helper",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 alternates animal clues with care-item functions; care language stays gentle and never turns grooming or veterinary tools into child instructions.",
-    "round2Grammar": "Round 2 confirms with object-conditioned matching: animals use species-congruent swim, hop, paw, perch, sniff, or tail motions; bowls cup, beds flatten, shelters roof, wheels circle, tags hang, leashes trace a line, perches branch, scratching posts stand tall, and toys roll/tug/flutter. Clippers, cleaners, UV lamps, vet kits, and X-ray images remain point-and-name only—no clipping, medicating, heating, or tool use.",
+    "rhymeEngine": "pet-home-zone-rhyme",
+    "chorusRhymeEngine": "place-clean-quiet-hook",
+    "pointOfView": "a child mapping species-specific home care zones",
+    "chorusFunction": "reset place-clean-quiet",
+    "grooveMeter": "gentle 6/8 room-to-room sway",
+    "round1Grammar": "hand-written placement/function; medical tools adult/vet context",
+    "round2Grammar": "zone cue -> recall beat -> target -> point-to-place gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a gentle acoustic-pluck plus glockenspiel water-drop answer.",
     "signatureColor": "a gentle acoustic-pluck plus glockenspiel water-drop answer",
+    "authorialIntent": "Make Pets at Home A-Z a home-environment zoning song: aquarium, litter area, resting area, perch, kennel, grooming kit and carrier each belong to different species and functions instead of one generic pet room.",
+    "lyricIdentity": "A child maps clean, quiet, active, feeding and health zones around a responsible home.",
+    "imageMotifs": [
+      "filtered aquarium",
+      "litter box away from food",
+      "canary perch",
+      "guinea pig hide",
+      "vet carrier by door"
+    ],
+    "semanticArc": [
+      "habitat zones",
+      "feeding/toileting separation",
+      "grooming and health",
+      "safe travel/rest"
+    ],
+    "forbiddenGenericLanguage": [
+      "one caring picture",
+      "every pet at home same",
+      "pet room",
+      "alphabet grow"
+    ],
     "chorusAfterRound1": [
       2,
       5
