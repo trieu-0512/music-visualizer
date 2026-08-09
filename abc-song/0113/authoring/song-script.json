@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore band and orchestra with me!",
+      "text": "Violin can sit in an orchestra; Kazoo usually does not; Yidaki carries a different musical tradition.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Little orchestra—A-B-C!",
+      "text": "An ensemble map gets better when we do not force every instrument into one group.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A brings Acoustic Guitar into our little orchestra scene.",
+      "text": "A — Acoustic Guitar! | Hollow-bodied plucked string instrument; vibrating strings drive the soundboard and air in the body.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B brings Bell into our little orchestra scene.",
+      "text": "B ... B ... Bell! | Metal idiophone rings when struck or when an internal clapper hits it; shape and size influence pitch.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C brings Clarinet into our little orchestra scene.",
+      "text": "C? Clarinet! | Single-reed woodwind with cylindrical bore; covered/open holes and keys change the effective air-column length.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D brings Drum into our little orchestra scene.",
+      "text": "D is Drum. Membranophone whose stretched head vibrates when struck; drum shape and tension affect tone. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E brings Euphonium into our little orchestra scene.",
+      "text": "E — Euphonium! | Low brass instrument with valves and a conical bore; buzzing lips start the sound.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F brings Flute into our little orchestra scene.",
+      "text": "F ... F ... Flute! | Side-blown woodwind in the concert family; an air jet across the embouchure hole excites the air column.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G brings Gong into our little orchestra scene.",
+      "text": "G? Gong! | Suspended metal percussion disc that vibrates after a mallet strike; size and shape affect pitch and resonance.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H brings Harp into our little orchestra scene.",
+      "text": "H is Harp. Plucked string instrument with strings running between soundboard and neck; each string usually supplies a pitch before pedal/lever changes. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Little orchestra—A-B-C!",
+      "text": "String, wind, brass, beat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Every instrument has a name to see!",
+      "text": "Build the ensemble, keep each tradition named.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I brings Irish Whistle into our little orchestra scene.",
+      "text": "I — Irish Whistle! | Simple fipple flute, often six-holed, used in Irish traditional music; finger holes change the air-column length.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J brings Jingle Bells into our little orchestra scene.",
+      "text": "J ... J ... Jingle Bells! | Small bells or clusters that ring when shaken; repeated metal impacts create the jingle.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K brings Kazoo into our little orchestra scene.",
+      "text": "K? Kazoo! | Membrane instrument that changes a hummed voice through a vibrating membrane; blowing silently through it does not create the usual kazoo sound.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L brings Lute into our little orchestra scene.",
+      "text": "L is Lute. Plucked string instrument family with a neck and resonating body; many historical and regional forms exist. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M brings Mandolin into our little orchestra scene.",
+      "text": "M — Mandolin! | Small plucked string instrument, commonly with four double courses tuned in fifths.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N brings Note Card into our little orchestra scene.",
+      "text": "N ... N ... Note Card! | Learning card that displays a note symbol or musical prompt; it represents music but makes no sound itself.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O brings Organ into our little orchestra scene.",
+      "text": "O? Organ! | Keyboard instrument that sustains tones using pipes or electronic sound generation; keys can control more than one rank or voice.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P brings Piano into our little orchestra scene.",
+      "text": "P is Piano. Keyboard instrument whose keys trigger felt-covered hammers to strike strings in an acoustic piano. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Little orchestra—A-B-C!",
+      "text": "String, wind, brass, beat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Every instrument has a name to see!",
+      "text": "Build the ensemble, keep each tradition named.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q brings Quena into our little orchestra scene.",
+      "text": "Q — Quena! | Traditional Andean end-blown flute with a notched rim and finger holes.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R brings Rhythm Sticks into our little orchestra scene.",
+      "text": "R ... R ... Rhythm Sticks! | Pair of percussion sticks used to tap rhythmic patterns; safe use means striking sticks or approved surfaces, never people.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S brings Saxophone into our little orchestra scene.",
+      "text": "S? Saxophone! | Single-reed woodwind, usually metal-bodied; reed vibration starts the sound despite its brass appearance.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T brings Trumpet into our little orchestra scene.",
+      "text": "T is Trumpet. High brass instrument; buzzing lips feed a cylindrical-to-flared tube while valves redirect air through extra tubing. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U brings Ukulele into our little orchestra scene.",
+      "text": "U — Ukulele! | Small four-string plucked instrument, commonly tuned with a high G in many soprano/concert setups.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V brings Violin into our little orchestra scene.",
+      "text": "V ... V ... Violin! | Smallest standard orchestral bowed string instrument; bow friction or plucking starts string vibration.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W brings Wood Block into our little orchestra scene.",
+      "text": "W? Wood Block! | Hollow or resonant wooden percussion block; a beater strike produces a short dry tone.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X brings Xaphoon into our little orchestra scene.",
+      "text": "X is Xaphoon. Compact single-reed wind instrument designed to produce a saxophone-like tone through a simple cylindrical body. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Little orchestra—A-B-C!",
+      "text": "String, wind, brass, beat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Every instrument has a name to see!",
+      "text": "Build the ensemble, keep each tradition named.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y brings Yidaki into our little orchestra scene.",
+      "text": "Y — Yidaki! | Yolngu name for a traditional northern Australian didgeridoo-type instrument; lip vibration excites a long hollow tube.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z brings Zither into our little orchestra scene.",
+      "text": "Z ... Z ... Zither! | Family of string instruments whose strings stretch across a body without a projecting neck like a guitar.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Conductor cues A ... Acoustic Guitar! Point when it is seen.",
+      "text": "Family check A ... Acoustic Guitar! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Conductor cues B ... Bell! Point when it is seen.",
+      "text": "Find B ... Bell! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Conductor cues C ... Clarinet! Point when it is seen.",
+      "text": "Which one starts C? ... Clarinet! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Conductor cues D ... Drum! Point when it is seen.",
+      "text": "Check D ... Drum! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Conductor cues E ... Euphonium! Point when it is seen.",
+      "text": "Family check E ... Euphonium! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Conductor cues F ... Flute! Point when it is seen.",
+      "text": "Find F ... Flute! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Conductor cues G ... Gong! Point when it is seen.",
+      "text": "Which one starts G? ... Gong! Air-swing one slow mallet motion; no loud strike near ears.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Conductor cues H ... Harp! Point when it is seen.",
+      "text": "Check H ... Harp! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Little orchestra—A-B-C!",
+      "text": "String, wind, brass, beat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Every instrument has a name to see!",
+      "text": "Build the ensemble, keep each tradition named.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Conductor cues I ... Irish Whistle! Point when it is seen.",
+      "text": "Family check I ... Irish Whistle! Air-finger six holes; keep the real whistle quiet and personal.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Conductor cues J ... Jingle Bells! Point when it is seen.",
+      "text": "Find J ... Jingle Bells! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Conductor cues K ... Kazoo! Point when it is seen.",
+      "text": "Which one starts K? ... Kazoo! Hum softly with closed lips; do not share a real mouthpiece.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Conductor cues L ... Lute! Point when it is seen.",
+      "text": "Check L ... Lute! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Conductor cues M ... Mandolin! Point when it is seen.",
+      "text": "Family check M ... Mandolin! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Conductor cues N ... Note Card! Point when it is seen.",
+      "text": "Find N ... Note Card! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Conductor cues O ... Organ! Point when it is seen.",
+      "text": "Which one starts O? ... Organ! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Conductor cues P ... Piano! Point when it is seen.",
+      "text": "Check P ... Piano! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Little orchestra—A-B-C!",
+      "text": "String, wind, brass, beat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Every instrument has a name to see!",
+      "text": "Build the ensemble, keep each tradition named.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Conductor cues Q ... Quena! Point when it is seen.",
+      "text": "Family check Q ... Quena! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Conductor cues R ... Rhythm Sticks! Point when it is seen.",
+      "text": "Find R ... Rhythm Sticks! Tap two fingers together softly; never mime hitting another person.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Conductor cues S ... Saxophone! Point when it is seen.",
+      "text": "Which one starts S? ... Saxophone! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Conductor cues T ... Trumpet! Point when it is seen.",
+      "text": "Check T ... Trumpet! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Conductor cues U ... Ukulele! Point when it is seen.",
+      "text": "Family check U ... Ukulele! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Conductor cues V ... Violin! Point when it is seen.",
+      "text": "Find V ... Violin! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Conductor cues W ... Wood Block! Point when it is seen.",
+      "text": "Which one starts W? ... Wood Block! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Conductor cues X ... Xaphoon! Point when it is seen.",
+      "text": "Check X ... Xaphoon! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Little orchestra—A-B-C!",
+      "text": "String, wind, brass, beat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Every instrument has a name to see!",
+      "text": "Build the ensemble, keep each tradition named.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Conductor cues Y ... Yidaki! Point when it is seen.",
+      "text": "Family check Y ... Yidaki! Trace one long tube in the air; no forceful blowing exercise.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Conductor cues Z ... Zither! Point when it is seen.",
+      "text": "Find Z ... Zither! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Little orchestra—A-B-C!",
+      "text": "The orchestra column stays one column; comparison cards keep their own histories.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z leaves a bigger music map without flattening it.",
       "objective": "narration",
       "objectReveal": "none"
     }

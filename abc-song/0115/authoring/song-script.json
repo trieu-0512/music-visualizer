@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore sounds and instruments with me!",
+      "text": "Wood block starts dry and short; bell rings on; harmonica carries a reed tone.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Sound shelf—A-B-C!",
+      "text": "A sound has a beginning, a body, and a way of fading.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "On our sound shelf, A labels Accordion for listening.",
+      "text": "A — Accordion! | Free-reed instrument; bellows push or pull air through reeds while buttons or keys select notes.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "On our sound shelf, B labels Bongos for listening.",
+      "text": "B ... B ... Bongos! | Pair of small open-bottom hand drums of different sizes; striking the heads produces contrasting pitches.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "On our sound shelf, C labels Clarinet for listening.",
+      "text": "C? Clarinet! | Single-reed woodwind with cylindrical bore; covered/open holes and keys change the effective air-column length.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "On our sound shelf, D labels Drum for listening.",
+      "text": "D is Drum. Membranophone whose stretched head vibrates when struck; drum shape and tension affect tone. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "On our sound shelf, E labels Euphonium for listening.",
+      "text": "E — Euphonium! | Low brass instrument with valves and a conical bore; buzzing lips start the sound.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "On our sound shelf, F labels Flute for listening.",
+      "text": "F ... F ... Flute! | Side-blown woodwind in the concert family; an air jet across the embouchure hole excites the air column.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "On our sound shelf, G labels Guitar for listening.",
+      "text": "G? Guitar! | Plucked string instrument with fretted neck; acoustic and electric versions amplify string vibration differently.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "On our sound shelf, H labels Harmonica for listening.",
+      "text": "H is Harmonica. Free-reed wind instrument; blowing or drawing air through channels makes metal reeds vibrate. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Sound shelf—A-B-C!",
+      "text": "Start, hold, fade—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Name the instruments quietly!",
+      "text": "Listen to the shape of the sound.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "On our sound shelf, I labels Instrument for listening.",
+      "text": "I — Instrument! | General word for a device used to make or control music; it is a category, not one sound or family.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "On our sound shelf, J labels Jaw Harp for listening.",
+      "text": "J ... J ... Jaw Harp! | Small lamellophone held at the mouth; a flexible tongue is plucked while the mouth cavity shapes the tone, without biting the reed.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "On our sound shelf, K labels Kazoo for listening.",
+      "text": "K? Kazoo! | Membrane instrument that changes a hummed voice through a vibrating membrane; blowing silently through it does not create the usual kazoo sound.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "On our sound shelf, L labels Lute for listening.",
+      "text": "L is Lute. Plucked string instrument family with a neck and resonating body; many historical and regional forms exist. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "On our sound shelf, M labels Maracas for listening.",
+      "text": "M — Maracas! | Rattles with loose material inside hollow shells; shaking makes particles strike the walls.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "On our sound shelf, N labels Note Card for listening.",
+      "text": "N ... N ... Note Card! | Learning card that displays a note symbol or musical prompt; it represents music but makes no sound itself.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "On our sound shelf, O labels Organ for listening.",
+      "text": "O? Organ! | Keyboard instrument that sustains tones using pipes or electronic sound generation; keys can control more than one rank or voice.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "On our sound shelf, P labels Piccolo for listening.",
+      "text": "P is Piccolo. Small transverse flute pitched an octave above the concert flute in standard orchestral use. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Sound shelf—A-B-C!",
+      "text": "Start, hold, fade—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Name the instruments quietly!",
+      "text": "Listen to the shape of the sound.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "On our sound shelf, Q labels Quena for listening.",
+      "text": "Q — Quena! | Traditional Andean end-blown flute with a notched rim and finger holes.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "On our sound shelf, R labels Rhythm Sticks for listening.",
+      "text": "R ... R ... Rhythm Sticks! | Pair of percussion sticks used to tap rhythmic patterns; safe use means striking sticks or approved surfaces, never people.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "On our sound shelf, S labels Shaker for listening.",
+      "text": "S? Shaker! | Percussion instrument with loose particles or moving parts that sound when the body is shaken.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "On our sound shelf, T labels Tambourine for listening.",
+      "text": "T is Tambourine. Frame percussion instrument with jingles, sometimes with a drumhead; shaking or striking activates different sounds. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "On our sound shelf, U labels Udu Drum for listening.",
+      "text": "U — Udu Drum! | Nigerian clay pot percussion instrument; hands strike the body and opening to create resonant tones.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "On our sound shelf, V labels Violin for listening.",
+      "text": "V ... V ... Violin! | Smallest standard orchestral bowed string instrument; bow friction or plucking starts string vibration.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "On our sound shelf, W labels Wood Block for listening.",
+      "text": "W? Wood Block! | Hollow or resonant wooden percussion block; a beater strike produces a short dry tone.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "On our sound shelf, X labels Xylophone for listening.",
+      "text": "X is Xylophone. Tuned wooden-bar percussion instrument; bars are struck with mallets and arranged by pitch. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Sound shelf—A-B-C!",
+      "text": "Start, hold, fade—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Name the instruments quietly!",
+      "text": "Listen to the shape of the sound.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "On our sound shelf, Y labels Yangqin for listening.",
+      "text": "Y — Yangqin! | Chinese hammered dulcimer; bamboo beaters strike many strings stretched over a trapezoidal soundboard.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "On our sound shelf, Z labels Zills for listening.",
+      "text": "Z ... Z ... Zills! | Small finger cymbals used in pairs; metal discs ring when brought together.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Quiet cue: A ... Accordion! Point before the notes begin.",
+      "text": "Timbre recall A ... Accordion! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Quiet cue: B ... Bongos! Point before the notes begin.",
+      "text": "Find B ... Bongos! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Quiet cue: C ... Clarinet! Point before the notes begin.",
+      "text": "Which one starts C? ... Clarinet! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Quiet cue: D ... Drum! Point before the notes begin.",
+      "text": "Check D ... Drum! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Quiet cue: E ... Euphonium! Point before the notes begin.",
+      "text": "Timbre recall E ... Euphonium! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Quiet cue: F ... Flute! Point before the notes begin.",
+      "text": "Find F ... Flute! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Quiet cue: G ... Guitar! Point before the notes begin.",
+      "text": "Which one starts G? ... Guitar! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Quiet cue: H ... Harmonica! Point before the notes begin.",
+      "text": "Check H ... Harmonica! Cup empty hands near the mouth; do not share a real mouth instrument.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Sound shelf—A-B-C!",
+      "text": "Start, hold, fade—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Name the instruments quietly!",
+      "text": "Listen to the shape of the sound.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Quiet cue: I ... Instrument! Point before the notes begin.",
+      "text": "Timbre recall I ... Instrument! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Quiet cue: J ... Jaw Harp! Point before the notes begin.",
+      "text": "Find J ... Jaw Harp! Point to the picture; do not mime putting a metal reed in the mouth.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Quiet cue: K ... Kazoo! Point before the notes begin.",
+      "text": "Which one starts K? ... Kazoo! Hum softly with closed lips; do not share a real mouthpiece.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Quiet cue: L ... Lute! Point before the notes begin.",
+      "text": "Check L ... Lute! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Quiet cue: M ... Maracas! Point before the notes begin.",
+      "text": "Timbre recall M ... Maracas! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Quiet cue: N ... Note Card! Point before the notes begin.",
+      "text": "Find N ... Note Card! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Quiet cue: O ... Organ! Point before the notes begin.",
+      "text": "Which one starts O? ... Organ! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Quiet cue: P ... Piccolo! Point before the notes begin.",
+      "text": "Check P ... Piccolo! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Sound shelf—A-B-C!",
+      "text": "Start, hold, fade—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Name the instruments quietly!",
+      "text": "Listen to the shape of the sound.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Quiet cue: Q ... Quena! Point before the notes begin.",
+      "text": "Timbre recall Q ... Quena! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Quiet cue: R ... Rhythm Sticks! Point before the notes begin.",
+      "text": "Find R ... Rhythm Sticks! Tap two fingers together softly; never mime hitting another person.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Quiet cue: S ... Shaker! Point before the notes begin.",
+      "text": "Which one starts S? ... Shaker! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Quiet cue: T ... Tambourine! Point before the notes begin.",
+      "text": "Check T ... Tambourine! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Quiet cue: U ... Udu Drum! Point before the notes begin.",
+      "text": "Timbre recall U ... Udu Drum! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Quiet cue: V ... Violin! Point before the notes begin.",
+      "text": "Find V ... Violin! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Quiet cue: W ... Wood Block! Point before the notes begin.",
+      "text": "Which one starts W? ... Wood Block! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Quiet cue: X ... Xylophone! Point before the notes begin.",
+      "text": "Check X ... Xylophone! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Sound shelf—A-B-C!",
+      "text": "Start, hold, fade—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Name the instruments quietly!",
+      "text": "Listen to the shape of the sound.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Quiet cue: Y ... Yangqin! Point before the notes begin.",
+      "text": "Timbre recall Y ... Yangqin! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Quiet cue: Z ... Zills! Point before the notes begin.",
+      "text": "Find Z ... Zills! Bring two fingertips together softly like tiny cymbals.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Sound shelf—A-B-C!",
+      "text": "The last imagined zills decay into silence.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z leaves the shelf quiet enough to remember timbre.",
       "objective": "narration",
       "objectReveal": "none"
     }

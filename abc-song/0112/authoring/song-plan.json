@@ -6,11 +6,79 @@
   "tempoBpm": 94,
   "motifFamily": "rhythm-melody",
   "hook": [
-    "Beat and melody—A-B-C!",
-    "Hear the music, count with me!"
+    "Beat, hold, rise—A-B-C!",
+    "Time and pitch can travel together."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "polished 3D music-room storybook, one clear instrument or symbol per target; visual identity: Rhythm Melody ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "pulse-duration-contour-rhyme",
+    "chorusRhymeEngine": "beat-hold-rise-hook",
+    "pointOfView": "a child separating musical dimensions",
+    "chorusFunction": "repeat beat-hold-rise",
+    "grooveMeter": "94 BPM pulse with held-note windows",
+    "round1Grammar": "instrument/symbol fact tied to rhythm or pitch without false exclusivity",
+    "round2Grammar": "dimension recall -> target -> quiet gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "time-pitch",
+    "authorialIntent": "Make Rhythm Melody ABC separate time from pitch: beat, duration, repeated pattern, contour, and sustained note are taught through instruments without claiming every percussion item has no pitch or every pitched item carries melody.",
+    "lyricIdentity": "A child can clap a pulse, hold a duration, then follow pitch movement; Quarter Note is a duration symbol inside this musical grammar.",
+    "imageMotifs": [
+      "quarter-note pulse",
+      "cello long tone",
+      "maracas subdivision",
+      "piccolo rising contour",
+      "bell decay"
+    ],
+    "semanticArc": [
+      "steady pulse",
+      "duration/subdivision",
+      "pitch contour",
+      "combined rhythm-and-pitch"
+    ],
+    "forbiddenGenericLanguage": [
+      "beat and melody",
+      "on the beat every line",
+      "all percussion rhythm only",
+      "all strings melody only"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

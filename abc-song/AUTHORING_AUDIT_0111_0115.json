@@ -1,0 +1,282 @@
+{
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
+  "status": "PASS",
+  "range": "0111-0115",
+  "songs": 5,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "designReworkSongs": 0,
+  "uniqueHooks": 5,
+  "uniqueStyles": 5,
+  "uniqueSectionForms": 1,
+  "uniqueCreativeFingerprints": 5,
+  "maxLyricSimilarity": 0.1042,
+  "mostSimilarPair": [
+    "0111",
+    "0115"
+  ],
+  "batchWarnings": [],
+  "songsDetail": [
+    {
+      "songId": "0111",
+      "theme": "Musical Instruments",
+      "targetLines": 52,
+      "lyricWordCount": 946,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0112",
+      "theme": "Rhythm & Melody",
+      "targetLines": 52,
+      "lyricWordCount": 934,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0113",
+      "theme": "Band & Orchestra",
+      "targetLines": 52,
+      "lyricWordCount": 939,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0114",
+      "theme": "Music Making",
+      "targetLines": 52,
+      "lyricWordCount": 924,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0115",
+      "theme": "Sounds & Instruments",
+      "targetLines": 52,
+      "lyricWordCount": 918,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}
