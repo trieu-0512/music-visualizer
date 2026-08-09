@@ -6,11 +6,79 @@
   "tempoBpm": 85,
   "motifFamily": "draw-paint",
   "hook": [
-    "Draw, paint, sing—A-B-C!",
-    "Make a picture, sing with me!"
+    "Line, dab, roll—A-B-C!",
+    "The motion writes its own kind of mark."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "colorful 3D art-studio storybook, safe materials, crisp separated foregrounds; visual identity: Draw Paint Sing",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "mark-motion-internal-rhyme",
+    "chorusRhymeEngine": "line-dab-roll-hook",
+    "pointOfView": "a child reading mark-making techniques",
+    "chorusFunction": "cycle mark verbs",
+    "grooveMeter": "85 BPM variable-stroke 4/4",
+    "round1Grammar": "tool/material -> mark type -> visual result",
+    "round2Grammar": "mark-type recall -> target -> empty-hand trace",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "mark-language",
+    "authorialIntent": "Make Draw Paint Sing about mark language: line, edge, wash, dab, print, roll, resist, coil and three-dimensional modeling are distinct ways to build an image.",
+    "lyricIdentity": "A child notices how the hand motion changes the mark, without pretending pointed or sharp tools are child actions.",
+    "imageMotifs": [
+      "brush stroke",
+      "leaf print",
+      "roller band",
+      "wax resist",
+      "quilled coil"
+    ],
+    "semanticArc": [
+      "line",
+      "surface mark",
+      "print/texture",
+      "3D and assembled marks"
+    ],
+    "forbiddenGenericLanguage": [
+      "draw paint sing",
+      "make a picture",
+      "every tool draws",
+      "paint everything"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

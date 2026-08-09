@@ -6,11 +6,79 @@
   "tempoBpm": 91,
   "motifFamily": "creative-trail",
   "hook": [
-    "Creative tools—A-B-C!",
-    "Make and name them carefully!"
+    "Tool, material, result—A-B-C!",
+    "Name the role before the action."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "colorful 3D art-studio storybook, safe materials, crisp separated foregrounds; visual identity: Creative Tool Trail",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "tool-material-result-rhyme",
+    "chorusRhymeEngine": "tool-material-result-hook",
+    "pointOfView": "a child classifying studio roles",
+    "chorusFunction": "reset category labels",
+    "grooveMeter": "90 BPM walking 4/4",
+    "round1Grammar": "category -> function -> distinction",
+    "round2Grammar": "category-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "category-role",
+    "authorialIntent": "Turn Creative Tool Trail into a classification trail: tool, material, surface, image, finish, and wearable protection are separate categories, preventing phrases like 'paint is a tool' or 'drawing is an object tool'.",
+    "lyricIdentity": "A child labels what each studio thing is before saying what it does.",
+    "imageMotifs": [
+      "apron protection",
+      "canvas surface",
+      "ink material",
+      "loom tool",
+      "drawing result"
+    ],
+    "semanticArc": [
+      "protect/surface",
+      "tools",
+      "materials",
+      "results/finishes"
+    ],
+    "forbiddenGenericLanguage": [
+      "creative tools",
+      "everything is a tool",
+      "tool trail",
+      "make and name carefully"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

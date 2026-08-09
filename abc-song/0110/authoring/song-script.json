@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore make and create with me!",
+      "text": "A pencil idea can change after the first piece of felt bends or the first strip of tape pulls.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Make and create—A-B-C!",
+      "text": "Making is a loop: plan, build, look, revise.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "For A, Apron joins the thing we make today.",
+      "text": "A — Apron! | Protective garment helps keep paint or glue off clothing but does not replace hand or surface cleanup.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "For B, Bead joins the thing we make today.",
+      "text": "B ... B ... Bead! | Small pierced piece can be threaded for decoration; tiny beads are choking hazards and need close supervision.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "For C, Canvas joins the thing we make today.",
+      "text": "C? Canvas! | Woven fabric or prepared board provides a durable painting surface; priming changes absorbency.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "For D, Drawing joins the thing we make today.",
+      "text": "D is Drawing. Image built mainly from lines, shapes, values, or marks rather than a single specific tool. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "For E, Easel joins the thing we make today.",
+      "text": "E — Easel! | Upright stand holds paper, board, or canvas at a working angle.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "For F, Felt joins the thing we make today.",
+      "text": "F ... F ... Felt! | Nonwoven textile made by matting fibers; edges do not fray like many woven fabrics.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "For G, Glue joins the thing we make today.",
+      "text": "G? Glue! | Adhesive bonds surfaces as it sets; classroom glue should be non-toxic and used in small directed amounts, never tasted.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "For H, Hole Punch joins the thing we make today.",
+      "text": "H is Hole Punch. Lever tool cuts small paper holes; moving metal parts can pinch, so adults manage preschool use. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Make and create—A-B-C!",
+      "text": "Plan, build, revise—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Little makers, sing with me!",
+      "text": "A good maker can change the next step.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "For I, Ink joins the thing we make today.",
+      "text": "I — Ink! | Pigment- or dye-carrying liquid makes marks and can stain; containers stay closed when not in use.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "For J, Jewel Sticker joins the thing we make today.",
+      "text": "J ... J ... Jewel Sticker! | Adhesive decorative gem-like piece adds texture and shine; small pieces require supervision.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "For K, Knitting Needle joins the thing we make today.",
+      "text": "K? Knitting Needle! | Long pointed tool forms knitted loops with yarn; preschoolers observe or use only with direct adult guidance.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "For L, Leaf Print joins the thing we make today.",
+      "text": "L is Leaf Print. Print transfers a leaf's outline and vein texture to another surface; the image records surface structure. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "For M, Marker joins the thing we make today.",
+      "text": "M — Marker! | Ink-fed tip makes broad or fine lines; caps help many markers resist drying.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "For N, Needle joins the thing we make today.",
+      "text": "N ... N ... Needle! | Thin pointed sewing tool passes thread through material; sharp point makes it adult-managed in preschool art.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "For O, Oil Pastel joins the thing we make today.",
+      "text": "O? Oil Pastel! | Pigment mixed with oil/wax binder makes rich opaque marks that blend differently from chalk pastel.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "For P, Pencil joins the thing we make today.",
+      "text": "P is Pencil. Graphite core makes erasable gray marks; pressure and point shape change line value and width. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Make and create—A-B-C!",
+      "text": "Plan, build, revise—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Little makers, sing with me!",
+      "text": "A good maker can change the next step.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "For Q, Quilling Paper joins the thing we make today.",
+      "text": "Q — Quilling Paper! | Narrow paper strips are coiled, pinched, and arranged into decorative shapes.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "For R, Roller joins the thing we make today.",
+      "text": "R ... R ... Roller! | Cylindrical tool spreads paint or ink across a broad area; pressure changes coverage.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "For S, Sponge joins the thing we make today.",
+      "text": "S? Sponge! | Porous material absorbs and releases paint, making soft blocks, dabs, or textures when pressed.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "For T, Tape joins the thing we make today.",
+      "text": "T is Tape. Adhesive strip joins, masks, or temporarily holds materials; different tapes have different tack and surfaces. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "For U, Unfinished Wood joins the thing we make today.",
+      "text": "U — Unfinished Wood! | Bare wood has no final protective coating and may have rough fibers or splinters; adult checks it before craft use.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "For V, Varnish joins the thing we make today.",
+      "text": "V ... V ... Varnish! | Clear or tinted finish protects and changes surface sheen; formulations can release fumes, so adult product guidance is essential.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "For W, Wax Crayon joins the thing we make today.",
+      "text": "W? Wax Crayon! | Pigment in wax binder transfers through rubbing and pressure; it resists watery paint in wax-resist techniques.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "For X, Xylophone Stamp joins the thing we make today.",
+      "text": "X is Xylophone Stamp. Project stamp makes a xylophone-shaped printed image; the stamp is an art tool, not the musical instrument itself. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Make and create—A-B-C!",
+      "text": "Plan, build, revise—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Little makers, sing with me!",
+      "text": "A good maker can change the next step.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "For Y, Yellow Paint joins the thing we make today.",
+      "text": "Y — Yellow Paint! | Yellow-colored paint follows the same binder-and-pigment behavior as its paint type; color alone does not define opacity.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "For Z, Zipper Craft joins the thing we make today.",
+      "text": "Z ... Z ... Zipper Craft! | Project craft uses a zipper as a functional or decorative element; exact construction depends on the designed activity.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Think of A ... Apron! Point, remember, say.",
+      "text": "Maker recall A ... Apron! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Think of B ... Bead! Point, remember, say.",
+      "text": "Find B ... Bead! Point only; pinch empty fingers together to show tiny size.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Think of C ... Canvas! Point, remember, say.",
+      "text": "Which one starts C? ... Canvas! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Think of D ... Drawing! Point, remember, say.",
+      "text": "Check D ... Drawing! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Think of E ... Easel! Point, remember, say.",
+      "text": "Maker recall E ... Easel! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Think of F ... Felt! Point, remember, say.",
+      "text": "Find F ... Felt! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Think of G ... Glue! Point, remember, say.",
+      "text": "Which one starts G? ... Glue! Point once; mime one tiny glue dot with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Think of H ... Hole Punch! Point, remember, say.",
+      "text": "Check H ... Hole Punch! Point only; air-trace one punched circle.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Make and create—A-B-C!",
+      "text": "Plan, build, revise—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Little makers, sing with me!",
+      "text": "A good maker can change the next step.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Think of I ... Ink! Point, remember, say.",
+      "text": "Maker recall I ... Ink! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Think of J ... Jewel Sticker! Point, remember, say.",
+      "text": "Find J ... Jewel Sticker! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Think of K ... Knitting Needle! Point, remember, say.",
+      "text": "Which one starts K? ... Knitting Needle! Point only; trace one long straight line in the air.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Think of L ... Leaf Print! Point, remember, say.",
+      "text": "Check L ... Leaf Print! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Think of M ... Marker! Point, remember, say.",
+      "text": "Maker recall M ... Marker! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Think of N ... Needle! Point, remember, say.",
+      "text": "Find N ... Needle! Point only; show one tiny dot for the eye of the needle.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Think of O ... Oil Pastel! Point, remember, say.",
+      "text": "Which one starts O? ... Oil Pastel! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Think of P ... Pencil! Point, remember, say.",
+      "text": "Check P ... Pencil! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Make and create—A-B-C!",
+      "text": "Plan, build, revise—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Little makers, sing with me!",
+      "text": "A good maker can change the next step.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Think of Q ... Quilling Paper! Point, remember, say.",
+      "text": "Maker recall Q ... Quilling Paper! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Think of R ... Roller! Point, remember, say.",
+      "text": "Find R ... Roller! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Think of S ... Sponge! Point, remember, say.",
+      "text": "Which one starts S? ... Sponge! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Think of T ... Tape! Point, remember, say.",
+      "text": "Check T ... Tape! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Think of U ... Unfinished Wood! Point, remember, say.",
+      "text": "Maker recall U ... Unfinished Wood! Point to the wood picture; do not rub a real rough edge.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Think of V ... Varnish! Point, remember, say.",
+      "text": "Find V ... Varnish! Point only; adult handles the real finish and ventilation.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Think of W ... Wax Crayon! Point, remember, say.",
+      "text": "Which one starts W? ... Wax Crayon! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Think of X ... Xylophone Stamp! Point, remember, say.",
+      "text": "Check X ... Xylophone Stamp! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Make and create—A-B-C!",
+      "text": "Plan, build, revise—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Little makers, sing with me!",
+      "text": "A good maker can change the next step.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Think of Y ... Yellow Paint! Point, remember, say.",
+      "text": "Maker recall Y ... Yellow Paint! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Think of Z ... Zipper Craft! Point, remember, say.",
+      "text": "Find Z ... Zipper Craft! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Make and create—A-B-C!",
+      "text": "The last piece is checked, not called perfect just because it is finished.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z closes one project and saves what we learned for the next.",
       "objective": "narration",
       "objectReveal": "none"
     }

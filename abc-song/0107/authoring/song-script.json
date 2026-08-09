@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore colors and crafts with me!",
+      "text": "Before the box opens: what are we making, what surface are we using, and which tool fits?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Craft box bounce—A-B-C!",
+      "text": "A small plan keeps a craft from becoming a pile of supplies.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "From the craft box, A picks Apron for our design.",
+      "text": "A — Apron! | Protective garment helps keep paint or glue off clothing but does not replace hand or surface cleanup.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "From the craft box, B picks Brush for our design.",
+      "text": "B ... B ... Brush! | Bristles or fibers carry a medium and release it through strokes; shape and stiffness change the mark.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "From the craft box, C picks Crayon for our design.",
+      "text": "C? Crayon! | Wax-based color stick leaves pigment by friction and pressure; classroom crayons should be non-toxic.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "From the craft box, D picks Dot Marker for our design.",
+      "text": "D is Dot Marker. Broad round applicator makes repeated circular marks; it is a mark-making tool, not a paint stamp for skin. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "From the craft box, E picks Eraser for our design.",
+      "text": "E — Eraser! | Material lifts many graphite marks; it cannot clean every ink, paint, or surface without damage.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "From the craft box, F picks Frame for our design.",
+      "text": "F ... F ... Frame! | Border or support surrounds artwork and helps present or protect it without changing the image itself.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "From the craft box, G picks Glue for our design.",
+      "text": "G? Glue! | Adhesive bonds surfaces as it sets; classroom glue should be non-toxic and used in small directed amounts, never tasted.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "From the craft box, H picks Hole Punch for our design.",
+      "text": "H is Hole Punch. Lever tool cuts small paper holes; moving metal parts can pinch, so adults manage preschool use. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Craft box bounce—A-B-C!",
+      "text": "Plan, test, make—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Colors and crafts jump with me!",
+      "text": "Choose one material because it fits the job.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "From the craft box, I picks Illustration for our design.",
+      "text": "I — Illustration! | Image explains, decorates, or tells part of a story; it can communicate information without being a photograph.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "From the craft box, J picks Jar for our design.",
+      "text": "J ... J ... Jar! | Rigid container stores water or materials; glass jars require adult judgment around young children.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "From the craft box, K picks Kraft Paper for our design.",
+      "text": "K? Kraft Paper! | Strong brown paper made largely from kraft-process pulp; useful for drawing, wrapping, or sturdy craft shapes.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "From the craft box, L picks Leaf Print for our design.",
+      "text": "L is Leaf Print. Print transfers a leaf's outline and vein texture to another surface; the image records surface structure. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "From the craft box, M picks Marker for our design.",
+      "text": "M — Marker! | Ink-fed tip makes broad or fine lines; caps help many markers resist drying.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "From the craft box, N picks Notebook for our design.",
+      "text": "N ... N ... Notebook! | Bound pages collect sketches, plans, notes, or color tests in sequence.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "From the craft box, O picks Oil Pastel for our design.",
+      "text": "O? Oil Pastel! | Pigment mixed with oil/wax binder makes rich opaque marks that blend differently from chalk pastel.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "From the craft box, P picks Pencil for our design.",
+      "text": "P is Pencil. Graphite core makes erasable gray marks; pressure and point shape change line value and width. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Craft box bounce—A-B-C!",
+      "text": "Plan, test, make—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Colors and crafts jump with me!",
+      "text": "Choose one material because it fits the job.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "From the craft box, Q picks Quilt Square for our design.",
+      "text": "Q — Quilt Square! | Fabric patch is one unit in a larger quilt design; seams join many squares into a surface.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "From the craft box, R picks Roller for our design.",
+      "text": "R ... R ... Roller! | Cylindrical tool spreads paint or ink across a broad area; pressure changes coverage.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "From the craft box, S picks Scissors for our design.",
+      "text": "S? Scissors! | Pivoting blades shear material; child-safe scissors still require correct grip, seated use, and adult supervision.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "From the craft box, T picks Tape for our design.",
+      "text": "T is Tape. Adhesive strip joins, masks, or temporarily holds materials; different tapes have different tack and surfaces. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "From the craft box, U picks Utility Brush for our design.",
+      "text": "U — Utility Brush! | General-purpose brush can spread paint, glue, or other craft media; exact use depends on its bristles and material.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "From the craft box, V picks Varnish for our design.",
+      "text": "V ... V ... Varnish! | Clear or tinted finish protects and changes surface sheen; formulations can release fumes, so adult product guidance is essential.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "From the craft box, W picks Watercolor for our design.",
+      "text": "W? Watercolor! | Water-soluble paint can make transparent washes; more water usually lightens and spreads the pigment.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "From the craft box, X picks X-shaped Sticker for our design.",
+      "text": "X is X-shaped Sticker. Adhesive sticker carries an X outline; shape is the learning clue, not a cutting instruction. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Craft box bounce—A-B-C!",
+      "text": "Plan, test, make—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Colors and crafts jump with me!",
+      "text": "Choose one material because it fits the job.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "From the craft box, Y picks Yellow Paint for our design.",
+      "text": "Y — Yellow Paint! | Yellow-colored paint follows the same binder-and-pigment behavior as its paint type; color alone does not define opacity.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "From the craft box, Z picks Zipper Craft for our design.",
+      "text": "Z ... Z ... Zipper Craft! | Project craft uses a zipper as a functional or decorative element; exact construction depends on the designed activity.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Cue A ... Apron! Point when the shapes align.",
+      "text": "Craft choice A ... Apron! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Cue B ... Brush! Point when the shapes align.",
+      "text": "Find B ... Brush! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Cue C ... Crayon! Point when the shapes align.",
+      "text": "Which one starts C? ... Crayon! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Cue D ... Dot Marker! Point when the shapes align.",
+      "text": "Check D ... Dot Marker! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Cue E ... Eraser! Point when the shapes align.",
+      "text": "Craft choice E ... Eraser! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Cue F ... Frame! Point when the shapes align.",
+      "text": "Find F ... Frame! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Cue G ... Glue! Point when the shapes align.",
+      "text": "Which one starts G? ... Glue! Point once; mime one tiny glue dot with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Cue H ... Hole Punch! Point when the shapes align.",
+      "text": "Check H ... Hole Punch! Point only; air-trace one punched circle.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Craft box bounce—A-B-C!",
+      "text": "Plan, test, make—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Colors and crafts jump with me!",
+      "text": "Choose one material because it fits the job.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Cue I ... Illustration! Point when the shapes align.",
+      "text": "Craft choice I ... Illustration! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Cue J ... Jar! Point when the shapes align.",
+      "text": "Find J ... Jar! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Cue K ... Kraft Paper! Point when the shapes align.",
+      "text": "Which one starts K? ... Kraft Paper! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Cue L ... Leaf Print! Point when the shapes align.",
+      "text": "Check L ... Leaf Print! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Cue M ... Marker! Point when the shapes align.",
+      "text": "Craft choice M ... Marker! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Cue N ... Notebook! Point when the shapes align.",
+      "text": "Find N ... Notebook! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Cue O ... Oil Pastel! Point when the shapes align.",
+      "text": "Which one starts O? ... Oil Pastel! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Cue P ... Pencil! Point when the shapes align.",
+      "text": "Check P ... Pencil! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Craft box bounce—A-B-C!",
+      "text": "Plan, test, make—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Colors and crafts jump with me!",
+      "text": "Choose one material because it fits the job.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Cue Q ... Quilt Square! Point when the shapes align.",
+      "text": "Craft choice Q ... Quilt Square! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Cue R ... Roller! Point when the shapes align.",
+      "text": "Find R ... Roller! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Cue S ... Scissors! Point when the shapes align.",
+      "text": "Which one starts S? ... Scissors! Point only; make two finger-blades without a real tool.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Cue T ... Tape! Point when the shapes align.",
+      "text": "Check T ... Tape! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Cue U ... Utility Brush! Point when the shapes align.",
+      "text": "Craft choice U ... Utility Brush! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Cue V ... Varnish! Point when the shapes align.",
+      "text": "Find V ... Varnish! Point only; adult handles the real finish and ventilation.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Cue W ... Watercolor! Point when the shapes align.",
+      "text": "Which one starts W? ... Watercolor! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Cue X ... X-shaped Sticker! Point when the shapes align.",
+      "text": "Check X ... X-shaped Sticker! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Craft box bounce—A-B-C!",
+      "text": "Plan, test, make—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Colors and crafts jump with me!",
+      "text": "Choose one material because it fits the job.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Cue Y ... Yellow Paint! Point when the shapes align.",
+      "text": "Craft choice Y ... Yellow Paint! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Cue Z ... Zipper Craft! Point when the shapes align.",
+      "text": "Find Z ... Zipper Craft! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Craft box bounce—A-B-C!",
+      "text": "Marker capped, brush rinsed, varnish left to the adult, scraps collected.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z closes the craft box with the plan completed.",
       "objective": "narration",
       "objectReveal": "none"
     }

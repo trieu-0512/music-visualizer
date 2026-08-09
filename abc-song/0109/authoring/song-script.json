@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore creative tools with me!",
+      "text": "Canvas is a surface, paint is a material, brush is a tool, drawing is a result.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Creative tools—A-B-C!",
+      "text": "Creative work gets clearer when those roles do not blur.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A finds Apron at our creative-work table.",
+      "text": "A — Apron! | Protective garment helps keep paint or glue off clothing but does not replace hand or surface cleanup.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B finds Brush at our creative-work table.",
+      "text": "B ... B ... Brush! | Bristles or fibers carry a medium and release it through strokes; shape and stiffness change the mark.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C finds Canvas at our creative-work table.",
+      "text": "C? Canvas! | Woven fabric or prepared board provides a durable painting surface; priming changes absorbency.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D finds Drawing at our creative-work table.",
+      "text": "D is Drawing. Image built mainly from lines, shapes, values, or marks rather than a single specific tool. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E finds Eraser at our creative-work table.",
+      "text": "E — Eraser! | Material lifts many graphite marks; it cannot clean every ink, paint, or surface without damage.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F finds Frame at our creative-work table.",
+      "text": "F ... F ... Frame! | Border or support surrounds artwork and helps present or protect it without changing the image itself.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G finds Glitter at our creative-work table.",
+      "text": "G? Glitter! | Tiny reflective particles add sparkle but can irritate eyes or spread easily; use supervised craft material and avoid inhalation.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H finds Handprint at our creative-work table.",
+      "text": "H is Handprint. Printed hand silhouette records palm-and-finger shape; use washable skin-safe material and wash afterward. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Creative tools—A-B-C!",
+      "text": "Tool, material, result—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Make and name them carefully!",
+      "text": "Name the role before the action.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I finds Ink at our creative-work table.",
+      "text": "I — Ink! | Pigment- or dye-carrying liquid makes marks and can stain; containers stay closed when not in use.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J finds Jewel Sticker at our creative-work table.",
+      "text": "J ... J ... Jewel Sticker! | Adhesive decorative gem-like piece adds texture and shine; small pieces require supervision.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K finds Knitting Needle at our creative-work table.",
+      "text": "K? Knitting Needle! | Long pointed tool forms knitted loops with yarn; preschoolers observe or use only with direct adult guidance.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L finds Loom at our creative-work table.",
+      "text": "L is Loom. Frame holds lengthwise warp threads while other material passes across as weft. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M finds Marker at our creative-work table.",
+      "text": "M — Marker! | Ink-fed tip makes broad or fine lines; caps help many markers resist drying.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N finds Needle at our creative-work table.",
+      "text": "N ... N ... Needle! | Thin pointed sewing tool passes thread through material; sharp point makes it adult-managed in preschool art.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O finds Origami at our creative-work table.",
+      "text": "O? Origami! | Paper-folding practice builds forms through planned creases; traditional designs can avoid cutting or glue.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P finds Paint at our creative-work table.",
+      "text": "P is Paint. Pigment in a binder forms a colored layer on a surface; opacity, drying, and cleanup depend on paint type. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Creative tools—A-B-C!",
+      "text": "Tool, material, result—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Make and name them carefully!",
+      "text": "Name the role before the action.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q finds Quilling Paper at our creative-work table.",
+      "text": "Q — Quilling Paper! | Narrow paper strips are coiled, pinched, and arranged into decorative shapes.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R finds Ribbon at our creative-work table.",
+      "text": "R ... R ... Ribbon! | Narrow woven strip bends and ties easily; long loose lengths can tangle and need supervision.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S finds Sponge at our creative-work table.",
+      "text": "S? Sponge! | Porous material absorbs and releases paint, making soft blocks, dabs, or textures when pressed.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T finds Tempera Paint at our creative-work table.",
+      "text": "T is Tempera Paint. Water-based opaque school paint dries matte and cleans differently from permanent artist paints. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U finds Utility Brush at our creative-work table.",
+      "text": "U — Utility Brush! | General-purpose brush can spread paint, glue, or other craft media; exact use depends on its bristles and material.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V finds Velvet Paper at our creative-work table.",
+      "text": "V ... V ... Velvet Paper! | Flocked or velvet-like paper has a soft raised surface that changes how light and touch reveal color.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W finds Watercolor at our creative-work table.",
+      "text": "W? Watercolor! | Water-soluble paint can make transparent washes; more water usually lightens and spreads the pigment.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X finds X-shaped Sticker at our creative-work table.",
+      "text": "X is X-shaped Sticker. Adhesive sticker carries an X outline; shape is the learning clue, not a cutting instruction. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Creative tools—A-B-C!",
+      "text": "Tool, material, result—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Make and name them carefully!",
+      "text": "Name the role before the action.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y finds Yellow Paint at our creative-work table.",
+      "text": "Y — Yellow Paint! | Yellow-colored paint follows the same binder-and-pigment behavior as its paint type; color alone does not define opacity.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z finds Zipper Craft at our creative-work table.",
+      "text": "Z ... Z ... Zipper Craft! | Project craft uses a zipper as a functional or decorative element; exact construction depends on the designed activity.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Find A ... Apron! Point to the tool or material.",
+      "text": "Role check A ... Apron! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Find B ... Brush! Point to the tool or material.",
+      "text": "Find B ... Brush! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Find C ... Canvas! Point to the tool or material.",
+      "text": "Which one starts C? ... Canvas! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Find D ... Drawing! Point to the tool or material.",
+      "text": "Check D ... Drawing! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Find E ... Eraser! Point to the tool or material.",
+      "text": "Role check E ... Eraser! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Find F ... Frame! Point to the tool or material.",
+      "text": "Find F ... Frame! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Find G ... Glitter! Point to the tool or material.",
+      "text": "Which one starts G? ... Glitter! Point only; flutter fingers above the picture, never toward eyes.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Find H ... Handprint! Point to the tool or material.",
+      "text": "Check H ... Handprint! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Creative tools—A-B-C!",
+      "text": "Tool, material, result—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Make and name them carefully!",
+      "text": "Name the role before the action.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Find I ... Ink! Point to the tool or material.",
+      "text": "Role check I ... Ink! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Find J ... Jewel Sticker! Point to the tool or material.",
+      "text": "Find J ... Jewel Sticker! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Find K ... Knitting Needle! Point to the tool or material.",
+      "text": "Which one starts K? ... Knitting Needle! Point only; trace one long straight line in the air.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Find L ... Loom! Point to the tool or material.",
+      "text": "Check L ... Loom! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Find M ... Marker! Point to the tool or material.",
+      "text": "Role check M ... Marker! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Find N ... Needle! Point to the tool or material.",
+      "text": "Find N ... Needle! Point only; show one tiny dot for the eye of the needle.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Find O ... Origami! Point to the tool or material.",
+      "text": "Which one starts O? ... Origami! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Find P ... Paint! Point to the tool or material.",
+      "text": "Check P ... Paint! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Creative tools—A-B-C!",
+      "text": "Tool, material, result—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Make and name them carefully!",
+      "text": "Name the role before the action.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Find Q ... Quilling Paper! Point to the tool or material.",
+      "text": "Role check Q ... Quilling Paper! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Find R ... Ribbon! Point to the tool or material.",
+      "text": "Find R ... Ribbon! Wave one short empty-hand curve; no wrapping around body parts.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Find S ... Sponge! Point to the tool or material.",
+      "text": "Which one starts S? ... Sponge! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Find T ... Tempera Paint! Point to the tool or material.",
+      "text": "Check T ... Tempera Paint! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Find U ... Utility Brush! Point to the tool or material.",
+      "text": "Role check U ... Utility Brush! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Find V ... Velvet Paper! Point to the tool or material.",
+      "text": "Find V ... Velvet Paper! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Find W ... Watercolor! Point to the tool or material.",
+      "text": "Which one starts W? ... Watercolor! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X ... X-shaped Sticker! Point to the tool or material.",
+      "text": "Check X ... X-shaped Sticker! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Creative tools—A-B-C!",
+      "text": "Tool, material, result—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Make and name them carefully!",
+      "text": "Name the role before the action.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Find Y ... Yellow Paint! Point to the tool or material.",
+      "text": "Role check Y ... Yellow Paint! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Find Z ... Zipper Craft! Point to the tool or material.",
+      "text": "Find Z ... Zipper Craft! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Creative tools—A-B-C!",
+      "text": "Varnish stays a finish, velvet paper stays a surface, drawing stays the image.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z leaves the trail sorted by role.",
       "objective": "narration",
       "objectReveal": "none"
     }

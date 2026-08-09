@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "studio-color",
   "hook": [
-    "Art studio—A-B-C!",
-    "Shapes and colors, paint with me!"
+    "Soft, rough, wet, dry—A-B-C!",
+    "Material changes the mark we see."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "colorful 3D art-studio storybook, safe materials, crisp separated foregrounds; visual identity: Art Studio Colors",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "material-texture-response-rhyme",
+    "chorusRhymeEngine": "soft-rough-wet-dry-hook",
+    "pointOfView": "a child comparing art-material behavior",
+    "chorusFunction": "reset material contrasts",
+    "grooveMeter": "88 BPM tactile 6/8",
+    "round1Grammar": "material -> physical property -> art consequence",
+    "round2Grammar": "property recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "material-texture",
+    "authorialIntent": "Turn Art Studio Colors into a material-and-surface laboratory: soft, rough, glossy, absorbent, rigid, flexible, opaque and transparent behaviors drive the song more than naming colors.",
+    "lyricIdentity": "A child predicts what a material will feel or look like before making a mark, then compares the result.",
+    "imageMotifs": [
+      "felt softness",
+      "glitter reflection",
+      "watercolor wash",
+      "clay pressure mark",
+      "unfinished wood grain"
+    ],
+    "semanticArc": [
+      "touch/texture",
+      "mark/absorbency",
+      "shape/form",
+      "finish/reflection"
+    ],
+    "forbiddenGenericLanguage": [
+      "art studio colors",
+      "paint with me",
+      "everything colorful",
+      "sparkle means better"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

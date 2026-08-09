@@ -6,11 +6,79 @@
   "tempoBpm": 89,
   "motifFamily": "make-create",
   "hook": [
-    "Make and create—A-B-C!",
-    "Little makers, sing with me!"
+    "Plan, build, revise—A-B-C!",
+    "A good maker can change the next step."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "colorful 3D art-studio storybook, safe materials, crisp separated foregrounds; visual identity: Make Create A-Z",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "maker-revision-chain-rhyme",
+    "chorusRhymeEngine": "plan-build-revise-hook",
+    "pointOfView": "a child maker revising a project",
+    "chorusFunction": "repeat plan-build-revise",
+    "grooveMeter": "89 BPM constructive 6/8",
+    "round1Grammar": "object fact tied to stage without false causality",
+    "round2Grammar": "stage-neutral retrieval -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "maker-revision",
+    "authorialIntent": "Make Make Create A-Z a build sequence from idea to support, shaping, joining, surface treatment, decoration and finish, with rework welcomed instead of pretending every first attempt is final.",
+    "lyricIdentity": "A child maker changes a plan when a material behaves differently than expected; creating includes testing and revising.",
+    "imageMotifs": [
+      "pencil plan",
+      "canvas support",
+      "glue join",
+      "roller surface",
+      "finished zipper craft"
+    ],
+    "semanticArc": [
+      "idea/support",
+      "shape/join",
+      "color/surface",
+      "finish/revise"
+    ],
+    "forbiddenGenericLanguage": [
+      "make create",
+      "little makers",
+      "perfect first try",
+      "magic craft"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

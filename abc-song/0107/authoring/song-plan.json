@@ -6,11 +6,79 @@
   "tempoBpm": 93,
   "motifFamily": "craft-bounce",
   "hook": [
-    "Craft box bounce—A-B-C!",
-    "Colors and crafts jump with me!"
+    "Plan, test, make—A-B-C!",
+    "Choose one material because it fits the job."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "colorful 3D art-studio storybook, safe materials, crisp separated foregrounds; visual identity: Craft Box Bounce",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "craft-plan-test-rhyme",
+    "chorusRhymeEngine": "plan-test-make-hook",
+    "pointOfView": "a child following a simple craft plan",
+    "chorusFunction": "repeat plan-test-make-clean",
+    "grooveMeter": "92 BPM stop-check-go",
+    "round1Grammar": "tool/material -> intended effect -> boundary",
+    "round2Grammar": "choice recall -> exact target -> pretend-safe action",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "plan-test",
+    "authorialIntent": "Make Craft Box Bounce a planning song: choose a material for the intended result, test a small area, join or color it, then clean and store; decorative choices come after structure.",
+    "lyricIdentity": "A child opens a craft box with a tiny plan instead of grabbing every material.",
+    "imageMotifs": [
+      "apron before paint",
+      "small glue test",
+      "leaf-print trial",
+      "roller coverage",
+      "varnish adult finish"
+    ],
+    "semanticArc": [
+      "plan",
+      "test",
+      "make",
+      "clean/finish"
+    ],
+    "forbiddenGenericLanguage": [
+      "craft box bounce",
+      "grab a color",
+      "use everything",
+      "craft chaos"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

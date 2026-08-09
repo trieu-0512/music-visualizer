@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore art studio with me!",
+      "text": "Felt stays soft, watercolor spreads with water, clay changes under pressure.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Art studio—A-B-C!",
+      "text": "Art materials answer differently when we touch, fold, roll, or paint them.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A shows Art Board on our art-studio table.",
+      "text": "A — Art Board! | Rigid backing supports paper or artwork and keeps the working surface flat.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B shows Bead on our art-studio table.",
+      "text": "B ... B ... Bead! | Small pierced piece can be threaded for decoration; tiny beads are choking hazards and need close supervision.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C shows Crayon on our art-studio table.",
+      "text": "C? Crayon! | Wax-based color stick leaves pigment by friction and pressure; classroom crayons should be non-toxic.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D shows Dot Marker on our art-studio table.",
+      "text": "D is Dot Marker. Broad round applicator makes repeated circular marks; it is a mark-making tool, not a paint stamp for skin. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E shows Easel on our art-studio table.",
+      "text": "E — Easel! | Upright stand holds paper, board, or canvas at a working angle.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F shows Felt on our art-studio table.",
+      "text": "F ... F ... Felt! | Nonwoven textile made by matting fibers; edges do not fray like many woven fabrics.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G shows Glitter on our art-studio table.",
+      "text": "G? Glitter! | Tiny reflective particles add sparkle but can irritate eyes or spread easily; use supervised craft material and avoid inhalation.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H shows Hole Punch on our art-studio table.",
+      "text": "H is Hole Punch. Lever tool cuts small paper holes; moving metal parts can pinch, so adults manage preschool use. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Art studio—A-B-C!",
+      "text": "Soft, rough, wet, dry—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Shapes and colors, paint with me!",
+      "text": "Material changes the mark we see.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I shows Ink on our art-studio table.",
+      "text": "I — Ink! | Pigment- or dye-carrying liquid makes marks and can stain; containers stay closed when not in use.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J shows Jewel Sticker on our art-studio table.",
+      "text": "J ... J ... Jewel Sticker! | Adhesive decorative gem-like piece adds texture and shine; small pieces require supervision.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K shows Knitting Needle on our art-studio table.",
+      "text": "K? Knitting Needle! | Long pointed tool forms knitted loops with yarn; preschoolers observe or use only with direct adult guidance.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L shows Loom on our art-studio table.",
+      "text": "L is Loom. Frame holds lengthwise warp threads while other material passes across as weft. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M shows Modeling Clay on our art-studio table.",
+      "text": "M — Modeling Clay! | Malleable material changes form under pressing, rolling, pinching, and joining; it hardens only if its formulation is designed to.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N shows Notebook on our art-studio table.",
+      "text": "N ... N ... Notebook! | Bound pages collect sketches, plans, notes, or color tests in sequence.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O shows Origami on our art-studio table.",
+      "text": "O? Origami! | Paper-folding practice builds forms through planned creases; traditional designs can avoid cutting or glue.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P shows Paint on our art-studio table.",
+      "text": "P is Paint. Pigment in a binder forms a colored layer on a surface; opacity, drying, and cleanup depend on paint type. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Art studio—A-B-C!",
+      "text": "Soft, rough, wet, dry—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Shapes and colors, paint with me!",
+      "text": "Material changes the mark we see.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q shows Quilt Square on our art-studio table.",
+      "text": "Q — Quilt Square! | Fabric patch is one unit in a larger quilt design; seams join many squares into a surface.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R shows Ribbon on our art-studio table.",
+      "text": "R ... R ... Ribbon! | Narrow woven strip bends and ties easily; long loose lengths can tangle and need supervision.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S shows Scissors on our art-studio table.",
+      "text": "S? Scissors! | Pivoting blades shear material; child-safe scissors still require correct grip, seated use, and adult supervision.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T shows Tape on our art-studio table.",
+      "text": "T is Tape. Adhesive strip joins, masks, or temporarily holds materials; different tapes have different tack and surfaces. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U shows Unfinished Wood on our art-studio table.",
+      "text": "U — Unfinished Wood! | Bare wood has no final protective coating and may have rough fibers or splinters; adult checks it before craft use.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V shows Velvet Paper on our art-studio table.",
+      "text": "V ... V ... Velvet Paper! | Flocked or velvet-like paper has a soft raised surface that changes how light and touch reveal color.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W shows Watercolor on our art-studio table.",
+      "text": "W? Watercolor! | Water-soluble paint can make transparent washes; more water usually lightens and spreads the pigment.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X shows Xylophone Stamp on our art-studio table.",
+      "text": "X is Xylophone Stamp. Project stamp makes a xylophone-shaped printed image; the stamp is an art tool, not the musical instrument itself. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Art studio—A-B-C!",
+      "text": "Soft, rough, wet, dry—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Shapes and colors, paint with me!",
+      "text": "Material changes the mark we see.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y shows Yellow Paint on our art-studio table.",
+      "text": "Y — Yellow Paint! | Yellow-colored paint follows the same binder-and-pigment behavior as its paint type; color alone does not define opacity.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z shows Zipper Craft on our art-studio table.",
+      "text": "Z ... Z ... Zipper Craft! | Project craft uses a zipper as a functional or decorative element; exact construction depends on the designed activity.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Art Board! Point when you are able.",
+      "text": "Texture check A ... Art Board! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Bead! Point when you are able.",
+      "text": "Find B ... Bead! Point only; pinch empty fingers together to show tiny size.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C ... Crayon! Point when you are able.",
+      "text": "Which one starts C? ... Crayon! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... Dot Marker! Point when you are able.",
+      "text": "Check D ... Dot Marker! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Easel! Point when you are able.",
+      "text": "Texture check E ... Easel! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Felt! Point when you are able.",
+      "text": "Find F ... Felt! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G ... Glitter! Point when you are able.",
+      "text": "Which one starts G? ... Glitter! Point only; flutter fingers above the picture, never toward eyes.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... Hole Punch! Point when you are able.",
+      "text": "Check H ... Hole Punch! Point only; air-trace one punched circle.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Art studio—A-B-C!",
+      "text": "Soft, rough, wet, dry—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Shapes and colors, paint with me!",
+      "text": "Material changes the mark we see.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Ink! Point when you are able.",
+      "text": "Texture check I ... Ink! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Jewel Sticker! Point when you are able.",
+      "text": "Find J ... Jewel Sticker! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K ... Knitting Needle! Point when you are able.",
+      "text": "Which one starts K? ... Knitting Needle! Point only; trace one long straight line in the air.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... Loom! Point when you are able.",
+      "text": "Check L ... Loom! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Modeling Clay! Point when you are able.",
+      "text": "Texture check M ... Modeling Clay! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Notebook! Point when you are able.",
+      "text": "Find N ... Notebook! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O ... Origami! Point when you are able.",
+      "text": "Which one starts O? ... Origami! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... Paint! Point when you are able.",
+      "text": "Check P ... Paint! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Art studio—A-B-C!",
+      "text": "Soft, rough, wet, dry—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Shapes and colors, paint with me!",
+      "text": "Material changes the mark we see.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quilt Square! Point when you are able.",
+      "text": "Texture check Q ... Quilt Square! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Ribbon! Point when you are able.",
+      "text": "Find R ... Ribbon! Wave one short empty-hand curve; no wrapping around body parts.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S ... Scissors! Point when you are able.",
+      "text": "Which one starts S? ... Scissors! Point only; make two finger-blades without a real tool.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... Tape! Point when you are able.",
+      "text": "Check T ... Tape! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Unfinished Wood! Point when you are able.",
+      "text": "Texture check U ... Unfinished Wood! Point to the wood picture; do not rub a real rough edge.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Velvet Paper! Point when you are able.",
+      "text": "Find V ... Velvet Paper! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W ... Watercolor! Point when you are able.",
+      "text": "Which one starts W? ... Watercolor! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... Xylophone Stamp! Point when you are able.",
+      "text": "Check X ... Xylophone Stamp! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Art studio—A-B-C!",
+      "text": "Soft, rough, wet, dry—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Shapes and colors, paint with me!",
+      "text": "Material changes the mark we see.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Paint! Point when you are able.",
+      "text": "Texture check Y ... Yellow Paint! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zipper Craft! Point when you are able.",
+      "text": "Find Z ... Zipper Craft! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Art studio—A-B-C!",
+      "text": "Watercolor dries, clay keeps its pressed shape, unfinished wood stays unvarnished.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z leaves the studio as a shelf of different material behaviors.",
       "objective": "narration",
       "objectReveal": "none"
     }
