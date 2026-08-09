@@ -6,8 +6,8 @@
   "tempoBpm": 93,
   "motifFamily": "wild-world",
   "hook": [
-    "Soft drum, clear name—one-two-three!",
-    "Wild-world chorus, A to Z!"
+    "Range, region, compare—A-B-C!",
+    "Same planet, different maps."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat of quiet before target",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "respectful wildlife observer",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "light swung 4/4",
-    "round1Grammar": "Round 1 gives one visible habitat or body clue per animal and frames wildlife as something to observe respectfully, never chase or touch.",
-    "round2Grammar": "Round 2 uses track-and-name recall followed by species-conditioned observation gestures: horns curve, trunks lift, primate hands grasp, cats show spots/stripes or tails, canids show muzzle/ears, marsupials hop or balance, marine mammals show flippers, birds use bill/leg/ground-or-flight clues, and reptiles/amphibians use scale/tail/hop clues. No chase, feeding, touching, riding, or approach prompts.",
+    "rhymeEngine": "biogeography-range-contrast-rhyme",
+    "chorusRhymeEngine": "range-region-compare-hook",
+    "pointOfView": "a child comparing geographic ranges",
+    "chorusFunction": "repeat range-region-compare",
+    "grooveMeter": "steady 4/4 map-drawing pulse",
+    "round1Grammar": "hand-written range; similar roles contrasted across continents",
+    "round2Grammar": "range cue -> recall beat -> target -> map gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a soft field-note drum tap with one short acoustic-pluck answer.",
     "signatureColor": "a soft field-note drum tap with one short acoustic-pluck answer",
+    "authorialIntent": "Make Wild World Letter Song a biogeography song: continents, islands and mountain belts explain why similarly sized animals never naturally meet, replacing generic safari percussion with a world distribution map.",
+    "lyricIdentity": "A child draws range shapes and compares convergent roles across continents—lion versus puma, vicuna versus urial, koala versus panda.",
+    "imageMotifs": [
+      "lion Africa map",
+      "puma Americas map",
+      "koala Australia",
+      "vicuna Andes",
+      "Xenopus Africa water"
+    ],
+    "semanticArc": [
+      "Africa/Eurasia",
+      "Asia/Australia",
+      "Americas",
+      "islands/mountains and cross-continent comparison"
+    ],
+    "forbiddenGenericLanguage": [
+      "soft safari drum",
+      "wild world beat",
+      "all animals together",
+      "jungle world"
+    ],
     "chorusAfterRound1": [
       2,
       5
@@ -57,7 +78,7 @@
     "total": 26
   },
   "rhymeCraftCoverage": {
-    "available": 8,
+    "available": 9,
     "usedRound1": 7,
     "total": 26
   },

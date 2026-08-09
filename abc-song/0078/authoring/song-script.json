@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Forest, grassland, water, stone—four windows glow.",
+      "text": "Forest, desert, wetland, mountain, ocean—some animals fit one strongly, others cross several.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Each letter finds an animal and a place it may know.",
+      "text": "Habitat is a relationship, not a single permanent box.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Start with A; arrive at Ape. Ape in view | grasping hands and primate posture make the clue",
+      "text": "A — Ape! Apes occupy African/Asian forests and, for some, mosaics of woodland/grassland | broad category needs species detail.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B—Baboon! A baboon is a ground-traveling monkey with a long muzzle and strong limbs.",
+      "text": "B ... B ... Baboon! Many baboons use savanna, woodland and rocky habitats | adaptable ground-traveling primates.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "across forest, grassland, water, and stone, Camel catches the C beat. It has broad padded feet and one or two fat-storing humps depending on the species.",
+      "text": "C? Camel! Dromedary and Bactrian camels suit arid environments | broad padded feet and fat-storing humps support dry-land life.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "What word rides with D? Deer. A deer has hooves and slender legs; males of many species grow antlers.",
+      "text": "D is Deer. Deer species occupy forests, grasslands, wetlands and tundra edges | not one habitat box.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Elephant, loud and clear; E brought it here. Elephant so grand | trunk can lift and smell and understand",
+      "text": "E — Elephant! African and Asian elephants use forests, savannas, grasslands and wetlands depending species/population.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Start with F; arrive at Flamingo. It is a long-legged water bird with a bent bill adapted for filter feeding.",
+      "text": "F ... F ... Flamingo! Shallow saline/alkaline lakes, lagoons and wetlands provide filter-feeding habitat.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G—Gorilla! A gorilla is the largest living primate, with long arms and a powerful knuckle-walking body.",
+      "text": "G? Gorilla! Central African forest great ape | dense vegetation and fruit/leaf resources define the core habitat.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "across forest, grassland, water, and stone, Hyena catches the H beat. It has strong jaws, rounded ears, and a back that often slopes downward toward the hindquarters.",
+      "text": "H is Hyena. Species range from savanna and scrub to desert/woodland | not only open grassland.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Habitat, animal—match the two!",
+      "text": "Place, fit, overlap—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Letter first, then name the clue!",
+      "text": "One animal can use more than one kind of home.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "What word rides with I? Iguana. Iguana tail runs long | scales and careful habitat make the clue strong",
+      "text": "I — Iguana! Mostly tropical American lizards using trees, ground, islands or rocky coast depending species.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Jaguar, loud and clear; J brought it here. It is a stocky big cat with powerful paws and a coat patterned with dark rosettes.",
+      "text": "J ... J ... Jaguar! Forest, wetland, scrub and grassland can all support jaguars | strong swimmer as well as land predator.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Start with K; arrive at Koala. It is an Australian marsupial that climbs eucalyptus trees and eats mainly eucalyptus leaves.",
+      "text": "K? Koala! Australian eucalyptus woodland/forest specialist | tree food makes habitat unusually specific.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L—Lemur! A lemur is a Madagascar primate with grasping hands; many species have long tails.",
+      "text": "L is Lemur. Madagascar primates occupy rainforest, dry forest, spiny forest and more | island diversity creates many habitat fits.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "across forest, grassland, water, and stone, Meerkat catches the M beat. Meerkat in its place | body and habitat give clues to trace",
+      "text": "M — Meerkat! Southern African arid/open habitats | burrows help manage heat and predation.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "What word rides with N? Nyala. A nyala is an African antelope with pale vertical body stripes; adult males have long spiral horns.",
+      "text": "N ... N ... Nyala! Southern African antelope favors dense woodland/thickets near water | cover matters.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Ostrich, loud and clear; O brought it here. Ostrich runs fast | flightless wings and long legs pass",
+      "text": "O? Ostrich! Open African savanna and semi-arid habitats | running body fits wide ground space.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Start with P; arrive at Panda. A giant panda is a bear with black-and-white fur that eats mostly bamboo.",
+      "text": "P is Panda. Giant panda lives in cool mountain forests with abundant bamboo | specialized forest-mountain overlap.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Habitat, animal—match the two!",
+      "text": "Place, fit, overlap—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Letter first, then name the clue!",
+      "text": "One animal can use more than one kind of home.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q—Quokka! Quokka from afar | shape and habitat show what you are",
+      "text": "Q — Quokka! Southwestern Australian marsupial using dense vegetation and island/mainland habitats | not desert stereotype.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "across forest, grassland, water, and stone, Red Panda catches the R beat. It is a small tree-climbing mammal with reddish fur and a long ringed tail.",
+      "text": "R ... R ... Red Panda! Himalayan temperate mountain forest with bamboo understory | forest plus elevation.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "What word rides with S? Seal. A seal is a streamlined marine mammal with flippers; true seals lack external ear flaps.",
+      "text": "S? Seal! Marine/coastal mammal uses ocean for feeding and land/ice for haul-out depending species.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Tapir, loud and clear; T brought it here. It is a plant-eating mammal with a short flexible snout and sturdy body.",
+      "text": "T is Tapir. Tropical forest and wet habitats in Central/South America or Southeast Asia depending species | water often nearby.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Start with U; arrive at Urial. Urial in its place | sturdy legs and hoofed feet give clues to trace",
+      "text": "U — Urial! Dry mountain slopes, steppe and rocky terrain across Central/South Asia.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V—Vulture! A vulture is a scavenging bird with broad soaring wings and a hooked bill.",
+      "text": "V ... V ... Vulture! Habitat follows food, cliffs/trees for roosting, and soaring conditions | open landscapes often useful.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "across forest, grassland, water, and stone, Walrus catches the W beat. It is a large marine mammal with flippers, whiskers, and long tusks in adults.",
+      "text": "W? Walrus! Arctic/sub-Arctic marine mammal tied to shallow seas, coasts and sea ice | not temperate zoo-water generic.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "What word rides with X? Xenopus. Xenopus is an aquatic frog with webbed hind feet and eyes positioned high on its head.",
+      "text": "X is Xenopus. African clawed frog genus lives fully aquatic in freshwater | pond/stream system, not dry land.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Yak, loud and clear; Y brought it here. Yak on mountain ground | shaggy coat and sturdy horns are found",
+      "text": "Y — Yak! Domestic/wild yak adapted to high Tibetan Plateau and Himalayan-region cold uplands | elevation and cold define the card.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Start with Z; arrive at Zebra. It is an African equid with black-and-white stripes, a short upright mane, and hooves.",
+      "text": "Z ... Z ... Zebra! African grasslands and open woodlands depending species | grazing habitat closes the matrix.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,21 +255,21 @@
     {
       "id": "chorus-r1-7-1",
       "sectionId": "chorus-r1-7",
-      "text": "Habitat, animal—match the two!",
+      "text": "Place, fit, overlap—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-7-2",
       "sectionId": "chorus-r1-7",
-      "text": "Letter first, then name the clue!",
+      "text": "One animal can use more than one kind of home.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Start with A ... land on Ape! Show grasping hands and long arms.",
+      "text": "Habitat A ... Ape! Show grasping hands and long arms.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B? ... Baboon! Trace a long muzzle; show sturdy limbs.",
+      "text": "Fit B ... Baboon! Trace a long muzzle; show sturdy limbs.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Hold the rhythm after C ... Camel! Make one hump; take two broad-foot steps.",
+      "text": "One or many—C? ... Camel! Make one hump; take two broad-foot steps.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Last clue in the pocket: D ... Deer! Take two hoof-steps; branch antler fingers.",
+      "text": "Place card D ... Deer! Take two hoof-steps; branch antler fingers.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Start with E ... land on Elephant! Curve a trunk arm; show broad feet.",
+      "text": "Habitat E ... Elephant! Curve a trunk arm; show broad feet.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F? ... Flamingo! Stand one finger-leg tall; bend a filtering bill shape.",
+      "text": "Fit F ... Flamingo! Stand one finger-leg tall; bend a filtering bill shape.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Hold the rhythm after G ... Gorilla! Show long arms in a knuckle-walk pose.",
+      "text": "One or many—G? ... Gorilla! Show long arms in a knuckle-walk pose.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Last clue in the pocket: H ... Hyena! Show rounded ears, jaw, and sloping back.",
+      "text": "Place card H ... Hyena! Show rounded ears, jaw, and sloping back.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,7 +333,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Start with I ... land on Iguana! Trace scales and one long lizard tail; stay low.",
+      "text": "Habitat I ... Iguana! Trace scales and one long lizard tail; stay low.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -341,7 +341,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J? ... Jaguar! Dot rosettes; show a stocky cat body.",
+      "text": "Fit J ... Jaguar! Dot rosettes; show a stocky cat body.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -349,7 +349,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Hold the rhythm after K ... Koala! Grip an imaginary tree trunk with both hands.",
+      "text": "One or many—K? ... Koala! Grip an imaginary tree trunk with both hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -357,7 +357,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Last clue in the pocket: L ... Lemur! Show grasping hands and a long tail.",
+      "text": "Place card L ... Lemur! Show grasping hands and a long tail.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -365,7 +365,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Start with M ... land on Meerkat! Stand two fingers upright like a lookout.",
+      "text": "Habitat M ... Meerkat! Stand two fingers upright like a lookout.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -373,7 +373,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N? ... Nyala! Trace stripes; curve spiral horn shapes.",
+      "text": "Fit N ... Nyala! Trace stripes; curve spiral horn shapes.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -381,7 +381,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Hold the rhythm after O ... Ostrich! Run two long ground steps—no flying gesture.",
+      "text": "One or many—O? ... Ostrich! Run two long ground steps—no flying gesture.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -389,7 +389,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Last clue in the pocket: P ... Panda! Make round ear shapes; hold one bamboo line.",
+      "text": "Place card P ... Panda! Make round ear shapes; hold one bamboo line.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -397,21 +397,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Habitat, animal—match the two!",
+      "text": "Place, fit, overlap—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Letter first, then name the clue!",
+      "text": "One animal can use more than one kind of home.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Start with Q ... land on Quokka! Show two rounded ears, then one small hind-leg hop.",
+      "text": "Habitat Q ... Quokka! Show two rounded ears, then one small hind-leg hop.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -419,7 +419,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R? ... Red Panda! Trace a ringed tail; grip a branch.",
+      "text": "Fit R ... Red Panda! Trace a ringed tail; grip a branch.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -427,7 +427,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Hold the rhythm after S ... Seal! Sweep two flippers through pretend water.",
+      "text": "One or many—S? ... Seal! Sweep two flippers through pretend water.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -435,7 +435,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Last clue in the pocket: T ... Tapir! Curl a short snout; show a sturdy body.",
+      "text": "Place card T ... Tapir! Curl a short snout; show a sturdy body.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -443,7 +443,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Start with U ... land on Urial! Curve sheep horns; take two hill steps.",
+      "text": "Habitat U ... Urial! Curve sheep horns; take two hill steps.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -451,7 +451,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V? ... Vulture! Spread broad soaring wings and circle one slow turn.",
+      "text": "Fit V ... Vulture! Spread broad soaring wings and circle one slow turn.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -459,7 +459,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Hold the rhythm after W ... Walrus! Show tusks, whiskers, and broad flippers.",
+      "text": "One or many—W? ... Walrus! Show tusks, whiskers, and broad flippers.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -467,7 +467,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Last clue in the pocket: X ... Xenopus! Hop once; spread webbed hind-foot shapes.",
+      "text": "Place card X ... Xenopus! Hop once; spread webbed hind-foot shapes.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -475,7 +475,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Start with Y ... land on Yak! Ruffle shaggy-fur fingers, then show two horn curves.",
+      "text": "Habitat Y ... Yak! Ruffle shaggy-fur fingers, then show two horn curves.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -483,7 +483,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z? ... Zebra! Trace stripes; take two hoof-steps.",
+      "text": "Fit Z ... Zebra! Trace stripes; take two hoof-steps.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -491,28 +491,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Habitat, animal—match the two!",
+      "text": "Place, fit, overlap—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Letter first, then name the clue!",
+      "text": "One animal can use more than one kind of home.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Habitat, animal—match the two!",
+      "text": "Walrus stays coastal; Yak stays high; Jaguar can cross forest and wetland.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Letters tucked in—our wildlife trail is ours to keep!",
+      "text": "A to Z leaves the habitat cards connected, not isolated.",
       "objective": "narration",
       "objectReveal": "none"
     }

@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "One print in the dust... then two... then three.",
+      "text": "Antelope in Africa—then Emu moves the map to Australia, and Red Panda pulls it toward Asia.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Follow the tracks and call the wildlife words with me.",
+      "text": "This is a world wildlife ride, not one safari road.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Antelope appears—A found it. Antelope on the track | hoof and horn or head clues bring the answer back",
+      "text": "A — Antelope! Many hoofed species live across Africa and Eurasia | grassland, scrub, forest, and desert habitats vary by species.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B ... Baboon; A baboon is a ground-traveling monkey with a long muzzle and strong limbs.",
+      "text": "B ... B ... Baboon! African/Arabian monkeys spend much time on ground | strong limbs and social troops fit varied open habitats.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "A tiny pause for C, then Cheetah! It is a slender spotted cat built for very fast running over short distances.",
+      "text": "C? Cheetah! Mostly African with a tiny Iranian remnant population | open habitat supports high-speed hunting.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "along the dust-and-footprint trail, Dhole belongs with D. A dhole is a reddish Asian wild dog with rounded ears and a bushy tail.",
+      "text": "D is Dhole. Asian wild dog of forests and grasslands | geography shifts the map east.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Question: E? Answer: Emu. Emu in its place | wings and legs give clues to trace",
+      "text": "E — Emu! Large flightless Australian bird | long legs cross open woodland and grassland.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Fox appears—F found it. It has a pointed muzzle, upright ears, light paws, and a bushy tail.",
+      "text": "F ... F ... Fox! Fox species occur across many continents and habitats | one word needs species context.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G ... Giraffe; Giraffe up high | long neck reaches toward the sky",
+      "text": "G? Giraffe! African browser with long neck and legs | savanna/woodland frame belongs here.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "A tiny pause for H, then Hippo! A hippopotamus is a large semi-aquatic mammal that spends much of the day in water or mud.",
+      "text": "H is Hippo. Sub-Saharan African semi-aquatic mammal | river/lake habitat interrupts the dry-road cliché.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "along the dust-and-footprint trail, Iguana belongs with I. Iguana tail runs long | scales and careful habitat make the clue strong",
+      "text": "I — Iguana! Iguanas are primarily tropical American lizards | branch, ground, and island habitats vary.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Question: J? Answer: Jaguar. It is a stocky big cat with powerful paws and a coat patterned with dark rosettes.",
+      "text": "J ... J ... Jaguar! Large spotted cat of the Americas | tropical forest and wetland map, not African safari.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kangaroo appears—K found it. It has powerful hind legs, large feet, and a long balancing tail.",
+      "text": "K? Kangaroo! Australian marsupial | hopping movement moves the route firmly to Australia.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L ... Lemur; A lemur is a Madagascar primate with grasping hands; many species have long tails.",
+      "text": "L is Lemur. Primate native to Madagascar | island geography is essential to the clue.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Footprint clue, what do you see?",
+      "text": "Region, habitat, animal—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Wildlife words from A to Z!",
+      "text": "Move the map before you move the rhyme.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "A tiny pause for M, then Monkey! Monkey on the scene | face, hands, and agile limbs keep the meaning clean",
+      "text": "M — Monkey! Broad primate term across tropical Americas, Africa and Asia | exact species decides the map point.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "along the dust-and-footprint trail, Nile Crocodile belongs with N. A Nile crocodile is a large African reptile with powerful jaws and a long armored body; we observe it only from a safe distance.",
+      "text": "N ... N ... Nile Crocodile! African crocodilian of rivers, lakes and wetlands | water habitat, not dusty track.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Question: O? Answer: Ostrich. Ostrich runs fast | flightless wings and long legs pass",
+      "text": "O? Ostrich! African flightless bird of open dry habitats | long running legs fit the continental card.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Puma appears—P found it. It is a large tawny cat with a long balancing tail and powerful hind legs.",
+      "text": "P is Puma. American big cat ranging from Canada to southern South America | mountain, forest, desert and grassland all possible.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q ... Quail; Quail in sight | feather, bill, and feet give clues just right",
+      "text": "Q — Quail! Ground birds occur in many world regions | species determines geography.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "A tiny pause for R, then Red Panda! It is a small tree-climbing mammal with reddish fur and a long ringed tail.",
+      "text": "R ... R ... Red Panda! Himalayan and southwestern Chinese mountain forests | bamboo-rich temperate forest, not savanna.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "along the dust-and-footprint trail, Seal belongs with S. A seal is a streamlined marine mammal with flippers; true seals lack external ear flaps.",
+      "text": "S? Seal! Marine mammals live on coasts and oceans in many regions | route moves to water.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Question: T? Answer: Tiger. It is a large cat with dark vertical stripes over orange-and-pale fur.",
+      "text": "T is Tiger. Asian big cat | forests, grasslands and mangroves vary by population.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Footprint clue, what do you see?",
+      "text": "Region, habitat, animal—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Wildlife words from A to Z!",
+      "text": "Move the map before you move the rhyme.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Urial appears—U found it. Urial in its place | sturdy legs and hoofed feet give clues to trace",
+      "text": "U — Urial! Wild sheep of Central/South Asian dry mountains and steppe | rocky continental interior.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V ... Vulture; A vulture is a scavenging bird with broad soaring wings and a hooked bill.",
+      "text": "V ... V ... Vulture! Vultures occur in Old and New Worlds in different families | soaring scavenger role crosses regions.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "A tiny pause for W, then Wolf! It is a large wild canid with long legs, a strong muzzle, upright ears, and a bushy tail.",
+      "text": "W? Wolf! Gray wolves range across parts of North America, Europe and Asia | large territory, not safari-only.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "along the dust-and-footprint trail, Xenopus belongs with X. Xenopus is an aquatic frog with webbed hind feet and eyes positioned high on its head.",
+      "text": "X is Xenopus. African clawed frog genus | fully aquatic freshwater frog moves the map underwater.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Question: Y? Answer: Yellow Mongoose. Yellow Mongoose in its place | body and habitat give clues to trace",
+      "text": "Y — Yellow Mongoose! Southern African species | dry grassland and scrub return the route south.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zebu appears—Z found it. It is a type of cattle with a noticeable hump over the shoulders.",
+      "text": "Z ... Z ... Zebu! Humped domestic cattle widespread in tropical regions | human-managed livestock closes the map, not wild safari prey.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Question: A? ... Antelope! Take two hoof-steps; curve horn shapes.",
+      "text": "Map A ... Antelope! Take two hoof-steps; curve horn shapes.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... answer when ready ... Baboon! Trace a long muzzle; show sturdy limbs.",
+      "text": "Region clue B ... Baboon! Trace a long muzzle; show sturdy limbs.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Remember the C clue ... Cheetah! Trace spots, then one running silhouette.",
+      "text": "Where belongs C? ... Cheetah! Trace spots, then one running silhouette.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D, one quiet beat ... Dhole! Show rounded ears, muzzle, and bushy tail.",
+      "text": "World route D ... Dhole! Show rounded ears, muzzle, and bushy tail.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Question: E? ... Emu! Run two long ground steps—no flying gesture.",
+      "text": "Map E ... Emu! Run two long ground steps—no flying gesture.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... answer when ready ... Fox! Point two upright ear fingers, then sweep one bushy tail.",
+      "text": "Region clue F ... Fox! Point two upright ear fingers, then sweep one bushy tail.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Remember the G clue ... Giraffe! Stretch a long neck; take two tall steps.",
+      "text": "Where belongs G? ... Giraffe! Stretch a long neck; take two tall steps.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H, one quiet beat ... Hippo! Make a broad body; draw a water line.",
+      "text": "World route H ... Hippo! Make a broad body; draw a water line.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Question: I? ... Iguana! Trace scales and one long lizard tail; stay low.",
+      "text": "Map I ... Iguana! Trace scales and one long lizard tail; stay low.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... answer when ready ... Jaguar! Dot rosettes; show a stocky cat body.",
+      "text": "Region clue J ... Jaguar! Dot rosettes; show a stocky cat body.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Remember the K clue ... Kangaroo! Hop once; hold a long balancing tail.",
+      "text": "Where belongs K? ... Kangaroo! Hop once; hold a long balancing tail.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L, one quiet beat ... Lemur! Show grasping hands and a long tail.",
+      "text": "World route L ... Lemur! Show grasping hands and a long tail.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -358,21 +358,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Footprint clue, what do you see?",
+      "text": "Region, habitat, animal—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Wildlife words from A to Z!",
+      "text": "Move the map before you move the rhyme.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Question: M? ... Monkey! Show grasping hands, then one agile branch reach.",
+      "text": "Map M ... Monkey! Show grasping hands, then one agile branch reach.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... answer when ready ... Nile Crocodile! Trace armored back, snout, and tail from afar.",
+      "text": "Region clue N ... Nile Crocodile! Trace armored back, snout, and tail from afar.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Remember the O clue ... Ostrich! Run two long ground steps—no flying gesture.",
+      "text": "Where belongs O? ... Ostrich! Run two long ground steps—no flying gesture.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P, one quiet beat ... Puma! Show a tawny cat body and one long balancing tail.",
+      "text": "World route P ... Puma! Show a tawny cat body and one long balancing tail.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Question: Q? ... Quail! Make a plump ground-bird shape; take two quick steps.",
+      "text": "Map Q ... Quail! Make a plump ground-bird shape; take two quick steps.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... answer when ready ... Red Panda! Trace a ringed tail; grip a branch.",
+      "text": "Region clue R ... Red Panda! Trace a ringed tail; grip a branch.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Remember the S clue ... Seal! Sweep two flippers through pretend water.",
+      "text": "Where belongs S? ... Seal! Sweep two flippers through pretend water.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T, one quiet beat ... Tiger! Trace stripes; show large cat paws.",
+      "text": "World route T ... Tiger! Trace stripes; show large cat paws.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Question: U? ... Urial! Curve sheep horns; take two hill steps.",
+      "text": "Map U ... Urial! Curve sheep horns; take two hill steps.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... answer when ready ... Vulture! Spread broad soaring wings and circle one slow turn.",
+      "text": "Region clue V ... Vulture! Spread broad soaring wings and circle one slow turn.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Remember the W clue ... Wolf! Show upright ears, muzzle, and bushy tail.",
+      "text": "Where belongs W? ... Wolf! Show upright ears, muzzle, and bushy tail.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X, one quiet beat ... Xenopus! Hop once; spread webbed hind-foot shapes.",
+      "text": "World route X ... Xenopus! Hop once; spread webbed hind-foot shapes.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,7 +468,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Question: Y? ... Yellow Mongoose! Make a low body; sweep a long tail.",
+      "text": "Map Y ... Yellow Mongoose! Make a low body; sweep a long tail.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -476,7 +476,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... answer when ready ... Zebu! Make a shoulder hump; show cattle horns.",
+      "text": "Region clue Z ... Zebu! Make a shoulder hump; show cattle horns.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -484,28 +484,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Footprint clue, what do you see?",
+      "text": "Region, habitat, animal—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Wildlife words from A to Z!",
+      "text": "Move the map before you move the rhyme.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Footprint clue, what do you see?",
+      "text": "Freshwater frog, coastal seal, desert cattle—the map stays wide.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "One last beat—our wildlife trail comes home with me!",
+      "text": "A to Z ends with every animal left in its real part of the world.",
       "objective": "narration",
       "objectReveal": "none"
     }

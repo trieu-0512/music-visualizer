@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Ranger eyes ready—look far, never chase.",
+      "text": "Read the range map. Watch one behavior. Leave one question unanswered.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A to Z brings wildlife safely into our picture space.",
+      "text": "A zoo explorer learns without asking an animal to perform.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Antelope—that is our A. Antelope on the track | hoof and horn or head clues bring the answer back",
+      "text": "A — Antelope! Read the species name before assuming one antelope body fits all | horns, range and habitat vary.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Spot B: Bison! A bison has massive shoulders, shaggy forequarters, hooves, and short curved horns.",
+      "text": "B ... B ... Bison! North American/European bison species are massive grazers | signage distinguishes them from buffalo.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C brings Camel; It has broad padded feet and one or two fat-storing humps depending on the species.",
+      "text": "C? Camel! One or two humps depends on camel species | fat storage, not water tanks.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "A clue for D: Deer. A deer has hooves and slender legs; males of many species grow antlers.",
+      "text": "D is Deer. Antlers occur mainly in males of most deer species and are shed/regrown | sign prevents oversimplification.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "through the ranger binocular view, here comes Elephant for E. Elephant so grand | trunk can lift and smell and understand",
+      "text": "E — Elephant! Watch trunk exploration, foraging and social behavior | welfare requires complexity and choice.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Flamingo—that is our F. It is a long-legged water bird with a bent bill adapted for filter feeding.",
+      "text": "F ... F ... Flamingo! Filter feeding, preening and flocking reveal more than pink color | distance protects the group.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Spot G: Giraffe! Giraffe up high | long neck reaches toward the sky",
+      "text": "G? Giraffe! Long tongue and neck support browsing | social and movement space matter beyond height.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H brings Hippo; A hippopotamus is a large semi-aquatic mammal that spends much of the day in water or mud.",
+      "text": "H is Hippo. Water use and nighttime grazing shape its behavior | never confuse stillness with harmlessness.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "A clue for I: Ibex. Ibex on the track | hoof and horn or head clues bring the answer back",
+      "text": "I — Ibex! Rocky terrain lets sure-footed movement appear naturally | observe rather than coax climbing.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "through the ranger binocular view, here comes Jackal for J. It is a slender wild canid with pointed ears, a narrow muzzle, and a bushy tail.",
+      "text": "J ... J ... Jackal! Wild canid behavior may include resting, scent investigation, foraging or social interaction | no dog-like pet expectation.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Koala—that is our K. It is an Australian marsupial that climbs eucalyptus trees and eats mainly eucalyptus leaves.",
+      "text": "K? Koala! Long rest periods are normal because eucalyptus diet is low-energy | sleeping is a valid observation.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Spot L: Lemur! A lemur is a Madagascar primate with grasping hands; many species have long tails.",
+      "text": "L is Lemur. Madagascar primates vary widely by species | sign gives exact species before we generalize.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Look from here, let wildlife be!",
+      "text": "Read, watch, question—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Name the picture, A to Z!",
+      "text": "A hidden animal can still teach us patience.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M brings Monkey; Monkey on the scene | face, hands, and agile limbs keep the meaning clean",
+      "text": "M — Monkey! 'Monkey' is too broad for a field note | write the actual species from signage.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "A clue for N: Nyala. A nyala is an African antelope with pale vertical body stripes; adult males have long spiral horns.",
+      "text": "N ... N ... Nyala! Shy woodland antelope may use cover | hidden behavior can be normal and welfare-positive.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "through the ranger binocular view, here comes Ostrich for O. Ostrich runs fast | flightless wings and long legs pass",
+      "text": "O? Ostrich! Flightless running bird needs ground space | wings still serve display/balance roles.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Puma—that is our P. It is a large tawny cat with a long balancing tail and powerful hind legs.",
+      "text": "P is Puma. Solitary American cat also called cougar/mountain lion | cover and privacy are important behavior choices.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Spot Q: Quokka! Quokka from afar | shape and habitat show what you are",
+      "text": "Q — Quokka! Australian marsupial | visitor popularity never makes touching or feeding appropriate.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R brings Red Panda; It is a small tree-climbing mammal with reddish fur and a long ringed tail.",
+      "text": "R ... R ... Red Panda! Arboreal Himalayan mammal | climbing, resting and scent behavior belong in a complex habitat.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "A clue for S: Serval. A serval is a long-legged spotted African cat with especially large ears.",
+      "text": "S? Serval! African cat with long legs and huge ears | listening and pouncing behavior may appear without visitor prompts.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "through the ranger binocular view, here comes Tiger for T. It is a large cat with dark vertical stripes over orange-and-pale fur.",
+      "text": "T is Tiger. Solitary Asian cat | a hidden/resting tiger is not a failed exhibit moment.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Uakari—that is our U. Uakari on the scene | face, hands, and agile limbs keep the meaning clean",
+      "text": "U — Uakari! Amazonian monkey with unusual short tail and bare face | species sign anchors tropical range.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Spot V: Vulture! A vulture is a scavenging bird with broad soaring wings and a hooked bill.",
+      "text": "V ... V ... Vulture! Scavenger ecology is essential ecosystem work | soaring or resting replaces villain stereotypes.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W brings Walrus; It is a large marine mammal with flippers, whiskers, and long tusks in adults.",
+      "text": "W? Walrus! Arctic marine mammal uses water and haul-out surfaces | tusks are real tools/traits, not props.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "A clue for X: Xerus. A xerus is an African ground squirrel that lives in open dry habitats.",
+      "text": "X is Xerus. African ground squirrel | digging and social vigilance make small-animal behavior worth watching.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Look from here, let wildlife be!",
+      "text": "Read, watch, question—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Name the picture, A to Z!",
+      "text": "A hidden animal can still teach us patience.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "through the ranger binocular view, here comes Yellow Mongoose for Y. Yellow Mongoose in its place | body and habitat give clues to trace",
+      "text": "Y — Yellow Mongoose! Southern African ground predator | small size does not make it a pet.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zebu—that is our Z. It is a type of cattle with a noticeable hump over the shoulders.",
+      "text": "Z ... Z ... Zebu! Domestic cattle type | zoo/farm education should label domestication clearly beside wild animals.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Spot A ... Antelope! Take two hoof-steps; curve horn shapes.",
+      "text": "Field note A ... Antelope! Take two hoof-steps; curve horn shapes.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Call B, wait ... Bison! Show massive shoulders and curved horns.",
+      "text": "Sign/behavior B ... Bison! Show massive shoulders and curved horns.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Which word fits C? ... Camel! Make one hump; take two broad-foot steps.",
+      "text": "What notice C? ... Camel! Make one hump; take two broad-foot steps.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... D ... Deer! Take two hoof-steps; branch antler fingers.",
+      "text": "Explorer note D ... Deer! Take two hoof-steps; branch antler fingers.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Spot E ... Elephant! Curve a trunk arm; show broad feet.",
+      "text": "Field note E ... Elephant! Curve a trunk arm; show broad feet.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Call F, wait ... Flamingo! Stand one finger-leg tall; bend a filtering bill shape.",
+      "text": "Sign/behavior F ... Flamingo! Stand one finger-leg tall; bend a filtering bill shape.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Which word fits G? ... Giraffe! Stretch a long neck; take two tall steps.",
+      "text": "What notice G? ... Giraffe! Stretch a long neck; take two tall steps.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... H ... Hippo! Make a broad body; draw a water line.",
+      "text": "Explorer note H ... Hippo! Make a broad body; draw a water line.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Spot I ... Ibex! Curve horns backward; take two mountain steps.",
+      "text": "Field note I ... Ibex! Curve horns backward; take two mountain steps.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Call J, wait ... Jackal! Show pointed ears, a narrow muzzle, and one bushy-tail sweep.",
+      "text": "Sign/behavior J ... Jackal! Show pointed ears, a narrow muzzle, and one bushy-tail sweep.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Which word fits K? ... Koala! Grip an imaginary tree trunk with both hands.",
+      "text": "What notice K? ... Koala! Grip an imaginary tree trunk with both hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... L ... Lemur! Show grasping hands and a long tail.",
+      "text": "Explorer note L ... Lemur! Show grasping hands and a long tail.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Spot M ... Monkey! Show grasping hands, then one agile branch reach.",
+      "text": "Field note M ... Monkey! Show grasping hands, then one agile branch reach.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -359,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Call N, wait ... Nyala! Trace stripes; curve spiral horn shapes.",
+      "text": "Sign/behavior N ... Nyala! Trace stripes; curve spiral horn shapes.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -367,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Which word fits O? ... Ostrich! Run two long ground steps—no flying gesture.",
+      "text": "What notice O? ... Ostrich! Run two long ground steps—no flying gesture.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -375,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... P ... Puma! Show a tawny cat body and one long balancing tail.",
+      "text": "Explorer note P ... Puma! Show a tawny cat body and one long balancing tail.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -383,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Look from here, let wildlife be!",
+      "text": "Read, watch, question—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Name the picture, A to Z!",
+      "text": "A hidden animal can still teach us patience.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Spot Q ... Quokka! Show two rounded ears, then one small hind-leg hop.",
+      "text": "Field note Q ... Quokka! Show two rounded ears, then one small hind-leg hop.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Call R, wait ... Red Panda! Trace a ringed tail; grip a branch.",
+      "text": "Sign/behavior R ... Red Panda! Trace a ringed tail; grip a branch.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Which word fits S? ... Serval! Show huge ears, long legs, and spots.",
+      "text": "What notice S? ... Serval! Show huge ears, long legs, and spots.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... T ... Tiger! Trace stripes; show large cat paws.",
+      "text": "Explorer note T ... Tiger! Trace stripes; show large cat paws.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Spot U ... Uakari! Frame a bare face; show grasping hands.",
+      "text": "Field note U ... Uakari! Frame a bare face; show grasping hands.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Call V, wait ... Vulture! Spread broad soaring wings and circle one slow turn.",
+      "text": "Sign/behavior V ... Vulture! Spread broad soaring wings and circle one slow turn.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Which word fits W? ... Walrus! Show tusks, whiskers, and broad flippers.",
+      "text": "What notice W? ... Walrus! Show tusks, whiskers, and broad flippers.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... X ... Xerus! Show a bushy tail; take two ground steps.",
+      "text": "Explorer note X ... Xerus! Show a bushy tail; take two ground steps.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Spot Y ... Yellow Mongoose! Make a low body; sweep a long tail.",
+      "text": "Field note Y ... Yellow Mongoose! Make a low body; sweep a long tail.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Call Z, wait ... Zebu! Make a shoulder hump; show cattle horns.",
+      "text": "Sign/behavior Z ... Zebu! Make a shoulder hump; show cattle horns.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Look from here, let wildlife be!",
+      "text": "Read, watch, question—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Name the picture, A to Z!",
+      "text": "A hidden animal can still teach us patience.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Look from here, let wildlife be!",
+      "text": "Notebook closes while the tiger stays in shade and the walrus rests.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Close the page softly—our wildlife trail stays in the melody!",
+      "text": "A to Z leaves with questions, not demands.",
       "objective": "narration",
       "objectReveal": "none"
     }

@@ -6,8 +6,8 @@
   "tempoBpm": 90,
   "motifFamily": "habitat-hop",
   "hook": [
-    "Habitat, animal—match the two!",
-    "Letter first, then name the clue!"
+    "Place, fit, overlap—A-B-C!",
+    "One animal can use more than one kind of home."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "brief thinking beat before reveal",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "respectful wildlife observer",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "stop-and-go 4/4",
-    "round1Grammar": "Round 1 gives one visible habitat or body clue per animal and frames wildlife as something to observe respectfully, never chase or touch.",
-    "round2Grammar": "Round 2 uses track-and-name recall followed by species-conditioned observation gestures: horns curve, trunks lift, primate hands grasp, cats show spots/stripes or tails, canids show muzzle/ears, marsupials hop or balance, marine mammals show flippers, birds use bill/leg/ground-or-flight clues, and reptiles/amphibians use scale/tail/hop clues. No chase, feeding, touching, riding, or approach prompts.",
+    "rhymeEngine": "habitat-fit-overlap-rhyme",
+    "chorusRhymeEngine": "place-fit-overlap-hook",
+    "pointOfView": "a child sorting habitat cards while allowing ecological overlap",
+    "chorusFunction": "repeat place-fit-overlap",
+    "grooveMeter": "measured 4/4 sorting pulse",
+    "round1Grammar": "hand-written habitat fit and range; overlaps explicit",
+    "round2Grammar": "habitat cue -> recall beat -> target -> card-sort gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a small habitat bell change plus muted drum footprint after the word.",
     "signatureColor": "a small habitat bell change plus muted drum footprint after the word",
+    "authorialIntent": "Make Habitat Hop A-Z a habitat-fit matrix: forest, open grassland, desert, wetland, mountain, marine/ice and freshwater are compared, including animals that use multiple habitats.",
+    "lyricIdentity": "A child places animals into habitat columns but allows overlap; one animal can span more than one box.",
+    "imageMotifs": [
+      "camel desert",
+      "gorilla forest",
+      "flamingo wetland",
+      "walrus Arctic coast",
+      "yak high mountain"
+    ],
+    "semanticArc": [
+      "forest/open land",
+      "dry/wet contrasts",
+      "mountain/tropical overlap",
+      "marine/freshwater finish"
+    ],
+    "forbiddenGenericLanguage": [
+      "four windows glow",
+      "one place it may know",
+      "one habitat each",
+      "habitat hop"
+    ],
     "chorusAfterRound1": [
       2,
       4,
@@ -58,7 +79,7 @@
     "total": 26
   },
   "rhymeCraftCoverage": {
-    "available": 11,
+    "available": 12,
     "usedRound1": 8,
     "total": 26
   },

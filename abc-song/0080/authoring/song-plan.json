@@ -6,8 +6,8 @@
   "tempoBpm": 89,
   "motifFamily": "zoo-trail",
   "hook": [
-    "Look from here, let wildlife be!",
-    "Name the picture, A to Z!"
+    "Read, watch, question—A-B-C!",
+    "A hidden animal can still teach us patience."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two short beats for searching",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "respectful wildlife observer",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "story-song 3/4-to-4/4 feel",
-    "round1Grammar": "Round 1 gives one visible habitat or body clue per animal and frames wildlife as something to observe respectfully, never chase or touch.",
-    "round2Grammar": "Round 2 uses track-and-name recall followed by species-conditioned observation gestures: horns curve, trunks lift, primate hands grasp, cats show spots/stripes or tails, canids show muzzle/ears, marsupials hop or balance, marine mammals show flippers, birds use bill/leg/ground-or-flight clues, and reptiles/amphibians use scale/tail/hop clues. No chase, feeding, touching, riding, or approach prompts.",
+    "rhymeEngine": "zoo-fieldnote-question-rhyme",
+    "chorusRhymeEngine": "read-watch-question-hook",
+    "pointOfView": "a child making respectful zoo field notes",
+    "chorusFunction": "repeat read-watch-question",
+    "grooveMeter": "walking 4/4 notebook pulse",
+    "round1Grammar": "hand-written sign+behavior+range; privacy/welfare explicit",
+    "round2Grammar": "field-note cue -> recall beat -> target -> point/sketch gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a binocular-click woodblock followed by a warm marimba confirmation.",
     "signatureColor": "a binocular-click woodblock followed by a warm marimba confirmation",
+    "authorialIntent": "Make Zoo Explorer Trail a welfare-and-field-note protocol: read signage, observe at distance, distinguish natural behavior from visitor expectation, and connect zoo education to conservation without claiming every facility is equal.",
+    "lyricIdentity": "A child ranger records one behavior, one habitat clue and one unanswered question per exhibit; hidden animals count as a valid observation.",
+    "imageMotifs": [
+      "signboard range map",
+      "tiger hidden in shade",
+      "vulture soaring enclosure",
+      "walrus pool/haulout",
+      "quokka rest area"
+    ],
+    "semanticArc": [
+      "read signs",
+      "observe behavior",
+      "respect rest/privacy",
+      "connect range/conservation questions"
+    ],
+    "forbiddenGenericLanguage": [
+      "ranger eyes ready",
+      "safely into picture space",
+      "zoo explorer fun",
+      "make animal come closer"
+    ],
     "chorusAfterRound1": [
       3,
       6

@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Boom-ba, boom-ba—soft safari drum.",
+      "text": "Lion in Africa; Puma in the Americas; Koala in Australia.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Listen for the letter first; then let the animal come.",
+      "text": "Wildlife shares one planet without sharing one neighborhood.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A—Antelope! Antelope on the track | hoof and horn or head clues bring the answer back",
+      "text": "A — Antelope! Broad hoofed-animal term mainly across Africa/Eurasia | many unrelated-looking species share grazing/browsing roles.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B ... B ... Baboon. A baboon is a ground-traveling monkey with a long muzzle and strong limbs.",
+      "text": "B ... B ... Baboon! African/Arabian primate | ground travel contrasts with arboreal monkeys elsewhere.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Camel steps in for C. It has broad padded feet and one or two fat-storing humps depending on the species.",
+      "text": "C? Camel! Dromedary roots in arid Africa/Arabia; Bactrian camels in Central Asia | one word spans two camel species.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "What does D reveal? Deer! A deer has hooves and slender legs; males of many species grow antlers.",
+      "text": "D is Deer. Deer family ranges across much of Eurasia and the Americas | species replace each other geographically.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "beside the soft field-note drum, E meets Emu. Emu in its place | wings and legs give clues to trace",
+      "text": "E — Emu! Australian flightless bird | geographic isolation helped produce a distinctive large-running bird fauna.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F—Fox! It has a pointed muzzle, upright ears, light paws, and a bushy tail.",
+      "text": "F ... F ... Fox! Foxes occupy several continents | species and climate define the actual range.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G ... G ... Gorilla. A gorilla is the largest living primate, with long arms and a powerful knuckle-walking body.",
+      "text": "G? Gorilla! Central African great ape | no wild gorillas outside Africa.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Hyena steps in for H. It has strong jaws, rounded ears, and a back that often slopes downward toward the hindquarters.",
+      "text": "H is Hyena. Hyenas are Old World carnivores, with living species centered in Africa and parts of Asia.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Soft drum, clear name—one-two-three!",
+      "text": "Range, region, compare—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Wild-world chorus, A to Z!",
+      "text": "Same planet, different maps.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "What does I reveal? Ibex! Ibex on the track | hoof and horn or head clues bring the answer back",
+      "text": "I — Ibex! Wild goats of Eurasian/African mountain systems depending species | high rock repeats across regions.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "beside the soft field-note drum, J meets Jackal. It is a slender wild canid with pointed ears, a narrow muzzle, and a bushy tail.",
+      "text": "J ... J ... Jackal! Old World canids across Africa/Eurasia | different from coyotes of the Americas.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K—Koala! It is an Australian marsupial that climbs eucalyptus trees and eats mainly eucalyptus leaves.",
+      "text": "K? Koala! Native to eastern/southeastern Australia | eucalyptus specialization anchors the range.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L ... L ... Lion. A lion is a large cat with a tawny coat; adult males often grow a prominent mane.",
+      "text": "L is Lion. Native wild lions survive mainly in sub-Saharan Africa plus a small population in India | range is not simply 'Africa only'.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Monkey steps in for M. Monkey on the scene | face, hands, and agile limbs keep the meaning clean",
+      "text": "M — Monkey! Broad term includes New World and Old World lineages | geography helps separate them.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "What does N reveal? Nyala! A nyala is an African antelope with pale vertical body stripes; adult males have long spiral horns.",
+      "text": "N ... N ... Nyala! Southern African antelope | regional range much smaller than the word antelope suggests.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "beside the soft field-note drum, O meets Okapi. It is a forest-dwelling relative of the giraffe with striped markings on its legs.",
+      "text": "O? Okapi! Endemic to rainforests of the Democratic Republic of the Congo | giraffe relative with a narrow African range.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P—Panda! A giant panda is a bear with black-and-white fur that eats mostly bamboo.",
+      "text": "P is Panda. Giant panda is native to central Chinese mountain forests | not a global bamboo animal.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q ... Q ... Quokka. Quokka from afar | shape and habitat show what you are",
+      "text": "Q — Quokka! Southwestern Australian marsupial, especially famous on offshore islands | tiny geographic footprint.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Rhino steps in for R. A rhinoceros is a large thick-skinned mammal with one or two horns made of keratin on its snout.",
+      "text": "R ... R ... Rhino! Living rhinos occur naturally in parts of Africa and Asia | two continents, several species.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "What does S reveal? Serval! A serval is a long-legged spotted African cat with especially large ears.",
+      "text": "S? Serval! African spotted cat tied strongly to grassland/wetland mosaics | different continent from puma.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "beside the soft field-note drum, T meets Tapir. It is a plant-eating mammal with a short flexible snout and sturdy body.",
+      "text": "T is Tapir. Tapirs occur in Central/South America and Southeast Asia | separated lineages on distant continents.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Soft drum, clear name—one-two-three!",
+      "text": "Range, region, compare—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Wild-world chorus, A to Z!",
+      "text": "Same planet, different maps.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U—Urial! Urial in its place | sturdy legs and hoofed feet give clues to trace",
+      "text": "U — Urial! Central/South Asian wild sheep | high dry range contrasts with Andean Vicuna.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V ... V ... Vicuna. A vicuna is a slender South American camelid adapted to high Andean grasslands.",
+      "text": "V ... V ... Vicuna! Wild South American camelid of the Andes | continent and elevation define it.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Wolf steps in for W. It is a large wild canid with long legs, a strong muzzle, upright ears, and a bushy tail.",
+      "text": "W? Wolf! Gray wolves range across portions of Eurasia and North America | broad northern distribution.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "What does X reveal? Xenopus! Xenopus is an aquatic frog with webbed hind feet and eyes positioned high on its head.",
+      "text": "X is Xenopus. African aquatic frog genus | freshwater range keeps X grounded in Africa.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "beside the soft field-note drum, Y meets Yellow Mongoose. Yellow Mongoose in its place | body and habitat give clues to trace",
+      "text": "Y — Yellow Mongoose! Southern African species | another compact regional range.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z—Zebu! It is a type of cattle with a noticeable hump over the shoulders.",
+      "text": "Z ... Z ... Zebu! Domestic humped cattle spread widely through human agriculture | current distribution reflects people as much as wild biogeography.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Antelope! Take two hoof-steps; curve horn shapes.",
+      "text": "Range A ... Antelope! Take two hoof-steps; curve horn shapes.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Remember B ... Baboon! Trace a long muzzle; show sturdy limbs.",
+      "text": "Region B ... Baboon! Trace a long muzzle; show sturdy limbs.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C? ... Camel! Make one hump; take two broad-foot steps.",
+      "text": "Which map C? ... Camel! Make one hump; take two broad-foot steps.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Find D, hold the beat ... Deer! Take two hoof-steps; branch antler fingers.",
+      "text": "World clue D ... Deer! Take two hoof-steps; branch antler fingers.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E ... Emu! Run two long ground steps—no flying gesture.",
+      "text": "Range E ... Emu! Run two long ground steps—no flying gesture.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Fox! Point two upright ear fingers, then sweep one bushy tail.",
+      "text": "Region F ... Fox! Point two upright ear fingers, then sweep one bushy tail.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G? ... Gorilla! Show long arms in a knuckle-walk pose.",
+      "text": "Which map G? ... Gorilla! Show long arms in a knuckle-walk pose.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Find H, hold the beat ... Hyena! Show rounded ears, jaw, and sloping back.",
+      "text": "World clue H ... Hyena! Show rounded ears, jaw, and sloping back.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "I ... Ibex! Curve horns backward; take two mountain steps.",
+      "text": "Range I ... Ibex! Curve horns backward; take two mountain steps.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Remember J ... Jackal! Show pointed ears, a narrow muzzle, and one bushy-tail sweep.",
+      "text": "Region J ... Jackal! Show pointed ears, a narrow muzzle, and one bushy-tail sweep.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K? ... Koala! Grip an imaginary tree trunk with both hands.",
+      "text": "Which map K? ... Koala! Grip an imaginary tree trunk with both hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Find L, hold the beat ... Lion! Frame a mane; show large cat paws.",
+      "text": "World clue L ... Lion! Frame a mane; show large cat paws.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -358,21 +358,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Soft drum, clear name—one-two-three!",
+      "text": "Range, region, compare—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Wild-world chorus, A to Z!",
+      "text": "Same planet, different maps.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M ... Monkey! Show grasping hands, then one agile branch reach.",
+      "text": "Range M ... Monkey! Show grasping hands, then one agile branch reach.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Remember N ... Nyala! Trace stripes; curve spiral horn shapes.",
+      "text": "Region N ... Nyala! Trace stripes; curve spiral horn shapes.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O? ... Okapi! Trace striped legs, then a giraffe-like head.",
+      "text": "Which map O? ... Okapi! Trace striped legs, then a giraffe-like head.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Find P, hold the beat ... Panda! Make round ear shapes; hold one bamboo line.",
+      "text": "World clue P ... Panda! Make round ear shapes; hold one bamboo line.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quokka! Show two rounded ears, then one small hind-leg hop.",
+      "text": "Range Q ... Quokka! Show two rounded ears, then one small hind-leg hop.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Remember R ... Rhino! Show snout horns and a heavy body.",
+      "text": "Region R ... Rhino! Show snout horns and a heavy body.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S? ... Serval! Show huge ears, long legs, and spots.",
+      "text": "Which map S? ... Serval! Show huge ears, long legs, and spots.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Find T, hold the beat ... Tapir! Curl a short snout; show a sturdy body.",
+      "text": "World clue T ... Tapir! Curl a short snout; show a sturdy body.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U ... Urial! Curve sheep horns; take two hill steps.",
+      "text": "Range U ... Urial! Curve sheep horns; take two hill steps.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Remember V ... Vicuna! Stretch a slender neck; take two light steps.",
+      "text": "Region V ... Vicuna! Stretch a slender neck; take two light steps.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W? ... Wolf! Show upright ears, muzzle, and bushy tail.",
+      "text": "Which map W? ... Wolf! Show upright ears, muzzle, and bushy tail.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X, hold the beat ... Xenopus! Hop once; spread webbed hind-foot shapes.",
+      "text": "World clue X ... Xenopus! Hop once; spread webbed hind-foot shapes.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,21 +468,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Soft drum, clear name—one-two-three!",
+      "text": "Range, region, compare—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Wild-world chorus, A to Z!",
+      "text": "Same planet, different maps.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y ... Yellow Mongoose! Make a low body; sweep a long tail.",
+      "text": "Range Y ... Yellow Mongoose! Make a low body; sweep a long tail.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -490,7 +490,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Remember Z ... Zebu! Make a shoulder hump; show cattle horns.",
+      "text": "Region Z ... Zebu! Make a shoulder hump; show cattle horns.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -498,14 +498,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Soft drum, clear name—one-two-three!",
+      "text": "Andes, Himalaya, Africa, Australia—the range lines stay separate.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A through Z—our wildlife trail lands on one bright final beat!",
+      "text": "A to Z ends with one world made of many biogeographic stories.",
       "objective": "narration",
       "objectReveal": "none"
     }
