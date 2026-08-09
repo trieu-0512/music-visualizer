@@ -6,11 +6,79 @@
   "tempoBpm": 91,
   "motifFamily": "truck-beat",
   "hook": [
-    "Cars and trucks—A-B-C!",
-    "Machines roll by for us to see!"
+    "Carry, serve, work—A-B-C!",
+    "Name the job before the machine beat."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Truck Machine Beat",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "service-work-role-rhyme",
+    "chorusRhymeEngine": "carry-serve-lift-hook",
+    "pointOfView": "a child sorting vehicle work roles",
+    "chorusFunction": "repeat carry-serve-work",
+    "grooveMeter": "88 BPM mechanical-but-soft 4/4",
+    "round1Grammar": "vehicle role plus mechanism/context",
+    "round2Grammar": "role-neutral recall -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "vehicle-role",
+    "authorialIntent": "Make Truck Machine Beat about service-versus-machine role: ambulance, bus, delivery, waste, utility and pickup transport people/goods/services; forklift/loader/roller do work; aircraft/kayak are mode exceptions.",
+    "lyricIdentity": "A child asks whether the object transports, serves, lifts, compacts, or flies/floats before naming it a truck or machine.",
+    "imageMotifs": [
+      "ambulance service",
+      "forklift pallet",
+      "garbage route",
+      "loader bucket",
+      "kayak comparison card"
+    ],
+    "semanticArc": [
+      "public/service",
+      "cargo",
+      "industrial work",
+      "mode exceptions"
+    ],
+    "forbiddenGenericLanguage": [
+      "truck machine beat",
+      "all machines trucks",
+      "big truck",
+      "work fast"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 2,
+    "usedRound1": 2,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

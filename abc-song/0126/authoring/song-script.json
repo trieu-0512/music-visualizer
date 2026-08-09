@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore things that go with me!",
+      "text": "Car takes road, train takes rail, helicopter takes sky, bulldozer stays in a work zone.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Things that go—A-B-C!",
+      "text": "Things that go do not all share one route.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A brings ATV into our things-that-go parade.",
+      "text": "A — ATV! | All-terrain vehicle uses low-pressure tires and straddle seating for off-road travel; it requires trained adult operation, helmet, and approved terrain.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B brings Bulldozer into our things-that-go parade.",
+      "text": "B ... B ... Bulldozer! | Tracked construction machine pushes soil or debris with a large front blade; heavy equipment stays inside controlled work zones.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C brings Car into our things-that-go parade.",
+      "text": "C? Car! | Road motor vehicle mainly designed to carry people; propulsion can be combustion, electric, hybrid, or other systems.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D brings Delivery Van into our things-that-go parade.",
+      "text": "D is Delivery Van. Enclosed road van carries parcels or goods between stops; loading and parking are part of its service role. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E brings Excavator into our things-that-go parade.",
+      "text": "E — Excavator! | Construction machine uses boom, stick, and bucket rotating on an upper structure; it digs rather than simply 'drives'.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F brings Fire Engine into our things-that-go parade.",
+      "text": "F ... F ... Fire Engine! | Emergency vehicle carries firefighters, hoses, pumps, ladders, or equipment; other traffic yields according to local law when emergency signals operate.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G brings Golf Cart into our things-that-go parade.",
+      "text": "G? Golf Cart! | Small low-speed vehicle designed mainly for golf courses or controlled properties; road legality and safety rules vary by location.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H brings Helicopter into our things-that-go parade.",
+      "text": "H is Helicopter. Rotorcraft gets lift from rotating wings and can hover; it is an aircraft, not a road vehicle. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Things that go—A-B-C!",
+      "text": "Road, rail, sky—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Roll and ride along with me!",
+      "text": "Put the vehicle on the route it actually uses.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I brings Ice Cream Truck into our things-that-go parade.",
+      "text": "I — Ice Cream Truck! | Road vending vehicle carries and sells frozen treats; its route/service role differs from ordinary cargo transport.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J brings Jeep into our things-that-go parade.",
+      "text": "J ... J ... Jeep! | Project label commonly associated with Jeep-brand road/off-road vehicles; exact body and drivetrain depend on the pictured model.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K brings Kart into our things-that-go parade.",
+      "text": "K? Kart! | Small low-slung wheeled vehicle used in controlled karting environments; helmet and track rules are essential.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L brings Limousine into our things-that-go parade.",
+      "text": "L is Limousine. Passenger car with extended or luxury body/service use; it is defined more by passenger service/configuration than speed. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M brings Minivan into our things-that-go parade.",
+      "text": "M — Minivan! | Passenger vehicle with boxier body and multiple seating rows, often with sliding side doors.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N brings Night Bus into our things-that-go parade.",
+      "text": "N ... N ... Night Bus! | Bus service operating at night; 'night' describes schedule, not a different propulsion system.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O brings Off-road Car into our things-that-go parade.",
+      "text": "O? Off-road Car! | Vehicle configured for rough terrain with suitable clearance, tires, and drivetrain; off-road does not mean permission to drive anywhere.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P brings Plane into our things-that-go parade.",
+      "text": "P is Plane. Fixed-wing aircraft produces lift as air flows over wings; it belongs to air transport. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Things that go—A-B-C!",
+      "text": "Road, rail, sky—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Roll and ride along with me!",
+      "text": "Put the vehicle on the route it actually uses.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q brings Quadcopter into our things-that-go parade.",
+      "text": "Q — Quadcopter! | Aircraft/drone with four rotors; control changes rotor speeds, and flight must follow local safety and airspace rules.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R brings Race Car into our things-that-go parade.",
+      "text": "R ... R ... Race Car! | Vehicle built for controlled motorsport performance; it belongs on a race circuit, not public-road imitation play.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S brings Scooter into our things-that-go parade.",
+      "text": "S? Scooter! | Name can mean kick scooter or motor scooter; this transport mapping requires the pictured type before assigning propulsion.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T brings Train into our things-that-go parade.",
+      "text": "T is Train. Rail vehicles coupled or operated to travel on tracks; steel wheels are guided by rails rather than steering like a car. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U brings Underground Train into our things-that-go parade.",
+      "text": "U — Underground Train! | Rail transit running partly or largely in tunnels; track, signals, and stations guide movement.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V brings Vespa into our things-that-go parade.",
+      "text": "V ... V ... Vespa! | Vespa is a scooter brand; the mapped vehicle is a motor-scooter type, not a generic word for every scooter.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W brings Wagon into our things-that-go parade.",
+      "text": "W? Wagon! | Wheeled carrier can be hand-pulled, animal-drawn, or part of rail terminology; picture context decides the transport type.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X brings X-ray Van into our things-that-go parade.",
+      "text": "X is X-ray Van. Mobile medical-imaging vehicle can carry X-ray equipment; radiation operation belongs to trained professionals under safety controls. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Things that go—A-B-C!",
+      "text": "Road, rail, sky—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Roll and ride along with me!",
+      "text": "Put the vehicle on the route it actually uses.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y brings Yard Tractor into our things-that-go parade.",
+      "text": "Y — Yard Tractor! | Small tractor or towing tractor used around yards/properties; task and design determine mower, tow, or utility function.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z brings Zero-emission Bus into our things-that-go parade.",
+      "text": "Z ... Z ... Zero-emission Bus! | Bus with no exhaust emissions at the vehicle during operation, commonly battery-electric or fuel-cell; lifecycle emissions can still exist upstream.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Traffic pauses: A ... ATV! Point when it is displayed.",
+      "text": "Mode recall A ... ATV! Point only; no riding mime—name helmet and approved terrain.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Traffic pauses: B ... Bulldozer! Point when it is displayed.",
+      "text": "Find B ... Bulldozer! Point only; push two flat palms an inch in the air.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Traffic pauses: C ... Car! Point when it is displayed.",
+      "text": "Which one starts C? ... Car! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Traffic pauses: D ... Delivery Van! Point when it is displayed.",
+      "text": "Check D ... Delivery Van! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Traffic pauses: E ... Excavator! Point when it is displayed.",
+      "text": "Mode recall E ... Excavator! Air-trace boom-stick-bucket slowly; no worksite approach.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Traffic pauses: F ... Fire Engine! Point when it is displayed.",
+      "text": "Find F ... Fire Engine! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Traffic pauses: G ... Golf Cart! Point when it is displayed.",
+      "text": "Which one starts G? ... Golf Cart! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Traffic pauses: H ... Helicopter! Point when it is displayed.",
+      "text": "Check H ... Helicopter! Point; slowly circle one finger above, no running-to-aircraft mime.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Things that go—A-B-C!",
+      "text": "Road, rail, sky—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Roll and ride along with me!",
+      "text": "Put the vehicle on the route it actually uses.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Traffic pauses: I ... Ice Cream Truck! Point when it is displayed.",
+      "text": "Mode recall I ... Ice Cream Truck! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Traffic pauses: J ... Jeep! Point when it is displayed.",
+      "text": "Find J ... Jeep! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Traffic pauses: K ... Kart! Point when it is displayed.",
+      "text": "Which one starts K? ... Kart! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Traffic pauses: L ... Limousine! Point when it is displayed.",
+      "text": "Check L ... Limousine! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Traffic pauses: M ... Minivan! Point when it is displayed.",
+      "text": "Mode recall M ... Minivan! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Traffic pauses: N ... Night Bus! Point when it is displayed.",
+      "text": "Find N ... Night Bus! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Traffic pauses: O ... Off-road Car! Point when it is displayed.",
+      "text": "Which one starts O? ... Off-road Car! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Traffic pauses: P ... Plane! Point when it is displayed.",
+      "text": "Check P ... Plane! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Things that go—A-B-C!",
+      "text": "Road, rail, sky—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Roll and ride along with me!",
+      "text": "Put the vehicle on the route it actually uses.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Traffic pauses: Q ... Quadcopter! Point when it is displayed.",
+      "text": "Mode recall Q ... Quadcopter! Air-trace four rotor circles; no real drone flight indoors.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Traffic pauses: R ... Race Car! Point when it is displayed.",
+      "text": "Find R ... Race Car! Point; trace a closed circuit, not a speeding gesture.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Traffic pauses: S ... Scooter! Point when it is displayed.",
+      "text": "Which one starts S? ... Scooter! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Traffic pauses: T ... Train! Point when it is displayed.",
+      "text": "Check T ... Train! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Traffic pauses: U ... Underground Train! Point when it is displayed.",
+      "text": "Mode recall U ... Underground Train! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Traffic pauses: V ... Vespa! Point when it is displayed.",
+      "text": "Find V ... Vespa! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Traffic pauses: W ... Wagon! Point when it is displayed.",
+      "text": "Which one starts W? ... Wagon! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Traffic pauses: X ... X-ray Van! Point when it is displayed.",
+      "text": "Check X ... X-ray Van! Point only; say professional imaging—no pretend exposure.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Things that go—A-B-C!",
+      "text": "Road, rail, sky—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Roll and ride along with me!",
+      "text": "Put the vehicle on the route it actually uses.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Traffic pauses: Y ... Yard Tractor! Point when it is displayed.",
+      "text": "Mode recall Y ... Yard Tractor! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Traffic pauses: Z ... Zero-emission Bus! Point when it is displayed.",
+      "text": "Find Z ... Zero-emission Bus! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Things that go—A-B-C!",
+      "text": "Train stays on rails; quadcopter stays in controlled airspace; work machines stay at work.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends with every route separated.",
       "objective": "narration",
       "objectReveal": "none"
     }

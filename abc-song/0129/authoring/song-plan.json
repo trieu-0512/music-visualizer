@@ -6,11 +6,79 @@
   "tempoBpm": 87,
   "motifFamily": "transport-map",
   "hook": [
-    "Transport world—A-B-C!",
-    "Ways to travel, come with me!"
+    "Carry, route, power—A-B-C!",
+    "One vehicle can fit more than one category."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Transport World A-Z",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "purpose-power-rhyme",
+    "chorusRhymeEngine": "carry-route-power-hook",
+    "pointOfView": "a child comparing transport purpose and propulsion",
+    "chorusFunction": "repeat carry-route-power",
+    "grooveMeter": "90 BPM analytical 6/8",
+    "round1Grammar": "purpose + mode + power caveat where known",
+    "round2Grammar": "purpose-neutral retrieval -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "purpose-power",
+    "authorialIntent": "Make Transport World A-Z about purpose and energy transition: passenger, cargo, emergency, recreation, work, and electric/zero-tailpipe categories overlap without pretending one technology makes every trip sustainable.",
+    "lyricIdentity": "A child compares what is carried, where it travels, and how it is powered; Electric Car and Zero-emission Bus get precise tailpipe language.",
+    "imageMotifs": [
+      "bus passengers",
+      "dump cargo",
+      "ambulance emergency",
+      "electric charging",
+      "snowplow service"
+    ],
+    "semanticArc": [
+      "purpose",
+      "route",
+      "power",
+      "tradeoff/overlap"
+    ],
+    "forbiddenGenericLanguage": [
+      "transport world all clean",
+      "electric means no emissions anywhere",
+      "every vehicle same job",
+      "green vehicle magic"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 2,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

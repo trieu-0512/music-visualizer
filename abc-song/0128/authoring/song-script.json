@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore road vehicles with me!",
+      "text": "Bus reads road signs; dump truck enters a work zone; yacht and zeppelin leave the road map entirely.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Road vehicles—A-B-C!",
+      "text": "Before reading the sign, check whether the vehicle is even on a road.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A meets ATV on our calm road-vehicle route.",
+      "text": "A — ATV! | All-terrain vehicle uses low-pressure tires and straddle seating for off-road travel; it requires trained adult operation, helmet, and approved terrain.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B meets Bus on our calm road-vehicle route.",
+      "text": "B ... B ... Bus! | Large road passenger vehicle serving routes, schools, charters, or other services; stops and schedules organize shared travel.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C meets Cement Mixer on our calm road-vehicle route.",
+      "text": "C? Cement Mixer! | Truck-mounted rotating drum keeps concrete agitated during transport; drum rotation is a work function, not the vehicle's propulsion.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D meets Dump Truck on our calm road-vehicle route.",
+      "text": "D is Dump Truck. Truck tips or opens its cargo body to unload loose material; unloading needs a level controlled work zone. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E meets Excavator on our calm road-vehicle route.",
+      "text": "E — Excavator! | Construction machine uses boom, stick, and bucket rotating on an upper structure; it digs rather than simply 'drives'.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F meets Fire Engine on our calm road-vehicle route.",
+      "text": "F ... F ... Fire Engine! | Emergency vehicle carries firefighters, hoses, pumps, ladders, or equipment; other traffic yields according to local law when emergency signals operate.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G meets Golf Cart on our calm road-vehicle route.",
+      "text": "G? Golf Cart! | Small low-speed vehicle designed mainly for golf courses or controlled properties; road legality and safety rules vary by location.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H meets Hatchback on our calm road-vehicle route.",
+      "text": "H is Hatchback. Passenger car body style with rear door opening into cargo/passenger space. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Road vehicles—A-B-C!",
+      "text": "Road, sign, mode—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Watch the lane and sing with me!",
+      "text": "A road rule only belongs to road traffic.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I meets Intercity Bus on our calm road-vehicle route.",
+      "text": "I — Intercity Bus! | Passenger bus links cities over longer routes; service pattern, not body shape alone, makes it intercity.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J meets Jet on our calm road-vehicle route.",
+      "text": "J ... J ... Jet! | Aircraft propelled by jet engines; jet describes propulsion, not every airplane shape.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K meets Kart on our calm road-vehicle route.",
+      "text": "K? Kart! | Small low-slung wheeled vehicle used in controlled karting environments; helmet and track rules are essential.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L meets Loader on our calm road-vehicle route.",
+      "text": "L is Loader. Construction machine scoops and moves loose material with a front bucket; worksite visibility and exclusion zones are critical. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M meets Minivan on our calm road-vehicle route.",
+      "text": "M — Minivan! | Passenger vehicle with boxier body and multiple seating rows, often with sliding side doors.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N meets Narrowboat on our calm road-vehicle route.",
+      "text": "N ... N ... Narrowboat! | Long narrow inland-waterway boat designed for canals; it is water transport, not a road vehicle.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O meets Oil Tanker on our calm road-vehicle route.",
+      "text": "O? Oil Tanker! | Vehicle or vessel carrying bulk oil; the name can mean tanker truck or tanker ship, so the picture decides mode.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P meets Plane on our calm road-vehicle route.",
+      "text": "P is Plane. Fixed-wing aircraft produces lift as air flows over wings; it belongs to air transport. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Road vehicles—A-B-C!",
+      "text": "Road, sign, mode—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Watch the lane and sing with me!",
+      "text": "A road rule only belongs to road traffic.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q meets Quad Bike on our calm road-vehicle route.",
+      "text": "Q — Quad Bike! | Four-wheeled all-terrain vehicle; it requires trained operation, helmet, and terrain-specific safety.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R meets Road Roller on our calm road-vehicle route.",
+      "text": "R ... R ... Road Roller! | Heavy compaction machine presses road base or asphalt with large drums/tires; it is worksite equipment, not ordinary traffic.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S meets Scooter on our calm road-vehicle route.",
+      "text": "S? Scooter! | Name can mean kick scooter or motor scooter; this transport mapping requires the pictured type before assigning propulsion.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T meets Tractor on our calm road-vehicle route.",
+      "text": "T is Tractor. Low-speed high-traction machine pulls or powers farm/utility implements; it is a work vehicle more than passenger transport. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U meets Utility Truck on our calm road-vehicle route.",
+      "text": "U — Utility Truck! | Work vehicle carries tools, crews, or service equipment; exact setup varies by utility task.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V meets Van on our calm road-vehicle route.",
+      "text": "V ... V ... Van! | Enclosed road vehicle for passengers or cargo; interior configuration defines much of its role.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W meets Wrecker on our calm road-vehicle route.",
+      "text": "W? Wrecker! | Tow/recovery truck lifts or pulls disabled vehicles; roadside recovery needs professional traffic control.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X meets Xpress Bus on our calm road-vehicle route.",
+      "text": "X is Xpress Bus. Project label for an express-style bus service; 'Xpress' describes service branding, not a unique vehicle mechanism. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Road vehicles—A-B-C!",
+      "text": "Road, sign, mode—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Watch the lane and sing with me!",
+      "text": "A road rule only belongs to road traffic.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y meets Yacht on our calm road-vehicle route.",
+      "text": "Y — Yacht! | Recreational sailing or motor vessel; it belongs to water transport and ranges greatly in size.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z meets Zeppelin on our calm road-vehicle route.",
+      "text": "Z ... Z ... Zeppelin! | Rigid airship uses a structural framework and lifting gas; it is lighter-than-air aviation, not a road vehicle.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Road sign cues A ... ATV! Point it out.",
+      "text": "Road check A ... ATV! Point only; no riding mime—name helmet and approved terrain.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Road sign cues B ... Bus! Point it out.",
+      "text": "Find B ... Bus! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Road sign cues C ... Cement Mixer! Point it out.",
+      "text": "Which one starts C? ... Cement Mixer! Trace a drum circle; no climbing gesture.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Road sign cues D ... Dump Truck! Point it out.",
+      "text": "Check D ... Dump Truck! Tilt one flat palm; no standing behind a real truck.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Road sign cues E ... Excavator! Point it out.",
+      "text": "Road check E ... Excavator! Air-trace boom-stick-bucket slowly; no worksite approach.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Road sign cues F ... Fire Engine! Point it out.",
+      "text": "Find F ... Fire Engine! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Road sign cues G ... Golf Cart! Point it out.",
+      "text": "Which one starts G? ... Golf Cart! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Road sign cues H ... Hatchback! Point it out.",
+      "text": "Check H ... Hatchback! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Road vehicles—A-B-C!",
+      "text": "Road, sign, mode—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Watch the lane and sing with me!",
+      "text": "A road rule only belongs to road traffic.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Road sign cues I ... Intercity Bus! Point it out.",
+      "text": "Road check I ... Intercity Bus! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Road sign cues J ... Jet! Point it out.",
+      "text": "Find J ... Jet! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Road sign cues K ... Kart! Point it out.",
+      "text": "Which one starts K? ... Kart! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Road sign cues L ... Loader! Point it out.",
+      "text": "Check L ... Loader! Air-scoop with one hand; keep the machine imaginary.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Road sign cues M ... Minivan! Point it out.",
+      "text": "Road check M ... Minivan! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Road sign cues N ... Narrowboat! Point it out.",
+      "text": "Find N ... Narrowboat! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Road sign cues O ... Oil Tanker! Point it out.",
+      "text": "Which one starts O? ... Oil Tanker! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Road sign cues P ... Plane! Point it out.",
+      "text": "Check P ... Plane! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Road vehicles—A-B-C!",
+      "text": "Road, sign, mode—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Watch the lane and sing with me!",
+      "text": "A road rule only belongs to road traffic.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Road sign cues Q ... Quad Bike! Point it out.",
+      "text": "Road check Q ... Quad Bike! Point; mime helmet strap, no riding stunt.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Road sign cues R ... Road Roller! Point it out.",
+      "text": "Find R ... Road Roller! Point only; make one slow rolling circle with a finger.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Road sign cues S ... Scooter! Point it out.",
+      "text": "Which one starts S? ... Scooter! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Road sign cues T ... Tractor! Point it out.",
+      "text": "Check T ... Tractor! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Road sign cues U ... Utility Truck! Point it out.",
+      "text": "Road check U ... Utility Truck! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Road sign cues V ... Van! Point it out.",
+      "text": "Find V ... Van! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Road sign cues W ... Wrecker! Point it out.",
+      "text": "Which one starts W? ... Wrecker! Air-trace a tow line; never approach roadside recovery.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Road sign cues X ... Xpress Bus! Point it out.",
+      "text": "Check X ... Xpress Bus! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Road vehicles—A-B-C!",
+      "text": "Road, sign, mode—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Watch the lane and sing with me!",
+      "text": "A road rule only belongs to road traffic.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Road sign cues Y ... Yacht! Point it out.",
+      "text": "Road check Y ... Yacht! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Road sign cues Z ... Zeppelin! Point it out.",
+      "text": "Find Z ... Zeppelin! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Road vehicles—A-B-C!",
+      "text": "Yacht stays on water, zeppelin stays in air, the wrecker keeps the roadside clear.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z leaves the road map honest.",
       "objective": "narration",
       "objectReveal": "none"
     }

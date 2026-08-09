@@ -6,11 +6,79 @@
   "tempoBpm": 93,
   "motifFamily": "go-parade",
   "hook": [
-    "Things that go—A-B-C!",
-    "Roll and ride along with me!"
+    "Road, rail, sky—A-B-C!",
+    "Put the vehicle on the route it actually uses."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Things That Go Parade",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "transport-mode-rhyme",
+    "chorusRhymeEngine": "road-rail-sky-hook",
+    "pointOfView": "a child classifying transport modes",
+    "chorusFunction": "repeat road-rail-sky-work",
+    "grooveMeter": "90 BPM route-switch 4/4",
+    "round1Grammar": "vehicle -> mode -> role/safety",
+    "round2Grammar": "mode-neutral recall -> target -> safe map gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "transport-mode",
+    "authorialIntent": "Make Things That Go Parade a transport-mode map: road, rail, air, worksite, and service vehicles are separated, so motion becomes a system of routes rather than one parade lane.",
+    "lyricIdentity": "A child moves markers between road, rail, sky, and worksite cards; the mode must be correct before the vehicle can 'go'.",
+    "imageMotifs": [
+      "car road lane",
+      "train rail",
+      "helicopter sky",
+      "bulldozer work zone",
+      "x-ray van service stop"
+    ],
+    "semanticArc": [
+      "road",
+      "rail",
+      "air",
+      "service/worksite exceptions"
+    ],
+    "forbiddenGenericLanguage": [
+      "things that go parade",
+      "everything drives",
+      "all on road",
+      "go fast"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

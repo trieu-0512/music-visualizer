@@ -6,11 +6,79 @@
   "tempoBpm": 89,
   "motifFamily": "road-route",
   "hook": [
-    "Road vehicles—A-B-C!",
-    "Watch the lane and sing with me!"
+    "Road, sign, mode—A-B-C!",
+    "A road rule only belongs to road traffic."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Road Vehicle Signs",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "road-sign-exception-rhyme",
+    "chorusRhymeEngine": "road-sign-mode-hook",
+    "pointOfView": "a child testing whether road rules apply",
+    "chorusFunction": "repeat road-check-mode",
+    "grooveMeter": "86 BPM sign-stop pulse",
+    "round1Grammar": "vehicle fact plus explicit mode when premise could mislead",
+    "round2Grammar": "neutral recall -> target -> map/sign gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "road-rule",
+    "authorialIntent": "Repair Road Vehicle Signs into a road-sign lesson with explicit non-road comparison cards: Jet, Plane, Narrowboat, Yacht, Zeppelin are not road vehicles; signs, lanes and work zones apply only where the mode fits.",
+    "lyricIdentity": "A child places road machines on sign-controlled streets while pulling air/water vehicles to a separate map.",
+    "imageMotifs": [
+      "bus lane",
+      "dump-truck work sign",
+      "tow recovery cone",
+      "yacht water card",
+      "zeppelin sky card"
+    ],
+    "semanticArc": [
+      "ordinary road",
+      "heavy road/work",
+      "roadside service",
+      "air/water exclusions"
+    ],
+    "forbiddenGenericLanguage": [
+      "road vehicles all",
+      "jet on road",
+      "yacht road",
+      "follow sign every vehicle"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

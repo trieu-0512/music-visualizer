@@ -6,11 +6,79 @@
   "tempoBpm": 94,
   "motifFamily": "machine-march",
   "hook": [
-    "Moving machines—A-B-C!",
-    "Big and small, roll with me!"
+    "Arrive, work, clear—A-B-C!",
+    "Task before motion, boundary before view."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D road-vehicle storybook, toy-like vehicles, safe roads, clean silhouettes; visual identity: Moving Machine March",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "work-cycle-rhyme",
+    "chorusRhymeEngine": "arrive-work-clear-hook",
+    "pointOfView": "a child observing work machines from a safe boundary",
+    "chorusFunction": "repeat arrive-work-clear",
+    "grooveMeter": "84 BPM deliberate work-cycle pulse",
+    "round1Grammar": "machine -> work function -> exclusion/safety",
+    "round2Grammar": "work-neutral recall -> target -> air gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "work-cycle",
+    "authorialIntent": "Make Moving Machine March a work-cycle song: arrive, position, dig/load/mix/compact/tow/clear, then leave; motion is subordinated to task and exclusion zones.",
+    "lyricIdentity": "A child watches machines from outside the work boundary and follows sequence rather than celebrating size or noise.",
+    "imageMotifs": [
+      "excavator digging",
+      "mixer turning",
+      "roller compacting",
+      "wrecker tow",
+      "snowplow clearing"
+    ],
+    "semanticArc": [
+      "arrive/position",
+      "move material",
+      "shape/compact",
+      "recover/clear/leave"
+    ],
+    "forbiddenGenericLanguage": [
+      "machine march",
+      "big loud machines",
+      "come closer",
+      "drive the machine"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }
