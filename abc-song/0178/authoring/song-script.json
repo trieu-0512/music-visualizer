@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore calm and happy with me!",
+      "text": "Quiet can help one person, soft music another, a hug only when wanted, and tiredness may simply need rest.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Calm and happy—A-B-C!",
+      "text": "A calming tool is an option, not a command.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A places Affection Heart on our calm-and-happy picture board.",
+      "text": "A — Affection Heart! | Heart card represents care; affection can be words, time, help, or consented touch.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B places Brave Badge on our calm-and-happy picture board.",
+      "text": "B ... B ... Brave Badge! | Courage symbol; bravery can include asking help, speaking up, or declining unsafe risk.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C places Caring Card on our calm-and-happy picture board.",
+      "text": "C? Caring Card! | Prompt to check needs or offer help; ask before touching or solving.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D places Delight Star on our calm-and-happy picture board.",
+      "text": "D is Delight Star. Delight symbol; the feeling is possible, never required. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E places Excited Eyes on our calm-and-happy picture board.",
+      "text": "E — Excited Eyes! | Excitement cue; wide eyes have many meanings, so ask rather than assume.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F places Friendship Bracelet on our calm-and-happy picture board.",
+      "text": "F ... F ... Friendship Bracelet! | Friendship symbol; exchanging one is optional and does not measure friendship quality.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G places Gentle Hands on our calm-and-happy picture board.",
+      "text": "G? Gentle Hands! | Cue for safe hands; gentleness includes respecting space and permission.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H places Heart on our calm-and-happy picture board.",
+      "text": "H is Heart. Care/love symbol here, not the biological heart. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Calm and happy—A-B-C!",
+      "text": "Notice, choose, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Slow little breaths with me!",
+      "text": "If one tool does not fit, choose another or ask for help.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I places Interest Card on our calm-and-happy picture board.",
+      "text": "I — Interest Card! | Prompt represents curiosity or engagement; interest can change by activity, time, and person.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J places Joy Jar on our calm-and-happy picture board.",
+      "text": "J ... J ... Joy Jar! | Joy notes recall enjoyable moments without requiring constant happiness.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K places Kind Hands on our calm-and-happy picture board.",
+      "text": "K? Kind Hands! | Cue for safe helpful hands; kindness also includes words, listening, boundaries, or help.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L places Lonely Face on our calm-and-happy picture board.",
+      "text": "L is Lonely Face. Loneliness cue; someone can feel lonely even around others. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M places Mad Face on our calm-and-happy picture board.",
+      "text": "M — Mad Face! | Anger cue; the feeling is normal while unsafe actions still need limits.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N places Nervous Face on our calm-and-happy picture board.",
+      "text": "N ... N ... Nervous Face! | Nervousness cue; a face alone cannot measure experience.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O places Okay Sign on our calm-and-happy picture board.",
+      "text": "O? Okay Sign! | Okay symbol varies by culture; verbal confirmation can be clearer.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P places Proud Star on our calm-and-happy picture board.",
+      "text": "P is Proud Star. Pride symbol for effort, growth, identity, or achievement; no comparison is required. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Calm and happy—A-B-C!",
+      "text": "Notice, choose, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Slow little breaths with me!",
+      "text": "If one tool does not fit, choose another or ask for help.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q places Quiet Corner on our calm-and-happy picture board.",
+      "text": "Q — Quiet Corner! | Optional low-stimulation pause space; not punishment or forced isolation.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R places Respect Badge on our calm-and-happy picture board.",
+      "text": "R ... R ... Respect Badge! | Respect symbol; boundaries, listening, fairness, and safety matter more than obedience.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S places Sharing Box on our calm-and-happy picture board.",
+      "text": "S? Sharing Box! | Turn-taking container; sharing respects ownership, safety, and boundaries.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T places Tired Face on our calm-and-happy picture board.",
+      "text": "T is Tired Face. Tiredness cue; many causes are possible and rest/support may help. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U places Upset Face on our calm-and-happy picture board.",
+      "text": "U — Upset Face! | Upset cue; ask what is happening instead of guessing from a face.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V places Valued Badge on our calm-and-happy picture board.",
+      "text": "V ... V ... Valued Badge! | Reminder that a person matters; worth is not earned by winning or cheerfulness.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W places Warm Hug Card on our calm-and-happy picture board.",
+      "text": "W? Warm Hug Card! | Hug prompt only when both want it; care never requires touch.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X places Xylophone Calm Toy on our calm-and-happy picture board.",
+      "text": "X is Xylophone Calm Toy. Soft music toy may settle some people; others may prefer quiet. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Calm and happy—A-B-C!",
+      "text": "Notice, choose, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Slow little breaths with me!",
+      "text": "If one tool does not fit, choose another or ask for help.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y places Yellow Feelings Chart on our calm-and-happy picture board.",
+      "text": "Y — Yellow Feelings Chart! | Color-coded feelings chart; yellow only means what this chart key defines.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z places Zen Cushion on our calm-and-happy picture board.",
+      "text": "Z ... Z ... Zen Cushion! | Seated quiet-practice cushion; comfort is individual and Zen is not a generic calm-down command.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Quiet cue: A ... Affection Heart! Point when you know the word.",
+      "text": "Choice recall A ... Affection Heart! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Quiet cue: B ... Brave Badge! Point when you know the word.",
+      "text": "Find B ... Brave Badge! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Quiet cue: C ... Caring Card! Point when you know the word.",
+      "text": "Which one starts C? ... Caring Card! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Quiet cue: D ... Delight Star! Point when you know the word.",
+      "text": "Check D ... Delight Star! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Quiet cue: E ... Excited Eyes! Point when you know the word.",
+      "text": "Choice recall E ... Excited Eyes! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Quiet cue: F ... Friendship Bracelet! Point when you know the word.",
+      "text": "Find F ... Friendship Bracelet! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Quiet cue: G ... Gentle Hands! Point when you know the word.",
+      "text": "Which one starts G? ... Gentle Hands! Keep hands on your own body or open palms; no touching others.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Quiet cue: H ... Heart! Point when you know the word.",
+      "text": "Check H ... Heart! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Calm and happy—A-B-C!",
+      "text": "Notice, choose, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Slow little breaths with me!",
+      "text": "If one tool does not fit, choose another or ask for help.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Quiet cue: I ... Interest Card! Point when you know the word.",
+      "text": "Choice recall I ... Interest Card! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Quiet cue: J ... Joy Jar! Point when you know the word.",
+      "text": "Find J ... Joy Jar! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Quiet cue: K ... Kind Hands! Point when you know the word.",
+      "text": "Which one starts K? ... Kind Hands! Keep hands on your own body or open palms; no touching others.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Quiet cue: L ... Lonely Face! Point when you know the word.",
+      "text": "Check L ... Lonely Face! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Quiet cue: M ... Mad Face! Point when you know the word.",
+      "text": "Choice recall M ... Mad Face! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Quiet cue: N ... Nervous Face! Point when you know the word.",
+      "text": "Find N ... Nervous Face! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Quiet cue: O ... Okay Sign! Point when you know the word.",
+      "text": "Which one starts O? ... Okay Sign! Point to the card rather than relying on the hand gesture.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Quiet cue: P ... Proud Star! Point when you know the word.",
+      "text": "Check P ... Proud Star! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Calm and happy—A-B-C!",
+      "text": "Notice, choose, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Slow little breaths with me!",
+      "text": "If one tool does not fit, choose another or ask for help.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Quiet cue: Q ... Quiet Corner! Point when you know the word.",
+      "text": "Choice recall Q ... Quiet Corner! Point to a quiet-space picture; never mime sending someone away.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Quiet cue: R ... Respect Badge! Point when you know the word.",
+      "text": "Find R ... Respect Badge! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Quiet cue: S ... Sharing Box! Point when you know the word.",
+      "text": "Which one starts S? ... Sharing Box! Pretend offer then pause for the other person's choice.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Quiet cue: T ... Tired Face! Point when you know the word.",
+      "text": "Check T ... Tired Face! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Quiet cue: U ... Upset Face! Point when you know the word.",
+      "text": "Choice recall U ... Upset Face! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Quiet cue: V ... Valued Badge! Point when you know the word.",
+      "text": "Find V ... Valued Badge! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Quiet cue: W ... Warm Hug Card! Point when you know the word.",
+      "text": "Which one starts W? ... Warm Hug Card! Cross arms over your own shoulders or ask-consent gesture—no touching another person.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Quiet cue: X ... Xylophone Calm Toy! Point when you know the word.",
+      "text": "Check X ... Xylophone Calm Toy! Tap two fingertips softly; sound is optional.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Calm and happy—A-B-C!",
+      "text": "Notice, choose, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Slow little breaths with me!",
+      "text": "If one tool does not fit, choose another or ask for help.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Quiet cue: Y ... Yellow Feelings Chart! Point when you know the word.",
+      "text": "Choice recall Y ... Yellow Feelings Chart! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Quiet cue: Z ... Zen Cushion! Point when you know the word.",
+      "text": "Find Z ... Zen Cushion! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Calm and happy—A-B-C!",
+      "text": "Breath stays comfortable, hug stays consensual, quiet corner stays optional.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends with choice—not compulsory happiness.",
       "objective": "narration",
       "objectReveal": "none"
     }

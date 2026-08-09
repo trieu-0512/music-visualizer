@@ -6,11 +6,79 @@
   "tempoBpm": 85,
   "motifFamily": "feelings-face",
   "hook": [
-    "Feelings faces—A-B-C!",
-    "Name a feeling gently with me!"
+    "Notice, name, ask—A-B-C!",
+    "A face is a clue; the person gets the final word."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "warm 3D feelings storybook, expressive friendly faces and simple social-emotional tools, uncluttered scenes; visual identity: Feelings Face Song",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "emotion-uncertainty-rhyme",
+    "chorusRhymeEngine": "notice-name-ask-hook",
+    "pointOfView": "a child interpreting feelings without assuming",
+    "chorusFunction": "repeat notice-name-ask",
+    "grooveMeter": "82 BPM conversational 6/8",
+    "round1Grammar": "card/symbol -> possible meaning -> uncertainty/consent",
+    "round2Grammar": "emotion-neutral recall -> safe self/point gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "emotion-uncertainty",
+    "authorialIntent": "Make Feelings Face Song an uncertainty-and-expression song: faces/cards suggest possibilities, while words, context, and asking help us understand feelings more accurately.",
+    "lyricIdentity": "A child learns not to mind-read from a face and gains multiple ways to express care, anger, jealousy, pride, worry, or thanks.",
+    "imageMotifs": [
+      "face card",
+      "question card",
+      "voice card",
+      "worry box",
+      "consent heart"
+    ],
+    "semanticArc": [
+      "notice expression",
+      "name possibilities",
+      "ask/communicate",
+      "choose response"
+    ],
+    "forbiddenGenericLanguage": [
+      "face tells feeling",
+      "happy face means happy",
+      "bad feelings",
+      "hug fixes it"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

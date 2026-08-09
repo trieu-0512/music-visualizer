@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "kindness-story",
   "hook": [
-    "Friendship kindness—A-B-C!",
-    "Kind little choices, sing with me!"
+    "Kind, ask, respect—A-B-C!",
+    "A good boundary can be a kind choice."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "warm 3D feelings storybook, expressive friendly faces and simple social-emotional tools, uncluttered scenes; visual identity: Kindness Friend ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "kindness-boundary-rhyme",
+    "chorusRhymeEngine": "kind-ask-respect-hook",
+    "pointOfView": "a child learning reciprocal friendship",
+    "chorusFunction": "repeat kind-ask-respect",
+    "grooveMeter": "84 BPM friendly 4/4",
+    "round1Grammar": "tool/feeling -> social use -> boundary",
+    "round2Grammar": "friendship recall -> non-contact gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "kindness-boundary",
+    "authorialIntent": "Make Kindness Friend ABC a boundary-aware friendship song: kindness, patience, respect, gratitude, sharing and courage all include consent, fairness, and the right to ask for help or say no.",
+    "lyricIdentity": "A child practices friendship behaviors without equating kindness with giving everything away or tolerating mistreatment.",
+    "imageMotifs": [
+      "kindness card",
+      "sharing box with pause",
+      "respect badge",
+      "patience timer",
+      "valued badge"
+    ],
+    "semanticArc": [
+      "connect",
+      "share/turn",
+      "respect boundaries",
+      "repair/support"
+    ],
+    "forbiddenGenericLanguage": [
+      "kind means always yes",
+      "share everything",
+      "good friend obeys",
+      "never angry"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }
