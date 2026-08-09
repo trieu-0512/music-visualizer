@@ -6,8 +6,8 @@
   "tempoBpm": 91,
   "motifFamily": "buzz-bloom",
   "hook": [
-    "Buzz and bloom—come sing with me!",
-    "Flowers and bugs from A to Z!"
+    "Wing to bloom—A-B-C!",
+    "Color follows where the little wings lead!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "brief one-beat answer space",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a small-garden observer noticing growth, color, insects and safe tools",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 alternates growth images, color, shape, insects and safe garden-object functions; never say every object is growing.",
-    "round2Grammar": "Round 2 leaves a recall beat and uses object-specific grow, open, wiggle, pour, point or shape gestures; tools stay safe.",
+    "rhymeEngine": "wing-petal-delayed-cross-rhyme",
+    "chorusRhymeEngine": "wing-sing-near-rhyme",
+    "pointOfView": "a child tracking a tiny pollinator-scale route through petals, leaves, scent and soil",
+    "chorusFunction": "lift into a short fluttering refrain that reconnects wing movement with flower color",
+    "grooveMeter": "lilting 6/8 flutter with hover-and-land pauses",
+    "round1Grammar": "hand-written pollinator-scale close-ups; alternate color, scent, texture, crawling and flying motion, allowing non-flower objects to remain practical scene anchors",
+    "round2Grammar": "flutter/flower cue -> recall beat -> target -> one compact object-specific motion",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. marimba seed-to-sprout answer figures and tiny shaker breaths",
     "signatureColor": "marimba seed-to-sprout answer figures and tiny shaker breaths",
+    "authorialIntent": "Turn the garden into a small pollinator journey: wing, scent, color and petal shape guide the ear from one close-up to the next.",
+    "lyricIdentity": "A child follows a bee-sized path through flowers and leafy corners; flutter verbs, color words, scent images and brief hovering pauses replace generic flower praise.",
+    "imageMotifs": [
+      "bee wing blur",
+      "petal landing pads",
+      "purple and gold color patches",
+      "scent drifting between blooms",
+      "small life under leaves"
+    ],
+    "semanticArc": [
+      "a first wing enters the garden",
+      "the route moves through soil and leafy shelter",
+      "color and scent become denser among flowers",
+      "the final blooms settle after the small wings pass"
+    ],
+    "forbiddenGenericLanguage": [
+      "buzz and bloom come sing with me",
+      "flowers are pretty",
+      "fun to see",
+      "shining bright"
+    ],
     "chorusAfterRound1": [
       3,
       5

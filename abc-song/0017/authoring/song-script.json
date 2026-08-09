@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Buzz-buzz... one bright petal shakes.",
+      "text": "Bzz—one wing skims a petal, then hangs in the air.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A little wing lands where a flower wakes.",
+      "text": "Follow the tiny flight; every color changes the path.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Apron — that's A. It covers the front of clothes and helps keep them cleaner during messy work.",
+      "text": "A — Apron! Cloth front, garden smudge | what we wear before following the tiny flight.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Spot B: Bee! A bee is a small creature that can be noticed by its legs, body shape, or movement.",
+      "text": "B ... B ... Bee! Wing blur, flower pause | it visits blooms for nectar or pollen and can carry pollen onward.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C brings Carrot. Carrot down low | leafy top above where orange roots grow",
+      "text": "C? Carrot! Feathery leaves above | orange root stays hidden below the flight.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D? Dirt! Garden dirt is soil—a mix of mineral particles and organic material where roots can grow.",
+      "text": "D is Dirt. Dark crumbs under every color | soil holds the roots beneath our flight path.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "In the garden, here is E with Earthworm. It has a long soft body and tunnels through moist soil.",
+      "text": "Low below, E — Earthworm. Bend and burrow | soft body tunnels through moist soil.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Fern — that's F. It unfurls divided green fronds from curled young growth called fiddleheads.",
+      "text": "F ... F ... Fern! Fronds uncurl in green spirals | a leafy roof close to the ground.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Spot G: Garden Hose! A garden hose is a flexible tube that carries water to plants.",
+      "text": "G? Garden Hose! Long green curve across the path | water travels through it toward thirsty plants.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H brings Hoe. It is a long-handled garden tool used by adults to shape or loosen soil; children only identify it safely.",
+      "text": "H is Hoe. Long handle, flat working end | an adult soil tool we notice from a safe distance.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I? Iris! Wet-ground sight | iris flower opens bright",
+      "text": "Now color opens at I — Iris. Blade-like leaves below | showy petals lift into the flight line.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "In the garden, here is J with Jasmine. It grows small fragrant flowers on a shrub or climbing vine.",
+      "text": "J ... J ... Jasmine! Small pale flowers release a noticeable scent | a soft clue carried on the air.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kale — that's K. It grows broad crinkled leaves that are harvested as a leafy vegetable.",
+      "text": "K? Kale! Crinkle, curl | broad leafy greens make a textured patch below the flight.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Spot L: Lavender! Lavender carries narrow fragrant leaves and spikes of tiny purple flowers.",
+      "text": "L is Lavender. Purple spikes, narrow leaves | scent and color gather along each stem.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Buzz and bloom—come sing with me!",
+      "text": "Wing to bloom—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Flowers and bugs from A to Z!",
+      "text": "Color follows where the little wings lead!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M brings Marigold. Bloom in view | petals open fresh with dew",
+      "text": "M — Marigold! Gold-orange head | many petals pack color close together.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N? Nasturtium! Nasturtium is a flowering plant with round leaves and bright blooms.",
+      "text": "N ... N ... Nasturtium! Round leaves like little plates | bright blooms sit between them.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "In the garden, here is O with Orchid. Bloom and show | little petals open as they grow",
+      "text": "O? Orchid! Petals make a curious shape | one special lip sits near the flower's center.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Pot — that's P. A plant pot is a container that holds soil and gives roots a small place to grow.",
+      "text": "P is Pot. Soil held in a small round home | roots stay contained while flowers rise above.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Spot Q: Quail! Quail on the trail | ground bird with a little tail",
+      "text": "At ground level, Q — Quail. Peck, step, pause | a small bird passes beneath the flower route.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R brings Radish. It grows a crisp round or tapered root below the soil with leaves above.",
+      "text": "R ... R ... Radish! Leaves above, crisp root below | another color hiding under soil.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S? Sunflower! Face the light | tall stem, yellow petals bright",
+      "text": "S? Sunflower! Broad head high | yellow rays ring a center packed with many tiny flowers.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "In the garden, here is T with Tomato. A tomato plant carries round fruit on branching green stems.",
+      "text": "T is Tomato. Green stems branch | round fruit hangs below small yellow blossoms.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Buzz and bloom—come sing with me!",
+      "text": "Wing to bloom—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Flowers and bugs from A to Z!",
+      "text": "Color follows where the little wings lead!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Umbrella — that's U. Open it wide | raindrops slide from side to side",
+      "text": "Rain comes; U — Umbrella! Wide canopy opens | drops slide away while the garden keeps its color.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Spot V: Violet! A violet is a small low-growing plant with soft purple, blue, white, or yellow flowers.",
+      "text": "V ... V ... Violet! Small and low | purple, blue, white, or yellow blooms near the ground.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W brings Watering Can. It has a handle and spout for pouring water gently onto plants.",
+      "text": "W? Watering Can! Gentle pour, silver arc | the flight pauses while water darkens the soil.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X? Xeranthemum! Xeranthemum is a flowering plant known for dry, papery-looking flower heads.",
+      "text": "X is Xeranthemum. Papery flower heads | dry-looking petals keep a crisp texture.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "In the garden, here is Y with Yarrow. Bloom in view | petals open fresh with dew",
+      "text": "Y ... Y ... Yarrow! Many tiny flowers gather in flat clusters | a whole landing field in miniature.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zinnia — that's Z. It is a bright garden flower with layered petals around its center.",
+      "text": "Z? Zinnia! Layer after layer of petals | the final bright stop before the small wings leave.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Spot A ... Apron! Trace a little apron shape on your shirt.",
+      "text": "Flutter to A ... Apron! Trace a little apron shape on your shirt.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Remember B ... Bee! Wiggle tiny fingers or make a small flutter.",
+      "text": "Garden stop B ... Bee! Wiggle tiny fingers or make a small flutter.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C? ... Carrot! Pretend to pick it gently, then show the picture.",
+      "text": "Hover—C? ... Carrot! Pretend to pick it gently, then show the picture.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Spot E ... Earthworm! Wiggle tiny fingers or make a small flutter.",
+      "text": "Flutter to E ... Earthworm! Wiggle tiny fingers or make a small flutter.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Fern! Grow one hand upward, then sway.",
+      "text": "Garden stop F ... Fern! Grow one hand upward, then sway.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G? ... Garden Hose! Trace one long wavy hose.",
+      "text": "Hover—G? ... Garden Hose! Trace one long wavy hose.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Spot I ... Iris! Open your hands like a flower.",
+      "text": "Flutter to I ... Iris! Open your hands like a flower.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Remember J ... Jasmine! Open both hands like a flower.",
+      "text": "Garden stop J ... Jasmine! Open both hands like a flower.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K? ... Kale! Pretend to pick it gently, then show the picture.",
+      "text": "Hover—K? ... Kale! Pretend to pick it gently, then show the picture.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Spot M ... Marigold! Open both hands like a flower.",
+      "text": "Flutter to M ... Marigold! Open both hands like a flower.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -359,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Remember N ... Nasturtium! Open both hands like a flower.",
+      "text": "Garden stop N ... Nasturtium! Open both hands like a flower.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -367,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O? ... Orchid! Open both hands like a flower.",
+      "text": "Hover—O? ... Orchid! Open both hands like a flower.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -383,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Buzz and bloom—come sing with me!",
+      "text": "Wing to bloom—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Flowers and bugs from A to Z!",
+      "text": "Color follows where the little wings lead!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Spot Q ... Quail! Make tiny pecking finger taps.",
+      "text": "Flutter to Q ... Quail! Make tiny pecking finger taps.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Remember R ... Radish! Pretend to pick it gently, then show the picture.",
+      "text": "Garden stop R ... Radish! Pretend to pick it gently, then show the picture.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S? ... Sunflower! Open both hands like a flower.",
+      "text": "Hover—S? ... Sunflower! Open both hands like a flower.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Spot U ... Umbrella! Open both hands into a wide umbrella shape.",
+      "text": "Flutter to U ... Umbrella! Open both hands into a wide umbrella shape.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Remember V ... Violet! Open both hands like a flower.",
+      "text": "Garden stop V ... Violet! Open both hands like a flower.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W? ... Watering Can! Mime one gentle pour toward the ground.",
+      "text": "Hover—W? ... Watering Can! Mime one gentle pour toward the ground.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Spot Y ... Yarrow! Open both hands like a flower.",
+      "text": "Flutter to Y ... Yarrow! Open both hands like a flower.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Remember Z ... Zinnia! Open both hands like a flower.",
+      "text": "Garden stop Z ... Zinnia! Open both hands like a flower.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Buzz and bloom—come sing with me!",
+      "text": "Wing to bloom—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Flowers and bugs from A to Z!",
+      "text": "Color follows where the little wings lead!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Buzz and bloom—come sing with me!",
+      "text": "The last small wing slips past the garden wall.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—buzz bloom stays with me!",
+      "text": "A to Z leaves the garden colors resting after all.",
       "objective": "narration",
       "objectReveal": "none"
     }

@@ -6,8 +6,8 @@
   "tempoBpm": 86,
   "motifFamily": "backyard-bop",
   "hook": [
-    "Backyard green—A-B-C!",
-    "Look and point along with me!"
+    "Backyard small, backyard wide—A-B-C!",
+    "A whole little world is waiting just outside."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two short beats for mixed-age retrieval",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a small-garden observer noticing growth, color, insects and safe tools",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 3/4 or swung sway",
-    "round1Grammar": "Round 1 alternates growth images, color, shape, insects and safe garden-object functions; never say every object is growing.",
-    "round2Grammar": "Round 2 leaves a recall beat and uses object-specific grow, open, wiggle, pour, point or shape gestures; tools stay safe.",
+    "rhymeEngine": "backyard-closeup-free-rhyme",
+    "chorusRhymeEngine": "wide-outside-paired-rhyme",
+    "pointOfView": "a child taking one slow loop from the back door around a small backyard garden and back again",
+    "chorusFunction": "zoom out briefly from close-up discoveries and remind the listener that the whole adventure is just outside",
+    "grooveMeter": "easygoing 4/4 backyard walk with occasional half-time close-ups",
+    "round1Grammar": "hand-written spatial walk; use under/beside/near/behind/along and child-height viewpoints, with varied line lengths and sparse rhyme so the backyard feels observed rather than catalogued",
+    "round2Grammar": "location cue -> two-beat recall space -> target -> small look/trace/shape gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. marimba seed-to-sprout answer figures and tiny shaker breaths",
     "signatureColor": "marimba seed-to-sprout answer figures and tiny shaker breaths",
+    "authorialIntent": "Make an ordinary backyard feel enormous at child scale: one step outside reveals tiny worlds under leaves, beside pots, along a fence and close to the soil.",
+    "lyricIdentity": "A child narrator moves physically through a familiar backyard using near/beside/under/around language and close-up discoveries; wonder comes from proximity, not fantasy.",
+    "imageMotifs": [
+      "back step",
+      "fence edge",
+      "pots and beds",
+      "under-leaf close-ups",
+      "late light near the back door"
+    ],
+    "semanticArc": [
+      "step through the back door",
+      "move from path and hose into beds and pots",
+      "kneel closer for tiny flowers, seed and worm",
+      "stand up and return to the door seeing the same yard differently"
+    ],
+    "forbiddenGenericLanguage": [
+      "look and point along with me",
+      "backyard green A-B-C",
+      "magic garden",
+      "fun to see"
+    ],
     "chorusAfterRound1": [
       2,
       5,

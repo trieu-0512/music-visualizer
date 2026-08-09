@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Seed to sprout, root to snack.",
+      "text": "Yesterday's leaves sink into soil; tomorrow's green begins there.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Garden letters grow along the track.",
+      "text": "Down, up, around again—the garden keeps a quiet circle.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "In the garden, A finds Apron. It covers the front of clothes and helps keep them cleaner during messy work.",
+      "text": "A — Apron! Before soil and water splash | cloth protects the front of our work clothes.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B — Bee. A bee is a small creature that can be noticed by its legs, body shape, or movement.",
+      "text": "B ... B ... Bee! Flower to flower | a small visitor can carry pollen as it feeds.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "What waits at C? Compost! It is decayed plant and food material that can enrich garden soil.",
+      "text": "C? Compost! Old plant and food material breaks down | nutrients return to the soil instead of ending the story.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D is for Daisy. A daisy has a round center surrounded by a ring of simple petals.",
+      "text": "D is Daisy. Petals ring a center | flower today, seeds later in the plant's life cycle.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Earthworm — our E. It has a long soft body and tunnels through moist soil.",
+      "text": "Down below, E — Earthworm. Tunnel and turn | moist soil shifts around its long soft body.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "In the garden, F finds Fern. It unfurls divided green fronds from curled young growth called fiddleheads.",
+      "text": "F ... F ... Fern! Curled young fronds unfurl | green returns from a tight spiral.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G — Garden Gate. A garden gate swings open and closed to make an entrance through a fence.",
+      "text": "G? Garden Gate! Open, close | a still boundary around a garden that keeps changing.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "What waits at H? Herb! It is a leafy plant valued for flavor, scent, or another useful quality.",
+      "text": "H is Herb. Leaf becomes scent and flavor | some herbs are gathered from the garden for use.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I is for Ivy. Climb and wind | ivy leaves trail close behind",
+      "text": "I — Ivy! Stem reaches, leaf follows | climbing growth keeps searching for light.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Jug — our J. It is a container with a handle and a narrow opening for pouring liquid.",
+      "text": "J ... J ... Jug! Tip and pour | water leaves the container and returns to the soil.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "In the garden, K finds Kneeling Pad. It is a soft cushion that protects knees during low garden work.",
+      "text": "K? Kneeling Pad! Soft under knees | a helper while we look closely at what happens near the ground.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L — Ladybug. A ladybug is a small creature that can be noticed by its legs, body shape, or movement.",
+      "text": "L is Ladybug. Six little legs cross a leaf | a beetle moving through the living garden web.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Tiny seed, big A-B-C!",
+      "text": "Down in soil, up to sun—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Garden foods grow happily!",
+      "text": "Round and round, the garden cycle runs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "What waits at M? Marigold! Bloom in view | petals open fresh with dew",
+      "text": "M — Marigold! Bud opens gold | flowers mark one bright stage before seeds and fading petals.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N is for Nest. A nest is a place birds build to hold eggs and chicks.",
+      "text": "N ... N ... Nest! Twigs hold new bird life | another cycle sharing the garden space.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Onion — our O. It forms a layered bulb underground with green leaves above the soil.",
+      "text": "O? Onion! Layers build below | green leaves above feed a bulb thickening underground.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "In the garden, P finds Pea. A pea plant makes pods with round peas lined up inside.",
+      "text": "P is Pea. Flower gives way to pod | round peas line up inside for the next part of the story.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q — Quince. A quince grows as a firm yellow fruit on a shrub or small tree.",
+      "text": "Q — Quince! Firm yellow fruit | a shrub or small tree carries it after flower and growth.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "What waits at R? Rose! It opens layers of petals on a woody stem that often carries prickles.",
+      "text": "R ... R ... Rose! Petals open, petals fall | the woody plant keeps living after the bloom.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S is for Seed. Seed down deep | tiny start that soil can keep",
+      "text": "S? Seed! Coat outside, tiny plant within | a small beginning waiting for the right conditions.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Trowel — our T. It is a small hand tool for moving soil; children only identify it safely.",
+      "text": "T is Trowel. Soil-moving hand tool | use it only with appropriate adult guidance.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "In the garden, U finds Umbrella. Open it wide | raindrops slide from side to side",
+      "text": "U — Umbrella! Rain stays on the outside | while garden water keeps moving through its own cycle.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V — Vegetable Bed. A vegetable bed is a prepared patch of soil where food plants grow together.",
+      "text": "V ... V ... Vegetable Bed! Many food plants share prepared soil | roots below, leaves above, harvest in between.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "What waits at W? Watering Can! It has a handle and spout for pouring water gently onto plants.",
+      "text": "W? Watering Can! Spout pours a gentle arc | water sinks down, then plants pull it up.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X is for Xeranthemum. Xeranthemum is a flowering plant known for dry, papery-looking flower heads.",
+      "text": "X is Xeranthemum. Papery flower heads can dry and hold their shape | one bloom stage lingering after fresh petals.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,7 +225,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Yarrow — our Y. Bloom in view | petals open fresh with dew",
+      "text": "Y — Yarrow! Flat clusters gather many tiny blooms | flowering now before the plant moves on.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -233,7 +233,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "In the garden, Z finds Zinnia. It is a bright garden flower with layered petals around its center.",
+      "text": "Z ... Z ... Zinnia! Layered petals close our alphabet | another flower can make seeds and send the circle on.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -241,21 +241,21 @@
     {
       "id": "chorus-r1-7-1",
       "sectionId": "chorus-r1-7",
-      "text": "Tiny seed, big A-B-C!",
+      "text": "Down in soil, up to sun—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-7-2",
       "sectionId": "chorus-r1-7",
-      "text": "Garden foods grow happily!",
+      "text": "Round and round, the garden cycle runs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Soft cue, A ... Apron! Trace a little apron shape on your shirt.",
+      "text": "Cycle back to A ... Apron! Trace a little apron shape on your shirt.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B? ... Bee! Wiggle tiny fingers or make a small flutter.",
+      "text": "Round to B ... Bee! Wiggle tiny fingers or make a small flutter.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Show C ... Compost! Point to the matching picture, then make one small shape gesture.",
+      "text": "What returns at C? ... Compost! Point to the matching picture, then make one small shape gesture.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Remember D ... Daisy! Open both hands like a flower.",
+      "text": "Show D ... Daisy! Open both hands like a flower.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Soft cue, E ... Earthworm! Wiggle tiny fingers or make a small flutter.",
+      "text": "Cycle back to E ... Earthworm! Wiggle tiny fingers or make a small flutter.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F? ... Fern! Grow one hand upward, then sway.",
+      "text": "Round to F ... Fern! Grow one hand upward, then sway.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Show G ... Garden Gate! Open one palm like a swinging gate.",
+      "text": "What returns at G? ... Garden Gate! Open one palm like a swinging gate.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Remember H ... Herb! Point to the matching picture, then make one small shape gesture.",
+      "text": "Show H ... Herb! Point to the matching picture, then make one small shape gesture.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Soft cue, I ... Ivy! Grow one hand upward, then sway.",
+      "text": "Cycle back to I ... Ivy! Grow one hand upward, then sway.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J? ... Jug! Mime one gentle pouring motion.",
+      "text": "Round to J ... Jug! Mime one gentle pouring motion.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Show K ... Kneeling Pad! Point to the matching picture, then make one small shape gesture.",
+      "text": "What returns at K? ... Kneeling Pad! Point to the matching picture, then make one small shape gesture.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Remember L ... Ladybug! Wiggle tiny fingers or make a small flutter.",
+      "text": "Show L ... Ladybug! Wiggle tiny fingers or make a small flutter.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,21 +351,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Tiny seed, big A-B-C!",
+      "text": "Down in soil, up to sun—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Garden foods grow happily!",
+      "text": "Round and round, the garden cycle runs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Soft cue, M ... Marigold! Open both hands like a flower.",
+      "text": "Cycle back to M ... Marigold! Open both hands like a flower.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -373,7 +373,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N? ... Nest! Cup both hands like a nest.",
+      "text": "Round to N ... Nest! Cup both hands like a nest.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -381,7 +381,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Show O ... Onion! Pretend to pick it gently, then show the picture.",
+      "text": "What returns at O? ... Onion! Pretend to pick it gently, then show the picture.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -389,7 +389,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Remember P ... Pea! Pretend to pick it gently, then show the picture.",
+      "text": "Show P ... Pea! Pretend to pick it gently, then show the picture.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -397,7 +397,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Soft cue, Q ... Quince! Pretend to pick it gently, then show the picture.",
+      "text": "Cycle back to Q ... Quince! Pretend to pick it gently, then show the picture.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R? ... Rose! Open both hands like a flower.",
+      "text": "Round to R ... Rose! Open both hands like a flower.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Show S ... Seed! Pinch fingers tiny, then slowly open them.",
+      "text": "What returns at S? ... Seed! Pinch fingers tiny, then slowly open them.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Remember T ... Trowel! Point to the picture and name its job.",
+      "text": "Show T ... Trowel! Point to the picture and name its job.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Soft cue, U ... Umbrella! Open both hands into a wide umbrella shape.",
+      "text": "Cycle back to U ... Umbrella! Open both hands into a wide umbrella shape.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V? ... Vegetable Bed! Point to the matching picture, then make one small shape gesture.",
+      "text": "Round to V ... Vegetable Bed! Point to the matching picture, then make one small shape gesture.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Show W ... Watering Can! Mime one gentle pour toward the ground.",
+      "text": "What returns at W? ... Watering Can! Mime one gentle pour toward the ground.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Remember X ... Xeranthemum! Open both hands like a flower.",
+      "text": "Show X ... Xeranthemum! Open both hands like a flower.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Soft cue, Y ... Yarrow! Open both hands like a flower.",
+      "text": "Cycle back to Y ... Yarrow! Open both hands like a flower.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z? ... Zinnia! Open both hands like a flower.",
+      "text": "Round to Z ... Zinnia! Open both hands like a flower.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Tiny seed, big A-B-C!",
+      "text": "Down in soil, up to sun—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Garden foods grow happily!",
+      "text": "Round and round, the garden cycle runs.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Tiny seed, big A-B-C!",
+      "text": "One seed waits where the last dry petals fall.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—seed sprout stays with me!",
+      "text": "A to Z turns back toward the soil again.",
       "objective": "narration",
       "objectReveal": "none"
     }

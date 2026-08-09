@@ -6,8 +6,8 @@
   "tempoBpm": 94,
   "motifFamily": "garden-tap",
   "hook": [
-    "Tap-tap, garden A-B-C!",
-    "Tools and plants—look carefully!"
+    "Pat, pour, pause—A-B-C!",
+    "Care for the bed, then let the garden be."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat with woodblock muted after cue",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a small-garden observer noticing growth, color, insects and safe tools",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "stop-go 4/4 pulse",
-    "round1Grammar": "Round 1 alternates growth images, color, shape, insects and safe garden-object functions; never say every object is growing.",
-    "round2Grammar": "Round 2 leaves a recall beat and uses object-specific grow, open, wiggle, pour, point or shape gestures; tools stay safe.",
+    "rhymeEngine": "work-rhythm-internal-percussion",
+    "chorusRhymeEngine": "tap-pat-open-cadence",
+    "pointOfView": "a child observing and helping only with safe garden-care motions while adults handle tools that require distance",
+    "chorusFunction": "reset the care sequence—touch the rhythm, then leave space for growth rather than celebrating tools themselves",
+    "grooveMeter": "stop-go 4/4 care rhythm with muted tap-rest figures",
+    "round1Grammar": "hand-written care sequence; practical verbs describe compost, mulch, containers, watering and safe tools, while flowers/food show the living result rather than being treated as equipment",
+    "round2Grammar": "care cue -> recall beat -> target -> safe mime/point/shape action; adult-only tools remain observation-only",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. marimba seed-to-sprout answer figures and tiny shaker breaths",
     "signatureColor": "marimba seed-to-sprout answer figures and tiny shaker breaths",
+    "authorialIntent": "Make garden care feel like a sequence of small purposeful actions: prepare, feed, protect, water, wait and notice what the work makes possible.",
+    "lyricIdentity": "A child watches safe garden work from close range; tap, pat, scrape, spread, pour and pause form a restrained work rhythm while plants show the result of care.",
+    "imageMotifs": [
+      "crumbly compost",
+      "hands near soil",
+      "kneeling pad",
+      "trowel and safe tool distance",
+      "water soaking in"
+    ],
+    "semanticArc": [
+      "prepare the growing space",
+      "notice plants and materials already there",
+      "care for soil and roots",
+      "finish by watering, waiting and seeing what the bed can support"
+    ],
+    "forbiddenGenericLanguage": [
+      "tools and plants look carefully",
+      "tap tap garden A-B-C",
+      "every tool is for children",
+      "fun to see"
+    ],
     "chorusAfterRound1": [
       2,
       5

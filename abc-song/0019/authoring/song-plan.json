@@ -6,8 +6,8 @@
   "tempoBpm": 89,
   "motifFamily": "seed-sprout",
   "hook": [
-    "Tiny seed, big A-B-C!",
-    "Garden foods grow happily!"
+    "Down in soil, up to sun—A-B-C!",
+    "Round and round, the garden cycle runs."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one supportive beat before target",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a small-garden observer noticing growth, color, insects and safe tools",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "walking 4/4 folk",
-    "round1Grammar": "Round 1 alternates growth images, color, shape, insects and safe garden-object functions; never say every object is growing.",
-    "round2Grammar": "Round 2 leaves a recall beat and uses object-specific grow, open, wiggle, pour, point or shape gestures; tools stay safe.",
+    "rhymeEngine": "garden-cycle-return-rhyme",
+    "chorusRhymeEngine": "down-sun-run-chain",
+    "pointOfView": "a child tracing how soil, tiny life, seed, water and plants connect in a repeating garden cycle",
+    "chorusFunction": "remind the listener that the story loops from below the soil up to light and back again",
+    "grooveMeter": "walking 4/4 circular folk groove with returning melodic tail",
+    "round1Grammar": "hand-written cycle language; use down/up/back/again selectively, distinguish edible crops from flowers/tools/helpers, and connect each fact to soil, water, seed, root, leaf or return when truthful",
+    "round2Grammar": "cycle cue -> recall beat -> target -> safe grow/trace/pour/pick/point gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. marimba seed-to-sprout answer figures and tiny shaker breaths",
     "signatureColor": "marimba seed-to-sprout answer figures and tiny shaker breaths",
+    "authorialIntent": "Reveal the garden as a cycle rather than a straight list: old plant matter feeds soil, hidden life moves through it, seeds and roots become leaves, flowers and food, and the cycle can begin again.",
+    "lyricIdentity": "A curious child keeps asking where garden food and growth come from; circular language—down, up, back, again—connects soil life, seed, root, flower and harvest.",
+    "imageMotifs": [
+      "compost returning to soil",
+      "worm tunnels",
+      "seed coat opening",
+      "roots and pods underground/above",
+      "food and flowers returning to the bed"
+    ],
+    "semanticArc": [
+      "begin with what protects and feeds the soil",
+      "follow hidden life and climbing growth",
+      "reach roots, pods, fruit and seed",
+      "return water and plant matter so another cycle can begin"
+    ],
+    "forbiddenGenericLanguage": [
+      "garden foods grow happily",
+      "tiny seed big A-B-C",
+      "everything becomes a snack",
+      "fun to see"
+    ],
     "chorusAfterRound1": [
       3,
       7
