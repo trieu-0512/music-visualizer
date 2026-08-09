@@ -6,11 +6,79 @@
   "tempoBpm": 86,
   "motifFamily": "fairy-door",
   "hook": [
-    "Fairy-tale door—A-B-C!",
-    "Open a story world with me!"
+    "Character, place, clue—A-B-C!",
+    "Name the story role before the magic."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Fairy Tale Letter Door",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "story-element-rhyme",
+    "chorusRhymeEngine": "character-place-clue-hook",
+    "pointOfView": "a child sorting fairy-tale elements",
+    "chorusFunction": "repeat character-place-clue",
+    "grooveMeter": "84 BPM storybook 6/8",
+    "round1Grammar": "target -> narrative category -> history/fiction caveat",
+    "round2Grammar": "story recall -> target -> safe symbolic gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "story-element",
+    "authorialIntent": "Make Fairy Tale Letter Door a story-element classification song: character, place, object, title, weapon, clue, and magic plot-device are separated before a tale begins.",
+    "lyricIdentity": "A child opens a story door and labels what kind of narrative element each card is, keeping folklore variation and fiction boundaries visible.",
+    "imageMotifs": [
+      "castle place",
+      "dragon character",
+      "quest map clue",
+      "magic wand prop",
+      "x-ray mirror fiction card"
+    ],
+    "semanticArc": [
+      "characters",
+      "places",
+      "objects/clues",
+      "magic/title exceptions"
+    ],
+    "forbiddenGenericLanguage": [
+      "everything magic",
+      "fairy tale real",
+      "weapon play",
+      "all witches same"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 9,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

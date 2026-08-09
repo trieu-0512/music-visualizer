@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore magic quest with me!",
+      "text": "A quest needs a goal, route, clues, choices, and a reason to return; a sword is not a solution by itself.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Magic quest—A-B-C!",
+      "text": "Adventure can move forward by thinking, asking, or turning back.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Our gentle quest gives A the clue Apple to discover.",
+      "text": "A — Arrow! | Projectile shot from a bow; weapon item remains picture-only in preschool fantasy play.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Our gentle quest gives B the clue Bridge to discover.",
+      "text": "B ... B ... Bridge! | Structure crosses a gap, river, or road; in a quest it can act as a route choice without being magical.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Our gentle quest gives C the clue Crown to discover.",
+      "text": "C? Cloak! | Loose outer garment; in stories it can signal role or concealment, but real fabric has no magic.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Our gentle quest gives D the clue Dragon to discover.",
+      "text": "D is Dragon. Mythical creature appearing in many cultures with very different forms and meanings; no single universal dragon design exists. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Our gentle quest gives E the clue Enchanted Mirror to discover.",
+      "text": "E — Enchanted Book! | Fantasy story object whose magic comes from the fiction; a real book does not cast spells.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Our gentle quest gives F the clue Fairy to discover.",
+      "text": "F ... F ... Fairy! | Folklore/fantasy being whose traits vary across traditions; wings and tiny size are not universal features.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Our gentle quest gives G the clue Giant to discover.",
+      "text": "G? Goblin! | Folklore/fantasy creature with many regional/literary versions; appearance and behavior depend on the story.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Our gentle quest gives H the clue Horse to discover.",
+      "text": "H is Hero. Story role for a central character facing challenges; courage can include help, planning, retreat, or negotiation rather than fighting. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Magic quest—A-B-C!",
+      "text": "Goal, clue, choice—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Find the friendly clues with me!",
+      "text": "The quest changes when the hero learns.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Our gentle quest gives I the clue Ivy Tower to discover.",
+      "text": "I — Island! | Land surrounded by water; a fantasy island can host invented places while island geography is real.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Our gentle quest gives J the clue Jester to discover.",
+      "text": "J ... J ... Jewel! | Cut/polished gemstone or decorative imitation; story jewels may mark clues/status but do not inherently possess magic.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Our gentle quest gives K the clue King to discover.",
+      "text": "K? King! | Male monarch title in some political systems; story kings vary widely and do not define real governance universally.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Our gentle quest gives L the clue Lute to discover.",
+      "text": "L is Lantern. Portable light source; historical lanterns used flame while modern ones may use batteries, and fire safety matters. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Our gentle quest gives M the clue Magic Wand to discover.",
+      "text": "M — Magic Key! | Fictional key whose special power is defined by the story; real keys only operate compatible locks.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Our gentle quest gives N the clue Noble Crown to discover.",
+      "text": "N ... N ... Noble Crown! | Crown symbolizes royalty/status in stories/history; wearing one does not create authority outside its social context.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Our gentle quest gives O the clue Owl to discover.",
+      "text": "O? Orb! | Spherical object; crystal/magic orbs are fantasy divination props unless otherwise specified.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Our gentle quest gives P the clue Potion to discover.",
+      "text": "P is Potion. Fantasy liquid with invented effects; real drinks/medicines should never be mixed or consumed as pretend potions. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Magic quest—A-B-C!",
+      "text": "Goal, clue, choice—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Find the friendly clues with me!",
+      "text": "The quest changes when the hero learns.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Our gentle quest gives Q the clue Queen to discover.",
+      "text": "Q — Quest Map! | Story map marks destinations, hazards, or clues for a fictional quest; plot information can be incomplete or misleading by design.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Our gentle quest gives R the clue Royal Robe to discover.",
+      "text": "R ... R ... Royal Banner! | Flag/banner represents a ruler, house, place, or group in a story; symbols communicate identity rather than magic.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Our gentle quest gives S the clue Spell Book to discover.",
+      "text": "S? Sword! | Edged historical weapon; in this preschool story set it stays a picture/symbol and is never mimed as an attack.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Our gentle quest gives T the clue Treasure Chest to discover.",
+      "text": "T is Troll. Folklore creature from Northern European traditions with many later fantasy reinterpretations. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Our gentle quest gives U the clue Urn to discover.",
+      "text": "U — Unicorn! | Mythical one-horned horse-like creature in European and other later fantasy traditions; it is not a real zoological species.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Our gentle quest gives V the clue Velvet Cape to discover.",
+      "text": "V ... V ... Village! | Settlement smaller than many towns/cities; in fairy tales it often anchors ordinary life before adventure.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Our gentle quest gives W the clue Wand to discover.",
+      "text": "W? Witch! | Figure in folklore, history, religion, and fantasy with widely varying meanings; fantasy witch traits should not be treated as facts about real people.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Our gentle quest gives X the clue Xylophone to discover.",
+      "text": "X is X-shaped Gem. Project gem with an X-like cut/outline; the X shape is a clue, not evidence of magical properties. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Magic quest—A-B-C!",
+      "text": "Goal, clue, choice—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Find the friendly clues with me!",
+      "text": "The quest changes when the hero learns.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Our gentle quest gives Y the clue Yellow Brick to discover.",
+      "text": "Y — Yeti! | Folklore creature associated with Himalayan stories; no confirmed scientific evidence establishes a Yeti species.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Our gentle quest gives Z the clue Zigzag Path to discover.",
+      "text": "Z ... Z ... Zodiac Scroll! | Story scroll showing zodiac symbols; astrology is a cultural belief system, not established physical causation.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Quest pause: A ... Apple! Point to the answer.",
+      "text": "Quest recall A ... Arrow! Point to the fantasy weapon picture; no attack, aiming, or striking mime.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Quest pause: B ... Bridge! Point to the answer.",
+      "text": "Find B ... Bridge! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Quest pause: C ... Crown! Point to the answer.",
+      "text": "Which one starts C? ... Cloak! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Quest pause: D ... Dragon! Point to the answer.",
+      "text": "Check D ... Dragon! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Quest pause: E ... Enchanted Mirror! Point to the answer.",
+      "text": "Quest recall E ... Enchanted Book! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Quest pause: F ... Fairy! Point to the answer.",
+      "text": "Find F ... Fairy! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Quest pause: G ... Giant! Point to the answer.",
+      "text": "Which one starts G? ... Goblin! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Quest pause: H ... Horse! Point to the answer.",
+      "text": "Check H ... Hero! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Magic quest—A-B-C!",
+      "text": "Goal, clue, choice—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Find the friendly clues with me!",
+      "text": "The quest changes when the hero learns.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Quest pause: I ... Ivy Tower! Point to the answer.",
+      "text": "Quest recall I ... Island! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Quest pause: J ... Jester! Point to the answer.",
+      "text": "Find J ... Jewel! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Quest pause: K ... King! Point to the answer.",
+      "text": "Which one starts K? ... King! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Quest pause: L ... Lute! Point to the answer.",
+      "text": "Check L ... Lantern! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Quest pause: M ... Magic Wand! Point to the answer.",
+      "text": "Quest recall M ... Magic Key! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Quest pause: N ... Noble Crown! Point to the answer.",
+      "text": "Find N ... Noble Crown! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Quest pause: O ... Owl! Point to the answer.",
+      "text": "Which one starts O? ... Orb! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Quest pause: P ... Potion! Point to the answer.",
+      "text": "Check P ... Potion! Point; say story potion only—never mix or drink unknown liquids.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Magic quest—A-B-C!",
+      "text": "Goal, clue, choice—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Find the friendly clues with me!",
+      "text": "The quest changes when the hero learns.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Quest pause: Q ... Queen! Point to the answer.",
+      "text": "Quest recall Q ... Quest Map! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Quest pause: R ... Royal Robe! Point to the answer.",
+      "text": "Find R ... Royal Banner! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Quest pause: S ... Spell Book! Point to the answer.",
+      "text": "Which one starts S? ... Sword! Point to the fantasy weapon picture; no attack, aiming, or striking mime.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Quest pause: T ... Treasure Chest! Point to the answer.",
+      "text": "Check T ... Troll! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Quest pause: U ... Urn! Point to the answer.",
+      "text": "Quest recall U ... Unicorn! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Quest pause: V ... Velvet Cape! Point to the answer.",
+      "text": "Find V ... Village! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Quest pause: W ... Wand! Point to the answer.",
+      "text": "Which one starts W? ... Witch! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Quest pause: X ... Xylophone! Point to the answer.",
+      "text": "Check X ... X-shaped Gem! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Magic quest—A-B-C!",
+      "text": "Goal, clue, choice—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Find the friendly clues with me!",
+      "text": "The quest changes when the hero learns.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Quest pause: Y ... Yellow Brick! Point to the answer.",
+      "text": "Quest recall Y ... Yeti! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Quest pause: Z ... Zigzag Path! Point to the answer.",
+      "text": "Find Z ... Zodiac Scroll! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Magic quest—A-B-C!",
+      "text": "Arrow and sword remain picture props, Yeti remains folklore, Zodiac Scroll remains a belief/story symbol.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z returns from the quest with a changed understanding.",
       "objective": "narration",
       "objectReveal": "none"
     }

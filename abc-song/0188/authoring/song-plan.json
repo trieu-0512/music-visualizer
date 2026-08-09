@@ -6,11 +6,79 @@
   "tempoBpm": 90,
   "motifFamily": "story-friends",
   "hook": [
-    "Dragons, knights, fairies—A-B-C!",
-    "Friendly story friends with me!"
+    "Want, choose, change—A-B-C!",
+    "Let the character be more than the costume."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Dragon Knight Fairy Song",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "character-agency-rhyme",
+    "chorusRhymeEngine": "want-choose-change-hook",
+    "pointOfView": "a child revising fairy-tale stereotypes",
+    "chorusFunction": "repeat want-choose-change",
+    "grooveMeter": "84 BPM character-ballad 4/4",
+    "round1Grammar": "target -> story role -> stereotype/fiction caveat",
+    "round2Grammar": "character-neutral recall -> no weapon action",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "character-agency",
+    "authorialIntent": "Make Dragon Knight Fairy Song a character-agency song: Dragon, Knight, Fairy, Princess, Witch, Troll and others can have motives beyond stereotype; conflict can be solved by planning, negotiation, escape, help, or repair rather than combat.",
+    "lyricIdentity": "A child rewrites familiar roles and keeps weapons symbolic while asking what each character wants and chooses.",
+    "imageMotifs": [
+      "dragon choice",
+      "knight lowered lance",
+      "princess map",
+      "fairy question",
+      "village gate"
+    ],
+    "semanticArc": [
+      "introduce motives",
+      "misunderstanding",
+      "choice/conflict",
+      "nonviolent resolution"
+    ],
+    "forbiddenGenericLanguage": [
+      "knight kills dragon",
+      "princess waits",
+      "witch always evil",
+      "fight to win"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 7,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

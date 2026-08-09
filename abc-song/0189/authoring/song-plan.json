@@ -6,11 +6,79 @@
   "tempoBpm": 92,
   "motifFamily": "kingdom-parade",
   "hook": [
-    "Storybook kingdom—A-B-C!",
-    "Royal picture words with me!"
+    "Place, symbol, role—A-B-C!",
+    "Read the kingdom like a map, not a ranking."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Kingdom Picture Parade",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "kingdom-symbol-map-rhyme",
+    "chorusRhymeEngine": "place-symbol-role-hook",
+    "pointOfView": "a child reading a fictional kingdom critically",
+    "chorusFunction": "repeat place-symbol-role",
+    "grooveMeter": "86 BPM map-parade 6/8",
+    "round1Grammar": "target -> place/symbol/role -> historical/story caveat",
+    "round2Grammar": "map recall -> target -> point gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "kingdom-literacy",
+    "authorialIntent": "Make Kingdom Picture Parade a place-and-symbol literacy song: crown, throne, banner, village, tower, bridge, forest, island and court roles show how stories represent authority and geography without claiming monarchy is natural or magical.",
+    "lyricIdentity": "A child reads a fictional kingdom map and distinguishes symbols of office from actual ability or goodness.",
+    "imageMotifs": [
+      "crown symbol",
+      "throne seat",
+      "village",
+      "bridge route",
+      "forest edge"
+    ],
+    "semanticArc": [
+      "map places",
+      "court symbols",
+      "ordinary life",
+      "story beliefs"
+    ],
+    "forbiddenGenericLanguage": [
+      "crown makes good ruler",
+      "royal means better",
+      "kingdom magic everywhere",
+      "parade of subjects"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 6,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

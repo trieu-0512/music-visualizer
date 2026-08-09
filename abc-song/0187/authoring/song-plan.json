@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "castle-magic",
   "hook": [
-    "Castle magic—A-B-C!",
-    "Gentle magic, sing with me!"
+    "Rule, limit, clue—A-B-C!",
+    "Magic works better when the story tells us how."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Castle Magic ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "magic-rule-rhyme",
+    "chorusRhymeEngine": "rule-limit-clue-hook",
+    "pointOfView": "a child testing story-magic consistency",
+    "chorusFunction": "repeat rule-limit-clue",
+    "grooveMeter": "82 BPM mystery 6/8",
+    "round1Grammar": "target -> ordinary/fictional role -> explicit limit",
+    "round2Grammar": "rule-neutral recall -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "magic-rule",
+    "authorialIntent": "Make Castle Magic ABC about rules of fictional magic: every enchanted object must have a defined story rule, cost, limit, clue, or consequence; ordinary Bridge, Forest, Island, Lantern and Well remain ordinary unless the tale explicitly changes them.",
+    "lyricIdentity": "A child asks 'what is the rule?' instead of treating sparkle as an explanation.",
+    "imageMotifs": [
+      "hidden door rule",
+      "key lock",
+      "lantern ordinary light",
+      "potion warning",
+      "moon gate"
+    ],
+    "semanticArc": [
+      "ordinary world",
+      "magic rule",
+      "limit/consequence",
+      "resolve"
+    ],
+    "forbiddenGenericLanguage": [
+      "magic does anything",
+      "potion drink",
+      "well portal automatically",
+      "amulet guarantees safety"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 4,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

@@ -6,11 +6,79 @@
   "tempoBpm": 89,
   "motifFamily": "magic-quest",
   "hook": [
-    "Magic quest—A-B-C!",
-    "Find the friendly clues with me!"
+    "Goal, clue, choice—A-B-C!",
+    "The quest changes when the hero learns."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "bright 3D fairy-tale storybook, gentle castles magic and friendly creatures, safe whimsical scenes; visual identity: Magic Quest A-Z",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "quest-logic-rhyme",
+    "chorusRhymeEngine": "goal-clue-choice-hook",
+    "pointOfView": "a child constructing quest logic",
+    "chorusFunction": "repeat goal-clue-choice-return",
+    "grooveMeter": "86 BPM adventure-with-rest 4/4",
+    "round1Grammar": "target -> quest function -> fiction/safety boundary",
+    "round2Grammar": "quest recall -> target -> noncombat gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "quest-logic",
+    "authorialIntent": "Make Magic Quest A-Z a quest-logic finale: goal, route, clue, obstacle, helper, choice, consequence, return; Hero is a story function and Arrow/Sword stay non-action props.",
+    "lyricIdentity": "A child builds a quest where solving, asking, turning back, or changing goals can count as progress; magic clues require interpretation rather than combat.",
+    "imageMotifs": [
+      "quest map",
+      "magic key",
+      "bridge choice",
+      "hero asks help",
+      "return banner"
+    ],
+    "semanticArc": [
+      "goal",
+      "route/clues",
+      "choice/consequence",
+      "return/meaning"
+    ],
+    "forbiddenGenericLanguage": [
+      "hero must fight",
+      "quest means treasure",
+      "sword solves",
+      "never turn back"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 6,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

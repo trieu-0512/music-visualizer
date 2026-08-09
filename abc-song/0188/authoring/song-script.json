@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore dragons knights and fairies with me!",
+      "text": "A dragon may guard, fear, help, or ask; a knight can listen; a princess can plan the route.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Dragons, knights, fairies—A-B-C!",
+      "text": "A story role is not a fixed personality.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "In our gentle storybook, A introduces Armor on the page.",
+      "text": "A — Armor! | Protective clothing in historical/fantasy stories, often metal or layered material; real armor was heavy equipment, not magical invulnerability.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "In our gentle storybook, B introduces Broom on the page.",
+      "text": "B ... B ... Bridge! | Structure crosses a gap, river, or road; in a quest it can act as a route choice without being magical.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "In our gentle storybook, C introduces Crown on the page.",
+      "text": "C? Castle! | Fortified residence/defensive complex in many historical settings; towers, walls, gates, keeps, and moats vary by place and period.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "In our gentle storybook, D introduces Dragon on the page.",
+      "text": "D is Dragon. Mythical creature appearing in many cultures with very different forms and meanings; no single universal dragon design exists. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "In our gentle storybook, E introduces Enchanted Mirror on the page.",
+      "text": "E — Elf! | Folklore/fantasy being from Germanic/Norse-derived and later traditions; modern pointed-ear depictions are only one convention.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "In our gentle storybook, F introduces Fairy on the page.",
+      "text": "F ... F ... Fairy! | Folklore/fantasy being whose traits vary across traditions; wings and tiny size are not universal features.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "In our gentle storybook, G introduces Goblet on the page.",
+      "text": "G? Goblin! | Folklore/fantasy creature with many regional/literary versions; appearance and behavior depend on the story.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "In our gentle storybook, H introduces Harp on the page.",
+      "text": "H is Hidden Door. Concealed entrance in a story/building; hidden does not necessarily mean magical. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Dragons, knights, fairies—A-B-C!",
+      "text": "Want, choose, change—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Friendly story friends with me!",
+      "text": "Let the character be more than the costume.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "In our gentle storybook, I introduces Ice Palace on the page.",
+      "text": "I — Invisible Cloak! | Fictional garment that hides a wearer in stories; real cloaks do not create invisibility.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "In our gentle storybook, J introduces Jewel on the page.",
+      "text": "J ... J ... Jester! | Historical court entertainer associated with comedy, music, performance, or satire; not every jester wore the same costume.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "In our gentle storybook, K introduces King on the page.",
+      "text": "K? Knight! | Historical social/military role associated with mounted service in medieval Europe; fairy tales often simplify the history.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "In our gentle storybook, L introduces Lute on the page.",
+      "text": "L is Lance. Long pole weapon historically used by mounted fighters; picture-only fantasy item here. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "In our gentle storybook, M introduces Mermaid on the page.",
+      "text": "M — Magic Wand! | Fictional prop used as a focus for magic in stories; real sticks/wands have no proven spell power.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "In our gentle storybook, N introduces Noble Crown on the page.",
+      "text": "N ... N ... Noble Crown! | Crown symbolizes royalty/status in stories/history; wearing one does not create authority outside its social context.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "In our gentle storybook, O introduces Owl on the page.",
+      "text": "O? Ogre! | Folklore/fantasy humanoid creature often depicted as large; details vary by tale.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "In our gentle storybook, P introduces Princess on the page.",
+      "text": "P is Princess. Royal title for a female member of a ruling family in many systems; story princesses need not be passive or identical. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Dragons, knights, fairies—A-B-C!",
+      "text": "Want, choose, change—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Friendly story friends with me!",
+      "text": "Let the character be more than the costume.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "In our gentle storybook, Q introduces Queen on the page.",
+      "text": "Q — Quest Map! | Story map marks destinations, hazards, or clues for a fictional quest; plot information can be incomplete or misleading by design.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "In our gentle storybook, R introduces Royal Robe on the page.",
+      "text": "R ... R ... Royal Throne! | Ceremonial seat associated with a monarch/ruler; it symbolizes office rather than granting power by itself.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "In our gentle storybook, S introduces Shield on the page.",
+      "text": "S? Spell Book! | Fantasy book containing fictional spells; it is a story device, not a real source of supernatural power.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "In our gentle storybook, T introduces Tower on the page.",
+      "text": "T is Tower. Tall structure or building section used for defense, observation, bells, living space, or symbolism depending context. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "In our gentle storybook, U introduces Unicorn on the page.",
+      "text": "U — Unicorn! | Mythical one-horned horse-like creature in European and other later fantasy traditions; it is not a real zoological species.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "In our gentle storybook, V introduces Velvet Cape on the page.",
+      "text": "V ... V ... Village Well! | Well accesses groundwater; real wells are fall/water hazards and children stay behind barriers.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "In our gentle storybook, W introduces Wand on the page.",
+      "text": "W? Witch! | Figure in folklore, history, religion, and fantasy with widely varying meanings; fantasy witch traits should not be treated as facts about real people.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "In our gentle storybook, X introduces X-marked Treasure Map on the page.",
+      "text": "X is X-ray Mirror. Project fantasy mirror with see-through powers; real mirrors reflect light and medical X-rays require specialized imaging equipment. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Dragons, knights, fairies—A-B-C!",
+      "text": "Want, choose, change—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Friendly story friends with me!",
+      "text": "Let the character be more than the costume.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "In our gentle storybook, Y introduces Yarn on the page.",
+      "text": "Y — Yeti! | Folklore creature associated with Himalayan stories; no confirmed scientific evidence establishes a Yeti species.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "In our gentle storybook, Z introduces Zodiac Scroll on the page.",
+      "text": "Z ... Z ... Zodiac Amulet! | Fantasy amulet decorated with zodiac symbols; symbols have cultural/astrological meaning but no demonstrated magical force.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Story cue: A ... Armor! Point, no battle play.",
+      "text": "Character recall A ... Armor! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Story cue: B ... Broom! Point, no battle play.",
+      "text": "Find B ... Bridge! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Story cue: C ... Crown! Point, no battle play.",
+      "text": "Which one starts C? ... Castle! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Story cue: D ... Dragon! Point, no battle play.",
+      "text": "Check D ... Dragon! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Story cue: E ... Enchanted Mirror! Point, no battle play.",
+      "text": "Character recall E ... Elf! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Story cue: F ... Fairy! Point, no battle play.",
+      "text": "Find F ... Fairy! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Story cue: G ... Goblet! Point, no battle play.",
+      "text": "Which one starts G? ... Goblin! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Story cue: H ... Harp! Point, no battle play.",
+      "text": "Check H ... Hidden Door! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Dragons, knights, fairies—A-B-C!",
+      "text": "Want, choose, change—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Friendly story friends with me!",
+      "text": "Let the character be more than the costume.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Story cue: I ... Ice Palace! Point, no battle play.",
+      "text": "Character recall I ... Invisible Cloak! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Story cue: J ... Jewel! Point, no battle play.",
+      "text": "Find J ... Jester! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Story cue: K ... King! Point, no battle play.",
+      "text": "Which one starts K? ... Knight! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Story cue: L ... Lute! Point, no battle play.",
+      "text": "Check L ... Lance! Point to the fantasy weapon picture; no attack, aiming, or striking mime.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Story cue: M ... Mermaid! Point, no battle play.",
+      "text": "Character recall M ... Magic Wand! Air-trace a star once; say the magic belongs to the story.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Story cue: N ... Noble Crown! Point, no battle play.",
+      "text": "Find N ... Noble Crown! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Story cue: O ... Owl! Point, no battle play.",
+      "text": "Which one starts O? ... Ogre! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Story cue: P ... Princess! Point, no battle play.",
+      "text": "Check P ... Princess! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Dragons, knights, fairies—A-B-C!",
+      "text": "Want, choose, change—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Friendly story friends with me!",
+      "text": "Let the character be more than the costume.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Story cue: Q ... Queen! Point, no battle play.",
+      "text": "Character recall Q ... Quest Map! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Story cue: R ... Royal Robe! Point, no battle play.",
+      "text": "Find R ... Royal Throne! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Story cue: S ... Shield! Point, no battle play.",
+      "text": "Which one starts S? ... Spell Book! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Story cue: T ... Tower! Point, no battle play.",
+      "text": "Check T ... Tower! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Story cue: U ... Unicorn! Point, no battle play.",
+      "text": "Character recall U ... Unicorn! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Story cue: V ... Velvet Cape! Point, no battle play.",
+      "text": "Find V ... Village Well! Point; mark a stay-back edge.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Story cue: W ... Wand! Point, no battle play.",
+      "text": "Which one starts W? ... Witch! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Story cue: X ... X-marked Treasure Map! Point, no battle play.",
+      "text": "Check X ... X-ray Mirror! Point; say fantasy mirror, real X-ray is medical imaging.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Dragons, knights, fairies—A-B-C!",
+      "text": "Want, choose, change—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Friendly story friends with me!",
+      "text": "Let the character be more than the costume.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Story cue: Y ... Yarn! Point, no battle play.",
+      "text": "Character recall Y ... Yeti! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Story cue: Z ... Zodiac Scroll! Point, no battle play.",
+      "text": "Find Z ... Zodiac Amulet! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Dragons, knights, fairies—A-B-C!",
+      "text": "Lance stays lowered, village well stays safe, the ending comes from choices rather than a fight.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z closes with characters allowed to change.",
       "objective": "narration",
       "objectReveal": "none"
     }
