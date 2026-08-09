@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Telescope up—what is glowing in the dark?",
+      "text": "A picture is useful; a measurement is better when we know how it was made.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "One bright clue at a time, from A all the way to Z.",
+      "text": "Our space lab asks one question again and again: what is the evidence?",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A is here; Astronaut is why. Astronaut drifts slow | trained for work where spacecraft go",
+      "text": "A — Astronaut! Human observer and trained operator | crew reports combine with instrument data, not replace it.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Black Hole answers B. A black hole has gravity so strong that light cannot escape from inside it.",
+      "text": "B ... B ... Black Hole! We infer black holes from effects on nearby matter, light, motion, gravitational waves, and direct horizon-scale imaging in some cases | evidence without seeing a black interior.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "beneath the observatory dome, what belongs to C? Capsule! Capsule small and round | crew or cargo rides space-bound",
+      "text": "C? Capsule! Spacecraft hardware carries people or cargo | lab distinguishes vehicle from the observations it returns.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D—short beat—Dish Antenna. A dish antenna focuses radio waves so a spacecraft or ground station can send and receive signals.",
+      "text": "D is Dish Antenna. Radio reflector links spacecraft and ground | data can travel farther than the probe itself can return.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Hear E; see Earth. Earth, blue and round | ocean, land, and air are found",
+      "text": "E — Earth! Satellites, ground stations, and direct sampling provide many kinds of data | our best-known planet becomes the comparison case.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F is here; Flag is why. It is a marked piece of fabric used as a symbol; astronauts have carried flags on missions.",
+      "text": "F ... F ... Flag! Symbolic object can appear in mission imagery | it is evidence of human activity only when supported by mission context.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Galaxy answers G. Galaxy curls wide | stars and dust are gravity-tied",
+      "text": "G? Galaxy! Telescopes image starlight, gas emission, dust signatures and motion | one picture contains many physical clues.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "beneath the observatory dome, what belongs to H? Helmet! A space helmet protects the head and helps keep a safe breathing environment.",
+      "text": "H is Helmet. Crew safety hardware | not a science sensor unless special instruments are mounted or carried.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Look up high, then name what you see!",
+      "text": "Ask, observe, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Sky-full words from A to Z!",
+      "text": "Science keeps the clue and tests the story.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I—short beat—International Space Station. Station circles round | orbiting lab above the ground",
+      "text": "I — International Space Station! Orbiting laboratory hosts experiments and Earth/space observations | microgravity environment enables specific research.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Hear J; see Jet Pack. A spacecraft maneuvering pack uses small thrusters for carefully planned movement in space.",
+      "text": "J ... J ... Jet Pack! Maneuvering device label in our mapping | engineering object, not astronomy evidence.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K is here; Krypton Tank is why. Krypton stored just right | gas can feed an ion-thruster flight",
+      "text": "K? Krypton Tank! Propellant storage for some electric propulsion systems | engineering telemetry can verify tank use and performance.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Lunar Rover answers L. A lunar rover is a vehicle designed to travel across the Moon's surface.",
+      "text": "L is Lunar Rover. Surface vehicle extends where people or instruments can travel | images, samples, and measurements turn movement into evidence.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "beneath the observatory dome, what belongs to M? Moon! Moon in view | sunlight makes its phases new",
+      "text": "M — Moon! Orbiters, landers, samples, telescopes, and direct human exploration all contribute evidence | multiple methods agree on one nearby world.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N—short beat—Nebula. A nebula is a cloud of gas and dust in space, sometimes linked to star birth or the remains of stars.",
+      "text": "N ... N ... Nebula! Gas and dust reveal themselves through images and spectra at different wavelengths | color alone is not the whole measurement.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Hear O; see Observatory. Observatory dome | telescopes give sky-watchers a home",
+      "text": "O? Observatory! Facility organizes instruments, tracking, calibration, and repeated observation | place where evidence is built carefully.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P is here; Probe is why. A space probe is an uncrewed spacecraft sent to collect information about space or another world.",
+      "text": "P is Probe. Robotic spacecraft carries sensors to destinations | sends measurements back by radio.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Quasar answers Q. Quasar, tiny gleam | giant galactic core with a brilliant beam",
+      "text": "Q — Quasar! Spectra, variability, imaging and multiwavelength observations support the active-galactic-nucleus model | extreme brightness needs evidence across bands.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "beneath the observatory dome, what belongs to R? Rover! It is a mobile robot or vehicle designed to explore the surface of another world.",
+      "text": "R ... R ... Rover! Mobile science platform carries imaging tools and instruments | surface path becomes a sequence of measured sites.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S—short beat—Spacesuit. Spacesuit seals around | pressure, air, and protection space-bound",
+      "text": "S? Spacesuit! Protective life-support system | lets humans work safely but does not itself prove an astronomy claim.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Hear T; see Telescope. A telescope collects light or other signals to help us study distant objects.",
+      "text": "T is Telescope. Collects electromagnetic radiation | each design has wavelength, resolution, and sensitivity limits.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U is here; Uranus is why. Uranus rolls by | sideways tilt turns under distant sky",
+      "text": "U — Uranus! Telescopes and Voyager 2 data reveal rings, moons, atmosphere and tilted rotation | evidence comes from more than apparent color.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Venus answers V. Venus is a rocky planet covered by a thick atmosphere and very hot surface conditions.",
+      "text": "V ... V ... Venus! Radar, orbiters, landers and spectroscopy reveal a hot dense atmosphere and hidden surface | clouds require instruments that see more than visible light.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "beneath the observatory dome, what belongs to W? White Dwarf! White Dwarf, small and bright | dense old stellar core still shining light",
+      "text": "W? White Dwarf! Dense stellar remnant identified through temperature, luminosity, spectra, mass and binary behavior | not merely a white point.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X—short beat—X-ray Telescope. An X-ray telescope detects X-rays from hot and energetic objects in space.",
+      "text": "X is X-ray Telescope. Detects high-energy X-rays from hot and extreme cosmic environments | usually operates above most of Earth's atmosphere.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Look up high, then name what you see!",
+      "text": "Ask, observe, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Sky-full words from A to Z!",
+      "text": "Science keeps the clue and tests the story.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Hear Y; see Yoke. Yoke turns left or right | hand-control clue in plain sight",
+      "text": "Y — Yoke! Control-interface mapping helper | engineering context stays separate from science evidence.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z is here; Zero-gravity Chair is why. A zero-gravity chair reclines the body for distributed support; it does not create real weightlessness.",
+      "text": "Z ... Z ... Zero-gravity Chair! Reclining furniture may use the marketing name | a lab note must state clearly that it does not create microgravity.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Hear A ... say Astronaut! Float two hands slowly, then point to the astronaut.",
+      "text": "Evidence A ... Astronaut! Float two hands slowly, then point to the astronaut.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Find the picture for B ... Black Hole! Draw a small dark circle in the air, then point inward.",
+      "text": "Tool/target B ... Black Hole! Draw a small dark circle in the air, then point inward.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C calls ... Capsule answers! Cup both hands into a compact capsule shape.",
+      "text": "How know C? ... Capsule! Cup both hands into a compact capsule shape.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... wait ... Dish Antenna! Curve one palm like a dish, then aim it toward the sky.",
+      "text": "Lab D ... Dish Antenna! Curve one palm like a dish, then aim it toward the sky.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Hear E ... say Earth! Make a round Earth with both hands, then point home.",
+      "text": "Evidence E ... Earth! Make a round Earth with both hands, then point home.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Find the picture for F ... Flag! Wave one empty hand gently like a flag.",
+      "text": "Tool/target F ... Flag! Wave one empty hand gently like a flag.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G calls ... Galaxy answers! Spiral one finger outward like a galaxy arm.",
+      "text": "How know G? ... Galaxy! Spiral one finger outward like a galaxy arm.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... wait ... Helmet! Frame your head with two hands like a helmet.",
+      "text": "Lab H ... Helmet! Frame your head with two hands like a helmet.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Hear I ... say International Space Station! Stretch both hands wide, then trace one orbit.",
+      "text": "Evidence I ... International Space Station! Stretch both hands wide, then trace one orbit.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Find the picture for J ... Jet Pack! Hold two hands by your sides, then make one tiny upward puff motion.",
+      "text": "Tool/target J ... Jet Pack! Hold two hands by your sides, then make one tiny upward puff motion.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K calls ... Krypton Tank answers! Make a tall tank shape with both hands, then point.",
+      "text": "How know K? ... Krypton Tank! Make a tall tank shape with both hands, then point.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... wait ... Lunar Rover! Roll two finger-wheels slowly across the table-air.",
+      "text": "Lab L ... Lunar Rover! Roll two finger-wheels slowly across the table-air.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Hear M ... say Moon! Make a round moon, then turn one side toward the light.",
+      "text": "Evidence M ... Moon! Make a round moon, then turn one side toward the light.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -359,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Find the picture for N ... Nebula! Spread your fingers like a soft cloud of gas and dust.",
+      "text": "Tool/target N ... Nebula! Spread your fingers like a soft cloud of gas and dust.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -367,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O calls ... Observatory answers! Make a dome with both hands, then aim a pretend telescope.",
+      "text": "How know O? ... Observatory! Make a dome with both hands, then aim a pretend telescope.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -375,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... wait ... Probe! Send one finger forward like a small robot explorer.",
+      "text": "Lab P ... Probe! Send one finger forward like a small robot explorer.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -383,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Look up high, then name what you see!",
+      "text": "Ask, observe, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Sky-full words from A to Z!",
+      "text": "Science keeps the clue and tests the story.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Hear Q ... say Quasar! Make one tiny bright point, then spread a big glow around it.",
+      "text": "Evidence Q ... Quasar! Make one tiny bright point, then spread a big glow around it.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Find the picture for R ... Rover! Roll two finger-wheels across an imaginary planet.",
+      "text": "Tool/target R ... Rover! Roll two finger-wheels across an imaginary planet.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S calls ... Spacesuit answers! Pat your shoulders and chest like a protective suit outline.",
+      "text": "How know S? ... Spacesuit! Pat your shoulders and chest like a protective suit outline.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... wait ... Telescope! Make pretend binoculars, then look far away.",
+      "text": "Lab T ... Telescope! Make pretend binoculars, then look far away.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Hear U ... say Uranus! Tilt a round hand-shape sideways, then slowly turn it.",
+      "text": "Evidence U ... Uranus! Tilt a round hand-shape sideways, then slowly turn it.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Find the picture for V ... Venus! Make a round planet, then wrap it in a thick-cloud hug.",
+      "text": "Tool/target V ... Venus! Make a round planet, then wrap it in a thick-cloud hug.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W calls ... White Dwarf answers! Pinch a tiny bright star between two fingers, then hold it still.",
+      "text": "How know W? ... White Dwarf! Pinch a tiny bright star between two fingers, then hold it still.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... wait ... X-ray Telescope! Pretend to aim a telescope high, then point to the X-ray picture.",
+      "text": "Lab X ... X-ray Telescope! Pretend to aim a telescope high, then point to the X-ray picture.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Hear Y ... say Yoke! Hold an imaginary control, then make one gentle turn.",
+      "text": "Evidence Y ... Yoke! Hold an imaginary control, then make one gentle turn.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Find the picture for Z ... Zero-gravity Chair! Lean your hands back together like a reclining chair shape.",
+      "text": "Tool/target Z ... Zero-gravity Chair! Lean your hands back together like a reclining chair shape.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Look up high, then name what you see!",
+      "text": "Ask, observe, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Sky-full words from A to Z!",
+      "text": "Science keeps the clue and tests the story.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Look up high, then name what you see!",
+      "text": "Screen dim, telescope parked, data saved for another question.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Close the page softly—our space story stays in the melody!",
+      "text": "A to Z ends with evidence, not a guess dressed as fact.",
       "objective": "narration",
       "objectReveal": "none"
     }

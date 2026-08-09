@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Mission Control says: alphabet crew, ready?",
+      "text": "Checklist first: communicate, carry, steer, thrust, observe.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Tap the beat—every letter opens one space window.",
+      "text": "A rocket mission works because different parts do different jobs.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A ... listen ... Asteroid! Asteroid in flight | rocky body crossing night",
+      "text": "A — Asteroid! Mission target or hazard context, not rocket hardware | small body orbiting the Sun.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Meet Booster, our B clue. A rocket booster provides extra thrust during an early part of a launch.",
+      "text": "B ... B ... Booster! Provides additional thrust during launch | one propulsion stage in the checklist.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "across the Mission Control screens: C finds Capsule. Capsule small and round | crew or cargo rides space-bound",
+      "text": "C? Capsule! Enclosed spacecraft section can carry crew or cargo | structure and life-support context, not an engine.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D for Dish Antenna—A dish antenna focuses radio waves so a spacecraft or ground station can send and receive signals.",
+      "text": "D is Dish Antenna. Curved reflector focuses radio waves | communication system sends and receives signals.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Which picture starts with E? Earth! Earth, blue and round | ocean, land, and air are found",
+      "text": "E — Earth! Launch world and communication home base | destination context rather than subsystem.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F ... listen ... Flag! It is a marked piece of fabric used as a symbol; astronauts have carried flags on missions.",
+      "text": "F ... F ... Flag! Mission marker or symbol | carries no navigation or propulsion function.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Meet Gemini Capsule, our G clue. Gemini takes flight | two-seat capsule trained for lunar flight",
+      "text": "G? Gemini Capsule! Historical two-person NASA spacecraft | engineering example from early crewed orbital missions.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "across the Mission Control screens: H finds Hubble Telescope. The Hubble Space Telescope orbits Earth and observes the universe above much of our atmosphere.",
+      "text": "H is Hubble Telescope. Space telescope in Earth orbit observes mainly ultraviolet, visible, and near-infrared wavelengths | science instrument, not crew cabin.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Letter crew, call it clear!",
+      "text": "Check, link, thrust—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Space-word answer, loud and near!",
+      "text": "One system hands the mission to the next.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I for Io—Io, little moon | volcanoes change its surface soon",
+      "text": "I — Io! Volcanically active moon of Jupiter | science target far beyond launch hardware.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Which picture starts with J? Jupiter! It is our solar system's largest planet, with a giant atmosphere and powerful storms.",
+      "text": "J ... J ... Jupiter! Giant planet and possible mission destination region | not part of a rocket stack.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K ... listen ... Krypton Tank! Krypton stored just right | gas can feed an ion-thruster flight",
+      "text": "K? Krypton Tank! Stores krypton propellant used by some electric-propulsion systems | tank supplies reaction mass to a thruster.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Meet Lunar Rover, our L clue. A lunar rover is a vehicle designed to travel across the Moon's surface.",
+      "text": "L is Lunar Rover. Surface vehicle for mobility on the Moon | payload or surface system after landing.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "across the Mission Control screens: M finds Meteor. Meteor burns bright | atmosphere turns a space-rock path to light",
+      "text": "M — Meteor! Light phenomenon in an atmosphere when a meteoroid enters | not a rock floating beside the rocket.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N for Nebula—A nebula is a cloud of gas and dust in space, sometimes linked to star birth or the remains of stars.",
+      "text": "N ... N ... Nebula! Cloud of gas and dust in space | astronomical target, usually far beyond any classroom mission route.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Which picture starts with O? Observatory! Observatory dome | telescopes give sky-watchers a home",
+      "text": "O? Observatory! Place or platform for astronomical instruments | science context, not launch stage.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P ... listen ... Planet! It is a large round world that travels in an orbit around a star.",
+      "text": "P is Planet. Rounded world orbiting a star | destination category, not vehicle hardware.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Meet Quasar, our Q clue. Quasar, tiny gleam | giant galactic core with a brilliant beam",
+      "text": "Q — Quasar! Extremely luminous active galactic nucleus powered by matter falling toward a supermassive black hole | distant science target, not a nearby star.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "across the Mission Control screens: R finds Rover. It is a mobile robot or vehicle designed to explore the surface of another world.",
+      "text": "R ... R ... Rover! Mobile robot or crewed surface vehicle | explores after arrival, not during launch.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S for Satellite—Satellite goes round | orbit keeps its path Earth-bound",
+      "text": "S? Satellite! Object in orbit | mission payload can become an artificial satellite after deployment.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Which picture starts with T? Thruster! A spacecraft thruster produces controlled force used to change motion or orientation.",
+      "text": "T is Thruster. Small rocket or electric propulsion device produces controlled force | used for maneuvering or sustained propulsion depending design.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Letter crew, call it clear!",
+      "text": "Check, link, thrust—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Space-word answer, loud and near!",
+      "text": "One system hands the mission to the next.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U ... listen ... Universe! Universe opens wide | space and time and matter all inside",
+      "text": "U — Universe! Everything cosmic our mission belongs within | definitely not one checklist component.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Meet Venus, our V clue. Venus is a rocky planet covered by a thick atmosphere and very hot surface conditions.",
+      "text": "V ... V ... Venus! Second planet from the Sun | target world, not propulsion hardware.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "across the Mission Control screens: W finds White Dwarf. White Dwarf, small and bright | dense old stellar core still shining light",
+      "text": "W? White Dwarf! Dense stellar remnant left by a Sun-like star after it sheds outer layers | astronomy target, not white-colored planet.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X for Xenon Thruster—A xenon thruster uses electrically accelerated xenon ions to produce gentle, efficient thrust.",
+      "text": "X is Xenon Thruster. Electric propulsion ionizes xenon and accelerates ions | efficient, low-thrust system very different from a launch booster.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Which picture starts with Y? Yellow Star! Yellow Star shines warm | surface heat gives color to its form",
+      "text": "Y — Yellow Star! Everyday color label for some stars | stellar color relates to temperature, but apparent color also depends on viewing and classification.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z ... listen ... Zodiac Chart! A zodiac chart maps a band of sky along the path where the Sun, Moon, and planets appear to move from Earth's viewpoint.",
+      "text": "Z ... Z ... Zodiac Chart! Astronomical chart can mark constellations along the ecliptic | map context, not a device that predicts a mission's future.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,21 +255,21 @@
     {
       "id": "chorus-r1-7-1",
       "sectionId": "chorus-r1-7",
-      "text": "Letter crew, call it clear!",
+      "text": "Check, link, thrust—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-7-2",
       "sectionId": "chorus-r1-7",
-      "text": "Space-word answer, loud and near!",
+      "text": "One system hands the mission to the next.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Cue A ... Asteroid! Make a tiny rocky fist, then trace its path.",
+      "text": "System clue A ... Asteroid! Make a tiny rocky fist, then trace its path.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... B ... Booster! Lift one fist under the other like extra launch power.",
+      "text": "Hardware or target B ... Booster! Lift one fist under the other like extra launch power.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Ready for C? ... Capsule! Cup both hands into a compact capsule shape.",
+      "text": "What job, C? ... Capsule! Cup both hands into a compact capsule shape.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Show the match for D ... Dish Antenna! Curve one palm like a dish, then aim it toward the sky.",
+      "text": "Checklist D ... Dish Antenna! Curve one palm like a dish, then aim it toward the sky.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Cue E ... Earth! Make a round Earth with both hands, then point home.",
+      "text": "System clue E ... Earth! Make a round Earth with both hands, then point home.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... F ... Flag! Wave one empty hand gently like a flag.",
+      "text": "Hardware or target F ... Flag! Wave one empty hand gently like a flag.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Ready for G? ... Gemini Capsule! Cup both hands into a small capsule shape.",
+      "text": "What job, G? ... Gemini Capsule! Cup both hands into a small capsule shape.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Show the match for H ... Hubble Telescope! Make a long telescope tube with both hands, then look outward.",
+      "text": "Checklist H ... Hubble Telescope! Make a long telescope tube with both hands, then look outward.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,7 +333,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Cue I ... Io! Make a tiny moon circle, then tap two pretend volcano spots.",
+      "text": "System clue I ... Io! Make a tiny moon circle, then tap two pretend volcano spots.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -341,7 +341,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... J ... Jupiter! Make the biggest round world you can with both hands.",
+      "text": "Hardware or target J ... Jupiter! Make the biggest round world you can with both hands.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -349,7 +349,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Ready for K? ... Krypton Tank! Make a tall tank shape with both hands, then point.",
+      "text": "What job, K? ... Krypton Tank! Make a tall tank shape with both hands, then point.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -357,7 +357,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Show the match for L ... Lunar Rover! Roll two finger-wheels slowly across the table-air.",
+      "text": "Checklist L ... Lunar Rover! Roll two finger-wheels slowly across the table-air.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -365,21 +365,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Letter crew, call it clear!",
+      "text": "Check, link, thrust—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Space-word answer, loud and near!",
+      "text": "One system hands the mission to the next.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Cue M ... Meteor! Streak one finger downward like a flash of light.",
+      "text": "System clue M ... Meteor! Streak one finger downward like a flash of light.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... N ... Nebula! Spread your fingers like a soft cloud of gas and dust.",
+      "text": "Hardware or target N ... Nebula! Spread your fingers like a soft cloud of gas and dust.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Ready for O? ... Observatory! Make a dome with both hands, then aim a pretend telescope.",
+      "text": "What job, O? ... Observatory! Make a dome with both hands, then aim a pretend telescope.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Show the match for P ... Planet! Make one large round world with both hands.",
+      "text": "Checklist P ... Planet! Make one large round world with both hands.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,7 +411,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Cue Q ... Quasar! Make one tiny bright point, then spread a big glow around it.",
+      "text": "System clue Q ... Quasar! Make one tiny bright point, then spread a big glow around it.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -419,7 +419,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... R ... Rover! Roll two finger-wheels across an imaginary planet.",
+      "text": "Hardware or target R ... Rover! Roll two finger-wheels across an imaginary planet.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -427,7 +427,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Ready for S? ... Satellite! Circle one finger around your other fist like a satellite.",
+      "text": "What job, S? ... Satellite! Circle one finger around your other fist like a satellite.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -435,7 +435,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Show the match for T ... Thruster! Point behind an imaginary spacecraft, then make one small push-back motion.",
+      "text": "Checklist T ... Thruster! Point behind an imaginary spacecraft, then make one small push-back motion.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -443,7 +443,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Cue U ... Universe! Open both arms wide, then hold the huge space around you.",
+      "text": "System clue U ... Universe! Open both arms wide, then hold the huge space around you.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -451,7 +451,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... V ... Venus! Make a round planet, then wrap it in a thick-cloud hug.",
+      "text": "Hardware or target V ... Venus! Make a round planet, then wrap it in a thick-cloud hug.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -459,7 +459,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Ready for W? ... White Dwarf! Pinch a tiny bright star between two fingers, then hold it still.",
+      "text": "What job, W? ... White Dwarf! Pinch a tiny bright star between two fingers, then hold it still.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -467,7 +467,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Show the match for X ... Xenon Thruster! Point to the thruster, then make one tiny backward puff with your fingers.",
+      "text": "Checklist X ... Xenon Thruster! Point to the thruster, then make one tiny backward puff with your fingers.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -475,21 +475,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Letter crew, call it clear!",
+      "text": "Check, link, thrust—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Space-word answer, loud and near!",
+      "text": "One system hands the mission to the next.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Cue Y ... Yellow Star! Open one hand like a bright starburst, then point.",
+      "text": "System clue Y ... Yellow Star! Open one hand like a bright starburst, then point.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -497,7 +497,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Z ... Zodiac Chart! Trace one curved band across an imaginary sky chart.",
+      "text": "Hardware or target Z ... Zodiac Chart! Trace one curved band across an imaginary sky chart.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -505,14 +505,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Letter crew, call it clear!",
+      "text": "Thruster quiet, antenna linked, science data saved.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Letters tucked in—our space story is ours to keep!",
+      "text": "A to Z signs off without calling the whole universe rocket hardware.",
       "objective": "narration",
       "objectReveal": "none"
     }

@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "A-a-a... float it up!",
+      "text": "On the Moon you still have weight; in orbit you keep falling around Earth.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Letters bounce like moon dust—catch each word before it drifts.",
+      "text": "Different places make different kinds of motion.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Look—A! Look—Astronaut! Astronaut drifts slow | trained for work where spacecraft go",
+      "text": "A — Astronaut! On the Moon an astronaut can walk and hop under lower gravity | in orbit the same person can experience microgravity during free fall.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B lands on Booster. A rocket booster provides extra thrust during an early part of a launch.",
+      "text": "B ... B ... Booster! Strong launch thrust changes spacecraft speed | nothing about a booster removes gravity.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Capsule? Yes—C. Capsule small and round | crew or cargo rides space-bound",
+      "text": "C? Capsule! Enclosed spacecraft can orbit in free fall | objects inside may seem to float together.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "inside our soft moon-dust drift, the D clue is Dish Antenna. A dish antenna focuses radio waves so a spacecraft or ground station can send and receive signals.",
+      "text": "D is Dish Antenna. Communication hardware points or steers a radio beam | no floating metaphor needed.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Say E, then Eclipse. Eclipse slides through | one world blocks the light from view",
+      "text": "E — Eclipse! Shadow geometry changes visible light | gravity sets orbits, but eclipse itself is an alignment event.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Look—F! Look—Fuel Tank! A spacecraft fuel or propellant tank stores material used by an engine or thruster system.",
+      "text": "F ... F ... Fuel Tank! Stores propellant | contents can behave differently in microgravity, so spacecraft tank design matters.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G lands on Gemini Capsule. Gemini takes flight | two-seat capsule trained for lunar flight",
+      "text": "G? Gemini Capsule! Crews in orbit experienced weightlessness-like microgravity | historical spacecraft in free fall around Earth.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Hubble Telescope? Yes—H. The Hubble Space Telescope orbits Earth and observes the universe above much of our atmosphere.",
+      "text": "H is Hubble Telescope. Space telescope orbits Earth | it and its components remain under Earth's gravity while continuously falling around the planet.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "inside our soft moon-dust drift, the I clue is International Space Station. Station circles round | orbiting lab above the ground",
+      "text": "I — International Space Station! Crew and station share orbital free fall | microgravity is not the absence of gravity.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Say J, then Jet Pack. A spacecraft maneuvering pack uses small thrusters for carefully planned movement in space.",
+      "text": "J ... J ... Jet Pack! Small thrusters can change an astronaut's motion during specialized maneuvering | not everyday spacewalk gear.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Look—K! Look—Krypton Tank! Krypton stored just right | gas can feed an ion-thruster flight",
+      "text": "K? Krypton Tank! Stores propellant for some electric thrusters | tank remains mass under gravity wherever it travels.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L lands on Lander. A lander is a spacecraft built to come down onto the surface of another world.",
+      "text": "L is Lander. Descends toward a surface and must manage gravity with propulsion or aerodynamics depending destination.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Float the letter, land the name!",
+      "text": "Stand, fall, float—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "A to Z, our cosmic game!",
+      "text": "Gravity stays; motion changes what weight can feel like.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Moon? Yes—M. Moon in view | sunlight makes its phases new",
+      "text": "M — Moon! Earth's natural satellite has surface gravity about one-sixth of Earth's | enough to pull dust and astronauts back down.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "inside our soft moon-dust drift, the N clue is Nebula. A nebula is a cloud of gas and dust in space, sometimes linked to star birth or the remains of stars.",
+      "text": "N ... N ... Nebula! Vast gas-and-dust cloud in interstellar space | not something close enough to drift through on a Moon trip.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Say O, then Orbit. Orbit bends around | motion joined with gravity keeps the path bound",
+      "text": "O? Orbit! Continuous free-fall path around a body | core idea behind orbital microgravity.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Look—P! Look—Planet! It is a large round world that travels in an orbit around a star.",
+      "text": "P is Planet. Planetary gravity shapes moons, rings, atmospheres, and spacecraft trajectories | gravity is part of the map.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q lands on Quasar. Quasar, tiny gleam | giant galactic core with a brilliant beam",
+      "text": "Q — Quasar! Distant active galactic nucleus powered by accretion onto a supermassive black hole | far beyond lunar motion scale.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Rocket? Yes—R. It produces thrust by pushing exhaust in the opposite direction of travel.",
+      "text": "R ... R ... Rocket! Thrust changes velocity against or with gravity | rocket works in vacuum by expelling propellant.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "inside our soft moon-dust drift, the S clue is Spacesuit. Spacesuit seals around | pressure, air, and protection space-bound",
+      "text": "S? Spacesuit! Pressurized protective system lets crew work in vacuum | suit does not create weightlessness.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Say T, then Thruster. A spacecraft thruster produces controlled force used to change motion or orientation.",
+      "text": "T is Thruster. Controlled force changes motion or orientation | small acceleration can matter greatly in orbit.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Look—U! Look—Universe! Universe opens wide | space and time and matter all inside",
+      "text": "U — Universe! Gravity operates throughout cosmic structure | widest context for our motion lesson.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V lands on Visor. A spacesuit visor protects the eyes and face and can filter intense sunlight.",
+      "text": "V ... V ... Visor! Helmet shield manages light and protection | reflective surface can show Earth without changing gravity.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "World? Yes—W. World in the frame | planet or moon can carry the name",
+      "text": "W? World! Broad term for a planetary place | each world can have different surface gravity.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "inside our soft moon-dust drift, the X clue is Xenon Thruster. A xenon thruster uses electrically accelerated xenon ions to produce gentle, efficient thrust.",
+      "text": "X is Xenon Thruster. Electric propulsion gives gentle sustained acceleration | slow change in velocity, not magical floating.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,7 +225,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Say Y, then Yoke. Yoke turns left or right | hand-control clue in plain sight",
+      "text": "Y — Yoke! Mapping helper for a control shape | some vehicles use yokes, but spacecraft controls vary widely.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -233,7 +233,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Look—Z! Look—Zero-gravity Chair! A zero-gravity chair reclines the body for distributed support; it does not create real weightlessness.",
+      "text": "Z ... Z ... Zero-gravity Chair! Reclining chair redistributes body pressure and posture | it does not reproduce orbital free fall or lunar gravity.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -241,14 +241,14 @@
     {
       "id": "chorus-r1-7-1",
       "sectionId": "chorus-r1-7",
-      "text": "Float the letter, land the name!",
+      "text": "Stand, fall, float—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-7-2",
       "sectionId": "chorus-r1-7",
-      "text": "A to Z, our cosmic game!",
+      "text": "Gravity stays; motion changes what weight can feel like.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Look for A ... Astronaut! Float two hands slowly, then point to the astronaut.",
+      "text": "Gravity A ... Astronaut! Float two hands slowly, then point to the astronaut.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Letter first: B ... answer: Booster! Lift one fist under the other like extra launch power.",
+      "text": "Surface/orbit B ... Booster! Lift one fist under the other like extra launch power.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C? Hold ... Capsule! Cup both hands into a compact capsule shape.",
+      "text": "Motion C? ... Capsule! Cup both hands into a compact capsule shape.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "One clue—D ... Dish Antenna! Curve one palm like a dish, then aim it toward the sky.",
+      "text": "Flight D ... Dish Antenna! Curve one palm like a dish, then aim it toward the sky.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Look for E ... Eclipse! Slide one round hand slowly in front of the other.",
+      "text": "Gravity E ... Eclipse! Slide one round hand slowly in front of the other.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Letter first: F ... answer: Fuel Tank! Make a tall tank outline with both hands, then point only.",
+      "text": "Surface/orbit F ... Fuel Tank! Make a tall tank outline with both hands, then point only.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G? Hold ... Gemini Capsule! Cup both hands into a small capsule shape.",
+      "text": "Motion G? ... Gemini Capsule! Cup both hands into a small capsule shape.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "One clue—H ... Hubble Telescope! Make a long telescope tube with both hands, then look outward.",
+      "text": "Flight H ... Hubble Telescope! Make a long telescope tube with both hands, then look outward.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,21 +326,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Float the letter, land the name!",
+      "text": "Stand, fall, float—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "A to Z, our cosmic game!",
+      "text": "Gravity stays; motion changes what weight can feel like.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Look for I ... International Space Station! Stretch both hands wide, then trace one orbit.",
+      "text": "Gravity I ... International Space Station! Stretch both hands wide, then trace one orbit.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -348,7 +348,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Letter first: J ... answer: Jet Pack! Hold two hands by your sides, then make one tiny upward puff motion.",
+      "text": "Surface/orbit J ... Jet Pack! Hold two hands by your sides, then make one tiny upward puff motion.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -356,7 +356,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K? Hold ... Krypton Tank! Make a tall tank shape with both hands, then point.",
+      "text": "Motion K? ... Krypton Tank! Make a tall tank shape with both hands, then point.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -364,7 +364,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "One clue—L ... Lander! Lower one flat hand slowly until it lands.",
+      "text": "Flight L ... Lander! Lower one flat hand slowly until it lands.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -372,7 +372,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Look for M ... Moon! Make a round moon, then turn one side toward the light.",
+      "text": "Gravity M ... Moon! Make a round moon, then turn one side toward the light.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Letter first: N ... answer: Nebula! Spread your fingers like a soft cloud of gas and dust.",
+      "text": "Surface/orbit N ... Nebula! Spread your fingers like a soft cloud of gas and dust.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O? Hold ... Orbit! Trace one clean circle around an imaginary world.",
+      "text": "Motion O? ... Orbit! Trace one clean circle around an imaginary world.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "One clue—P ... Planet! Make one large round world with both hands.",
+      "text": "Flight P ... Planet! Make one large round world with both hands.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Look for Q ... Quasar! Make one tiny bright point, then spread a big glow around it.",
+      "text": "Gravity Q ... Quasar! Make one tiny bright point, then spread a big glow around it.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Letter first: R ... answer: Rocket! Point upward, then lift one hand like a slow launch.",
+      "text": "Surface/orbit R ... Rocket! Point upward, then lift one hand like a slow launch.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S? Hold ... Spacesuit! Pat your shoulders and chest like a protective suit outline.",
+      "text": "Motion S? ... Spacesuit! Pat your shoulders and chest like a protective suit outline.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "One clue—T ... Thruster! Point behind an imaginary spacecraft, then make one small push-back motion.",
+      "text": "Flight T ... Thruster! Point behind an imaginary spacecraft, then make one small push-back motion.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,21 +436,21 @@
     {
       "id": "chorus-r2-5-1",
       "sectionId": "chorus-r2-5",
-      "text": "Float the letter, land the name!",
+      "text": "Stand, fall, float—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-5-2",
       "sectionId": "chorus-r2-5",
-      "text": "A to Z, our cosmic game!",
+      "text": "Gravity stays; motion changes what weight can feel like.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Look for U ... Universe! Open both arms wide, then hold the huge space around you.",
+      "text": "Gravity U ... Universe! Open both arms wide, then hold the huge space around you.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -458,7 +458,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Letter first: V ... answer: Visor! Shade your eyes with one flat hand like a visor.",
+      "text": "Surface/orbit V ... Visor! Shade your eyes with one flat hand like a visor.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -466,7 +466,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W? Hold ... World! Make a round world, then hold it still in the picture frame.",
+      "text": "Motion W? ... World! Make a round world, then hold it still in the picture frame.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -474,7 +474,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "One clue—X ... Xenon Thruster! Point to the thruster, then make one tiny backward puff with your fingers.",
+      "text": "Flight X ... Xenon Thruster! Point to the thruster, then make one tiny backward puff with your fingers.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -482,7 +482,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Look for Y ... Yoke! Hold an imaginary control, then make one gentle turn.",
+      "text": "Gravity Y ... Yoke! Hold an imaginary control, then make one gentle turn.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -490,7 +490,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Letter first: Z ... answer: Zero-gravity Chair! Lean your hands back together like a reclining chair shape.",
+      "text": "Surface/orbit Z ... Zero-gravity Chair! Lean your hands back together like a reclining chair shape.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -498,28 +498,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Float the letter, land the name!",
+      "text": "Stand, fall, float—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "A to Z, our cosmic game!",
+      "text": "Gravity stays; motion changes what weight can feel like.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Float the letter, land the name!",
+      "text": "Boots touch ground again; the chair stays only a chair.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A through Z—our space story lands on one bright final beat!",
+      "text": "A to Z ends with gravity still doing its job.",
       "objective": "narration",
       "objectReveal": "none"
     }

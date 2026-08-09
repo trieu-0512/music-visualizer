@@ -6,8 +6,8 @@
   "tempoBpm": 86,
   "motifFamily": "orbit-circle",
   "hook": [
-    "Star by star, A-B-C!",
-    "Catch the word and orbit with me!"
+    "Near, far, farther—A-B-C!",
+    "One universe holds scales too large for one parade line."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "soft two-beat retrieval window",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "curious child astronaut and calm mission guide",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 should feel like opening new spacecraft windows: vary direct calls, repeated letters, questions and short cinematic reveals; every target gets one real space clue or function.",
-    "round2Grammar": "Round 2 strips back to cue-gap-answer timing with object-conditioned gestures: orbiters trace circles, planets show shape or tilt, comets sweep a tail, telescopes aim, rovers roll, and suit/helmet items use simple body-shape mime. Keep every action short and never let it obscure the target word.",
+    "rhymeEngine": "cosmic-scale-zoom-rhyme",
+    "chorusRhymeEngine": "near-far-farther-hook",
+    "pointOfView": "a child zooming outward through astronomical scale",
+    "chorusFunction": "reset near-far-farther",
+    "grooveMeter": "6/8 expanding phrases with register widening",
+    "round1Grammar": "hand-written scale hierarchy; hardware does not masquerade as astronomy",
+    "round2Grammar": "scale cue -> recall beat -> target -> zoom/point gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a two-note celesta orbit figure with brushed shaker answering only after the target.",
     "signatureColor": "a two-note celesta orbit figure with brushed shaker answering only after the target",
+    "authorialIntent": "Turn Planet Parade into a scale-and-category gallery: astronaut and hardware in the foreground, moons and planets in the Solar System, Kuiper Belt farther out, then galaxy and universe at vastly larger scales.",
+    "lyricIdentity": "A child zooms outward: human scale -> spacecraft -> moon/planet -> outer system -> galaxy -> universe, then zooms back to instruments.",
+    "imageMotifs": [
+      "astronaut beside booster",
+      "Io near Jupiter",
+      "Kuiper Belt beyond Neptune",
+      "galaxy field",
+      "observatory dome"
+    ],
+    "semanticArc": [
+      "human and launch scale",
+      "planet/moon scale",
+      "outer solar system",
+      "galaxy/universe scale then return to tools"
+    ],
+    "forbiddenGenericLanguage": [
+      "planet parade",
+      "send it into orbit",
+      "stars blink clues",
+      "space friends"
+    ],
     "chorusAfterRound1": [
       3,
       6

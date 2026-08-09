@@ -6,8 +6,8 @@
   "tempoBpm": 90,
   "motifFamily": "starship-bounce",
   "hook": [
-    "A-B-C, ignite the light!",
-    "Name the space clue—send it bright!"
+    "Launch, orbit, observe—A-B-C!",
+    "Space is a map of objects, paths, and tools—not one floating pile."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one quiet beat after each letter cue",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "curious child astronaut and calm mission guide",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "elastic 4/4 bounce",
-    "round1Grammar": "Round 1 should feel like opening new spacecraft windows: vary direct calls, repeated letters, questions and short cinematic reveals; every target gets one real space clue or function.",
-    "round2Grammar": "Round 2 strips back to cue-gap-answer timing with object-conditioned gestures: orbiters trace circles, planets show shape or tilt, comets sweep a tail, telescopes aim, rovers roll, and suit/helmet items use simple body-shape mime. Keep every action short and never let it obscure the target word.",
+    "rhymeEngine": "starship-mission-distance-rhyme",
+    "chorusRhymeEngine": "launch-orbit-observe-hook",
+    "pointOfView": "a child narrating a science-first imaginary mission log",
+    "chorusFunction": "reset launch-orbit-observe",
+    "grooveMeter": "steady 4/4 launch pulse opening into wider orbital phrases",
+    "round1Grammar": "hand-written mission placement; celestial bodies, spacecraft, orbital concepts and training helpers stay distinct",
+    "round2Grammar": "mission cue -> recall beat -> target -> safe point/shape gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a glockenspiel star-ping plus one soft countdown tom after each target.",
     "signatureColor": "a glockenspiel star-ping plus one soft countdown tom after each target",
+    "authorialIntent": "Make Starship Letter Quest a coherent outbound mission: launch from Earth, enter orbit, pass observation targets, then reach outer-solar-system ideas while spacecraft parts remain tools rather than celestial objects.",
+    "lyricIdentity": "A child mission log moves from ground to orbit to deep-space observation; each line answers where the target belongs: sky object, spacecraft hardware, path, or training helper.",
+    "imageMotifs": [
+      "Earth shrinking below",
+      "capsule window",
+      "comet tail away from Sun",
+      "Neptune far blue",
+      "X-ray telescope above atmosphere"
+    ],
+    "semanticArc": [
+      "launch and leave Earth",
+      "settle into orbit",
+      "observe small bodies and planets",
+      "finish with distant tools and training context"
+    ],
+    "forbiddenGenericLanguage": [
+      "letters lift off",
+      "space fun",
+      "everything floats",
+      "past the moon"
+    ],
     "chorusAfterRound1": [
       2,
       5

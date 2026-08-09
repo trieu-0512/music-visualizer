@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Shh... a star just blinked our first clue.",
+      "text": "Astronaut near. Jupiter far. Galaxy farther than one Solar System can hold.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Catch the letter, catch the word, then send it into orbit.",
+      "text": "We zoom outward without confusing size, distance, and category.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Astronaut—that is our A. Astronaut drifts slow | trained for work where spacecraft go",
+      "text": "A — Astronaut! Trained person works in spacecraft or space environments | human scale starts the zoom.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Spot B: Booster! A rocket booster provides extra thrust during an early part of a launch.",
+      "text": "B ... B ... Booster! Launch stage or motor adds thrust during part of ascent | hardware larger than a person, tiny beside a planet.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C brings Comet; Comet comes near | icy glow and tail appear",
+      "text": "C? Comet! Small icy body can grow a coma and tails near the Sun | Solar System object, not a star.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "A clue for D: Dwarf Planet. A dwarf planet is round and orbits the Sun, but shares its orbital neighborhood with other bodies.",
+      "text": "D is Dwarf Planet. Rounded body orbiting the Sun without clearing its orbital neighborhood | one Solar System category.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "under slow-turning starlight, here comes Eclipse for E. Eclipse slides through | one world blocks the light from view",
+      "text": "E — Eclipse! Alignment blocks some or all light from one body as seen from another | geometry event, not an object.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Fuel Tank—that is our F. A spacecraft fuel or propellant tank stores material used by an engine or thruster system.",
+      "text": "F ... F ... Fuel Tank! Stores propellant for a vehicle | mission hardware, not a celestial body.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Spot G: Galaxy! Galaxy curls wide | stars and dust are gravity-tied",
+      "text": "G? Galaxy! Vast gravitational system of stars, gas, dust, dark matter and more | our Solar System occupies only a tiny place inside one galaxy.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H brings Helmet; A space helmet protects the head and helps keep a safe breathing environment.",
+      "text": "H is Helmet. Crew protective equipment | foreground object before the astronomical zoom widens.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "A clue for I: Io. Io, little moon | volcanoes change its surface soon",
+      "text": "I — Io! One of Jupiter's large moons | extremely active volcanically because of tidal heating.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "under slow-turning starlight, here comes Jupiter for J. It is our solar system's largest planet, with a giant atmosphere and powerful storms.",
+      "text": "J ... J ... Jupiter! Fifth planet from the Sun and largest planet in our Solar System | giant scale after Io.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kuiper Belt—that is our K. Kuiper Belt, cold and far | icy bodies orbit beyond Neptune's path",
+      "text": "K? Kuiper Belt! Region beyond Neptune containing many icy small bodies | farther out than the major planets.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Spot L: Lunar Rover! A lunar rover is a vehicle designed to travel across the Moon's surface.",
+      "text": "L is Lunar Rover. Wheeled vehicle used by Apollo astronauts on the Moon | surface hardware at moon scale.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Star by star, A-B-C!",
+      "text": "Near, far, farther—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Catch the word and orbit with me!",
+      "text": "One universe holds scales too large for one parade line.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M brings Moon; Moon in view | sunlight makes its phases new",
+      "text": "M — Moon! Earth's natural satellite | smaller than Earth and orbiting it.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "A clue for N: Neptune. Neptune is the eighth planet from the Sun, a cold blue giant world.",
+      "text": "N ... N ... Neptune! Eighth major planet from the Sun | outer-planet scale before the Kuiper Belt.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "under slow-turning starlight, here comes Observatory for O. Observatory dome | telescopes give sky-watchers a home",
+      "text": "O? Observatory! Facility built for astronomical observing | returns our zoom to human-made instruments.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Probe—that is our P. A space probe is an uncrewed spacecraft sent to collect information about space or another world.",
+      "text": "P is Probe. Robotic spacecraft sent to collect data | tool that can travel far without becoming the thing it studies.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Spot Q: Quarter Moon! Quarter Moon tonight | half the sunlit face appears in sight",
+      "text": "Q — Quarter Moon! Half the visible lunar disk is illuminated at this phase | 'quarter' describes orbital phase position.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R brings Rover; It is a mobile robot or vehicle designed to explore the surface of another world.",
+      "text": "R ... R ... Rover! Mobile surface vehicle explores ground on another world | hardware at local surface scale.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "A clue for S: Satellite. Satellite goes round | orbit keeps its path Earth-bound",
+      "text": "S? Satellite! Object in orbit around another body | can be natural like a moon or artificial like a spacecraft.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "under slow-turning starlight, here comes Telescope for T. A telescope collects light or other signals to help us study distant objects.",
+      "text": "T is Telescope. Collects radiation from distant sources | bridge between human scale and cosmic scale.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Universe—that is our U. Universe opens wide | space and time and matter all inside",
+      "text": "U — Universe! All space-time, matter, energy and cosmic contents we can describe | widest scale in the song.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Spot V: Venus! Venus is a rocky planet covered by a thick atmosphere and very hot surface conditions.",
+      "text": "V ... V ... Venus! Second planet from the Sun | rocky planet smaller than the Universe by an almost unimaginable factor.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W brings World; World in the frame | planet or moon can carry the name",
+      "text": "W? World! Everyday broad term for a planet or inhabited place | not a strict scale category.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "A clue for X: Xenon Thruster. A xenon thruster uses electrically accelerated xenon ions to produce gentle, efficient thrust.",
+      "text": "X is Xenon Thruster. Electric thruster can ionize xenon and accelerate ions for efficient propulsion | small hardware enabling long spacecraft journeys.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Star by star, A-B-C!",
+      "text": "Near, far, farther—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Catch the word and orbit with me!",
+      "text": "One universe holds scales too large for one parade line.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "under slow-turning starlight, here comes Yoke for Y. Yoke turns left or right | hand-control clue in plain sight",
+      "text": "Y — Yoke! Control-interface shape used in some vehicles | mapping helper, not a universal spacecraft standard.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zero-gravity Chair—that is our Z. A zero-gravity chair reclines the body for distributed support; it does not create real weightlessness.",
+      "text": "Z ... Z ... Zero-gravity Chair! Reclining chair changes body posture | does not make a person weightless or simulate orbital free fall.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Spot A ... Astronaut! Float two hands slowly, then point to the astronaut.",
+      "text": "Scale clue A ... Astronaut! Float two hands slowly, then point to the astronaut.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Call B, wait ... Booster! Lift one fist under the other like extra launch power.",
+      "text": "Near-or-far B ... Booster! Lift one fist under the other like extra launch power.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Which word fits C? ... Comet! Sweep one hand past with a long pretend tail.",
+      "text": "Zoom to C? ... Comet! Sweep one hand past with a long pretend tail.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... D ... Dwarf Planet! Make a small round world, then circle one finger around it.",
+      "text": "Cosmic frame D ... Dwarf Planet! Make a small round world, then circle one finger around it.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Spot E ... Eclipse! Slide one round hand slowly in front of the other.",
+      "text": "Scale clue E ... Eclipse! Slide one round hand slowly in front of the other.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Call F, wait ... Fuel Tank! Make a tall tank outline with both hands, then point only.",
+      "text": "Near-or-far F ... Fuel Tank! Make a tall tank outline with both hands, then point only.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Which word fits G? ... Galaxy! Spiral one finger outward like a galaxy arm.",
+      "text": "Zoom to G? ... Galaxy! Spiral one finger outward like a galaxy arm.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... H ... Helmet! Frame your head with two hands like a helmet.",
+      "text": "Cosmic frame H ... Helmet! Frame your head with two hands like a helmet.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Spot I ... Io! Make a tiny moon circle, then tap two pretend volcano spots.",
+      "text": "Scale clue I ... Io! Make a tiny moon circle, then tap two pretend volcano spots.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Call J, wait ... Jupiter! Make the biggest round world you can with both hands.",
+      "text": "Near-or-far J ... Jupiter! Make the biggest round world you can with both hands.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Which word fits K? ... Kuiper Belt! Trace a wide ring far around an imaginary Sun.",
+      "text": "Zoom to K? ... Kuiper Belt! Trace a wide ring far around an imaginary Sun.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... L ... Lunar Rover! Roll two finger-wheels slowly across the table-air.",
+      "text": "Cosmic frame L ... Lunar Rover! Roll two finger-wheels slowly across the table-air.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Spot M ... Moon! Make a round moon, then turn one side toward the light.",
+      "text": "Scale clue M ... Moon! Make a round moon, then turn one side toward the light.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -359,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Call N, wait ... Neptune! Make a big blue-world circle, then sway it far away.",
+      "text": "Near-or-far N ... Neptune! Make a big blue-world circle, then sway it far away.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -367,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Which word fits O? ... Observatory! Make a dome with both hands, then aim a pretend telescope.",
+      "text": "Zoom to O? ... Observatory! Make a dome with both hands, then aim a pretend telescope.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -375,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... P ... Probe! Send one finger forward like a small robot explorer.",
+      "text": "Cosmic frame P ... Probe! Send one finger forward like a small robot explorer.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -383,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Star by star, A-B-C!",
+      "text": "Near, far, farther—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Catch the word and orbit with me!",
+      "text": "One universe holds scales too large for one parade line.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Spot Q ... Quarter Moon! Show a half-lit moon shape with one curved hand.",
+      "text": "Scale clue Q ... Quarter Moon! Show a half-lit moon shape with one curved hand.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Call R, wait ... Rover! Roll two finger-wheels across an imaginary planet.",
+      "text": "Near-or-far R ... Rover! Roll two finger-wheels across an imaginary planet.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Which word fits S? ... Satellite! Circle one finger around your other fist like a satellite.",
+      "text": "Zoom to S? ... Satellite! Circle one finger around your other fist like a satellite.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... T ... Telescope! Make pretend binoculars, then look far away.",
+      "text": "Cosmic frame T ... Telescope! Make pretend binoculars, then look far away.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Spot U ... Universe! Open both arms wide, then hold the huge space around you.",
+      "text": "Scale clue U ... Universe! Open both arms wide, then hold the huge space around you.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Call V, wait ... Venus! Make a round planet, then wrap it in a thick-cloud hug.",
+      "text": "Near-or-far V ... Venus! Make a round planet, then wrap it in a thick-cloud hug.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Which word fits W? ... World! Make a round world, then hold it still in the picture frame.",
+      "text": "Zoom to W? ... World! Make a round world, then hold it still in the picture frame.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... X ... Xenon Thruster! Point to the thruster, then make one tiny backward puff with your fingers.",
+      "text": "Cosmic frame X ... Xenon Thruster! Point to the thruster, then make one tiny backward puff with your fingers.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Spot Y ... Yoke! Hold an imaginary control, then make one gentle turn.",
+      "text": "Scale clue Y ... Yoke! Hold an imaginary control, then make one gentle turn.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Call Z, wait ... Zero-gravity Chair! Lean your hands back together like a reclining chair shape.",
+      "text": "Near-or-far Z ... Zero-gravity Chair! Lean your hands back together like a reclining chair shape.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Star by star, A-B-C!",
+      "text": "Near, far, farther—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Catch the word and orbit with me!",
+      "text": "One universe holds scales too large for one parade line.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Star by star, A-B-C!",
+      "text": "The zoom stops at the observatory screen.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "One last beat—our space story comes home with me!",
+      "text": "A to Z comes back from universe-scale to one careful instrument.",
       "objective": "narration",
       "objectReveal": "none"
     }

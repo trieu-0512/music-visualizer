@@ -6,8 +6,8 @@
   "tempoBpm": 94,
   "motifFamily": "rocket-count",
   "hook": [
-    "Letter crew, call it clear!",
-    "Space-word answer, loud and near!"
+    "Check, link, thrust—A-B-C!",
+    "One system hands the mission to the next."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat of silence before confirmation",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "curious child astronaut and calm mission guide",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "stop-and-go 4/4",
-    "round1Grammar": "Round 1 should feel like opening new spacecraft windows: vary direct calls, repeated letters, questions and short cinematic reveals; every target gets one real space clue or function.",
-    "round2Grammar": "Round 2 strips back to cue-gap-answer timing with object-conditioned gestures: orbiters trace circles, planets show shape or tilt, comets sweep a tail, telescopes aim, rovers roll, and suit/helmet items use simple body-shape mime. Keep every action short and never let it obscure the target word.",
+    "rhymeEngine": "rocket-checklist-function-rhyme",
+    "chorusRhymeEngine": "check-link-thrust-hook",
+    "pointOfView": "a child reading a simplified systems-engineering checklist",
+    "chorusFunction": "reset check-link-thrust",
+    "grooveMeter": "precise 4/4 checklist pulse",
+    "round1Grammar": "hand-written function-first engineering lines plus honest astronomy context",
+    "round2Grammar": "system cue -> recall beat -> target -> function/point gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a dry mission-control click or light tom punctuation after each confirmed target.",
     "signatureColor": "a dry mission-control click or light tom punctuation after each confirmed target",
+    "authorialIntent": "Make Rocket Ready an engineering checklist: communication, launch propulsion, tanks, capsule, observatory/science payload, rover and electric thruster each have a job; celestial targets are mission destinations or observations.",
+    "lyricIdentity": "Mission Control reads subsystem by subsystem—structure, communication, propulsion, payload, destination—without pretending every space word belongs on one rocket.",
+    "imageMotifs": [
+      "booster ignition diagram",
+      "dish antenna link",
+      "capsule cutaway",
+      "xenon thruster plume",
+      "rover on surface"
+    ],
+    "semanticArc": [
+      "check launch hardware",
+      "check communications and crew/payload",
+      "check propulsion types",
+      "separate mission targets from vehicle systems"
+    ],
+    "forbiddenGenericLanguage": [
+      "mission control ready",
+      "every letter opens a window",
+      "rocket beat",
+      "space hardware fun"
+    ],
     "chorusAfterRound1": [
       2,
       5,

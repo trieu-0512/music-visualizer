@@ -6,8 +6,8 @@
   "tempoBpm": 82,
   "motifFamily": "moonbeam-sway",
   "hook": [
-    "Float the letter, land the name!",
-    "A to Z, our cosmic game!"
+    "Stand, fall, float—A-B-C!",
+    "Gravity stays; motion changes what weight can feel like."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two calm beats before target reveal",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "curious child astronaut and calm mission guide",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "light swung 4/4",
-    "round1Grammar": "Round 1 should feel like opening new spacecraft windows: vary direct calls, repeated letters, questions and short cinematic reveals; every target gets one real space clue or function.",
-    "round2Grammar": "Round 2 strips back to cue-gap-answer timing with object-conditioned gestures: orbiters trace circles, planets show shape or tilt, comets sweep a tail, telescopes aim, rovers roll, and suit/helmet items use simple body-shape mime. Keep every action short and never let it obscure the target word.",
+    "rhymeEngine": "gravity-motion-contrast-rhyme",
+    "chorusRhymeEngine": "stand-fall-float-hook",
+    "pointOfView": "a child comparing lunar gravity with orbital free fall",
+    "chorusFunction": "reset stand-fall-float distinctions",
+    "grooveMeter": "gentle 3/4 with grounded moon steps and legato orbital phrases",
+    "round1Grammar": "hand-written gravity/motion contrasts; hardware and distant astronomy remain separate",
+    "round2Grammar": "gravity cue -> recall beat -> target -> hop/glide/point gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a soft celesta shimmer and tiny synth-air swell after the target, leaving the word itself dry and clear.",
     "signatureColor": "a soft celesta shimmer and tiny synth-air swell after the target, leaving the word itself dry and clear",
+    "authorialIntent": "Make Moonbeam Alphabet about gravity and motion: lunar surface gravity, orbital microgravity, spacecraft control and dust all behave differently; the song uses float imagery only where physics supports it.",
+    "lyricIdentity": "A child compares standing on Moon, orbiting in free fall, drifting inside spacecraft, and operating equipment; 'float' becomes a precise contrast rather than a universal space verb.",
+    "imageMotifs": [
+      "astronaut hopping on Moon",
+      "capsule in orbit",
+      "ISS free fall",
+      "moon dust settling ballistically",
+      "visor reflecting Earth"
+    ],
+    "semanticArc": [
+      "Moon surface gravity",
+      "orbital microgravity",
+      "spacecraft systems and movement",
+      "deep-space targets and return to human controls"
+    ],
+    "forbiddenGenericLanguage": [
+      "letters bounce like moon dust",
+      "zero gravity everywhere",
+      "float everything",
+      "moonbeam fun"
+    ],
     "chorusAfterRound1": [
       3,
       7

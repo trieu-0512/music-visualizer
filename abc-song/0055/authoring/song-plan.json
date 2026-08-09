@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "space-lab",
   "hook": [
-    "Look up high, then name what you see!",
-    "Sky-full words from A to Z!"
+    "Ask, observe, check—A-B-C!",
+    "Science keeps the clue and tests the story."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "short predictable pause before answer",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "curious child astronaut and calm mission guide",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "story-song 3/4-to-4/4 feel",
-    "round1Grammar": "Round 1 should feel like opening new spacecraft windows: vary direct calls, repeated letters, questions and short cinematic reveals; every target gets one real space clue or function.",
-    "round2Grammar": "Round 2 strips back to cue-gap-answer timing with object-conditioned gestures: orbiters trace circles, planets show shape or tilt, comets sweep a tail, telescopes aim, rovers roll, and suit/helmet items use simple body-shape mime. Keep every action short and never let it obscure the target word.",
+    "rhymeEngine": "space-lab-evidence-question-rhyme",
+    "chorusRhymeEngine": "ask-observe-check-hook",
+    "pointOfView": "a child in a small astronomy lab asking how each claim is supported",
+    "chorusFunction": "repeat ask-observe-check",
+    "grooveMeter": "calm 4/4 lab pulse with question pauses",
+    "round1Grammar": "hand-written evidence-aware astronomy; tools have wavelength/mission limits",
+    "round2Grammar": "evidence cue -> recall beat -> target -> point/compare gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a pizzicato discovery pluck followed by a small telescope-like bell ping after selected targets.",
     "signatureColor": "a pizzicato discovery pluck followed by a small telescope-like bell ping after selected targets",
+    "authorialIntent": "Turn Little Space Lab into an evidence song: every major astronomy claim is paired with how we know—telescope, X-ray telescope, observatory, probe, rover, station, spectrum or repeated observation—while crew gear stays context.",
+    "lyricIdentity": "A child scientist asks 'what is the evidence?' rather than simply naming spectacular objects; observation method becomes the compositional thread.",
+    "imageMotifs": [
+      "observatory dome opening",
+      "X-ray telescope data",
+      "probe sending radio data",
+      "rover camera track",
+      "galaxy image on screen"
+    ],
+    "semanticArc": [
+      "start human observer and tools",
+      "pair nearby worlds with probes/rovers",
+      "pair stars/nebulae with telescopes",
+      "finish with extreme objects and evidence limits"
+    ],
+    "forbiddenGenericLanguage": [
+      "one bright clue",
+      "space science fun",
+      "telescope sees everything",
+      "glowing in the dark"
+    ],
     "chorusAfterRound1": [
       2,
       6

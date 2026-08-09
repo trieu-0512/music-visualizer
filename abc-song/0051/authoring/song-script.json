@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Three, two, one—letters, lift off!",
+      "text": "Earth fills the window; the first burn ends; now the spacecraft keeps falling around the planet.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A to Z is riding with us past the moon.",
+      "text": "Our letter quest begins by learning where each thing really belongs.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A—Asteroid! Asteroid in flight | rocky body crossing night",
+      "text": "A — Asteroid! Rocky or metallic small body orbiting the Sun | many lie in the main belt.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B ... B ... Black Hole. A black hole has gravity so strong that light cannot escape from inside it.",
+      "text": "B ... B ... Black Hole! Inside an event horizon, even light cannot escape outward | distant target, never a place we fly toward.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Comet steps in for C. Comet comes near | icy glow and tail appear",
+      "text": "C? Comet! Ice and dust can form a coma and tails near the Sun | tails point generally away from the Sun.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "What does D reveal? Dwarf Planet! A dwarf planet is round and orbits the Sun, but shares its orbital neighborhood with other bodies.",
+      "text": "D is Dwarf Planet. It orbits the Sun, is rounded by gravity, and has not cleared its orbital neighborhood | a distinct Solar System class.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "through the launch-window glow, E meets Earth. Earth, blue and round | ocean, land, and air are found",
+      "text": "E — Earth! Third planet from the Sun | oceans, land, atmosphere, and our launch site begin here.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F—Flag! It is a marked piece of fabric used as a symbol; astronauts have carried flags on missions.",
+      "text": "F ... F ... Flag! Mission marker | in vacuum it cannot wave from air because there is no air.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G ... G ... Gemini Capsule. Gemini takes flight | two-seat capsule trained for lunar flight",
+      "text": "G? Gemini Capsule! NASA Gemini carried two astronauts in the 1960s | a historical crew capsule.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Helmet steps in for H. A space helmet protects the head and helps keep a safe breathing environment.",
+      "text": "H is Helmet. Spacesuit helmet protects the head and suit environment | crew equipment, not propulsion.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "A-B-C, ignite the light!",
+      "text": "Launch, orbit, observe—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Name the space clue—send it bright!",
+      "text": "Space is a map of objects, paths, and tools—not one floating pile.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "What does I reveal? International Space Station! Station circles round | orbiting lab above the ground",
+      "text": "I — International Space Station! The ISS orbits Earth | crew and station share continuous free fall, producing microgravity.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "through the launch-window glow, J meets Jet Pack. A spacecraft maneuvering pack uses small thrusters for carefully planned movement in space.",
+      "text": "J ... J ... Jet Pack! Some astronaut maneuvering units use small thrusters | the Jet Pack label is not standard gear for every spacewalk.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K—Krypton Tank! Krypton stored just right | gas can feed an ion-thruster flight",
+      "text": "K? Krypton Tank! Some electric-propulsion spacecraft store krypton propellant | the tank feeds a thruster system.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L ... L ... Lander. A lander is a spacecraft built to come down onto the surface of another world.",
+      "text": "L is Lander. Spacecraft designed to descend to a surface | landing hardware, not open-orbit hardware.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Meteor steps in for M. Meteor burns bright | atmosphere turns a space-rock path to light",
+      "text": "M — Meteor! A meteor is light from a meteoroid entering an atmosphere | the solid object in space is a meteoroid.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "What does N reveal? Neptune! Neptune is the eighth planet from the Sun, a cold blue giant world.",
+      "text": "N ... N ... Neptune! Eighth major planet from the Sun | distant blue world.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "through the launch-window glow, O meets Orbit. Orbit bends around | motion joined with gravity keeps the path bound",
+      "text": "O? Orbit! A curved path shaped by motion and gravity | spacecraft keep falling around a body.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P—Planet! It is a large round world that travels in an orbit around a star.",
+      "text": "P is Planet. Rounded world orbiting a star; Solar System planets have cleared their orbital neighborhoods.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q ... Q ... Quarter Moon. Quarter Moon tonight | half the sunlit face appears in sight",
+      "text": "Q — Quarter Moon! Half the visible Moon is illuminated at first or last quarter | the word quarter names the cycle position, not a quarter-lit disk.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Rocket steps in for R. It produces thrust by pushing exhaust in the opposite direction of travel.",
+      "text": "R ... R ... Rocket! Expelled propellant creates thrust | rocket carries its own reaction mass and works in vacuum.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "What does S reveal? Satellite! Satellite goes round | orbit keeps its path Earth-bound",
+      "text": "S? Satellite! Natural or artificial object in orbit | the Moon and spacecraft can both be satellites.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "through the launch-window glow, T meets Telescope. A telescope collects light or other signals to help us study distant objects.",
+      "text": "T is Telescope. Instrument collects electromagnetic radiation | designs differ by wavelength.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "A-B-C, ignite the light!",
+      "text": "Launch, orbit, observe—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Name the space clue—send it bright!",
+      "text": "Space is a map of objects, paths, and tools—not one floating pile.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U—Uranus! Uranus rolls by | sideways tilt turns under distant sky",
+      "text": "U — Uranus! Seventh planet from the Sun | its rotation axis is tilted about 98 degrees.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V ... V ... Visor. A spacesuit visor protects the eyes and face and can filter intense sunlight.",
+      "text": "V ... V ... Visor! Helmet shield protects the face and manages light | spacesuit part, not spacecraft window.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "World steps in for W. World in the frame | planet or moon can carry the name",
+      "text": "W? World! Broad word for a planet-like place | not a precise astronomical class.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "What does X reveal? X-ray Telescope! An X-ray telescope detects X-rays from hot and energetic objects in space.",
+      "text": "X is X-ray Telescope. Cosmic X-rays are mostly absorbed by Earth's atmosphere | X-ray telescopes usually observe from space.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "through the launch-window glow, Y meets Yoke. Yoke turns left or right | hand-control clue in plain sight",
+      "text": "Y — Yoke! A yoke is a vehicle control shape | our mapping helper is not universal spacecraft hardware.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z—Zero-gravity Chair! A zero-gravity chair reclines the body for distributed support; it does not create real weightlessness.",
+      "text": "Z ... Z ... Zero-gravity Chair! A reclining chair may use this marketing name | it changes posture, not gravity.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Remember B ... Black Hole! Draw a small dark circle in the air, then point inward.",
+      "text": "B ... Black Hole! Draw a small dark circle in the air, then point inward.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Find D, hold the beat ... Dwarf Planet! Make a small round world, then circle one finger around it.",
+      "text": "D ... Dwarf Planet! Make a small round world, then circle one finger around it.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Flag! Wave one empty hand gently like a flag.",
+      "text": "F ... Flag! Wave one empty hand gently like a flag.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Find H, hold the beat ... Helmet! Frame your head with two hands like a helmet.",
+      "text": "H ... Helmet! Frame your head with two hands like a helmet.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Remember J ... Jet Pack! Hold two hands by your sides, then make one tiny upward puff motion.",
+      "text": "J ... Jet Pack! Hold two hands by your sides, then make one tiny upward puff motion.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Find L, hold the beat ... Lander! Lower one flat hand slowly until it lands.",
+      "text": "L ... Lander! Lower one flat hand slowly until it lands.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -358,14 +358,14 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "A-B-C, ignite the light!",
+      "text": "Launch, orbit, observe—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Name the space clue—send it bright!",
+      "text": "Space is a map of objects, paths, and tools—not one floating pile.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Remember N ... Neptune! Make a big blue-world circle, then sway it far away.",
+      "text": "N ... Neptune! Make a big blue-world circle, then sway it far away.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Find P, hold the beat ... Planet! Make one large round world with both hands.",
+      "text": "P ... Planet! Make one large round world with both hands.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Remember R ... Rocket! Point upward, then lift one hand like a slow launch.",
+      "text": "R ... Rocket! Point upward, then lift one hand like a slow launch.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Find T, hold the beat ... Telescope! Make pretend binoculars, then look far away.",
+      "text": "T ... Telescope! Make pretend binoculars, then look far away.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Remember V ... Visor! Shade your eyes with one flat hand like a visor.",
+      "text": "V ... Visor! Shade your eyes with one flat hand like a visor.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X, hold the beat ... X-ray Telescope! Pretend to aim a telescope high, then point to the X-ray picture.",
+      "text": "X ... X-ray Telescope! Pretend to aim a telescope high, then point to the X-ray picture.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,14 +468,14 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "A-B-C, ignite the light!",
+      "text": "Launch, orbit, observe—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Name the space clue—send it bright!",
+      "text": "Space is a map of objects, paths, and tools—not one floating pile.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
@@ -490,7 +490,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Remember Z ... Zero-gravity Chair! Lean your hands back together like a reclining chair shape.",
+      "text": "Z ... Zero-gravity Chair! Lean your hands back together like a reclining chair shape.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -498,14 +498,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "A-B-C, ignite the light!",
+      "text": "Neptune stays distant; the telescope keeps watching.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—our space story still glows!",
+      "text": "A to Z closes the mission log back at the training room.",
       "objective": "narration",
       "objectReveal": "none"
     }
