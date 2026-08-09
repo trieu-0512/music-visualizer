@@ -6,11 +6,79 @@
   "tempoBpm": 86,
   "motifFamily": "tool-look",
   "hook": [
-    "Tools and machines—A-B-C!",
-    "Look, don't touch—name with me!"
+    "Measure, hold, turn—A-B-C!",
+    "Study the mechanism without using the hazard."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D construction storybook, safe observer framing, toy-like machines and tools; visual identity: Tool Machine Look",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "tool-principle-rhyme",
+    "chorusRhymeEngine": "measure-hold-cut-hook",
+    "pointOfView": "a child comparing tool functions from pictures",
+    "chorusFunction": "repeat measure-hold-protect",
+    "grooveMeter": "86 BPM mechanical diagram pulse",
+    "round1Grammar": "object -> mechanical principle -> role/safety",
+    "round2Grammar": "function-neutral recall -> point/air-shape",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "tool-principle",
+    "authorialIntent": "Make Tool Machine Look a tool-principle comparison: cut, strike, clamp, measure, level, fasten, lubricate, protect and brace are different functions, with machines and materials labeled separately.",
+    "lyricIdentity": "A child looks at shape and mechanical principle instead of miming hazardous use.",
+    "imageMotifs": [
+      "wrench flats",
+      "level vial",
+      "vise jaws",
+      "I-beam section",
+      "X-brace"
+    ],
+    "semanticArc": [
+      "measure/align",
+      "fasten/hold",
+      "cut/strike",
+      "structure/protect"
+    ],
+    "forbiddenGenericLanguage": [
+      "tool machine look",
+      "use the axe",
+      "hammer beat",
+      "all are tools"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

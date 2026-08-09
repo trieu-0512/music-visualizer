@@ -6,11 +6,79 @@
   "tempoBpm": 85,
   "motifFamily": "repair-book",
   "hook": [
-    "Build and repair—A-B-C!",
-    "Picture-book tools, learn with me!"
+    "Notice, measure, check—A-B-C!",
+    "Fix follows evidence."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D construction storybook, safe observer framing, toy-like machines and tools; visual identity: Build Repair Picture Book",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "diagnose-repair-rhyme",
+    "chorusRhymeEngine": "notice-measure-fix-hook",
+    "pointOfView": "a child following an adult repair case",
+    "chorusFunction": "repeat notice-measure-check",
+    "grooveMeter": "86 BPM page-turn 6/8",
+    "round1Grammar": "target -> repair/material role -> professional boundary",
+    "round2Grammar": "diagnostic recall -> target -> safe picture gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "repair-diagnosis",
+    "authorialIntent": "Make Build Repair Picture Book a diagnosis-before-repair story: notice the problem, measure/check, choose material/fastener, secure work, repair, inspect; replacement is sometimes safer than repair.",
+    "lyricIdentity": "A child turns pages of a repair case without touching real tools, learning that diagnosis comes before action.",
+    "imageMotifs": [
+      "cracked joint",
+      "level check",
+      "clamp",
+      "replacement brick",
+      "closed toolbox"
+    ],
+    "semanticArc": [
+      "notice",
+      "diagnose",
+      "repair",
+      "inspect/replace"
+    ],
+    "forbiddenGenericLanguage": [
+      "fix everything",
+      "kids repair",
+      "hammer until fixed",
+      "repair magic"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

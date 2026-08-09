@@ -1,0 +1,282 @@
+{
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
+  "status": "PASS",
+  "range": "0146-0150",
+  "songs": 5,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "designReworkSongs": 0,
+  "uniqueHooks": 5,
+  "uniqueStyles": 5,
+  "uniqueSectionForms": 1,
+  "uniqueCreativeFingerprints": 5,
+  "maxLyricSimilarity": 0.0523,
+  "mostSimilarPair": [
+    "0148",
+    "0149"
+  ],
+  "batchWarnings": [],
+  "songsDetail": [
+    {
+      "songId": "0146",
+      "theme": "Building Site",
+      "targetLines": 52,
+      "lyricWordCount": 919,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0147",
+      "theme": "Tools & Machines",
+      "targetLines": 52,
+      "lyricWordCount": 897,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0148",
+      "theme": "Builders at Work",
+      "targetLines": 52,
+      "lyricWordCount": 922,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0149",
+      "theme": "Construction Gear",
+      "targetLines": 52,
+      "lyricWordCount": 931,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0150",
+      "theme": "Build & Repair",
+      "targetLines": 52,
+      "lyricWordCount": 887,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

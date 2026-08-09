@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore tools and machines with me!",
+      "text": "Level checks direction, vise holds, wrench turns, X-brace stiffens a frame.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Tools and machines—A-B-C!",
+      "text": "Tool shape makes sense when we connect it to one real function.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A labels Axe in our supervised tools-and-machines display.",
+      "text": "A — Axe! | Sharp edged chopping tool for wood; professional/adult-only and never a preschool action target.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B labels Bolt in our supervised tools-and-machines display.",
+      "text": "B ... B ... Bolt! | Externally threaded fastener commonly works with nut or threaded hole; diameter/pitch/grade must suit the joint.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C labels Crane in our supervised tools-and-machines display.",
+      "text": "C? Crane! | Lifting machine hoists suspended loads with boom/tower and cables; swing/load zones are restricted.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D labels Dozer in our supervised tools-and-machines display.",
+      "text": "D is Dozer. Tracked machine pushes soil/debris with a front blade; professional work-zone equipment. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E labels Extension Ladder in our supervised tools-and-machines display.",
+      "text": "E — Extension Ladder! | Ladder with sliding sections for extra reach; setup and fall protection require trained adult practice.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F labels Framing Hammer in our supervised tools-and-machines display.",
+      "text": "F ... F ... Framing Hammer! | Longer/heavier carpenter hammer designed for framing; adult/professional striking tool.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G labels Goggles in our supervised tools-and-machines display.",
+      "text": "G? Goggles! | Eye protection shields against dust/chips/splashes when rated for the hazard; fit and standard matter.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H labels Hammer in our supervised tools-and-machines display.",
+      "text": "H is Hammer. Handled striking tool drives/removes fasteners or shapes material; real tool use requires suitable age, eye protection, and supervision. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Tools and machines—A-B-C!",
+      "text": "Measure, hold, turn—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Look, don't touch—name with me!",
+      "text": "Study the mechanism without using the hazard.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I labels I-beam in our supervised tools-and-machines display.",
+      "text": "I — I-beam! | Structural beam with I-shaped cross-section places material far from center to resist bending efficiently.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J labels Jackhammer in our supervised tools-and-machines display.",
+      "text": "J ... J ... Jackhammer! | Powered percussive demolition tool breaks concrete/asphalt; noise, vibration, debris, and weight require trained workers/PPE.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K labels Kneepad in our supervised tools-and-machines display.",
+      "text": "K? Kneepad! | Protective pad cushions knees during floor-level work; it reduces pressure but not every injury risk.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L labels Level in our supervised tools-and-machines display.",
+      "text": "L is Level. Tool compares a surface to horizontal/vertical using vial, laser, or electronic sensing. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M labels Measuring Tape in our supervised tools-and-machines display.",
+      "text": "M — Measuring Tape! | Flexible graduated tape measures length; hook/zero position and straight alignment affect accuracy.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N labels Nut in our supervised tools-and-machines display.",
+      "text": "N ... N ... Nut! | Internally threaded fastener turns onto a matching bolt/stud; thread size must match.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O labels Oil Can in our supervised tools-and-machines display.",
+      "text": "O? Oil Can! | Container/applicator delivers lubricant to machinery; contents and maintenance belong to adults.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P labels Plywood in our supervised tools-and-machines display.",
+      "text": "P is Plywood. Engineered sheet made from bonded wood veneers with alternating grain directions for dimensional strength. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Tools and machines—A-B-C!",
+      "text": "Measure, hold, turn—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Look, don't touch—name with me!",
+      "text": "Study the mechanism without using the hazard.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q labels Quoin Brick in our supervised tools-and-machines display.",
+      "text": "Q — Quoin Brick! | Corner masonry unit or emphasized corner block; quoin describes corner position/detail rather than a unique material.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R labels Rivet in our supervised tools-and-machines display.",
+      "text": "R ... R ... Rivet! | Permanent/semi-permanent fastener deforms to clamp materials together; installation uses specialized tools.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S labels Saw in our supervised tools-and-machines display.",
+      "text": "S? Saw! | Toothed cutting tool; hand and powered saws are adult/professional tools in this activity.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T labels Toolbox in our supervised tools-and-machines display.",
+      "text": "T is Toolbox. Container organizes and transports tools; closed storage keeps sharp tools inaccessible. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U labels Utility Knife in our supervised tools-and-machines display.",
+      "text": "U — Utility Knife! | Retractable/replaceable sharp blade cuts sheet materials; adult-only.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V labels Vise in our supervised tools-and-machines display.",
+      "text": "V ... V ... Vise! | Bench tool clamps work securely between jaws; fingers stay clear of closing jaws.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W labels Wrench in our supervised tools-and-machines display.",
+      "text": "W? Wrench! | Tool turns nuts/bolts by gripping flats or fittings; correct size reduces slipping.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X labels X-brace in our supervised tools-and-machines display.",
+      "text": "X is X-brace. Diagonal members cross in an X to resist racking/lateral movement in a frame. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Tools and machines—A-B-C!",
+      "text": "Measure, hold, turn—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Look, don't touch—name with me!",
+      "text": "Study the mechanism without using the hazard.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y labels Yellow Vest in our supervised tools-and-machines display.",
+      "text": "Y — Yellow Vest! | High-visibility garment improves wearer visibility; it does not replace hard hat, barriers, or other PPE.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z labels Zinc Screw in our supervised tools-and-machines display.",
+      "text": "Z ... Z ... Zinc Screw! | Steel screw may be zinc-coated for corrosion protection; coating does not change the need for correct size/driver.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Hands still: A ... Axe! Point and say.",
+      "text": "Tool recall A ... Axe! Point only; real tool/machine stays with trained adults.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Hands still: B ... Bolt! Point and say.",
+      "text": "Find B ... Bolt! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Hands still: C ... Crane! Point and say.",
+      "text": "Which one starts C? ... Crane! Point only; real tool/machine stays with trained adults.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Hands still: D ... Dozer! Point and say.",
+      "text": "Check D ... Dozer! Point only; real tool/machine stays with trained adults.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Hands still: E ... Extension Ladder! Point and say.",
+      "text": "Tool recall E ... Extension Ladder! Point only; real tool/machine stays with trained adults.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Hands still: F ... Framing Hammer! Point and say.",
+      "text": "Find F ... Framing Hammer! Point only; real tool/machine stays with trained adults.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Hands still: G ... Goggles! Point and say.",
+      "text": "Which one starts G? ... Goggles! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Hands still: H ... Hammer! Point and say.",
+      "text": "Check H ... Hammer! Point only; real tool/machine stays with trained adults.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Tools and machines—A-B-C!",
+      "text": "Measure, hold, turn—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Look, don't touch—name with me!",
+      "text": "Study the mechanism without using the hazard.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Hands still: I ... I-beam! Point and say.",
+      "text": "Tool recall I ... I-beam! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Hands still: J ... Jackhammer! Point and say.",
+      "text": "Find J ... Jackhammer! Point only; real tool/machine stays with trained adults.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Hands still: K ... Kneepad! Point and say.",
+      "text": "Which one starts K? ... Kneepad! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Hands still: L ... Level! Point and say.",
+      "text": "Check L ... Level! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Hands still: M ... Measuring Tape! Point and say.",
+      "text": "Tool recall M ... Measuring Tape! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Hands still: N ... Nut! Point and say.",
+      "text": "Find N ... Nut! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Hands still: O ... Oil Can! Point and say.",
+      "text": "Which one starts O? ... Oil Can! Point only; real tool/machine stays with trained adults.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Hands still: P ... Plywood! Point and say.",
+      "text": "Check P ... Plywood! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Tools and machines—A-B-C!",
+      "text": "Measure, hold, turn—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Look, don't touch—name with me!",
+      "text": "Study the mechanism without using the hazard.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Hands still: Q ... Quoin Brick! Point and say.",
+      "text": "Tool recall Q ... Quoin Brick! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Hands still: R ... Rivet! Point and say.",
+      "text": "Find R ... Rivet! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Hands still: S ... Saw! Point and say.",
+      "text": "Which one starts S? ... Saw! Point only; real tool/machine stays with trained adults.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Hands still: T ... Toolbox! Point and say.",
+      "text": "Check T ... Toolbox! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Hands still: U ... Utility Knife! Point and say.",
+      "text": "Tool recall U ... Utility Knife! Point only; real tool/machine stays with trained adults.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Hands still: V ... Vise! Point and say.",
+      "text": "Find V ... Vise! Point only; real tool/machine stays with trained adults.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Hands still: W ... Wrench! Point and say.",
+      "text": "Which one starts W? ... Wrench! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Hands still: X ... X-brace! Point and say.",
+      "text": "Check X ... X-brace! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Tools and machines—A-B-C!",
+      "text": "Measure, hold, turn—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Look, don't touch—name with me!",
+      "text": "Study the mechanism without using the hazard.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Hands still: Y ... Yellow Vest! Point and say.",
+      "text": "Tool recall Y ... Yellow Vest! Point; say visibility is only one safety layer.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Hands still: Z ... Zinc Screw! Point and say.",
+      "text": "Find Z ... Zinc Screw! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Tools and machines—A-B-C!",
+      "text": "Utility Knife stays closed, vise jaws stay imaginary, brace remains part of the frame.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z leaves the tool principles separated.",
       "objective": "narration",
       "objectReveal": "none"
     }

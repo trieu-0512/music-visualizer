@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore build and repair with me!",
+      "text": "First find the problem, then measure and check; only then can a trained adult choose the repair.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Build and repair—A-B-C!",
+      "text": "Repair begins with diagnosis, not with the loudest tool.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Our picture book gives A the object Axe to recognize.",
+      "text": "A — Axe! | Sharp edged chopping tool for wood; professional/adult-only and never a preschool action target.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Our picture book gives B the object Brick to recognize.",
+      "text": "B ... B ... Brick! | Masonry unit laid in courses with mortar or other systems; load-bearing use follows structural design.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Our picture book gives C the object Cement Mixer to recognize.",
+      "text": "C? Cement Mixer! | Rotating drum combines cement, aggregate, and water into concrete mix; moving machinery stays in restricted work zone.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Our picture book gives D the object Drill to recognize.",
+      "text": "D is Drill. Rotating tool makes holes or drives bits; powered drill is adult/professional equipment here. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Our picture book gives E the object Excavator to recognize.",
+      "text": "E — Excavator! | Boom, stick, and bucket dig and move material; rotating upper body creates a large exclusion zone.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Our picture book gives F the object Forklift to recognize.",
+      "text": "F ... F ... Forklift! | Industrial truck raises loads on forks; only trained operators use it and it never carries casual riders.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Our picture book gives G the object Goggles to recognize.",
+      "text": "G? Goggles! | Eye protection shields against dust/chips/splashes when rated for the hazard; fit and standard matter.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Our picture book gives H the object Hammer to recognize.",
+      "text": "H is Hammer. Handled striking tool drives/removes fasteners or shapes material; real tool use requires suitable age, eye protection, and supervision. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Build and repair—A-B-C!",
+      "text": "Notice, measure, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Picture-book tools, learn with me!",
+      "text": "Fix follows evidence.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Our picture book gives I the object Impact Driver to recognize.",
+      "text": "I — Impact Driver! | Powered rotary impact tool drives screws/fasteners with high torque; adult/professional operation in this preschool set.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Our picture book gives J the object Joint to recognize.",
+      "text": "J ... J ... Joint! | Connection where two building parts meet; joint design controls alignment, load transfer, sealing, or movement.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Our picture book gives K the object Keyhole Saw to recognize.",
+      "text": "K? Keyhole Saw! | Narrow pointed hand saw cuts small openings/curves; sharp teeth make it adult-only here.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Our picture book gives L the object Level to recognize.",
+      "text": "L is Level. Tool compares a surface to horizontal/vertical using vial, laser, or electronic sensing. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Our picture book gives M the object Measuring Tape to recognize.",
+      "text": "M — Measuring Tape! | Flexible graduated tape measures length; hook/zero position and straight alignment affect accuracy.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Our picture book gives N the object Nail to recognize.",
+      "text": "N ... N ... Nail! | Metal fastener driven into material; sharp point and hammer use keep it adult-managed.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Our picture book gives O the object Oil Can to recognize.",
+      "text": "O? Oil Can! | Container/applicator delivers lubricant to machinery; contents and maintenance belong to adults.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Our picture book gives P the object Plywood to recognize.",
+      "text": "P is Plywood. Engineered sheet made from bonded wood veneers with alternating grain directions for dimensional strength. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Build and repair—A-B-C!",
+      "text": "Notice, measure, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Picture-book tools, learn with me!",
+      "text": "Fix follows evidence.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Our picture book gives Q the object Quick Clamp to recognize.",
+      "text": "Q — Quick Clamp! | Clamp rapidly holds workpieces together; pinch points require careful adult positioning.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Our picture book gives R the object Rivet to recognize.",
+      "text": "R ... R ... Rivet! | Permanent/semi-permanent fastener deforms to clamp materials together; installation uses specialized tools.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Our picture book gives S the object Shovel to recognize.",
+      "text": "S? Shovel! | Long-handled blade lifts or moves soil/gravel; jobsite use requires space and adult control.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Our picture book gives T the object Toolbox to recognize.",
+      "text": "T is Toolbox. Container organizes and transports tools; closed storage keeps sharp tools inaccessible. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Our picture book gives U the object Utility Cart to recognize.",
+      "text": "U — Utility Cart! | Small wheeled work cart carries materials/tools; load and route must stay controlled.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Our picture book gives V the object Vise to recognize.",
+      "text": "V ... V ... Vise! | Bench tool clamps work securely between jaws; fingers stay clear of closing jaws.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Our picture book gives W the object Wheelbarrow to recognize.",
+      "text": "W? Wheelbarrow! | Single/front-wheel hand cart moves loose material; balanced load and clear route reduce tipping.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Our picture book gives X the object Xylophone to recognize.",
+      "text": "X is Xylophone. Tuned-bar musical instrument; deliberate non-construction X comparison target. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Build and repair—A-B-C!",
+      "text": "Notice, measure, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Picture-book tools, learn with me!",
+      "text": "Fix follows evidence.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Our picture book gives Y the object Yellow Vest to recognize.",
+      "text": "Y — Yellow Vest! | High-visibility garment improves wearer visibility; it does not replace hard hat, barriers, or other PPE.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Our picture book gives Z the object Zinc Screw to recognize.",
+      "text": "Z ... Z ... Zinc Screw! | Steel screw may be zinc-coated for corrosion protection; coating does not change the need for correct size/driver.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Book pause: A ... Axe! Point, then say the name.",
+      "text": "Repair recall A ... Axe! Point only; real tool/machine stays with trained adults.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Book pause: B ... Brick! Point, then say the name.",
+      "text": "Find B ... Brick! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Book pause: C ... Cement Mixer! Point, then say the name.",
+      "text": "Which one starts C? ... Cement Mixer! Point only; real tool/machine stays with trained adults.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Book pause: D ... Drill! Point, then say the name.",
+      "text": "Check D ... Drill! Point only; real tool/machine stays with trained adults.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Book pause: E ... Excavator! Point, then say the name.",
+      "text": "Repair recall E ... Excavator! Point only; real tool/machine stays with trained adults.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Book pause: F ... Forklift! Point, then say the name.",
+      "text": "Find F ... Forklift! Point only; real tool/machine stays with trained adults.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Book pause: G ... Goggles! Point, then say the name.",
+      "text": "Which one starts G? ... Goggles! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Book pause: H ... Hammer! Point, then say the name.",
+      "text": "Check H ... Hammer! Point only; real tool/machine stays with trained adults.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Build and repair—A-B-C!",
+      "text": "Notice, measure, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Picture-book tools, learn with me!",
+      "text": "Fix follows evidence.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Book pause: I ... Impact Driver! Point, then say the name.",
+      "text": "Repair recall I ... Impact Driver! Point only; real tool/machine stays with trained adults.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Book pause: J ... Joint! Point, then say the name.",
+      "text": "Find J ... Joint! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Book pause: K ... Keyhole Saw! Point, then say the name.",
+      "text": "Which one starts K? ... Keyhole Saw! Point only; real tool/machine stays with trained adults.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Book pause: L ... Level! Point, then say the name.",
+      "text": "Check L ... Level! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Book pause: M ... Measuring Tape! Point, then say the name.",
+      "text": "Repair recall M ... Measuring Tape! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Book pause: N ... Nail! Point, then say the name.",
+      "text": "Find N ... Nail! Point only; real tool/machine stays with trained adults.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Book pause: O ... Oil Can! Point, then say the name.",
+      "text": "Which one starts O? ... Oil Can! Point only; real tool/machine stays with trained adults.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Book pause: P ... Plywood! Point, then say the name.",
+      "text": "Check P ... Plywood! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Build and repair—A-B-C!",
+      "text": "Notice, measure, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Picture-book tools, learn with me!",
+      "text": "Fix follows evidence.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Book pause: Q ... Quick Clamp! Point, then say the name.",
+      "text": "Repair recall Q ... Quick Clamp! Point only; real tool/machine stays with trained adults.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Book pause: R ... Rivet! Point, then say the name.",
+      "text": "Find R ... Rivet! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Book pause: S ... Shovel! Point, then say the name.",
+      "text": "Which one starts S? ... Shovel! Point only; real tool/machine stays with trained adults.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Book pause: T ... Toolbox! Point, then say the name.",
+      "text": "Check T ... Toolbox! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Book pause: U ... Utility Cart! Point, then say the name.",
+      "text": "Repair recall U ... Utility Cart! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Book pause: V ... Vise! Point, then say the name.",
+      "text": "Find V ... Vise! Point only; real tool/machine stays with trained adults.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Book pause: W ... Wheelbarrow! Point, then say the name.",
+      "text": "Which one starts W? ... Wheelbarrow! Point; mime two still handles—no running.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Book pause: X ... Xylophone! Point, then say the name.",
+      "text": "Check X ... Xylophone! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Build and repair—A-B-C!",
+      "text": "Notice, measure, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Picture-book tools, learn with me!",
+      "text": "Fix follows evidence.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Book pause: Y ... Yellow Vest! Point, then say the name.",
+      "text": "Repair recall Y ... Yellow Vest! Point; say visibility is only one safety layer.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Book pause: Z ... Zinc Screw! Point, then say the name.",
+      "text": "Find Z ... Zinc Screw! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Build and repair—A-B-C!",
+      "text": "Joint inspected, tools stored, unsafe part replaced when repair is not enough.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z closes the repair book after the final check.",
       "objective": "narration",
       "objectReveal": "none"
     }

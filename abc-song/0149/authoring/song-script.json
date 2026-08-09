@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore construction gear with me!",
+      "text": "Sharp blade? Stop. Live-voltage question? Stop. Unstable ladder? Stop. Moving machine? Stay outside.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Construction gear—A-B-C!",
+      "text": "Safety gear works with rules and training, not instead of them.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "At our gear board, A identifies Axe from a safe view.",
+      "text": "A — Axe! | Sharp edged chopping tool for wood; professional/adult-only and never a preschool action target.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "At our gear board, B identifies Bolt from a safe view.",
+      "text": "B ... B ... Bolt! | Externally threaded fastener commonly works with nut or threaded hole; diameter/pitch/grade must suit the joint.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "At our gear board, C identifies Cement Mixer from a safe view.",
+      "text": "C? Cement Mixer! | Rotating drum combines cement, aggregate, and water into concrete mix; moving machinery stays in restricted work zone.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "At our gear board, D identifies Drill from a safe view.",
+      "text": "D is Drill. Rotating tool makes holes or drives bits; powered drill is adult/professional equipment here. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "At our gear board, E identifies Extension Ladder from a safe view.",
+      "text": "E — Extension Ladder! | Ladder with sliding sections for extra reach; setup and fall protection require trained adult practice.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "At our gear board, F identifies Framing Hammer from a safe view.",
+      "text": "F ... F ... Framing Hammer! | Longer/heavier carpenter hammer designed for framing; adult/professional striking tool.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "At our gear board, G identifies Gravel from a safe view.",
+      "text": "G? Gravel! | Loose stone aggregate supports drainage, base layers, concrete mixes, or landscaping depending size/use.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "At our gear board, H identifies Hard Hat from a safe view.",
+      "text": "H is Hard Hat. Protective helmet reduces head injury from some impacts/falling objects; correct type/fit matters. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Construction gear—A-B-C!",
+      "text": "See, stop, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Safety first, then point with me!",
+      "text": "A yellow vest is one layer, not permission.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "At our gear board, I identifies Impact Driver from a safe view.",
+      "text": "I — Impact Driver! | Powered rotary impact tool drives screws/fasteners with high torque; adult/professional operation in this preschool set.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "At our gear board, J identifies Joint from a safe view.",
+      "text": "J ... J ... Joint! | Connection where two building parts meet; joint design controls alignment, load transfer, sealing, or movement.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "At our gear board, K identifies Keyhole Saw from a safe view.",
+      "text": "K? Keyhole Saw! | Narrow pointed hand saw cuts small openings/curves; sharp teeth make it adult-only here.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "At our gear board, L identifies Ladder from a safe view.",
+      "text": "L is Ladder. Portable climbing equipment; stable setup, angle, footing, and fall rules matter—children do not imitate jobsite climbing. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "At our gear board, M identifies Measuring Tape from a safe view.",
+      "text": "M — Measuring Tape! | Flexible graduated tape measures length; hook/zero position and straight alignment affect accuracy.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "At our gear board, N identifies Nail from a safe view.",
+      "text": "N ... N ... Nail! | Metal fastener driven into material; sharp point and hammer use keep it adult-managed.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "At our gear board, O identifies Orange Cone from a safe view.",
+      "text": "O? Orange Cone! | High-visibility cone marks boundaries, hazards, or routes; it communicates space rather than providing protection itself.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "At our gear board, P identifies Pliers from a safe view.",
+      "text": "P is Pliers. Hand tool grips, bends, or cuts depending jaw design; pinch/cut edges require supervised adult use. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Construction gear—A-B-C!",
+      "text": "See, stop, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Safety first, then point with me!",
+      "text": "A yellow vest is one layer, not permission.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "At our gear board, Q identifies Quick Clamp from a safe view.",
+      "text": "Q — Quick Clamp! | Clamp rapidly holds workpieces together; pinch points require careful adult positioning.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "At our gear board, R identifies Rake from a safe view.",
+      "text": "R ... R ... Rake! | Long-handled tool gathers or grades loose material; clear spacing prevents striking others.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "At our gear board, S identifies Shovel from a safe view.",
+      "text": "S? Shovel! | Long-handled blade lifts or moves soil/gravel; jobsite use requires space and adult control.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "At our gear board, T identifies Trowel from a safe view.",
+      "text": "T is Trowel. Hand tool spreads mortar/concrete/plaster or works soil depending shape; construction versions are adult tools. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "At our gear board, U identifies Utility Knife from a safe view.",
+      "text": "U — Utility Knife! | Retractable/replaceable sharp blade cuts sheet materials; adult-only.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "At our gear board, V identifies Voltage Tester from a safe view.",
+      "text": "V ... V ... Voltage Tester! | Electrical test instrument indicates or measures voltage depending design; qualified adults use it before electrical work.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "At our gear board, W identifies Wrench from a safe view.",
+      "text": "W? Wrench! | Tool turns nuts/bolts by gripping flats or fittings; correct size reduces slipping.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "At our gear board, X identifies X-brace from a safe view.",
+      "text": "X is X-brace. Diagonal members cross in an X to resist racking/lateral movement in a frame. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Construction gear—A-B-C!",
+      "text": "See, stop, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Safety first, then point with me!",
+      "text": "A yellow vest is one layer, not permission.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "At our gear board, Y identifies Yellow Vest from a safe view.",
+      "text": "Y — Yellow Vest! | High-visibility garment improves wearer visibility; it does not replace hard hat, barriers, or other PPE.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "At our gear board, Z identifies Zinc Screw from a safe view.",
+      "text": "Z ... Z ... Zinc Screw! | Steel screw may be zinc-coated for corrosion protection; coating does not change the need for correct size/driver.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Stop sign: A ... Axe! Point to the clue.",
+      "text": "Stop recall A ... Axe! Point only; real tool/machine stays with trained adults.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Stop sign: B ... Bolt! Point to the clue.",
+      "text": "Find B ... Bolt! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Stop sign: C ... Cement Mixer! Point to the clue.",
+      "text": "Which one starts C? ... Cement Mixer! Point only; real tool/machine stays with trained adults.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Stop sign: D ... Drill! Point to the clue.",
+      "text": "Check D ... Drill! Point only; real tool/machine stays with trained adults.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Stop sign: E ... Extension Ladder! Point to the clue.",
+      "text": "Stop recall E ... Extension Ladder! Point only; real tool/machine stays with trained adults.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Stop sign: F ... Framing Hammer! Point to the clue.",
+      "text": "Find F ... Framing Hammer! Point only; real tool/machine stays with trained adults.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Stop sign: G ... Gravel! Point to the clue.",
+      "text": "Which one starts G? ... Gravel! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Stop sign: H ... Hard Hat! Point to the clue.",
+      "text": "Check H ... Hard Hat! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Construction gear—A-B-C!",
+      "text": "See, stop, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Safety first, then point with me!",
+      "text": "A yellow vest is one layer, not permission.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Stop sign: I ... Impact Driver! Point to the clue.",
+      "text": "Stop recall I ... Impact Driver! Point only; real tool/machine stays with trained adults.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Stop sign: J ... Joint! Point to the clue.",
+      "text": "Find J ... Joint! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Stop sign: K ... Keyhole Saw! Point to the clue.",
+      "text": "Which one starts K? ... Keyhole Saw! Point only; real tool/machine stays with trained adults.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Stop sign: L ... Ladder! Point to the clue.",
+      "text": "Check L ... Ladder! Point only; real tool/machine stays with trained adults.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Stop sign: M ... Measuring Tape! Point to the clue.",
+      "text": "Stop recall M ... Measuring Tape! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Stop sign: N ... Nail! Point to the clue.",
+      "text": "Find N ... Nail! Point only; real tool/machine stays with trained adults.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Stop sign: O ... Orange Cone! Point to the clue.",
+      "text": "Which one starts O? ... Orange Cone! Point and draw a boundary line.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Stop sign: P ... Pliers! Point to the clue.",
+      "text": "Check P ... Pliers! Point only; real tool/machine stays with trained adults.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Construction gear—A-B-C!",
+      "text": "See, stop, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Safety first, then point with me!",
+      "text": "A yellow vest is one layer, not permission.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Stop sign: Q ... Quick Clamp! Point to the clue.",
+      "text": "Stop recall Q ... Quick Clamp! Point only; real tool/machine stays with trained adults.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Stop sign: R ... Rake! Point to the clue.",
+      "text": "Find R ... Rake! Air-trace the handle; no swinging.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Stop sign: S ... Shovel! Point to the clue.",
+      "text": "Which one starts S? ... Shovel! Point only; real tool/machine stays with trained adults.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Stop sign: T ... Trowel! Point to the clue.",
+      "text": "Check T ... Trowel! Point only; real tool/machine stays with trained adults.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Stop sign: U ... Utility Knife! Point to the clue.",
+      "text": "Stop recall U ... Utility Knife! Point only; real tool/machine stays with trained adults.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Stop sign: V ... Voltage Tester! Point to the clue.",
+      "text": "Find V ... Voltage Tester! Point only; real tool/machine stays with trained adults.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Stop sign: W ... Wrench! Point to the clue.",
+      "text": "Which one starts W? ... Wrench! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Stop sign: X ... X-brace! Point to the clue.",
+      "text": "Check X ... X-brace! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Construction gear—A-B-C!",
+      "text": "See, stop, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Safety first, then point with me!",
+      "text": "A yellow vest is one layer, not permission.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Stop sign: Y ... Yellow Vest! Point to the clue.",
+      "text": "Stop recall Y ... Yellow Vest! Point; say visibility is only one safety layer.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Stop sign: Z ... Zinc Screw! Point to the clue.",
+      "text": "Find Z ... Zinc Screw! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Construction gear—A-B-C!",
+      "text": "Tester stays with the electrician, ladder stays grounded, blades stay closed.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends at the stop line.",
       "objective": "narration",
       "objectReveal": "none"
     }
