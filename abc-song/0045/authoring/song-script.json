@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Step... sparkle... ice beside the trail.",
+      "text": "A hoofprint can appear in one moment; a glacier valley takes far longer to shape.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A glacier clue shines in the morning.",
+      "text": "Today we walk beside different clocks.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Look at A: Alpine Goat! Hooves on ground | steady little steps go round",
+      "text": "A — Alpine Goat! One hoofstep happens now | sure-footed movement makes the first fast clock.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B — Bighorn Sheep. A bighorn sheep is a mountain and desert sheep whose adults can carry heavy curved horns.",
+      "text": "B ... B ... Bighorn Sheep! Walking, pausing, climbing | living motion measured in seconds and minutes.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Along the mountain trail, C meets Cabin. It is a small simple shelter or house, often built in a rural or mountain setting.",
+      "text": "C? Cabin! Human shelter can be built within a lifetime | a much shorter clock than a mountain valley.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D ... D ... Deer! A deer has sturdy legs and hooves and moves around on land.",
+      "text": "D is Deer. Hooves cross land in present time | fresh movement against old rock.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "What did E find? Eagle! Feather light | beak and wings come into sight",
+      "text": "E — Eagle! Wingbeats happen quickly, soaring can last longer | still tiny compared with moving ice.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Look at F: Fir! It is an evergreen tree with soft-looking needles and upright cones on its branches.",
+      "text": "F ... F ... Fir! Evergreen growth adds rings and branches over years | plant time sits between footsteps and glaciers.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G — Goat. Hooves on ground | steady little steps go round",
+      "text": "G? Goat! Step, pause, step | a fast living rhythm on a slow landscape.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Along the mountain trail, H meets Hawk. It is a keen-eyed bird of prey with strong wings and grasping feet.",
+      "text": "H is Hawk. A turn in the air takes seconds | shadow passes long before the valley changes.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I ... I ... Ibex! Hooves go slow | sure-foot steps along below",
+      "text": "I — Ibex! Sure hooves cross steep ground | another now-time clue above very old rock.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "What did J find? Juniper! It is an evergreen shrub or tree with needle- or scale-like leaves and berry-like seed cones.",
+      "text": "J ... J ... Juniper! Woody growth records seasons | slow enough to miss in a single walk.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Look at K: Kettle Lake! It is a bowl-shaped lake formed where a block of old glacier ice left a hollow.",
+      "text": "K? Kettle Lake! A hollow linked to melting buried glacier ice can remain as a lake | old ice process visible in today's water.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L — Lynx. A lynx is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "L is Lynx. Quiet mammal crosses land in moments | tracks may fade far sooner than the landform.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Glacier steps—A-B-C!",
+      "text": "Fast, slow, old, now—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Trails and peaks, walk on with me!",
+      "text": "Mountain time is more than one walking beat.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Along the mountain trail, M meets Marmot. Small and quick | little feet go tick-tick-tick",
+      "text": "M — Marmot! Quick movement, long seasonal rest patterns | animal time changes with the year.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N ... N ... Nutcracker! A nutcracker is a mountain bird with a strong bill that opens and carries seeds.",
+      "text": "N ... N ... Nutcracker! Seed carrying can happen in seconds | cached seeds connect one season to another.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "What did O find? Outcrop! It is a place where solid rock is exposed at the ground surface.",
+      "text": "O? Outcrop! Bedrock exposed at the surface | geological material older than our whole trail day.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Look at P: Pika! It is a small round-eared mountain mammal that lives among rocks.",
+      "text": "P is Pika. Small mountain mammal moves quickly among rocks | a fast clock tucked inside slow terrain.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q — Quartz. Quartz is a hard mineral that can sparkle with a glassy surface.",
+      "text": "Q — Quartz! Hard mineral formed by geological processes | stone time stretches far beyond a song.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Along the mountain trail, R meets Rope. It is a strong flexible length of twisted or braided fibers; children only identify climbing rope safely.",
+      "text": "R ... R ... Rope! Human-made gear can be packed away tonight | context on the shortest practical clock.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S ... S ... Snow! Snow is made of ice crystals that fall from clouds when the air is cold enough.",
+      "text": "S? Snow! Falls in weather, melts with conditions, may linger seasonally | cold landscape changes on more than one timescale.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "What did T find? Trail! It is a path people follow through outdoor places.",
+      "text": "T is Trail. A path can shift through use, weather and maintenance | human-scale change written over older terrain.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Glacier steps—A-B-C!",
+      "text": "Fast, slow, old, now—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Trails and peaks, walk on with me!",
+      "text": "Mountain time is more than one walking beat.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Look at U: Urial! Hooves go slow | sure-foot steps along below",
+      "text": "U — Urial! Wild sheep steps belong to the present | another living pulse over long-lived slopes.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V — Valley. A valley is low land between hills or mountains, often with water running through.",
+      "text": "V ... V ... Valley! Low land between slopes may preserve the shape of ancient erosion or glaciation | old geometry beneath today's walk.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Along the mountain trail, W meets Wolf. It is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "W? Wolf! Wild canid crosses large distances in living time | we observe from afar and never follow.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X ... X ... Xylophone! A xylophone is our X-word helper: a row of tuned bars makes different notes when struck.",
+      "text": "At the visitor shelter, X is Xylophone—our X-word helper | one struck note disappears faster than any other clock in the song.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "What did Y find? Yellow Bell! Bloom in view | petals open fresh with dew",
+      "text": "Y — Yellow Bell! A flower can open and fade within a season | short plant time against old valley rock.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Look at Z: Zigzag Trail! It bends back and forth to climb a slope more gently.",
+      "text": "Z ... Z ... Zigzag Trail! Switchbacks can be built or repaired by people | present-day route laid across a much older slope.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Look for A ... Alpine Goat! Tap two quiet hoof-beats with your fingers.",
+      "text": "Time clue A ... Alpine Goat! Tap two quiet hoof-beats with your fingers.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... Bighorn Sheep! Tap two quiet hoof-beats with your fingers.",
+      "text": "Fast-or-slow B ... Bighorn Sheep! Tap two quiet hoof-beats with your fingers.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Clue C? ... Cabin! Make a little roof with both hands.",
+      "text": "Old or now, C? ... Cabin! Make a little roof with both hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... D ... Deer! Tap two quiet hoof-beats with your fingers.",
+      "text": "Glacier-side D ... Deer! Tap two quiet hoof-beats with your fingers.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Look for E ... Eagle! Lift two gentle wings, then hold still.",
+      "text": "Time clue E ... Eagle! Lift two gentle wings, then hold still.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... Fir! Reach hands up like a narrow evergreen tree.",
+      "text": "Fast-or-slow F ... Fir! Reach hands up like a narrow evergreen tree.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Clue G? ... Goat! Tap two quiet hoof-beats with your fingers.",
+      "text": "Old or now, G? ... Goat! Tap two quiet hoof-beats with your fingers.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... H ... Hawk! Point to the matching picture, then make one small shape gesture.",
+      "text": "Glacier-side H ... Hawk! Point to the matching picture, then make one small shape gesture.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Look for I ... Ibex! Tap two quiet hoof-beats with your fingers.",
+      "text": "Time clue I ... Ibex! Tap two quiet hoof-beats with your fingers.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... Juniper! Reach both hands up like branches.",
+      "text": "Fast-or-slow J ... Juniper! Reach both hands up like branches.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Clue K? ... Kettle Lake! Trace the land or ice shape in the air.",
+      "text": "Old or now, K? ... Kettle Lake! Trace the land or ice shape in the air.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... L ... Lynx! Make two quiet paw-steps.",
+      "text": "Glacier-side L ... Lynx! Make two quiet paw-steps.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Look for M ... Marmot! Make two tiny walking or hopping finger-steps.",
+      "text": "Time clue M ... Marmot! Make two tiny walking or hopping finger-steps.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -359,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... Nutcracker! Lift two gentle wings, then hold still.",
+      "text": "Fast-or-slow N ... Nutcracker! Lift two gentle wings, then hold still.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -367,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Clue O? ... Outcrop! Trace the land or ice shape in the air.",
+      "text": "Old or now, O? ... Outcrop! Trace the land or ice shape in the air.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -375,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... P ... Pika! Make two tiny walking or hopping finger-steps.",
+      "text": "Glacier-side P ... Pika! Make two tiny walking or hopping finger-steps.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -383,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Glacier steps—A-B-C!",
+      "text": "Fast, slow, old, now—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Trails and peaks, walk on with me!",
+      "text": "Mountain time is more than one walking beat.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Look for Q ... Quartz! Trace the land or ice shape in the air.",
+      "text": "Time clue Q ... Quartz! Trace the land or ice shape in the air.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... Rope! Point to the rope and trace one long line in the air.",
+      "text": "Fast-or-slow R ... Rope! Point to the rope and trace one long line in the air.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Clue S? ... Snow! Trace the land or ice shape in the air.",
+      "text": "Old or now, S? ... Snow! Trace the land or ice shape in the air.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... T ... Trail! Trace the land or ice shape in the air.",
+      "text": "Glacier-side T ... Trail! Trace the land or ice shape in the air.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Look for U ... Urial! Tap two quiet hoof-beats with your fingers.",
+      "text": "Time clue U ... Urial! Tap two quiet hoof-beats with your fingers.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... Valley! Dip both hands down between two hills.",
+      "text": "Fast-or-slow V ... Valley! Dip both hands down between two hills.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Clue W? ... Wolf! Make two quiet paw-steps.",
+      "text": "Old or now, W? ... Wolf! Make two quiet paw-steps.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... X ... Xylophone! Tap two fingers in the air like gentle xylophone mallets.",
+      "text": "Glacier-side X ... Xylophone! Tap two fingers in the air like gentle xylophone mallets.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Look for Y ... Yellow Bell! Open both hands like a flower.",
+      "text": "Time clue Y ... Yellow Bell! Open both hands like a flower.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Zigzag Trail! Trace the land or ice shape in the air.",
+      "text": "Fast-or-slow Z ... Zigzag Trail! Trace the land or ice shape in the air.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Glacier steps—A-B-C!",
+      "text": "Fast, slow, old, now—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Trails and peaks, walk on with me!",
+      "text": "Mountain time is more than one walking beat.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Glacier steps—A-B-C!",
+      "text": "Fresh tracks fade; the valley keeps a much older shape.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—glacier step stays with me!",
+      "text": "A to Z leaves us beside ice we only observe from safe ground.",
       "objective": "narration",
       "objectReveal": "none"
     }

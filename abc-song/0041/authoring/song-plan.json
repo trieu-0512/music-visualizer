@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "mountain-echo",
   "hook": [
-    "Mountain echo—A-B-C!",
-    "Highland words come back to me!"
+    "Call, return, fade—A-B-C!",
+    "Rock gives back a sound, then the valley lets it go."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat of quiet before answer",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a trail observer following echoes, slopes, alpine plants and wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 4/4 bounce",
-    "round1Grammar": "Round 1 follows rise-and-fall imagery, rock, trail, trees and wildlife, with natural breath between longer phrases.",
-    "round2Grammar": "Round 2 uses echo-like cue-gap-answer timing and one safe gesture tied to slope, flight, walking, shape or plant movement.",
+    "rhymeEngine": "mountain-echo-distance-answer-rhyme",
+    "chorusRhymeEngine": "call-return-fade-hook",
+    "pointOfView": "a child making one careful call from a safe viewpoint and listening to how distance changes sound",
+    "chorusFunction": "turn call-return-fade into a memory reset without echoing over the target word",
+    "grooveMeter": "measured 4/4 with one-beat echo pockets and long valley tails",
+    "round1Grammar": "hand-written distance-and-sound scenes; silent targets are visual anchors and unsafe cliff/ledge/summit cues remain viewpoint-only",
+    "round2Grammar": "call or sight cue -> recall gap -> target -> safe point/listen gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. small echo responses after targets, with acoustic walking pulse",
     "signatureColor": "small echo responses after targets, with acoustic walking pulse",
+    "authorialIntent": "Use real mountain echo as the memory device: hard rock returns sound, open valleys soften it, and each target either belongs to the landscape or is framed honestly as a helper object.",
+    "lyricIdentity": "A child calls once and listens to what comes back; the song alternates close rock, far ridge, bird flight, water and fading echo rather than shouting every line twice.",
+    "imageMotifs": [
+      "voice returning from cliff",
+      "hawk crossing a ridge",
+      "glacier below dark rock",
+      "waterfall carrying sound",
+      "zigzag trail disappearing uphill"
+    ],
+    "semanticArc": [
+      "first echo locates the cliff",
+      "living and nonliving mountain clues answer differently",
+      "water and altitude widen the sound field",
+      "echo fades into the final switchback"
+    ],
+    "forbiddenGenericLanguage": [
+      "highland words come back to me",
+      "mountain fun",
+      "everything echoes",
+      "come sing with me"
+    ],
     "chorusAfterRound1": [
       2,
       5,

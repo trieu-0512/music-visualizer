@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Hands up for a peak, hands low for a valley.",
+      "text": "Start low where two slopes lean toward the valley.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A letter rides the rise and fall.",
+      "text": "Now trace one line upward until the sky meets rock.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Alpine Goat — that's A. Hooves on ground | steady little steps go round",
+      "text": "A — Alpine Goat! Sure hooves take broken ground | body stays close to the slope while our melody starts to rise.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Spot B: Boulder! A boulder is a very large rounded or broken piece of rock.",
+      "text": "B ... B ... Boulder! One huge rock sits still | a contour marker that does not need to be a summit.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C brings Cliff. Cliff rises high | steep rock face against the sky",
+      "text": "C? Cliff! Steep exposed rock lifts almost straight | a sharper rise than a walkable trail.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D? Douglas Fir! A Douglas fir is a tall evergreen tree with needle-like leaves and hanging cones.",
+      "text": "D is Douglas Fir. Tall evergreen follows the slope line | hanging cones point down while the tree rises up.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Along the mountain trail, here is E with Edelweiss. Petals bright | flower colors catch the light",
+      "text": "E — Edelweiss! Small starry flower of high mountain habitats | a low plant beneath a large sky.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Falcon — that's F. It is a bird with feathers, wings, and a beak; it moves through its habitat by walking, hopping, swimming, or flying.",
+      "text": "F ... F ... Falcon! Strong wings cross from one contour line to another | air ignores the route our feet must follow.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Spot G: Goat! Hooves on ground | steady little steps go round",
+      "text": "G? Goat! Hooves step where footing allows | one living clue on the incline, not a cartoon climber on every cliff.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H brings Hawk. It is a keen-eyed bird of prey with strong wings and grasping feet.",
+      "text": "H is Hawk. Broad circles ride rising air | height comes from flight, not from standing at the crest.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I? Icefall! An icefall is a steep, broken part of a glacier where the ice flows downhill.",
+      "text": "I — Icefall! A steep broken section of glacier flows downhill faster than flatter ice | cracked blue-white contour in motion.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Along the mountain trail, here is J with Jay. It is a bird with feathers, wings, and a beak; it moves through its habitat by walking, hopping, swimming, or flying.",
+      "text": "J ... J ... Jay! Perch, hop, fly | a bird crossing trees and openings along the slope.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kestrel — that's K. Feather light | beak and wings come into sight",
+      "text": "K? Kestrel! Small falcon can hover or perch | one precise sky marker over lower ground.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Spot L: Lynx! A lynx is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "L is Lynx. Furry wild cat moves quietly over land | broad paws and long legs belong to terrain, not vertical rock faces.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Peaks up high—A-B-C!",
+      "text": "Low, rise, crest—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Valleys low—come sing with me!",
+      "text": "Every slope has another way back down.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M brings Marmot. Small and quick | little feet go tick-tick-tick",
+      "text": "M — Marmot! Stocky mountain mammal lives around burrows and rocky places | a low round body beneath high peaks.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N? Nest! A nest is a place birds build to hold eggs and chicks.",
+      "text": "N ... N ... Nest! A protected place for eggs or young | height varies by species, so we do not force one layer.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Along the mountain trail, here is O with Outcrop. It is a place where solid rock is exposed at the ground surface.",
+      "text": "O? Outcrop! Bedrock appears at the surface | a hard edge where the landform shows what it is made of.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Pika — that's P. It is a small round-eared mountain mammal that lives among rocks.",
+      "text": "P is Pika. Small round-eared mammal lives among rocks | quick movement stays close to talus and crevices.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Spot Q: Quail! Quail on the trail | ground bird with a little tail",
+      "text": "Q — Quail! Ground bird steps through lower cover | one valley-side contrast to falcon and hawk.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R brings Rope. It is a strong flexible length of twisted or braided fibers; children only identify climbing rope safely.",
+      "text": "R ... R ... Rope! Strong flexible climbing equipment | children identify it as adult-guided gear, never a cue to climb.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S? Summit! A summit is the highest point of a hill or mountain.",
+      "text": "S? Summit! Highest point closes the upward contour | our voice reaches the crest before the route turns down.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Along the mountain trail, here is T with Trail. It is a path people follow through outdoor places.",
+      "text": "T is Trail. A path bends with terrain | good routes avoid pretending the shortest line is always safest.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Upland Meadow — that's U. Sway and grow | plant finds light from down below",
+      "text": "U — Upland Meadow! Open grassy or flower-rich ground at elevation | a broad pause after steep rock.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Spot V: Valley! A valley is low land between hills or mountains, often with water running through.",
+      "text": "V ... V ... Valley! Low land between higher slopes | the place our contour has been measuring against all along.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W brings Waterfall. Water falls tall | rushing sheet by rocky wall",
+      "text": "W? Waterfall! Water takes the steepest visible direction—down | one clear descending phrase.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X? Xeric Shrub! A xeric shrub is a woody plant adapted to dry conditions.",
+      "text": "X is Xeric Shrub. Woody plant adapted to dry conditions | a low rooted shape on the drier side of our contour.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Peaks up high—A-B-C!",
+      "text": "Low, rise, crest—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Valleys low—come sing with me!",
+      "text": "Every slope has another way back down.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Along the mountain trail, here is Y with Yellow Bell. Bloom in view | petals open fresh with dew",
+      "text": "Y — Yellow Bell! Bell-shaped yellow bloom in the alphabet set | a small color mark, not proof of a specific alpine range.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zigzag Trail — that's Z. It bends back and forth to climb a slope more gently.",
+      "text": "Z ... Z ... Zigzag Trail! Switchbacks spread one steep climb across many gentler turns | contour becomes route design.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Spot A ... Alpine Goat! Tap two quiet hoof-beats with your fingers.",
+      "text": "Contour clue A ... Alpine Goat! Tap two quiet hoof-beats with your fingers.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Remember B ... Boulder! Trace the land or ice shape in the air.",
+      "text": "Low-mid-high B ... Boulder! Trace the land or ice shape in the air.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C? ... Cliff! Trace its shape in the air from a safe viewing spot.",
+      "text": "Where on the slope, C? ... Cliff! Trace its shape in the air from a safe viewing spot.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Find D ... Douglas Fir! Reach both hands up like branches.",
+      "text": "Rise or return D ... Douglas Fir! Reach both hands up like branches.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Spot E ... Edelweiss! Open both hands like a flower.",
+      "text": "Contour clue E ... Edelweiss! Open both hands like a flower.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Falcon! Lift two gentle wings, then hold still.",
+      "text": "Low-mid-high F ... Falcon! Lift two gentle wings, then hold still.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G? ... Goat! Tap two quiet hoof-beats with your fingers.",
+      "text": "Where on the slope, G? ... Goat! Tap two quiet hoof-beats with your fingers.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Find H ... Hawk! Point to the matching picture, then make one small shape gesture.",
+      "text": "Rise or return H ... Hawk! Point to the matching picture, then make one small shape gesture.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Spot I ... Icefall! Trace its shape in the air from a safe viewing spot.",
+      "text": "Contour clue I ... Icefall! Trace its shape in the air from a safe viewing spot.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Remember J ... Jay! Lift two gentle wings, then hold still.",
+      "text": "Low-mid-high J ... Jay! Lift two gentle wings, then hold still.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K? ... Kestrel! Lift two gentle wings, then hold still.",
+      "text": "Where on the slope, K? ... Kestrel! Lift two gentle wings, then hold still.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Find L ... Lynx! Make two quiet paw-steps.",
+      "text": "Rise or return L ... Lynx! Make two quiet paw-steps.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Spot M ... Marmot! Make two tiny walking or hopping finger-steps.",
+      "text": "Contour clue M ... Marmot! Make two tiny walking or hopping finger-steps.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -359,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Remember N ... Nest! Cup both hands like a nest.",
+      "text": "Low-mid-high N ... Nest! Cup both hands like a nest.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -367,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O? ... Outcrop! Trace the land or ice shape in the air.",
+      "text": "Where on the slope, O? ... Outcrop! Trace the land or ice shape in the air.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -375,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Find P ... Pika! Make two tiny walking or hopping finger-steps.",
+      "text": "Rise or return P ... Pika! Make two tiny walking or hopping finger-steps.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -383,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Peaks up high—A-B-C!",
+      "text": "Low, rise, crest—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Valleys low—come sing with me!",
+      "text": "Every slope has another way back down.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Spot Q ... Quail! Make tiny pecking finger taps.",
+      "text": "Contour clue Q ... Quail! Make tiny pecking finger taps.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Remember R ... Rope! Point to the rope and trace one long line in the air.",
+      "text": "Low-mid-high R ... Rope! Point to the rope and trace one long line in the air.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S? ... Summit! Trace its shape in the air from a safe viewing spot.",
+      "text": "Where on the slope, S? ... Summit! Trace its shape in the air from a safe viewing spot.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Find T ... Trail! Trace the land or ice shape in the air.",
+      "text": "Rise or return T ... Trail! Trace the land or ice shape in the air.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Spot U ... Upland Meadow! Grow one hand upward, then sway.",
+      "text": "Contour clue U ... Upland Meadow! Grow one hand upward, then sway.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Remember V ... Valley! Dip both hands down between two hills.",
+      "text": "Low-mid-high V ... Valley! Dip both hands down between two hills.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W? ... Waterfall! Let both hands tumble gently downward.",
+      "text": "Where on the slope, W? ... Waterfall! Let both hands tumble gently downward.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X ... Xeric Shrub! Grow one hand upward, then sway.",
+      "text": "Rise or return X ... Xeric Shrub! Grow one hand upward, then sway.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Spot Y ... Yellow Bell! Open both hands like a flower.",
+      "text": "Contour clue Y ... Yellow Bell! Open both hands like a flower.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Remember Z ... Zigzag Trail! Trace the land or ice shape in the air.",
+      "text": "Low-mid-high Z ... Zigzag Trail! Trace the land or ice shape in the air.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Peaks up high—A-B-C!",
+      "text": "Low, rise, crest—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Valleys low—come sing with me!",
+      "text": "Every slope has another way back down.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Peaks up high—A-B-C!",
+      "text": "Water falls while the trail folds gently across the slope.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—peak valley stays with me!",
+      "text": "A to Z returns to the valley floor.",
       "objective": "narration",
       "objectReveal": "none"
     }

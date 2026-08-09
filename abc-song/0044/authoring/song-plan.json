@@ -6,8 +6,8 @@
   "tempoBpm": 92,
   "motifFamily": "mountain-trail",
   "hook": [
-    "Trail scout—A-B-C!",
-    "Find the mountain clues with me!"
+    "Notice, mark, leave—A-B-C!",
+    "Good scouts learn the clue and leave the mountain free."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one clear beat before confirmation",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a trail observer following echoes, slopes, alpine plants and wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "walking 4/4 folk",
-    "round1Grammar": "Round 1 follows rise-and-fall imagery, rock, trail, trees and wildlife, with natural breath between longer phrases.",
-    "round2Grammar": "Round 2 uses echo-like cue-gap-answer timing and one safe gesture tied to slope, flight, walking, shape or plant movement.",
+    "rhymeEngine": "mountain-fieldnote-evidence-rhyme",
+    "chorusRhymeEngine": "notice-mark-leave-hook",
+    "pointOfView": "a supervised child scout documenting mountain clues without collecting natural objects or approaching wildlife",
+    "chorusFunction": "repeat notice-mark-leave as the ethical memory rule",
+    "grooveMeter": "steady 4/4 hiking pulse with field-note pauses",
+    "round1Grammar": "hand-written field evidence; gear gets use context, hazards get turn-back language, wildlife stays distant",
+    "round2Grammar": "field-note cue -> recall beat -> target -> sketch/point gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. small echo responses after targets, with acoustic walking pulse",
     "signatureColor": "small echo responses after targets, with acoustic walking pulse",
+    "authorialIntent": "Turn Mountain Trail Scout into evidence-based route reading: trail surface, landmark, weather residue, safe equipment and distant wildlife become field notes, while the song repeatedly rewards leaving things where they are.",
+    "lyricIdentity": "A child scout records rather than collects; recurring verbs are notice, sketch, mark, compare, leave, check and turn back.",
+    "imageMotifs": [
+      "boot tread beside trail marker",
+      "quartz left in place",
+      "snow patch in shade",
+      "ridge used as orientation",
+      "waterfall heard before seen"
+    ],
+    "semanticArc": [
+      "begin with route evidence",
+      "add geology and wildlife clues",
+      "check gear and changing conditions",
+      "finish by leaving every natural clue undisturbed"
+    ],
+    "forbiddenGenericLanguage": [
+      "find the mountain clues with me",
+      "trail scout fun",
+      "collect the clues",
+      "explorer eyes"
+    ],
     "chorusAfterRound1": [
       2,
       6

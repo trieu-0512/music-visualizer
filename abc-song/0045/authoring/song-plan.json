@@ -6,8 +6,8 @@
   "tempoBpm": 85,
   "motifFamily": "glacier-step",
   "hook": [
-    "Glacier steps—A-B-C!",
-    "Trails and peaks, walk on with me!"
+    "Fast, slow, old, now—A-B-C!",
+    "Mountain time is more than one walking beat."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two-beat calm retrieval space",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a trail observer following echoes, slopes, alpine plants and wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 3/4 or swung sway",
-    "round1Grammar": "Round 1 follows rise-and-fall imagery, rock, trail, trees and wildlife, with natural breath between longer phrases.",
-    "round2Grammar": "Round 2 uses echo-like cue-gap-answer timing and one safe gesture tied to slope, flight, walking, shape or plant movement.",
+    "rhymeEngine": "glacier-timescale-contrast-rhyme",
+    "chorusRhymeEngine": "fast-slow-old-now-hook",
+    "pointOfView": "a child comparing timescales beside a glacier without stepping onto dangerous ice",
+    "chorusFunction": "restate fast-slow-old-now as the learning framework",
+    "grooveMeter": "measured 4/4 with fast pickups against long sustained ice phrases",
+    "round1Grammar": "hand-written timescale contrast; glacier and landform facts are distinct from animal motion and human gear",
+    "round2Grammar": "fast/slow/old/now cue -> recall beat -> target -> safe timing gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. small echo responses after targets, with acoustic walking pulse",
     "signatureColor": "small echo responses after targets, with acoustic walking pulse",
+    "authorialIntent": "Use glacier time as the song's signature: animal steps happen in seconds, snow changes by season, valleys and kettle lakes preserve old ice stories, and glacier flow happens far more slowly than a walking beat.",
+    "lyricIdentity": "A child compares fast, slow, seasonal and geological change along one glacier-adjacent trail.",
+    "imageMotifs": [
+      "fresh hoofprint beside old moraine-like rock",
+      "ice moving too slowly to see",
+      "kettle lake holding glacial history",
+      "snow patch melting",
+      "zigzag trail crossing valley wall"
+    ],
+    "semanticArc": [
+      "begin with fast living steps",
+      "slow down toward ice processes",
+      "read old glacier-shaped landforms",
+      "return to present trail and seasonal snow"
+    ],
+    "forbiddenGenericLanguage": [
+      "glacier steps",
+      "walk on with me",
+      "sparkle ice",
+      "everything moves slowly"
+    ],
     "chorusAfterRound1": [
       3,
       5

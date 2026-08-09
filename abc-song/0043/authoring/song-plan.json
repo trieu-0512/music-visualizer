@@ -6,8 +6,8 @@
   "tempoBpm": 86,
   "motifFamily": "alpine-bloom",
   "hook": [
-    "Alpine meadow—A-B-C!",
-    "Mountain nature blooms with me!"
+    "Near, far, small, wide—A-B-C!",
+    "Meadow detail, mountain distance—hold them both in view."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two short beats before target",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a trail observer following echoes, slopes, alpine plants and wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "stop-go 4/4 pulse",
-    "round1Grammar": "Round 1 follows rise-and-fall imagery, rock, trail, trees and wildlife, with natural breath between longer phrases.",
-    "round2Grammar": "Round 2 uses echo-like cue-gap-answer timing and one safe gesture tied to slope, flight, walking, shape or plant movement.",
+    "rhymeEngine": "alpine-meadow-scale-shift-rhyme",
+    "chorusRhymeEngine": "small-wide-near-far-hook",
+    "pointOfView": "a child shifting focus from close meadow details to huge alpine background",
+    "chorusFunction": "reset near-small versus far-wide visual scale",
+    "grooveMeter": "airy 6/8 with close-detail pizzicato and wide held phrases",
+    "round1Grammar": "hand-written scale shifts; human gear and garden-mapping helpers are framed honestly",
+    "round2Grammar": "near/far cue -> recall beat -> target -> point/shape gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. small echo responses after targets, with acoustic walking pulse",
     "signatureColor": "small echo responses after targets, with acoustic walking pulse",
+    "authorialIntent": "Make the alpine meadow song about small life inside a huge landscape: grass, flowers, seed-carrying birds, rocks, shelter and weather scale are contrasted without calling every mapping target meadow flora.",
+    "lyricIdentity": "A child kneels visually into meadow scale, then looks back to glacier and mountain scale; the writing alternates tiny details and vast background.",
+    "imageMotifs": [
+      "grass bent by wind",
+      "nutcracker carrying seed",
+      "quartz in thin soil",
+      "glacier beyond flowers",
+      "tent at meadow edge"
+    ],
+    "semanticArc": [
+      "start with tiny meadow movement",
+      "notice birds, plants and ground textures",
+      "pull focus outward to ice and mountain",
+      "return to a careful camp-edge view"
+    ],
+    "forbiddenGenericLanguage": [
+      "mountain nature blooms with me",
+      "everything blooms",
+      "meadow friends",
+      "pretty flowers everywhere"
+    ],
     "chorusAfterRound1": [
       2,
       5

@@ -6,8 +6,8 @@
   "tempoBpm": 84,
   "motifFamily": "peak-valley",
   "hook": [
-    "Peaks up high—A-B-C!",
-    "Valleys low—come sing with me!"
+    "Low, rise, crest—A-B-C!",
+    "Every slope has another way back down."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two supportive beats for retrieval",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a trail observer following echoes, slopes, alpine plants and wildlife",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 follows rise-and-fall imagery, rock, trail, trees and wildlife, with natural breath between longer phrases.",
-    "round2Grammar": "Round 2 uses echo-like cue-gap-answer timing and one safe gesture tied to slope, flight, walking, shape or plant movement.",
+    "rhymeEngine": "peak-valley-contour-chain",
+    "chorusRhymeEngine": "low-rise-crest-return-hook",
+    "pointOfView": "a child tracing terrain shape with eyes and hands from valley to crest and down again",
+    "chorusFunction": "re-establish low-rise-crest-return as the route memory",
+    "grooveMeter": "6/8 contour sway with rising and descending melodic arcs",
+    "round1Grammar": "hand-written contour placement; living targets use habitat contrast and tools remain human-use context",
+    "round2Grammar": "contour cue -> recall beat -> target -> low/mid/high or shape gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. small echo responses after targets, with acoustic walking pulse",
     "signatureColor": "small echo responses after targets, with acoustic walking pulse",
+    "authorialIntent": "Make peaks and valleys a true contour song: every phrase rises, falls, crosses, or rests according to landform, while animals and plants occupy honest positions instead of all being 'high mountain' objects.",
+    "lyricIdentity": "A child reads a side-profile of terrain from valley floor to slope to crest and back down; vertical contour is the recurring compositional logic.",
+    "imageMotifs": [
+      "valley floor under a cliff",
+      "goat on broken slope",
+      "icefall dropping through glacier",
+      "waterfall descending",
+      "switchback easing a steep grade"
+    ],
+    "semanticArc": [
+      "begin low in valley",
+      "climb through slope animals and rock",
+      "reach summit and open meadow",
+      "descend by waterfall and zigzag trail"
+    ],
+    "forbiddenGenericLanguage": [
+      "valleys low come sing with me",
+      "peaks up high",
+      "up and down all day",
+      "mountain words"
+    ],
     "chorusAfterRound1": [
       3,
       6

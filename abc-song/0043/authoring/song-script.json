@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Soft wind bends the alpine grass.",
+      "text": "One blade of grass bends while a glacier fills the far horizon.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A flower nods as a letter passes.",
+      "text": "The alpine meadow is small detail inside a very large place.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A ... A ... Aspen! Roots down low | branches reach and grow",
+      "text": "A — Aspen! Leaves flutter above the meadow edge | one tree-scale frame around smaller grass.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Boulder — remember B. A boulder is a very large rounded or broken piece of rock.",
+      "text": "B ... B ... Boulder! Large rock sits among much smaller stems | scale changes before the alphabet does.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Along the mountain trail, C finds Cabin. It is a small simple shelter or house, often built in a rural or mountain setting.",
+      "text": "C? Cabin! Human shelter belongs near the landscape | it is context, not alpine wildlife or meadow growth.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D — Deer. A deer has sturdy legs and hooves and moves around on land.",
+      "text": "D is Deer. Hooves carry a large herbivore over land | one moving body beyond our close flower view.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Which clue starts with E? Eagle! Feather light | beak and wings come into sight",
+      "text": "E — Eagle! Broad wings cross the far sky | tiny from here, large in reality.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F ... F ... Fir! It is an evergreen tree with soft-looking needles and upright cones on its branches.",
+      "text": "F ... F ... Fir! Evergreen needles hold on branches | taller plant structure beyond low meadow leaves.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Glacier — remember G. Ice moves slow | glacier creeping down below",
+      "text": "G? Glacier! Thick moving ice fills a distant valley | huge background to fragile foreground plants.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Along the mountain trail, H finds Hiking Boot. It has a sturdy sole and supports feet on rough trails.",
+      "text": "H is Hiking Boot. Sturdy human footwear protects feet on rough trails | keep boots on the route, not on meadow flowers.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Alpine meadow—A-B-C!",
+      "text": "Near, far, small, wide—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Mountain nature blooms with me!",
+      "text": "Meadow detail, mountain distance—hold them both in view.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I — Icefall. An icefall is a steep, broken part of a glacier where the ice flows downhill.",
+      "text": "I — Icefall! Broken steep glacier ice flows downhill | jagged far texture behind soft grass.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Which clue starts with J? Jay! It is a bird with feathers, wings, and a beak; it moves through its habitat by walking, hopping, swimming, or flying.",
+      "text": "J ... J ... Jay! Feathered bird hops, perches, then flies | quick motion between near and far.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K ... K ... Kettle Lake! It is a bowl-shaped lake formed where a block of old glacier ice left a hollow.",
+      "text": "K? Kettle Lake! A basin linked to old buried glacier ice can hold water | an ice-age shape now reflecting the sky.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Lynx — remember L. A lynx is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "L is Lynx. Quiet wild cat moves over land | a distant wildlife clue that we never follow through the meadow.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Along the mountain trail, M finds Mountain. Mountain high | rocky slopes climb toward the sky",
+      "text": "M — Mountain! Massive slopes hold the whole scene | widest scale in the song.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N — Nutcracker. A nutcracker is a mountain bird with a strong bill that opens and carries seeds.",
+      "text": "N ... N ... Nutcracker! Mountain bird uses a strong bill to handle and cache seeds | small actions can shape future plant growth.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Which clue starts with O? Outcrop! It is a place where solid rock is exposed at the ground surface.",
+      "text": "O? Outcrop! Solid rock exposed at ground surface | hard texture emerging through thin soil.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P ... P ... Pine! It is an evergreen tree with bundles of needles and woody cones.",
+      "text": "P is Pine. Needles and woody cones | tree-scale green beyond the meadow layer.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Quartz — remember Q. Quartz is a hard mineral that can sparkle with a glassy surface.",
+      "text": "Q — Quartz! Hard mineral can flash glassy light | tiny bright detail inside a boulder-sized world.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Along the mountain trail, R finds Rope. It is a strong flexible length of twisted or braided fibers; children only identify climbing rope safely.",
+      "text": "R ... R ... Rope! Strong flexible equipment used by people | identify it safely; the song never invites climbing practice.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S — Summit. A summit is the highest point of a hill or mountain.",
+      "text": "S? Summit! Highest point on the mountain | far above our low meadow viewpoint.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Which clue starts with T? Tent! It is a portable fabric shelter held up by poles and secured to the ground.",
+      "text": "T is Tent. Portable fabric shelter for people | set on suitable ground, not on fragile plants.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Alpine meadow—A-B-C!",
+      "text": "Near, far, small, wide—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Mountain nature blooms with me!",
+      "text": "Meadow detail, mountain distance—hold them both in view.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U ... U ... Upland Meadow! Sway and grow | plant finds light from down below",
+      "text": "U — Upland Meadow! Open grassy or flower-rich area at elevation | the central habitat frame of the song.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Valley — remember V. A valley is low land between hills or mountains, often with water running through.",
+      "text": "V ... V ... Valley! Low land between higher slopes | broad distance cue beyond close grass.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Along the mountain trail, W finds Wolf. It is a furry mammal that walks quietly and uses keen senses to explore its habitat.",
+      "text": "W? Wolf! Wild canid travels over land | observe from distance and never turn a meadow walk into tracking wildlife.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X — Xeric Shrub. A xeric shrub is a woody plant adapted to dry conditions.",
+      "text": "X is Xeric Shrub. Woody dry-adapted plant | a different plant strategy than lush meadow grass.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Which clue starts with Y? Yak! Hooves on ground | steady little steps go round",
+      "text": "Y — Yak! Large long-haired bovine of high Asian regions | one high-country animal, not a universal alpine species.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z ... Z ... Zinnia! It is a bright garden flower with layered petals around its center.",
+      "text": "Z ... Z ... Zinnia! Bright garden flower in our alphabet mapping | close color helper, explicitly not evidence that zinnias belong naturally in every alpine meadow.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Call A ... Aspen! Reach both hands up like branches.",
+      "text": "Near clue A ... Aspen! Reach both hands up like branches.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... B ... Boulder! Trace the land or ice shape in the air.",
+      "text": "Far-view B ... Boulder! Trace the land or ice shape in the air.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Ready for C? ... Cabin! Make a little roof with both hands.",
+      "text": "Small or wide, C? ... Cabin! Make a little roof with both hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Show D ... Deer! Tap two quiet hoof-beats with your fingers.",
+      "text": "Meadow frame D ... Deer! Tap two quiet hoof-beats with your fingers.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Call E ... Eagle! Lift two gentle wings, then hold still.",
+      "text": "Near clue E ... Eagle! Lift two gentle wings, then hold still.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... F ... Fir! Reach hands up like a narrow evergreen tree.",
+      "text": "Far-view F ... Fir! Reach hands up like a narrow evergreen tree.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Ready for G? ... Glacier! Trace the land or ice shape in the air.",
+      "text": "Small or wide, G? ... Glacier! Trace the land or ice shape in the air.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Show H ... Hiking Boot! Point to the matching picture, then make one small shape gesture.",
+      "text": "Meadow frame H ... Hiking Boot! Point to the matching picture, then make one small shape gesture.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Call I ... Icefall! Trace its shape in the air from a safe viewing spot.",
+      "text": "Near clue I ... Icefall! Trace its shape in the air from a safe viewing spot.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... J ... Jay! Lift two gentle wings, then hold still.",
+      "text": "Far-view J ... Jay! Lift two gentle wings, then hold still.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Ready for K? ... Kettle Lake! Trace the land or ice shape in the air.",
+      "text": "Small or wide, K? ... Kettle Lake! Trace the land or ice shape in the air.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Show L ... Lynx! Make two quiet paw-steps.",
+      "text": "Meadow frame L ... Lynx! Make two quiet paw-steps.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,21 +351,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Alpine meadow—A-B-C!",
+      "text": "Near, far, small, wide—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Mountain nature blooms with me!",
+      "text": "Meadow detail, mountain distance—hold them both in view.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Call M ... Mountain! Trace the land or ice shape in the air.",
+      "text": "Near clue M ... Mountain! Trace the land or ice shape in the air.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -373,7 +373,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... N ... Nutcracker! Lift two gentle wings, then hold still.",
+      "text": "Far-view N ... Nutcracker! Lift two gentle wings, then hold still.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -381,7 +381,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Ready for O? ... Outcrop! Trace the land or ice shape in the air.",
+      "text": "Small or wide, O? ... Outcrop! Trace the land or ice shape in the air.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -389,7 +389,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Show P ... Pine! Reach both hands up like branches.",
+      "text": "Meadow frame P ... Pine! Reach both hands up like branches.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -397,7 +397,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Call Q ... Quartz! Trace the land or ice shape in the air.",
+      "text": "Near clue Q ... Quartz! Trace the land or ice shape in the air.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... R ... Rope! Point to the rope and trace one long line in the air.",
+      "text": "Far-view R ... Rope! Point to the rope and trace one long line in the air.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Ready for S? ... Summit! Trace its shape in the air from a safe viewing spot.",
+      "text": "Small or wide, S? ... Summit! Trace its shape in the air from a safe viewing spot.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Show T ... Tent! Touch fingertips into a tent shape.",
+      "text": "Meadow frame T ... Tent! Touch fingertips into a tent shape.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Call U ... Upland Meadow! Grow one hand upward, then sway.",
+      "text": "Near clue U ... Upland Meadow! Grow one hand upward, then sway.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... V ... Valley! Dip both hands down between two hills.",
+      "text": "Far-view V ... Valley! Dip both hands down between two hills.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Ready for W? ... Wolf! Make two quiet paw-steps.",
+      "text": "Small or wide, W? ... Wolf! Make two quiet paw-steps.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Show X ... Xeric Shrub! Grow one hand upward, then sway.",
+      "text": "Meadow frame X ... Xeric Shrub! Grow one hand upward, then sway.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,21 +461,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Alpine meadow—A-B-C!",
+      "text": "Near, far, small, wide—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Mountain nature blooms with me!",
+      "text": "Meadow detail, mountain distance—hold them both in view.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Call Y ... Yak! Tap two quiet hoof-beats with your fingers.",
+      "text": "Near clue Y ... Yak! Tap two quiet hoof-beats with your fingers.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -483,7 +483,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Z ... Zinnia! Open both hands like a flower.",
+      "text": "Far-view Z ... Zinnia! Open both hands like a flower.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -491,14 +491,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Alpine meadow—A-B-C!",
+      "text": "Tent zipped, boots still, meadow left untouched.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—alpine bloom stays with me!",
+      "text": "A to Z closes on one flower-size detail beneath a mountain-size sky.",
       "objective": "narration",
       "objectReveal": "none"
     }
