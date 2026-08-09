@@ -6,8 +6,8 @@
   "tempoBpm": 92,
   "motifFamily": "market-basket",
   "hook": [
-    "Letter calls, color replies!",
-    "Name the produce with your eyes!"
+    "Look, support, separate—A-B-C!",
+    "Soft, leafy, firm, or spiny: handle the picture by its clues."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat of quiet before target",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "curious garden-and-market explorer",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "stop-and-go 4/4",
-    "round1Grammar": "Round 1 uses shape, skin, leaf, root, color or market/garden clues without diet lectures or repetitive 'healthy food' claims.",
-    "round2Grammar": "Round 2 uses object-conditioned recall: roots and tubers trace underground shapes; leafy produce fans leaf fingers; citrus opens segments; grapes cluster; melons show rind and roundness; peppers/pods show hollow or ridged shapes; stone fruits show a pit; berries show surface seeds or clustered drupelets; onions show layers; long squash/beans/pods trace length. Avoid repeating the same basket gesture for every target.",
+    "rhymeEngine": "market-structure-handling-rhyme",
+    "chorusRhymeEngine": "look-support-separate-hook",
+    "pointOfView": "a child identifying and handling market produce gently",
+    "chorusFunction": "repeat look-support-separate",
+    "grooveMeter": "steady 4/4 market-sort pulse",
+    "round1Grammar": "structure/handling; no tasting or squeezing commands",
+    "round2Grammar": "handling cue -> recall beat -> target -> card-sort gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a marimba question-note and glockenspiel color-answer after the target.",
     "signatureColor": "a marimba question-note and glockenspiel color-answer after the target",
+    "authorialIntent": "Make Market Basket ABC a handling-and-identification song: fragile, leafy, hard-root, stone-fruit, large-fruit and cactus produce require different storage/handling, without turning children into food-safety technicians.",
+    "lyricIdentity": "A child sorts market produce by visible structure and gentle handling needs, with sharp/spiny items left to adults.",
+    "imageMotifs": [
+      "soft raspberry punnet",
+      "leek bunch",
+      "quince firm fruit",
+      "horseradish root",
+      "xoconostle cactus fruit"
+    ],
+    "semanticArc": [
+      "soft fruits",
+      "firm roots/leaves",
+      "large/rough fruits",
+      "cactus/spice exceptions"
+    ],
+    "forbiddenGenericLanguage": [
+      "basket answers color",
+      "squeeze every fruit",
+      "market fun",
+      "touch to test"
+    ],
     "chorusAfterRound1": [
       2,
       5

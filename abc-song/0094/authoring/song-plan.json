@@ -6,8 +6,8 @@
   "tempoBpm": 87,
   "motifFamily": "fresh-food",
   "hook": [
-    "Round or leafy, long or small!",
-    "A to Z—we name them all!"
+    "Variety, color, texture—A-B-C!",
+    "Different foods can belong in different meals."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two calm beats before confirmation",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "curious garden-and-market explorer",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "light swung 4/4",
-    "round1Grammar": "Round 1 uses shape, skin, leaf, root, color or market/garden clues without diet lectures or repetitive 'healthy food' claims.",
-    "round2Grammar": "Round 2 uses object-conditioned recall: roots and tubers trace underground shapes; leafy produce fans leaf fingers; citrus opens segments; grapes cluster; melons show rind and roundness; peppers/pods show hollow or ridged shapes; stone fruits show a pit; berries show surface seeds or clustered drupelets; onions show layers; long squash/beans/pods trace length. Avoid repeating the same basket gesture for every target.",
+    "rhymeEngine": "produce-variety-neutral-rhyme",
+    "chorusRhymeEngine": "variety-color-texture-hook",
+    "pointOfView": "a child observing dietary variety without moral labels",
+    "chorusFunction": "repeat variety-color-texture",
+    "grooveMeter": "calm bright 4/4",
+    "round1Grammar": "neutral produce fact, no medical claims",
+    "round2Grammar": "variety cue -> recall beat -> target -> color/shape card gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a warm guitar pluck plus small market-bell confirmation.",
     "signatureColor": "a warm guitar pluck plus small market-bell confirmation",
+    "authorialIntent": "Repair Healthy Produce into a nutrition-neutral variety song: fresh produce offers different plant compounds, fiber, water, vitamins/minerals, but no single item is labeled morally healthy/unhealthy and no medical claims are made.",
+    "lyricIdentity": "A child notices variety, plant families, texture and color while avoiding nutrient scorekeeping.",
+    "imageMotifs": [
+      "leafy kale",
+      "citrus lemon",
+      "watermelon water-rich flesh",
+      "radish root",
+      "xoconostle sour cactus fruit"
+    ],
+    "semanticArc": [
+      "variety of plant families",
+      "leaf/root/fruit diversity",
+      "water/fiber/texture",
+      "name/cultivar recap"
+    ],
+    "forbiddenGenericLanguage": [
+      "healthy food good food",
+      "superfood",
+      "eat this to prevent",
+      "best vegetable"
+    ],
     "chorusAfterRound1": [
       3,
       6

@@ -6,8 +6,8 @@
   "tempoBpm": 94,
   "motifFamily": "produce-parade",
   "hook": [
-    "Seed to basket, page by page!",
-    "Produce words step on the stage!"
+    "Grow, flower, harvest—A-B-C!",
+    "Some plants return; some crops start again from seed."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one parade beat before answer",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "curious garden-and-market explorer",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "story-song 3/4-to-4/4 feel",
-    "round1Grammar": "Round 1 uses shape, skin, leaf, root, color or market/garden clues without diet lectures or repetitive 'healthy food' claims.",
-    "round2Grammar": "Round 2 uses object-conditioned recall: roots and tubers trace underground shapes; leafy produce fans leaf fingers; citrus opens segments; grapes cluster; melons show rind and roundness; peppers/pods show hollow or ridged shapes; stone fruits show a pit; berries show surface seeds or clustered drupelets; onions show layers; long squash/beans/pods trace length. Avoid repeating the same basket gesture for every target.",
+    "rhymeEngine": "produce-lifecycle-page-rhyme",
+    "chorusRhymeEngine": "grow-flower-harvest-hook",
+    "pointOfView": "a child following crop life cycles",
+    "chorusFunction": "repeat grow-flower-harvest-return",
+    "grooveMeter": "storylike 6/8 page-turn sway",
+    "round1Grammar": "growth/lifecycle fact with annual/perennial nuance",
+    "round2Grammar": "lifecycle cue -> recall beat -> target -> page/plant gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a page-turn shaker sweep followed by one bright marimba harvest note.",
     "signatureColor": "a page-turn shaker sweep followed by one bright marimba harvest note",
+    "authorialIntent": "Make Colorful Produce Parade a seed-to-harvest lifecycle book: flower, fruit, leaf, root/tuber and human harvest stages connect, with perennial vines/trees distinguished from annual crops.",
+    "lyricIdentity": "A child turns pages through growth stages rather than marching produce by color.",
+    "imageMotifs": [
+      "apple flower to fruit",
+      "beet root enlarging",
+      "grape vine cluster",
+      "pumpkin vine",
+      "vanilla orchid pod"
+    ],
+    "semanticArc": [
+      "flower/seed start",
+      "vegetative growth",
+      "fruit/root/tuber development",
+      "harvest and perennial return"
+    ],
+    "forbiddenGenericLanguage": [
+      "parade stage",
+      "seed means every crop starts same",
+      "harvest all at once",
+      "colorful foods march"
+    ],
     "chorusAfterRound1": [
       2,
       5,

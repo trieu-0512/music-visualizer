@@ -6,8 +6,8 @@
   "tempoBpm": 95,
   "motifFamily": "produce-rainbow",
   "hook": [
-    "Color and shape—A-B-C!",
-    "Produce rainbow, sing with me!"
+    "Root, leaf, fruit—A-B-C!",
+    "Color is one clue; plant part is another."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat before answer",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "curious garden-and-market explorer",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "elastic 4/4 bounce",
-    "round1Grammar": "Round 1 uses shape, skin, leaf, root, color or market/garden clues without diet lectures or repetitive 'healthy food' claims.",
-    "round2Grammar": "Round 2 uses object-conditioned recall: roots and tubers trace underground shapes; leafy produce fans leaf fingers; citrus opens segments; grapes cluster; melons show rind and roundness; peppers/pods show hollow or ridged shapes; stone fruits show a pit; berries show surface seeds or clustered drupelets; onions show layers; long squash/beans/pods trace length. Avoid repeating the same basket gesture for every target.",
+    "rhymeEngine": "produce-plantpart-color-rhyme",
+    "chorusRhymeEngine": "root-leaf-fruit-hook",
+    "pointOfView": "a child classifying edible plant parts",
+    "chorusFunction": "repeat root-leaf-fruit-tuber",
+    "grooveMeter": "bright 4/4 sorting pulse",
+    "round1Grammar": "plant part plus visual clue; nutrition-neutral",
+    "round2Grammar": "plant-part cue -> recall beat -> target -> card-sort gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a bright marimba color-pluck and one ukulele basket-step after the target.",
     "signatureColor": "a bright marimba color-pluck and one ukulele basket-step after the target",
+    "authorialIntent": "Make Fruit Veggie Rainbow a plant-part and color study: root, leaf, stem, flower-derived fruit, tuber and cactus fruit are separated, while color is observed without treating it as nutrition ranking.",
+    "lyricIdentity": "A child sorts produce by the plant part we eat, then notices color as a second clue.",
+    "imageMotifs": [
+      "beet root",
+      "kale leaf",
+      "tomato fruit",
+      "ulluco tuber",
+      "xoconostle-like cactus fruit contrast through xigua mapping"
+    ],
+    "semanticArc": [
+      "roots/tubers",
+      "leaves/stems",
+      "botanical fruits",
+      "color/name exceptions"
+    ],
+    "forbiddenGenericLanguage": [
+      "rainbow means healthiest",
+      "basket woke bright",
+      "eat the rainbow command",
+      "all vegetables are roots"
+    ],
     "chorusAfterRound1": [
       3,
       5

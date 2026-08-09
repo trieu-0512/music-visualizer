@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "garden-food",
   "hook": [
-    "Garden to basket, one-two-three!",
-    "Name the produce A to Z!"
+    "Tree, vine, ground—A-B-C!",
+    "Where it grows can be as memorable as how it looks."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two small beats for retrieval",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "curious garden-and-market explorer",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 uses shape, skin, leaf, root, color or market/garden clues without diet lectures or repetitive 'healthy food' claims.",
-    "round2Grammar": "Round 2 uses object-conditioned recall: roots and tubers trace underground shapes; leafy produce fans leaf fingers; citrus opens segments; grapes cluster; melons show rind and roundness; peppers/pods show hollow or ridged shapes; stone fruits show a pit; berries show surface seeds or clustered drupelets; onions show layers; long squash/beans/pods trace length. Avoid repeating the same basket gesture for every target.",
+    "rhymeEngine": "crop-origin-growthform-rhyme",
+    "chorusRhymeEngine": "tree-vine-ground-hook",
+    "pointOfView": "a child tracing growth form and origin",
+    "chorusFunction": "repeat tree-vine-ground-cactus",
+    "grooveMeter": "walking 6/8 growth-form sway",
+    "round1Grammar": "growth form plus region/name caveat",
+    "round2Grammar": "growth cue -> recall beat -> target -> point card",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a soft acoustic garden-pluck followed by a woodblock harvest tap.",
     "signatureColor": "a soft acoustic garden-pluck followed by a woodblock harvest tap",
+    "authorialIntent": "Make Garden Food Groove a crop-origin and naming song: garden/orchard/tropical tree/vine/cactus/market imports are distinguished, especially branded or regional names such as UGLI and xoconostle.",
+    "lyricIdentity": "A child traces where produce grows—tree, vine, root, leaf, cactus—without pretending every item comes from a backyard row.",
+    "imageMotifs": [
+      "apple tree",
+      "banana plant",
+      "okra pod",
+      "xoconostle cactus",
+      "vanilla orchid pod"
+    ],
+    "semanticArc": [
+      "temperate orchard/garden",
+      "tropical tree/vine",
+      "cactus/Andean/regional crops",
+      "name/origin recap"
+    ],
+    "forbiddenGenericLanguage": [
+      "garden row grows everything",
+      "earthy crisp sweet",
+      "all backyard crops",
+      "market crate rhyme"
+    ],
     "chorusAfterRound1": [
       2,
       4,
