@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 
 from abc_creative_gold_v4 import GOLD_V4_SPECS, OBJECT_CRAFT, RHYME_PHRASELETS
+from abc_creative_gold_v5_1_10 import GOLD_V5_SPEC_PATCHES
 from abc_creative_v4_11_50 import (
     object_craft as object_craft_v4_11_50,
     rhyme_phraselet as rhyme_phraselet_v4_11_50,
@@ -82,7 +83,7 @@ class CreativeSpec:
 # separate from PROFILES prevents a skill upgrade from silently overwriting the
 # already-authored 200-song catalog. The first migration target is 0001-0010.
 CREATIVE_SPECS: dict[str, CreativeSpec] = {
-    sid: CreativeSpec(**spec)
+    sid: CreativeSpec(**({**spec, **GOLD_V5_SPEC_PATCHES.get(sid, {})}))
     for sid, spec in GOLD_V4_SPECS.items()
 }
 

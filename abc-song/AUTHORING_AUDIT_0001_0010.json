@@ -11,7 +11,7 @@
   "uniqueStyles": 10,
   "uniqueSectionForms": 7,
   "uniqueCreativeFingerprints": 10,
-  "maxLyricSimilarity": 0.2017,
+  "maxLyricSimilarity": 0.1454,
   "mostSimilarPair": [
     "0006",
     "0010"
@@ -40,9 +40,13 @@
         "I",
         "K",
         "M",
+        "N",
         "O",
+        "P",
         "Q",
+        "R",
         "S",
+        "T",
         "U",
         "W",
         "Y"
@@ -66,7 +70,7 @@
       "songId": "0002",
       "theme": "Sea Life & Shores",
       "targetLines": 52,
-      "lyricWordCount": 690,
+      "lyricWordCount": 704,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -80,8 +84,6 @@
         "A",
         "C",
         "E",
-        "G",
-        "I",
         "K",
         "M",
         "O",
@@ -110,7 +112,7 @@
       "songId": "0003",
       "theme": "Ocean Creatures & Boats",
       "targetLines": 52,
-      "lyricWordCount": 747,
+      "lyricWordCount": 744,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -122,17 +124,12 @@
       ],
       "rhymeBearingRound1": [
         "A",
-        "C",
         "E",
-        "G",
         "I",
-        "K",
         "M",
-        "O",
         "Q",
-        "S",
         "U",
-        "W",
+        "X",
         "Y"
       ],
       "sectionForm": {
@@ -155,7 +152,7 @@
       "songId": "0004",
       "theme": "Ocean Nature & Travel",
       "targetLines": 52,
-      "lyricWordCount": 743,
+      "lyricWordCount": 727,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -167,18 +164,31 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
         "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
         "Q",
+        "R",
         "S",
+        "T",
         "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -199,7 +209,7 @@
       "songId": "0005",
       "theme": "Coast Explorer",
       "targetLines": 52,
-      "lyricWordCount": 715,
+      "lyricWordCount": 721,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -213,6 +223,7 @@
         "A",
         "C",
         "E",
+        "F",
         "G",
         "I",
         "K",
@@ -243,7 +254,7 @@
       "songId": "0006",
       "theme": "Pond & River Life",
       "targetLines": 52,
-      "lyricWordCount": 739,
+      "lyricWordCount": 755,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -255,18 +266,24 @@
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
         "E",
+        "F",
         "G",
         "I",
+        "J",
         "K",
         "M",
+        "N",
         "O",
         "Q",
+        "R",
         "S",
         "U",
         "W",
-        "Y"
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -288,7 +305,7 @@
       "songId": "0007",
       "theme": "Lakes & Waterways",
       "targetLines": 52,
-      "lyricWordCount": 696,
+      "lyricWordCount": 695,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -300,15 +317,16 @@
       ],
       "rhymeBearingRound1": [
         "A",
-        "C",
         "E",
         "G",
+        "H",
         "I",
         "K",
         "M",
+        "N",
         "O",
-        "Q",
-        "S",
+        "R",
+        "T",
         "U",
         "W",
         "Y"
@@ -332,7 +350,7 @@
       "songId": "0008",
       "theme": "Freshwater Animals",
       "targetLines": 52,
-      "lyricWordCount": 724,
+      "lyricWordCount": 716,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -344,18 +362,23 @@
       ],
       "rhymeBearingRound1": [
         "A",
-        "C",
         "E",
-        "G",
+        "F",
         "I",
+        "J",
         "K",
         "M",
+        "N",
         "O",
         "Q",
+        "R",
         "S",
+        "T",
         "U",
+        "V",
         "W",
-        "Y"
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -376,7 +399,7 @@
       "songId": "0009",
       "theme": "Wetland Nature",
       "targetLines": 52,
-      "lyricWordCount": 730,
+      "lyricWordCount": 751,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -387,17 +410,12 @@
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
-        "A",
-        "C",
-        "E",
+        "D",
         "G",
         "I",
         "K",
         "M",
-        "O",
         "Q",
-        "S",
-        "U",
         "W",
         "Y"
       ],
@@ -420,7 +438,7 @@
       "songId": "0010",
       "theme": "Riverbank Explorer",
       "targetLines": 52,
-      "lyricWordCount": 732,
+      "lyricWordCount": 733,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -431,18 +449,13 @@
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
-        "A",
-        "C",
-        "E",
-        "G",
-        "I",
-        "K",
+        "B",
+        "F",
+        "J",
         "M",
-        "O",
-        "Q",
-        "S",
-        "U",
-        "W",
+        "N",
+        "R",
+        "V",
         "Y"
       ],
       "sectionForm": {
