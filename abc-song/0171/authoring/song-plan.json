@@ -6,11 +6,79 @@
   "tempoBpm": 86,
   "motifFamily": "body-chart",
   "hook": [
-    "My body—A-B-C!",
-    "Body picture words with me!"
+    "Part, function, together—A-B-C!",
+    "One body clue is never the whole body."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D body-learning storybook, non-graphic anatomy models and everyday wellness cues, clean shapes; visual identity: My Body Picture Song",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "body-structure-function-rhyme",
+    "chorusRhymeEngine": "part-work-together-hook",
+    "pointOfView": "a child mapping body structure and function",
+    "chorusFunction": "repeat parts-work-together",
+    "grooveMeter": "84 BPM calm anatomy 6/8",
+    "round1Grammar": "body target -> structure/function -> limitation",
+    "round2Grammar": "diagram recall -> target -> non-invasive gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "body-structure",
+    "authorialIntent": "Make My Body Picture Song a structure-and-function map: joint, muscle, organ, hand anatomy, vision and imaging are linked without treating the body as a machine with one part-one job.",
+    "lyricIdentity": "A child moves from visible body regions to hidden systems and models, learning that functions emerge from structures working together.",
+    "imageMotifs": [
+      "hand grip",
+      "shoulder joint",
+      "rib cage",
+      "eye iris",
+      "x-ray image"
+    ],
+    "semanticArc": [
+      "visible regions",
+      "movement structures",
+      "organs/systems",
+      "images/models"
+    ],
+    "forbiddenGenericLanguage": [
+      "body parts machine",
+      "one part one job",
+      "perfect body",
+      "x-ray sees everything"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

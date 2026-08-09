@@ -6,11 +6,79 @@
   "tempoBpm": 92,
   "motifFamily": "body-freeze",
   "hook": [
-    "Move and feel—A-B-C!",
-    "Gentle body words with me!"
+    "Move, notice, pause—A-B-C!",
+    "Comfort comes before range."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D body-learning storybook, non-graphic anatomy models and everyday wellness cues, clean shapes; visual identity: Move Feel Body Beat",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "interoception-movement-rhyme",
+    "chorusRhymeEngine": "move-notice-pause-hook",
+    "pointOfView": "a child noticing body sensations during gentle movement",
+    "chorusFunction": "repeat move-notice-pause",
+    "grooveMeter": "82 BPM gentle movement 4/4",
+    "round1Grammar": "body target -> sensation/movement role -> comfort boundary",
+    "round2Grammar": "recall -> target -> small comfortable gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "body-awareness",
+    "authorialIntent": "Make Move Feel Body Beat an interoception-and-movement awareness song: joint position, skin/touch, breath/voice, face/mouth/eyes and muscle effort are noticed gently without pain challenges or diagnostic claims.",
+    "lyricIdentity": "A child moves only in comfortable ranges, notices sensations, and stops if something hurts; feel means awareness, not forcing a stretch.",
+    "imageMotifs": [
+      "wrist turn",
+      "skin touch",
+      "quadriceps effort",
+      "voice vibration",
+      "comfortable pause"
+    ],
+    "semanticArc": [
+      "move",
+      "notice",
+      "communicate",
+      "pause"
+    ],
+    "forbiddenGenericLanguage": [
+      "push through pain",
+      "feel the burn",
+      "body beat workout",
+      "test your vision"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

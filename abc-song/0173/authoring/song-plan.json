@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "wellness-look",
   "hook": [
-    "Healthy body—A-B-C!",
-    "Learn the picture, move gently!"
+    "Move, rest, vary—A-B-C!",
+    "Bodies can differ and still deserve the same respect."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D body-learning storybook, non-graphic anatomy models and everyday wellness cues, clean shapes; visual identity: Healthy Body Look",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "body-variation-function-rhyme",
+    "chorusRhymeEngine": "move-rest-vary-hook",
+    "pointOfView": "a child learning neutral body variation",
+    "chorusFunction": "repeat function-rest-variation",
+    "grooveMeter": "84 BPM neutral body pulse",
+    "round1Grammar": "target -> function/variation -> no appearance judgment",
+    "round2Grammar": "neutral recall -> target -> comfortable gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "body-variation",
+    "authorialIntent": "Repair Healthy Body Look into a body-function-and-variation song: heart, muscle, joints, face traits, waist, yawn and voice are described neutrally; health is behavior/context, not appearance.",
+    "lyricIdentity": "A child notices normal variation and what structures do without assigning good/bad bodies, shapes, faces, dimples, or waist sizes.",
+    "imageMotifs": [
+      "heart pump",
+      "quadriceps",
+      "dimple variation",
+      "waist neutral outline",
+      "yawn"
+    ],
+    "semanticArc": [
+      "movement",
+      "circulation",
+      "sensation/voice",
+      "normal variation"
+    ],
+    "forbiddenGenericLanguage": [
+      "healthy look",
+      "good body shape",
+      "thin waist healthy",
+      "stronger is better"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

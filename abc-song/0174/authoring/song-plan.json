@@ -6,11 +6,79 @@
   "tempoBpm": 82,
   "motifFamily": "doctor-book",
   "hook": [
-    "Doctor picture—A-B-C!",
-    "Body models, look with me!"
+    "Name, observe, check—A-B-C!",
+    "One picture can teach anatomy without diagnosing anyone."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D body-learning storybook, non-graphic anatomy models and everyday wellness cues, clean shapes; visual identity: Doctor Body Picture Book",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "clinical-literacy-rhyme",
+    "chorusRhymeEngine": "name-observe-check-hook",
+    "pointOfView": "a child reading a doctor body book, not acting as clinician",
+    "chorusFunction": "repeat name-observe-check",
+    "grooveMeter": "80 BPM page-turn 6/8",
+    "round1Grammar": "anatomy/care target -> clinical context -> professional boundary",
+    "round2Grammar": "picture recall -> target -> point-only for medical items",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "clinical-literacy",
+    "authorialIntent": "Make Doctor Body Picture Book a clinical-literacy picture book: anatomy words, symptoms/signs, physical exam, imaging and dressings are separated, with no child self-diagnosis or pretend procedure.",
+    "lyricIdentity": "A child learns what a clinician might observe or image while every medical conclusion remains contextual and professional.",
+    "imageMotifs": [
+      "body diagram",
+      "joint exam card",
+      "heart diagram",
+      "skin observation",
+      "xiphoid model"
+    ],
+    "semanticArc": [
+      "identify anatomy",
+      "observe",
+      "measure/image",
+      "care/follow-up"
+    ],
+    "forbiddenGenericLanguage": [
+      "play doctor diagnosis",
+      "one sign means disease",
+      "touch the patient",
+      "bandage everything"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

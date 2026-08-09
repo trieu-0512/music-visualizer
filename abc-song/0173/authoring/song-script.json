@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore healthy body with me!",
+      "text": "Heart rate changes, muscles contract, dimples may appear or not, waist and face shapes naturally vary.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Healthy body—A-B-C!",
+      "text": "Health cannot be read from one look.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Our wellness picture pairs A with Ankle to recognize.",
+      "text": "A — Ankle! | Joint region connects lower leg and foot; several bones and ligaments allow flexing while supporting body weight.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Our wellness picture pairs B with Belly to recognize.",
+      "text": "B ... B ... Belly! | Everyday word for abdomen, containing abdominal wall and many digestive/urinary/reproductive organs; outside shape does not reveal health by itself.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Our wellness picture pairs C with Chin to recognize.",
+      "text": "C? Chin! | Lower front facial prominence formed mainly by mandible plus soft tissue; chin shape naturally varies.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Our wellness picture pairs D with Dimple to recognize.",
+      "text": "D is Dimple. Small skin indentation often linked to underlying facial structure/muscle variation; presence or absence is a normal trait. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Our wellness picture pairs E with Eye to recognize.",
+      "text": "E — Eye! | Sensory organ focuses light onto the retina; vision also depends on optic nerves and brain processing.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Our wellness picture pairs F with Finger to recognize.",
+      "text": "F ... F ... Finger! | Digit contains bones, joints, tendons, nerves, skin, and nails; fingers support touch and precise grip.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Our wellness picture pairs G with Grip to recognize.",
+      "text": "G? Grip! | Ability to hold/control objects comes from fingers, thumb, muscles, tendons, joints, sensation, and nervous-system control.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Our wellness picture pairs H with Heart to recognize.",
+      "text": "H is Heart. Muscular organ pumps blood through lungs and body; heart rate changes with activity, rest, emotion and health context. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Healthy body—A-B-C!",
+      "text": "Move, rest, vary—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Learn the picture, move gently!",
+      "text": "Bodies can differ and still deserve the same respect.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Our wellness picture pairs I with Incisor to recognize.",
+      "text": "I — Incisor! | Front cutting tooth with a relatively sharp edge; humans normally have incisors in upper and lower jaws.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Our wellness picture pairs J with Jaw to recognize.",
+      "text": "J ... J ... Jaw! | Upper and lower jaw support teeth; the mandible is the movable lower jaw used in chewing and speech.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Our wellness picture pairs K with Knuckle to recognize.",
+      "text": "K? Knuckle! | Prominent joint area where finger bones meet hand or each other; bending comes from the joint, tendons, and muscles.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Our wellness picture pairs L with Lips to recognize.",
+      "text": "L is Lips. Soft tissue around mouth opening supports speech, eating, expression and touch. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Our wellness picture pairs M with Muscle to recognize.",
+      "text": "M — Muscle! | Contractile tissue generates force and movement; muscles also support posture, breathing, circulation, and internal organ functions.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Our wellness picture pairs N with Nose to recognize.",
+      "text": "N ... N ... Nose! | Structure supports smell and conditions inhaled air through nasal passages; smell receptors sit high in nasal cavity.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Our wellness picture pairs O with Outer Ear to recognize.",
+      "text": "O? Outer Ear! | Visible pinna plus outer ear canal collect/direct sound toward eardrum; hearing continues through middle/inner ear and brain.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Our wellness picture pairs P with Palm to recognize.",
+      "text": "P is Palm. Front surface of hand contains skin creases, nerves, muscles/tendons and connective tissue; it supports grip and touch. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Healthy body—A-B-C!",
+      "text": "Move, rest, vary—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Learn the picture, move gently!",
+      "text": "Bodies can differ and still deserve the same respect.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Our wellness picture pairs Q with Quadriceps to recognize.",
+      "text": "Q — Quadriceps! | Group of four muscles at front of thigh primarily extends knee and helps control movement.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Our wellness picture pairs R with Retina to recognize.",
+      "text": "R ... R ... Retina! | Light-sensitive neural tissue lines back of eye and converts light into nerve signals sent toward brain.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Our wellness picture pairs S with Shoulder to recognize.",
+      "text": "S? Shoulder! | Region links arm to trunk through several joints, muscles and tendons, giving a wide range of motion.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Our wellness picture pairs T with Toe to recognize.",
+      "text": "T is Toe. Foot digit contributes to balance and push-off; big toe is especially important during walking. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Our wellness picture pairs U with Uvula to recognize.",
+      "text": "U — Uvula! | Small soft-tissue projection hanging from soft palate; it contributes to swallowing/speech functions but is not the sole gag structure.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Our wellness picture pairs V with Voice to recognize.",
+      "text": "V ... V ... Voice! | Sound begins when airflow makes vocal folds vibrate, then throat, mouth and nose shape resonance and speech.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Our wellness picture pairs W with Waist to recognize.",
+      "text": "W? Waist! | Everyday region between ribs and hips; waist size/shape varies and is not a moral or complete health measure.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Our wellness picture pairs X with Xiphoid Bone to recognize.",
+      "text": "X is Xiphoid Bone. Xiphoid process is the small lower part of sternum; it can be cartilaginous when young and ossifies variably with age. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Healthy body—A-B-C!",
+      "text": "Move, rest, vary—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Learn the picture, move gently!",
+      "text": "Bodies can differ and still deserve the same respect.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Our wellness picture pairs Y with Yawn to recognize.",
+      "text": "Y — Yawn! | Involuntary deep inhalation/open-mouth behavior associated with sleepiness, transitions in alertness and social contagion; exact biology is complex.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Our wellness picture pairs Z with Zygomatic Bone to recognize.",
+      "text": "Z ... Z ... Zygomatic Bone! | Cheekbone forms part of cheek prominence and eye socket; one on each side connects with neighboring skull bones.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Gentle cue: A ... Ankle! Point with your eyes.",
+      "text": "Function recall A ... Ankle! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Gentle cue: B ... Belly! Point with your eyes.",
+      "text": "Find B ... Belly! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Gentle cue: C ... Chin! Point with your eyes.",
+      "text": "Which one starts C? ... Chin! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Gentle cue: D ... Dimple! Point with your eyes.",
+      "text": "Check D ... Dimple! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Gentle cue: E ... Eye! Point with your eyes.",
+      "text": "Function recall E ... Eye! Point near your own eye without touching it.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Gentle cue: F ... Finger! Point with your eyes.",
+      "text": "Find F ... Finger! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Gentle cue: G ... Grip! Point with your eyes.",
+      "text": "Which one starts G? ... Grip! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Gentle cue: H ... Heart! Point with your eyes.",
+      "text": "Check H ... Heart! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Healthy body—A-B-C!",
+      "text": "Move, rest, vary—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Learn the picture, move gently!",
+      "text": "Bodies can differ and still deserve the same respect.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Gentle cue: I ... Incisor! Point with your eyes.",
+      "text": "Function recall I ... Incisor! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Gentle cue: J ... Jaw! Point with your eyes.",
+      "text": "Find J ... Jaw! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Gentle cue: K ... Knuckle! Point with your eyes.",
+      "text": "Which one starts K? ... Knuckle! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Gentle cue: L ... Lips! Point with your eyes.",
+      "text": "Check L ... Lips! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Gentle cue: M ... Muscle! Point with your eyes.",
+      "text": "Function recall M ... Muscle! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Gentle cue: N ... Nose! Point with your eyes.",
+      "text": "Find N ... Nose! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Gentle cue: O ... Outer Ear! Point with your eyes.",
+      "text": "Which one starts O? ... Outer Ear! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Gentle cue: P ... Palm! Point with your eyes.",
+      "text": "Check P ... Palm! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Healthy body—A-B-C!",
+      "text": "Move, rest, vary—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Learn the picture, move gently!",
+      "text": "Bodies can differ and still deserve the same respect.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Gentle cue: Q ... Quadriceps! Point with your eyes.",
+      "text": "Function recall Q ... Quadriceps! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Gentle cue: R ... Retina! Point with your eyes.",
+      "text": "Find R ... Retina! Point to back-of-eye diagram, no self-test.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Gentle cue: S ... Shoulder! Point with your eyes.",
+      "text": "Which one starts S? ... Shoulder! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Gentle cue: T ... Toe! Point with your eyes.",
+      "text": "Check T ... Toe! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Gentle cue: U ... Uvula! Point with your eyes.",
+      "text": "Function recall U ... Uvula! Point to diagram; do not touch throat.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Gentle cue: V ... Voice! Point with your eyes.",
+      "text": "Find V ... Voice! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Gentle cue: W ... Waist! Point with your eyes.",
+      "text": "Which one starts W? ... Waist! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Gentle cue: X ... Xiphoid Bone! Point with your eyes.",
+      "text": "Check X ... Xiphoid Bone! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Healthy body—A-B-C!",
+      "text": "Move, rest, vary—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Learn the picture, move gently!",
+      "text": "Bodies can differ and still deserve the same respect.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Gentle cue: Y ... Yawn! Point with your eyes.",
+      "text": "Function recall Y ... Yawn! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Gentle cue: Z ... Zygomatic Bone! Point with your eyes.",
+      "text": "Find Z ... Zygomatic Bone! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Healthy body—A-B-C!",
+      "text": "No waist is graded, no dimple is required, no yawn is treated as a diagnosis.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends with function and variation side by side.",
       "objective": "narration",
       "objectReveal": "none"
     }

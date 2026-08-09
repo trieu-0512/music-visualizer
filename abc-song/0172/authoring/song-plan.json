@@ -6,11 +6,79 @@
   "tempoBpm": 84,
   "motifFamily": "sense-chart",
   "hook": [
-    "Body and senses—A-B-C!",
-    "See and hear the words with me!"
+    "Sense, signal, brain—A-B-C!",
+    "Follow information farther than the surface."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D body-learning storybook, non-graphic anatomy models and everyday wellness cues, clean shapes; visual identity: Body Senses ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "sensory-pathway-rhyme",
+    "chorusRhymeEngine": "sense-signal-brain-hook",
+    "pointOfView": "a child tracing sensory information",
+    "chorusFunction": "repeat sense-signal-brain",
+    "grooveMeter": "82 BPM spacious sensory pulse",
+    "round1Grammar": "structure -> sensory/body role -> pathway caveat",
+    "round2Grammar": "sensory-neutral recall -> target -> no self-test",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "sensory-pathway",
+    "authorialIntent": "Make Body Senses ABC a sensory-pathway song: touch, taste, hearing, vision and voice are described as organ-plus-nerve-plus-brain processes, while digestive and dental targets remain honest comparison cards.",
+    "lyricIdentity": "A child follows information from outer structures toward neural processing without claiming one body spot equals one whole sense.",
+    "imageMotifs": [
+      "outer ear",
+      "pupil/retina",
+      "tongue",
+      "lips/voice",
+      "hand touch"
+    ],
+    "semanticArc": [
+      "touch/oral",
+      "hearing",
+      "vision",
+      "voice/integration"
+    ],
+    "forbiddenGenericLanguage": [
+      "five senses only",
+      "tongue taste zones",
+      "ear hears alone",
+      "eye sees alone"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }
