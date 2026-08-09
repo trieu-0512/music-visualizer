@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Roaaar... echo it tiny, echo it tall!",
+      "text": "One trackway crosses mud; one pterosaur belongs overhead; one marine reptile never walked this trail.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Letters stomp in with creatures big and small.",
+      "text": "We follow evidence, not imaginary live dinosaurs.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Allosaurus—that is our A. Allosaurus strides by | three-fingered hands and sharp teeth catch the eye",
+      "text": "A — Allosaurus! Large Jurassic land predator | three-fingered hands and theropod feet fit a terrestrial trail.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Spot B: Brachiosaurus! Brachiosaurus was a long-necked sauropod with front legs longer than its hind legs.",
+      "text": "B ... B ... Brachiosaurus! Giant sauropod herbivore | columnar limbs carried an enormous land body.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C brings Carnotaurus; Carnotaurus draws near | two brow horns make the picture clear",
+      "text": "C? Carnotaurus! South American theropod with brow horns and tiny forelimbs | land-animal clue.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "A clue for D: Diplodocus. Diplodocus was a long-necked sauropod with a very long tail and peg-like teeth near the front of its jaws.",
+      "text": "D is Diplodocus. Long-bodied sauropod with long tail and neck | tracks and limb anatomy belong to ground travel.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "across the echoing prehistoric valley, here comes Edmontosaurus for E. Edmontosaurus, broad bill | rows of grinding teeth worked plants still",
+      "text": "E — Edmontosaurus! Hadrosaur that walked on two or four limbs | broad beak marks a plant-eating trail clue.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Footprint—that is our F. A fossil footprint is a trace fossil that records where an animal stepped long ago.",
+      "text": "F ... F ... Footprint! Trace fossil records contact with ancient ground | the trail itself becomes evidence.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Spot G: Gastonia! Gastonia low | armor plates and side spikes show",
+      "text": "G? Gastonia! Armored herbivore | plates and spikes belong to land, not water armor.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H brings Herrerasaurus; Herrerasaurus was an early meat-eating dinosaur that walked on two legs and balanced with a long tail.",
+      "text": "H is Herrerasaurus. Triassic predatory dinosaur from Argentina | an early dinosaur from a much older chapter than Tyrannosaurus.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "A clue for I: Iguanodon. Iguanodon long ago | bones and body leave a clue to show",
+      "text": "I — Iguanodon! Large herbivorous ornithopod with thumb spike | terrestrial browser along the route.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "across the echoing prehistoric valley, here comes Jawbone for J. It holds teeth and can give paleontologists clues about how an animal ate.",
+      "text": "J ... J ... Jawbone! Fossil jaw reveals feeding anatomy | a trail-side evidence object, not a roaming animal.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kritosaurus—that is our K. Kritosaurus was a duck-billed hadrosaur, known from a broad beak and a large plant-eating body.",
+      "text": "K? Kritosaurus! Hadrosaurid herbivore | broad-billed skull fits the plant-eating section.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Spot L: Lesothosaurus! Lesothosaurus was a small lightly built plant-eating dinosaur that moved on two long hind legs.",
+      "text": "L is Lesothosaurus. Small lightly built ornithischian | quick terrestrial body in the low-vegetation frame.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Roar it soft, then say it clear!",
+      "text": "Track, nest, shore—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Letter first, old creature near!",
+      "text": "Change the habitat when the evidence tells us to.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M brings Mosasaurus; Mosasaurus swims the sea | marine reptile—not dinosaur—our clue to see",
+      "text": "M — Mosasaurus! Huge marine squamate reptile | ocean predator, not a dinosaur and not a land-trail walker.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "A clue for N: Nest. A fossil nest or nesting site can reveal how some prehistoric animals laid and cared for eggs.",
+      "text": "N ... N ... Nest! Eggs and nest structure anchor breeding behavior to a place | habitat evidence without chasing adults.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "across the echoing prehistoric valley, here comes Oviraptor for O. Oviraptor by the nest | beak and feathers make the clue stand best",
+      "text": "O? Oviraptor! Feathered beaked theropod known brooding nests | nesting evidence corrected the old egg-thief story.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Pteranodon—that is our P. Pteranodon was a flying reptile called a pterosaur, not a dinosaur.",
+      "text": "P is Pteranodon. Flying pterosaur from marine-coastal settings | overhead or shore context, not dinosaur footsteps.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Spot Q: Quetzalcoatlus! Quetzalcoatlus in the sky | giant pterosaur wings could carry it high",
+      "text": "Q — Quetzalcoatlus! Giant pterosaur likely spent much time on land as well as flying | still a pterosaur, not a dinosaur.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R brings Raptor; It is an informal nickname often used for dromaeosaurids, feathered theropods with enlarged curved toe claws.",
+      "text": "R ... R ... Raptor! Broad popular label for dromaeosaurid-style predators | use exact genus when evidence allows.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "A clue for S: Spinosaurus. Spinosaurus was a large theropod dinosaur with tall spines forming a sail-like structure along its back.",
+      "text": "S? Spinosaurus! Giant spinosaurid with sail and crocodile-like snout | evidence supports strong association with aquatic environments, though exact lifestyle remains studied.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "across the echoing prehistoric valley, here comes Tyrannosaurus for T. Tyrannosaurus was a large meat-eating dinosaur with a massive skull and powerful hind legs.",
+      "text": "T is Tyrannosaurus. Late Cretaceous land predator | deep skull and powerful hind limbs fit terrestrial travel.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Utahraptor—that is our U. Utahraptor tall | giant dromaeosaur with a curved toe claw",
+      "text": "U — Utahraptor! Large dromaeosaurid from Early Cretaceous North America | terrestrial predator with sickle claws.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Spot V: Volcano! A volcano is an opening where molten rock, gas, and ash can reach Earth's surface; volcanoes existed throughout dinosaur times.",
+      "text": "V ... V ... Volcano! Geological setting can lay down ash beds used to date and correlate fossil layers | landscape evidence, not animal habitat by itself.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W brings Wuerhosaurus; Wuerhosaurus was a stegosaur with back plates and tail spikes.",
+      "text": "W? Wuerhosaurus! Cretaceous stegosaur from Asia | plated land herbivore on the terrestrial branch.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "A clue for X: Xixiasaurus. Xixiasaurus was a small bird-like theropod with a slender skull and many small teeth.",
+      "text": "X is Xixiasaurus. Small theropod from China | limited fossils make exact habitat details uncertain.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Roar it soft, then say it clear!",
+      "text": "Track, nest, shore—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Letter first, old creature near!",
+      "text": "Change the habitat when the evidence tells us to.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "across the echoing prehistoric valley, here comes Yinlong for Y. Yinlong on the track | fossil shapes bring the old clue back",
+      "text": "Y — Yinlong! Small early ceratopsian from Jurassic China | land herbivore near the base of horned-dinosaur evolution.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zephyrosaurus—that is our Z. Zephyrosaurus was a small plant-eating ornithischian with a light two-legged body.",
+      "text": "Z ... Z ... Zephyrosaurus! Small ornithopod from Early Cretaceous North America | final light-footed land clue.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Spot A ... Allosaurus! Sway one pretend tail, then freeze.",
+      "text": "Trace A ... Allosaurus! Sway one pretend tail, then freeze.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Call B, wait ... Brachiosaurus! Stretch one arm up like a long neck.",
+      "text": "Habitat B ... Brachiosaurus! Stretch one arm up like a long neck.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Which word fits C? ... Carnotaurus! Hold two horn fingers above your eyes.",
+      "text": "Land, air, or water—C? ... Carnotaurus! Hold two horn fingers above your eyes.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... D ... Diplodocus! Trace long neck forward, long tail behind.",
+      "text": "Trail note D ... Diplodocus! Trace long neck forward, long tail behind.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Spot E ... Edmontosaurus! Make a broad duck-bill with flat hands.",
+      "text": "Trace E ... Edmontosaurus! Make a broad duck-bill with flat hands.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Call F, wait ... Footprint! Tap two tiny footprint beats, then show the picture.",
+      "text": "Habitat F ... Footprint! Tap two tiny footprint beats, then show the picture.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Which word fits G? ... Gastonia! Trace low armor and side spikes.",
+      "text": "Land, air, or water—G? ... Gastonia! Trace low armor and side spikes.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... H ... Herrerasaurus! Take two quick steps; balance a pretend tail.",
+      "text": "Trail note H ... Herrerasaurus! Take two quick steps; balance a pretend tail.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Spot I ... Iguanodon! Lift one thumb like a thumb spike.",
+      "text": "Trace I ... Iguanodon! Lift one thumb like a thumb spike.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Call J, wait ... Jawbone! Tap two tiny footprint beats, then show the picture.",
+      "text": "Habitat J ... Jawbone! Trace a curved jaw line; this is fossil evidence, not a track.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Which word fits K? ... Kritosaurus! Make a broad duck-bill; sweep its body shape.",
+      "text": "Land, air, or water—K? ... Kritosaurus! Make a broad duck-bill; sweep its body shape.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... L ... Lesothosaurus! Make two tiny running finger-steps.",
+      "text": "Trail note L ... Lesothosaurus! Make two tiny running finger-steps.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Spot M ... Mosasaurus! Glide one hand like a sea swimmer, then point.",
+      "text": "Trace M ... Mosasaurus! Glide one hand like a sea swimmer, then point.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -359,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Call N, wait ... Nest! Cup both hands like a shallow nest, then point.",
+      "text": "Habitat N ... Nest! Cup both hands like a shallow nest, then point.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -367,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Which word fits O? ... Oviraptor! Make a beak, then cup a nest.",
+      "text": "Land, air, or water—O? ... Oviraptor! Make a beak, then cup a nest.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -375,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... P ... Pteranodon! Glide two gentle hand-wings once, then point to the pterosaur.",
+      "text": "Trail note P ... Pteranodon! Glide two gentle hand-wings once, then point to the pterosaur.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -383,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Roar it soft, then say it clear!",
+      "text": "Track, nest, shore—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Letter first, old creature near!",
+      "text": "Change the habitat when the evidence tells us to.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Spot Q ... Quetzalcoatlus! Glide two gentle hand-wings once, then point to the pterosaur.",
+      "text": "Trace Q ... Quetzalcoatlus! Glide two gentle hand-wings once, then point to the pterosaur.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Call R, wait ... Raptor! Curl one finger like a toe claw; freeze.",
+      "text": "Habitat R ... Raptor! Curl one finger like a toe claw; freeze.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Which word fits S? ... Spinosaurus! Raise one hand like a tall back sail.",
+      "text": "Land, air, or water—S? ... Spinosaurus! Raise one hand like a tall back sail.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... T ... Tyrannosaurus! Show a huge jaw and two tiny forearms.",
+      "text": "Trail note T ... Tyrannosaurus! Show a huge jaw and two tiny forearms.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Spot U ... Utahraptor! Show one large toe claw; take two strong steps.",
+      "text": "Trace U ... Utahraptor! Show one large toe claw; take two strong steps.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Call V, wait ... Volcano! Make a wide mountain shape with both hands, then point.",
+      "text": "Habitat V ... Volcano! Make a wide mountain shape with both hands, then point.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Which word fits W? ... Wuerhosaurus! Trace back plates, then a tail spike.",
+      "text": "Land, air, or water—W? ... Wuerhosaurus! Trace back plates, then a tail spike.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... X ... Xixiasaurus! Make a slender snout; take two bird-like steps.",
+      "text": "Trail note X ... Xixiasaurus! Make a slender snout; take two bird-like steps.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Spot Y ... Yinlong! Make a small beak; take two tiny steps.",
+      "text": "Trace Y ... Yinlong! Make a small beak; take two tiny steps.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Call Z, wait ... Zephyrosaurus! Make two light running finger-steps.",
+      "text": "Habitat Z ... Zephyrosaurus! Make two light running finger-steps.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Roar it soft, then say it clear!",
+      "text": "Track, nest, shore—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Letter first, old creature near!",
+      "text": "Change the habitat when the evidence tells us to.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Roar it soft, then say it clear!",
+      "text": "The trail ends at a label, not at a roaring animal.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A through Z—our prehistoric trail lands on one bright final beat!",
+      "text": "A to Z returns us to the evidence underfoot.",
       "objective": "narration",
       "objectReveal": "none"
     }

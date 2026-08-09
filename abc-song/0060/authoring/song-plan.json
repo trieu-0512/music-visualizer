@@ -6,8 +6,8 @@
   "tempoBpm": 89,
   "motifFamily": "museum-march",
   "hook": [
-    "Back in time, one-two-three!",
-    "Name the past from A to Z!"
+    "Read, sort, name—A-B-C!",
+    "Dinosaur, fossil, pterosaur, marine reptile—labels matter."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat of quiet before target confirmation",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "young time-traveler and museum guide",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "story-song 3/4-to-4/4 feel",
-    "round1Grammar": "Round 1 alternates stomp-sized short entries with longer fossil or body-shape clues; do not call every prehistoric animal a dinosaur when it is a pterosaur or marine reptile.",
-    "round2Grammar": "Round 2 uses footprint-sized recall gaps followed by object-conditioned morphology gestures: plates, armor, horns, crests, long necks, sickle claws, pterosaur wings, marine swimming, nest/fossil shapes, or body-size silhouettes. Use a plain trace/stomp only when no clearer clue exists.",
+    "rhymeEngine": "museum-taxonomy-label-rhyme",
+    "chorusRhymeEngine": "read-sort-name-hook",
+    "pointOfView": "a child reading museum taxonomy labels",
+    "chorusFunction": "repeat read-sort-name",
+    "grooveMeter": "measured 4/4 gallery walk",
+    "round1Grammar": "hand-written classification label plus distinguishing feature",
+    "round2Grammar": "label cue -> recall beat -> target -> point/sort gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a clock-like woodblock tick followed by a warm xylophone landing note.",
     "signatureColor": "a clock-like woodblock tick followed by a warm xylophone landing note",
+    "authorialIntent": "Turn Museum Dino March into a taxonomy-label walk: every exhibit label states whether the target is dinosaur, pterosaur, marine reptile, fossil part, trace, or reconstruction, replacing the fake time-machine premise.",
+    "lyricIdentity": "A child museum visitor reads classification labels case by case and learns that prehistoric does not equal dinosaur.",
+    "imageMotifs": [
+      "Allosaurus skeleton label",
+      "Mosasaurus marine hall",
+      "Quetzalcoatlus ceiling mount",
+      "rib bone drawer",
+      "ceratopsian skull case"
+    ],
+    "semanticArc": [
+      "dinosaur skeletons",
+      "fossil parts and traces",
+      "non-dinosaur prehistoric reptiles",
+      "classification recap across museum halls"
+    ],
+    "forbiddenGenericLanguage": [
+      "time machine",
+      "dino march",
+      "world long gone",
+      "museum magic"
+    ],
     "chorusAfterRound1": [
       2,
       5,
@@ -58,7 +79,7 @@
     "total": 26
   },
   "rhymeCraftCoverage": {
-    "available": 15,
+    "available": 16,
     "usedRound1": 9,
     "total": 26
   },

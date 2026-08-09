@@ -6,8 +6,8 @@
   "tempoBpm": 87,
   "motifFamily": "prehistoric-walk",
   "hook": [
-    "Museum lights, glow with me!",
-    "Prehistoric words from A to Z!"
+    "Bone, infer, draw—A-B-C!",
+    "A good picture shows evidence without pretending we know every color."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one clear beat before the answer",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "young time-traveler and museum guide",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "stop-and-go 4/4",
-    "round1Grammar": "Round 1 alternates stomp-sized short entries with longer fossil or body-shape clues; do not call every prehistoric animal a dinosaur when it is a pterosaur or marine reptile.",
-    "round2Grammar": "Round 2 uses footprint-sized recall gaps followed by object-conditioned morphology gestures: plates, armor, horns, crests, long necks, sickle claws, pterosaur wings, marine swimming, nest/fossil shapes, or body-size silhouettes. Use a plain trace/stomp only when no clearer clue exists.",
+    "rhymeEngine": "museum-picture-evidence-layer-rhyme",
+    "chorusRhymeEngine": "bone-infer-draw-hook",
+    "pointOfView": "a child comparing museum art with fossil evidence",
+    "chorusFunction": "reset bone-infer-draw",
+    "grooveMeter": "gallery 6/8 with frame-to-frame pauses",
+    "round1Grammar": "hand-written reconstruction layer per target",
+    "round2Grammar": "picture cue -> recall beat -> target -> frame/point gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a short museum-xylophone note and muted marimba step after the target.",
     "signatureColor": "a short museum-xylophone note and muted marimba step after the target",
+    "authorialIntent": "Turn Prehistoric Picture Walk into a museum reconstruction gallery: each image separates fossil-supported anatomy from artist reconstruction, especially color, soft tissue, behavior and habitat composition.",
+    "lyricIdentity": "A child walks frame by frame and asks which parts are fossil, which are inference, and which are artistic choices.",
+    "imageMotifs": [
+      "Ankylosaurus skeleton beside painting",
+      "feathered Yutyrannus silhouette",
+      "pterosaur wing diagram",
+      "nest display",
+      "fern backdrop label"
+    ],
+    "semanticArc": [
+      "skeleton-to-picture basics",
+      "soft tissue and behavior inference",
+      "non-dinosaur reptiles and plants",
+      "end with reconstruction uncertainty"
+    ],
+    "forbiddenGenericLanguage": [
+      "pictures wake up",
+      "museum magic",
+      "time travel",
+      "every picture is exact"
+    ],
     "chorusAfterRound1": [
       2,
       5
@@ -57,7 +78,7 @@
     "total": 26
   },
   "rhymeCraftCoverage": {
-    "available": 15,
+    "available": 16,
     "usedRound1": 11,
     "total": 26
   },

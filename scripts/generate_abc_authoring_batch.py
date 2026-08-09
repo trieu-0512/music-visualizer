@@ -19,6 +19,7 @@ from abc_creative_gold_v5_36_40 import GOLD_V5_36_40_SPEC_PATCHES
 from abc_creative_gold_v5_41_45 import GOLD_V5_41_45_SPEC_PATCHES
 from abc_creative_gold_v5_46_50 import GOLD_V5_46_50_SPEC_PATCHES
 from abc_creative_gold_v5_51_55 import GOLD_V5_51_55_SPEC_PATCHES
+from abc_creative_gold_v5_56_60 import GOLD_V5_56_60_SPEC_PATCHES
 from abc_creative_v4_11_50 import (
     object_craft as object_craft_v4_11_50,
     rhyme_phraselet as rhyme_phraselet_v4_11_50,
@@ -775,6 +776,8 @@ def creative_spec(profile: SongProfile) -> CreativeSpec | None:
         )
     if payload is not None and profile.song_id in GOLD_V5_51_55_SPEC_PATCHES:
         payload = {**payload, **GOLD_V5_51_55_SPEC_PATCHES[profile.song_id]}
+    if payload is not None and profile.song_id in GOLD_V5_56_60_SPEC_PATCHES:
+        payload = {**payload, **GOLD_V5_56_60_SPEC_PATCHES[profile.song_id]}
     return CreativeSpec(**payload) if payload is not None else None
 
 

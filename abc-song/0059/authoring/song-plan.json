@@ -6,8 +6,8 @@
   "tempoBpm": 92,
   "motifFamily": "dino-trail",
   "hook": [
-    "Roar it soft, then say it clear!",
-    "Letter first, old creature near!"
+    "Track, nest, shore—A-B-C!",
+    "Change the habitat when the evidence tells us to."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "brief cue gap with percussion thinned",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "young time-traveler and museum guide",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "light swung 4/4",
-    "round1Grammar": "Round 1 alternates stomp-sized short entries with longer fossil or body-shape clues; do not call every prehistoric animal a dinosaur when it is a pterosaur or marine reptile.",
-    "round2Grammar": "Round 2 uses footprint-sized recall gaps followed by object-conditioned morphology gestures: plates, armor, horns, crests, long necks, sickle claws, pterosaur wings, marine swimming, nest/fossil shapes, or body-size silhouettes. Use a plain trace/stomp only when no clearer clue exists.",
+    "rhymeEngine": "prehistoric-habitat-trace-rhyme",
+    "chorusRhymeEngine": "track-nest-shore-hook",
+    "pointOfView": "a child following fossil and habitat evidence rather than live-animal fantasy",
+    "chorusFunction": "reset track-nest-shore",
+    "grooveMeter": "walking 4/4 with habitat-change transitions",
+    "round1Grammar": "hand-written habitat placement with taxonomy boundaries",
+    "round2Grammar": "trace cue -> recall beat -> target -> point/track gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a friendly low tom echo with a brief whistle answer, never a realistic roar.",
     "signatureColor": "a friendly low tom echo with a brief whistle answer, never a realistic roar",
+    "authorialIntent": "Make Dino Trail Explorer a habitat-and-trace walk: tracks, nests, bones, coastal/marine context and volcanic geology reveal where different animals lived; the song never places every prehistoric animal on one land trail.",
+    "lyricIdentity": "A child follows evidence through land, shore, and water contexts, with explicit route changes for pterosaurs and Mosasaurus.",
+    "imageMotifs": [
+      "theropod footprint",
+      "nest beside vegetation",
+      "pterosaur overhead",
+      "marine-reptile shoreline panel",
+      "volcanic ash layer"
+    ],
+    "semanticArc": [
+      "land tracks",
+      "nests and herbivore habitat",
+      "air and coastal flyers",
+      "marine/geologic context and return to trail"
+    ],
+    "forbiddenGenericLanguage": [
+      "roar echo",
+      "dino trail",
+      "every creature stomps",
+      "follow the dinosaur"
+    ],
     "chorusAfterRound1": [
       3,
       6
@@ -57,7 +78,7 @@
     "total": 26
   },
   "rhymeCraftCoverage": {
-    "available": 12,
+    "available": 13,
     "usedRound1": 10,
     "total": 26
   },

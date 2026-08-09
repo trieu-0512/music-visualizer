@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Tick-tock, lights flash—time machine on!",
+      "text": "First label: dinosaur. Next drawer: fossil bone. Ceiling mount: pterosaur.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A to Z, we are visiting a world long gone.",
+      "text": "The museum gets more interesting when 'prehistoric' is not one category.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A ... listen ... Allosaurus! Allosaurus strides by | three-fingered hands and sharp teeth catch the eye",
+      "text": "A — Allosaurus! Theropod dinosaur | large Jurassic predator with three-fingered hands.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Meet Bone, our B clue. A bone is a hard body structure; fossilized bones can preserve clues about prehistoric animals.",
+      "text": "B ... B ... Bone! Anatomical tissue that may fossilize | specimen part, not a taxonomic animal.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "through the time-machine window: C finds Carnotaurus. Carnotaurus draws near | two brow horns make the picture clear",
+      "text": "C? Carnotaurus! Theropod dinosaur | brow horns and tiny forelimbs mark the genus.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D for Diplodocus—Diplodocus was a long-necked sauropod with a very long tail and peg-like teeth near the front of its jaws.",
+      "text": "D is Diplodocus. Sauropod dinosaur | long neck, long tail, peg-like front teeth.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Which picture starts with E? Egg! Egg, oval shell | fossil nests have stories to tell",
+      "text": "E — Egg! Reproductive evidence | fossil eggs need nest and embryo context before assigning an exact parent.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F ... listen ... Fossil! It is preserved evidence of ancient life, such as bone, shell, a leaf impression, or a track.",
+      "text": "F ... F ... Fossil! Preserved remain or trace of past life | evidence category spanning plants, animals, and activity.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Meet Giganotosaurus, our G clue. Giganotosaurus was a giant theropod with a huge skull and powerful hind legs.",
+      "text": "G? Giganotosaurus! Carcharodontosaurid theropod dinosaur | enormous South American predator distinct from Tyrannosaurus.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "through the time-machine window: H finds Hadrosaur. Hadrosaurs were duck-billed plant eaters with rows of closely packed grinding teeth.",
+      "text": "H is Hadrosaur. Ornithopod dinosaur group | broad beaks and dental batteries define the duck-billed hall.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Back in time, one-two-three!",
+      "text": "Read, sort, name—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Name the past from A to Z!",
+      "text": "Dinosaur, fossil, pterosaur, marine reptile—labels matter.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I for Iguanodon—Iguanodon long ago | bones and body leave a clue to show",
+      "text": "I — Iguanodon! Ornithopod dinosaur | thumb spike and robust herbivore body.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Which picture starts with J? Jawbone! It holds teeth and can give paleontologists clues about how an animal ate.",
+      "text": "J ... J ... Jawbone! Fossil skeletal part | tooth sockets and jaw shape help identify feeding anatomy.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K ... listen ... Kritosaurus! Kritosaurus was a duck-billed hadrosaur, known from a broad beak and a large plant-eating body.",
+      "text": "K? Kritosaurus! Hadrosaurid dinosaur | known from incomplete material, especially skull remains.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Meet Lambeosaurus, our L clue. Lambeosaurus was a duck-billed dinosaur with a tall hollow crest rising from its skull.",
+      "text": "L is Lambeosaurus. Crested hadrosaurid dinosaur | hollow cranial crest is the label feature.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "through the time-machine window: M finds Mosasaurus. Mosasaurus swims the sea | marine reptile—not dinosaur—our clue to see",
+      "text": "M — Mosasaurus! Marine squamate reptile | prehistoric, huge, and definitely not a dinosaur.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N for Nest—A fossil nest or nesting site can reveal how some prehistoric animals laid and cared for eggs.",
+      "text": "N ... N ... Nest! Trace/reproductive structure | evidence of breeding behavior and site use.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Which picture starts with O? Ornithomimus! Ornithomimus runs light | long legs, small head, ostrich-like sight",
+      "text": "O? Ornithomimus! Feathered ornithomimid theropod dinosaur | long legs and toothless beak give an ostrich-like outline.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P ... listen ... Pachycephalosaurus! Pachycephalosaurus was a two-legged dinosaur with a very thick domed skull.",
+      "text": "P is Pachycephalosaurus. Pachycephalosaurid dinosaur | thick domed skull roof, behavior still debated.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Meet Quetzalcoatlus, our Q clue. Quetzalcoatlus in the sky | giant pterosaur wings could carry it high",
+      "text": "Q — Quetzalcoatlus! Azhdarchid pterosaur | flying reptile, not dinosaur.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "through the time-machine window: R finds Rib Bone. Ribs form a protective cage; fossil ribs help reveal an ancient body's shape.",
+      "text": "R ... R ... Rib Bone! Skeletal specimen part | belongs in anatomy drawers until matched to a skeleton.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S for Spinosaurus—Spinosaurus was a large theropod dinosaur with tall spines forming a sail-like structure along its back.",
+      "text": "S? Spinosaurus! Spinosaurid theropod dinosaur | sail-backed predator with strong aquatic adaptations.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Which picture starts with T? Triceratops! Triceratops was a plant-eating dinosaur with three facial horns and a large bony frill.",
+      "text": "T is Triceratops. Ceratopsid dinosaur | three horns, large frill, beaked mouth.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Back in time, one-two-three!",
+      "text": "Read, sort, name—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Name the past from A to Z!",
+      "text": "Dinosaur, fossil, pterosaur, marine reptile—labels matter.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U ... listen ... Unenlagia! Unenlagia on the track | fossil shapes bring the old clue back",
+      "text": "U — Unenlagia! Dromaeosaurid theropod dinosaur relative from South America | lightly built and likely feathered.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Meet Velociraptor, our V clue. Velociraptor was a small feathered theropod with a curved claw on each second toe.",
+      "text": "V ... V ... Velociraptor! Small feathered dromaeosaurid dinosaur | not the giant scaly movie version.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "through the time-machine window: W finds Wannanosaurus. Wannanosaurus was a small plant-eating dinosaur related to pachycephalosaurs, with a thickened skull roof.",
+      "text": "W? Wannanosaurus! Small pachycephalosaur relative | fragmentary Chinese fossils keep some details uncertain.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X for Xenoceratops—Xenoceratops was a horned ceratopsian with a large frill decorated by bony projections.",
+      "text": "X is Xenoceratops. Ceratopsid dinosaur | frill ornament and horned skull place it with horned dinosaurs.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Which picture starts with Y? Yinlong! Yinlong on the track | fossil shapes bring the old clue back",
+      "text": "Y — Yinlong! Early ceratopsian dinosaur | small Jurassic relative before later giant horned forms.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z ... listen ... Zephyrosaurus! Zephyrosaurus was a small plant-eating ornithischian with a light two-legged body.",
+      "text": "Z ... Z ... Zephyrosaurus! Small ornithopod dinosaur | light-bodied herbivore closes the label walk.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,21 +255,21 @@
     {
       "id": "chorus-r1-7-1",
       "sectionId": "chorus-r1-7",
-      "text": "Back in time, one-two-three!",
+      "text": "Read, sort, name—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-7-2",
       "sectionId": "chorus-r1-7",
-      "text": "Name the past from A to Z!",
+      "text": "Dinosaur, fossil, pterosaur, marine reptile—labels matter.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Cue A ... Allosaurus! Sway one pretend tail, then freeze.",
+      "text": "Label A ... Allosaurus! Sway one pretend tail, then freeze.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... B ... Bone! Trace the fossil shape with one finger.",
+      "text": "Sort B ... Bone! Trace the fossil shape with one finger.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Ready for C? ... Carnotaurus! Hold two horn fingers above your eyes.",
+      "text": "Which case, C? ... Carnotaurus! Hold two horn fingers above your eyes.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Show the match for D ... Diplodocus! Trace long neck forward, long tail behind.",
+      "text": "Museum clue D ... Diplodocus! Trace long neck forward, long tail behind.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Cue E ... Egg! Make a small oval shell with both hands, then point.",
+      "text": "Label E ... Egg! Make a small oval shell with both hands, then point.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... F ... Fossil! Brush the air gently like a fossil helper, then point.",
+      "text": "Sort F ... Fossil! Brush the air gently like a fossil helper, then point.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Ready for G? ... Giganotosaurus! Show a huge head; take two heavy steps.",
+      "text": "Which case, G? ... Giganotosaurus! Show a huge head; take two heavy steps.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Show the match for H ... Hadrosaur! Make a broad duck-bill with flat hands.",
+      "text": "Museum clue H ... Hadrosaur! Make a broad duck-bill with flat hands.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,7 +333,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Cue I ... Iguanodon! Lift one thumb like a thumb spike.",
+      "text": "Label I ... Iguanodon! Lift one thumb like a thumb spike.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -341,7 +341,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... J ... Jawbone! Tap two tiny footprint beats, then show the picture.",
+      "text": "Sort J ... Jawbone! Trace a curved jaw line, then point to the fossil drawer.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -349,7 +349,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Ready for K? ... Kritosaurus! Make a broad duck-bill; sweep its body shape.",
+      "text": "Which case, K? ... Kritosaurus! Make a broad duck-bill; sweep its body shape.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -357,7 +357,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Show the match for L ... Lambeosaurus! Curve one hand overhead like a tall crest.",
+      "text": "Museum clue L ... Lambeosaurus! Curve one hand overhead like a tall crest.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -365,21 +365,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Back in time, one-two-three!",
+      "text": "Read, sort, name—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Name the past from A to Z!",
+      "text": "Dinosaur, fossil, pterosaur, marine reptile—labels matter.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Cue M ... Mosasaurus! Glide one hand like a sea swimmer, then point.",
+      "text": "Label M ... Mosasaurus! Glide one hand like a sea swimmer, then point.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... N ... Nest! Cup both hands like a shallow nest, then point.",
+      "text": "Sort N ... Nest! Cup both hands like a shallow nest, then point.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Ready for O? ... Ornithomimus! Run two long finger-legs, ostrich-style.",
+      "text": "Which case, O? ... Ornithomimus! Run two long finger-legs, ostrich-style.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Show the match for P ... Pachycephalosaurus! Make a round dome above your head.",
+      "text": "Museum clue P ... Pachycephalosaurus! Make a round dome above your head.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,7 +411,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Cue Q ... Quetzalcoatlus! Glide two gentle hand-wings once, then point to the pterosaur.",
+      "text": "Label Q ... Quetzalcoatlus! Glide two gentle hand-wings once, then point to the pterosaur.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -419,7 +419,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... R ... Rib Bone! Brush the air gently like a fossil helper, then point.",
+      "text": "Sort R ... Rib Bone! Trace one rib curve, then point to the fossil drawer.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -427,7 +427,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Ready for S? ... Spinosaurus! Raise one hand like a tall back sail.",
+      "text": "Which case, S? ... Spinosaurus! Raise one hand like a tall back sail.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -435,7 +435,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Show the match for T ... Triceratops! Show three horns, then frame a broad frill.",
+      "text": "Museum clue T ... Triceratops! Show three horns, then frame a broad frill.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -443,7 +443,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Cue U ... Unenlagia! Open feathered arms; take two light steps.",
+      "text": "Label U ... Unenlagia! Open feathered arms; take two light steps.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -451,7 +451,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... V ... Velociraptor! Open feathered arms; curl one sickle-claw finger.",
+      "text": "Sort V ... Velociraptor! Open feathered arms; curl one sickle-claw finger.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -459,7 +459,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Ready for W? ... Wannanosaurus! Make a small skull dome; take two tiny steps.",
+      "text": "Which case, W? ... Wannanosaurus! Make a small skull dome; take two tiny steps.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -467,7 +467,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Show the match for X ... Xenoceratops! Frame a large frill; show horn shapes.",
+      "text": "Museum clue X ... Xenoceratops! Frame a large frill; show horn shapes.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -475,21 +475,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Back in time, one-two-three!",
+      "text": "Read, sort, name—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Name the past from A to Z!",
+      "text": "Dinosaur, fossil, pterosaur, marine reptile—labels matter.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Cue Y ... Yinlong! Make a small beak; take two tiny steps.",
+      "text": "Label Y ... Yinlong! Make a small beak; take two tiny steps.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -497,7 +497,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Z ... Zephyrosaurus! Make two light running finger-steps.",
+      "text": "Sort Z ... Zephyrosaurus! Make two light running finger-steps.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -505,14 +505,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Back in time, one-two-three!",
+      "text": "Last case closed; every label stays more precise than 'dino'.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Close the page softly—our prehistoric trail stays in the melody!",
+      "text": "A to Z leaves the museum sorted, not simplified.",
       "objective": "narration",
       "objectReveal": "none"
     }
