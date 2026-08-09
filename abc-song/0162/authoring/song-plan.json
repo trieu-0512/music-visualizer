@@ -6,11 +6,79 @@
   "tempoBpm": 86,
   "motifFamily": "home-shelf",
   "hook": [
-    "Home things—A-B-C!",
-    "Rooms and objects, look with me!"
+    "Place, anchor, clear—A-B-C!",
+    "A shelf is not the answer for every thing."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: Home Things Shelf",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "placement-stability-rhyme",
+    "chorusRhymeEngine": "place-anchor-clear-hook",
+    "pointOfView": "a child reasoning about home placement",
+    "chorusFunction": "repeat place-anchor-clear",
+    "grooveMeter": "84 BPM tidy shelf 6/8",
+    "round1Grammar": "object -> placement need -> safety",
+    "round2Grammar": "placement recall -> target -> point gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "home-placement",
+    "authorialIntent": "Make Home Things Shelf a storage-and-placement song: stable, fragile, electrical, living, soft, cold-storage and daily-carry items need different shelf/floor/wall positions.",
+    "lyricIdentity": "A child asks why an item is placed high, low, anchored, plugged, watered, or left clear rather than treating shelf as a universal storage answer.",
+    "imageMotifs": [
+      "anchored dresser",
+      "mirror wall",
+      "plant light",
+      "refrigerator",
+      "umbrella by door"
+    ],
+    "semanticArc": [
+      "stable placement",
+      "fragile/electrical",
+      "living/cold",
+      "daily return"
+    ],
+    "forbiddenGenericLanguage": [
+      "put everything shelf",
+      "home shelf",
+      "climb to reach",
+      "hide in fridge"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

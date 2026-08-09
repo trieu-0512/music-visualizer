@@ -6,11 +6,79 @@
   "tempoBpm": 84,
   "motifFamily": "cozy-house",
   "hook": [
-    "Cozy house—A-B-C!",
-    "Warm home words, sing with me!"
+    "Soft, light, clear—A-B-C!",
+    "Comfort works when the room stays safe to use."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: Cozy House Letter Song",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "comfort-system-rhyme",
+    "chorusRhymeEngine": "soft-light-clear-hook",
+    "pointOfView": "a child noticing what makes a home comfortably usable",
+    "chorusFunction": "repeat soft-light-clear",
+    "grooveMeter": "82 BPM cozy 6/8",
+    "round1Grammar": "object -> comfort/use contribution -> safety caveat",
+    "round2Grammar": "comfort-neutral recall -> target -> gentle gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "comfort-system",
+    "authorialIntent": "Make Cozy House Letter Song about comfort systems rather than decoration: warmth, soft support, light, clean textiles, food storage, airflow and quiet order create comfort while hazards stay controlled.",
+    "lyricIdentity": "A child learns cozy does not mean cluttered, overheated, or filled with loose soft items in every sleep context.",
+    "imageMotifs": [
+      "blanket",
+      "soft sofa",
+      "clean towel",
+      "night-neutral mirror",
+      "organized wardrobe"
+    ],
+    "semanticArc": [
+      "soft support",
+      "light/air",
+      "clean/order",
+      "heat/hazard boundary"
+    ],
+    "forbiddenGenericLanguage": [
+      "cozy means piles",
+      "soft everywhere sleep",
+      "warmest is best",
+      "home perfect"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

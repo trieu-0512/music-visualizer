@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore around the house with me!",
+      "text": "Armchair belongs with sitting, kettle with adult kitchen heat, nightlight with low night lighting, garage with vehicle work.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Around the house—A-B-C!",
+      "text": "Home objects make sense when room and safety travel together.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "In our house, A finds Armchair in a familiar room.",
+      "text": "A — Armchair! | Upholstered single-seat chair with arms; stable floor placement keeps it from becoming climbing equipment.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "In our house, B finds Blanket in a familiar room.",
+      "text": "B ... B ... Blanket! | Flexible textile layer provides warmth/comfort; loose bedding should suit age and sleep-safety context.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "In our house, C finds Chair in a familiar room.",
+      "text": "C? Chair! | Raised seat supports sitting; standing or rocking on ordinary chairs increases fall risk.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "In our house, D finds Dresser in a familiar room.",
+      "text": "D is Dresser. Storage furniture with drawers; tall units can tip and should be anchored where appropriate. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "In our house, E finds Envelope in a familiar room.",
+      "text": "E — Envelope! | Folded paper container carries letters/small flat items; it belongs to storage/mail, not furniture.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "In our house, F finds Fan in a familiar room.",
+      "text": "F ... F ... Fan! | Device moves air with rotating blades or blower; guards and electrical safety matter, fingers stay away.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "In our house, G finds Garage in a familiar room.",
+      "text": "G? Garage! | Vehicle/storage/work room; moving cars, tools, chemicals, and doors make it adult-managed space.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "In our house, H finds Hanger in a familiar room.",
+      "text": "H is Hanger. Clothing support hangs garments from a rail/hook; wire/plastic shapes are not toys. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Around the house—A-B-C!",
+      "text": "Room, job, safe—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Room to room, hop with me!",
+      "text": "Find the home zone before the action.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "In our house, I finds Iron in a familiar room.",
+      "text": "I — Iron! | Heated appliance presses fabric; hot soleplate, steam, and cord make it adult-only.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "In our house, J finds Jug in a familiar room.",
+      "text": "J ... J ... Jug! | Handled container pours liquid; material and contents determine weight, breakage, or heat hazards.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "In our house, K finds Kettle in a familiar room.",
+      "text": "K? Kettle! | Appliance/vessel heats water; boiling water, steam, and hot surfaces are adult-only.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "In our house, L finds Lamp in a familiar room.",
+      "text": "L is Lamp. Light fixture converts electrical energy to light; bulbs/shades can heat and cords/outlets need safe placement. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "In our house, M finds Mattress in a familiar room.",
+      "text": "M — Mattress! | Large padded sleep support used on a compatible bed/base; firmness and sleep guidance vary by age.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "In our house, N finds Nightlight in a familiar room.",
+      "text": "N ... N ... Nightlight! | Low-level light helps orientation at night; electrical units still need safe outlet/cord placement.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "In our house, O finds Oven in a familiar room.",
+      "text": "O? Oven! | High-heat cooking appliance; door, racks, cookware, and steam remain adult-only.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "In our house, P finds Pillow in a familiar room.",
+      "text": "P is Pillow. Soft head/body support; sleep-safety recommendations vary with age, especially for infants. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Around the house—A-B-C!",
+      "text": "Room, job, safe—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Room to room, hop with me!",
+      "text": "Find the home zone before the action.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "In our house, Q finds Quilted Cushion in a familiar room.",
+      "text": "Q — Quilted Cushion! | Padded fabric cushion stitched through layers; it is seating/decor support, not safe climbing equipment.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "In our house, R finds Rug in a familiar room.",
+      "text": "R ... R ... Rug! | Textile floor covering adds comfort or defines an area; non-slip backing/flat edges reduce trips.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "In our house, S finds Soap in a familiar room.",
+      "text": "S? Soap! | Cleaning substance lifts oils/dirt with water; avoid eyes/mouth and use the right product for hands, dishes, or surfaces.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "In our house, T finds Towel in a familiar room.",
+      "text": "T is Towel. Absorbent textile dries skin or surfaces; wet towels should be hung/spread to dry rather than left on floors. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "In our house, U finds Utensil Drawer in a familiar room.",
+      "text": "U — Utensil Drawer! | Kitchen drawer stores eating/prep tools; sharp utensils must be secured away from children.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "In our house, V finds Vase in a familiar room.",
+      "text": "V ... V ... Vase! | Container displays flowers; glass/ceramic versions can break and should sit on stable surfaces.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "In our house, W finds Window in a familiar room.",
+      "text": "W? Window! | Opening admits light/air/view; screens are not fall protection and children stay away from unsafe open heights.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "In our house, X finds Xylophone in a familiar room.",
+      "text": "X is Xylophone. Tuned-bar musical instrument; deliberate home-object comparison item, not furniture. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Around the house—A-B-C!",
+      "text": "Room, job, safe—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Room to room, hop with me!",
+      "text": "Find the home zone before the action.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "In our house, Y finds Yellow Cushion in a familiar room.",
+      "text": "Y — Yellow Cushion! | Cushion with yellow cover; color changes appearance, not its support function.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "In our house, Z finds Zen Garden in a familiar room.",
+      "text": "Z ... Z ... Zen Garden! | Small arranged sand/stone garden used for visual/tactile contemplation; tiny stones may be choking hazards for young children.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Doorway cue: A ... Armchair! Point when the answer comes.",
+      "text": "Room recall A ... Armchair! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Doorway cue: B ... Blanket! Point when the answer comes.",
+      "text": "Find B ... Blanket! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Doorway cue: C ... Chair! Point when the answer comes.",
+      "text": "Which one starts C? ... Chair! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Doorway cue: D ... Dresser! Point when the answer comes.",
+      "text": "Check D ... Dresser! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Doorway cue: E ... Envelope! Point when the answer comes.",
+      "text": "Room recall E ... Envelope! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Doorway cue: F ... Fan! Point when the answer comes.",
+      "text": "Find F ... Fan! Point; trace guarded airflow, keep fingers still.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Doorway cue: G ... Garage! Point when the answer comes.",
+      "text": "Which one starts G? ... Garage! Point; say vehicle/tool area is adult-managed.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Doorway cue: H ... Hanger! Point when the answer comes.",
+      "text": "Check H ... Hanger! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Around the house—A-B-C!",
+      "text": "Room, job, safe—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Room to room, hop with me!",
+      "text": "Find the home zone before the action.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Doorway cue: I ... Iron! Point when the answer comes.",
+      "text": "Room recall I ... Iron! Point only; hot appliance stays with an adult.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Doorway cue: J ... Jug! Point when the answer comes.",
+      "text": "Find J ... Jug! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Doorway cue: K ... Kettle! Point when the answer comes.",
+      "text": "Which one starts K? ... Kettle! Point only; no pouring/steam mime.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Doorway cue: L ... Lamp! Point when the answer comes.",
+      "text": "Check L ... Lamp! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Doorway cue: M ... Mattress! Point when the answer comes.",
+      "text": "Room recall M ... Mattress! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Doorway cue: N ... Nightlight! Point when the answer comes.",
+      "text": "Find N ... Nightlight! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Doorway cue: O ... Oven! Point when the answer comes.",
+      "text": "Which one starts O? ... Oven! Point only; adult heat zone.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Doorway cue: P ... Pillow! Point when the answer comes.",
+      "text": "Check P ... Pillow! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Around the house—A-B-C!",
+      "text": "Room, job, safe—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Room to room, hop with me!",
+      "text": "Find the home zone before the action.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Doorway cue: Q ... Quilted Cushion! Point when the answer comes.",
+      "text": "Room recall Q ... Quilted Cushion! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Doorway cue: R ... Rug! Point when the answer comes.",
+      "text": "Find R ... Rug! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Doorway cue: S ... Soap! Point when the answer comes.",
+      "text": "Which one starts S? ... Soap! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Doorway cue: T ... Towel! Point when the answer comes.",
+      "text": "Check T ... Towel! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Doorway cue: U ... Utensil Drawer! Point when the answer comes.",
+      "text": "Room recall U ... Utensil Drawer! Point; say sharp items stay secured.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Doorway cue: V ... Vase! Point when the answer comes.",
+      "text": "Find V ... Vase! Point; keep hands away from breakable real vase.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Doorway cue: W ... Window! Point when the answer comes.",
+      "text": "Which one starts W? ... Window! Point; show a stay-back-from-open-height palm.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Doorway cue: X ... Xylophone! Point when the answer comes.",
+      "text": "Check X ... Xylophone! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Around the house—A-B-C!",
+      "text": "Room, job, safe—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Room to room, hop with me!",
+      "text": "Find the home zone before the action.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Doorway cue: Y ... Yellow Cushion! Point when the answer comes.",
+      "text": "Room recall Y ... Yellow Cushion! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Doorway cue: Z ... Zen Garden! Point when the answer comes.",
+      "text": "Find Z ... Zen Garden! Point; tiny stones stay out of mouths.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Around the house—A-B-C!",
+      "text": "Oven cools behind the adult boundary; window stays secure; Xylophone returns to music.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z leaves every home zone in order.",
       "objective": "narration",
       "objectReveal": "none"
     }

@@ -6,11 +6,79 @@
   "tempoBpm": 89,
   "motifFamily": "everyday-home",
   "hook": [
-    "Everyday home—A-B-C!",
-    "Familiar things for you and me!"
+    "Use, clean, return—A-B-C!",
+    "A small safe task can be enough."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: Everyday Home ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "home-use-reset-rhyme",
+    "chorusRhymeEngine": "use-clean-return-hook",
+    "pointOfView": "a child joining age-appropriate home routines",
+    "chorusFunction": "repeat use-clean-return",
+    "grooveMeter": "90 BPM routine 4/4",
+    "round1Grammar": "object -> ordinary use -> adult boundary where needed",
+    "round2Grammar": "routine-neutral recall -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "home-routine",
+    "authorialIntent": "Make Everyday Home ABC a daily-use cycle: open/close, sit/rest, store/retrieve, wash/dry, chill food, move laundry, and put-away—without turning chores into compulsory child labor.",
+    "lyricIdentity": "A child participates only in age-appropriate household routines and recognizes adult appliance/tool steps.",
+    "imageMotifs": [
+      "door open-close",
+      "laundry basket",
+      "soap wash",
+      "refrigerator",
+      "wardrobe put-away"
+    ],
+    "semanticArc": [
+      "retrieve/use",
+      "clean",
+      "store",
+      "reset"
+    ],
+    "forbiddenGenericLanguage": [
+      "do every chore",
+      "home helper must",
+      "vacuum alone",
+      "kettle child task"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 2,
+    "usedRound1": 2,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

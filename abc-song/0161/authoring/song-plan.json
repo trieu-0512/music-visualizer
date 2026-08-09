@@ -6,11 +6,79 @@
   "tempoBpm": 91,
   "motifFamily": "house-hop",
   "hook": [
-    "Around the house—A-B-C!",
-    "Room to room, hop with me!"
+    "Room, job, safe—A-B-C!",
+    "Find the home zone before the action."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: House Room Hop",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "home-zone-rhyme",
+    "chorusRhymeEngine": "room-job-safe-hook",
+    "pointOfView": "a child mapping home zones",
+    "chorusFunction": "repeat room-job-safe",
+    "grooveMeter": "86 BPM room-walk 4/4",
+    "round1Grammar": "object -> home zone/function -> safety",
+    "round2Grammar": "zone-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "home-zone",
+    "authorialIntent": "Make House Room Hop a room-function and hazard map: rest, storage, kitchen heat, lighting, cleaning, decor, garage and passage objects belong to different zones; Xylophone/Envelope are category exceptions.",
+    "lyricIdentity": "A child moves room to room asking where an object belongs and whether it is safe to touch, only look at, or needs an adult.",
+    "imageMotifs": [
+      "armchair living room",
+      "kettle kitchen",
+      "nightlight bedroom",
+      "garage boundary",
+      "window stay-back"
+    ],
+    "semanticArc": [
+      "rest",
+      "storage/light",
+      "kitchen/clean",
+      "hazard/decor exceptions"
+    ],
+    "forbiddenGenericLanguage": [
+      "room hop everywhere",
+      "touch every object",
+      "home is always safe",
+      "xylophone furniture"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

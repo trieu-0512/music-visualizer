@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore cozy house with me!",
+      "text": "A blanket can add warmth, a sofa adds seating, a towel dries, clear floors and safe appliances add comfort too.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Cozy house—A-B-C!",
+      "text": "Cozy is a system, not a pile of soft things.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Inside our cozy house, A shows Alarm Clock in view.",
+      "text": "A — Alarm Clock! | Timepiece with alarm function signals a set time; it does not know whether a person has slept enough.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Inside our cozy house, B shows Blanket in view.",
+      "text": "B ... B ... Blanket! | Flexible textile layer provides warmth/comfort; loose bedding should suit age and sleep-safety context.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Inside our cozy house, C shows Cupboard in view.",
+      "text": "C? Cupboard! | Enclosed storage furniture with shelves/doors; contents determine whether child locks or high storage are needed.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Inside our cozy house, D shows Door in view.",
+      "text": "D is Door. Movable barrier opens/closes a passage; hinges and closing edges are pinch points. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Inside our cozy house, E shows Envelope in view.",
+      "text": "E — Envelope! | Folded paper container carries letters/small flat items; it belongs to storage/mail, not furniture.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Inside our cozy house, F shows Fan in view.",
+      "text": "F ... F ... Fan! | Device moves air with rotating blades or blower; guards and electrical safety matter, fingers stay away.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Inside our cozy house, G shows Glass in view.",
+      "text": "G? Glass! | Drinking vessel or transparent material depending context; breakable glassware needs careful adult judgment around children.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Inside our cozy house, H shows Hanger in view.",
+      "text": "H is Hanger. Clothing support hangs garments from a rail/hook; wire/plastic shapes are not toys. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Cozy house—A-B-C!",
+      "text": "Soft, light, clear—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Warm home words, sing with me!",
+      "text": "Comfort works when the room stays safe to use.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Inside our cozy house, I shows Iron in view.",
+      "text": "I — Iron! | Heated appliance presses fabric; hot soleplate, steam, and cord make it adult-only.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Inside our cozy house, J shows Jug in view.",
+      "text": "J ... J ... Jug! | Handled container pours liquid; material and contents determine weight, breakage, or heat hazards.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Inside our cozy house, K shows Kettle in view.",
+      "text": "K? Kettle! | Appliance/vessel heats water; boiling water, steam, and hot surfaces are adult-only.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Inside our cozy house, L shows Laundry Basket in view.",
+      "text": "L is Laundry Basket. Container gathers/carries laundry; it is not a ride-on toy and loads can block visibility. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Inside our cozy house, M shows Mirror in view.",
+      "text": "M — Mirror! | Reflective surface forms an image; securely mounted/nonbreakable designs reduce injury risk.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Inside our cozy house, N shows Napkin in view.",
+      "text": "N ... N ... Napkin! | Cloth/paper wipes hands/mouth during meals; it is not a substitute for washing when cleaning is needed.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Inside our cozy house, O shows Ottoman in view.",
+      "text": "O? Ottoman! | Low upholstered footrest/seat; storage ottomans may have lids/hinges needing finger safety.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Inside our cozy house, P shows Picture in view.",
+      "text": "P is Picture. Image/photo/artwork represents a scene or subject; it is a visual item rather than a functional appliance. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Cozy house—A-B-C!",
+      "text": "Soft, light, clear—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Warm home words, sing with me!",
+      "text": "Comfort works when the room stays safe to use.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Inside our cozy house, Q shows Quilt in view.",
+      "text": "Q — Quilt! | Layered stitched bedcover/textile; warmth and sleep suitability depend on age/context.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Inside our cozy house, R shows Refrigerator in view.",
+      "text": "R ... R ... Refrigerator! | Insulated appliance keeps food cold; doors, shelves, and food storage have safety rules and it is never a hiding place.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Inside our cozy house, S shows Sofa in view.",
+      "text": "S? Sofa! | Upholstered multi-seat furniture for sitting/resting; arms/back are not climbing platforms.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Inside our cozy house, T shows Towel in view.",
+      "text": "T is Towel. Absorbent textile dries skin or surfaces; wet towels should be hung/spread to dry rather than left on floors. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Inside our cozy house, U shows Utensil Drawer in view.",
+      "text": "U — Utensil Drawer! | Kitchen drawer stores eating/prep tools; sharp utensils must be secured away from children.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Inside our cozy house, V shows Vacuum in view.",
+      "text": "V ... V ... Vacuum! | Powered appliance removes dust/debris by airflow; cords, moving brush, and electricity require supervised use.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Inside our cozy house, W shows Wardrobe in view.",
+      "text": "W? Wardrobe! | Tall clothing-storage cabinet; anchoring and door/drawer safety can prevent tip/pinch hazards.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Inside our cozy house, X shows Xylophone in view.",
+      "text": "X is Xylophone. Tuned-bar musical instrument; deliberate home-object comparison item, not furniture. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Cozy house—A-B-C!",
+      "text": "Soft, light, clear—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Warm home words, sing with me!",
+      "text": "Comfort works when the room stays safe to use.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Inside our cozy house, Y shows Yellow Cushion in view.",
+      "text": "Y — Yellow Cushion! | Cushion with yellow cover; color changes appearance, not its support function.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Inside our cozy house, Z shows Zen Garden in view.",
+      "text": "Z ... Z ... Zen Garden! | Small arranged sand/stone garden used for visual/tactile contemplation; tiny stones may be choking hazards for young children.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Cozy pause: A ... Alarm Clock! Point to the clue.",
+      "text": "Cozy recall A ... Alarm Clock! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Cozy pause: B ... Blanket! Point to the clue.",
+      "text": "Find B ... Blanket! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Cozy pause: C ... Cupboard! Point to the clue.",
+      "text": "Which one starts C? ... Cupboard! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Cozy pause: D ... Door! Point to the clue.",
+      "text": "Check D ... Door! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Cozy pause: E ... Envelope! Point to the clue.",
+      "text": "Cozy recall E ... Envelope! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Cozy pause: F ... Fan! Point to the clue.",
+      "text": "Find F ... Fan! Point; trace guarded airflow, keep fingers still.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Cozy pause: G ... Glass! Point to the clue.",
+      "text": "Which one starts G? ... Glass! Point; say breakable item—handle only when suitable.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Cozy pause: H ... Hanger! Point to the clue.",
+      "text": "Check H ... Hanger! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Cozy house—A-B-C!",
+      "text": "Soft, light, clear—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Warm home words, sing with me!",
+      "text": "Comfort works when the room stays safe to use.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Cozy pause: I ... Iron! Point to the clue.",
+      "text": "Cozy recall I ... Iron! Point only; hot appliance stays with an adult.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Cozy pause: J ... Jug! Point to the clue.",
+      "text": "Find J ... Jug! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Cozy pause: K ... Kettle! Point to the clue.",
+      "text": "Which one starts K? ... Kettle! Point only; no pouring/steam mime.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Cozy pause: L ... Laundry Basket! Point to the clue.",
+      "text": "Check L ... Laundry Basket! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Cozy pause: M ... Mirror! Point to the clue.",
+      "text": "Cozy recall M ... Mirror! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Cozy pause: N ... Napkin! Point to the clue.",
+      "text": "Find N ... Napkin! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Cozy pause: O ... Ottoman! Point to the clue.",
+      "text": "Which one starts O? ... Ottoman! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Cozy pause: P ... Picture! Point to the clue.",
+      "text": "Check P ... Picture! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Cozy house—A-B-C!",
+      "text": "Soft, light, clear—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Warm home words, sing with me!",
+      "text": "Comfort works when the room stays safe to use.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Cozy pause: Q ... Quilt! Point to the clue.",
+      "text": "Cozy recall Q ... Quilt! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Cozy pause: R ... Refrigerator! Point to the clue.",
+      "text": "Find R ... Refrigerator! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Cozy pause: S ... Sofa! Point to the clue.",
+      "text": "Which one starts S? ... Sofa! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Cozy pause: T ... Towel! Point to the clue.",
+      "text": "Check T ... Towel! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Cozy pause: U ... Utensil Drawer! Point to the clue.",
+      "text": "Cozy recall U ... Utensil Drawer! Point; say sharp items stay secured.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Cozy pause: V ... Vacuum! Point to the clue.",
+      "text": "Find V ... Vacuum! Point; adult/supervised powered appliance.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Cozy pause: W ... Wardrobe! Point to the clue.",
+      "text": "Which one starts W? ... Wardrobe! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Cozy pause: X ... Xylophone! Point to the clue.",
+      "text": "Check X ... Xylophone! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Cozy house—A-B-C!",
+      "text": "Soft, light, clear—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Warm home words, sing with me!",
+      "text": "Comfort works when the room stays safe to use.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Cozy pause: Y ... Yellow Cushion! Point to the clue.",
+      "text": "Cozy recall Y ... Yellow Cushion! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Cozy pause: Z ... Zen Garden! Point to the clue.",
+      "text": "Find Z ... Zen Garden! Point; tiny stones stay out of mouths.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Cozy house—A-B-C!",
+      "text": "Iron cools out of reach, utensil drawer closes, wardrobe returns clothes to order.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z settles the house without clutter.",
       "objective": "narration",
       "objectReveal": "none"
     }

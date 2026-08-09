@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "home-helper",
   "hook": [
-    "Home helpers—A-B-C!",
-    "Objects help around with me!"
+    "Support, store, tool—A-B-C!",
+    "Name the role before touching the object."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "warm 3D home storybook, tidy rooms, familiar household objects, simple segmentation-friendly scenes; visual identity: Home Helper Objects",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "home-role-classification-rhyme",
+    "chorusRhymeEngine": "support-store-tool-hook",
+    "pointOfView": "a child classifying household roles",
+    "chorusFunction": "repeat support-store-tool-decor",
+    "grooveMeter": "86 BPM classify 6/8",
+    "round1Grammar": "object -> support/storage/tool/decor role -> boundary",
+    "round2Grammar": "role-neutral recall -> target -> safe point",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "home-role",
+    "authorialIntent": "Repair Home Helper Objects by distinguishing true task aids from furniture, decor, heat appliances and storage; 'helper' means functional support, not that every object should be used by a child.",
+    "lyricIdentity": "A child labels what helps a task, what supports a body, what stores, and what only decorates before assigning any action.",
+    "imageMotifs": [
+      "table support",
+      "cupboard storage",
+      "lamp light",
+      "iron adult tool",
+      "vase decor"
+    ],
+    "semanticArc": [
+      "support",
+      "storage",
+      "task aids",
+      "decor/hazard"
+    ],
+    "forbiddenGenericLanguage": [
+      "helper object use it",
+      "all objects help",
+      "iron helper child",
+      "decor tool"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 2,
+    "usedRound1": 2,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

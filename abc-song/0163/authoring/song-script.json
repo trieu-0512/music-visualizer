@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore everyday home with me!",
+      "text": "Open a door carefully, put laundry in the basket, wash with soap, return objects after use.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Everyday home—A-B-C!",
+      "text": "Everyday home routines include resetting the space.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Everyday A brings Armchair into our home picture.",
+      "text": "A — Armchair! | Upholstered single-seat chair with arms; stable floor placement keeps it from becoming climbing equipment.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Everyday B brings Bed into our home picture.",
+      "text": "B ... B ... Bed! | Furniture supports sleep/rest; safe setup depends on age, frame, mattress, rails, and surrounding space.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Everyday C brings Cupboard into our home picture.",
+      "text": "C? Cupboard! | Enclosed storage furniture with shelves/doors; contents determine whether child locks or high storage are needed.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Everyday D brings Door into our home picture.",
+      "text": "D is Door. Movable barrier opens/closes a passage; hinges and closing edges are pinch points. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Everyday E brings Envelope into our home picture.",
+      "text": "E — Envelope! | Folded paper container carries letters/small flat items; it belongs to storage/mail, not furniture.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Everyday F brings Fan into our home picture.",
+      "text": "F ... F ... Fan! | Device moves air with rotating blades or blower; guards and electrical safety matter, fingers stay away.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Everyday G brings Garage into our home picture.",
+      "text": "G? Garage! | Vehicle/storage/work room; moving cars, tools, chemicals, and doors make it adult-managed space.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Everyday H brings Hallway into our home picture.",
+      "text": "H is Hallway. Passage connects rooms; keeping it clear supports safe movement and emergency exit. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Everyday home—A-B-C!",
+      "text": "Use, clean, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Familiar things for you and me!",
+      "text": "A small safe task can be enough.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Everyday I brings Indoor Plant into our home picture.",
+      "text": "I — Indoor Plant! | Plant grown indoors needs species-appropriate light/water; some houseplants are toxic to children/pets if eaten.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Everyday J brings Jar into our home picture.",
+      "text": "J ... J ... Jar! | Rigid lidded container stores foods/items; glass can break and sealed contents may need adult access.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Everyday K brings Kettle into our home picture.",
+      "text": "K? Kettle! | Appliance/vessel heats water; boiling water, steam, and hot surfaces are adult-only.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Everyday L brings Laundry Basket into our home picture.",
+      "text": "L is Laundry Basket. Container gathers/carries laundry; it is not a ride-on toy and loads can block visibility. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Everyday M brings Mattress into our home picture.",
+      "text": "M — Mattress! | Large padded sleep support used on a compatible bed/base; firmness and sleep guidance vary by age.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Everyday N brings Napkin into our home picture.",
+      "text": "N ... N ... Napkin! | Cloth/paper wipes hands/mouth during meals; it is not a substitute for washing when cleaning is needed.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Everyday O brings Ottoman into our home picture.",
+      "text": "O? Ottoman! | Low upholstered footrest/seat; storage ottomans may have lids/hinges needing finger safety.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Everyday P brings Pillow into our home picture.",
+      "text": "P is Pillow. Soft head/body support; sleep-safety recommendations vary with age, especially for infants. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Everyday home—A-B-C!",
+      "text": "Use, clean, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Familiar things for you and me!",
+      "text": "A small safe task can be enough.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Everyday Q brings Quilt into our home picture.",
+      "text": "Q — Quilt! | Layered stitched bedcover/textile; warmth and sleep suitability depend on age/context.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Everyday R brings Refrigerator into our home picture.",
+      "text": "R ... R ... Refrigerator! | Insulated appliance keeps food cold; doors, shelves, and food storage have safety rules and it is never a hiding place.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Everyday S brings Soap into our home picture.",
+      "text": "S? Soap! | Cleaning substance lifts oils/dirt with water; avoid eyes/mouth and use the right product for hands, dishes, or surfaces.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Everyday T brings Table into our home picture.",
+      "text": "T is Table. Flat raised work/eating surface; stable use means no climbing or edge-loading. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Everyday U brings Umbrella into our home picture.",
+      "text": "U — Umbrella! | Portable canopy protects from rain/sun; pointed tips and opening mechanism need space.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Everyday V brings Vacuum into our home picture.",
+      "text": "V ... V ... Vacuum! | Powered appliance removes dust/debris by airflow; cords, moving brush, and electricity require supervised use.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Everyday W brings Wardrobe into our home picture.",
+      "text": "W? Wardrobe! | Tall clothing-storage cabinet; anchoring and door/drawer safety can prevent tip/pinch hazards.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Everyday X brings X-shaped Shelf into our home picture.",
+      "text": "X is X-shaped Shelf. Shelf/support arranged in an X-like form; wall anchoring/load limits still matter. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Everyday home—A-B-C!",
+      "text": "Use, clean, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Familiar things for you and me!",
+      "text": "A small safe task can be enough.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Everyday Y brings Yarn into our home picture.",
+      "text": "Y — Yarn! | Long fiber strand for craft/textiles; loose lengths can tangle and need supervision.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Everyday Z brings Zipper into our home picture.",
+      "text": "Z ... Z ... Zipper! | Interlocking teeth/slider closes fabric openings; fingers/fabric can catch if pulled carelessly.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Remember A ... Armchair! Point to the home clue.",
+      "text": "Home recall A ... Armchair! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Remember B ... Bed! Point to the home clue.",
+      "text": "Find B ... Bed! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Remember C ... Cupboard! Point to the home clue.",
+      "text": "Which one starts C? ... Cupboard! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Remember D ... Door! Point to the home clue.",
+      "text": "Check D ... Door! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Remember E ... Envelope! Point to the home clue.",
+      "text": "Home recall E ... Envelope! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Fan! Point to the home clue.",
+      "text": "Find F ... Fan! Point; trace guarded airflow, keep fingers still.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Remember G ... Garage! Point to the home clue.",
+      "text": "Which one starts G? ... Garage! Point; say vehicle/tool area is adult-managed.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Remember H ... Hallway! Point to the home clue.",
+      "text": "Check H ... Hallway! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Everyday home—A-B-C!",
+      "text": "Use, clean, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Familiar things for you and me!",
+      "text": "A small safe task can be enough.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Remember I ... Indoor Plant! Point to the home clue.",
+      "text": "Home recall I ... Indoor Plant! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Remember J ... Jar! Point to the home clue.",
+      "text": "Find J ... Jar! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Remember K ... Kettle! Point to the home clue.",
+      "text": "Which one starts K? ... Kettle! Point only; no pouring/steam mime.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Remember L ... Laundry Basket! Point to the home clue.",
+      "text": "Check L ... Laundry Basket! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Remember M ... Mattress! Point to the home clue.",
+      "text": "Home recall M ... Mattress! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Remember N ... Napkin! Point to the home clue.",
+      "text": "Find N ... Napkin! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Remember O ... Ottoman! Point to the home clue.",
+      "text": "Which one starts O? ... Ottoman! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Remember P ... Pillow! Point to the home clue.",
+      "text": "Check P ... Pillow! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Everyday home—A-B-C!",
+      "text": "Use, clean, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Familiar things for you and me!",
+      "text": "A small safe task can be enough.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Remember Q ... Quilt! Point to the home clue.",
+      "text": "Home recall Q ... Quilt! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Remember R ... Refrigerator! Point to the home clue.",
+      "text": "Find R ... Refrigerator! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Remember S ... Soap! Point to the home clue.",
+      "text": "Which one starts S? ... Soap! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Remember T ... Table! Point to the home clue.",
+      "text": "Check T ... Table! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Remember U ... Umbrella! Point to the home clue.",
+      "text": "Home recall U ... Umbrella! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Remember V ... Vacuum! Point to the home clue.",
+      "text": "Find V ... Vacuum! Point; adult/supervised powered appliance.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Remember W ... Wardrobe! Point to the home clue.",
+      "text": "Which one starts W? ... Wardrobe! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Remember X ... X-shaped Shelf! Point to the home clue.",
+      "text": "Check X ... X-shaped Shelf! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Everyday home—A-B-C!",
+      "text": "Use, clean, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Familiar things for you and me!",
+      "text": "A small safe task can be enough.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Remember Y ... Yarn! Point to the home clue.",
+      "text": "Home recall Y ... Yarn! Trace one loose curve in air; no wrapping.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Remember Z ... Zipper! Point to the home clue.",
+      "text": "Find Z ... Zipper! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Everyday home—A-B-C!",
+      "text": "Vacuum returns to adult/supervised storage, yarn stays untangled, zipper closes the last pouch.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends with the room reset.",
       "objective": "narration",
       "objectReveal": "none"
     }
