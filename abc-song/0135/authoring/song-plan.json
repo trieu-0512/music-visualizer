@@ -6,11 +6,79 @@
   "tempoBpm": 86,
   "motifFamily": "rail-journey",
   "hook": [
-    "Railway journey—A-B-C!",
-    "Ride the letter line with me!"
+    "Plan, board, arrive—A-B-C!",
+    "Passenger path stays separate from railway work."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Journey Song",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "rail-itinerary-rhyme",
+    "chorusRhymeEngine": "plan-board-ride-arrive-hook",
+    "pointOfView": "a child following a rail itinerary",
+    "chorusFunction": "repeat plan-board-arrive",
+    "grooveMeter": "88 BPM journey 6/8",
+    "round1Grammar": "rail component tied to itinerary or comparison honestly",
+    "round2Grammar": "itinerary-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "rail-itinerary",
+    "authorialIntent": "Make Railway Journey Song a door-to-door itinerary: check arrival board, ticket, platform, board passenger car, pass infrastructure, use quiet/sleeper/observation spaces appropriately, then arrive; freight and utility cars remain operational comparisons.",
+    "lyricIdentity": "A child follows journey stages and knows which cars/services are for passengers versus railway work or freight.",
+    "imageMotifs": [
+      "ticket and board",
+      "platform",
+      "passenger coach",
+      "viaduct view",
+      "waiting room arrival"
+    ],
+    "semanticArc": [
+      "plan",
+      "board",
+      "travel/service",
+      "arrive"
+    ],
+    "forbiddenGenericLanguage": [
+      "railway journey every car",
+      "ride freight car",
+      "night train magic",
+      "signal says adventure"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

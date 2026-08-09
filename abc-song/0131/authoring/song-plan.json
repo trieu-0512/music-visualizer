@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "station-arrive",
   "hook": [
-    "Station platform—A-B-C!",
-    "Train-time words arrive with me!"
+    "Read, wait, board—A-B-C!",
+    "Platform edge first, train second."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Station Platform ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "station-flow-rhyme",
+    "chorusRhymeEngine": "read-wait-board-hook",
+    "pointOfView": "a child navigating a station with an adult",
+    "chorusFunction": "repeat read-wait-board",
+    "grooveMeter": "86 BPM walking-platform 4/4",
+    "round1Grammar": "rail object -> passenger/system role -> boundary",
+    "round2Grammar": "safe recall -> target -> stationary gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "station-flow",
+    "authorialIntent": "Make Station Platform ABC a passenger-flow map: arrive, read, queue, pass gates, wait behind the edge, board through vestibules, and exit; train hardware is distinguished from passenger-facing station objects.",
+    "lyricIdentity": "A child moves through a station without touching track/control equipment; every step is about information and safe flow.",
+    "imageMotifs": [
+      "arrival sign",
+      "automatic gate",
+      "queue barrier",
+      "platform edge",
+      "vestibule door"
+    ],
+    "semanticArc": [
+      "arrive/read",
+      "gate/queue",
+      "platform/board",
+      "ride/exit"
+    ],
+    "forbiddenGenericLanguage": [
+      "station platform train fun",
+      "stand by rail",
+      "touch the signal",
+      "rush to train"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

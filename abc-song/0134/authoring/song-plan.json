@@ -6,11 +6,79 @@
   "tempoBpm": 91,
   "motifFamily": "subway-stop",
   "hook": [
-    "Subway stop—A-B-C!",
-    "Railway words stop here with me!"
+    "Metro, tunnel, route—A-B-C!",
+    "Keep the subway map smaller than the whole railway world."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Subway Stop A-Z",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "network-topology-rhyme",
+    "chorusRhymeEngine": "metro-tunnel-route-hook",
+    "pointOfView": "a child comparing rail network types",
+    "chorusFunction": "repeat network distinctions",
+    "grooveMeter": "86 BPM map-loop 4/4",
+    "round1Grammar": "rail fact plus network-context correction",
+    "round2Grammar": "network-neutral recall -> target -> map gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "network-topology",
+    "authorialIntent": "Repair Subway Stop A-Z into a network-topology song: metro/underground, intercity, sleeper/freight cars and surface crossings are mixed in the mapping, so the lyric compares network types instead of pretending all belong to one subway line.",
+    "lyricIdentity": "A child moves between a subway map and broader railway comparison cards, distinguishing tunnel transit from long-distance and freight stock.",
+    "imageMotifs": [
+      "metro map",
+      "underground tunnel",
+      "intercity card",
+      "sleeper car",
+      "boxcar comparison"
+    ],
+    "semanticArc": [
+      "urban rapid transit",
+      "station structures",
+      "long-distance comparisons",
+      "freight/surface exclusions"
+    ],
+    "forbiddenGenericLanguage": [
+      "subway all trains",
+      "boxcar subway",
+      "sleeper metro",
+      "underground means every rail"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

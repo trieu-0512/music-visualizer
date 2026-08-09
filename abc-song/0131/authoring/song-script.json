@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore train station with me!",
+      "text": "Read the board, pass the gate, queue back from the platform edge, board when the train is ready.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Station platform—A-B-C!",
+      "text": "A station journey begins with information, not rushing.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "At the station, A welcomes Automatic Gate by the platform.",
+      "text": "A — Automatic Gate! | Powered gate opens or closes access when a valid condition is met; at stations it may control fares or passenger flow, while crossing gates protect road-rail intersections.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "At the station, B welcomes Brake by the platform.",
+      "text": "B ... B ... Brake! | Train braking system slows wheelsets using friction, electrical/dynamic braking, air pressure, or combinations depending rolling stock.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "At the station, C welcomes Caboose by the platform.",
+      "text": "C? Caboose! | Crew car historically placed near the rear of many North American freight trains; modern freight operations often use other systems instead.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "At the station, D welcomes Dining Car by the platform.",
+      "text": "D is Dining Car. Passenger rail car contains tables and food service space; it is part of onboard service, not propulsion. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "At the station, E welcomes Electric Train by the platform.",
+      "text": "E — Electric Train! | Train draws electrical energy from overhead wire, third rail, batteries, or other sources depending system; traction motors turn wheels.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "At the station, F welcomes Freight Car by the platform.",
+      "text": "F ... F ... Freight Car! | Rail vehicle carries goods rather than passengers; boxcars, hoppers, tank cars, flats, and other types fit different loads.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "At the station, G welcomes Gate by the platform.",
+      "text": "G? Gate! | Rail/station gate controls access or protects a crossing; the pictured location determines its exact job.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "At the station, H welcomes High-speed Train by the platform.",
+      "text": "H is High-speed Train. Passenger train designed for sustained high speeds on suitable infrastructure; dedicated track geometry, signaling, and grade separation are common safety requirements. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Station platform—A-B-C!",
+      "text": "Read, wait, board—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Train-time words arrive with me!",
+      "text": "Platform edge first, train second.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "At the station, I welcomes Intercity Train by the platform.",
+      "text": "I — Intercity Train! | Passenger service links cities, usually with fewer stops and longer distances than local transit.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "At the station, J welcomes Junction Box by the platform.",
+      "text": "J ... J ... Junction Box! | Protected enclosure houses electrical connections; railway electrical equipment is for trained workers, not passenger handling.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "At the station, K welcomes Key Switch by the platform.",
+      "text": "K? Key Switch! | Locked/key-operated control allows authorized operation of equipment; passengers do not operate railway control switches.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "At the station, L welcomes Locomotive by the platform.",
+      "text": "L is Locomotive. Rail vehicle supplies tractive power to move itself and often other cars; power may be diesel-electric, electric, or other forms. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "At the station, M welcomes Monorail by the platform.",
+      "text": "M — Monorail! | Railway whose vehicles are guided by or suspended from a single beam/rail structure rather than a conventional pair of running rails.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "At the station, N welcomes Number Sign by the platform.",
+      "text": "N ... N ... Number Sign! | Displayed number identifies platform, track, car, route, or other railway information depending context.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "At the station, O welcomes Overpass by the platform.",
+      "text": "O? Overpass! | Bridge carries one route above another, separating traffic levels and reducing conflicts.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "At the station, P welcomes Platform by the platform.",
+      "text": "P is Platform. Raised or level boarding area beside a track; passengers stay behind edge markings until safe boarding. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Station platform—A-B-C!",
+      "text": "Read, wait, board—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Train-time words arrive with me!",
+      "text": "Platform edge first, train second.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "At the station, Q welcomes Queue Barrier by the platform.",
+      "text": "Q — Queue Barrier! | Posts, rails, or belts organize waiting lines and keep passenger flow orderly.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "At the station, R welcomes Rail by the platform.",
+      "text": "R ... R ... Rail! | Steel running surface guides flanged train wheels; tracks are not walking paths.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "At the station, S welcomes Subway by the platform.",
+      "text": "S? Subway! | Urban rapid-transit railway that may run underground, elevated, or at surface; 'subway' does not mean every section is tunneled.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "At the station, T welcomes Ticket by the platform.",
+      "text": "T is Ticket. Proof of fare/payment or travel authorization; it carries journey information but does not control the train. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "At the station, U welcomes Utility Car by the platform.",
+      "text": "U — Utility Car! | Rail vehicle assigned maintenance, inspection, work, or support functions; exact equipment varies by railway.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "At the station, V welcomes Vestibule by the platform.",
+      "text": "V ... V ... Vestibule! | Enclosed end/entry area of a passenger car connects doors and often adjacent cars; passengers follow door and movement rules.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "At the station, W welcomes Wagon by the platform.",
+      "text": "W? Wagon! | Railway term for a freight/passenger vehicle in some regions, while everyday English can also mean a road/hand cart; rail context matters.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "At the station, X welcomes Xpress Train by the platform.",
+      "text": "X is Xpress Train. Project label for an express-style train service; 'Xpress' is branding/spelling, while express generally means fewer stops or faster service pattern. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Station platform—A-B-C!",
+      "text": "Read, wait, board—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Train-time words arrive with me!",
+      "text": "Platform edge first, train second.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "At the station, Y welcomes Yellow Signal by the platform.",
+      "text": "Y — Yellow Signal! | Railway yellow aspect commonly indicates caution or a restrictive condition ahead, but exact meaning depends on the signaling system; drivers follow local rules.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "At the station, Z welcomes Zone Map by the platform.",
+      "text": "Z ... Z ... Zone Map! | Map divides a transit network into fare, service, or geographic zones; colors/labels explain boundaries.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Arrival cue: A ... Automatic Gate! Point when it comes.",
+      "text": "Station recall A ... Automatic Gate! Open/close two flat palms gently; never push through a real closed gate.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Arrival cue: B ... Brake! Point when it comes.",
+      "text": "Find B ... Brake! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Arrival cue: C ... Caboose! Point when it comes.",
+      "text": "Which one starts C? ... Caboose! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Arrival cue: D ... Dining Car! Point when it comes.",
+      "text": "Check D ... Dining Car! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Arrival cue: E ... Electric Train! Point when it comes.",
+      "text": "Station recall E ... Electric Train! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Arrival cue: F ... Freight Car! Point when it comes.",
+      "text": "Find F ... Freight Car! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Arrival cue: G ... Gate! Point when it comes.",
+      "text": "Which one starts G? ... Gate! Show a closed-bar shape; wait rather than go around.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Arrival cue: H ... High-speed Train! Point when it comes.",
+      "text": "Check H ... High-speed Train! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Station platform—A-B-C!",
+      "text": "Read, wait, board—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Train-time words arrive with me!",
+      "text": "Platform edge first, train second.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Arrival cue: I ... Intercity Train! Point when it comes.",
+      "text": "Station recall I ... Intercity Train! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Arrival cue: J ... Junction Box! Point when it comes.",
+      "text": "Find J ... Junction Box! Point only; electrical enclosure stays closed.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Arrival cue: K ... Key Switch! Point when it comes.",
+      "text": "Which one starts K? ... Key Switch! Point only; authorized staff operate the real control.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Arrival cue: L ... Locomotive! Point when it comes.",
+      "text": "Check L ... Locomotive! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Arrival cue: M ... Monorail! Point when it comes.",
+      "text": "Station recall M ... Monorail! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Arrival cue: N ... Number Sign! Point when it comes.",
+      "text": "Find N ... Number Sign! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Arrival cue: O ... Overpass! Point when it comes.",
+      "text": "Which one starts O? ... Overpass! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Arrival cue: P ... Platform! Point when it comes.",
+      "text": "Check P ... Platform! Point to the platform picture; draw an imaginary edge and stay behind it.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Station platform—A-B-C!",
+      "text": "Read, wait, board—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Train-time words arrive with me!",
+      "text": "Platform edge first, train second.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Arrival cue: Q ... Queue Barrier! Point when it comes.",
+      "text": "Station recall Q ... Queue Barrier! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Arrival cue: R ... Rail! Point when it comes.",
+      "text": "Find R ... Rail! Point only; make two parallel lines in the air—never a walking gesture on track.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Arrival cue: S ... Subway! Point when it comes.",
+      "text": "Which one starts S? ... Subway! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Arrival cue: T ... Ticket! Point when it comes.",
+      "text": "Check T ... Ticket! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Arrival cue: U ... Utility Car! Point when it comes.",
+      "text": "Station recall U ... Utility Car! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Arrival cue: V ... Vestibule! Point when it comes.",
+      "text": "Find V ... Vestibule! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Arrival cue: W ... Wagon! Point when it comes.",
+      "text": "Which one starts W? ... Wagon! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Arrival cue: X ... Xpress Train! Point when it comes.",
+      "text": "Check X ... Xpress Train! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Station platform—A-B-C!",
+      "text": "Read, wait, board—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Train-time words arrive with me!",
+      "text": "Platform edge first, train second.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Arrival cue: Y ... Yellow Signal! Point when it comes.",
+      "text": "Station recall Y ... Yellow Signal! Show a caution palm; say the exact rule depends on the railway.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Arrival cue: Z ... Zone Map! Point when it comes.",
+      "text": "Find Z ... Zone Map! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Station platform—A-B-C!",
+      "text": "Ticket kept, gate passed, platform left clear behind us.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends after the passenger flow is complete.",
       "objective": "narration",
       "objectReveal": "none"
     }

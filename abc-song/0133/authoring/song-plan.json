@@ -6,11 +6,79 @@
   "tempoBpm": 90,
   "motifFamily": "trackside-window",
   "hook": [
-    "Trackside letters—A-B-C!",
-    "Train and track words, come with me!"
+    "Look, line, signal—A-B-C!",
+    "Observe the railway without entering its path."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Trackside Letter Train",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "trackside-evidence-rhyme",
+    "chorusRhymeEngine": "look-line-signal-hook",
+    "pointOfView": "a child observing railways from a safe boundary",
+    "chorusFunction": "repeat look-line-signal",
+    "grooveMeter": "84 BPM field-note 6/8",
+    "round1Grammar": "rail object -> observable function -> no-track boundary",
+    "round2Grammar": "evidence recall -> target -> air-sketch",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "trackside-evidence",
+    "authorialIntent": "Make Trackside Letter Train a trackside evidence lesson: track geometry, cars, motive power, yard work, signals, crossings and waiting spaces are observed from safe public locations, never from the track itself.",
+    "lyricIdentity": "A child sketches railway evidence from behind a boundary; Yard Engine and Hopper Car reveal freight work while platform and waiting room reveal passenger use.",
+    "imageMotifs": [
+      "parallel rails",
+      "hopper discharge shape",
+      "yard engine",
+      "quiet car sign",
+      "safe waiting room"
+    ],
+    "semanticArc": [
+      "track/geometry",
+      "freight/motive power",
+      "signals/crossings",
+      "passenger spaces"
+    ],
+    "forbiddenGenericLanguage": [
+      "walk trackside",
+      "follow the rail on foot",
+      "touch train",
+      "zigzag track toy"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

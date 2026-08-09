@@ -6,11 +6,79 @@
   "tempoBpm": 92,
   "motifFamily": "rail-rhythm",
   "hook": [
-    "Railway rhythm—A-B-C!",
-    "Chug the picture words with me!"
+    "Signal, route, separate—A-B-C!",
+    "The safe path appears when the system agrees."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "warm 3D railway storybook, toy trains, clean platforms and trackside scenes; visual identity: Railway Rhythm Ride",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "rail-system-dependency-rhyme",
+    "chorusRhymeEngine": "signal-route-cross-hook",
+    "pointOfView": "a child seeing railway parts cooperate",
+    "chorusFunction": "repeat signal-route-separate",
+    "grooveMeter": "88 BPM interlocking pulse",
+    "round1Grammar": "system component -> function -> safe dependency",
+    "round2Grammar": "system recall -> target -> no-track gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "rail-system",
+    "authorialIntent": "Make Railway Rhythm Ride about railway infrastructure as a coordinated system: cars carry, signals authorize, junctions route, bridges separate levels, crossings manage conflicts, boards inform passengers.",
+    "lyricIdentity": "The rhythm comes from system dependencies, not imitation choo-choo sounds; a train can only move safely when infrastructure agrees.",
+    "imageMotifs": [
+      "signal aspect",
+      "junction switch",
+      "footbridge",
+      "level crossing gate",
+      "arrival board"
+    ],
+    "semanticArc": [
+      "information",
+      "route/control",
+      "structures",
+      "rolling stock"
+    ],
+    "forbiddenGenericLanguage": [
+      "railway rhythm choo",
+      "train beat",
+      "signal means go",
+      "cross the track"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

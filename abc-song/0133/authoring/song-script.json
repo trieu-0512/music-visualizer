@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore trains and tracks with me!",
+      "text": "Two rails guide wheels; a hopper carries bulk; a yard engine rearranges cars behind the fence.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Trackside letters—A-B-C!",
+      "text": "Trackside learning happens from a safe public place, never on the track.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Beside the tracks, A points out Automatic Gate as we pass.",
+      "text": "A — Automatic Gate! | Powered gate opens or closes access when a valid condition is met; at stations it may control fares or passenger flow, while crossing gates protect road-rail intersections.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Beside the tracks, B points out Boxcar as we pass.",
+      "text": "B ... B ... Boxcar! | Enclosed freight car with sliding/plug doors protects general cargo from weather.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Beside the tracks, C points out Coach as we pass.",
+      "text": "C? Coach! | Passenger rail car, especially for seated accommodation; coach is not the locomotive.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Beside the tracks, D points out Diesel Engine as we pass.",
+      "text": "D is Diesel Engine. Compression-ignition engine burns diesel fuel; diesel locomotives often use it to drive a generator feeding electric traction motors. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Beside the tracks, E points out Electric Train as we pass.",
+      "text": "E — Electric Train! | Train draws electrical energy from overhead wire, third rail, batteries, or other sources depending system; traction motors turn wheels.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Beside the tracks, F points out Freight Car as we pass.",
+      "text": "F ... F ... Freight Car! | Rail vehicle carries goods rather than passengers; boxcars, hoppers, tank cars, flats, and other types fit different loads.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Beside the tracks, G points out Gate as we pass.",
+      "text": "G? Gate! | Rail/station gate controls access or protects a crossing; the pictured location determines its exact job.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Beside the tracks, H points out Hopper Car as we pass.",
+      "text": "H is Hopper Car. Freight car with sloped bottom gates carries loose bulk material. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Trackside letters—A-B-C!",
+      "text": "Look, line, signal—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Train and track words, come with me!",
+      "text": "Observe the railway without entering its path.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Beside the tracks, I points out Information Board as we pass.",
+      "text": "I — Information Board! | Station display gives routes, times, platforms, rules, or notices; passengers use it to plan rather than guess track access.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Beside the tracks, J points out Junction as we pass.",
+      "text": "J ... J ... Junction! | Location where rail routes meet, split, or cross; switches and signals route trains safely.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Beside the tracks, K points out Key Switch as we pass.",
+      "text": "K? Key Switch! | Locked/key-operated control allows authorized operation of equipment; passengers do not operate railway control switches.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Beside the tracks, L points out Level Crossing as we pass.",
+      "text": "L is Level Crossing. Place where road/path crosses railway at the same level; users obey lights, bells, barriers, and never go around a closed gate. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Beside the tracks, M points out Monorail as we pass.",
+      "text": "M — Monorail! | Railway whose vehicles are guided by or suspended from a single beam/rail structure rather than a conventional pair of running rails.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Beside the tracks, N points out Night Train as we pass.",
+      "text": "N ... N ... Night Train! | Train service scheduled overnight; may include ordinary seats or sleeping accommodation depending route.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Beside the tracks, O points out Observation Car as we pass.",
+      "text": "O? Observation Car! | Passenger car designed with large windows or viewing areas for scenery; it is a service car, not a driving cab.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Beside the tracks, P points out Platform as we pass.",
+      "text": "P is Platform. Raised or level boarding area beside a track; passengers stay behind edge markings until safe boarding. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Trackside letters—A-B-C!",
+      "text": "Look, line, signal—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Train and track words, come with me!",
+      "text": "Observe the railway without entering its path.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Beside the tracks, Q points out Quiet Car as we pass.",
+      "text": "Q — Quiet Car! | Passenger area with reduced conversation/device noise under operator rules.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Beside the tracks, R points out Railway Signal as we pass.",
+      "text": "R ... R ... Railway Signal! | Visual/electronic signal communicates movement authority or restrictions to train crews; meanings depend on the railway rulebook.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Beside the tracks, S points out Subway as we pass.",
+      "text": "S? Subway! | Urban rapid-transit railway that may run underground, elevated, or at surface; 'subway' does not mean every section is tunneled.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Beside the tracks, T points out Train as we pass.",
+      "text": "T is Train. One or more rail vehicles operating together on a guided track system; signals and timetable/dispatch control safe separation. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Beside the tracks, U points out Underground Train as we pass.",
+      "text": "U — Underground Train! | Train operating on an underground/subway system or tunneled section; stations and signals govern movement.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Beside the tracks, V points out Viaduct as we pass.",
+      "text": "V ... V ... Viaduct! | Long bridge-like structure carries rail or road across a valley, streets, or low ground using repeated spans/supports.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Beside the tracks, W points out Waiting Room as we pass.",
+      "text": "W? Waiting Room! | Station room provides sheltered waiting; official signs still guide boarding.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Beside the tracks, X points out X-crossing Sign as we pass.",
+      "text": "X is X-crossing Sign. X-shaped railway-crossing warning sign marks a road-rail crossing; it warns road users, not trains to cross freely. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Trackside letters—A-B-C!",
+      "text": "Look, line, signal—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Train and track words, come with me!",
+      "text": "Observe the railway without entering its path.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Beside the tracks, Y points out Yard Engine as we pass.",
+      "text": "Y — Yard Engine! | Locomotive switches/assembles cars in a restricted rail yard.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Beside the tracks, Z points out Zigzag Track as we pass.",
+      "text": "Z ... Z ... Zigzag Track! | Project label for winding track; real railways use engineered curves, not sharp toy zigzags.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Window cue: A ... Automatic Gate! Point through the glass.",
+      "text": "Trackside recall A ... Automatic Gate! Open/close two flat palms gently; never push through a real closed gate.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Window cue: B ... Boxcar! Point through the glass.",
+      "text": "Find B ... Boxcar! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Window cue: C ... Coach! Point through the glass.",
+      "text": "Which one starts C? ... Coach! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Window cue: D ... Diesel Engine! Point through the glass.",
+      "text": "Check D ... Diesel Engine! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Window cue: E ... Electric Train! Point through the glass.",
+      "text": "Trackside recall E ... Electric Train! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Window cue: F ... Freight Car! Point through the glass.",
+      "text": "Find F ... Freight Car! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Window cue: G ... Gate! Point through the glass.",
+      "text": "Which one starts G? ... Gate! Show a closed-bar shape; wait rather than go around.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Window cue: H ... Hopper Car! Point through the glass.",
+      "text": "Check H ... Hopper Car! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Trackside letters—A-B-C!",
+      "text": "Look, line, signal—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Train and track words, come with me!",
+      "text": "Observe the railway without entering its path.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Window cue: I ... Information Board! Point through the glass.",
+      "text": "Trackside recall I ... Information Board! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Window cue: J ... Junction! Point through the glass.",
+      "text": "Find J ... Junction! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Window cue: K ... Key Switch! Point through the glass.",
+      "text": "Which one starts K? ... Key Switch! Point only; authorized staff operate the real control.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Window cue: L ... Level Crossing! Point through the glass.",
+      "text": "Check L ... Level Crossing! Cross two fingers into an X, then show a stop palm.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Window cue: M ... Monorail! Point through the glass.",
+      "text": "Trackside recall M ... Monorail! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Window cue: N ... Night Train! Point through the glass.",
+      "text": "Find N ... Night Train! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Window cue: O ... Observation Car! Point through the glass.",
+      "text": "Which one starts O? ... Observation Car! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Window cue: P ... Platform! Point through the glass.",
+      "text": "Check P ... Platform! Point to the platform picture; draw an imaginary edge and stay behind it.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Trackside letters—A-B-C!",
+      "text": "Look, line, signal—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Train and track words, come with me!",
+      "text": "Observe the railway without entering its path.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Window cue: Q ... Quiet Car! Point through the glass.",
+      "text": "Trackside recall Q ... Quiet Car! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Window cue: R ... Railway Signal! Point through the glass.",
+      "text": "Find R ... Railway Signal! Point to the signal; no 'go' gesture—meaning depends on aspect/system.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Window cue: S ... Subway! Point through the glass.",
+      "text": "Which one starts S? ... Subway! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Window cue: T ... Train! Point through the glass.",
+      "text": "Check T ... Train! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Window cue: U ... Underground Train! Point through the glass.",
+      "text": "Trackside recall U ... Underground Train! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Window cue: V ... Viaduct! Point through the glass.",
+      "text": "Find V ... Viaduct! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Window cue: W ... Waiting Room! Point through the glass.",
+      "text": "Which one starts W? ... Waiting Room! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Window cue: X ... X-crossing Sign! Point through the glass.",
+      "text": "Check X ... X-crossing Sign! Make an X with fingers; stop and look/listen under adult road-safety rules.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Trackside letters—A-B-C!",
+      "text": "Look, line, signal—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Train and track words, come with me!",
+      "text": "Observe the railway without entering its path.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Window cue: Y ... Yard Engine! Point through the glass.",
+      "text": "Trackside recall Y ... Yard Engine! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Window cue: Z ... Zigzag Track! Point through the glass.",
+      "text": "Find Z ... Zigzag Track! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Trackside letters—A-B-C!",
+      "text": "Waiting room stays public; yard track stays work-only; the last rail stays untouched.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z closes the field note from behind the boundary.",
       "objective": "narration",
       "objectReveal": "none"
     }
