@@ -6,11 +6,79 @@
   "tempoBpm": 86,
   "motifFamily": "family-day",
   "hook": [
-    "Family day—A-B-C!",
-    "Everyday home moments with me!"
+    "Share, plan, rest—A-B-C!",
+    "Choose tasks by age, ability, time, and care."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Family Day Picture Song",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "family-cooperation-rhyme",
+    "chorusRhymeEngine": "share-plan-rest-hook",
+    "pointOfView": "a child in a flexible family/household routine",
+    "chorusFunction": "repeat share-plan-rest",
+    "grooveMeter": "86 BPM warm family 6/8",
+    "round1Grammar": "object -> household role -> shared/flexible responsibility",
+    "round2Grammar": "family-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "family-cooperation",
+    "authorialIntent": "Make Family Day Picture Song about shared routines without gender roles: meals, packing, clothing, hygiene, rest and preparation can be distributed by age, ability, schedule and preference; family forms vary.",
+    "lyricIdentity": "A child sees a day supported by cooperation and choice rather than a mother/father job script.",
+    "imageMotifs": [
+      "shared breakfast",
+      "lunchbox pack",
+      "outfit choice",
+      "water bottle",
+      "evening quilt"
+    ],
+    "semanticArc": [
+      "morning together",
+      "day prep",
+      "shared meal/tasks",
+      "evening rest"
+    ],
+    "forbiddenGenericLanguage": [
+      "mom cooks dad works",
+      "perfect family",
+      "everyone same family",
+      "child must help"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 17,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

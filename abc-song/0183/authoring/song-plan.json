@@ -6,11 +6,79 @@
   "tempoBpm": 90,
   "motifFamily": "routine-wheel",
   "hook": [
-    "Home routine—A-B-C!",
-    "Round the house, come with me!"
+    "Use, clean, reset—A-B-C!",
+    "Finish the loop without chasing perfection."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Home Routine Round",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "routine-reset-loop-rhyme",
+    "chorusRhymeEngine": "use-clean-reset-hook",
+    "pointOfView": "a child helping reset household items",
+    "chorusFunction": "repeat use-clean-reset",
+    "grooveMeter": "88 BPM circular 4/4",
+    "round1Grammar": "object -> use/reset role -> safety",
+    "round2Grammar": "loop-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "reset-loop",
+    "authorialIntent": "Make Home Routine Round a reset-loop song: use, clean, refill, return, prepare next time—especially cups, lunchbox, towels, soap, bottle, zipper and charts; repetition is practical, not perfectionistic.",
+    "lyricIdentity": "A child sees routines as loops that reduce searching and contamination, while heat/powered tasks remain adult managed.",
+    "imageMotifs": [
+      "washed cup",
+      "refilled water bottle",
+      "lunchbox clean",
+      "towel dry",
+      "zipper closed"
+    ],
+    "semanticArc": [
+      "use",
+      "clean",
+      "refill/store",
+      "prepare again"
+    ],
+    "forbiddenGenericLanguage": [
+      "perfect routine",
+      "clean nonstop",
+      "child runs house",
+      "repeat forever"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 16,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

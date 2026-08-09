@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "routine-step",
   "hook": [
-    "Daily routine—A-B-C!",
-    "Step through the day with me!"
+    "Wake, ready, return—A-B-C!",
+    "Use the chart, then adapt to the day."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Daily Routine Steps",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "routine-transition-rhyme",
+    "chorusRhymeEngine": "wake-ready-return-hook",
+    "pointOfView": "a child following an adaptable daily sequence",
+    "chorusFunction": "repeat wake-ready-return",
+    "grooveMeter": "86 BPM stepwise 4/4",
+    "round1Grammar": "object -> routine role -> flexibility/safety",
+    "round2Grammar": "time-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "routine-transition",
+    "authorialIntent": "Make Daily Routine Steps a flexible sequence from wake/wash/dress/eat/pack/leave through return/clean/rest; charts support memory but the household can reorder or skip steps.",
+    "lyricIdentity": "A child follows transitions and distinguishes child-safe participation from adult heat/powered tasks.",
+    "imageMotifs": [
+      "morning chart",
+      "toothbrush",
+      "lunchbox",
+      "kettle adult zone",
+      "pajamas"
+    ],
+    "semanticArc": [
+      "wake/wash",
+      "dress/eat",
+      "pack/go",
+      "return/rest"
+    ],
+    "forbiddenGenericLanguage": [
+      "routine must exact",
+      "kids use kettle",
+      "do every chore",
+      "xylophone chore"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

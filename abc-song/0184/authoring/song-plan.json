@@ -6,11 +6,79 @@
   "tempoBpm": 92,
   "motifFamily": "ready-clean",
   "hook": [
-    "Ready and clean—A-B-C!",
-    "Simple routine pictures with me!"
+    "Ready, wash, dry—A-B-C!",
+    "Clean enough for the task is the goal."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Ready Clean ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "hygiene-prep-rhyme",
+    "chorusRhymeEngine": "ready-wash-dry-hook",
+    "pointOfView": "a child practicing proportionate hygiene",
+    "chorusFunction": "repeat ready-wash-dry",
+    "grooveMeter": "84 BPM clean-prep 6/8",
+    "round1Grammar": "object -> preparation/hygiene role -> proportional boundary",
+    "round2Grammar": "recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "hygiene-proportion",
+    "authorialIntent": "Make Ready Clean ABC about hygiene and preparation boundaries: washing hands, clean towels, food containers, clothing, dinner, vitamins and bedding are different care tasks; cleanliness never becomes fear of ordinary dirt or germs.",
+    "lyricIdentity": "A child learns useful hygiene moments and adult-managed medicine/food tasks without compulsive cleaning language.",
+    "imageMotifs": [
+      "hand soap",
+      "clean towel",
+      "dinner table",
+      "vitamin adult card",
+      "quilt"
+    ],
+    "semanticArc": [
+      "prepare",
+      "wash",
+      "eat/use",
+      "rest/store"
+    ],
+    "forbiddenGenericLanguage": [
+      "germs everywhere",
+      "clean again again",
+      "vitamins candy",
+      "sterile home"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 14,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

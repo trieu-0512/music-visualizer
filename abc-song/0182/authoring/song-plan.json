@@ -6,11 +6,79 @@
   "tempoBpm": 84,
   "motifFamily": "day-clock",
   "hook": [
-    "Morning, evening—A-B-C!",
-    "Clock the routine words with me!"
+    "Time, cue, check—A-B-C!",
+    "Read the clock and the situation together."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D daily-routine storybook, simple home actions and objects, clean morning-evening scenes; visual identity: Morning Evening Clock",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "clock-body-cue-rhyme",
+    "chorusRhymeEngine": "time-cue-check-hook",
+    "pointOfView": "a child reading time cues without ignoring body needs",
+    "chorusFunction": "repeat time-cue-check",
+    "grooveMeter": "82 BPM morning-evening 6/8",
+    "round1Grammar": "object -> time/routine cue -> limitation",
+    "round2Grammar": "cue-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "time-cue",
+    "authorialIntent": "Make Morning Evening Clock about time cues versus body needs: alarms, lamps, books, pajamas, food/drink and timers can support transitions, but clocks do not determine hunger, sleep sufficiency, or readiness by themselves.",
+    "lyricIdentity": "A child compares external schedule signals with internal needs and household plans.",
+    "imageMotifs": [
+      "alarm clock",
+      "morning light",
+      "evening book",
+      "nightlight",
+      "x-timer"
+    ],
+    "semanticArc": [
+      "wake cue",
+      "day prep",
+      "evening transition",
+      "sleep cue"
+    ],
+    "forbiddenGenericLanguage": [
+      "clock knows sleep",
+      "alarm means rested",
+      "timer decides body",
+      "same bedtime all"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 0,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

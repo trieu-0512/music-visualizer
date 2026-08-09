@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore morning and evening with me!",
+      "text": "Alarm can mark wake time, evening book can mark a transition, but neither can measure how tired a body feels.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Morning, evening—A-B-C!",
+      "text": "Clocks organize time; people still notice needs.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "At our picture clock, A brings Alarm Clock into the day.",
+      "text": "A — Alarm Clock! | Timepiece can signal a planned wake/event time; an alarm does not measure whether someone got enough sleep.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "At our picture clock, B brings Bed into the day.",
+      "text": "B ... B ... Bed! | Furniture supports sleep/rest; age-appropriate safe sleep setup matters, especially for infants/young children.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "At our picture clock, C brings Comb into the day.",
+      "text": "C? Comb! | Toothed grooming tool separates/arranges hair; clean personal combs reduce sharing of scalp contaminants.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "At our picture clock, D brings Door into the day.",
+      "text": "D is Door. Movable barrier opens/closes a passage; hinge and closing edge are pinch points. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "At our picture clock, E brings Evening Book into the day.",
+      "text": "E — Evening Book! | Book used during an evening routine; reading can cue transition without guaranteeing sleep.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "At our picture clock, F brings Face Towel into the day.",
+      "text": "F ... F ... Face Towel! | Small towel dries face; personal clean towels reduce cross-contamination and eye irritation.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "At our picture clock, G brings Glass into the day.",
+      "text": "G? Glass! | Drinking vessel can be breakable; age/material/context determine whether an adult should handle it.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "At our picture clock, H brings Hairbrush into the day.",
+      "text": "H is Hairbrush. Bristled/pinned grooming tool detangles/styles hair; gentle technique avoids pulling and personal brushes should stay clean. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Morning, evening—A-B-C!",
+      "text": "Time, cue, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Clock the routine words with me!",
+      "text": "Read the clock and the situation together.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "At our picture clock, I brings Ice Water into the day.",
+      "text": "I — Ice Water! | Cold drinking water with ice; small hard ice pieces can be choking risks for young children.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "At our picture clock, J brings Juice into the day.",
+      "text": "J ... J ... Juice! | Drink made from fruit/vegetable juice; amount, added sugar, and dental context matter, and water is still a core hydration drink.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "At our picture clock, K brings Key into the day.",
+      "text": "K? Key! | Lock-opening object; small keys can be choking hazards and access keys stay with responsible users.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "At our picture clock, L brings Lamp into the day.",
+      "text": "L is Lamp. Electrical light source; stable placement, hot bulbs, cords, and outlets need safe setup. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "At our picture clock, M brings Milk into the day.",
+      "text": "M — Milk! | Nutrient-containing drink/food; type and suitability depend on age, allergies/intolerance, diet, and household guidance.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "At our picture clock, N brings Nightlight into the day.",
+      "text": "N ... N ... Nightlight! | Low-level light aids orientation at night; outlet/cord placement remains an electrical safety issue.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "At our picture clock, O brings Outfit into the day.",
+      "text": "O? Outfit! | Set of clothes worn together; choice can reflect weather, activity, comfort, culture, or preference.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "At our picture clock, P brings Plate into the day.",
+      "text": "P is Plate. Flat dish holds food; material and food temperature determine safe handling. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Morning, evening—A-B-C!",
+      "text": "Time, cue, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Clock the routine words with me!",
+      "text": "Read the clock and the situation together.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "At our picture clock, Q brings Quiet Book into the day.",
+      "text": "Q — Quiet Book! | Soft/activity or reading book for calm independent/shared use; quiet is an option, not a punishment.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "At our picture clock, R brings Robe into the day.",
+      "text": "R ... R ... Robe! | Loose garment worn over sleepwear/clothes; belts/loose fabric need snag awareness.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "At our picture clock, S brings Soap into the day.",
+      "text": "S? Soap! | Cleaning substance helps water remove oils/dirt; avoid eyes/mouth and use the product intended for the task.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "At our picture clock, T brings Toothbrush into the day.",
+      "text": "T is Toothbrush. Brush cleans tooth surfaces with toothpaste/water as appropriate; it is personal and should not be shared. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "At our picture clock, U brings Uniform into the day.",
+      "text": "U — Uniform! | Standardized clothing for school/work/team; it identifies context but not a person's ability or worth.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "At our picture clock, V brings Vitamins into the day.",
+      "text": "V ... V ... Vitamins! | Micronutrients needed in small amounts; supplements are not candy and should only be given by responsible adults according to need/guidance.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "At our picture clock, W brings Washcloth into the day.",
+      "text": "W? Washcloth! | Small absorbent cloth supports washing skin/surfaces; use clean cloth and appropriate soap/water.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "At our picture clock, X brings X-shaped Timer into the day.",
+      "text": "X is X-shaped Timer. Project timer with X-like visual form; a timer shows elapsed/remaining time but cannot decide readiness by itself. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Morning, evening—A-B-C!",
+      "text": "Time, cue, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Clock the routine words with me!",
+      "text": "Read the clock and the situation together.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "At our picture clock, Y brings Yawn into the day.",
+      "text": "Y — Yawn! | Involuntary behavior associated with sleepiness and changes in alertness; a yawn alone does not prove bedtime or illness.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "At our picture clock, Z brings Zip Pajamas into the day.",
+      "text": "Z ... Z ... Zip Pajamas! | Pajamas closed with a zipper; slider/fabric can catch, so zip slowly and ensure comfortable fit.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Clock pause: A ... Alarm Clock! Point and say.",
+      "text": "Clock recall A ... Alarm Clock! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Clock pause: B ... Bed! Point and say.",
+      "text": "Find B ... Bed! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Clock pause: C ... Comb! Point and say.",
+      "text": "Which one starts C? ... Comb! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Clock pause: D ... Door! Point and say.",
+      "text": "Check D ... Door! Open/close two palms slowly; keep fingers away from hinge edge.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Clock pause: E ... Evening Book! Point and say.",
+      "text": "Clock recall E ... Evening Book! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Clock pause: F ... Face Towel! Point and say.",
+      "text": "Find F ... Face Towel! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Clock pause: G ... Glass! Point and say.",
+      "text": "Which one starts G? ... Glass! Point; say breakable if the pictured vessel is glass.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Clock pause: H ... Hairbrush! Point and say.",
+      "text": "Check H ... Hairbrush! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Morning, evening—A-B-C!",
+      "text": "Time, cue, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Clock the routine words with me!",
+      "text": "Read the clock and the situation together.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Clock pause: I ... Ice Water! Point and say.",
+      "text": "Clock recall I ... Ice Water! Point; no pretend ice swallowing.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Clock pause: J ... Juice! Point and say.",
+      "text": "Find J ... Juice! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Clock pause: K ... Key! Point and say.",
+      "text": "Which one starts K? ... Key! Point; keep real access keys with responsible adults.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Clock pause: L ... Lamp! Point and say.",
+      "text": "Check L ... Lamp! Point; no outlet/cord touching mime.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Clock pause: M ... Milk! Point and say.",
+      "text": "Clock recall M ... Milk! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Clock pause: N ... Nightlight! Point and say.",
+      "text": "Find N ... Nightlight! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Clock pause: O ... Outfit! Point and say.",
+      "text": "Which one starts O? ... Outfit! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Clock pause: P ... Plate! Point and say.",
+      "text": "Check P ... Plate! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Morning, evening—A-B-C!",
+      "text": "Time, cue, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Clock the routine words with me!",
+      "text": "Read the clock and the situation together.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Clock pause: Q ... Quiet Book! Point and say.",
+      "text": "Clock recall Q ... Quiet Book! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Clock pause: R ... Robe! Point and say.",
+      "text": "Find R ... Robe! Point; no belt wrapping around body.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Clock pause: S ... Soap! Point and say.",
+      "text": "Which one starts S? ... Soap! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Clock pause: T ... Toothbrush! Point and say.",
+      "text": "Check T ... Toothbrush! Mime brushing your own teeth with an empty finger; no sharing.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Clock pause: U ... Uniform! Point and say.",
+      "text": "Clock recall U ... Uniform! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Clock pause: V ... Vitamins! Point and say.",
+      "text": "Find V ... Vitamins! Point only; say adult gives correct dose—never candy play.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Clock pause: W ... Washcloth! Point and say.",
+      "text": "Which one starts W? ... Washcloth! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Clock pause: X ... X-shaped Timer! Point and say.",
+      "text": "Check X ... X-shaped Timer! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Morning, evening—A-B-C!",
+      "text": "Time, cue, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Clock the routine words with me!",
+      "text": "Read the clock and the situation together.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Clock pause: Y ... Yawn! Point and say.",
+      "text": "Clock recall Y ... Yawn! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Clock pause: Z ... Zip Pajamas! Point and say.",
+      "text": "Find Z ... Zip Pajamas! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Morning, evening—A-B-C!",
+      "text": "Nightlight stays low, timer stops, yawn remains only one clue.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends with time and body cues kept separate.",
       "objective": "narration",
       "objectReveal": "none"
     }

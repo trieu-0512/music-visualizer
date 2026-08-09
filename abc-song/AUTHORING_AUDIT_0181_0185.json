@@ -1,0 +1,359 @@
+{
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
+  "status": "FAIL",
+  "range": "0181-0185",
+  "songs": 5,
+  "schemaAndSemanticFailures": 3,
+  "warnings": 3,
+  "designReworkSongs": 3,
+  "uniqueHooks": 5,
+  "uniqueStyles": 5,
+  "uniqueSectionForms": 1,
+  "uniqueCreativeFingerprints": 5,
+  "maxLyricSimilarity": 0.0112,
+  "mostSimilarPair": [
+    "0182",
+    "0183"
+  ],
+  "batchWarnings": [],
+  "songsDetail": [
+    {
+      "songId": "0181",
+      "theme": "My Daily Routine",
+      "targetLines": 52,
+      "lyricWordCount": 928,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0182",
+      "theme": "Morning & Evening",
+      "targetLines": 52,
+      "lyricWordCount": 918,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0183",
+      "theme": "Home Routines",
+      "targetLines": 52,
+      "lyricWordCount": 911,
+      "designStatus": "REWORK",
+      "creativeReworkReasons": [
+        "Object Craft Lexicon coverage is 16/26; gold-standard controlled variation requires semantic/action craft for every target"
+      ],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [
+        "round1 A: canonical object 'Apron' missing from line",
+        "round2 A: canonical object 'Apron' missing from line",
+        "round1 B: canonical object 'Bed' missing from line",
+        "round2 B: canonical object 'Bed' missing from line",
+        "round1 D: canonical object 'Dinner' missing from line",
+        "round2 D: canonical object 'Dinner' missing from line",
+        "round1 I: canonical object 'Ice Water' missing from line",
+        "round2 I: canonical object 'Ice Water' missing from line",
+        "round1 L: canonical object 'Lamp' missing from line",
+        "round2 L: canonical object 'Lamp' missing from line",
+        "round1 O: canonical object 'Outfit' missing from line",
+        "round2 O: canonical object 'Outfit' missing from line",
+        "round1 Q: canonical object 'Quilt' missing from line",
+        "round2 Q: canonical object 'Quilt' missing from line",
+        "round1 R: canonical object 'Robe' missing from line",
+        "round2 R: canonical object 'Robe' missing from line",
+        "round1 U: canonical object 'Uniform' missing from line",
+        "round2 U: canonical object 'Uniform' missing from line",
+        "round1 V: canonical object 'Vitamins' missing from line",
+        "round2 V: canonical object 'Vitamins' missing from line"
+      ],
+      "warnings": [
+        "CREATIVE REWORK: Object Craft Lexicon coverage is 16/26; gold-standard controlled variation requires semantic/action craft for every target"
+      ]
+    },
+    {
+      "songId": "0184",
+      "theme": "Getting Ready & Cleaning",
+      "targetLines": 52,
+      "lyricWordCount": 911,
+      "designStatus": "REWORK",
+      "creativeReworkReasons": [
+        "Object Craft Lexicon coverage is 14/26; gold-standard controlled variation requires semantic/action craft for every target"
+      ],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [
+        "round1 A: canonical object 'Alarm Clock' missing from line",
+        "round2 A: canonical object 'Alarm Clock' missing from line",
+        "round1 B: canonical object 'Bed' missing from line",
+        "round2 B: canonical object 'Bed' missing from line",
+        "round1 H: canonical object 'Hand Soap' missing from line",
+        "round2 H: canonical object 'Hand Soap' missing from line",
+        "round1 J: canonical object 'Jacket' missing from line",
+        "round2 J: canonical object 'Jacket' missing from line",
+        "round1 K: canonical object 'Kettle' missing from line",
+        "round2 K: canonical object 'Kettle' missing from line",
+        "round1 L: canonical object 'Lunchbox' missing from line",
+        "round2 L: canonical object 'Lunchbox' missing from line",
+        "round1 M: canonical object 'Milk' missing from line",
+        "round2 M: canonical object 'Milk' missing from line",
+        "round1 V: canonical object 'Vacuum' missing from line",
+        "round2 V: canonical object 'Vacuum' missing from line",
+        "round1 W: canonical object 'Washcloth' missing from line",
+        "round2 W: canonical object 'Washcloth' missing from line",
+        "round1 X: canonical object 'X-shaped Timer' missing from line",
+        "round2 X: canonical object 'X-shaped Timer' missing from line",
+        "round1 Y: canonical object 'Yawn' missing from line",
+        "round2 Y: canonical object 'Yawn' missing from line",
+        "round1 Z: canonical object 'Zip Pajamas' missing from line",
+        "round2 Z: canonical object 'Zip Pajamas' missing from line"
+      ],
+      "warnings": [
+        "CREATIVE REWORK: Object Craft Lexicon coverage is 14/26; gold-standard controlled variation requires semantic/action craft for every target"
+      ]
+    },
+    {
+      "songId": "0185",
+      "theme": "Family Day",
+      "targetLines": 52,
+      "lyricWordCount": 896,
+      "designStatus": "REWORK",
+      "creativeReworkReasons": [
+        "Object Craft Lexicon coverage is 17/26; gold-standard controlled variation requires semantic/action craft for every target"
+      ],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [
+        "round1 B: canonical object 'Bath' missing from line",
+        "round2 B: canonical object 'Bath' missing from line",
+        "round1 C: canonical object 'Cup' missing from line",
+        "round2 C: canonical object 'Cup' missing from line",
+        "round1 G: canonical object 'Glass' missing from line",
+        "round2 G: canonical object 'Glass' missing from line",
+        "round1 H: canonical object 'Hairbrush' missing from line",
+        "round2 H: canonical object 'Hairbrush' missing from line",
+        "round1 I: canonical object 'Indoor Shoes' missing from line",
+        "round2 I: canonical object 'Indoor Shoes' missing from line",
+        "round1 L: canonical object 'Lamp' missing from line",
+        "round2 L: canonical object 'Lamp' missing from line",
+        "round1 N: canonical object 'Napkin' missing from line",
+        "round2 N: canonical object 'Napkin' missing from line",
+        "round1 U: canonical object 'Utensils' missing from line",
+        "round2 U: canonical object 'Utensils' missing from line",
+        "round1 Z: canonical object 'Zip Pajamas' missing from line",
+        "round2 Z: canonical object 'Zip Pajamas' missing from line"
+      ],
+      "warnings": [
+        "CREATIVE REWORK: Object Craft Lexicon coverage is 17/26; gold-standard controlled variation requires semantic/action craft for every target"
+      ]
+    }
+  ]
+}

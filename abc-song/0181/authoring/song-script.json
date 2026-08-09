@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore my daily routine with me!",
+      "text": "Wake, wash, dress, eat, pack—then the order can change when the day changes.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Daily routine—A-B-C!",
+      "text": "A routine is a memory path, not a rulebook carved in stone.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "During our day, A shows Apron in the routine line.",
+      "text": "A — Apron! | Protective garment covers clothing during cooking/craft/cleaning; it does not replace handwashing or safe tool use.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "During our day, B shows Bath in the routine line.",
+      "text": "B ... B ... Bath! | Washing body in tub/shower; young children need close adult supervision around water and safe water temperature.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "During our day, C shows Comb in the routine line.",
+      "text": "C? Comb! | Toothed grooming tool separates/arranges hair; clean personal combs reduce sharing of scalp contaminants.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "During our day, D shows Door in the routine line.",
+      "text": "D is Door. Movable barrier opens/closes a passage; hinge and closing edge are pinch points. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "During our day, E shows Eggs in the routine line.",
+      "text": "E — Eggs! | Food with shell, white, and yolk; raw/undercooked egg can carry pathogens, so hygiene and cooking guidance matter.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "During our day, F shows Fork in the routine line.",
+      "text": "F ... F ... Fork! | Tined eating utensil; use seated/calmly and choose age-appropriate size.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "During our day, G shows Getting-dressed Chart in the routine line.",
+      "text": "G? Getting-dressed Chart! | Visual sequence supports remembering clothing steps; it is a prompt, not a rule that every outfit uses every item.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "During our day, H shows Hairbrush in the routine line.",
+      "text": "H is Hairbrush. Bristled/pinned grooming tool detangles/styles hair; gentle technique avoids pulling and personal brushes should stay clean. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Daily routine—A-B-C!",
+      "text": "Wake, ready, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Step through the day with me!",
+      "text": "Use the chart, then adapt to the day.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "During our day, I shows Indoor Shoes in the routine line.",
+      "text": "I — Indoor Shoes! | Footwear reserved for indoor surfaces; helps separate outdoor dirt and may support household/school routines.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "During our day, J shows Jacket in the routine line.",
+      "text": "J ... J ... Jacket! | Outer layer adds warmth/weather protection depending material; choose it for conditions, not simply because it appears on a chart.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "During our day, K shows Kettle in the routine line.",
+      "text": "K? Kettle! | Appliance/vessel heats water; boiling water, steam, and hot surfaces are adult-only.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "During our day, L shows Lunchbox in the routine line.",
+      "text": "L is Lunchbox. Container carries a meal/snack; food temperature and hygiene depend on contents and storage. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "During our day, M shows Morning Chart in the routine line.",
+      "text": "M — Morning Chart! | Visual routine prompt lists morning tasks in an order that can be adapted to the household.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "During our day, N shows Nightlight in the routine line.",
+      "text": "N ... N ... Nightlight! | Low-level light aids orientation at night; outlet/cord placement remains an electrical safety issue.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "During our day, O shows Oatmeal in the routine line.",
+      "text": "O? Oatmeal! | Cooked oat cereal absorbs liquid and thickens; it can stay very hot after cooking, so temperature is checked before eating.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "During our day, P shows Pajamas in the routine line.",
+      "text": "P is Pajamas. Sleepwear designed for comfort; fabric/fit and sleep-safety guidance vary by age. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Daily routine—A-B-C!",
+      "text": "Wake, ready, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Step through the day with me!",
+      "text": "Use the chart, then adapt to the day.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "During our day, Q shows Quiet Book in the routine line.",
+      "text": "Q — Quiet Book! | Soft/activity or reading book for calm independent/shared use; quiet is an option, not a punishment.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "During our day, R shows Routine Chart in the routine line.",
+      "text": "R ... R ... Routine Chart! | Visual list helps remember repeated tasks; routines can flex when needs or schedules change.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "During our day, S shows Soap in the routine line.",
+      "text": "S? Soap! | Cleaning substance helps water remove oils/dirt; avoid eyes/mouth and use the product intended for the task.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "During our day, T shows Toothbrush in the routine line.",
+      "text": "T is Toothbrush. Brush cleans tooth surfaces with toothpaste/water as appropriate; it is personal and should not be shared. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "During our day, U shows Utensils in the routine line.",
+      "text": "U — Utensils! | General word for eating/prep tools; exact safety depends on whether the utensil is a spoon, knife, fork, etc.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "During our day, V shows Vacuum in the routine line.",
+      "text": "V ... V ... Vacuum! | Powered cleaning appliance removes debris by airflow; cords/electricity/moving brush require adult or supervised use.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "During our day, W shows Washcloth in the routine line.",
+      "text": "W? Washcloth! | Small absorbent cloth supports washing skin/surfaces; use clean cloth and appropriate soap/water.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "During our day, X shows Xylophone in the routine line.",
+      "text": "X is Xylophone. Tuned-bar musical instrument; deliberate routine-set comparison item, not a required morning chore. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Daily routine—A-B-C!",
+      "text": "Wake, ready, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Step through the day with me!",
+      "text": "Use the chart, then adapt to the day.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "During our day, Y shows Yawn in the routine line.",
+      "text": "Y — Yawn! | Involuntary behavior associated with sleepiness and changes in alertness; a yawn alone does not prove bedtime or illness.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "During our day, Z shows Zip Pajamas in the routine line.",
+      "text": "Z ... Z ... Zip Pajamas! | Pajamas closed with a zipper; slider/fabric can catch, so zip slowly and ensure comfortable fit.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Next step: A ... Apron! Point right on time.",
+      "text": "Routine recall A ... Apron! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Next step: B ... Bath! Point right on time.",
+      "text": "Find B ... Bath! Point to bath picture; say close adult supervision—no water-play mime.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Next step: C ... Comb! Point right on time.",
+      "text": "Which one starts C? ... Comb! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Next step: D ... Door! Point right on time.",
+      "text": "Check D ... Door! Open/close two palms slowly; keep fingers away from hinge edge.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Next step: E ... Eggs! Point right on time.",
+      "text": "Routine recall E ... Eggs! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Next step: F ... Fork! Point right on time.",
+      "text": "Find F ... Fork! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Next step: G ... Getting-dressed Chart! Point right on time.",
+      "text": "Which one starts G? ... Getting-dressed Chart! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Next step: H ... Hairbrush! Point right on time.",
+      "text": "Check H ... Hairbrush! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Daily routine—A-B-C!",
+      "text": "Wake, ready, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Step through the day with me!",
+      "text": "Use the chart, then adapt to the day.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Next step: I ... Indoor Shoes! Point right on time.",
+      "text": "Routine recall I ... Indoor Shoes! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Next step: J ... Jacket! Point right on time.",
+      "text": "Find J ... Jacket! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Next step: K ... Kettle! Point right on time.",
+      "text": "Which one starts K? ... Kettle! Point only; hot adult appliance.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Next step: L ... Lunchbox! Point right on time.",
+      "text": "Check L ... Lunchbox! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Next step: M ... Morning Chart! Point right on time.",
+      "text": "Routine recall M ... Morning Chart! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Next step: N ... Nightlight! Point right on time.",
+      "text": "Find N ... Nightlight! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Next step: O ... Oatmeal! Point right on time.",
+      "text": "Which one starts O? ... Oatmeal! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Next step: P ... Pajamas! Point right on time.",
+      "text": "Check P ... Pajamas! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Daily routine—A-B-C!",
+      "text": "Wake, ready, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Step through the day with me!",
+      "text": "Use the chart, then adapt to the day.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Next step: Q ... Quiet Book! Point right on time.",
+      "text": "Routine recall Q ... Quiet Book! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Next step: R ... Routine Chart! Point right on time.",
+      "text": "Find R ... Routine Chart! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Next step: S ... Soap! Point right on time.",
+      "text": "Which one starts S? ... Soap! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Next step: T ... Toothbrush! Point right on time.",
+      "text": "Check T ... Toothbrush! Mime brushing your own teeth with an empty finger; no sharing.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Next step: U ... Utensils! Point right on time.",
+      "text": "Routine recall U ... Utensils! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Next step: V ... Vacuum! Point right on time.",
+      "text": "Find V ... Vacuum! Point only; powered tool stays adult/supervised.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Next step: W ... Washcloth! Point right on time.",
+      "text": "Which one starts W? ... Washcloth! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Next step: X ... Xylophone! Point right on time.",
+      "text": "Check X ... Xylophone! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Daily routine—A-B-C!",
+      "text": "Wake, ready, return—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Step through the day with me!",
+      "text": "Use the chart, then adapt to the day.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Next step: Y ... Yawn! Point right on time.",
+      "text": "Routine recall Y ... Yawn! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Next step: Z ... Zip Pajamas! Point right on time.",
+      "text": "Find Z ... Zip Pajamas! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Daily routine—A-B-C!",
+      "text": "Kettle stays adult-only, vacuum returns to supervised storage, pajamas close the day.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends with the routine ready to change tomorrow.",
       "objective": "narration",
       "objectReveal": "none"
     }

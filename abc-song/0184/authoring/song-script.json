@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore getting ready and cleaning with me!",
+      "text": "Wash hands when the routine calls for it, dry with a clean towel, keep food containers clean, let adults manage vitamins.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Ready and clean—A-B-C!",
+      "text": "Clean means useful care—not fear of every speck.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "For A, our getting-ready chart shows Alarm Clock today.",
+      "text": "A — Apron! | Protective garment covers clothing during cooking/craft/cleaning; it does not replace handwashing or safe tool use.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "For B, our getting-ready chart shows Bed today.",
+      "text": "B ... B ... Bath! | Washing body in tub/shower; young children need close adult supervision around water and safe water temperature.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "For C, our getting-ready chart shows Cup today.",
+      "text": "C? Cup! | Small open drinking/measure container; exact role depends on context.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "For D, our getting-ready chart shows Dinner today.",
+      "text": "D is Dinner. Evening/main meal in many routines; timing, foods, and family structure vary widely. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "For E, our getting-ready chart shows Evening Book today.",
+      "text": "E — Evening Book! | Book used during an evening routine; reading can cue transition without guaranteeing sleep.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "For F, our getting-ready chart shows Face Towel today.",
+      "text": "F ... F ... Face Towel! | Small towel dries face; personal clean towels reduce cross-contamination and eye irritation.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "For G, our getting-ready chart shows Getting-dressed Chart today.",
+      "text": "G? Getting-dressed Chart! | Visual sequence supports remembering clothing steps; it is a prompt, not a rule that every outfit uses every item.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "For H, our getting-ready chart shows Hand Soap today.",
+      "text": "H is Hairbrush. Bristled/pinned grooming tool detangles/styles hair; gentle technique avoids pulling and personal brushes should stay clean. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Ready and clean—A-B-C!",
+      "text": "Ready, wash, dry—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Simple routine pictures with me!",
+      "text": "Clean enough for the task is the goal.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "For I, our getting-ready chart shows Indoor Shoes today.",
+      "text": "I — Indoor Shoes! | Footwear reserved for indoor surfaces; helps separate outdoor dirt and may support household/school routines.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "For J, our getting-ready chart shows Jacket today.",
+      "text": "J ... J ... Juice! | Drink made from fruit/vegetable juice; amount, added sugar, and dental context matter, and water is still a core hydration drink.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "For K, our getting-ready chart shows Kettle today.",
+      "text": "K? Key! | Lock-opening object; small keys can be choking hazards and access keys stay with responsible users.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "For L, our getting-ready chart shows Lunchbox today.",
+      "text": "L is Lamp. Electrical light source; stable placement, hot bulbs, cords, and outlets need safe setup. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "For M, our getting-ready chart shows Milk today.",
+      "text": "M — Morning Chart! | Visual routine prompt lists morning tasks in an order that can be adapted to the household.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "For N, our getting-ready chart shows Napkin today.",
+      "text": "N ... N ... Napkin! | Cloth/paper wipes hands/mouth during meals; it does not replace handwashing when cleaning is needed.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "For O, our getting-ready chart shows Oatmeal today.",
+      "text": "O? Oatmeal! | Cooked oat cereal absorbs liquid and thickens; it can stay very hot after cooking, so temperature is checked before eating.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "For P, our getting-ready chart shows Pajamas today.",
+      "text": "P is Pajamas. Sleepwear designed for comfort; fabric/fit and sleep-safety guidance vary by age. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Ready and clean—A-B-C!",
+      "text": "Ready, wash, dry—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Simple routine pictures with me!",
+      "text": "Clean enough for the task is the goal.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "For Q, our getting-ready chart shows Quilt today.",
+      "text": "Q — Quilt! | Layered stitched textile provides warmth; sleep suitability depends on age and context.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "For R, our getting-ready chart shows Routine Chart today.",
+      "text": "R ... R ... Routine Chart! | Visual list helps remember repeated tasks; routines can flex when needs or schedules change.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "For S, our getting-ready chart shows Slippers today.",
+      "text": "S? Slippers! | Soft indoor footwear; traction and fit matter, especially on stairs or smooth floors.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "For T, our getting-ready chart shows Towel today.",
+      "text": "T is Towel. Absorbent textile dries skin/surfaces; wet towels should dry rather than stay on floor. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "For U, our getting-ready chart shows Uniform today.",
+      "text": "U — Uniform! | Standardized clothing for school/work/team; it identifies context but not a person's ability or worth.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "For V, our getting-ready chart shows Vacuum today.",
+      "text": "V ... V ... Vitamins! | Micronutrients needed in small amounts; supplements are not candy and should only be given by responsible adults according to need/guidance.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "For W, our getting-ready chart shows Washcloth today.",
+      "text": "W? Water Bottle! | Personal container carries drinking water; keeping it clean and not sharing mouthpieces supports hygiene.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "For X, our getting-ready chart shows X-shaped Timer today.",
+      "text": "X is Xylophone. Tuned-bar musical instrument; deliberate routine-set comparison item, not a required morning chore. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Ready and clean—A-B-C!",
+      "text": "Ready, wash, dry—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Simple routine pictures with me!",
+      "text": "Clean enough for the task is the goal.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "For Y, our getting-ready chart shows Yawn today.",
+      "text": "Y — Yogurt! | Fermented dairy food or plant-based analogue depending product; label reveals ingredients/allergens and refrigeration needs.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "For Z, our getting-ready chart shows Zip Pajamas today.",
+      "text": "Z ... Z ... Zipper! | Interlocking teeth/slider closes clothing/bags; move slowly to avoid catching skin or fabric.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Ready cue: A ... Alarm Clock! Point and say.",
+      "text": "Clean recall A ... Apron! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Ready cue: B ... Bed! Point and say.",
+      "text": "Find B ... Bath! Point to bath picture; say close adult supervision—no water-play mime.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Ready cue: C ... Cup! Point and say.",
+      "text": "Which one starts C? ... Cup! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Ready cue: D ... Dinner! Point and say.",
+      "text": "Check D ... Dinner! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Ready cue: E ... Evening Book! Point and say.",
+      "text": "Clean recall E ... Evening Book! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Ready cue: F ... Face Towel! Point and say.",
+      "text": "Find F ... Face Towel! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Ready cue: G ... Getting-dressed Chart! Point and say.",
+      "text": "Which one starts G? ... Getting-dressed Chart! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Ready cue: H ... Hand Soap! Point and say.",
+      "text": "Check H ... Hairbrush! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Ready and clean—A-B-C!",
+      "text": "Ready, wash, dry—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Simple routine pictures with me!",
+      "text": "Clean enough for the task is the goal.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Ready cue: I ... Indoor Shoes! Point and say.",
+      "text": "Clean recall I ... Indoor Shoes! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Ready cue: J ... Jacket! Point and say.",
+      "text": "Find J ... Juice! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Ready cue: K ... Kettle! Point and say.",
+      "text": "Which one starts K? ... Key! Point; keep real access keys with responsible adults.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Ready cue: L ... Lunchbox! Point and say.",
+      "text": "Check L ... Lamp! Point; no outlet/cord touching mime.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Ready cue: M ... Milk! Point and say.",
+      "text": "Clean recall M ... Morning Chart! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Ready cue: N ... Napkin! Point and say.",
+      "text": "Find N ... Napkin! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Ready cue: O ... Oatmeal! Point and say.",
+      "text": "Which one starts O? ... Oatmeal! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Ready cue: P ... Pajamas! Point and say.",
+      "text": "Check P ... Pajamas! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Ready and clean—A-B-C!",
+      "text": "Ready, wash, dry—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Simple routine pictures with me!",
+      "text": "Clean enough for the task is the goal.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Ready cue: Q ... Quilt! Point and say.",
+      "text": "Clean recall Q ... Quilt! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Ready cue: R ... Routine Chart! Point and say.",
+      "text": "Find R ... Routine Chart! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Ready cue: S ... Slippers! Point and say.",
+      "text": "Which one starts S? ... Slippers! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Ready cue: T ... Towel! Point and say.",
+      "text": "Check T ... Towel! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Ready cue: U ... Uniform! Point and say.",
+      "text": "Clean recall U ... Uniform! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Ready cue: V ... Vacuum! Point and say.",
+      "text": "Find V ... Vitamins! Point only; say adult gives correct dose—never candy play.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Ready cue: W ... Washcloth! Point and say.",
+      "text": "Which one starts W? ... Water Bottle! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Ready cue: X ... X-shaped Timer! Point and say.",
+      "text": "Check X ... Xylophone! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Ready and clean—A-B-C!",
+      "text": "Ready, wash, dry—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Simple routine pictures with me!",
+      "text": "Clean enough for the task is the goal.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Ready cue: Y ... Yawn! Point and say.",
+      "text": "Clean recall Y ... Yogurt! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Ready cue: Z ... Zip Pajamas! Point and say.",
+      "text": "Find Z ... Zipper! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Ready and clean—A-B-C!",
+      "text": "Vitamin stays adult-managed, towel dries, quilt returns to rest time.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends clean without turning the house into a laboratory.",
       "objective": "narration",
       "objectReveal": "none"
     }
