@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "weather-station",
   "hook": [
-    "Weather station—A-B-C!",
-    "Measure, look, and sing with me!"
+    "Measure, compare, log—A-B-C!",
+    "One reading joins another before we describe the sky."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two short beats before answer confirmation",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a playful junior weather watcher noticing sky motion, clothing and simple instruments",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 3/4 or swung sway",
-    "round1Grammar": "Round 1 is sound-and-motion rich: drip, gust, float, flash, freeze and measure; technical terms get clear speech-like treatment.",
-    "round2Grammar": "Round 2 uses forecast-style cue-gap-answer timing and weather-specific hand motions; instruments/technical objects are pointed to or mimed safely.",
+    "rhymeEngine": "weather-station-measure-compare-rhyme",
+    "chorusRhymeEngine": "measure-compare-log-hook",
+    "pointOfView": "a child using simple station instruments with adult guidance",
+    "chorusFunction": "repeat measure-compare-log",
+    "grooveMeter": "precise 4/4 with clean instrument-response gaps",
+    "round1Grammar": "hand-written measurement workflow; non-instruments are conditions or human context",
+    "round2Grammar": "station cue -> recall beat -> target -> safe instrument/point gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. glockenspiel or marimba weather-signals after the word, with percussion ducking on onset",
     "signatureColor": "glockenspiel or marimba weather-signals after the word, with percussion ducking on onset",
+    "authorialIntent": "Build a real little weather station workflow: sense wind, temperature, pressure, humidity/cloud state, compare readings, then write observations; ordinary gear appears only as nearby human context.",
+    "lyricIdentity": "A child moves instrument to instrument—anemometer, gauge, thermometer, vane—then matches numbers with visible sky clues without claiming one device predicts everything.",
+    "imageMotifs": [
+      "anemometer spinning",
+      "gauge needle",
+      "thermometer reading",
+      "vane arrow",
+      "notebook under overcast sky"
+    ],
+    "semanticArc": [
+      "start wind instruments",
+      "add temperature and pressure",
+      "compare cloud/moisture observations",
+      "finish by logging rather than overpredicting"
+    ],
+    "forbiddenGenericLanguage": [
+      "little station fun",
+      "one instrument tells the weather",
+      "click spin learn",
+      "weather machine"
+    ],
     "chorusAfterRound1": [
       2,
       5

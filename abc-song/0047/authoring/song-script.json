@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "What shape is drifting over us?",
+      "text": "One low cloud covers the hill; one bright gap opens beside it.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A cloud moves slowly, carrying a clue.",
+      "text": "We frame the sky slowly enough to notice what changes.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Anemometer — that's A. Spin in the breeze | wind-speed readings come with ease",
+      "text": "A — Anemometer! Cups or propeller turn with wind | a ground instrument below our cloud gallery.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Spot B: Boots! Boots cover the feet and ankles; weather boots help keep feet dry, warm, or protected.",
+      "text": "B ... B ... Boots! Weather boots protect feet from wet, cold, or rough conditions | observer gear stays below the sky.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C brings Cloud. Cloud up high | tiny drops are floating in the sky",
+      "text": "C? Cloud! Droplets or ice crystals make visible shapes in air | the central frame of the gallery.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D? Dew! Dew is water that forms as tiny drops on cool surfaces.",
+      "text": "D is Dew. Condensed water beads on a cool surface | a ground-level moisture clue under the clouds.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Under the changing sky, here is E with Eye of Storm. Calm at the core | storm winds circle round once more",
+      "text": "E — Eye of Storm! Some strong tropical cyclones develop a relatively calm center | a storm structure seen in data and imagery, not a cloud shape to chase.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Frost — that's F. It is a thin layer of ice crystals that can form on cold surfaces.",
+      "text": "F ... F ... Frost! Ice crystals can form on surfaces when they become cold enough | a close ground texture beneath the sky.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Spot G: Gauge! A gauge has a scale, pointer, or display that shows a measurement.",
+      "text": "G? Gauge! A gauge displays a measured quantity | station context that needs a label telling us what it measures.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H brings Hail. It is made of balls or lumps of ice that fall from storm clouds.",
+      "text": "H is Hail. Ice lumps from strong thunderstorm clouds can reach the ground | shelter first, observation second.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I? Icicle! Drip then freeze | hanging ice grows in the breeze",
+      "text": "I — Icicle! Frozen drip water forms a hanging point | we look without touching or standing beneath unstable ice.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Under the changing sky, here is J with Jacket. It is an outer layer worn over other clothes for warmth or protection.",
+      "text": "J ... J ... Jacket! Outer clothing responds to conditions | not a cloud category.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kite — that's K. It is a light frame with a covering that can fly when moving air pushes against it.",
+      "text": "K? Kite! Wind can lift a kite in safe open conditions | never during thunderstorms or near power lines.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Spot L: Low Cloud! A low cloud forms close to the ground compared with higher cloud layers.",
+      "text": "L is Low Cloud. Cloud base sits relatively near the ground | a lower sky layer that can hide hills.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Cloud parade—A-B-C!",
+      "text": "Frame, layer, open—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Sky and weather float with me!",
+      "text": "Clouds cover some of the sky, never all of the story.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M brings Mittens. Hands tucked in | fingers share the warmth within",
+      "text": "M — Mittens! Hand coverings help in cold weather | small gear in the foreground of our sky frame.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N? Night Sky! The night sky is the dark sky we see after sunset, often with stars or the moon.",
+      "text": "N ... N ... Night Sky! Cloud cover can hide stars or leave gaps | the gallery changes after sunset.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Under the changing sky, here is O with Overcast Sky. Clouds spread wide | one gray layer side to side",
+      "text": "O? Overcast Sky! Clouds cover nearly all or all of the visible sky | broad sheet instead of separate puffs.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Pressure Gauge — that's P. It shows how much pressure is present in air or another fluid.",
+      "text": "P is Pressure Gauge. Pressure instrument provides a reading | meteorologists care about pressure trends, not just one decorative dial.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Spot Q: Quiet Sky! A quiet sky has little dramatic weather, with calm-looking clouds or clear air.",
+      "text": "Q — Quiet Sky! A project phrase for calm-looking conditions | not a formal meteorological class.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R brings Rainbow. A rainbow appears when light is separated into colors by water droplets in the air.",
+      "text": "R ... R ... Rainbow! Sunlight refracts, reflects, and disperses inside water droplets | colored arc appears opposite the Sun direction.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S? Snowflake! Branching white | six-sided crystal, tiny and light",
+      "text": "S? Snowflake! Ice-crystal structure grows in cloud | tiny geometry emerging from a huge sky layer.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Under the changing sky, here is T with Thermometer. It measures temperature.",
+      "text": "T is Thermometer. Temperature reading gives one part of the weather picture | instrument stays at the station.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Umbrella — that's U. Open it wide | raindrops slide from side to side",
+      "text": "U — Umbrella! Portable rain protection | keep it closed in dangerous high wind or lightning conditions.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Spot V: Vane! A weather vane turns to show the direction the wind comes from.",
+      "text": "V ... V ... Vane! A weather vane points with wind direction | simple arrow below the moving clouds.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W brings Windsock. Fill and fly | wind direction meets our eye",
+      "text": "W? Windsock! Fabric tube aligns with wind and fills more as wind strengthens | visible ground clue under the gallery.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X? X-band Radar! X-band radar uses short radio waves to detect things such as rain or moving objects.",
+      "text": "X is X-band Radar. Weather radar using X-band microwaves can detect precipitation structure | a technical observation tool, not a cloud itself.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,7 +225,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Under the changing sky, here is Y with Yellow Sun. Picture sun high | bright yellow circle in the sky",
+      "text": "Y — Yellow Sun! Atmospheric scattering can make the Sun look yellowish | a bright visual anchor between cloud layers.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -233,7 +233,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zephyr — that's Z. It is a soft, gentle breeze.",
+      "text": "Z ... Z ... Zephyr! Gentle breeze moves the cloud frame slowly | a soft finish rather than a storm climax.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -241,21 +241,21 @@
     {
       "id": "chorus-r1-7-1",
       "sectionId": "chorus-r1-7",
-      "text": "Cloud parade—A-B-C!",
+      "text": "Frame, layer, open—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-7-2",
       "sectionId": "chorus-r1-7",
-      "text": "Sky and weather float with me!",
+      "text": "Clouds cover some of the sky, never all of the story.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Spot A ... Anemometer! Point to the picture and name its job.",
+      "text": "Sky frame A ... Anemometer! Point to the picture and name its job.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Remember B ... Boots! Tap two pretend boot-steps.",
+      "text": "Layer clue B ... Boots! Tap two pretend boot-steps.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C? ... Cloud! Make a soft cloud shape with both hands.",
+      "text": "Cloud, tool, or gear—C? ... Cloud! Make a soft cloud shape with both hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Find D ... Dew! Tap tiny fingertip drops.",
+      "text": "Open-sky clue D ... Dew! Tap tiny fingertip drops.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Spot E ... Eye of Storm! Point to the matching picture, then make one small shape gesture.",
+      "text": "Sky frame E ... Eye of Storm! Point to the matching picture, then make one small shape gesture.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Frost! Sparkle fingertips over an imaginary cold window.",
+      "text": "Layer clue F ... Frost! Sparkle fingertips over an imaginary cold window.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G? ... Gauge! Point to an imaginary dial and trace its pointer.",
+      "text": "Cloud, tool, or gear—G? ... Gauge! Point to an imaginary dial and trace its pointer.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Find H ... Hail! Tap two quiet ice-drop beats.",
+      "text": "Open-sky clue H ... Hail! Tap two quiet ice-drop beats.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Spot I ... Icicle! Point one finger downward like an icicle.",
+      "text": "Sky frame I ... Icicle! Point one finger downward like an icicle.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Remember J ... Jacket! Mime pulling on a jacket.",
+      "text": "Layer clue J ... Jacket! Mime pulling on a jacket.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K? ... Kite! Point to the matching picture, then make one small shape gesture.",
+      "text": "Cloud, tool, or gear—K? ... Kite! Point to the matching picture, then make one small shape gesture.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Find L ... Low Cloud! Float both hands low and slowly.",
+      "text": "Open-sky clue L ... Low Cloud! Float both hands low and slowly.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,21 +351,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Cloud parade—A-B-C!",
+      "text": "Frame, layer, open—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Sky and weather float with me!",
+      "text": "Clouds cover some of the sky, never all of the story.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Spot M ... Mittens! Rub mittened hands together for warmth.",
+      "text": "Sky frame M ... Mittens! Rub mittened hands together for warmth.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -373,7 +373,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Remember N ... Night Sky! Make a wide sky arc with both hands.",
+      "text": "Layer clue N ... Night Sky! Make a wide sky arc with both hands.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -381,7 +381,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O? ... Overcast Sky! Point to the matching picture, then make one small shape gesture.",
+      "text": "Cloud, tool, or gear—O? ... Overcast Sky! Point to the matching picture, then make one small shape gesture.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -389,7 +389,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Find P ... Pressure Gauge! Point to the picture and name its job.",
+      "text": "Open-sky clue P ... Pressure Gauge! Point to the picture and name its job.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -397,7 +397,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Spot Q ... Quiet Sky! Point to the matching picture, then make one small shape gesture.",
+      "text": "Sky frame Q ... Quiet Sky! Point to the matching picture, then make one small shape gesture.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Remember R ... Rainbow! Draw a big gentle arch in the air.",
+      "text": "Layer clue R ... Rainbow! Draw a big gentle arch in the air.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S? ... Snowflake! Open six fingers like branching snowflake arms.",
+      "text": "Cloud, tool, or gear—S? ... Snowflake! Open six fingers like branching snowflake arms.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Find T ... Thermometer! Point to the picture and trace the temperature scale.",
+      "text": "Open-sky clue T ... Thermometer! Point to the picture and trace the temperature scale.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Spot U ... Umbrella! Open both hands into a wide umbrella shape.",
+      "text": "Sky frame U ... Umbrella! Open both hands into a wide umbrella shape.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Remember V ... Vane! Point to the matching picture, then make one small shape gesture.",
+      "text": "Layer clue V ... Vane! Point to the matching picture, then make one small shape gesture.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W? ... Windsock! Point to the matching picture, then make one small shape gesture.",
+      "text": "Cloud, tool, or gear—W? ... Windsock! Point to the matching picture, then make one small shape gesture.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X ... X-band Radar! Point to the picture and name its job.",
+      "text": "Open-sky clue X ... X-band Radar! Point to the picture and name its job.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Spot Y ... Yellow Sun! Make a round sun and lift it high.",
+      "text": "Sky frame Y ... Yellow Sun! Make a round sun and lift it high.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Remember Z ... Zephyr! Point to the matching picture, then make one small shape gesture.",
+      "text": "Layer clue Z ... Zephyr! Point to the matching picture, then make one small shape gesture.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Cloud parade—A-B-C!",
+      "text": "Frame, layer, open—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Sky and weather float with me!",
+      "text": "Clouds cover some of the sky, never all of the story.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Cloud parade—A-B-C!",
+      "text": "The last cloud frame drifts past the windsock.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—cloud float stays with me!",
+      "text": "A to Z leaves one open patch of sky.",
       "objective": "narration",
       "objectReveal": "none"
     }

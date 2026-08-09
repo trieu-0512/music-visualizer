@@ -6,8 +6,8 @@
   "tempoBpm": 86,
   "motifFamily": "cloud-float",
   "hook": [
-    "Cloud parade—A-B-C!",
-    "Sky and weather float with me!"
+    "Frame, layer, open—A-B-C!",
+    "Clouds cover some of the sky, never all of the story."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two short beats of quiet",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a playful junior weather watcher noticing sky motion, clothing and simple instruments",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 is sound-and-motion rich: drip, gust, float, flash, freeze and measure; technical terms get clear speech-like treatment.",
-    "round2Grammar": "Round 2 uses forecast-style cue-gap-answer timing and weather-specific hand motions; instruments/technical objects are pointed to or mimed safely.",
+    "rhymeEngine": "cloud-gallery-frame-reveal-rhyme",
+    "chorusRhymeEngine": "frame-layer-open-hook",
+    "pointOfView": "a child slowly framing sky scenes from an observation spot",
+    "chorusFunction": "reset frame-layer-open",
+    "grooveMeter": "airy 6/8 gallery sway",
+    "round1Grammar": "hand-written sky framing; gear and instruments are ground-station context",
+    "round2Grammar": "frame cue -> recall beat -> target -> safe point/shape gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. glockenspiel or marimba weather-signals after the word, with percussion ducking on onset",
     "signatureColor": "glockenspiel or marimba weather-signals after the word, with percussion ducking on onset",
+    "authorialIntent": "Turn Cloud Parade into a slow sky gallery: cloud layer, coverage, optical effects, weather tools and clothing enter the frame one by one without pretending every mapping target is a cloud.",
+    "lyricIdentity": "The child frames one part of the sky at a time—low, covered, clearing, rainbow, storm center, sun—while instruments sit at the observation station below.",
+    "imageMotifs": [
+      "low cloud edge",
+      "overcast sheet",
+      "rainbow opening",
+      "storm eye on radar display",
+      "kite under clearing sky"
+    ],
+    "semanticArc": [
+      "start with cloud shape",
+      "compare low/covered/clear sky",
+      "add storm and optical clues",
+      "finish at ground instruments under changing sky"
+    ],
+    "forbiddenGenericLanguage": [
+      "cloud parade fun",
+      "every cloud has a shape",
+      "sky friends",
+      "drifting clues"
+    ],
     "chorusAfterRound1": [
       3,
       7

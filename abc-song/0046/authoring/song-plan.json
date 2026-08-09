@@ -6,8 +6,8 @@
   "tempoBpm": 90,
   "motifFamily": "weather-watch",
   "hook": [
-    "Weather watch—A-B-C!",
-    "Look at the sky and sing with me!"
+    "Look, feel, record—A-B-C!",
+    "Weather watching starts with what is really there."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one clear beat before target",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a playful junior weather watcher noticing sky motion, clothing and simple instruments",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 4/4 bounce",
-    "round1Grammar": "Round 1 is sound-and-motion rich: drip, gust, float, flash, freeze and measure; technical terms get clear speech-like treatment.",
-    "round2Grammar": "Round 2 uses forecast-style cue-gap-answer timing and weather-specific hand motions; instruments/technical objects are pointed to or mimed safely.",
+    "rhymeEngine": "weather-watch-time-log-rhyme",
+    "chorusRhymeEngine": "look-feel-record-hook",
+    "pointOfView": "a child keeping a supervised one-day weather notebook",
+    "chorusFunction": "reset look-feel-measure-record",
+    "grooveMeter": "light 4/4 notebook pulse with small forecast pauses",
+    "round1Grammar": "hand-written observational log; natural phenomena, clothing, and instruments keep distinct roles",
+    "round2Grammar": "observation cue -> recall beat -> target -> safe weather gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. glockenspiel or marimba weather-signals after the word, with percussion ducking on onset",
     "signatureColor": "glockenspiel or marimba weather-signals after the word, with percussion ducking on onset",
+    "authorialIntent": "Write a one-day weather watch where the child records what can be seen, felt, or measured from morning dew to night sky, separating observation from instrument reading.",
+    "lyricIdentity": "A forecast notebook moves through time: morning surface clues, daytime cloud/wind changes, storm possibilities, evening cooling, then night sky.",
+    "imageMotifs": [
+      "dew on railing",
+      "altocumulus rows",
+      "windsock turning",
+      "puddle after rain",
+      "night sky after clearing"
+    ],
+    "semanticArc": [
+      "morning moisture",
+      "daytime cloud and wind",
+      "storm and precipitation clues",
+      "evening clearing and night record"
+    ],
+    "forbiddenGenericLanguage": [
+      "today's forecast fun",
+      "weather words",
+      "look at the sky with me",
+      "everything changes"
+    ],
     "chorusAfterRound1": [
       2,
       5

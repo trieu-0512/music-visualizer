@@ -6,8 +6,8 @@
   "tempoBpm": 93,
   "motifFamily": "weather-gear",
   "hook": [
-    "Ready for weather—A-B-C!",
-    "Gear and sky are fun to see!"
+    "Check, choose, adjust—A-B-C!",
+    "Wear what helps now; change it when the weather changes."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "short predictable answer gap",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a playful junior weather watcher noticing sky motion, clothing and simple instruments",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "stop-go 4/4 pulse",
-    "round1Grammar": "Round 1 is sound-and-motion rich: drip, gust, float, flash, freeze and measure; technical terms get clear speech-like treatment.",
-    "round2Grammar": "Round 2 uses forecast-style cue-gap-answer timing and weather-specific hand motions; instruments/technical objects are pointed to or mimed safely.",
+    "rhymeEngine": "condition-choice-response-rhyme",
+    "chorusRhymeEngine": "check-choose-adjust-hook",
+    "pointOfView": "a child making simple weather clothing decisions with adult guidance",
+    "chorusFunction": "repeat check-choose-adjust",
+    "grooveMeter": "bouncy 4/4 with decision pauses",
+    "round1Grammar": "hand-written condition-response pairs; gear, instruments, hazards and sky terms remain distinct",
+    "round2Grammar": "condition cue -> recall beat -> target -> safe gear/point gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. glockenspiel or marimba weather-signals after the word, with percussion ducking on onset",
     "signatureColor": "glockenspiel or marimba weather-signals after the word, with percussion ducking on onset",
+    "authorialIntent": "Make Dress for Weather a decision song: first identify the condition, then choose a sensible layer or protection; instruments explain why, and non-gear targets never get forced into clothing language.",
+    "lyricIdentity": "A child asks condition first, clothing second—cold, wet, windy, warm—while radar and meters stay in the information column.",
+    "imageMotifs": [
+      "boots beside puddle",
+      "coat under low cloud",
+      "earmuffs in cold mist",
+      "umbrella after drizzle",
+      "zipper jacket at doorway"
+    ],
+    "semanticArc": [
+      "observe sky",
+      "choose warm/wet gear",
+      "check instruments and hazards",
+      "finish by adjusting layers rather than dressing for one permanent forecast"
+    ],
+    "forbiddenGenericLanguage": [
+      "zip pull button",
+      "dress for weather fun",
+      "wear everything",
+      "weather letter helps us choose"
+    ],
     "chorusAfterRound1": [
       2,
       5,

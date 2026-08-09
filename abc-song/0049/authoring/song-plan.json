@@ -6,8 +6,8 @@
   "tempoBpm": 89,
   "motifFamily": "weather-triple",
   "hook": [
-    "Wind, rain, snow—A-B-C!",
-    "Weather changes—sing with me!"
+    "Whoosh, tap, hush—A-B-C!",
+    "Wind, liquid, ice: sort the texture before the word."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat with percussion reduced",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a playful junior weather watcher noticing sky motion, clothing and simple instruments",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "walking 4/4 folk",
-    "round1Grammar": "Round 1 is sound-and-motion rich: drip, gust, float, flash, freeze and measure; technical terms get clear speech-like treatment.",
-    "round2Grammar": "Round 2 uses forecast-style cue-gap-answer timing and weather-specific hand motions; instruments/technical objects are pointed to or mimed safely.",
+    "rhymeEngine": "wind-rain-snow-texture-rhyme",
+    "chorusRhymeEngine": "whoosh-tap-hush-hook",
+    "pointOfView": "a child sorting weather phenomena by physical texture and response",
+    "chorusFunction": "reset the three texture families while allowing nonmembers to stay context",
+    "grooveMeter": "4/4 with three restrained timbral pockets",
+    "round1Grammar": "hand-written physical-category lines; instruments and clothing are context",
+    "round2Grammar": "texture cue -> recall beat -> target -> safe abstract gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. glockenspiel or marimba weather-signals after the word, with percussion ducking on onset",
     "signatureColor": "glockenspiel or marimba weather-signals after the word, with percussion ducking on onset",
+    "authorialIntent": "Organize the song by three physical textures—wind movement, liquid rain, frozen precipitation—while instruments and clothing become responses or observers rather than being shoved into one rhythm family.",
+    "lyricIdentity": "Whoosh, tap, hush are compositional colors, not fake sound effects for every target; transitions explain whether a target is wind, water, ice, gear, or measurement.",
+    "imageMotifs": [
+      "windsock filling",
+      "drizzle tapping coat",
+      "frost edge",
+      "sun after storm",
+      "radar screen showing bands"
+    ],
+    "semanticArc": [
+      "wind texture",
+      "rain and liquid water",
+      "ice and snow texture",
+      "clearing sun and measurement recap"
+    ],
+    "forbiddenGenericLanguage": [
+      "three weather rhythms",
+      "whoosh tap hush for everything",
+      "weather beat",
+      "come sing"
+    ],
     "chorusAfterRound1": [
       3,
       6
