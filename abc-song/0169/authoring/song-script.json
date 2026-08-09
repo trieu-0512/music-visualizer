@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore wardrobe world with me!",
+      "text": "Wet raincoat dries before storage, boots pair together, soft knitwear may fold, dresses can hang.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Wardrobe window—A-B-C!",
+      "text": "Wardrobe care begins after wearing.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Through our wardrobe window, A reveals Apron today.",
+      "text": "A — Apron! | Protective garment covers front of clothing during cooking/craft/work; it is not weather outerwear.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Through our wardrobe window, B reveals Boots today.",
+      "text": "B ... B ... Boots! | Footwear extending above ankle; waterproofing, insulation, safety toe, or fashion role depends design.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "Through our wardrobe window, C reveals Cap today.",
+      "text": "C? Cap! | Close-fitting/brimmed headwear depending style; baseball-style cap shades face but not full sun exposure.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "Through our wardrobe window, D reveals Dress today.",
+      "text": "D is Dress. One-piece garment covering torso and extending below waist; length/material/style vary. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Through our wardrobe window, E reveals Espadrilles today.",
+      "text": "E — Espadrilles! | Light shoes traditionally with rope/jute-style soles and fabric uppers; suited to dry casual conditions more than wet rough terrain.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Through our wardrobe window, F reveals Fleece today.",
+      "text": "F ... F ... Fleece! | Soft synthetic or wool-like insulating fabric/garment; traps air for warmth but may not block wind/rain alone.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Through our wardrobe window, G reveals Gown today.",
+      "text": "G? Gown! | Long garment; can mean formal dress, nightwear, medical gown, or robe depending context.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "Through our wardrobe window, H reveals Hoodie today.",
+      "text": "H is Hoodie. Sweatshirt/jacket with attached hood; drawstrings can be snag hazards in some contexts. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Wardrobe window—A-B-C!",
+      "text": "Clean, dry, store—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Open, look, and sing with me!",
+      "text": "Put clothes away in the condition they need.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "Through our wardrobe window, I reveals Indoor Shoes today.",
+      "text": "I — Indoor Shoes! | Footwear reserved for indoor surfaces; keeps outdoor dirt separate and often emphasizes light comfort.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Through our wardrobe window, J reveals Jeans today.",
+      "text": "J ... J ... Jeans! | Denim trousers with sturdy woven fabric and seams; fit should allow normal movement.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Through our wardrobe window, K reveals Knit Cap today.",
+      "text": "K? Knit Cap! | Soft knitted close-fitting hat retains warmth around head; fiber and thickness affect insulation.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Through our wardrobe window, L reveals Leggings today.",
+      "text": "L is Leggings. Stretch close-fitting trousers; flexible for movement but warmth/weather protection depends fabric. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "Through our wardrobe window, M reveals Mittens today.",
+      "text": "M — Mittens! | Hand covering groups fingers together for warmth; reduced finger dexterity is the tradeoff.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "Through our wardrobe window, N reveals Nightgown today.",
+      "text": "N ... N ... Nightgown! | Loose sleepwear garment; fit/fabric should suit sleep and fire-safety guidance.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Through our wardrobe window, O reveals Overcoat today.",
+      "text": "O? Overcoat! | Long outer coat worn over other clothes for cold-weather insulation.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Through our wardrobe window, P reveals Pajamas today.",
+      "text": "P is Pajamas. Sleepwear designed for comfort; fabric, fit, and fire-safety standards vary by market/age. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Wardrobe window—A-B-C!",
+      "text": "Clean, dry, store—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Open, look, and sing with me!",
+      "text": "Put clothes away in the condition they need.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Through our wardrobe window, Q reveals Quilted Jacket today.",
+      "text": "Q — Quilted Jacket! | Jacket stitches insulation between layers; quilting holds filling in place and creates warmth.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "Through our wardrobe window, R reveals Raincoat today.",
+      "text": "R ... R ... Raincoat! | Outer layer designed to resist rain; waterproof/breathable performance depends material and seams.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "Through our wardrobe window, S reveals Scarf today.",
+      "text": "S? Scarf! | Long neck fabric adds warmth/style; loose ends require care around machinery/play equipment.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Through our wardrobe window, T reveals Trainers today.",
+      "text": "T is Trainers. UK/common term for athletic sneakers; purpose ranges casual wear to sport-specific models. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Through our wardrobe window, U reveals Uniform today.",
+      "text": "U — Uniform! | Standardized clothing identifies school/work/team; it does not determine skill or personality.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Through our wardrobe window, V reveals Velcro Shoes today.",
+      "text": "V ... V ... Velcro Shoes! | Shoes using hook-and-loop straps for closure; fit still matters even when fastening is easy.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "Through our wardrobe window, W reveals Wool Hat today.",
+      "text": "W? Wool Hat! | Hat made partly/fully from wool; wool fibers can insulate even when slightly damp.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Through our wardrobe window, X reveals Xmas Sweater today.",
+      "text": "X is Xmas Sweater. Holiday-themed sweater label describes decoration/seasonal style, not fabric or warmth standard. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Wardrobe window—A-B-C!",
+      "text": "Clean, dry, store—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Open, look, and sing with me!",
+      "text": "Put clothes away in the condition they need.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Through our wardrobe window, Y reveals Yoga Pants today.",
+      "text": "Y — Yoga Pants! | Stretch trousers designed for movement/comfort; not weather-specific by name alone.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Through our wardrobe window, Z reveals Zori Sandals today.",
+      "text": "Z ... Z ... Zori Sandals! | Traditional Japanese thong sandals with flat sole and straps; materials/forms vary historically and today.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Window pause: A ... Apron! Point right away.",
+      "text": "Wardrobe recall A ... Apron! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Window pause: B ... Boots! Point right away.",
+      "text": "Find B ... Boots! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Window pause: C ... Cap! Point right away.",
+      "text": "Which one starts C? ... Cap! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Window pause: D ... Dress! Point right away.",
+      "text": "Check D ... Dress! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Window pause: E ... Espadrilles! Point right away.",
+      "text": "Wardrobe recall E ... Espadrilles! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Window pause: F ... Fleece! Point right away.",
+      "text": "Find F ... Fleece! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Window pause: G ... Gown! Point right away.",
+      "text": "Which one starts G? ... Gown! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Window pause: H ... Hoodie! Point right away.",
+      "text": "Check H ... Hoodie! Point; say drawstrings stay away from snag hazards.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Wardrobe window—A-B-C!",
+      "text": "Clean, dry, store—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Open, look, and sing with me!",
+      "text": "Put clothes away in the condition they need.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Window pause: I ... Indoor Shoes! Point right away.",
+      "text": "Wardrobe recall I ... Indoor Shoes! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Window pause: J ... Jeans! Point right away.",
+      "text": "Find J ... Jeans! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Window pause: K ... Knit Cap! Point right away.",
+      "text": "Which one starts K? ... Knit Cap! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Window pause: L ... Leggings! Point right away.",
+      "text": "Check L ... Leggings! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Window pause: M ... Mittens! Point right away.",
+      "text": "Wardrobe recall M ... Mittens! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Window pause: N ... Nightgown! Point right away.",
+      "text": "Find N ... Nightgown! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Window pause: O ... Overcoat! Point right away.",
+      "text": "Which one starts O? ... Overcoat! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Window pause: P ... Pajamas! Point right away.",
+      "text": "Check P ... Pajamas! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Wardrobe window—A-B-C!",
+      "text": "Clean, dry, store—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Open, look, and sing with me!",
+      "text": "Put clothes away in the condition they need.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Window pause: Q ... Quilted Jacket! Point right away.",
+      "text": "Wardrobe recall Q ... Quilted Jacket! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Window pause: R ... Raincoat! Point right away.",
+      "text": "Find R ... Raincoat! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Window pause: S ... Scarf! Point right away.",
+      "text": "Which one starts S? ... Scarf! Point; trace one loose line, no neck wrapping.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Window pause: T ... Trainers! Point right away.",
+      "text": "Check T ... Trainers! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Window pause: U ... Uniform! Point right away.",
+      "text": "Wardrobe recall U ... Uniform! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Window pause: V ... Velcro Shoes! Point right away.",
+      "text": "Find V ... Velcro Shoes! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Window pause: W ... Wool Hat! Point right away.",
+      "text": "Which one starts W? ... Wool Hat! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Window pause: X ... Xmas Sweater! Point right away.",
+      "text": "Check X ... Xmas Sweater! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Wardrobe window—A-B-C!",
+      "text": "Clean, dry, store—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Open, look, and sing with me!",
+      "text": "Put clothes away in the condition they need.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Window pause: Y ... Yoga Pants! Point right away.",
+      "text": "Wardrobe recall Y ... Yoga Pants! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Window pause: Z ... Zori Sandals! Point right away.",
+      "text": "Find Z ... Zori Sandals! Point; no running mime.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Wardrobe window—A-B-C!",
+      "text": "Scarf lies loose, shoes pair, wet gear dries before the wardrobe closes.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends with clothes ready for another day.",
       "objective": "narration",
       "objectReveal": "none"
     }

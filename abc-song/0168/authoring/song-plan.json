@@ -6,11 +6,79 @@
   "tempoBpm": 95,
   "motifFamily": "clothes-clap",
   "hook": [
-    "Shoes, hats, coats—A-B-C!",
-    "Clap for clothes we know and see!"
+    "Sole, hood, zip—A-B-C!",
+    "Clap after the feature, not over the name."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Shoes Hats Coats Clap",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "garment-anatomy-rhyme",
+    "chorusRhymeEngine": "sole-hood-zip-hook",
+    "pointOfView": "a child reading garment construction",
+    "chorusFunction": "repeat sole-hood-zip",
+    "grooveMeter": "92 BPM clap-rest 4/4",
+    "round1Grammar": "garment -> structural feature -> function",
+    "round2Grammar": "anatomy recall -> target -> air-shape gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "garment-anatomy",
+    "authorialIntent": "Make Shoes Hats Coats Clap a garment-anatomy comparison: soles, laces, uppers, cuffs, hoods, sleeves, insulation, zippers and openings are linked to real functions; clap comes after the target, never replacing the teaching line.",
+    "lyricIdentity": "A child compares construction details and learns why a lace, zipper, quilted layer, brim or boot shaft changes use.",
+    "imageMotifs": [
+      "boot shaft",
+      "cap brim",
+      "hood",
+      "quilt stitching",
+      "zipper teeth"
+    ],
+    "semanticArc": [
+      "footwear anatomy",
+      "head/hood",
+      "layers",
+      "closures"
+    ],
+    "forbiddenGenericLanguage": [
+      "shoes hats coats clap",
+      "clap every word",
+      "all boots waterproof",
+      "yellow means safety"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 1,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

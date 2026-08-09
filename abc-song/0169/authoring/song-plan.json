@@ -6,11 +6,79 @@
   "tempoBpm": 87,
   "motifFamily": "wardrobe-window",
   "hook": [
-    "Wardrobe window—A-B-C!",
-    "Open, look, and sing with me!"
+    "Clean, dry, store—A-B-C!",
+    "Put clothes away in the condition they need."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Wardrobe Window A-Z",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "wardrobe-care-rhyme",
+    "chorusRhymeEngine": "clean-dry-store-hook",
+    "pointOfView": "a child caring for clothes",
+    "chorusFunction": "repeat clean-dry-store",
+    "grooveMeter": "84 BPM wardrobe 6/8",
+    "round1Grammar": "garment -> care/storage implication -> caveat",
+    "round2Grammar": "care recall -> target -> safe folding/point gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "wardrobe-care",
+    "authorialIntent": "Make Wardrobe Window A-Z a storage-and-care song: fold, hang, pair, dry, clean, store seasonal, and keep loose accessories visible; wardrobe organization supports clothing longevity rather than fashion display.",
+    "lyricIdentity": "A child looks through one wardrobe window and decides fold/hang/pair/dry based on material and shape.",
+    "imageMotifs": [
+      "paired boots",
+      "hung dress",
+      "folded fleece",
+      "dry raincoat",
+      "scarf stored loose"
+    ],
+    "semanticArc": [
+      "sort",
+      "clean/dry",
+      "fold/hang",
+      "seasonal return"
+    ],
+    "forbiddenGenericLanguage": [
+      "wardrobe fashion",
+      "best outfit",
+      "hang everything",
+      "store wet clothes"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 2,
+    "usedRound1": 2,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

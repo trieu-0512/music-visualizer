@@ -6,11 +6,79 @@
   "tempoBpm": 93,
   "motifFamily": "closet-color",
   "hook": [
-    "Clothes and colors—A-B-C!",
-    "Dress-up pictures, look with me!"
+    "Layer, foot, head—A-B-C!",
+    "Sort by what the garment does."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Closet Color ABC",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "garment-function-rhyme",
+    "chorusRhymeEngine": "layer-foot-head-hook",
+    "pointOfView": "a child sorting a closet by function",
+    "chorusFunction": "repeat layer-foot-head",
+    "grooveMeter": "88 BPM closet-sort 4/4",
+    "round1Grammar": "garment -> location/function -> caveat",
+    "round2Grammar": "function recall -> target -> safe point gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "garment-function",
+    "authorialIntent": "Make Closet Color ABC a garment-function closet rather than a color catalog: base layers, legwear, outerwear, footwear, head/ear wear, accessories and sleepwear are separated; color names are secondary.",
+    "lyricIdentity": "A child sorts clothes by body location and function, noticing that Yellow Jacket and Xmas Sweater names do not guarantee weather performance.",
+    "imageMotifs": [
+      "outerwear rail",
+      "sock drawer",
+      "shoe shelf",
+      "hat shelf",
+      "pajama drawer"
+    ],
+    "semanticArc": [
+      "body layer",
+      "outer layer",
+      "foot/head",
+      "accessory/sleep"
+    ],
+    "forbiddenGenericLanguage": [
+      "closet color parade",
+      "color tells function",
+      "wear all layers",
+      "fashion score"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 3,
+    "usedRound1": 3,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "dress-step",
   "hook": [
-    "Getting dressed—A-B-C!",
-    "Find the clothes step by step with me!"
+    "Choose, layer, check—A-B-C!",
+    "Wear what fits the day and the body."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Getting Dressed Steps",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "dressing-decision-rhyme",
+    "chorusRhymeEngine": "choose-layer-check-hook",
+    "pointOfView": "a child getting dressed with choices",
+    "chorusFunction": "repeat choose-layer-check",
+    "grooveMeter": "90 BPM stepwise 4/4",
+    "round1Grammar": "garment fact + optional sequence/weather role",
+    "round2Grammar": "sequence-neutral recall -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "dressing-choice",
+    "authorialIntent": "Make Getting Dressed Steps a flexible dressing sequence: underwear/base not in mapping is acknowledged implicitly; choose weather/activity, then shirt/layers, bottoms, socks, shoes, outer accessories—without enforcing one universal order.",
+    "lyricIdentity": "A child uses a decision tree rather than rigid chant: some items are optional, some belong to work/sleep, and scarf/necktie need snag awareness.",
+    "imageMotifs": [
+      "weather check",
+      "socks before shoes",
+      "coat layer",
+      "lace tie",
+      "hat last"
+    ],
+    "semanticArc": [
+      "choose",
+      "base/layer",
+      "feet",
+      "outer/accessory"
+    ],
+    "forbiddenGenericLanguage": [
+      "dress exactly this order",
+      "must wear tie",
+      "all weather coat",
+      "put everything on"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 2,
+    "usedRound1": 2,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore clothes for weather with me!",
+      "text": "Cold may call for insulation, rain for water resistance, warm dry weather for lighter layers—but the exact garment construction matters.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Weather clothes—A-B-C!",
+      "text": "Check the weather before matching the clothes.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "For weather clue A, our picture matches Apron to the day.",
+      "text": "A — Apron! | Protective garment covers front of clothing during cooking/craft/work; it is not weather outerwear.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "For weather clue B, our picture matches Belt to the day.",
+      "text": "B ... B ... Belt! | Strap fastens around waist to hold clothing or accessories; fit should be comfortable, not tight.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "For weather clue C, our picture matches Cap to the day.",
+      "text": "C? Cap! | Close-fitting/brimmed headwear depending style; baseball-style cap shades face but not full sun exposure.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "For weather clue D, our picture matches Dress to the day.",
+      "text": "D is Dress. One-piece garment covering torso and extending below waist; length/material/style vary. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "For weather clue E, our picture matches Earmuffs to the day.",
+      "text": "E — Earmuffs! | Pads cover outer ears for warmth or hearing protection depending design; winter earmuffs do not replace certified hearing protectors.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "For weather clue F, our picture matches Flip-flops to the day.",
+      "text": "F ... F ... Flip-flops! | Open sandals held by toe/foot straps; easy airflow but little toe/heel protection or traction for rough activity.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "For weather clue G, our picture matches Gloves to the day.",
+      "text": "G? Gloves! | Separate-finger hand coverings provide warmth, grip, protection, or hygiene depending type.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "For weather clue H, our picture matches Hat to the day.",
+      "text": "H is Hat. Head covering provides shade, warmth, protection, or style depending type. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Weather clothes—A-B-C!",
+      "text": "Check, layer, match—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Dress for the day with me!",
+      "text": "Name alone does not guarantee weather protection.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "For weather clue I, our picture matches Indoor Shoes to the day.",
+      "text": "I — Indoor Shoes! | Footwear reserved for indoor surfaces; keeps outdoor dirt separate and often emphasizes light comfort.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "For weather clue J, our picture matches Jeans to the day.",
+      "text": "J ... J ... Jeans! | Denim trousers with sturdy woven fabric and seams; fit should allow normal movement.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "For weather clue K, our picture matches Knit Cap to the day.",
+      "text": "K? Knit Cap! | Soft knitted close-fitting hat retains warmth around head; fiber and thickness affect insulation.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "For weather clue L, our picture matches Lace-up Shoes to the day.",
+      "text": "L is Lace-up Shoes. Shoes secured with laces; tied laces prevent trips and maintain fit. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "For weather clue M, our picture matches Mittens to the day.",
+      "text": "M — Mittens! | Hand covering groups fingers together for warmth; reduced finger dexterity is the tradeoff.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "For weather clue N, our picture matches Nightgown to the day.",
+      "text": "N ... N ... Nightgown! | Loose sleepwear garment; fit/fabric should suit sleep and fire-safety guidance.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "For weather clue O, our picture matches Overall to the day.",
+      "text": "O? Overall! | One-piece or bib garment covers torso/legs for work, protection, or style; exact meaning varies.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "For weather clue P, our picture matches Poncho to the day.",
+      "text": "P is Poncho. Loose outer covering with opening for head; rain ponchos shed water but loose fabric needs care near wind/machinery. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Weather clothes—A-B-C!",
+      "text": "Check, layer, match—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Dress for the day with me!",
+      "text": "Name alone does not guarantee weather protection.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "For weather clue Q, our picture matches Quilted Jacket to the day.",
+      "text": "Q — Quilted Jacket! | Jacket stitches insulation between layers; quilting holds filling in place and creates warmth.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "For weather clue R, our picture matches Running Shoes to the day.",
+      "text": "R ... R ... Running Shoes! | Athletic shoes designed for running with cushioning/traction/support features that vary by model and runner.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "For weather clue S, our picture matches Scarf to the day.",
+      "text": "S? Scarf! | Long neck fabric adds warmth/style; loose ends require care around machinery/play equipment.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "For weather clue T, our picture matches T-shirt to the day.",
+      "text": "T is T-shirt. Light knit shirt with short sleeves in common form; works as base/single layer depending weather. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "For weather clue U, our picture matches Ugg Boots to the day.",
+      "text": "U — Ugg Boots! | UGG is a brand strongly associated with sheepskin-style boots; mapped boots are warm footwear, not a generic technical category.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "For weather clue V, our picture matches Vest to the day.",
+      "text": "V ... V ... Vest! | Sleeveless garment adds layer, visibility, or protection depending design; ordinary fashion vest is not PPE.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "For weather clue W, our picture matches Wellies to the day.",
+      "text": "W? Wellies! | Waterproof rubber-style boots protect feet from puddles/mud; traction and fit still matter.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "For weather clue X, our picture matches X-shaped Suspenders to the day.",
+      "text": "X is X-shaped Suspenders. Suspenders whose back straps cross in an X; they support trousers from shoulders rather than tightening waist. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Weather clothes—A-B-C!",
+      "text": "Check, layer, match—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Dress for the day with me!",
+      "text": "Name alone does not guarantee weather protection.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "For weather clue Y, our picture matches Yoga Pants to the day.",
+      "text": "Y — Yoga Pants! | Stretch trousers designed for movement/comfort; not weather-specific by name alone.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "For weather clue Z, our picture matches Zori Sandals to the day.",
+      "text": "Z ... Z ... Zori Sandals! | Traditional Japanese thong sandals with flat sole and straps; materials/forms vary historically and today.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Match cue: A ... Apron! Point, then say.",
+      "text": "Weather recall A ... Apron! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Match cue: B ... Belt! Point, then say.",
+      "text": "Find B ... Belt! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Match cue: C ... Cap! Point, then say.",
+      "text": "Which one starts C? ... Cap! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Match cue: D ... Dress! Point, then say.",
+      "text": "Check D ... Dress! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Match cue: E ... Earmuffs! Point, then say.",
+      "text": "Weather recall E ... Earmuffs! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Match cue: F ... Flip-flops! Point, then say.",
+      "text": "Find F ... Flip-flops! Point; no running mime.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Match cue: G ... Gloves! Point, then say.",
+      "text": "Which one starts G? ... Gloves! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Match cue: H ... Hat! Point, then say.",
+      "text": "Check H ... Hat! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Weather clothes—A-B-C!",
+      "text": "Check, layer, match—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Dress for the day with me!",
+      "text": "Name alone does not guarantee weather protection.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Match cue: I ... Indoor Shoes! Point, then say.",
+      "text": "Weather recall I ... Indoor Shoes! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Match cue: J ... Jeans! Point, then say.",
+      "text": "Find J ... Jeans! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Match cue: K ... Knit Cap! Point, then say.",
+      "text": "Which one starts K? ... Knit Cap! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Match cue: L ... Lace-up Shoes! Point, then say.",
+      "text": "Check L ... Lace-up Shoes! Air-tie two short imaginary laces while seated/still.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Match cue: M ... Mittens! Point, then say.",
+      "text": "Weather recall M ... Mittens! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Match cue: N ... Nightgown! Point, then say.",
+      "text": "Find N ... Nightgown! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Match cue: O ... Overall! Point, then say.",
+      "text": "Which one starts O? ... Overall! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Match cue: P ... Poncho! Point, then say.",
+      "text": "Check P ... Poncho! Point; spread hands like a loose layer, no face covering.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Weather clothes—A-B-C!",
+      "text": "Check, layer, match—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Dress for the day with me!",
+      "text": "Name alone does not guarantee weather protection.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Match cue: Q ... Quilted Jacket! Point, then say.",
+      "text": "Weather recall Q ... Quilted Jacket! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Match cue: R ... Running Shoes! Point, then say.",
+      "text": "Find R ... Running Shoes! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Match cue: S ... Scarf! Point, then say.",
+      "text": "Which one starts S? ... Scarf! Point; trace one loose line, no neck wrapping.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Match cue: T ... T-shirt! Point, then say.",
+      "text": "Check T ... T-shirt! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Match cue: U ... Ugg Boots! Point, then say.",
+      "text": "Weather recall U ... Ugg Boots! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Match cue: V ... Vest! Point, then say.",
+      "text": "Find V ... Vest! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Match cue: W ... Wellies! Point, then say.",
+      "text": "Which one starts W? ... Wellies! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Match cue: X ... X-shaped Suspenders! Point, then say.",
+      "text": "Check X ... X-shaped Suspenders! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Weather clothes—A-B-C!",
+      "text": "Check, layer, match—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Dress for the day with me!",
+      "text": "Name alone does not guarantee weather protection.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Match cue: Y ... Yoga Pants! Point, then say.",
+      "text": "Weather recall Y ... Yoga Pants! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Match cue: Z ... Zori Sandals! Point, then say.",
+      "text": "Find Z ... Zori Sandals! Point; no running mime.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Weather clothes—A-B-C!",
+      "text": "Wellies return to wet-ground use; indoor shoes stay indoors; loose scarf gets snag-aware storage.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends with conditions matched, not guessed.",
       "objective": "narration",
       "objectReveal": "none"
     }

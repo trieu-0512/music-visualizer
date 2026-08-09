@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore getting dressed with me!",
+      "text": "Check weather and activity first; socks usually come before shoes, but not every garment belongs in every outfit.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Getting dressed—A-B-C!",
+      "text": "Getting dressed is a set of choices, not one fixed costume.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "At step A, our picture gives Apron for getting dressed.",
+      "text": "A — Apron! | Protective garment covers front of clothing during cooking/craft/work; it is not weather outerwear.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "At step B, our picture gives Boots for getting dressed.",
+      "text": "B ... B ... Boots! | Footwear extending above ankle; waterproofing, insulation, safety toe, or fashion role depends design.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "At step C, our picture gives Coat for getting dressed.",
+      "text": "C? Coat! | Outer garment provides warmth/weather protection; material and length vary.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "At step D, our picture gives Denim Jacket for getting dressed.",
+      "text": "D is Denim Jacket. Jacket made mainly from denim; durable woven cotton construction gives structure but not waterproofing by itself. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "At step E, our picture gives Espadrilles for getting dressed.",
+      "text": "E — Espadrilles! | Light shoes traditionally with rope/jute-style soles and fabric uppers; suited to dry casual conditions more than wet rough terrain.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "At step F, our picture gives Fleece for getting dressed.",
+      "text": "F ... F ... Fleece! | Soft synthetic or wool-like insulating fabric/garment; traps air for warmth but may not block wind/rain alone.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "At step G, our picture gives Gloves for getting dressed.",
+      "text": "G? Gloves! | Separate-finger hand coverings provide warmth, grip, protection, or hygiene depending type.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "At step H, our picture gives Hat for getting dressed.",
+      "text": "H is Hat. Head covering provides shade, warmth, protection, or style depending type. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Getting dressed—A-B-C!",
+      "text": "Choose, layer, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Find the clothes step by step with me!",
+      "text": "Wear what fits the day and the body.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "At step I, our picture gives Infinity Scarf for getting dressed.",
+      "text": "I — Infinity Scarf! | Looped scarf has no loose ends but can still snag; remove around machinery/climbing hazards.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "At step J, our picture gives Jacket for getting dressed.",
+      "text": "J ... J ... Jacket! | Hip/waist-length outer garment; insulation/weather resistance varies widely.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "At step K, our picture gives Knee Socks for getting dressed.",
+      "text": "K? Knee Socks! | Socks extend to near knee for warmth, uniform, sport, or style; fit should not restrict circulation.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "At step L, our picture gives Lace-up Shoes for getting dressed.",
+      "text": "L is Lace-up Shoes. Shoes secured with laces; tied laces prevent trips and maintain fit. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "At step M, our picture gives Mittens for getting dressed.",
+      "text": "M — Mittens! | Hand covering groups fingers together for warmth; reduced finger dexterity is the tradeoff.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "At step N, our picture gives Necktie for getting dressed.",
+      "text": "N ... N ... Necktie! | Long fabric accessory knotted at neck; should not be worn where loose neckwear could catch in machinery/play equipment.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "At step O, our picture gives Overall for getting dressed.",
+      "text": "O? Overall! | One-piece or bib garment covers torso/legs for work, protection, or style; exact meaning varies.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "At step P, our picture gives Poncho for getting dressed.",
+      "text": "P is Poncho. Loose outer covering with opening for head; rain ponchos shed water but loose fabric needs care near wind/machinery. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Getting dressed—A-B-C!",
+      "text": "Choose, layer, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Find the clothes step by step with me!",
+      "text": "Wear what fits the day and the body.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "At step Q, our picture gives Quarter Socks for getting dressed.",
+      "text": "Q — Quarter Socks! | Short socks rising above ankle but below crew height; naming varies by brand/region.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "At step R, our picture gives Running Shoes for getting dressed.",
+      "text": "R ... R ... Running Shoes! | Athletic shoes designed for running with cushioning/traction/support features that vary by model and runner.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "At step S, our picture gives Socks for getting dressed.",
+      "text": "S? Socks! | Foot layers absorb moisture, reduce friction, and add warmth; clean dry fit supports comfort.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "At step T, our picture gives T-shirt for getting dressed.",
+      "text": "T is T-shirt. Light knit shirt with short sleeves in common form; works as base/single layer depending weather. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "At step U, our picture gives Uniform for getting dressed.",
+      "text": "U — Uniform! | Standardized clothing identifies school/work/team; it does not determine skill or personality.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "At step V, our picture gives Vest for getting dressed.",
+      "text": "V ... V ... Vest! | Sleeveless garment adds layer, visibility, or protection depending design; ordinary fashion vest is not PPE.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "At step W, our picture gives Wool Hat for getting dressed.",
+      "text": "W? Wool Hat! | Hat made partly/fully from wool; wool fibers can insulate even when slightly damp.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "At step X, our picture gives Xmas Sweater for getting dressed.",
+      "text": "X is Xmas Sweater. Holiday-themed sweater label describes decoration/seasonal style, not fabric or warmth standard. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Getting dressed—A-B-C!",
+      "text": "Choose, layer, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Find the clothes step by step with me!",
+      "text": "Wear what fits the day and the body.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "At step Y, our picture gives Yoga Pants for getting dressed.",
+      "text": "Y — Yoga Pants! | Stretch trousers designed for movement/comfort; not weather-specific by name alone.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "At step Z, our picture gives Zori Sandals for getting dressed.",
+      "text": "Z ... Z ... Zori Sandals! | Traditional Japanese thong sandals with flat sole and straps; materials/forms vary historically and today.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Step pause: A ... Apron! Point to your best guess.",
+      "text": "Dressing recall A ... Apron! Point once; air-trace its outline.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Step pause: B ... Boots! Point to your best guess.",
+      "text": "Find B ... Boots! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Step pause: C ... Coat! Point to your best guess.",
+      "text": "Which one starts C? ... Coat! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Step pause: D ... Denim Jacket! Point to your best guess.",
+      "text": "Check D ... Denim Jacket! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Step pause: E ... Espadrilles! Point to your best guess.",
+      "text": "Dressing recall E ... Espadrilles! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Step pause: F ... Fleece! Point to your best guess.",
+      "text": "Find F ... Fleece! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Step pause: G ... Gloves! Point to your best guess.",
+      "text": "Which one starts G? ... Gloves! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Step pause: H ... Hat! Point to your best guess.",
+      "text": "Check H ... Hat! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Getting dressed—A-B-C!",
+      "text": "Choose, layer, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Find the clothes step by step with me!",
+      "text": "Wear what fits the day and the body.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Step pause: I ... Infinity Scarf! Point to your best guess.",
+      "text": "Dressing recall I ... Infinity Scarf! Point; no wrapping gesture around neck.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Step pause: J ... Jacket! Point to your best guess.",
+      "text": "Find J ... Jacket! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Step pause: K ... Knee Socks! Point to your best guess.",
+      "text": "Which one starts K? ... Knee Socks! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Step pause: L ... Lace-up Shoes! Point to your best guess.",
+      "text": "Check L ... Lace-up Shoes! Air-tie two short imaginary laces while seated/still.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Step pause: M ... Mittens! Point to your best guess.",
+      "text": "Dressing recall M ... Mittens! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Step pause: N ... Necktie! Point to your best guess.",
+      "text": "Find N ... Necktie! Point; show a loose loop away from neck—no tying around body.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Step pause: O ... Overall! Point to your best guess.",
+      "text": "Which one starts O? ... Overall! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Step pause: P ... Poncho! Point to your best guess.",
+      "text": "Check P ... Poncho! Point; spread hands like a loose layer, no face covering.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Getting dressed—A-B-C!",
+      "text": "Choose, layer, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Find the clothes step by step with me!",
+      "text": "Wear what fits the day and the body.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Step pause: Q ... Quarter Socks! Point to your best guess.",
+      "text": "Dressing recall Q ... Quarter Socks! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Step pause: R ... Running Shoes! Point to your best guess.",
+      "text": "Find R ... Running Shoes! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Step pause: S ... Socks! Point to your best guess.",
+      "text": "Which one starts S? ... Socks! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Step pause: T ... T-shirt! Point to your best guess.",
+      "text": "Check T ... T-shirt! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Step pause: U ... Uniform! Point to your best guess.",
+      "text": "Dressing recall U ... Uniform! Point once; air-trace its outline.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Step pause: V ... Vest! Point to your best guess.",
+      "text": "Find V ... Vest! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Step pause: W ... Wool Hat! Point to your best guess.",
+      "text": "Which one starts W? ... Wool Hat! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Step pause: X ... Xmas Sweater! Point to your best guess.",
+      "text": "Check X ... Xmas Sweater! Point once; recall one Round-1 clue.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Getting dressed—A-B-C!",
+      "text": "Choose, layer, check—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Find the clothes step by step with me!",
+      "text": "Wear what fits the day and the body.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Step pause: Y ... Yoga Pants! Point to your best guess.",
+      "text": "Dressing recall Y ... Yoga Pants! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Step pause: Z ... Zori Sandals! Point to your best guess.",
+      "text": "Find Z ... Zori Sandals! Point; no running mime.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Getting dressed—A-B-C!",
+      "text": "Laces tied, loose neckwear checked, extra layers left behind when not needed.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends dressed for the actual plan.",
       "objective": "narration",
       "objectReveal": "none"
     }

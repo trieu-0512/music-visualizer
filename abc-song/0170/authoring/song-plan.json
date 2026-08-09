@@ -6,11 +6,79 @@
   "tempoBpm": 90,
   "motifFamily": "weather-clothes",
   "hook": [
-    "Weather clothes—A-B-C!",
-    "Dress for the day with me!"
+    "Check, layer, match—A-B-C!",
+    "Name alone does not guarantee weather protection."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "colorful 3D clothing storybook, child-friendly garments and accessories, clean single-item presentation; visual identity: Weather Clothes Match",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "weather-layer-decision-rhyme",
+    "chorusRhymeEngine": "check-layer-match-hook",
+    "pointOfView": "a child matching clothes to current conditions",
+    "chorusFunction": "repeat check-layer-match",
+    "grooveMeter": "86 BPM weather-check 6/8",
+    "round1Grammar": "garment -> likely condition/function -> construction caveat",
+    "round2Grammar": "condition-neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "weather-match",
+    "authorialIntent": "Make Weather Clothes Match a condition-to-layer decision song: temperature, rain, wind, sun, surface and activity determine clothing; it explicitly rejects one-name assumptions like Ugg Boots always waterproof or Yellow Jacket always high-vis.",
+    "lyricIdentity": "A child checks conditions first, then matches breathable, insulating, waterproof, protective, or indoor footwear roles with uncertainty when product construction varies.",
+    "imageMotifs": [
+      "rain poncho",
+      "wellies puddle",
+      "earmuffs cold",
+      "T-shirt warmth",
+      "indoor shoes"
+    ],
+    "semanticArc": [
+      "cold",
+      "rain/wet",
+      "warm/dry",
+      "activity/indoor"
+    ],
+    "forbiddenGenericLanguage": [
+      "weather clothes one answer",
+      "yellow jacket safety",
+      "uggs waterproof",
+      "flipflops every summer activity"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 2,
+    "usedRound1": 2,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

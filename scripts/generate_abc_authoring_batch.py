@@ -41,6 +41,7 @@ from abc_creative_gold_v5_146_150 import GOLD_V5_146_150_SPEC_PATCHES
 from abc_creative_gold_v5_151_155 import GOLD_V5_151_155_SPEC_PATCHES
 from abc_creative_gold_v5_156_160 import GOLD_V5_156_160_SPEC_PATCHES
 from abc_creative_gold_v5_161_165 import GOLD_V5_161_165_SPEC_PATCHES
+from abc_creative_gold_v5_166_170 import GOLD_V5_166_170_SPEC_PATCHES
 from abc_creative_gold_v5_101_200_support import OBJECT_CRAFT_REGISTRY
 from abc_creative_v4_11_50 import (
     object_craft as object_craft_v4_11_50,
@@ -842,6 +843,8 @@ def creative_spec(profile: SongProfile) -> CreativeSpec | None:
         payload = {**(payload or {}), **GOLD_V5_156_160_SPEC_PATCHES[profile.song_id]}
     if profile.song_id in GOLD_V5_161_165_SPEC_PATCHES:
         payload = {**(payload or {}), **GOLD_V5_161_165_SPEC_PATCHES[profile.song_id]}
+    if profile.song_id in GOLD_V5_166_170_SPEC_PATCHES:
+        payload = {**(payload or {}), **GOLD_V5_166_170_SPEC_PATCHES[profile.song_id]}
     return CreativeSpec(**payload) if payload is not None else None
 
 
