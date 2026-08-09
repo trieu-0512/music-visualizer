@@ -6,8 +6,8 @@
   "tempoBpm": 90,
   "motifFamily": "bug-hunt",
   "hook": [
-    "Flutter, crawl, land on the beat!",
-    "Letter and creature finally meet!"
+    "Feed, pollinate, hunt—A-B-C!",
+    "Ask what it does before you decide what it means."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "brief search pause before answer",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "tiny-world observer with a magnifying glass",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "stop-and-go 4/4",
-    "round1Grammar": "Round 1 uses tiny rhythmic detail—wing, leg, body, web or life-stage clues—while preserving clear target diction.",
-    "round2Grammar": "Round 2 leaves a clean recall gap, then confirms with an object-conditioned gesture: ant six-step crawl, flea/grasshopper/leafhopper hop, mantis folded grasping forelegs, beetle wing-cover shell, butterfly/moth wing-open, orb-weaver web circle, pill-bug curl, stick-insect twig freeze, firefly glow, or other visible clue. Do not reduce the whole section to generic antenna/crawl motions.",
+    "rhymeEngine": "garden-ecological-role-rhyme",
+    "chorusRhymeEngine": "feed-pollinate-hunt-hook",
+    "pointOfView": "a child mapping ecological roles without moralizing animals",
+    "chorusFunction": "reset feed-pollinate-hunt-decompose",
+    "grooveMeter": "walking 4/4 garden observation pulse",
+    "round1Grammar": "hand-written ecological role and safety; spiders explicit non-insect",
+    "round2Grammar": "role cue -> recall beat -> target -> observe/point gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a clave tap followed by a short glockenspiel wing-answer.",
     "signatureColor": "a clave tap followed by a short glockenspiel wing-answer",
+    "authorialIntent": "Make Garden Bug Hunt an ecological-role map: pollinator, plant feeder, predator, decomposer, aquatic-juvenile visitor, nuisance and disease-vector risks all occupy different relationships in one garden.",
+    "lyricIdentity": "A child asks what each tiny creature is doing in the garden rather than whether it is 'good' or 'bad'.",
+    "imageMotifs": [
+      "bee on flower",
+      "aphid colony",
+      "dragonfly above pond",
+      "mantis ambush",
+      "weevil on leaf"
+    ],
+    "semanticArc": [
+      "plant feeders and pollinators",
+      "predators and aquatic links",
+      "decomposers/nuisance species",
+      "safety and coexistence"
+    ],
+    "forbiddenGenericLanguage": [
+      "catch the tiny name",
+      "good bugs bad bugs",
+      "garden bug party",
+      "flutter tap wiggle"
+    ],
     "chorusAfterRound1": [
       3,
       5

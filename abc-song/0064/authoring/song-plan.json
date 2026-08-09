@@ -6,8 +6,8 @@
   "tempoBpm": 86,
   "motifFamily": "creature-crawl",
   "hook": [
-    "Garden morning—buzz with me!",
-    "Little-life words from A to Z!"
+    "Young, change, adult—A-B-C!",
+    "Larva or nymph? The life-cycle path tells us."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two small beats of thinking space",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "tiny-world observer with a magnifying glass",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "light swung 4/4",
-    "round1Grammar": "Round 1 uses tiny rhythmic detail—wing, leg, body, web or life-stage clues—while preserving clear target diction.",
-    "round2Grammar": "Round 2 leaves a clean recall gap, then confirms with an object-conditioned gesture: ant six-step crawl, flea/grasshopper/leafhopper hop, mantis folded grasping forelegs, beetle wing-cover shell, butterfly/moth wing-open, orb-weaver web circle, pill-bug curl, stick-insect twig freeze, firefly glow, or other visible clue. Do not reduce the whole section to generic antenna/crawl motions.",
+    "rhymeEngine": "life-stage-transformation-rhyme",
+    "chorusRhymeEngine": "young-change-adult-hook",
+    "pointOfView": "a child following life stages across different insect groups",
+    "chorusFunction": "reset young-change-adult",
+    "grooveMeter": "gentle 6/8 transformation sway",
+    "round1Grammar": "hand-written stage-aware lines; adult mapped object does not imply its juvenile looks same",
+    "round2Grammar": "stage cue -> recall beat -> target -> safe transform gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a soft pizzicato tiptoe figure with a dew-drop bell ping.",
     "signatureColor": "a soft pizzicato tiptoe figure with a dew-drop bell ping",
+    "authorialIntent": "Make Little Creature Crawl a life-cycle song: egg/larva/pupa/adult concepts are contrasted with incomplete-metamorphosis nymphs, using the mapped caterpillar-like Inchworm and many adult insects to show that young stages can look very different.",
+    "lyricIdentity": "A child tracks 'same animal, different stage' rather than a morning wake-up parade.",
+    "imageMotifs": [
+      "inchworm larva",
+      "moth adult",
+      "grasshopper-like nymph idea",
+      "beetle adult elytra",
+      "butterfly adult wings"
+    ],
+    "semanticArc": [
+      "larval body",
+      "adult insect diversity",
+      "complete vs incomplete metamorphosis",
+      "stage labels and safety"
+    ],
+    "forbiddenGenericLanguage": [
+      "morning bugs waking",
+      "dew bright",
+      "everyone crawls",
+      "tiny creature crawl"
+    ],
     "chorusAfterRound1": [
       2,
       4,

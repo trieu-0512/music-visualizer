@@ -6,8 +6,8 @@
   "tempoBpm": 92,
   "motifFamily": "insect-trail",
   "hook": [
-    "Small parade, big melody!",
-    "Name each tiny clue with me!"
+    "Look, note, check—A-B-C!",
+    "One trait starts the guess; several traits build the name."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one quiet beat before confirmation",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "tiny-world observer with a magnifying glass",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "story-song 3/4-to-4/4 feel",
-    "round1Grammar": "Round 1 uses tiny rhythmic detail—wing, leg, body, web or life-stage clues—while preserving clear target diction.",
-    "round2Grammar": "Round 2 leaves a clean recall gap, then confirms with an object-conditioned gesture: ant six-step crawl, flea/grasshopper/leafhopper hop, mantis folded grasping forelegs, beetle wing-cover shell, butterfly/moth wing-open, orb-weaver web circle, pill-bug curl, stick-insect twig freeze, firefly glow, or other visible clue. Do not reduce the whole section to generic antenna/crawl motions.",
+    "rhymeEngine": "field-id-multi-trait-rhyme",
+    "chorusRhymeEngine": "look-note-check-hook",
+    "pointOfView": "a child building cautious field identifications from several traits",
+    "chorusFunction": "repeat look-note-check",
+    "grooveMeter": "steady 4/4 field-guide pulse",
+    "round1Grammar": "hand-written field marks with uncertainty and safety",
+    "round2Grammar": "field-mark cue -> recall beat -> target -> sketch/point gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a tiny parade snare-brush tap plus bright marimba step after the target.",
     "signatureColor": "a tiny parade snare-brush tap plus bright marimba step after the target",
+    "authorialIntent": "Make Insect Explorer a field-identification protocol: first observe body shape, leg count, antennae, wings and behavior, then identify cautiously; uncertain project mapping terms stay labeled rather than overclaimed.",
+    "lyricIdentity": "A child builds a field-note ID from multiple traits instead of marching or guessing from color.",
+    "imageMotifs": [
+      "antennae sketch",
+      "elytra line",
+      "dragonfly wing pair",
+      "weevil snout",
+      "yellow butterfly color warning against over-ID"
+    ],
+    "semanticArc": [
+      "body basics",
+      "wing and antenna traits",
+      "behavior and ecology",
+      "uncertainty/safety and final identification"
+    ],
+    "forbiddenGenericLanguage": [
+      "parade line ready",
+      "march hop crawl flutter",
+      "guess the bug",
+      "color tells the species"
+    ],
     "chorusAfterRound1": [
       2,
       5

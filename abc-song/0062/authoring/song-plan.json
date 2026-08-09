@@ -6,8 +6,8 @@
   "tempoBpm": 95,
   "motifFamily": "flutter-tap",
   "hook": [
-    "Look up close, what can you see?",
-    "Mini-world words from A to Z!"
+    "Count, check, classify—A-B-C!",
+    "Legs, wings, antennae tell us which group we see."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat after cue, then bright answer",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "tiny-world observer with a magnifying glass",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 uses tiny rhythmic detail—wing, leg, body, web or life-stage clues—while preserving clear target diction.",
-    "round2Grammar": "Round 2 leaves a clean recall gap, then confirms with an object-conditioned gesture: ant six-step crawl, flea/grasshopper/leafhopper hop, mantis folded grasping forelegs, beetle wing-cover shell, butterfly/moth wing-open, orb-weaver web circle, pill-bug curl, stick-insect twig freeze, firefly glow, or other visible clue. Do not reduce the whole section to generic antenna/crawl motions.",
+    "rhymeEngine": "closeup-classification-contrast-rhyme",
+    "chorusRhymeEngine": "count-check-classify-hook",
+    "pointOfView": "a child classifying tiny animals by visible anatomy",
+    "chorusFunction": "repeat count-check-classify",
+    "grooveMeter": "precise 4/4 close-up pulse",
+    "round1Grammar": "hand-written classification facts with non-insect exceptions explicit",
+    "round2Grammar": "classification cue -> recall beat -> target -> count/point gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a close-up kalimba pluck with one soft bell sparkle after the target.",
     "signatureColor": "a close-up kalimba pluck with one soft bell sparkle after the target",
+    "authorialIntent": "Turn Butterfly Beetle Beat into a classification close-up: six-legged insects are compared with an eight-legged orb-weaver and a many-legged terrestrial crustacean, so 'tiny creature' never collapses into 'insect'.",
+    "lyricIdentity": "A magnified field guide checks legs, wings, antennae and life stage before naming the group.",
+    "imageMotifs": [
+      "six insect legs",
+      "orb-weaver eight legs",
+      "pill bug plates",
+      "rhinoceros beetle horn",
+      "butterfly scales"
+    ],
+    "semanticArc": [
+      "define insect body plan",
+      "compare insect orders",
+      "contrast arachnid/crustacean",
+      "finish with wing and metamorphosis diversity"
+    ],
+    "forbiddenGenericLanguage": [
+      "magnifying glass down",
+      "all are insects",
+      "tiny world fun",
+      "one close-up clue"
+    ],
     "chorusAfterRound1": [
       2,
       6

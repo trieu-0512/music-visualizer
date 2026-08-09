@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Flutter, tap, wiggle—who is moving in the leaves?",
+      "text": "One creature drinks plant sap, one carries pollen, one hunts another insect.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Catch the letter on the beat, then catch the tiny name.",
+      "text": "A garden is a web of jobs, not a list of heroes and villains.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Aphid appears—A found it. Aphid on a leaf | tiny sap-sipper, body small and brief",
+      "text": "A — Aphid! Sap-feeding insect can form colonies on stems and leaves | prey for lady beetles and other predators.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B ... Bee; A bee has six legs and visits flowers for nectar and pollen.",
+      "text": "B ... B ... Bee! Many bees move pollen while collecting nectar or pollen | pollination is a plant-insect relationship, not a favor done on purpose.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "A tiny pause for C, then Cricket! It has long antennae; many males chirp by rubbing their wings.",
+      "text": "C? Cricket! Omnivorous or plant-feeding roles vary by species | many males produce chirps by rubbing wing structures.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "across the flutter-and-tap garden, Dragonfly belongs with D. A dragonfly has huge eyes and two pairs of long wings; its young stage lives in water.",
+      "text": "D is Dragonfly. Adult aerial predator hunts small insects | aquatic nymph lives underwater, linking pond and garden.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Question: E? Answer: Earwig. Earwig at the rear | curved pincer pair makes the picture clear",
+      "text": "E — Earwig! Omnivore that may eat plant material, fungi, or small animals | role changes with species and food available.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Firefly appears—F found it. It is a beetle; many species make light with special organs in the abdomen.",
+      "text": "F ... F ... Firefly! Beetle whose larvae often prey on small soft-bodied animals | adults of many species signal with light.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G ... Gnat; A gnat is a tiny fly with six legs, antennae, and one pair of wings.",
+      "text": "G? Gnat! Tiny fly; roles range from decomposer larvae to plant feeder or nuisance | 'gnat' covers many groups.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "A tiny pause for H, then Hercules Beetle! It is a very large rhinoceros beetle; males can have long opposing horn-like projections.",
+      "text": "H is Hercules Beetle. Huge rhinoceros beetle; larvae develop in decaying wood | decomposition habitat matters to its life cycle.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "across the flutter-and-tap garden, Insect belongs with I. Insect on the leaf | shape and movement make the clue brief",
+      "text": "I — Insect! Six-legged animal group filling many garden roles | one label cannot predict its job.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Question: J? Answer: June Bug. It is a beetle; hardened front wings cover the softer flight wings beneath.",
+      "text": "J ... J ... June Bug! Scarab beetle; larvae often feed underground on roots or organic matter | adults may feed on leaves.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kissing Bug appears—K found it. Kissing Bug, narrow head | long piercing beak is the clue instead",
+      "text": "K? Kissing Bug! Blood-feeding triatomine | not a garden handling target; some species can transmit Chagas disease parasites.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L ... Leafhopper; A leafhopper is a small plant-feeding insect with strong hind legs for sudden hops.",
+      "text": "L is Leafhopper. Sap-feeding hemipteran can move between plants | some species transmit plant pathogens.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Flutter, crawl, land on the beat!",
+      "text": "Feed, pollinate, hunt—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Letter and creature finally meet!",
+      "text": "Ask what it does before you decide what it means.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "A tiny pause for M, then Mosquito! Mosquito slim and light | long legs, narrow wings in sight",
+      "text": "M — Mosquito! Aquatic larvae grow in standing water; adults feed on plant sugars, and females of many species also take blood | some transmit disease.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "across the flutter-and-tap garden, Net-winged Beetle belongs with N. A net-winged beetle has soft-looking wing covers marked with raised ridges like a tiny net.",
+      "text": "N ... N ... Net-winged Beetle! Adults often show ridged, netlike elytra | larvae of many species live in decaying wood or soil.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Question: O? Answer: Orb Weaver. It is a spider, not an insect, and many species build round wheel-shaped webs.",
+      "text": "O? Orb Weaver! Eight-legged spider catches insects in an orb web | garden predator, not an insect.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Praying Mantis appears—P found it. It is an insect with grasping front legs held in a folded position.",
+      "text": "P is Praying Mantis. Ambush predator grabs insects and other small prey | useful ecological role does not make it safe to handle.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q ... Queen Bee; Queen Bee, body long | colony's egg-laying female in the throng",
+      "text": "Q — Queen Bee! Reproductive female in a social bee colony | colony role differs from worker tasks such as foraging.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "A tiny pause for R, then Rhinoceros Beetle! It is a robust scarab; many males carry one or more large horn-like projections.",
+      "text": "R ... R ... Rhinoceros Beetle! Scarab larvae often develop in decaying plant material | adults carry large horns in many species.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "across the flutter-and-tap garden, Stick Insect belongs with S. Stick Insect holds still | twig-like body hides with skill",
+      "text": "S? Stick Insect! Plant eater camouflaged as twigs or leaves | feeding role differs from mantis predation.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Question: T? Answer: Tiger Moth. Tiger moths often have bold spots or bands and thick furry-looking bodies.",
+      "text": "T is Tiger Moth. Moth group with often hairy caterpillars | caterpillars feed on plants while adults occupy a different life stage.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Flutter, crawl, land on the beat!",
+      "text": "Feed, pollinate, hunt—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Letter and creature finally meet!",
+      "text": "Ask what it does before you decide what it means.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Underwing Moth appears—U found it. Underwing Moth folds tight | hidden hindwing colors wait out of sight",
+      "text": "U — Underwing Moth! Moth hides bright hindwings beneath cryptic forewings | caterpillars feed on host plants.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V ... Vinegar Fly; Vinegar Fly is a small fly with six legs, antennae, and one wing pair.",
+      "text": "V ... V ... Vinegar Fly! Small fly attracted to fermenting fruit and microbes | larvae help process yeasty decaying material.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "A tiny pause for W, then Weevil! Weevil snout out front | long beetle nose makes the clue we want",
+      "text": "W? Weevil! Beetle with elongated snout | many species feed on particular plants or seeds.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "across the flutter-and-tap garden, Xylocopa Bee belongs with X. Xylocopa are large carpenter bees; many females excavate nest galleries in wood.",
+      "text": "X is Xylocopa Bee. Carpenter bee often nests in tunnels it excavates in wood | adults also visit flowers.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Question: Y? Answer: Yellowjacket. Yellowjacket on the leaf | shape and movement make the clue brief",
+      "text": "Y — Yellowjacket! Social wasp that can sting defensively | observe food-seeking workers from distance and never disturb a nest.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zebra Butterfly appears—Z found it. A zebra-named butterfly is recognized in the picture by bold light-and-dark striping on its wings.",
+      "text": "Z ... Z ... Zebra Butterfly! Zebra-patterned butterfly mapping clue | flower visits and host plants connect adult and larval stages.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Question: A? ... Aphid! Make a tiny leaf-sip point, then show six finger-legs.",
+      "text": "Garden role A ... Aphid! Make a tiny leaf-sip point, then show six finger-legs.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... answer when ready ... Bee! Flutter two hand-wings, then point to a flower.",
+      "text": "What job B ... Bee! Flutter two hand-wings, then point to a flower.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Remember the C clue ... Cricket! Rub two fingertips softly, then lift long antenna fingers.",
+      "text": "Feed, hunt, or visit—C? ... Cricket! Rub two fingertips softly, then lift long antenna fingers.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D, one quiet beat ... Dragonfly! Hold two pairs of long hand-wings straight out.",
+      "text": "Garden clue D ... Dragonfly! Hold two pairs of long hand-wings straight out.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Question: E? ... Earwig! Make two tiny rear-pincer fingers, then freeze.",
+      "text": "Garden role E ... Earwig! Make two tiny rear-pincer fingers, then freeze.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... answer when ready ... Firefly! Tap one pretend belly-light on, then off.",
+      "text": "What job F ... Firefly! Tap one pretend belly-light on, then off.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Remember the G clue ... Gnat! Make one tiny flight circle with a fingertip.",
+      "text": "Feed, hunt, or visit—G? ... Gnat! Make one tiny flight circle with a fingertip.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H, one quiet beat ... Hercules Beetle! Show two opposing horn shapes, then a big beetle body.",
+      "text": "Garden clue H ... Hercules Beetle! Show two opposing horn shapes, then a big beetle body.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Question: I? ... Insect! Point to its clearest body or movement clue, then freeze.",
+      "text": "Garden role I ... Insect! Point to its clearest body or movement clue, then freeze.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... answer when ready ... June Bug! Close two wing-cover hands, then make one short flight arc.",
+      "text": "What job J ... June Bug! Close two wing-cover hands, then make one short flight arc.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Remember the K clue ... Kissing Bug! Trace a long narrow head, then point to the picture only.",
+      "text": "Feed, hunt, or visit—K? ... Kissing Bug! Trace a long narrow head, then point to the picture only.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L, one quiet beat ... Leafhopper! Make one quick sideways finger-hop from a pretend leaf.",
+      "text": "Garden clue L ... Leafhopper! Make one quick sideways finger-hop from a pretend leaf.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -358,21 +358,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Flutter, crawl, land on the beat!",
+      "text": "Feed, pollinate, hunt—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Letter and creature finally meet!",
+      "text": "Ask what it does before you decide what it means.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Question: M? ... Mosquito! Show long finger-legs, then one slender proboscis finger.",
+      "text": "Garden role M ... Mosquito! Show long finger-legs, then one slender proboscis finger.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... answer when ready ... Net-winged Beetle! Trace a tiny crisscross pattern across two wing-cover hands.",
+      "text": "What job N ... Net-winged Beetle! Trace a tiny crisscross pattern across two wing-cover hands.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Remember the O clue ... Orb Weaver! Trace one round web with spoke lines.",
+      "text": "Feed, hunt, or visit—O? ... Orb Weaver! Trace one round web with spoke lines.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P, one quiet beat ... Praying Mantis! Fold two grasping forearms, then hold the triangular-head pose.",
+      "text": "Garden clue P ... Praying Mantis! Fold two grasping forearms, then hold the triangular-head pose.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Question: Q? ... Queen Bee! Make a long bee-body shape, then hold still.",
+      "text": "Garden role Q ... Queen Bee! Make a long bee-body shape, then hold still.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... answer when ready ... Rhinoceros Beetle! Lift one horn finger, then show a round beetle body.",
+      "text": "What job R ... Rhinoceros Beetle! Lift one horn finger, then show a round beetle body.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Remember the S clue ... Stick Insect! Hold one finger straight like a twig and freeze.",
+      "text": "Feed, hunt, or visit—S? ... Stick Insect! Hold one finger straight like a twig and freeze.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T, one quiet beat ... Tiger Moth! Open patterned hand-wings once, then fold them gently.",
+      "text": "Garden clue T ... Tiger Moth! Open patterned hand-wings once, then fold them gently.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Question: U? ... Underwing Moth! Open patterned hand-wings once, then fold them gently.",
+      "text": "Garden role U ... Underwing Moth! Open patterned hand-wings once, then fold them gently.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... answer when ready ... Vinegar Fly! Make one tiny fly loop, then land on a fingertip.",
+      "text": "What job V ... Vinegar Fly! Make one tiny fly loop, then land on a fingertip.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Remember the W clue ... Weevil! Stretch one finger forward like a long beetle snout.",
+      "text": "Feed, hunt, or visit—W? ... Weevil! Stretch one finger forward like a long beetle snout.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X, one quiet beat ... Xylocopa Bee! Make a sturdy bee shape, then trace one short wood tunnel.",
+      "text": "Garden clue X ... Xylocopa Bee! Make a sturdy bee shape, then trace one short wood tunnel.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,7 +468,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Question: Y? ... Yellowjacket! Show a striped body with two fingers, then flutter once.",
+      "text": "Garden role Y ... Yellowjacket! Show a striped body with two fingers, then flutter once.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -476,7 +476,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... answer when ready ... Zebra Butterfly! Open patterned hand-wings once, then fold them gently.",
+      "text": "What job Z ... Zebra Butterfly! Open patterned hand-wings once, then fold them gently.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -484,28 +484,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Flutter, crawl, land on the beat!",
+      "text": "Feed, pollinate, hunt—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Letter and creature finally meet!",
+      "text": "Ask what it does before you decide what it means.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Flutter, crawl, land on the beat!",
+      "text": "Leaves stay, web stays, insects keep their distance from our hands.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Letters tucked in—our tiny-world tune is ours to keep!",
+      "text": "A to Z leaves the garden working after we go.",
       "objective": "narration",
       "objectReveal": "none"
     }

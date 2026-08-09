@@ -6,8 +6,8 @@
   "tempoBpm": 93,
   "motifFamily": "bug-bounce",
   "hook": [
-    "Tiny wings, tiny feet—A-B-C!",
-    "Find the little name with me!"
+    "Cling, crawl, fly—A-B-C!",
+    "Small does not mean simple when the body parts change."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "short one-beat retrieval gap",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "tiny-world observer with a magnifying glass",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "elastic 4/4 bounce",
-    "round1Grammar": "Round 1 uses tiny rhythmic detail—wing, leg, body, web or life-stage clues—while preserving clear target diction.",
-    "round2Grammar": "Round 2 leaves a clean recall gap, then confirms with an object-conditioned gesture: ant six-step crawl, flea/grasshopper/leafhopper hop, mantis folded grasping forelegs, beetle wing-cover shell, butterfly/moth wing-open, orb-weaver web circle, pill-bug curl, stick-insect twig freeze, firefly glow, or other visible clue. Do not reduce the whole section to generic antenna/crawl motions.",
+    "rhymeEngine": "tiny-body-mechanics-rhyme",
+    "chorusRhymeEngine": "cling-crawl-fly-hook",
+    "pointOfView": "a child comparing tiny body mechanics from a safe close view",
+    "chorusFunction": "reset cling-crawl-fly",
+    "grooveMeter": "light 4/4 with varied motion pockets",
+    "round1Grammar": "hand-written body-mechanics facts; safety species observe-only",
+    "round2Grammar": "mechanic cue -> recall beat -> target -> safe finger gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a tiny marimba hop and dry shaker tick after each target.",
     "signatureColor": "a tiny marimba hop and dry shaker tick after each target",
+    "authorialIntent": "Make Tiny Bug Bounce a mechanics-at-small-scale song: piercing, chewing, jumping, clinging, glowing, rolling and flying are distinct body solutions, with dangerous species kept observe-only.",
+    "lyricIdentity": "A child watches tiny movement and feeding mechanics instead of making every bug bounce; body parts drive the verbs.",
+    "imageMotifs": [
+      "aphid stylet at leaf",
+      "beetle elytra opening",
+      "dung beetle rolling",
+      "firefly lantern abdomen",
+      "stick insect still on twig"
+    ],
+    "semanticArc": [
+      "feeding mouthparts",
+      "walking rolling jumping",
+      "metamorphosis and light",
+      "camouflage wings and safety"
+    ],
+    "forbiddenGenericLanguage": [
+      "tiny bug bounce",
+      "little wings and feet",
+      "all bugs hop",
+      "bug friends"
+    ],
     "chorusAfterRound1": [
       3,
       7
