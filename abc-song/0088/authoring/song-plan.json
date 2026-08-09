@@ -6,8 +6,8 @@
   "tempoBpm": 94,
   "motifFamily": "snack-bounce",
   "hook": [
-    "Clink in the song, not in our hands!",
-    "Name the kitchen picture bands!"
+    "Food, container, tool—A-B-C!",
+    "Sort the kitchen word before it reaches the table."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat before answer confirmation",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "picture-game learner with a supervising grown-up implied",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "stop-and-go 4/4",
-    "round1Grammar": "Round 1 names foods and object jobs from pictures. Hot, sharp or powered equipment is described, never operated by the child.",
-    "round2Grammar": "Round 2 is picture recall only and object-conditioned: foods show shape, peel, grid, ring, strands, or portions; bowls/cups/jars/trays make container shapes; spoons/ladles/forks/tongs/whisks show empty-hand silhouettes; drawers open in the air; timers trace a dial; cookie cutters trace an outline. Hot, sharp, or powered tools remain point-only or empty-hand mime while a grown-up handles the real item.",
+    "rhymeEngine": "meal-category-assembly-rhyme",
+    "chorusRhymeEngine": "food-container-tool-hook",
+    "pointOfView": "a child sorting meal components and kitchen objects",
+    "chorusFunction": "repeat food-container-tool",
+    "grooveMeter": "light 4/4 table-setting pulse",
+    "round1Grammar": "category plus function/nutrition-neutral fact",
+    "round2Grammar": "category cue -> recall beat -> target -> card-sort gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a dry clap-stop and tiny marimba crunch-shape answer, with no real utensil noise.",
     "signatureColor": "a dry clap-stop and tiny marimba crunch-shape answer, with no real utensil noise",
+    "authorialIntent": "Make Meal and Snack Beat a food-versus-tool composition lesson: foods, containers, prep tools and hot cooking equipment occupy separate lanes, with balanced-meal language kept non-prescriptive.",
+    "lyricIdentity": "A child assembles a table by category rather than making kitchen noises; foods are described by ingredient/food type and tools by function.",
+    "imageMotifs": [
+      "fruit bowl",
+      "noodles dish",
+      "yogurt cup",
+      "knife adult station",
+      "tongs serving"
+    ],
+    "semanticArc": [
+      "foods",
+      "containers",
+      "prep tools",
+      "hot/serving boundary"
+    ],
+    "forbiddenGenericLanguage": [
+      "crunch clink pour",
+      "music bands",
+      "every food snack",
+      "clink in hands"
+    ],
     "chorusAfterRound1": [
       2,
       5,

@@ -6,8 +6,8 @@
   "tempoBpm": 92,
   "motifFamily": "kitchen-mix",
   "hook": [
-    "Picture first, safe hands—A-B-C!",
-    "Kitchen words, come name with me!"
+    "Cold, hot, sharp—A-B-C!",
+    "Safe hands know which tools belong with grown-ups."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat with utensil sounds muted",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "picture-game learner with a supervising grown-up implied",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "elastic 4/4 bounce",
-    "round1Grammar": "Round 1 names foods and object jobs from pictures. Hot, sharp or powered equipment is described, never operated by the child.",
-    "round2Grammar": "Round 2 is picture recall only and object-conditioned: foods show shape, peel, grid, ring, strands, or portions; bowls/cups/jars/trays make container shapes; spoons/ladles/forks/tongs/whisks show empty-hand silhouettes; drawers open in the air; timers trace a dial; cookie cutters trace an outline. Hot, sharp, or powered tools remain point-only or empty-hand mime while a grown-up handles the real item.",
+    "rhymeEngine": "kitchen-risk-category-rhyme",
+    "chorusRhymeEngine": "cold-hot-sharp-hook",
+    "pointOfView": "a child sorting kitchen objects by safe-use category",
+    "chorusFunction": "repeat cold-hot-sharp-grownup",
+    "grooveMeter": "stop-check-go 4/4",
+    "round1Grammar": "function plus hazard category",
+    "round2Grammar": "risk cue -> recall gap -> target -> point-only or safe empty-hand gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a muted tabletop woodblock tap and marimba shape-note after the target.",
     "signatureColor": "a muted tabletop woodblock tap and marimba shape-note after the target",
+    "authorialIntent": "Turn Kitchen Letter Mix into a kitchen risk map: cold, room-temperature, powered, hot and sharp objects are sorted before any pretend action.",
+    "lyricIdentity": "A child reads tool category and hazard boundary first, then food/shape; real sharp, hot and powered tools stay adult-only.",
+    "imageMotifs": [
+      "knife on adult counter",
+      "oven heat zone",
+      "blender unplugged picture",
+      "ice tray cold",
+      "apple safe food"
+    ],
+    "semanticArc": [
+      "safe foods/containers",
+      "powered tools",
+      "hot tools",
+      "sharp tools and storage recap"
+    ],
+    "forbiddenGenericLanguage": [
+      "tabletop picture beat",
+      "kitchen words come name",
+      "pretend cutting",
+      "all tools safe"
+    ],
     "chorusAfterRound1": [
       2,
       5

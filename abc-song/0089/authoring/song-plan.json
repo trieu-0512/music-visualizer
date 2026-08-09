@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "cook-together",
   "hook": [
-    "Pretend-chef beat, one-two-three!",
-    "Food and tool words, A to Z!"
+    "Ask, share, pass—A-B-C!",
+    "Right task, right hands, one kitchen team."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two short beats before confirmation",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "picture-game learner with a supervising grown-up implied",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "light swung 4/4",
-    "round1Grammar": "Round 1 names foods and object jobs from pictures. Hot, sharp or powered equipment is described, never operated by the child.",
-    "round2Grammar": "Round 2 is picture recall only and object-conditioned: foods show shape, peel, grid, ring, strands, or portions; bowls/cups/jars/trays make container shapes; spoons/ladles/forks/tongs/whisks show empty-hand silhouettes; drawers open in the air; timers trace a dial; cookie cutters trace an outline. Hot, sharp, or powered tools remain point-only or empty-hand mime while a grown-up handles the real item.",
+    "rhymeEngine": "kitchen-teamwork-role-rhyme",
+    "chorusRhymeEngine": "ask-share-pass-hook",
+    "pointOfView": "a child helping an adult cook safely",
+    "chorusFunction": "repeat ask-share-pass",
+    "grooveMeter": "cooperative 4/4 call-and-response",
+    "round1Grammar": "task plus role boundary",
+    "round2Grammar": "role cue -> recall beat -> target -> pretend pass/point gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a warm guitar pluck plus soft hand-clap confirmation after the target.",
     "signatureColor": "a warm guitar pluck plus soft hand-clap confirmation after the target",
+    "authorialIntent": "Make Cooking Together ABC a collaboration protocol: children can wash, count, pour cool ingredients or set napkins when age-appropriate; adults own knives, heat and powered appliances.",
+    "lyricIdentity": "A child and adult pass tasks by capability and hazard, emphasizing consent, hygiene and age-appropriate help.",
+    "imageMotifs": [
+      "child apron",
+      "adult knife station",
+      "cool bowl mixing",
+      "oven adult zone",
+      "shared cleanup"
+    ],
+    "semanticArc": [
+      "prepare/wash",
+      "safe child tasks",
+      "adult hot/sharp tasks",
+      "serve/clean together"
+    ],
+    "forbiddenGenericLanguage": [
+      "pretend chef",
+      "everyone cooks same",
+      "chef hat",
+      "kids use all tools"
+    ],
     "chorusAfterRound1": [
       3,
       7

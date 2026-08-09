@@ -6,8 +6,8 @@
   "tempoBpm": 90,
   "motifFamily": "cook-look",
   "hook": [
-    "Shelf by shelf, what can you see?",
-    "Kitchen-picture A to Z!"
+    "Measure, wait, change—A-B-C!",
+    "Different tools measure different things."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "short predictable pause before target",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "picture-game learner with a supervising grown-up implied",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 names foods and object jobs from pictures. Hot, sharp or powered equipment is described, never operated by the child.",
-    "round2Grammar": "Round 2 is picture recall only and object-conditioned: foods show shape, peel, grid, ring, strands, or portions; bowls/cups/jars/trays make container shapes; spoons/ladles/forks/tongs/whisks show empty-hand silhouettes; drawers open in the air; timers trace a dial; cookie cutters trace an outline. Hot, sharp, or powered tools remain point-only or empty-hand mime while a grown-up handles the real item.",
+    "rhymeEngine": "measure-transform-sequence-rhyme",
+    "chorusRhymeEngine": "measure-wait-change-hook",
+    "pointOfView": "a child observing cooking transformations",
+    "chorusFunction": "repeat measure-wait-change",
+    "grooveMeter": "precise 6/8 counting sway",
+    "round1Grammar": "measurement/change fact with safety",
+    "round2Grammar": "sequence cue -> recall beat -> target -> count/shape gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a soft cupboard-click plus acoustic-pluck shelf answer after the word.",
     "signatureColor": "a soft cupboard-click plus acoustic-pluck shelf answer after the word",
+    "authorialIntent": "Make Cook and Count Letters about measurement and transformation: volume, timing, rolling, mixing, heating and ingredient changes are separated, with US quart explicitly labeled.",
+    "lyricIdentity": "A child follows measure -> wait -> mix -> shape -> heat while adults own hot/sharp steps.",
+    "imageMotifs": [
+      "quart cup",
+      "egg timer",
+      "rolling pin dough",
+      "lemon juice",
+      "vanilla aroma"
+    ],
+    "semanticArc": [
+      "measure",
+      "time/mix",
+      "shape",
+      "heat and serve"
+    ],
+    "forbiddenGenericLanguage": [
+      "picture cupboard",
+      "counts the date",
+      "shelf rhyme",
+      "measure everything"
+    ],
     "chorusAfterRound1": [
       3,
       6

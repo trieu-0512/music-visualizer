@@ -6,8 +6,8 @@
   "tempoBpm": 93,
   "motifFamily": "tasty-kitchen",
   "hook": [
-    "Shape, sound, name—A-B-C!",
-    "Kitchen-word game, sing with me!"
+    "Shape, texture, aroma—A-B-C!",
+    "Notice the property before naming the picture."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one clear beat before target",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "picture-game learner with a supervising grown-up implied",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "story-song 3/4-to-4/4 feel",
-    "round1Grammar": "Round 1 names foods and object jobs from pictures. Hot, sharp or powered equipment is described, never operated by the child.",
-    "round2Grammar": "Round 2 is picture recall only and object-conditioned: foods show shape, peel, grid, ring, strands, or portions; bowls/cups/jars/trays make container shapes; spoons/ladles/forks/tongs/whisks show empty-hand silhouettes; drawers open in the air; timers trace a dial; cookie cutters trace an outline. Hot, sharp, or powered tools remain point-only or empty-hand mime while a grown-up handles the real item.",
+    "rhymeEngine": "kitchen-sensory-science-rhyme",
+    "chorusRhymeEngine": "shape-texture-aroma-hook",
+    "pointOfView": "a child observing sensory properties safely",
+    "chorusFunction": "repeat shape-texture-aroma",
+    "grooveMeter": "airy 6/8 sensory-gallery sway",
+    "round1Grammar": "observable property plus tool mechanism/safety",
+    "round2Grammar": "property cue -> recall beat -> target -> air-shape gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a glockenspiel shape-ping followed by one muted woodblock answer.",
     "signatureColor": "a glockenspiel shape-ping followed by one muted woodblock answer",
+    "authorialIntent": "Make Tasty Kitchen A-Z a sensory-food-science gallery: shape, texture, aroma, state and tool mechanics are observed without tasting commands or generic 'yummy' judgments.",
+    "lyricIdentity": "A child compares crisp/soft, liquid/solid, citrus aroma, vanilla aroma, grid/spiral shapes and mechanical mixing from pictures.",
+    "imageMotifs": [
+      "lemon zest oils",
+      "whisk air bubbles",
+      "ice tray phase change",
+      "waffle grid",
+      "yam rough skin"
+    ],
+    "semanticArc": [
+      "shape",
+      "texture/state",
+      "aroma",
+      "mechanics and sensory recap"
+    ],
+    "forbiddenGenericLanguage": [
+      "tasty yummy",
+      "shape sound name",
+      "eat it",
+      "smell everything closely"
+    ],
     "chorusAfterRound1": [
       2,
       6
