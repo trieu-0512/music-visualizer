@@ -6,11 +6,79 @@
   "tempoBpm": 86,
   "motifFamily": "sail-travel",
   "hook": [
-    "Sail and travel—A-B-C!",
-    "Sea-trip words come ride with me!"
+    "Plan, mark, depth—A-B-C!",
+    "Read the water before the journey."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Sail Travel Song",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "marine-navigation-rhyme",
+    "chorusRhymeEngine": "plan-mark-depth-hook",
+    "pointOfView": "a child following marine navigation clues",
+    "chorusFunction": "repeat plan-mark-depth",
+    "grooveMeter": "84 BPM chart-reading 6/8",
+    "round1Grammar": "craft/aid -> navigation role -> caveat",
+    "round2Grammar": "navigation-neutral recall -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "navigation-route",
+    "authorialIntent": "Make Sail Travel Song a navigation-and-safety route: anchor, buoy, echo sounder, lighthouse, harbor, pier/quay and voyage conditions guide travel; motorized and underwater devices remain distinct from sailing.",
+    "lyricIdentity": "A child reads route clues before imagining a voyage and learns that buoy colors, depth, weather, and rescue rules are system-specific.",
+    "imageMotifs": [
+      "anchor set",
+      "buoy channel",
+      "echo depth",
+      "lighthouse mark",
+      "rescue boat"
+    ],
+    "semanticArc": [
+      "plan",
+      "navigate",
+      "travel",
+      "rescue/arrival"
+    ],
+    "forbiddenGenericLanguage": [
+      "sail everything",
+      "buoy means same everywhere",
+      "sonar x-ray",
+      "jet ski sail"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 6,
+    "usedRound1": 3,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

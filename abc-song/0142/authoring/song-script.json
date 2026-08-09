@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore sailing and sea travel with me!",
+      "text": "Chart the route, read the buoy, check depth, notice the lighthouse, keep rescue procedures ready.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Sail and travel—A-B-C!",
+      "text": "Sea travel begins with information before motion.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "On our sea trip, A meets Anchor along the way.",
+      "text": "A — Anchor! | Heavy device grips seabed/riverbed to limit vessel drift; dropping/retrieving it requires awareness of depth, bottom, and lines.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "On our sea trip, B meets Buoy along the way.",
+      "text": "B ... B ... Buoy! | Floating marker can indicate channel, hazard, mooring, or information; color/shape meanings depend on local buoyage system.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "On our sea trip, C meets Canoe along the way.",
+      "text": "C? Canoe! | Narrow open craft commonly paddled with single-bladed paddles; PFD and water conditions matter.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "On our sea trip, D meets Dinghy along the way.",
+      "text": "D is Dinghy. Small boat used independently or as a tender; sail, oar, or motor propulsion depends on design. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "On our sea trip, E meets Echo Sounder along the way.",
+      "text": "E — Echo Sounder! | Instrument sends sound pulses downward and times echoes to estimate water depth or detect bottom/fish features.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "On our sea trip, F meets Fishing Boat along the way.",
+      "text": "F ... F ... Fishing Boat! | Vessel used to catch or support harvesting fish; gear and size vary from small boats to large commercial vessels.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "On our sea trip, G meets Gangway along the way.",
+      "text": "G? Gangway! | Bridge/ramp connects shore and vessel for boarding; handrails, angle, tide, and secure placement matter.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "On our sea trip, H meets Harbor along the way.",
+      "text": "H is Harbor. Sheltered coastal/water area where vessels anchor, berth, load, or seek protection; traffic follows local navigation rules. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Sail and travel—A-B-C!",
+      "text": "Plan, mark, depth—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Sea-trip words come ride with me!",
+      "text": "Read the water before the journey.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "On our sea trip, I meets Island Ferry along the way.",
+      "text": "I — Island Ferry! | Ferry service links an island with another shore/island; route role defines it more than hull shape.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "On our sea trip, J meets Jet Ski along the way.",
+      "text": "J ... J ... Jet Ski! | Personal watercraft propelled by a water jet; high-speed operation requires age/licensing rules, PFD, and trained supervision.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "On our sea trip, K meets Kayak along the way.",
+      "text": "K? Kayak! | Narrow paddle craft commonly uses double-bladed paddle; PFD, weather, and water skill matter.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "On our sea trip, L meets Lighthouse along the way.",
+      "text": "L is Lighthouse. Fixed navigation aid with a distinctive light/mark helps mariners identify coast/hazard; modern navigation also uses electronic systems. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "On our sea trip, M meets Marina along the way.",
+      "text": "M — Marina! | Managed harbor area provides berths and services for recreational/small craft; docks and fuel areas have posted rules.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "On our sea trip, N meets Narrowboat along the way.",
+      "text": "N ... N ... Narrowboat! | Long narrow canal boat designed for inland waterways and locks; not an ocean-going shape by default.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "On our sea trip, O meets Ocean Liner along the way.",
+      "text": "O? Ocean Liner! | Large passenger ship designed historically for scheduled ocean crossings; distinct from cruise ship by primary service concept.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "On our sea trip, P meets Pier along the way.",
+      "text": "P is Pier. Structure projects over/along water for access, berthing, fishing, or recreation; edges remain fall hazards. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Sail and travel—A-B-C!",
+      "text": "Plan, mark, depth—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Sea-trip words come ride with me!",
+      "text": "Read the water before the journey.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "On our sea trip, Q meets Quay along the way.",
+      "text": "Q — Quay! | Solid waterside structure where vessels berth to load/unload; edges and mooring equipment are work/safety zones.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "On our sea trip, R meets Rescue Boat along the way.",
+      "text": "R ... R ... Rescue Boat! | Fast or specialized craft used by trained rescuers; rescue operations require crew, communication, and safety gear.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "On our sea trip, S meets Sailboat along the way.",
+      "text": "S? Sailboat! | Boat uses sails to convert wind force into forward motion while keel/centerboard and rudder help control course.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "On our sea trip, T meets Tugboat along the way.",
+      "text": "T is Tugboat. Powerful workboat pushes or tows ships/barges; close-quarters harbor work is professional operation. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "On our sea trip, U meets Underwater Scooter along the way.",
+      "text": "U — Underwater Scooter! | Diver propulsion vehicle pulls a diver through water; diving training, depth, battery, and entanglement risks require expert use.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "On our sea trip, V meets Vessel along the way.",
+      "text": "V ... V ... Vessel! | General legal/nautical term for a watercraft; it does not specify propulsion, size, or purpose.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "On our sea trip, W meets Wake along the way.",
+      "text": "W? Wake! | Disturbed water pattern trails a moving vessel; wake size depends on speed, hull, depth, and conditions.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "On our sea trip, X meets X-ray Sonar Screen along the way.",
+      "text": "X is X-ray Sonar Screen. Project label for a sonar display; sonar uses sound, not X-rays, so 'X-ray' describes see-through-like imagery rather than radiation. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Sail and travel—A-B-C!",
+      "text": "Plan, mark, depth—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Sea-trip words come ride with me!",
+      "text": "Read the water before the journey.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "On our sea trip, Y meets Yawl along the way.",
+      "text": "Y — Yawl! | Sailboat rig with a small mizzen mast aft of the rudder post in the traditional definition.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "On our sea trip, Z meets Zephyr Sail along the way.",
+      "text": "Z ... Z ... Zephyr Sail! | Project poetic label for a sail shown in light wind; zephyr means a gentle breeze, not a standardized sail type.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Sailor cue: A ... Anchor! Point and say.",
+      "text": "Route recall A ... Anchor! Point; lower one flat hand slowly—no rope wrapping.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Sailor cue: B ... Buoy! Point and say.",
+      "text": "Find B ... Buoy! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Sailor cue: C ... Canoe! Point and say.",
+      "text": "Which one starts C? ... Canoe! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Sailor cue: D ... Dinghy! Point and say.",
+      "text": "Check D ... Dinghy! Point once; recall one Round-1 clue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Sailor cue: E ... Echo Sounder! Point and say.",
+      "text": "Route recall E ... Echo Sounder! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Sailor cue: F ... Fishing Boat! Point and say.",
+      "text": "Find F ... Fishing Boat! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Sailor cue: G ... Gangway! Point and say.",
+      "text": "Which one starts G? ... Gangway! Trace a short bridge; no balancing mime.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Sailor cue: H ... Harbor! Point and say.",
+      "text": "Check H ... Harbor! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Sail and travel—A-B-C!",
+      "text": "Plan, mark, depth—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Sea-trip words come ride with me!",
+      "text": "Read the water before the journey.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Sailor cue: I ... Island Ferry! Point and say.",
+      "text": "Route recall I ... Island Ferry! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Sailor cue: J ... Jet Ski! Point and say.",
+      "text": "Find J ... Jet Ski! Point only; no high-speed riding mime.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Sailor cue: K ... Kayak! Point and say.",
+      "text": "Which one starts K? ... Kayak! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Sailor cue: L ... Lighthouse! Point and say.",
+      "text": "Check L ... Lighthouse! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Sailor cue: M ... Marina! Point and say.",
+      "text": "Route recall M ... Marina! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Sailor cue: N ... Narrowboat! Point and say.",
+      "text": "Find N ... Narrowboat! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Sailor cue: O ... Ocean Liner! Point and say.",
+      "text": "Which one starts O? ... Ocean Liner! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Sailor cue: P ... Pier! Point and say.",
+      "text": "Check P ... Pier! Point and mark the edge; stay back.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Sail and travel—A-B-C!",
+      "text": "Plan, mark, depth—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Sea-trip words come ride with me!",
+      "text": "Read the water before the journey.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Sailor cue: Q ... Quay! Point and say.",
+      "text": "Route recall Q ... Quay! Point and mark the edge; stay back.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Sailor cue: R ... Rescue Boat! Point and say.",
+      "text": "Find R ... Rescue Boat! Point; say trained rescue crew.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Sailor cue: S ... Sailboat! Point and say.",
+      "text": "Which one starts S? ... Sailboat! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Sailor cue: T ... Tugboat! Point and say.",
+      "text": "Check T ... Tugboat! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Sailor cue: U ... Underwater Scooter! Point and say.",
+      "text": "Route recall U ... Underwater Scooter! Point only; expert diving equipment.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Sailor cue: V ... Vessel! Point and say.",
+      "text": "Find V ... Vessel! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Sailor cue: W ... Wake! Point and say.",
+      "text": "Which one starts W? ... Wake! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Sailor cue: X ... X-ray Sonar Screen! Point and say.",
+      "text": "Check X ... X-ray Sonar Screen! Point to screen; say sonar uses sound, not X-rays.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Sail and travel—A-B-C!",
+      "text": "Plan, mark, depth—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Sea-trip words come ride with me!",
+      "text": "Read the water before the journey.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Sailor cue: Y ... Yawl! Point and say.",
+      "text": "Route recall Y ... Yawl! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Sailor cue: Z ... Zephyr Sail! Point and say.",
+      "text": "Find Z ... Zephyr Sail! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Sail and travel—A-B-C!",
+      "text": "Anchor holds, rescue boat remains crewed, sonar screen keeps using sound—not X-rays.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z finishes the route at safe harbor.",
       "objective": "narration",
       "objectReveal": "none"
     }

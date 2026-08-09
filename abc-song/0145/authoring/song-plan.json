@@ -6,11 +6,79 @@
   "tempoBpm": 88,
   "motifFamily": "boat-day",
   "hook": [
-    "Boat day—A-B-C!",
-    "Float and point along with me!"
+    "Dock, board, return—A-B-C!",
+    "Passenger path stays separate from the working harbor."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Boat Day Picture Song",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "boat-day-itinerary-rhyme",
+    "chorusRhymeEngine": "dock-board-return-hook",
+    "pointOfView": "a child passenger on a supervised boat day",
+    "chorusFunction": "repeat dock-board-return",
+    "grooveMeter": "86 BPM itinerary 6/8",
+    "round1Grammar": "object fact tied to passenger itinerary or comparison honestly",
+    "round2Grammar": "itinerary-neutral recall -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "boat-itinerary",
+    "authorialIntent": "Make Boat Day Picture Song a one-day harbor itinerary: arrive at dock, board suitable vessel, observe navigation/work traffic, travel, return and disembark; historical and submarine cards remain comparisons.",
+    "lyricIdentity": "A child follows one realistic boat day while keeping passenger access separate from engines, workboats, rescue craft and operational deck areas.",
+    "imageMotifs": [
+      "dock arrival",
+      "gangway",
+      "ferry/water taxi",
+      "navigation light",
+      "harbor return"
+    ],
+    "semanticArc": [
+      "arrive",
+      "board",
+      "travel/observe",
+      "return"
+    ],
+    "forbiddenGenericLanguage": [
+      "boat day every vessel",
+      "climb engine",
+      "submarine day trip",
+      "touch rescue boat"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 4,
+    "usedRound1": 1,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

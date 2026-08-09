@@ -6,11 +6,79 @@
   "tempoBpm": 94,
   "motifFamily": "watercraft-wake",
   "hook": [
-    "Watercraft wake—A-B-C!",
-    "Boats make lines across the sea!"
+    "Hull, power, water—A-B-C!",
+    "Compare the design before the speed."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Watercraft Wake A-Z",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "hull-propulsion-rhyme",
+    "chorusRhymeEngine": "hull-power-water-hook",
+    "pointOfView": "a child comparing watercraft design",
+    "chorusFunction": "repeat hull-power-role",
+    "grooveMeter": "88 BPM wave-free 4/4",
+    "round1Grammar": "craft -> hull/propulsion/service distinction",
+    "round2Grammar": "design recall -> target -> safe outline",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "hull-propulsion",
+    "authorialIntent": "Make Watercraft Wake A-Z a hull-and-propulsion comparison: single hull, catamaran, trimaran, sail, motor, air-prop, paddle, personal watercraft and underwater propulsion are separated.",
+    "lyricIdentity": "A child compares how hull geometry and propulsion change stability, wake, and operating environment without ranking speed.",
+    "imageMotifs": [
+      "catamaran twin hull",
+      "trimaran outriggers",
+      "airboat fan",
+      "sailboat sail",
+      "water taxi route"
+    ],
+    "semanticArc": [
+      "hulls",
+      "propulsion",
+      "service roles",
+      "special craft"
+    ],
+    "forbiddenGenericLanguage": [
+      "watercraft wake fast",
+      "all hull same",
+      "sonar x-ray",
+      "speed wins"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 3,
+    "usedRound1": 0,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

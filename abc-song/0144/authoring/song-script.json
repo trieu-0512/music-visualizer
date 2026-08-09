@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore marina and rescue boats with me!",
+      "text": "Navigation light helps visibility, map helps planning, lifeboat carries trained rescue response.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Marina helpers—A-B-C!",
+      "text": "Rescue starts with preparation and calling the right help—not jumping in.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "At the marina, A shows Anchor in a safe rescue scene.",
+      "text": "A — Anchor! | Heavy device grips seabed/riverbed to limit vessel drift; dropping/retrieving it requires awareness of depth, bottom, and lines.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "At the marina, B shows Buoy in a safe rescue scene.",
+      "text": "B ... B ... Buoy! | Floating marker can indicate channel, hazard, mooring, or information; color/shape meanings depend on local buoyage system.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "At the marina, C shows Catamaran in a safe rescue scene.",
+      "text": "C? Catamaran! | Boat with two parallel hulls connected by a deck/frame; wide beam can provide stability and space.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "At the marina, D shows Dock in a safe rescue scene.",
+      "text": "D is Dock. Waterside structure/place for mooring and access; wet surfaces, lines, and edges require careful walking. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "At the marina, E shows Echo Sounder in a safe rescue scene.",
+      "text": "E — Echo Sounder! | Instrument sends sound pulses downward and times echoes to estimate water depth or detect bottom/fish features.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "At the marina, F shows Fishing Boat in a safe rescue scene.",
+      "text": "F ... F ... Fishing Boat! | Vessel used to catch or support harvesting fish; gear and size vary from small boats to large commercial vessels.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "At the marina, G shows Gondola in a safe rescue scene.",
+      "text": "G? Gondola! | Traditional Venetian flat-bottomed rowing boat propelled with a single oar from the stern side; not every narrow boat is a gondola.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "At the marina, H shows Houseboat in a safe rescue scene.",
+      "text": "H is Houseboat. Boat designed primarily for living accommodation; some are mobile while others remain moored. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Marina helpers—A-B-C!",
+      "text": "Prepare, locate, help—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Safe boat words, sing with me!",
+      "text": "Trained rescue comes before brave pretending.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "At the marina, I shows Inflatable Boat in a safe rescue scene.",
+      "text": "I — Inflatable Boat! | Flexible hull gains shape from pressurized air chambers; puncture risk, capacity, PFDs, and conditions matter.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "At the marina, J shows Jolly Boat in a safe rescue scene.",
+      "text": "J ... J ... Jolly Boat! | Traditional small ship's boat/tender; project label should stay historical rather than implying a modern standard type.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "At the marina, K shows Keel in a safe rescue scene.",
+      "text": "K? Keel! | Longitudinal structural/underwater member helps strength and, on many sailboats, stability and resistance to sideways drift.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "At the marina, L shows Lifeboat in a safe rescue scene.",
+      "text": "L is Lifeboat. Rescue/survival craft designed to protect people in emergencies; operation belongs to trained crews and procedures. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "At the marina, M shows Marina in a safe rescue scene.",
+      "text": "M — Marina! | Managed harbor area provides berths and services for recreational/small craft; docks and fuel areas have posted rules.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "At the marina, N shows Navigation Light in a safe rescue scene.",
+      "text": "N ... N ... Navigation Light! | Required vessel lights communicate orientation/status at night or low visibility; patterns depend on vessel/activity rules.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "At the marina, O shows Oar in a safe rescue scene.",
+      "text": "O? Oar! | Long lever works from an oarlock to row; unlike a paddle, it is usually fixed against the boat while stroking.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "At the marina, P shows Paddleboat in a safe rescue scene.",
+      "text": "P is Paddleboat. Boat propelled by human pedaling/paddle wheels or other paddle mechanism depending design; rental rules and PFDs still apply. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Marina helpers—A-B-C!",
+      "text": "Prepare, locate, help—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Safe boat words, sing with me!",
+      "text": "Trained rescue comes before brave pretending.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "At the marina, Q shows Quarterdeck in a safe rescue scene.",
+      "text": "Q — Quarterdeck! | Traditional ship area on the upper deck toward the stern associated with command/ceremony; exact layout varies by era/vessel.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "At the marina, R shows Raft in a safe rescue scene.",
+      "text": "R ... R ... Raft! | Buoyant platform or simple craft; stability, materials, current, and flotation equipment determine safe use.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "At the marina, S shows Submarine in a safe rescue scene.",
+      "text": "S? Submarine! | Submersible vessel controls buoyancy to travel underwater; operation is specialized and not ordinary recreational boating.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "At the marina, T shows Trimaran in a safe rescue scene.",
+      "text": "T is Trimaran. Multihull craft with one main hull and two smaller outriggers/floats; geometry changes stability and performance. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "At the marina, U shows Underwater Scooter in a safe rescue scene.",
+      "text": "U — Underwater Scooter! | Diver propulsion vehicle pulls a diver through water; diving training, depth, battery, and entanglement risks require expert use.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "At the marina, V shows Voyage Map in a safe rescue scene.",
+      "text": "V ... V ... Voyage Map! | Navigation/planning map shows route, hazards, places, and scale; real navigation also uses current charts and instruments.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "At the marina, W shows Wake in a safe rescue scene.",
+      "text": "W? Wake! | Disturbed water pattern trails a moving vessel; wake size depends on speed, hull, depth, and conditions.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "At the marina, X shows X-ray Sonar Screen in a safe rescue scene.",
+      "text": "X is X-ray Sonar Screen. Project label for a sonar display; sonar uses sound, not X-rays, so 'X-ray' describes see-through-like imagery rather than radiation. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Marina helpers—A-B-C!",
+      "text": "Prepare, locate, help—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Safe boat words, sing with me!",
+      "text": "Trained rescue comes before brave pretending.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "At the marina, Y shows Yawl in a safe rescue scene.",
+      "text": "Y — Yawl! | Sailboat rig with a small mizzen mast aft of the rudder post in the traditional definition.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "At the marina, Z shows Zephyr Sail in a safe rescue scene.",
+      "text": "Z ... Z ... Zephyr Sail! | Project poetic label for a sail shown in light wind; zephyr means a gentle breeze, not a standardized sail type.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Helper calls A ... Anchor! Point when it is seen.",
+      "text": "Rescue recall A ... Anchor! Point; lower one flat hand slowly—no rope wrapping.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Helper calls B ... Buoy! Point when it is seen.",
+      "text": "Find B ... Buoy! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Helper calls C ... Catamaran! Point when it is seen.",
+      "text": "Which one starts C? ... Catamaran! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Helper calls D ... Dock! Point when it is seen.",
+      "text": "Check D ... Dock! Point and mark the wet edge; walk-slow cue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Helper calls E ... Echo Sounder! Point when it is seen.",
+      "text": "Rescue recall E ... Echo Sounder! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Helper calls F ... Fishing Boat! Point when it is seen.",
+      "text": "Find F ... Fishing Boat! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Helper calls G ... Gondola! Point when it is seen.",
+      "text": "Which one starts G? ... Gondola! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Helper calls H ... Houseboat! Point when it is seen.",
+      "text": "Check H ... Houseboat! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Marina helpers—A-B-C!",
+      "text": "Prepare, locate, help—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Safe boat words, sing with me!",
+      "text": "Trained rescue comes before brave pretending.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Helper calls I ... Inflatable Boat! Point when it is seen.",
+      "text": "Rescue recall I ... Inflatable Boat! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Helper calls J ... Jolly Boat! Point when it is seen.",
+      "text": "Find J ... Jolly Boat! Point once; name its main job.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Helper calls K ... Keel! Point when it is seen.",
+      "text": "Which one starts K? ... Keel! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Helper calls L ... Lifeboat! Point when it is seen.",
+      "text": "Check L ... Lifeboat! Point; say trained emergency crew.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Helper calls M ... Marina! Point when it is seen.",
+      "text": "Rescue recall M ... Marina! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Helper calls N ... Navigation Light! Point when it is seen.",
+      "text": "Find N ... Navigation Light! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Helper calls O ... Oar! Point when it is seen.",
+      "text": "Which one starts O? ... Oar! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Helper calls P ... Paddleboat! Point when it is seen.",
+      "text": "Check P ... Paddleboat! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Marina helpers—A-B-C!",
+      "text": "Prepare, locate, help—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Safe boat words, sing with me!",
+      "text": "Trained rescue comes before brave pretending.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Helper calls Q ... Quarterdeck! Point when it is seen.",
+      "text": "Rescue recall Q ... Quarterdeck! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Helper calls R ... Raft! Point when it is seen.",
+      "text": "Find R ... Raft! Point once; name its main job.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Helper calls S ... Submarine! Point when it is seen.",
+      "text": "Which one starts S? ... Submarine! Trace a hull underwater with one finger; no breath-hold game.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Helper calls T ... Trimaran! Point when it is seen.",
+      "text": "Check T ... Trimaran! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Helper calls U ... Underwater Scooter! Point when it is seen.",
+      "text": "Rescue recall U ... Underwater Scooter! Point only; expert diving equipment.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Helper calls V ... Voyage Map! Point when it is seen.",
+      "text": "Find V ... Voyage Map! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Helper calls W ... Wake! Point when it is seen.",
+      "text": "Which one starts W? ... Wake! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Helper calls X ... X-ray Sonar Screen! Point when it is seen.",
+      "text": "Check X ... X-ray Sonar Screen! Point to screen; say sonar uses sound, not X-rays.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Marina helpers—A-B-C!",
+      "text": "Prepare, locate, help—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Safe boat words, sing with me!",
+      "text": "Trained rescue comes before brave pretending.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Helper calls Y ... Yawl! Point when it is seen.",
+      "text": "Rescue recall Y ... Yawl! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Helper calls Z ... Zephyr Sail! Point when it is seen.",
+      "text": "Find Z ... Zephyr Sail! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Marina helpers—A-B-C!",
+      "text": "Lifeboat stays crewed, dock edge stays clear, underwater equipment stays specialist-only.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends with rescue readiness, not a stunt.",
       "objective": "narration",
       "objectReveal": "none"
     }

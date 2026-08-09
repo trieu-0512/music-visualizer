@@ -6,11 +6,79 @@
   "tempoBpm": 92,
   "motifFamily": "harbor-bounce",
   "hook": [
-    "Harbor boats—A-B-C!",
-    "Float the picture words with me!"
+    "Carry, work, sail—A-B-C!",
+    "Name the harbor role before the wake."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Harbor Boat Bounce",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "harbor-role-rhyme",
+    "chorusRhymeEngine": "carry-work-sail-hook",
+    "pointOfView": "a child classifying harbor roles",
+    "chorusFunction": "repeat vessel-role distinctions",
+    "grooveMeter": "86 BPM harbor sway 6/8",
+    "round1Grammar": "target -> vessel/place/part/effect -> true function",
+    "round2Grammar": "neutral recall -> target -> safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "harbor-role",
+    "authorialIntent": "Make Harbor Boat Bounce a harbor-role map: passenger, cargo, work, rescue, paddle, sail and historical craft move differently; harbor, quay, wake, keel and map are not boats.",
+    "lyricIdentity": "A child watches a working harbor and labels vessel versus place, part, route clue, or water effect before describing movement.",
+    "imageMotifs": [
+      "ferry passengers",
+      "barge cargo",
+      "tug work",
+      "keel underwater",
+      "wake behind hull"
+    ],
+    "semanticArc": [
+      "vessels",
+      "harbor/work roles",
+      "parts/propulsion",
+      "non-vessel clues"
+    ],
+    "forbiddenGenericLanguage": [
+      "harbor bounce",
+      "every object boat",
+      "all boats sail",
+      "ride the wake"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 3,
+    "usedRound1": 2,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }

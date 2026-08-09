@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Come explore watercraft world with me!",
+      "text": "Catamaran has two hulls, trimaran has three, airboat pushes air, sailboat catches wind.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Watercraft wake—A-B-C!",
+      "text": "Watercraft design changes how a vessel meets the water.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A guides Airboat through our watercraft picture lane.",
+      "text": "A — Airboat! | Flat-bottomed boat driven by an aircraft-style propeller above water; propeller cage and trained operation are essential.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B guides Buoy through our watercraft picture lane.",
+      "text": "B ... B ... Buoy! | Floating marker can indicate channel, hazard, mooring, or information; color/shape meanings depend on local buoyage system.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C guides Catamaran through our watercraft picture lane.",
+      "text": "C? Catamaran! | Boat with two parallel hulls connected by a deck/frame; wide beam can provide stability and space.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D guides Dock through our watercraft picture lane.",
+      "text": "D is Dock. Waterside structure/place for mooring and access; wet surfaces, lines, and edges require careful walking. |",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "E guides Engine through our watercraft picture lane.",
+      "text": "E — Engine! | Marine engine supplies propulsion power through propeller, jet, or other drive system; type varies by vessel.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F guides Ferry through our watercraft picture lane.",
+      "text": "F ... F ... Ferry! | Vessel carries passengers, vehicles, or both across a route on a scheduled or repeated service.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G guides Gondola through our watercraft picture lane.",
+      "text": "G? Gondola! | Traditional Venetian flat-bottomed rowing boat propelled with a single oar from the stern side; not every narrow boat is a gondola.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H guides Houseboat through our watercraft picture lane.",
+      "text": "H is Houseboat. Boat designed primarily for living accommodation; some are mobile while others remain moored. |",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Watercraft wake—A-B-C!",
+      "text": "Hull, power, water—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Boats make lines across the sea!",
+      "text": "Compare the design before the speed.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I guides Island Ferry through our watercraft picture lane.",
+      "text": "I — Island Ferry! | Ferry service links an island with another shore/island; route role defines it more than hull shape.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J guides Jet Ski through our watercraft picture lane.",
+      "text": "J ... J ... Jet Ski! | Personal watercraft propelled by a water jet; high-speed operation requires age/licensing rules, PFD, and trained supervision.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K guides Keel through our watercraft picture lane.",
+      "text": "K? Keel! | Longitudinal structural/underwater member helps strength and, on many sailboats, stability and resistance to sideways drift.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L guides Lighthouse through our watercraft picture lane.",
+      "text": "L is Lighthouse. Fixed navigation aid with a distinctive light/mark helps mariners identify coast/hazard; modern navigation also uses electronic systems. |",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M guides Motorboat through our watercraft picture lane.",
+      "text": "M — Motorboat! | Small powered boat propelled by inboard, outboard, jet, or other motor system; speed/handling require licensed or trained adults.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N guides Navigation Light through our watercraft picture lane.",
+      "text": "N ... N ... Navigation Light! | Required vessel lights communicate orientation/status at night or low visibility; patterns depend on vessel/activity rules.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O guides Ocean Liner through our watercraft picture lane.",
+      "text": "O? Ocean Liner! | Large passenger ship designed historically for scheduled ocean crossings; distinct from cruise ship by primary service concept.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P guides Paddleboat through our watercraft picture lane.",
+      "text": "P is Paddleboat. Boat propelled by human pedaling/paddle wheels or other paddle mechanism depending design; rental rules and PFDs still apply. |",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +161,21 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Watercraft wake—A-B-C!",
+      "text": "Hull, power, water—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Boats make lines across the sea!",
+      "text": "Compare the design before the speed.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q guides Quarterdeck through our watercraft picture lane.",
+      "text": "Q — Quarterdeck! | Traditional ship area on the upper deck toward the stern associated with command/ceremony; exact layout varies by era/vessel.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +183,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R guides Rescue Boat through our watercraft picture lane.",
+      "text": "R ... R ... Rescue Boat! | Fast or specialized craft used by trained rescuers; rescue operations require crew, communication, and safety gear.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +191,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S guides Sailboat through our watercraft picture lane.",
+      "text": "S? Sailboat! | Boat uses sails to convert wind force into forward motion while keel/centerboard and rudder help control course.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +199,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T guides Trimaran through our watercraft picture lane.",
+      "text": "T is Trimaran. Multihull craft with one main hull and two smaller outriggers/floats; geometry changes stability and performance. |",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +207,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U guides Underwater Scooter through our watercraft picture lane.",
+      "text": "U — Underwater Scooter! | Diver propulsion vehicle pulls a diver through water; diving training, depth, battery, and entanglement risks require expert use.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V guides Vessel through our watercraft picture lane.",
+      "text": "V ... V ... Vessel! | General legal/nautical term for a watercraft; it does not specify propulsion, size, or purpose.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W guides Water Taxi through our watercraft picture lane.",
+      "text": "W? Water Taxi! | Small passenger vessel provides point-to-point transport on waterways, like a taxi service on water.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X guides X-ray Sonar Screen through our watercraft picture lane.",
+      "text": "X is X-ray Sonar Screen. Project label for a sonar display; sonar uses sound, not X-rays, so 'X-ray' describes see-through-like imagery rather than radiation. |",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,21 +239,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Watercraft wake—A-B-C!",
+      "text": "Hull, power, water—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Boats make lines across the sea!",
+      "text": "Compare the design before the speed.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y guides Yacht through our watercraft picture lane.",
+      "text": "Y — Yacht! | Recreational sail or motor vessel; size ranges widely and the term does not specify propulsion.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,7 +261,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z guides Zodiac Boat through our watercraft picture lane.",
+      "text": "Z ... Z ... Zodiac Boat! | Zodiac is a brand strongly associated with rigid/inflatable boats; use the pictured model rather than treating the brand as a generic hull type.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -269,7 +269,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Wake pauses: A ... Airboat! Point and name.",
+      "text": "Design recall A ... Airboat! Point only; no propeller-spinning arms.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Wake pauses: B ... Buoy! Point and name.",
+      "text": "Find B ... Buoy! Point once; name its main job.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Wake pauses: C ... Catamaran! Point and name.",
+      "text": "Which one starts C? ... Catamaran! Point once; show its shape with empty hands.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Wake pauses: D ... Dock! Point and name.",
+      "text": "Check D ... Dock! Point and mark the wet edge; walk-slow cue.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Wake pauses: E ... Engine! Point and name.",
+      "text": "Design recall E ... Engine! Point once; air-trace its outline.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Wake pauses: F ... Ferry! Point and name.",
+      "text": "Find F ... Ferry! Point once; name its main job.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Wake pauses: G ... Gondola! Point and name.",
+      "text": "Which one starts G? ... Gondola! Point once; show its shape with empty hands.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Wake pauses: H ... Houseboat! Point and name.",
+      "text": "Check H ... Houseboat! Point once; recall one Round-1 clue.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,21 +333,21 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Watercraft wake—A-B-C!",
+      "text": "Hull, power, water—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Boats make lines across the sea!",
+      "text": "Compare the design before the speed.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Wake pauses: I ... Island Ferry! Point and name.",
+      "text": "Design recall I ... Island Ferry! Point once; air-trace its outline.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -355,7 +355,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Wake pauses: J ... Jet Ski! Point and name.",
+      "text": "Find J ... Jet Ski! Point only; no high-speed riding mime.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -363,7 +363,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Wake pauses: K ... Keel! Point and name.",
+      "text": "Which one starts K? ... Keel! Point once; show its shape with empty hands.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -371,7 +371,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Wake pauses: L ... Lighthouse! Point and name.",
+      "text": "Check L ... Lighthouse! Point once; recall one Round-1 clue.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -379,7 +379,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Wake pauses: M ... Motorboat! Point and name.",
+      "text": "Design recall M ... Motorboat! Point once; air-trace its outline.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Wake pauses: N ... Navigation Light! Point and name.",
+      "text": "Find N ... Navigation Light! Point once; name its main job.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Wake pauses: O ... Ocean Liner! Point and name.",
+      "text": "Which one starts O? ... Ocean Liner! Point once; show its shape with empty hands.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Wake pauses: P ... Paddleboat! Point and name.",
+      "text": "Check P ... Paddleboat! Point once; recall one Round-1 clue.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,21 +411,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Watercraft wake—A-B-C!",
+      "text": "Hull, power, water—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Boats make lines across the sea!",
+      "text": "Compare the design before the speed.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Wake pauses: Q ... Quarterdeck! Point and name.",
+      "text": "Design recall Q ... Quarterdeck! Point once; air-trace its outline.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -433,7 +433,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Wake pauses: R ... Rescue Boat! Point and name.",
+      "text": "Find R ... Rescue Boat! Point; say trained rescue crew.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -441,7 +441,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Wake pauses: S ... Sailboat! Point and name.",
+      "text": "Which one starts S? ... Sailboat! Point once; show its shape with empty hands.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -449,7 +449,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Wake pauses: T ... Trimaran! Point and name.",
+      "text": "Check T ... Trimaran! Point once; recall one Round-1 clue.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -457,7 +457,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Wake pauses: U ... Underwater Scooter! Point and name.",
+      "text": "Design recall U ... Underwater Scooter! Point only; expert diving equipment.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -465,7 +465,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Wake pauses: V ... Vessel! Point and name.",
+      "text": "Find V ... Vessel! Point once; name its main job.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -473,7 +473,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Wake pauses: W ... Water Taxi! Point and name.",
+      "text": "Which one starts W? ... Water Taxi! Point once; show its shape with empty hands.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -481,7 +481,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Wake pauses: X ... X-ray Sonar Screen! Point and name.",
+      "text": "Check X ... X-ray Sonar Screen! Point to screen; say sonar uses sound, not X-rays.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -489,21 +489,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Watercraft wake—A-B-C!",
+      "text": "Hull, power, water—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Boats make lines across the sea!",
+      "text": "Compare the design before the speed.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Wake pauses: Y ... Yacht! Point and name.",
+      "text": "Design recall Y ... Yacht! Point once; air-trace its outline.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -511,7 +511,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Wake pauses: Z ... Zodiac Boat! Point and name.",
+      "text": "Find Z ... Zodiac Boat! Point once; name its main job.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -519,14 +519,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Watercraft wake—A-B-C!",
+      "text": "Wake settles; yacht stays broad category; Zodiac remains a brand-linked boat label.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Great pointing, great saying—A to Z!",
+      "text": "A to Z ends with designs compared, not raced.",
       "objective": "narration",
       "objectReveal": "none"
     }

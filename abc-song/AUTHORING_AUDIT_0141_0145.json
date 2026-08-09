@@ -1,0 +1,282 @@
+{
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
+  "status": "PASS",
+  "range": "0141-0145",
+  "songs": 5,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "designReworkSongs": 0,
+  "uniqueHooks": 5,
+  "uniqueStyles": 5,
+  "uniqueSectionForms": 1,
+  "uniqueCreativeFingerprints": 5,
+  "maxLyricSimilarity": 0.1335,
+  "mostSimilarPair": [
+    "0141",
+    "0145"
+  ],
+  "batchWarnings": [],
+  "songsDetail": [
+    {
+      "songId": "0141",
+      "theme": "Boats & Harbor",
+      "targetLines": 52,
+      "lyricWordCount": 923,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0142",
+      "theme": "Sailing & Sea Travel",
+      "targetLines": 52,
+      "lyricWordCount": 938,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0143",
+      "theme": "Watercraft World",
+      "targetLines": 52,
+      "lyricWordCount": 946,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0144",
+      "theme": "Marina & Rescue Boats",
+      "targetLines": 52,
+      "lyricWordCount": 955,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0145",
+      "theme": "Boat Day",
+      "targetLines": 52,
+      "lyricWordCount": 936,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "I",
+        "J",
+        "K",
+        "M",
+        "N",
+        "O",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "V",
+        "W",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "round2ChorusAfter": [
+          2,
+          4,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

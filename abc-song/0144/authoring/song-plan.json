@@ -6,11 +6,79 @@
   "tempoBpm": 89,
   "motifFamily": "marina-helper",
   "hook": [
-    "Marina helpers—A-B-C!",
-    "Safe boat words, sing with me!"
+    "Prepare, locate, help—A-B-C!",
+    "Trained rescue comes before brave pretending."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one to two predictable beats of retrieval space before target confirmation",
   "visualStyle": "friendly 3D boat-and-harbor storybook, calm water, clean civilian watercraft; visual identity: Marina Rescue Helpers",
+  "creativeFingerprint": {
+    "mode": "controlled-variation",
+    "designStatus": "CURATED_CREATIVE_SPEC",
+    "openingType": "authored-scene",
+    "targetEntryFamilies": [
+      "direct-name",
+      "delayed-name",
+      "question-answer",
+      "semantic-definition"
+    ],
+    "lineLengthContour": [
+      "short",
+      "medium",
+      "long",
+      "medium"
+    ],
+    "rhymeEngine": "marine-rescue-system-rhyme",
+    "chorusRhymeEngine": "prepare-locate-help-hook",
+    "pointOfView": "a child learning rescue-system roles from shore",
+    "chorusFunction": "repeat prepare-locate-help",
+    "grooveMeter": "82 BPM calm readiness 4/4",
+    "round1Grammar": "target -> rescue/prevention/comparison role -> professional boundary",
+    "round2Grammar": "recall -> target -> shore-safe gesture",
+    "sectionContrast": "teaching-to-retrieval",
+    "signatureColor": "rescue-readiness",
+    "authorialIntent": "Repair Marina Rescue Helpers into a rescue-readiness lesson: lifeboat, navigation lights, marina/dock, voyage map, echo sounder and flotation craft support safety, while submarine and underwater scooter are specialized comparison equipment.",
+    "lyricIdentity": "A child identifies who/what supports rescue without pretending every boat is a rescue boat or inviting children to perform rescues.",
+    "imageMotifs": [
+      "lifeboat",
+      "navigation lights",
+      "dock edge",
+      "echo sounder",
+      "voyage map"
+    ],
+    "semanticArc": [
+      "prevent",
+      "locate",
+      "respond",
+      "specialized comparisons"
+    ],
+    "forbiddenGenericLanguage": [
+      "rescue helpers every boat",
+      "jump in rescue",
+      "submarine rescues all",
+      "hero stunt"
+    ],
+    "chorusAfterRound1": [
+      2,
+      4,
+      6
+    ],
+    "chorusAfterRound2": [
+      2,
+      4,
+      6
+    ],
+    "hasMidInterlude": false,
+    "objectCraftRequired": false
+  },
+  "objectCraftCoverage": {
+    "covered": 26,
+    "total": 26
+  },
+  "rhymeCraftCoverage": {
+    "available": 4,
+    "usedRound1": 2,
+    "total": 26
+  },
   "status": "READY_FOR_L0_VALIDATION"
 }
