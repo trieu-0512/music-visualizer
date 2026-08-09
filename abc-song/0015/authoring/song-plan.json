@@ -7,7 +7,7 @@
   "motifFamily": "harvest-clap",
   "hook": [
     "Fill the basket—A-B-C!",
-    "Harvest words are fun to see!"
+    "Harvest day grows full by Z!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "short predictable cue gap",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a child following morning farm sounds, animals, crops and useful objects",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 3/4 or swung sway",
-    "round1Grammar": "Round 1 feels like a moving farm scene: animal behavior, crop texture and useful-object function replace generic farmyard filler.",
-    "round2Grammar": "Round 2 leaves a real recall beat, confirms the object, then uses an animal/crop/object-specific safe gesture.",
+    "rhymeEngine": "cumulative-harvest-refrain-rhyme",
+    "chorusRhymeEngine": "cumulative-open-refrain",
+    "pointOfView": "a child helping with a safe harvest day and noticing what gets picked, carried, stored or simply observed",
+    "chorusFunction": "measure how the day is filling rather than claiming every mapped item literally goes in the basket",
+    "grooveMeter": "clap-friendly 4/4 harvest walk with lift-and-place accents",
+    "round1Grammar": "hand-written cumulative harvest scene; use pick, lift, carry, stack, pour and gather vocabulary selectively while clearly separating animals/tools from actual basket contents",
+    "round2Grammar": "gather cue -> recall beat -> target -> safe pick/carry/shape gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. fiddle or woodblock answers after the target, with a warm porch pulse",
     "signatureColor": "fiddle or woodblock answers after the target, with a warm porch pulse",
+    "authorialIntent": "Use harvest as a cumulative act of gathering: the day begins with an empty basket, crosses orchard, yard and field work, and ends with a full sense of what the farm produced and used.",
+    "lyricIdentity": "A child joins harvest day with hands, baskets, rows and carrying motions; the lyric distinguishes what is actually gathered from tools, animals and helpers that make gathering possible.",
+    "imageMotifs": [
+      "empty basket",
+      "orchard rows",
+      "hands lifting and carrying",
+      "stacked hay and grain",
+      "full basket heading home"
+    ],
+    "semanticArc": [
+      "empty basket and first pick",
+      "farm helpers and field work support the harvest",
+      "loads gather and move",
+      "basket and day finish full"
+    ],
+    "forbiddenGenericLanguage": [
+      "harvest words are fun to see",
+      "fill the basket with every object",
+      "show the match and say",
+      "shining bright"
+    ],
     "chorusAfterRound1": [
       2,
       5

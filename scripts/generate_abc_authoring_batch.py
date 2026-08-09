@@ -10,6 +10,7 @@ from typing import Any
 
 from abc_creative_gold_v4 import GOLD_V4_SPECS, OBJECT_CRAFT, RHYME_PHRASELETS
 from abc_creative_gold_v5_1_10 import GOLD_V5_SPEC_PATCHES
+from abc_creative_gold_v5_11_15 import GOLD_V5_11_15_SPEC_PATCHES
 from abc_creative_v4_11_50 import (
     object_craft as object_craft_v4_11_50,
     rhyme_phraselet as rhyme_phraselet_v4_11_50,
@@ -739,6 +740,8 @@ def creative_spec(profile: SongProfile) -> CreativeSpec | None:
         profile.bpm,
         profile.motif,
     )
+    if payload is not None and profile.song_id in GOLD_V5_11_15_SPEC_PATCHES:
+        payload = {**payload, **GOLD_V5_11_15_SPEC_PATCHES[profile.song_id]}
     if payload is None:
         payload = spec_payload_v4_51_100(
             profile.song_id,

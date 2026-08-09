@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "farm-porch",
   "hook": [
-    "Good morning, farm—A-B-C!",
-    "Barnyard words for you and me!"
+    "Cluck, creak, hoofbeat—A-B-C!",
+    "Morning wakes in sound from A to Z!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one clear beat after each letter cue",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a child following morning farm sounds, animals, crops and useful objects",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "light 4/4 bounce",
-    "round1Grammar": "Round 1 feels like a moving farm scene: animal behavior, crop texture and useful-object function replace generic farmyard filler.",
-    "round2Grammar": "Round 2 leaves a real recall beat, confirms the object, then uses an animal/crop/object-specific safe gesture.",
+    "rhymeEngine": "barn-sound-mosaic-internal-rhyme",
+    "chorusRhymeEngine": "paired-sound-hook",
+    "pointOfView": "a child at the farm gate listening as the morning wakes one sound and object at a time",
+    "chorusFunction": "soundscape reset built from cluck, hoofbeat and waking motion",
+    "grooveMeter": "warm porch 4/4 with lightly swung hoofbeat pockets",
+    "round1Grammar": "hand-written morning soundscape; each target earns one concrete sound, motion, texture or job, with internal rhyme/consonance only where it belongs naturally",
+    "round2Grammar": "morning sound cue -> recall beat -> target -> safe object-specific gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. fiddle or woodblock answers after the target, with a warm porch pulse",
     "signatureColor": "fiddle or woodblock answers after the target, with a warm porch pulse",
+    "authorialIntent": "Make a farm feel as if it wakes sound by sound: latch, hoof, cluck, pour, wheel and crow become the child's path into the alphabet.",
+    "lyricIdentity": "A close morning listener stands near the gate and barn, naming each farm word through sound, motion and small workday details rather than generic farm praise.",
+    "imageMotifs": [
+      "gate latch",
+      "hoofbeats",
+      "coop and straw",
+      "bucket and pour",
+      "wheels in the yard"
+    ],
+    "semanticArc": [
+      "quiet gate begins to stir",
+      "animals and feed wake the yard",
+      "chores and farm tools put the day in motion",
+      "the full farm soundscape settles again"
+    ],
+    "forbiddenGenericLanguage": [
+      "farm words for you and me",
+      "fun on the farm",
+      "in our world today",
+      "shining bright"
+    ],
     "chorusAfterRound1": [
       2,
       5

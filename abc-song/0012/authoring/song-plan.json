@@ -6,8 +6,8 @@
   "tempoBpm": 90,
   "motifFamily": "barn-bell",
   "hook": [
-    "Ring the barn bell—A-B-C!",
-    "Find the farm word, one-two-three!"
+    "Ding near, ding far—A-B-C!",
+    "Every ring reveals what we see!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "brief silent beat before target confirmation",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-driven",
-    "pointOfView": "a child following morning farm sounds, animals, crops and useful objects",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 feels like a moving farm scene: animal behavior, crop texture and useful-object function replace generic farmyard filler.",
-    "round2Grammar": "Round 2 leaves a real recall beat, confirms the object, then uses an animal/crop/object-specific safe gesture.",
+    "rhymeEngine": "bell-route-delayed-answer-rhyme",
+    "chorusRhymeEngine": "paired-bell-echo",
+    "pointOfView": "a child navigating the farm by following a bell that sounds near, then farther away",
+    "chorusFunction": "re-establish direction and listening through a near/far bell echo",
+    "grooveMeter": "gentle 6/8 barn-bell sway with two-bar answer phrases",
+    "round1Grammar": "hand-written route quatrains; spatial words and bell echoes connect neighboring targets, while exact facts remain clean and speech-natural",
+    "round2Grammar": "bell cue -> recall beat -> target -> small location or object gesture",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. fiddle or woodblock answers after the target, with a warm porch pulse",
     "signatureColor": "fiddle or woodblock answers after the target, with a warm porch pulse",
+    "authorialIntent": "Turn the barn bell into a navigation device: every ring moves the child to another farm station, so the alphabet feels like a route rather than a list.",
+    "lyricIdentity": "A child follows bell echoes from barn door to stall, field, grain bin, orchard, tool area and animal-care corner; place words and distance cues carry the lyric.",
+    "imageMotifs": [
+      "bell echo",
+      "swinging barn door",
+      "stall and fence",
+      "grain bin and orchard rows",
+      "far pen"
+    ],
+    "semanticArc": [
+      "first ring opens the barn",
+      "middle rings cross work and food areas",
+      "later rings reach tools and animal care",
+      "final ring closes the route at the far pen"
+    ],
+    "forbiddenGenericLanguage": [
+      "find the farm word one-two-three",
+      "beside the barn today",
+      "fun to see",
+      "say it with me"
+    ],
     "chorusAfterRound1": [
       3,
       7

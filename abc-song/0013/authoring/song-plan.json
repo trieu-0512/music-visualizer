@@ -6,8 +6,8 @@
   "tempoBpm": 92,
   "motifFamily": "tractor-roll",
   "hook": [
-    "Tractor trail, roll with me!",
-    "Tools and crops from A to Z!"
+    "Chug, turn, stop—then on we roll!",
+    "A to Z around the farm we go!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one-beat retrieval gap with percussion drop-out",
@@ -30,15 +30,36 @@
       "short",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "a child following morning farm sounds, animals, crops and useful objects",
-    "chorusFunction": "memorable two-line thematic reset with child-compatible echo",
-    "grooveMeter": "stop-go 4/4 pulse",
-    "round1Grammar": "Round 1 feels like a moving farm scene: animal behavior, crop texture and useful-object function replace generic farmyard filler.",
-    "round2Grammar": "Round 2 leaves a real recall beat, confirms the object, then uses an animal/crop/object-specific safe gesture.",
+    "rhymeEngine": "tractor-wheel-rolling-internal-rhyme",
+    "chorusRhymeEngine": "roll-go-slant-rhyme",
+    "pointOfView": "a child riding a slow imaginary tractor circuit and noticing what each stop is for",
+    "chorusFunction": "restart the wheel pulse and signal the next leg of the route",
+    "grooveMeter": "stop-go 4/4 wheel pulse with two-beat chug pickups",
+    "round1Grammar": "hand-written route narration; wheel/row/turn/stop words recur lightly while each object receives its own physical or functional image",
+    "round2Grammar": "tractor stop cue -> recall beat -> target -> safe gesture -> roll onward",
     "sectionContrast": "Verses stay sparse; chorus widens; retrieval strips back. fiddle or woodblock answers after the target, with a warm porch pulse",
     "signatureColor": "fiddle or woodblock answers after the target, with a warm porch pulse",
+    "authorialIntent": "Make the tractor pulse carry the alphabet through an actual working route: start, roll, stop, notice, turn, and come back with the farm changed by the day's work.",
+    "lyricIdentity": "A child rides an imagined tractor route around barn, pond, rows, orchard, animal yard and porch; wheel words and stop/go syntax provide the signature cadence.",
+    "imageMotifs": [
+      "wheel track",
+      "gate and fence",
+      "field rows",
+      "orchard turn",
+      "dust settling behind the tractor"
+    ],
+    "semanticArc": [
+      "engine starts at the barn",
+      "route crosses animals and field edges",
+      "work stops reach orchard and animal areas",
+      "last row turns home and the engine rests"
+    ],
+    "forbiddenGenericLanguage": [
+      "tools and crops from A to Z",
+      "on our tractor trail",
+      "point and name it on the trail",
+      "fun to see"
+    ],
     "chorusAfterRound1": [
       2,
       5,
