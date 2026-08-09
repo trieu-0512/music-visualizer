@@ -6,8 +6,8 @@
   "tempoBpm": 91,
   "motifFamily": "hop-slither",
   "hook": [
-    "Soft hiss, clear word—one-two-three!",
-    "Picture-creature, A to Z!"
+    "Shell, scale, signal—A-B-C!",
+    "Look at the adaptation; leave the animal space."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat between cue and confirmation",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "safe pond-and-reptile-house observer",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "gentle 6/8 sway",
-    "round1Grammar": "Round 1 distinguishes amphibians, snakes, turtles, crocodilians and lizards with visible clues; dangerous species are picture-only observations.",
-    "round2Grammar": "Round 2 uses one to two beats of recall and group-specific picture gestures: frogs hop and show webbed feet or eyes; newts and salamanders show tail-swim or external gills; snakes use S-curves plus hood, rattle, or coil when relevant; turtles show shell; crocodilians show armored back and tail; lizards show toe pads, frill, horns, casque, spiny tail, scales, or long tail. Dangerous animals remain hands-off and picture-only.",
+    "rhymeEngine": "herp-defense-safe-observation-rhyme",
+    "chorusRhymeEngine": "shell-scale-signal-hook",
+    "pointOfView": "a child comparing defensive structures from safe images",
+    "chorusFunction": "repeat shell-scale-signal",
+    "grooveMeter": "stop-go 4/4 safety pulse",
+    "round1Grammar": "hand-written adaptations; danger not dramatized as play",
+    "round2Grammar": "defense cue -> recall beat -> target -> abstract shape gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a muted shaker hiss-shape and marimba step after the word, never a realistic snake hiss bed.",
     "signatureColor": "a muted shaker hiss-shape and marimba step after the word, never a realistic snake hiss bed",
+    "authorialIntent": "Make Frog Snake Turtle Song a body-defense and safety comparison: constriction, venom, shell, camouflage, frill, gripping toes and moist skin are distinct adaptations, with no child imitation of attack behavior.",
+    "lyricIdentity": "A child reads defense/feeding structures from pictures and keeps dangerous animals at visual distance.",
+    "imageMotifs": [
+      "box turtle shell",
+      "king cobra hood",
+      "frilled lizard display",
+      "tree boa coil",
+      "poison frog warning color"
+    ],
+    "semanticArc": [
+      "snake defenses",
+      "lizard displays/grip",
+      "frog skin/color",
+      "turtle shell and safety recap"
+    ],
+    "forbiddenGenericLanguage": [
+      "sss picture sound",
+      "snake play",
+      "touch the scales",
+      "all reptiles bite"
+    ],
     "chorusAfterRound1": [
       3,
       7

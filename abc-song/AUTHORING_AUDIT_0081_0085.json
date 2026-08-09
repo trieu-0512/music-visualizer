@@ -1,0 +1,297 @@
+{
+  "auditVersion": 4,
+  "auditStandard": "creative-v4",
+  "status": "PASS",
+  "range": "0081-0085",
+  "songs": 5,
+  "schemaAndSemanticFailures": 0,
+  "warnings": 0,
+  "designReworkSongs": 0,
+  "uniqueHooks": 5,
+  "uniqueStyles": 5,
+  "uniqueSectionForms": 5,
+  "uniqueCreativeFingerprints": 5,
+  "maxLyricSimilarity": 0.0219,
+  "mostSimilarPair": [
+    "0082",
+    "0085"
+  ],
+  "batchWarnings": [],
+  "songsDetail": [
+    {
+      "songId": "0081",
+      "theme": "Reptile & Amphibian World",
+      "targetLines": 52,
+      "lyricWordCount": 777,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "round2ChorusAfter": [
+          3,
+          6
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0082",
+      "theme": "Frogs Snakes & Turtles",
+      "targetLines": 52,
+      "lyricWordCount": 836,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          7
+        ],
+        "round2ChorusAfter": [
+          2,
+          5,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0083",
+      "theme": "Scales & Slime",
+      "targetLines": 52,
+      "lyricWordCount": 762,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          6
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0084",
+      "theme": "Cold-Blooded Creatures",
+      "targetLines": 52,
+      "lyricWordCount": 822,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          3,
+          5
+        ],
+        "round2ChorusAfter": [
+          3,
+          7
+        ],
+        "hasMidInterlude": true
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "songId": "0085",
+      "theme": "Reptile House",
+      "targetLines": 52,
+      "lyricWordCount": 825,
+      "designStatus": "READY_FOR_GENERATION_TEST",
+      "creativeReworkReasons": [],
+      "targetEntryFamilies": [
+        "direct-letter-object",
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
+      ],
+      "rhymeBearingRound1": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Z"
+      ],
+      "sectionForm": {
+        "round1ChorusAfter": [
+          2,
+          4,
+          7
+        ],
+        "round2ChorusAfter": [
+          4,
+          7
+        ],
+        "hasMidInterlude": false
+      },
+      "pronunciationReviewTargets": [],
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

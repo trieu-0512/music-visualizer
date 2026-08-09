@@ -6,8 +6,8 @@
   "tempoBpm": 89,
   "motifFamily": "scale-slime",
   "hook": [
-    "Pond and log, what do you see?",
-    "Creature clues from A to Z!"
+    "Scale, skin, water—A-B-C!",
+    "Texture is biology, not a joke."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one quiet beat before target",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "paired-with-arrangement-variation",
-    "pointOfView": "safe pond-and-reptile-house observer",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "stop-and-go 4/4",
-    "round1Grammar": "Round 1 distinguishes amphibians, snakes, turtles, crocodilians and lizards with visible clues; dangerous species are picture-only observations.",
-    "round2Grammar": "Round 2 uses one to two beats of recall and group-specific picture gestures: frogs hop and show webbed feet or eyes; newts and salamanders show tail-swim or external gills; snakes use S-curves plus hood, rattle, or coil when relevant; turtles show shell; crocodilians show armored back and tail; lizards show toe pads, frill, horns, casque, spiny tail, scales, or long tail. Dangerous animals remain hands-off and picture-only.",
+    "rhymeEngine": "skin-moisture-physiology-rhyme",
+    "chorusRhymeEngine": "scale-skin-water-hook",
+    "pointOfView": "a child comparing skin physiology respectfully",
+    "chorusFunction": "repeat scale-skin-water",
+    "grooveMeter": "gentle 6/8 wet-dry contrast",
+    "round1Grammar": "hand-written skin/moisture facts; no touching wildlife",
+    "round2Grammar": "surface cue -> recall beat -> target -> visual texture gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a pizzicato raindrop figure followed by a tiny woodblock footstep.",
     "signatureColor": "a pizzicato raindrop figure followed by a tiny woodblock footstep",
+    "authorialIntent": "Make Scales and Slime Rhyme a skin-and-moisture lesson: reptile keratin scales, amphibian permeable skin, mucus, aquatic gills and shells are compared without using 'slimy' as an insult.",
+    "lyricIdentity": "A child notices surface texture and moisture as physiology, not gross-out comedy.",
+    "imageMotifs": [
+      "axolotl gills",
+      "frog moist skin",
+      "boa scales",
+      "box turtle shell",
+      "hellbender folded skin"
+    ],
+    "semanticArc": [
+      "amphibian moisture",
+      "reptile scales",
+      "aquatic specializations",
+      "skin protection and habitat"
+    ],
+    "forbiddenGenericLanguage": [
+      "slime rhyme gross",
+      "slimy creature",
+      "scales shine parade",
+      "eww"
+    ],
     "chorusAfterRound1": [
       2,
       6

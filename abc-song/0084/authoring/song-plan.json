@@ -6,8 +6,8 @@
   "tempoBpm": 84,
   "motifFamily": "cool-creature",
   "hook": [
-    "Spot the pattern, say the name!",
-    "Letter and creature join the game!"
+    "Warm, shade, move—A-B-C!",
+    "Behavior helps body temperature track the environment."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "two beats for recall",
@@ -32,15 +32,36 @@
       "long",
       "medium"
     ],
-    "rhymeEngine": "mixed-internal-phraselet",
-    "chorusRhymeEngine": "refrain-with-echo-variation",
-    "pointOfView": "safe pond-and-reptile-house observer",
-    "chorusFunction": "two-line memory anchor whose orchestration changes on repeat",
-    "grooveMeter": "light swung 4/4",
-    "round1Grammar": "Round 1 distinguishes amphibians, snakes, turtles, crocodilians and lizards with visible clues; dangerous species are picture-only observations.",
-    "round2Grammar": "Round 2 uses one to two beats of recall and group-specific picture gestures: frogs hop and show webbed feet or eyes; newts and salamanders show tail-swim or external gills; snakes use S-curves plus hood, rattle, or coil when relevant; turtles show shell; crocodilians show armored back and tail; lizards show toe pads, frill, horns, casque, spiny tail, scales, or long tail. Dangerous animals remain hands-off and picture-only.",
+    "rhymeEngine": "ectothermy-thermal-choice-rhyme",
+    "chorusRhymeEngine": "warm-shade-move-hook",
+    "pointOfView": "a child mapping behavioral thermoregulation",
+    "chorusFunction": "repeat warm-shade-move",
+    "grooveMeter": "4/4 with warm/cool arrangement contrast",
+    "round1Grammar": "hand-written thermal behavior; no universal basking claim",
+    "round2Grammar": "temperature cue -> recall beat -> target -> safe sun/shade gesture",
     "sectionContrast": "Round 1 paints clues; chorus opens wide; Round 2 strips back for recall. Signature: a kalimba pattern-pluck plus soft bell glint after the target.",
     "signatureColor": "a kalimba pattern-pluck plus soft bell glint after the target",
+    "authorialIntent": "Repair Cold-Blooded Creatures into an ectothermy song: reptiles and amphibians rely strongly on external heat sources and behavioral thermoregulation, but their blood is not simply 'cold'.",
+    "lyricIdentity": "A child follows sun, shade, burrow and water as temperature choices; color/pattern is secondary.",
+    "imageMotifs": [
+      "uromastyx basking",
+      "snake shade",
+      "turtle sunning",
+      "frog cool water",
+      "chameleon moving between sun/shade"
+    ],
+    "semanticArc": [
+      "bask/warm",
+      "seek shade/cool",
+      "water/burrow buffering",
+      "ectothermy recap"
+    ],
+    "forbiddenGenericLanguage": [
+      "cold blood means cold",
+      "pattern parade",
+      "all bask in sun",
+      "scale shine"
+    ],
     "chorusAfterRound1": [
       3,
       5

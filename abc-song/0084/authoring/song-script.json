@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Spot, stripe, scale, shine—patterns on parade.",
+      "text": "A lizard warms in sun, then chooses shade; a frog may use cool water instead.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Follow the letter clue and name the creature that was made.",
+      "text": "Ectotherm does not mean the body stays cold.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "Alligator appears—A found it. Alligator lies low | broad snout, armored back, strong tail show",
+      "text": "A — Alligator! Ectothermic crocodilian moves between water, sun and shade to regulate body temperature.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B ... Boa; A boa is a heavy-bodied snake that coils its muscular body around supports or prey.",
+      "text": "B ... B ... Boa! Snake thermoregulates by choosing warmer/cooler microhabitats | no internal furnace like a bird or mammal.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "A tiny pause for C, then Crocodile! It is a large semi-aquatic reptile with armored skin, a long snout, and a powerful tail.",
+      "text": "C? Crocodile! Basking warms; water can cool or buffer temperature | behavior changes through the day.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "across the scale-and-pattern wall, Dart Frog belongs with D. A dart frog is a small frog with moist skin; many species have vivid warning colors.",
+      "text": "D is Dart Frog. Small amphibian avoids overheating/desiccation in humid shaded microhabitats | thermoregulation includes staying cool.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Question: E? Answer: Emerald Tree Boa. Emerald Tree Boa curves in view | limbless scaled body is the clue",
+      "text": "E — Emerald Tree Boa! Arboreal snake chooses branch positions and microclimates | warmth does not mean endless direct sun.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "Frilled Lizard appears—F found it. It has a large folded neck frill that can spread outward when the animal displays.",
+      "text": "F ... F ... Frilled Lizard! Australian lizard can bask to warm, then retreat from excess heat | frill is not a thermostat.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G ... Garter Snake; A garter snake is a slender snake with a long body; many species show lengthwise stripes.",
+      "text": "G? Garter Snake! May bask in cool conditions and seek shelter when hot | temperature choice changes seasonally.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "A tiny pause for H, then Hellbender! It is a large fully aquatic salamander with a flattened body and wrinkled skin along its sides.",
+      "text": "H is Hellbender. Cool flowing streams buffer this aquatic salamander | ectothermy can be water-based rather than basking.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,7 +83,7 @@
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "across the scale-and-pattern wall, Iguana belongs with I. Iguana tail runs long | scales and careful habitat make the clue strong",
+      "text": "I — Iguana! Basking raises body temperature; shade helps prevent overheating | heat gradient matters in captive care.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -91,7 +91,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Question: J? Answer: Jumping Frog. This jumping-frog target is a frog with moist skin and strong hind legs built for hopping.",
+      "text": "J ... J ... Jumping Frog! Amphibian may use water, shade and activity timing to manage heat/moisture.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -99,7 +99,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Komodo Dragon appears—K found it. It is a very large monitor lizard with strong limbs, claws, rough scales, and a long tail.",
+      "text": "K? Komodo Dragon! Large ectothermic lizard warms through sun and environment | size affects heating/cooling rate but does not make it endothermic.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -107,7 +107,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L ... Lizard; A lizard is a scaled reptile typically with four limbs, clawed feet, and a long tail.",
+      "text": "L is Lizard. Broad reptile group showing many thermoregulatory strategies | one sun-basking picture is not universal.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -115,21 +115,21 @@
     {
       "id": "chorus-r1-3-1",
       "sectionId": "chorus-r1-3",
-      "text": "Spot the pattern, say the name!",
+      "text": "Warm, shade, move—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-3-2",
       "sectionId": "chorus-r1-3",
-      "text": "Letter and creature join the game!",
+      "text": "Behavior helps body temperature track the environment.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "A tiny pause for M, then Monitor Lizard! Monitor Lizard scales in sight | feet, tail, head, or pattern make the clue right",
+      "text": "M — Monitor Lizard! Active lizards often shuttle between heat and shade | behavioral control supports activity.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "across the scale-and-pattern wall, Newt belongs with N. A newt is a salamander with moist skin and a tail; many species spend part of life in water.",
+      "text": "N ... N ... Newt! Amphibian thermal choices are constrained by moisture | cool damp refuges can be critical.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Question: O? Answer: Olive Python. It is a large Australian python with a long muscular body and smooth olive-brown coloring.",
+      "text": "O? Olive Python! Large snake selects thermal zones for digestion/activity | safe distance only.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "Python appears—P found it. It is a nonvenomous constricting snake with a long muscular body and no limbs.",
+      "text": "P is Python. Ectothermic snake uses environmental heat | some brooding pythons can generate limited muscular heat, an interesting exception.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q ... Queen Snake; Queen Snake curves in view | limbless scaled body is the clue",
+      "text": "Q — Queen Snake! Semi-aquatic snake uses water and bank microclimates | temperature and prey habitat overlap.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "A tiny pause for R, then Rattlesnake! It is a venomous pit viper with a segmented rattle at the tail tip; it is picture-only here.",
+      "text": "R ... R ... Rattlesnake! Pit viper chooses sun, shade and shelter | venom makes all observation distance-only.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "across the scale-and-pattern wall, Skink belongs with S. A skink is a smooth-scaled lizard, often with a long body, short legs, and a tapering tail.",
+      "text": "S? Skink! Many skinks bask briefly and use cover/burrows | thermal behavior varies by species.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Question: T? Answer: Turtle. It is a reptile with a hard bony shell protecting the body.",
+      "text": "T is Turtle. Basking turtles warm on logs then return to water | species and weather change the pattern.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Spot the pattern, say the name!",
+      "text": "Warm, shade, move—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Letter and creature join the game!",
+      "text": "Behavior helps body temperature track the environment.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "Uromastyx appears—U found it. Uromastyx tail is stout | spiny scale rings make it stand out",
+      "text": "U — Uromastyx! Desert lizard uses strong basking heat but also retreats to burrows | high preferred temperatures still require escape from extremes.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V ... Veiled Chameleon; A veiled chameleon has grasping feet, a curling tail, and a tall helmet-like casque on the head.",
+      "text": "V ... V ... Veiled Chameleon! Moves through sun/shade and changes body orientation/color partly with thermoregulation and signaling.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "A tiny pause for W, then Water Dragon! It is a long-tailed lizard with strong limbs that lives near water and can swim well.",
+      "text": "W? Water Dragon! Water offers a cooling/refuge option beside basking sites | semi-aquatic thermoregulation.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "across the scale-and-pattern wall, Xenosaurus belongs with X. A xenosaurus is a rough-scaled lizard with a broad head and strong limbs adapted to rocky or crevice habitats.",
+      "text": "X is Xenosaurus. Crevice-dwelling lizard can use stable rocky microclimates | not every ectotherm sits in open sun.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Question: Y? Answer: Yellow-bellied Slider. Yellow-bellied Slider shell | yellow underside markings help us tell",
+      "text": "Y — Yellow-bellied Slider! Freshwater turtle basks to warm and support normal physiology | dives back into water as conditions change.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Zigzag Salamander appears—Z found it. This zigzag-salamander target is a moist-skinned salamander with four limbs and a long tail.",
+      "text": "Z ... Z ... Zigzag Salamander! Amphibian mapping clue | moisture and cool refuge matter more than a hot basking rock.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -262,7 +262,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Question: A? ... Alligator! Broad snout; armor; tail.",
+      "text": "Thermal clue A ... Alligator! Broad snout; armor; tail.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -270,7 +270,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... answer when ready ... Boa! Trace one S-curve from a safe picture distance.",
+      "text": "Warm/cool B ... Boa! Trace one S-curve from a safe picture distance.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -278,7 +278,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Remember the C clue ... Crocodile! Long snout; armor; tail.",
+      "text": "Sun, shade, or water—C? ... Crocodile! Long snout; armor; tail.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -286,7 +286,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D, one quiet beat ... Dart Frog! Tiny hop; bright pattern.",
+      "text": "Ectotherm D ... Dart Frog! Tiny hop; bright pattern.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -294,7 +294,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Question: E? ... Emerald Tree Boa! Green coil over a branch.",
+      "text": "Thermal clue E ... Emerald Tree Boa! Green coil over a branch.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -302,7 +302,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... answer when ready ... Frilled Lizard! Open neck frill; freeze.",
+      "text": "Warm/cool F ... Frilled Lizard! Open neck frill; freeze.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -310,7 +310,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Remember the G clue ... Garter Snake! Striped S-curve.",
+      "text": "Sun, shade, or water—G? ... Garter Snake! Striped S-curve.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -318,7 +318,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H, one quiet beat ... Hellbender! Flat body; wrinkled sides.",
+      "text": "Ectotherm H ... Hellbender! Flat body; wrinkled sides.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -326,7 +326,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Question: I? ... Iguana! Back spines; long tail.",
+      "text": "Thermal clue I ... Iguana! Back spines; long tail.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -334,7 +334,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... answer when ready ... Jumping Frog! One clear hop.",
+      "text": "Warm/cool J ... Jumping Frog! One clear hop.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -342,7 +342,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Remember the K clue ... Komodo Dragon! Large body; claws; tail.",
+      "text": "Sun, shade, or water—K? ... Komodo Dragon! Large body; claws; tail.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -350,7 +350,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L, one quiet beat ... Lizard! Clawed feet; long tail.",
+      "text": "Ectotherm L ... Lizard! Clawed feet; long tail.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -358,21 +358,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Spot the pattern, say the name!",
+      "text": "Warm, shade, move—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Letter and creature join the game!",
+      "text": "Behavior helps body temperature track the environment.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Question: M? ... Monitor Lizard! Forked tongue; muscular tail.",
+      "text": "Thermal clue M ... Monitor Lizard! Forked tongue; muscular tail.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -380,7 +380,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... answer when ready ... Newt! Tail; four small limbs.",
+      "text": "Warm/cool N ... Newt! Tail; four small limbs.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -388,7 +388,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Remember the O clue ... Olive Python! Long olive S-curve.",
+      "text": "Sun, shade, or water—O? ... Olive Python! Long olive S-curve.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -396,7 +396,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P, one quiet beat ... Python! Long muscular S-curve.",
+      "text": "Ectotherm P ... Python! Long muscular S-curve.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Question: Q? ... Queen Snake! Slender stream-side S-curve.",
+      "text": "Thermal clue Q ... Queen Snake! Slender stream-side S-curve.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -412,7 +412,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... answer when ready ... Rattlesnake! S-curve; tail rattle; stay back.",
+      "text": "Warm/cool R ... Rattlesnake! S-curve; tail rattle; stay back.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -420,7 +420,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Remember the S clue ... Skink! Smooth body; short legs; tail.",
+      "text": "Sun, shade, or water—S? ... Skink! Smooth body; short legs; tail.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -428,7 +428,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T, one quiet beat ... Turtle! Shell dome; slow step.",
+      "text": "Ectotherm T ... Turtle! Shell dome; slow step.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -436,7 +436,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Question: U? ... Uromastyx! Thick spiny tail rings.",
+      "text": "Thermal clue U ... Uromastyx! Thick spiny tail rings.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -444,7 +444,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... answer when ready ... Veiled Chameleon! Tall casque; curled tail; grasping feet.",
+      "text": "Warm/cool V ... Veiled Chameleon! Tall casque; curled tail; grasping feet.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -452,7 +452,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Remember the W clue ... Water Dragon! Long tail; one swim stroke.",
+      "text": "Sun, shade, or water—W? ... Water Dragon! Long tail; one swim stroke.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X, one quiet beat ... Xenosaurus! Rough scales; broad head; strong limbs.",
+      "text": "Ectotherm X ... Xenosaurus! Rough scales; broad head; strong limbs.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,7 +468,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Question: Y? ... Yellow-bellied Slider! Shell dome; yellow underside.",
+      "text": "Thermal clue Y ... Yellow-bellied Slider! Shell dome; yellow underside.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -476,7 +476,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... answer when ready ... Zigzag Salamander! Four limbs; zigzag pattern.",
+      "text": "Warm/cool Z ... Zigzag Salamander! Four limbs; zigzag pattern.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -484,28 +484,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Spot the pattern, say the name!",
+      "text": "Warm, shade, move—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Letter and creature join the game!",
+      "text": "Behavior helps body temperature track the environment.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Spot the pattern, say the name!",
+      "text": "Sun patch empties as the animal chooses a cooler place.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A through Z—our pond-and-rock song lands on one bright final beat!",
+      "text": "A to Z ends with temperature as a moving balance.",
       "objective": "narration",
       "objectReveal": "none"
     }

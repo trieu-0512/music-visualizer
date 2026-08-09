@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Plop! One ripple spreads across the pond.",
+      "text": "Axolotl gills in water; chameleon scales on a branch; both are herps, but not the same class.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Frogs, scales, shells, and letters answer from beyond.",
+      "text": "Pond edge is where amphibian and reptile stories can meet.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A ... listen ... Axolotl! Axolotl in blue | feathery outside gills are a clue",
+      "text": "A — Axolotl! Aquatic salamander that usually keeps external larval gills as an adult | amphibian, not fish.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Meet Bullfrog, our B clue. A bullfrog is a large frog with powerful hind legs and a broad head, closely tied to ponds and wetlands.",
+      "text": "B ... B ... Bullfrog! Large frog with strong hind legs | amphibian life begins in water as tadpoles.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "between pond ripple and sunny stone: C finds Chameleon. Chameleon grips tight | curling tail and moving eyes in sight",
+      "text": "C? Chameleon! Dry-scaled lizard with gripping feet and independently moving eyes | reptile.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D for Dragon Lizard—This dragon-lizard target is a scaled lizard picture with four limbs, claws, and a long tail.",
+      "text": "D is Dragon Lizard. Project lizard picture with four limbs, claws and long tail | reptile mapping, not a mythical dragon.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Which picture starts with E? Eastern Newt! Eastern Newt near the blue | moist skin and swimming tail give the clue",
+      "text": "E — Eastern Newt! Salamander with aquatic and terrestrial stages depending life phase | amphibian skin stays permeable.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F ... listen ... Frog! It has moist skin and powerful hind legs; many frogs also have webbed feet for swimming.",
+      "text": "F ... F ... Frog! Amphibian with moist permeable skin and powerful hind limbs | eggs usually lack hard shells.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Meet Garter Snake, our G clue. A garter snake is a slender snake with a long body; many species show lengthwise stripes.",
+      "text": "G? Garter Snake! Slender North American snake | reptile with scales and no limbs.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "between pond ripple and sunny stone: H finds Horned Lizard. It has a broad flattened body and pointed horn-like scales around the head.",
+      "text": "H is Horned Lizard. Spiny-bodied lizard of dry North American habitats | reptile adapted far from ponds.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Hop, crawl, glide—A-B-C!",
+      "text": "Skin, stage, habitat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Name the creature safely with me!",
+      "text": "Amphibian or reptile? Check more than the shape.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I for Iguana—Iguana tail runs long | scales and careful habitat make the clue strong",
+      "text": "I — Iguana! Scaled lizard with long tail | reptile requiring external heat sources for thermoregulation.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Which picture starts with J? Jumping Frog! This jumping-frog target is a frog with moist skin and strong hind legs built for hopping.",
+      "text": "J ... J ... Jumping Frog! Frog mapping emphasizes strong hind-leg locomotion | amphibian, not tiny reptile.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K ... listen ... Komodo Dragon! It is a very large monitor lizard with strong limbs, claws, rough scales, and a long tail.",
+      "text": "K? Komodo Dragon! World's largest living lizard | venomous monitor lizard, dangerous and distance-only.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Meet Lizard, our L clue. A lizard is a scaled reptile typically with four limbs, clawed feet, and a long tail.",
+      "text": "L is Lizard. Reptile group with scales and usually four limbs | enormous diversity beyond one body color.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "between pond ripple and sunny stone: M finds Mudpuppy. Mudpuppy swims through | bushy outside gills are the clue",
+      "text": "M — Mudpuppy! Fully aquatic salamander retaining external gills | amphibian specialized for freshwater.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N for Nile Crocodile—A Nile crocodile is a large African reptile with armored skin, powerful jaws, and a strong swimming tail.",
+      "text": "N ... N ... Nile Crocodile! Large African semi-aquatic reptile | water use does not make it amphibian.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Which picture starts with O? Olive Python! It is a large Australian python with a long muscular body and smooth olive-brown coloring.",
+      "text": "O? Olive Python! Large Australian python | nonvenomous constricting snake, still observe-only.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P ... listen ... Python! It is a nonvenomous constricting snake with a long muscular body and no limbs.",
+      "text": "P is Python. Snake family kills prey mainly by constriction rather than venom | reptile.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Meet Queensland Frog, our Q clue. Queensland Frog by the pond | moist skin and hind-leg clues respond",
+      "text": "Q — Queensland Frog! Project frog mapping from Queensland | amphibian clue without inventing one exact species.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "between pond ripple and sunny stone: R finds Rattlesnake. It is a venomous pit viper with a segmented rattle at the tail tip; it is picture-only here.",
+      "text": "R ... R ... Rattlesnake! Venomous pit viper with tail rattle | reptile, never approach or handle.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S for Salamander—A salamander is an amphibian with moist skin, four limbs, and a long tail.",
+      "text": "S? Salamander! Amphibian with tail in adult form | many species rely on moist habitats or water.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Which picture starts with T? Toad! It is a frog with relatively dry-looking bumpy skin and strong hind legs for short hops.",
+      "text": "T is Toad. Frog-family amphibian with generally drier, bumpier skin than many frogs | still an amphibian.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,21 +193,21 @@
     {
       "id": "chorus-r1-5-1",
       "sectionId": "chorus-r1-5",
-      "text": "Hop, crawl, glide—A-B-C!",
+      "text": "Skin, stage, habitat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-5-2",
       "sectionId": "chorus-r1-5",
-      "text": "Name the creature safely with me!",
+      "text": "Amphibian or reptile? Check more than the shape.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U ... listen ... Urutu Snake! Urutu Snake S-curve line | snake body shape makes the answer shine",
+      "text": "U — Urutu Snake! Venomous South American pit viper | scaled reptile, image-only safety target.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +215,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Meet Veiled Chameleon, our V clue. A veiled chameleon has grasping feet, a curling tail, and a tall helmet-like casque on the head.",
+      "text": "V ... V ... Veiled Chameleon! Arboreal lizard with casque and grasping feet | reptile.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +223,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "between pond ripple and sunny stone: W finds Water Dragon. It is a long-tailed lizard with strong limbs that lives near water and can swim well.",
+      "text": "W? Water Dragon! Semi-aquatic lizard | reptile that uses water for escape and habitat without amphibian skin.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X for Xenopus—Xenopus is an aquatic frog with webbed hind feet and eyes positioned high on its head.",
+      "text": "X is Xenopus. African clawed frog genus fully aquatic as adults | amphibian with powerful webbed hind feet.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Which picture starts with Y? Yellow-bellied Slider! Yellow-bellied Slider shell | yellow underside markings help us tell",
+      "text": "Y — Yellow-bellied Slider! Freshwater turtle that basks on logs and banks | reptile with shell and scales.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z ... listen ... Zigzag Salamander! This zigzag-salamander target is a moist-skinned salamander with four limbs and a long tail.",
+      "text": "Z ... Z ... Zigzag Salamander! Salamander mapping clue | amphibian, with exact species traits kept to the provided image/label.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,21 +255,21 @@
     {
       "id": "chorus-r1-7-1",
       "sectionId": "chorus-r1-7",
-      "text": "Hop, crawl, glide—A-B-C!",
+      "text": "Skin, stage, habitat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-7-2",
       "sectionId": "chorus-r1-7",
-      "text": "Name the creature safely with me!",
+      "text": "Amphibian or reptile? Check more than the shape.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Cue A ... Axolotl! Flutter gills; glide tail.",
+      "text": "Class clue A ... Axolotl! Flutter gills; glide tail.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -277,7 +277,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B ... B ... Bullfrog! Strong hop; webbed feet.",
+      "text": "Pond/land B ... Bullfrog! Strong hop; webbed feet.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -285,7 +285,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "Ready for C? ... Chameleon! Curl tail; grasping feet; moving eyes.",
+      "text": "Amphibian or reptile—C? ... Chameleon! Curl tail; grasping feet; moving eyes.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -293,7 +293,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "Show the match for D ... Dragon Lizard! Clawed feet; long tail.",
+      "text": "Herp clue D ... Dragon Lizard! Clawed feet; long tail.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -301,7 +301,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Cue E ... Eastern Newt! Swim-tail; four small limbs.",
+      "text": "Class clue E ... Eastern Newt! Swim-tail; four small limbs.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -309,7 +309,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F ... F ... Frog! Hop; spread webbed feet.",
+      "text": "Pond/land F ... Frog! Hop; spread webbed feet.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -317,7 +317,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "Ready for G? ... Garter Snake! Striped S-curve.",
+      "text": "Amphibian or reptile—G? ... Garter Snake! Striped S-curve.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -325,7 +325,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "Show the match for H ... Horned Lizard! Flat body; head horns.",
+      "text": "Herp clue H ... Horned Lizard! Flat body; head horns.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -333,7 +333,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Cue I ... Iguana! Back spines; long tail.",
+      "text": "Class clue I ... Iguana! Back spines; long tail.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -341,7 +341,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J ... J ... Jumping Frog! One clear hop.",
+      "text": "Pond/land J ... Jumping Frog! One clear hop.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -349,7 +349,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "Ready for K? ... Komodo Dragon! Large body; claws; tail.",
+      "text": "Amphibian or reptile—K? ... Komodo Dragon! Large body; claws; tail.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -357,7 +357,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "Show the match for L ... Lizard! Clawed feet; long tail.",
+      "text": "Herp clue L ... Lizard! Clawed feet; long tail.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -365,21 +365,21 @@
     {
       "id": "chorus-r2-3-1",
       "sectionId": "chorus-r2-3",
-      "text": "Hop, crawl, glide—A-B-C!",
+      "text": "Skin, stage, habitat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-3-2",
       "sectionId": "chorus-r2-3",
-      "text": "Name the creature safely with me!",
+      "text": "Amphibian or reptile? Check more than the shape.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Cue M ... Mudpuppy! Bushy gills; swim-tail.",
+      "text": "Class clue M ... Mudpuppy! Bushy gills; swim-tail.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -387,7 +387,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N ... N ... Nile Crocodile! Armor; long snout; tail.",
+      "text": "Pond/land N ... Nile Crocodile! Armor; long snout; tail.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -395,7 +395,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Ready for O? ... Olive Python! Long olive S-curve.",
+      "text": "Amphibian or reptile—O? ... Olive Python! Long olive S-curve.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -403,7 +403,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "Show the match for P ... Python! Long muscular S-curve.",
+      "text": "Herp clue P ... Python! Long muscular S-curve.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -411,7 +411,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Cue Q ... Queensland Frog! Hop; strong hind legs.",
+      "text": "Class clue Q ... Queensland Frog! Hop; strong hind legs.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -419,7 +419,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R ... R ... Rattlesnake! S-curve; tail rattle; stay back.",
+      "text": "Pond/land R ... Rattlesnake! S-curve; tail rattle; stay back.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -427,7 +427,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "Ready for S? ... Salamander! Four limbs; long tail.",
+      "text": "Amphibian or reptile—S? ... Salamander! Four limbs; long tail.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -435,7 +435,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "Show the match for T ... Toad! Short hop; bumpy skin.",
+      "text": "Herp clue T ... Toad! Short hop; bumpy skin.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -443,7 +443,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Cue U ... Urutu Snake! Stout patterned S-curve; stay back.",
+      "text": "Class clue U ... Urutu Snake! Stout patterned S-curve; stay back.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -451,7 +451,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V ... V ... Veiled Chameleon! Tall casque; curled tail; grasping feet.",
+      "text": "Pond/land V ... Veiled Chameleon! Tall casque; curled tail; grasping feet.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -459,7 +459,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Ready for W? ... Water Dragon! Long tail; one swim stroke.",
+      "text": "Amphibian or reptile—W? ... Water Dragon! Long tail; one swim stroke.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -467,7 +467,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Show the match for X ... Xenopus! Webbed feet; underwater glide.",
+      "text": "Herp clue X ... Xenopus! Webbed feet; underwater glide.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -475,21 +475,21 @@
     {
       "id": "chorus-r2-6-1",
       "sectionId": "chorus-r2-6",
-      "text": "Hop, crawl, glide—A-B-C!",
+      "text": "Skin, stage, habitat—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-6-2",
       "sectionId": "chorus-r2-6",
-      "text": "Name the creature safely with me!",
+      "text": "Amphibian or reptile? Check more than the shape.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Cue Y ... Yellow-bellied Slider! Shell dome; yellow underside.",
+      "text": "Class clue Y ... Yellow-bellied Slider! Shell dome; yellow underside.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -497,7 +497,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z ... Z ... Zigzag Salamander! Four limbs; zigzag pattern.",
+      "text": "Pond/land Z ... Zigzag Salamander! Four limbs; zigzag pattern.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -505,14 +505,14 @@
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Hop, crawl, glide—A-B-C!",
+      "text": "Newt returns to the amphibian side; slider basks on the reptile side.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z—our pond-and-rock song still glows!",
+      "text": "A to Z ends with the pond edge connected, not confused.",
       "objective": "narration",
       "objectReveal": "none"
     }

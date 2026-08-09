@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Rain taps the log—something small peeks out.",
+      "text": "Boa scales keep water in; frog skin must stay moist; axolotl gills wave outside the body.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "A to Z brings amphibian and reptile clues about.",
+      "text": "Skin tells a habitat story.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A is here; Axolotl is why. Axolotl in blue | feathery outside gills are a clue",
+      "text": "A — Axolotl! Aquatic salamander retains feathery external gills | soft permeable amphibian skin stays underwater.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "Boa answers B. A boa is a heavy-bodied snake that coils its muscular body around supports or prey.",
+      "text": "B ... B ... Boa! Keratinized reptile scales reduce water loss and protect the body | dry to the touch in normal conditions.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "beneath the rain-dark log, what belongs to C? Crocodile! It is a large semi-aquatic reptile with armored skin, a long snout, and a powerful tail.",
+      "text": "C? Crocodile! Tough scales and bony scutes armor a semi-aquatic reptile | water habitat does not mean amphibian skin.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D—short beat—Dart Frog. A dart frog is a small frog with moist skin; many species have vivid warning colors.",
+      "text": "D is Dart Frog. Moist amphibian skin supports gas/water exchange | bright color in many species warns predators.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Hear E; see Eastern Newt. Eastern Newt near the blue | moist skin and swimming tail give the clue",
+      "text": "E — Eastern Newt! Amphibian skin changes with aquatic/terrestrial life stages | moisture remains important.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F is here; Frog is why. It has moist skin and powerful hind legs; many frogs also have webbed feet for swimming.",
+      "text": "F ... F ... Frog! Mucus helps keep permeable skin moist | healthy 'slime' is functional biology.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "Garter Snake answers G. A garter snake is a slender snake with a long body; many species show lengthwise stripes.",
+      "text": "G? Garter Snake! Smooth/keeled scale patterns vary by species | scales protect a limbless reptile.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "beneath the rain-dark log, what belongs to H? Hellbender! It is a large fully aquatic salamander with a flattened body and wrinkled skin along its sides.",
+      "text": "H is Hellbender. Giant aquatic salamander with folded skin increasing surface area | fully amphibian despite wrinkled appearance.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,21 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Pond and log, what do you see?",
+      "text": "Scale, skin, water—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Creature clues from A to Z!",
+      "text": "Texture is biology, not a joke.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I—short beat—Italian Newt. Italian Newt near the blue | moist skin and swimming tail give the clue",
+      "text": "I — Italian Newt! Newt skin is permeable and glandular | aquatic breeding links it to water.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +105,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "Hear J; see Jackson Chameleon. It has grasping feet, a curling tail, and males commonly carry three horn-like projections on the head.",
+      "text": "J ... J ... Jackson Chameleon! Scaled skin changes appearance through specialized cells | reptile surface, not wet frog skin.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +113,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "K is here; Komodo Dragon is why. It is a very large monitor lizard with strong limbs, claws, rough scales, and a long tail.",
+      "text": "K? Komodo Dragon! Large monitor lizard with scaled skin | venomous bite biology keeps it distance-only.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +121,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "Leopard Gecko answers L. A leopard gecko is a ground-dwelling gecko with spotted skin, movable eyelids, and clawed toes rather than adhesive toe pads.",
+      "text": "L is Leopard Gecko. Granular/tubercled scales and eyelids distinguish this gecko | dry-land reptile.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +129,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "beneath the rain-dark log, what belongs to M? Mudpuppy! Mudpuppy swims through | bushy outside gills are the clue",
+      "text": "M — Mudpuppy! Aquatic salamander with external gills and permeable skin | freshwater specialist.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +137,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N—short beat—Newt. A newt is a salamander with moist skin and a tail; many species spend part of life in water.",
+      "text": "N ... N ... Newt! Salamander family member with permeable skin | toxins in some species reinforce no-handling.",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +145,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "Hear O; see Ornate Box Turtle. It has a high domed shell patterned with yellow lines or spots and sturdy walking feet.",
+      "text": "O? Ornate Box Turtle! Scales cover limbs while shell encloses trunk | reptile surfaces combine keratin and bone.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +153,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P is here; Python is why. It is a nonvenomous constricting snake with a long muscular body and no limbs.",
+      "text": "P is Python. Smooth overlapping scales cover a muscular snake | shedding replaces the outer skin layer.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Queen Snake answers Q. Queen Snake curves in view | limbless scaled body is the clue",
+      "text": "Q — Queen Snake! North American semi-aquatic snake that often eats freshly molted crayfish | reptile scales remain dry-skin adaptation.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -169,7 +169,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "beneath the rain-dark log, what belongs to R? Red-eyed Tree Frog! It has bright red eyes, adhesive toe pads, and long legs for climbing among leaves.",
+      "text": "R ... R ... Red-eyed Tree Frog! Moist skin and adhesive toe pads support arboreal amphibian life.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -177,7 +177,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S—short beat—Salamander. A salamander is an amphibian with moist skin, four limbs, and a long tail.",
+      "text": "S? Salamander! Permeable moist skin makes many species sensitive to dehydration and contaminants.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -185,7 +185,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "Hear T; see Turtle. It is a reptile with a hard bony shell protecting the body.",
+      "text": "T is Turtle. Shell is bony skeleton covered by scutes in many species | not a loose external object.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -193,7 +193,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U is here; Uromastyx is why. Uromastyx tail is stout | spiny scale rings make it stand out",
+      "text": "U — Uromastyx! Dry-land lizard with spiny scaled tail | arid habitat contrasts sharply with salamanders.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -201,7 +201,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "Viper answers V. A viper is a venomous snake with a stout body and prominent fangs; it is picture-only here.",
+      "text": "V ... V ... Viper! Scaled venomous snake | surface pattern helps camouflage but does not make handling safe.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -209,7 +209,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "beneath the rain-dark log, what belongs to W? Wood Frog! It is a moist-skinned frog with a dark mask-like stripe through each eye.",
+      "text": "W? Wood Frog! Amphibian survives seasonal freezing of much body water in winter | moist skin returns to active spring life.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X—short beat—Xenosaurus. A xenosaurus is a rough-scaled lizard with a broad head and strong limbs adapted to rocky or crevice habitats.",
+      "text": "X is Xenosaurus. Knob-scaled lizard | textured reptile skin fits rocky crevices.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -225,21 +225,21 @@
     {
       "id": "chorus-r1-6-1",
       "sectionId": "chorus-r1-6",
-      "text": "Pond and log, what do you see?",
+      "text": "Scale, skin, water—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-6-2",
       "sectionId": "chorus-r1-6",
-      "text": "Creature clues from A to Z!",
+      "text": "Texture is biology, not a joke.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Hear Y; see Yellow Anaconda. Yellow Anaconda S-curve line | snake body shape makes the answer shine",
+      "text": "Y — Yellow Anaconda! Large semi-aquatic boa relative with scales | wet habitat, reptile skin.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z is here; Zebra Skink is why. This zebra-skink target is a smooth-scaled skink picture with striped body patterning.",
+      "text": "Z ... Z ... Zebra Skink! Striped skink mapping clue | smooth scales and limbs mark a lizard.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Hear A ... say Axolotl! Flutter gills; glide tail.",
+      "text": "Surface clue A ... Axolotl! Flutter gills; glide tail.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -263,7 +263,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "Find the picture for B ... Boa! Trace one S-curve from a safe picture distance.",
+      "text": "Wet/dry B ... Boa! Trace one S-curve from a safe picture distance.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -271,7 +271,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C calls ... Crocodile answers! Long snout; armor; tail.",
+      "text": "Scale or skin—C? ... Crocodile! Long snout; armor; tail.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -279,7 +279,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D ... wait ... Dart Frog! Tiny hop; bright pattern.",
+      "text": "Texture D ... Dart Frog! Tiny hop; bright pattern.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -287,7 +287,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "Hear E ... say Eastern Newt! Swim-tail; four small limbs.",
+      "text": "Surface clue E ... Eastern Newt! Swim-tail; four small limbs.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Find the picture for F ... Frog! Hop; spread webbed feet.",
+      "text": "Wet/dry F ... Frog! Hop; spread webbed feet.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -303,7 +303,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G calls ... Garter Snake answers! Striped S-curve.",
+      "text": "Scale or skin—G? ... Garter Snake! Striped S-curve.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -311,7 +311,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H ... wait ... Hellbender! Flat body; wrinkled sides.",
+      "text": "Texture H ... Hellbender! Flat body; wrinkled sides.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -319,7 +319,7 @@
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Hear I ... say Italian Newt! Swim-tail; four small limbs.",
+      "text": "Surface clue I ... Italian Newt! Swim-tail; four small limbs.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -327,7 +327,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "Find the picture for J ... Jackson Chameleon! Three horns; grasping feet; curled tail.",
+      "text": "Wet/dry J ... Jackson Chameleon! Three horns; grasping feet; curled tail.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -335,7 +335,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K calls ... Komodo Dragon answers! Large body; claws; tail.",
+      "text": "Scale or skin—K? ... Komodo Dragon! Large body; claws; tail.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -343,7 +343,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L ... wait ... Leopard Gecko! Spots; clawed ground toes.",
+      "text": "Texture L ... Leopard Gecko! Spots; clawed ground toes.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -351,7 +351,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "Hear M ... say Mudpuppy! Bushy gills; swim-tail.",
+      "text": "Surface clue M ... Mudpuppy! Bushy gills; swim-tail.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -359,7 +359,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "Find the picture for N ... Newt! Tail; four small limbs.",
+      "text": "Wet/dry N ... Newt! Tail; four small limbs.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -367,7 +367,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "O calls ... Ornate Box Turtle answers! Domed shell; yellow lines.",
+      "text": "Scale or skin—O? ... Ornate Box Turtle! Domed shell; yellow lines.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -375,7 +375,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P ... wait ... Python! Long muscular S-curve.",
+      "text": "Texture P ... Python! Long muscular S-curve.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -383,21 +383,21 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Pond and log, what do you see?",
+      "text": "Scale, skin, water—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Creature clues from A to Z!",
+      "text": "Texture is biology, not a joke.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Hear Q ... say Queen Snake! Slender stream-side S-curve.",
+      "text": "Surface clue Q ... Queen Snake! Slender stream-side S-curve.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -405,7 +405,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "Find the picture for R ... Red-eyed Tree Frog! Red eyes; sticky toes.",
+      "text": "Wet/dry R ... Red-eyed Tree Frog! Red eyes; sticky toes.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -413,7 +413,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S calls ... Salamander answers! Four limbs; long tail.",
+      "text": "Scale or skin—S? ... Salamander! Four limbs; long tail.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -421,7 +421,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T ... wait ... Turtle! Shell dome; slow step.",
+      "text": "Texture T ... Turtle! Shell dome; slow step.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -429,7 +429,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "Hear U ... say Uromastyx! Thick spiny tail rings.",
+      "text": "Surface clue U ... Uromastyx! Thick spiny tail rings.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -437,7 +437,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "Find the picture for V ... Viper! Stout S-curve; stay back.",
+      "text": "Wet/dry V ... Viper! Stout S-curve; stay back.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -445,7 +445,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "W calls ... Wood Frog answers! Hop; dark eye mask.",
+      "text": "Scale or skin—W? ... Wood Frog! Hop; dark eye mask.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X ... wait ... Xenosaurus! Rough scales; broad head; strong limbs.",
+      "text": "Texture X ... Xenosaurus! Rough scales; broad head; strong limbs.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Hear Y ... say Yellow Anaconda! Thick S-curve; dark blotches.",
+      "text": "Surface clue Y ... Yellow Anaconda! Thick S-curve; dark blotches.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -469,7 +469,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Find the picture for Z ... Zebra Skink! Smooth body; zebra-like stripes.",
+      "text": "Wet/dry Z ... Zebra Skink! Smooth body; zebra-like stripes.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -477,28 +477,28 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Pond and log, what do you see?",
+      "text": "Scale, skin, water—A-B-C!",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Creature clues from A to Z!",
+      "text": "Texture is biology, not a joke.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "Pond and log, what do you see?",
+      "text": "Rain darkens the log; no salamander is picked up to prove the lesson.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "Letters tucked in—our pond-and-rock song is ours to keep!",
+      "text": "A to Z leaves every skin doing its own job.",
       "objective": "narration",
       "objectReveal": "none"
     }
