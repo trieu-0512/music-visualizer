@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "splash-step",
   "hook": [
-    "Splash, glide, dive—A-B-C!",
-    "Every wave brings a word to me!"
+    "Splash, glide, rise—A-B-C!",
+    "Ocean Letter Splash—from shore to sea!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat of quiet after the letter cue",
@@ -15,7 +15,7 @@
   "creativeFingerprint": {
     "mode": "controlled-variation",
     "designStatus": "CURATED_CREATIVE_SPEC",
-    "openingType": "sound-image cold open",
+    "openingType": "single-ripple scene drop",
     "targetEntryFamilies": [
       "direct",
       "repeated-letter",
@@ -24,46 +24,48 @@
       "narrative"
     ],
     "lineLengthContour": [
-      "short",
       "medium",
+      "short",
       "long",
       "medium"
     ],
-    "rhymeEngine": "wave-chain-linked-rhyme",
-    "chorusRhymeEngine": "paired",
-    "pointOfView": "playful reef guide following splashes and movement",
-    "chorusFunction": "two-line splash hook that resets attention",
-    "grooveMeter": "syncopation-light 4/4 island bounce",
-    "round1Grammar": "hand-written ocean image lines; rhyme may travel across three or four neighboring targets before changing family",
-    "round2Grammar": "cue-gap-answer plus object-conditioned gesture; rotate direct, repeated, question and find forms",
-    "sectionContrast": "Round 1 sparse marimba/ukulele; chorus wider; Round 2 stop-start with percussion dropouts",
-    "signatureColor": "marimba splash answer after each target",
-    "authorialIntent": "Turn alphabet learning into one widening ocean dive: begin with a splash, move through reef shelter and deeper water, then rise toward the surface again so the child feels motion, scale, and wonder rather than a list of sea nouns.",
-    "lyricIdentity": "Water-motion language leads the song: splash, glide, drift, dip, rise, breathe. Quick surface hits alternate with spacious underwater images; blue, depth, shelter, ripple, and breath recur without becoming fixed tails.",
+    "rhymeEngine": "tidal-chain-assonance-with-open-release",
+    "chorusRhymeEngine": "title-hook-paired",
+    "pointOfView": "child-sized observer following one widening ripple from reef to shore, depth, surface, and current",
+    "chorusFunction": "title hook that resets the water-motion identity and anchors the first song of the catalog",
+    "grooveMeter": "rolling 4/4 acoustic-pop with a light triplet undertow",
+    "round1Grammar": "hand-written ocean-and-coast snapshots; natural rhyme and assonance travel across neighboring targets, then release into plain vivid fact when accuracy needs room",
+    "round2Grammar": "letter cue -> one real beat -> target -> one semantic action; retrieval clues rotate among motion, shape, habitat, and function instead of repeating one instruction",
+    "sectionContrast": "Round 1 begins spare and widens by layer; choruses open the harmony; the interlude nearly empties; Round 2 is stop-start voice-first recall; the final chorus is fullest before the tide-like outro strips back",
+    "signatureColor": "two-note marimba ripple answers after target words, never on their first syllable",
+    "authorialIntent": "Make the first song of the catalog feel like one widening ripple: it touches reef, coast, sheltered water, seafloor, surface breath, and open current, then returns home. The alphabet should feel carried by changing water, not stacked as twenty-six facts.",
+    "lyricIdentity": "One ripple is the recurring image. Water verbs widen, bob, fan, slip, drift, rise, breathe, and return; each four-letter chunk changes the water layer or scale, while object-specific facts keep the imagery honest.",
     "imageMotifs": [
-      "splash rings",
-      "reef rooms",
-      "blue depth",
+      "silver ripple rings",
+      "reef branches",
+      "shoreline structures",
       "surface breath",
-      "gliding fins"
+      "current carrying tiny drifters"
     ],
     "semanticArc": [
-      "surface splash and markers",
-      "reef shelter and swimming motion",
-      "deeper creatures and hidden spaces",
-      "rise toward surface light and carry the words home"
+      "one ripple opens across reef and surface",
+      "water crosses reef shelter toward coast and seafloor",
+      "the view deepens then repeatedly rises toward air and light",
+      "open current carries the last letters back to the first ripple"
     ],
     "forbiddenGenericLanguage": [
       "fun to see",
       "shining bright",
-      "in our world today",
-      "come sing with me"
+      "come sing with me",
+      "ocean friend"
     ],
     "chorusAfterRound1": [
       2,
-      5
+      4,
+      6
     ],
     "chorusAfterRound2": [
+      2,
       4,
       7
     ],
