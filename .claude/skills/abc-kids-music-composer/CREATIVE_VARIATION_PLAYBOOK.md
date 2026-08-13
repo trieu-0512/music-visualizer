@@ -352,6 +352,10 @@ MEDIUM -> MEDIUM -> LONG payoff -> SHORT hook
 
 Contrast should support the musical idea, not become random asymmetry.
 
+### Provider-first compactness for preschool AI music
+
+For preschool songs sent to Suno-like providers, compact sung units are the default. Prefer about **5-12 sung words per learning line**, one comfortable breath per phraselet, and one main image/fact/action per target. If a provider rushes or speak-sings a long line, shorten the writing instead of adding more production instructions. Extended 12-20+ word lines are deliberate contrast, not the catalog default. Preserve format variety, but let nearby lines share enough rhythmic grammar for melody to become predictable. A useful default is roughly **70% recognizable grammar + 30% surprise**.
+
 ---
 
 ## 7. Rhythmic Placement and Phrasing
@@ -474,6 +478,12 @@ ABAB can make four-line sections feel more open than AABB.
 ### Delayed payoff
 
 Lines 1–3 can remain open; line 4 resolves with the hook/rhyme.
+
+For preschool lexical songs, delayed payoff is an exception. Keep the strongest rhyme payoff inside the same line or within the next **1-2 lines**. If the first sound has fallen out of working memory before its partner arrives, the rhyme is no longer helping musical recall. Longer delay belongs mainly in an obvious refrain, repeated melodic cell, or narrative passage.
+
+### Rhyme-memory horizon
+
+Ask both `does it rhyme?` and `is the setup still audible in memory when the payoff arrives?` Mix exact rhyme, near rhyme, internal rhyme, and occasional open lines, but keep the strongest payoffs close.
 
 ### Chain / linked rhyme
 

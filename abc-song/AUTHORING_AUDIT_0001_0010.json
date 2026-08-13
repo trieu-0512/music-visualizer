@@ -22,16 +22,14 @@
       "songId": "0001",
       "theme": "Ocean Animals & Coast",
       "targetLines": 52,
-      "lyricWordCount": 779,
+      "lyricWordCount": 730,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "is-for",
-        "narrative-or-other",
+        "letter-led-sentence",
         "object-first",
-        "question-answer",
-        "repeated-letter"
+        "question-answer"
       ],
       "rhymeBearingRound1": [
         "A",
@@ -65,7 +63,7 @@
         "round1ChorusAfter": [
           2,
           4,
-          6
+          7
         ],
         "round2ChorusAfter": [
           2,

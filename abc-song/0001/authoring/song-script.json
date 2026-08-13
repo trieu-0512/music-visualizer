@@ -5,21 +5,21 @@
     {
       "id": "intro-1",
       "sectionId": "intro",
-      "text": "Plip—one silver ripple starts small.",
+      "text": "Plip - one silver ripple starts to grow.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "intro-2",
       "sectionId": "intro",
-      "text": "Follow it past reef and shore; watch the blue grow wide.",
+      "text": "Reef to shore, follow where the blue waves go.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A - Angelfish! Tall fins open wide | flat body turns through coral shade, gliding with the tide.",
+      "text": "A is Angelfish, fins open wide | turning gently with the tide.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -27,7 +27,7 @@
     {
       "id": "r1-B",
       "sectionId": "r1-a-d",
-      "text": "B ... B ... Buoy! Bob-bob on the blue | anchored in place while boats pass through.",
+      "text": "B is Buoy, bobbing on blue | anchored while boats pass through.",
       "targetId": "B",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -35,7 +35,7 @@
     {
       "id": "r1-C",
       "sectionId": "r1-a-d",
-      "text": "C is for Coral. Tiny animals, side by side | hard skeletons build reef homes where little swimmers hide.",
+      "text": "C is Coral, animals side by side | building reefs where fish hide.",
       "targetId": "C",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -43,7 +43,7 @@
     {
       "id": "r1-D",
       "sectionId": "r1-a-d",
-      "text": "D? Dock! Platform at the waterside | boats tie up and load alongside.",
+      "text": "D is Dock, by the shore | boats tie up once more.",
       "targetId": "D",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -51,7 +51,7 @@
     {
       "id": "r1-E",
       "sectionId": "r1-e-h",
-      "text": "Here comes E with Eel. Long fish, no feet | whole body bends through a rocky retreat.",
+      "text": "E ... Eel! Long fish, no feet | bending through a rocky retreat.",
       "targetId": "E",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F - Fish! Tail swish, fins steer | gills take oxygen from the water passing near.",
+      "text": "F is Fish, fins steer | gills take oxygen from water near.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -67,7 +67,7 @@
     {
       "id": "r1-G",
       "sectionId": "r1-e-h",
-      "text": "G ... G ... Grouper! Stout by a ledge | broad mouth waiting at the shadowy edge.",
+      "text": "G ... Grouper! Waits by a ledge | broad mouth hiding near the edge.",
       "targetId": "G",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -75,7 +75,7 @@
     {
       "id": "r1-H",
       "sectionId": "r1-e-h",
-      "text": "H is for Harbor. Sheltered from spray | waves settle softer where boats can stay.",
+      "text": "H is Harbor, sheltered from spray | calmer water where boats can stay.",
       "targetId": "H",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -83,21 +83,35 @@
     {
       "id": "chorus-r1-2-1",
       "sectionId": "chorus-r1-2",
-      "text": "Splash-splash! Ride the ripple with me,",
+      "text": "Ocean Letter Splash, come ride with me,",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-2-2",
       "sectionId": "chorus-r1-2",
-      "text": "Ocean letters, A to Z!",
+      "text": "Splash through letters, A to Z.",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-2-3",
+      "sectionId": "chorus-r1-2",
+      "text": "Say the word, then feel the flow,",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-2-4",
+      "sectionId": "chorus-r1-2",
+      "text": "Wave by wave, away we go.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-I",
       "sectionId": "r1-i-l",
-      "text": "I? Island! Land ringed by blue | water on every side, every view.",
+      "text": "I? Island! Land ringed blue | water on every side, every view.",
       "targetId": "I",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -105,7 +119,7 @@
     {
       "id": "r1-J",
       "sectionId": "r1-i-l",
-      "text": "J - Jetty! Rock, wood, or concrete from shore | built into water to guard a coast or guide boats through a channel.",
+      "text": "J is Jetty, built from shore | guarding coasts or guiding channels.",
       "targetId": "J",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -113,7 +127,7 @@
     {
       "id": "r1-K",
       "sectionId": "r1-i-l",
-      "text": "Kayak - that's K. Double-bladed paddle in hand | left stroke, right stroke, turn where you planned.",
+      "text": "Kayak - that's K, paddle in hand | left then right, turn as planned.",
       "targetId": "K",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -121,7 +135,7 @@
     {
       "id": "r1-L",
       "sectionId": "r1-i-l",
-      "text": "L ... L ... Lobster! Step-step on the seafloor | long antennae feel what lies before.",
+      "text": "L ... Lobster! Walks the seafloor | long antennae feel what's before.",
       "targetId": "L",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -129,7 +143,7 @@
     {
       "id": "r1-M",
       "sectionId": "r1-m-p",
-      "text": "M is for Mussel. Two shell halves lock | silky threads hold fast to wave-washed rock.",
+      "text": "M is Mussel, shell halves lock | silky threads hold tight to rock.",
       "targetId": "M",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -137,7 +151,7 @@
     {
       "id": "r1-N",
       "sectionId": "r1-m-p",
-      "text": "N? Narwhal! Through Arctic blue | that spiral tusk is one long tooth - it's true.",
+      "text": "N? Narwhal! Through Arctic blue | spiral tusk, one long tooth - true!",
       "targetId": "N",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -145,7 +159,7 @@
     {
       "id": "r1-O",
       "sectionId": "r1-m-p",
-      "text": "O - Octopus! Eight arms open wide | soft body squeezes through a narrow gap to slip inside.",
+      "text": "O is Octopus, eight arms wide | soft body squeezes through to hide.",
       "targetId": "O",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -153,7 +167,7 @@
     {
       "id": "r1-P",
       "sectionId": "r1-m-p",
-      "text": "P - Pelican! Bill dips low | pouch catches fish, then lets the water flow.",
+      "text": "P is Pelican, bill dips low | pouch catches fish, lets water flow.",
       "targetId": "P",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,21 +175,35 @@
     {
       "id": "chorus-r1-4-1",
       "sectionId": "chorus-r1-4",
-      "text": "Splash-splash! Ride the ripple with me,",
+      "text": "Ocean Letter Splash, come ride with me,",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r1-4-2",
       "sectionId": "chorus-r1-4",
-      "text": "Ocean letters, A to Z!",
+      "text": "Splash through letters, A to Z.",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-4-3",
+      "sectionId": "chorus-r1-4",
+      "text": "Say the word, then feel the flow,",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-4-4",
+      "sectionId": "chorus-r1-4",
+      "text": "Wave by wave, away we go.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q ... Q ... Quahog! Say KOH-hog | hard-shell clam burrowed in coastal sand or mud.",
+      "text": "Q ... Quahog! Say KOH-hog | hard clam buried in sand or mud.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -183,7 +211,7 @@
     {
       "id": "r1-R",
       "sectionId": "r1-q-t",
-      "text": "R is for Ray. Wide fins span | body glides like a shadow over sand.",
+      "text": "R is Ray, fins spread wide | gliding low where shadows slide.",
       "targetId": "R",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -191,7 +219,7 @@
     {
       "id": "r1-S",
       "sectionId": "r1-q-t",
-      "text": "S? Seahorse! Upright and slow | curled tail grips seagrass in the flow.",
+      "text": "S? Seahorse! Small and slow | curled tail grips seagrass in the flow.",
       "targetId": "S",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -199,7 +227,7 @@
     {
       "id": "r1-T",
       "sectionId": "r1-q-t",
-      "text": "T - Turtle! Broad flippers sweep | steady strokes through water blue and deep.",
+      "text": "T is Turtle, at sea flippers sweep | steady through water deep.",
       "targetId": "T",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -207,7 +235,7 @@
     {
       "id": "r1-U",
       "sectionId": "r1-u-x",
-      "text": "U - Undersea Cave! Rock opens below | seawater slips where the sunlight cannot go.",
+      "text": "U ... Undersea Cave, dark below | seawater enters where sunlight can't go.",
       "targetId": "U",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -215,7 +243,7 @@
     {
       "id": "r1-V",
       "sectionId": "r1-u-x",
-      "text": "V ... V ... Violet Sea Snail! Purple-blue, afloat | hangs beneath a bubble raft like a tiny boat.",
+      "text": "V is Violet Sea Snail, afloat | hangs beneath its bubble raft.",
       "targetId": "V",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -223,7 +251,7 @@
     {
       "id": "r1-W",
       "sectionId": "r1-u-x",
-      "text": "W is for Whale. Deep below, then up for air | one huge breath at the surface, then down from there.",
+      "text": "W is Whale, up for air | big breath, down from there.",
       "targetId": "W",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,29 +259,15 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X? X-ray Tetra! Freshwater, not the sea | translucent sides show some bones we can partly see.",
+      "text": "X? X-ray Tetra, freshwater not sea | translucent sides, some bones we see.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
-      "id": "chorus-r1-6-1",
-      "sectionId": "chorus-r1-6",
-      "text": "Splash-splash! Ride the ripple with me,",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
-      "id": "chorus-r1-6-2",
-      "sectionId": "chorus-r1-6",
-      "text": "Ocean letters, A to Z!",
-      "objective": "verbatim",
-      "objectReveal": "none"
-    },
-    {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y - Yellowfin Tuna! Yellow finlets flash | streamlined body powers through an open-ocean dash.",
+      "text": "Y is Yellowfin Tuna, finlets flash | streamlined body makes an ocean dash.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -261,22 +275,50 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z ... Z ... Zooplankton! Tiny drifters ride the flow | current carries Z where the first ripple goes.",
+      "text": "Z ... Zooplankton! Ride the flow | tiny drifters where the currents go.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
     },
     {
+      "id": "chorus-r1-7-1",
+      "sectionId": "chorus-r1-7",
+      "text": "Ocean Letter Splash, come ride with me,",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-7-2",
+      "sectionId": "chorus-r1-7",
+      "text": "Splash through letters, A to Z.",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-7-3",
+      "sectionId": "chorus-r1-7",
+      "text": "Say the word, then feel the flow,",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r1-7-4",
+      "sectionId": "chorus-r1-7",
+      "text": "Wave by wave, away we go.",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
       "id": "interlude-1",
       "sectionId": "mid-interlude",
-      "text": "The ripple turns. I call the letter; you bring the ocean word back.",
+      "text": "My turn: I call the letter. You bring the word back.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "A ... Angelfish! Tall fins—fan and glide.",
+      "text": "A ... Angelfish! Fan both hands and glide.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -284,7 +326,7 @@
     {
       "id": "r2-B",
       "sectionId": "r2-a-d",
-      "text": "B - what bobs? ... Buoy! Bob one hand up and down.",
+      "text": "B ... Buoy! Bob one hand with the tide.",
       "targetId": "B",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -292,7 +334,7 @@
     {
       "id": "r2-C",
       "sectionId": "r2-a-d",
-      "text": "C - reef builder? ... Coral! Open fingers like branches.",
+      "text": "C ... Coral! Spread fingers side by side.",
       "targetId": "C",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -300,7 +342,7 @@
     {
       "id": "r2-D",
       "sectionId": "r2-a-d",
-      "text": "D at the shore ... Dock! One flat arm makes the platform.",
+      "text": "D ... Dock! Make a platform by your side.",
       "targetId": "D",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -308,7 +350,7 @@
     {
       "id": "r2-E",
       "sectionId": "r2-e-h",
-      "text": "E - long and bendy ... Eel! Wave one hand side to side.",
+      "text": "E ... Eel! Wave one hand side to side.",
       "targetId": "E",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -316,7 +358,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "F - fin flick, tail swish ... Fish! Swish one hand once.",
+      "text": "F ... Fish! Swish one hand and glide.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -324,7 +366,7 @@
     {
       "id": "r2-G",
       "sectionId": "r2-e-h",
-      "text": "G in reef shade ... Grouper! Make one slow glide.",
+      "text": "G ... Grouper! Hide low by a ledge.",
       "targetId": "G",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -332,7 +374,7 @@
     {
       "id": "r2-H",
       "sectionId": "r2-e-h",
-      "text": "H - calmer water ... Harbor! Curve both hands into a bay.",
+      "text": "H ... Harbor! Curve both hands into a bay.",
       "targetId": "H",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -340,21 +382,35 @@
     {
       "id": "chorus-r2-2-1",
       "sectionId": "chorus-r2-2",
-      "text": "Splash-splash! Ride the ripple with me,",
+      "text": "Ocean Letter Splash, come ride with me,",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-2-2",
       "sectionId": "chorus-r2-2",
-      "text": "Ocean letters, A to Z!",
+      "text": "Splash through letters, A to Z.",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-2-3",
+      "sectionId": "chorus-r2-2",
+      "text": "Say the word, then feel the flow,",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-2-4",
+      "sectionId": "chorus-r2-2",
+      "text": "Wave by wave, away we go.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-I",
       "sectionId": "r2-i-l",
-      "text": "Water all around - I? ... Island! Circle one still fist.",
+      "text": "I ... Island! Circle one hand all around.",
       "targetId": "I",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -362,7 +418,7 @@
     {
       "id": "r2-J",
       "sectionId": "r2-i-l",
-      "text": "J reaches out ... Jetty! Slide one flat hand outward.",
+      "text": "J ... Jetty! Reach outward from solid ground.",
       "targetId": "J",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -370,7 +426,7 @@
     {
       "id": "r2-K",
       "sectionId": "r2-i-l",
-      "text": "K - double paddle ... Kayak! Paddle left, then right.",
+      "text": "K ... Kayak! Paddle left, then right.",
       "targetId": "K",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -378,7 +434,7 @@
     {
       "id": "r2-L",
       "sectionId": "r2-i-l",
-      "text": "L - seafloor walker ... Lobster! Walk two fingers.",
+      "text": "L ... Lobster! Walk two fingers on the floor.",
       "targetId": "L",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -386,7 +442,7 @@
     {
       "id": "r2-M",
       "sectionId": "r2-m-p",
-      "text": "M - shell shuts tight ... Mussel! Close two palms.",
+      "text": "M ... Mussel! Close two palms like a shell.",
       "targetId": "M",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -394,7 +450,7 @@
     {
       "id": "r2-N",
       "sectionId": "r2-m-p",
-      "text": "N - spiral tooth ... Narwhal! Trace one spiral.",
+      "text": "N ... Narwhal! Trace one spiral tusk.",
       "targetId": "N",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -402,7 +458,7 @@
     {
       "id": "r2-O",
       "sectionId": "r2-m-p",
-      "text": "Eight arms - O? ... Octopus! Wiggle both hands.",
+      "text": "O ... Octopus! Wiggle both hands, soft and slow.",
       "targetId": "O",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -410,7 +466,7 @@
     {
       "id": "r2-P",
       "sectionId": "r2-m-p",
-      "text": "P - bill and pouch ... Pelican! Scoop, then lift.",
+      "text": "P ... Pelican! Scoop, then let the water go.",
       "targetId": "P",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -418,21 +474,35 @@
     {
       "id": "chorus-r2-4-1",
       "sectionId": "chorus-r2-4",
-      "text": "Splash-splash! Ride the ripple with me,",
+      "text": "Ocean Letter Splash, come ride with me,",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-4-2",
       "sectionId": "chorus-r2-4",
-      "text": "Ocean letters, A to Z!",
+      "text": "Splash through letters, A to Z.",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-4-3",
+      "sectionId": "chorus-r2-4",
+      "text": "Say the word, then feel the flow,",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-4-4",
+      "sectionId": "chorus-r2-4",
+      "text": "Wave by wave, away we go.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quahog! KOH-hog—close two palms like a clam.",
+      "text": "Q ... Quahog! KOH-hog - close your clam.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -440,7 +510,7 @@
     {
       "id": "r2-R",
       "sectionId": "r2-q-t",
-      "text": "R - wide fins over sand ... Ray! Glide hands wide.",
+      "text": "R ... Ray! Glide both hands above the sand.",
       "targetId": "R",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -448,7 +518,7 @@
     {
       "id": "r2-S",
       "sectionId": "r2-q-t",
-      "text": "S - upright, curled tail ... Seahorse! Curl one finger.",
+      "text": "S ... Seahorse! Curl one finger in the flow.",
       "targetId": "S",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -456,7 +526,7 @@
     {
       "id": "r2-T",
       "sectionId": "r2-q-t",
-      "text": "T - shell and flippers ... Turtle! Make a shell, then sweep.",
+      "text": "T ... Turtle! Sweep both hands as you go.",
       "targetId": "T",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -464,7 +534,7 @@
     {
       "id": "r2-U",
       "sectionId": "r2-u-x",
-      "text": "U - dark hollow under waves ... Undersea Cave! Arch both hands.",
+      "text": "U ... Undersea Cave! Arch both hands below.",
       "targetId": "U",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -472,7 +542,7 @@
     {
       "id": "r2-V",
       "sectionId": "r2-u-x",
-      "text": "V - bubble raft ... Violet Sea Snail! Spiral, then float.",
+      "text": "V ... Violet Sea Snail! Bubble-raft, float slow.",
       "targetId": "V",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -480,7 +550,7 @@
     {
       "id": "r2-W",
       "sectionId": "r2-u-x",
-      "text": "Who rises for air? W ... Whale! Lift, breathe, glide down.",
+      "text": "W ... Whale! Rise for air, then dive.",
       "targetId": "W",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -488,7 +558,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "X - freshwater visitor ... X-ray Tetra! Small fish glide—freshwater is home.",
+      "text": "X ... X-ray Tetra! Freshwater fish - glide.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -496,7 +566,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Y - yellow finlets ... Yellowfin Tuna! Sweep fast and smooth.",
+      "text": "Y ... Yellowfin Tuna! Sweep fast through the flow.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -504,7 +574,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Z - tiny drifters ... Zooplankton! Let fingertips ride the flow.",
+      "text": "Z ... Zooplankton! Drift where currents go.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -512,28 +582,42 @@
     {
       "id": "chorus-r2-7-1",
       "sectionId": "chorus-r2-7",
-      "text": "Splash-splash! Ride the ripple with me,",
+      "text": "Ocean Letter Splash, come ride with me,",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "chorus-r2-7-2",
       "sectionId": "chorus-r2-7",
-      "text": "Ocean letters, A to Z!",
+      "text": "Splash through letters, A to Z.",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-3",
+      "sectionId": "chorus-r2-7",
+      "text": "Say the word, then feel the flow,",
+      "objective": "verbatim",
+      "objectReveal": "none"
+    },
+    {
+      "id": "chorus-r2-7-4",
+      "sectionId": "chorus-r2-7",
+      "text": "Wave by wave, away we go.",
       "objective": "verbatim",
       "objectReveal": "none"
     },
     {
       "id": "outro-1",
       "sectionId": "outro",
-      "text": "One last silver ripple touches the shore.",
+      "text": "One last ripple reaches shore.",
       "objective": "narration",
       "objectReveal": "none"
     },
     {
       "id": "outro-2",
       "sectionId": "outro",
-      "text": "A to Z grows quiet; the water moves once more.",
+      "text": "A to Z, then one wave more.",
       "objective": "narration",
       "objectReveal": "none"
     }

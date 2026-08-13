@@ -6,8 +6,10 @@
   "tempoBpm": 88,
   "motifFamily": "splash-step",
   "hook": [
-    "Splash-splash! Ride the ripple with me,",
-    "Ocean letters, A to Z!"
+    "Ocean Letter Splash, come ride with me,",
+    "Splash through letters, A to Z.",
+    "Say the word, then feel the flow,",
+    "Wave by wave, away we go."
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat of quiet after the letter cue",
@@ -15,54 +17,53 @@
   "creativeFingerprint": {
     "mode": "controlled-variation",
     "designStatus": "CURATED_CREATIVE_SPEC",
-    "openingType": "single-ripple scene drop",
+    "openingType": "two-line rhymed ripple scene drop",
     "targetEntryFamilies": [
-      "direct",
-      "repeated-letter",
       "is-for",
+      "repeated-letter",
       "question-answer",
-      "narrative"
+      "object-first"
     ],
     "lineLengthContour": [
-      "short",
-      "medium",
-      "short",
-      "long"
+      "compact",
+      "compact",
+      "compact",
+      "compact"
     ],
-    "rhymeEngine": "ripple-cluster-rhyme-with-open-release",
-    "chorusRhymeEngine": "paired-me-z",
-    "pointOfView": "child-sized observer riding one ripple through changing ocean layers",
-    "chorusFunction": "ultra-repeatable movement hook with a clean me/Z rhyme and no explanatory prose",
-    "grooveMeter": "rolling 4/4 acoustic-pop with a light triplet undertow",
-    "round1Grammar": "song-first ocean snapshots: target early, one concrete image or fact, strong internal sound where natural, and deliberate short lines between richer teaching moments",
-    "round2Grammar": "brief clue -> one real beat -> target -> tiny semantic gesture; child response stays much shorter than Round 1 and rotates shape, motion, habitat, and function clues",
-    "sectionContrast": "A-H close and buoyant; I-P slightly wider; Q-X more spacious for rare words and wow-facts; Y-Z drift outward; interlude nearly empties; Round 2 is voice-first stop-start recall; final chorus blooms once before a tide-like strip-down",
-    "signatureColor": "two-note marimba ripple answers after targets, never on their first syllable",
-    "authorialIntent": "Make the catalog opener feel like one musical ripple, not a nature encyclopedia: it starts tiny, crosses reef and shore, dips through deeper water, rises for breath and light, then carries the final letter back toward the first ripple. Facts should be memorable because the phrasing moves, surprises, and sings.",
-    "lyricIdentity": "Ripple-motion is the signature. Short sound-words and child-repeatable verbs - plip, bob, flick, swish, glide, dip, rise, drift - alternate with a few vivid wow-facts. Information weight deliberately breathes: some letters are quick musical hits, others open into a larger image.",
+    "rhymeEngine": "near-horizon paired-and-phraselet-rhyme",
+    "chorusRhymeEngine": "paired-me-z-flow-go",
+    "pointOfView": "child-sized observer riding one ripple through reef, shore, depth, surface, and current",
+    "chorusFunction": "four-line title singalong with two immediate rhyme pairs and enough melodic room for Suno to form a real chorus",
+    "grooveMeter": "rolling 4/4 acoustic-pop with a gentle triplet undertow",
+    "round1Grammar": "mostly 6-12 sung words per learning line; target early, one fact or image only, and rhyme resolves inside the same phraselet pair or by the next line",
+    "round2Grammar": "compact letter-target-action recall, usually 5-9 words after the target; neighboring lines may rhyme but never at the expense of a natural action",
+    "sectionContrast": "Round 1 stays compact and melodic, choruses open into four-line singalongs, the interlude drops nearly bare, Round 2 becomes short stop-start recall, and the final chorus blooms before a two-line shore rhyme",
+    "signatureColor": "two-note marimba ripple after target words, never over the first syllable",
+    "authorialIntent": "Make the catalog opener sing easily on first listen: one silver ripple carries compact A-Z images from reef to shore and back. Each learning line teaches one memorable thing, with rhyme resolving immediately instead of asking the child to remember a distant setup.",
+    "lyricIdentity": "Ripple-motion stays the signature, but musical economy leads: compact lines, one image or fact at a time, nearby rhyme, recurring water verbs, and a predictable melodic grammar with small entry variations rather than constant structural novelty.",
     "imageMotifs": [
       "one silver ripple",
-      "reef-light",
-      "shore meeting water",
+      "reef light",
+      "shore and boats",
       "surface breath",
-      "tiny current-riders"
+      "current carrying tiny drifters"
     ],
     "semanticArc": [
-      "one ripple opens and finds reef life",
-      "shore structures and seafloor movement widen the scene",
-      "deep water rises repeatedly toward light and air",
-      "current carries Y and Z back toward the opening ripple"
+      "the ripple opens at the reef",
+      "shore and seafloor objects join the ride",
+      "deep water rises toward air and light",
+      "Y and Z ride the current back toward shore"
     ],
     "forbiddenGenericLanguage": [
       "fun to see",
       "shining bright",
-      "come sing with me",
+      "in our world today",
       "ocean friend"
     ],
     "chorusAfterRound1": [
       2,
       4,
-      6
+      7
     ],
     "chorusAfterRound2": [
       2,
