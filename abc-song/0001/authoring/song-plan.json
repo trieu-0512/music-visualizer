@@ -6,8 +6,8 @@
   "tempoBpm": 88,
   "motifFamily": "splash-step",
   "hook": [
-    "Splash, glide, rise—A-B-C!",
-    "Ocean Letter Splash—from shore to sea!"
+    "Splash-splash! Ride the ripple with me,",
+    "Ocean letters, A to Z!"
   ],
   "roundStructure": "Round 1 lexical-semantic A-Z; Round 2 retrieval-action A-Z; 4+4+4+4+4+4+2 chunks",
   "responseSpace": "one beat of quiet after the letter cue",
@@ -24,34 +24,34 @@
       "narrative"
     ],
     "lineLengthContour": [
+      "short",
       "medium",
       "short",
-      "long",
-      "medium"
+      "long"
     ],
-    "rhymeEngine": "tidal-chain-assonance-with-open-release",
-    "chorusRhymeEngine": "title-hook-paired",
-    "pointOfView": "child-sized observer following one widening ripple from reef to shore, depth, surface, and current",
-    "chorusFunction": "title hook that resets the water-motion identity and anchors the first song of the catalog",
+    "rhymeEngine": "ripple-cluster-rhyme-with-open-release",
+    "chorusRhymeEngine": "paired-me-z",
+    "pointOfView": "child-sized observer riding one ripple through changing ocean layers",
+    "chorusFunction": "ultra-repeatable movement hook with a clean me/Z rhyme and no explanatory prose",
     "grooveMeter": "rolling 4/4 acoustic-pop with a light triplet undertow",
-    "round1Grammar": "hand-written ocean-and-coast snapshots; natural rhyme and assonance travel across neighboring targets, then release into plain vivid fact when accuracy needs room",
-    "round2Grammar": "letter cue -> one real beat -> target -> one semantic action; retrieval clues rotate among motion, shape, habitat, and function instead of repeating one instruction",
-    "sectionContrast": "Round 1 begins spare and widens by layer; choruses open the harmony; the interlude nearly empties; Round 2 is stop-start voice-first recall; the final chorus is fullest before the tide-like outro strips back",
-    "signatureColor": "two-note marimba ripple answers after target words, never on their first syllable",
-    "authorialIntent": "Make the first song of the catalog feel like one widening ripple: it touches reef, coast, sheltered water, seafloor, surface breath, and open current, then returns home. The alphabet should feel carried by changing water, not stacked as twenty-six facts.",
-    "lyricIdentity": "One ripple is the recurring image. Water verbs widen, bob, fan, slip, drift, rise, breathe, and return; each four-letter chunk changes the water layer or scale, while object-specific facts keep the imagery honest.",
+    "round1Grammar": "song-first ocean snapshots: target early, one concrete image or fact, strong internal sound where natural, and deliberate short lines between richer teaching moments",
+    "round2Grammar": "brief clue -> one real beat -> target -> tiny semantic gesture; child response stays much shorter than Round 1 and rotates shape, motion, habitat, and function clues",
+    "sectionContrast": "A-H close and buoyant; I-P slightly wider; Q-X more spacious for rare words and wow-facts; Y-Z drift outward; interlude nearly empties; Round 2 is voice-first stop-start recall; final chorus blooms once before a tide-like strip-down",
+    "signatureColor": "two-note marimba ripple answers after targets, never on their first syllable",
+    "authorialIntent": "Make the catalog opener feel like one musical ripple, not a nature encyclopedia: it starts tiny, crosses reef and shore, dips through deeper water, rises for breath and light, then carries the final letter back toward the first ripple. Facts should be memorable because the phrasing moves, surprises, and sings.",
+    "lyricIdentity": "Ripple-motion is the signature. Short sound-words and child-repeatable verbs - plip, bob, flick, swish, glide, dip, rise, drift - alternate with a few vivid wow-facts. Information weight deliberately breathes: some letters are quick musical hits, others open into a larger image.",
     "imageMotifs": [
-      "silver ripple rings",
-      "reef branches",
-      "shoreline structures",
+      "one silver ripple",
+      "reef-light",
+      "shore meeting water",
       "surface breath",
-      "current carrying tiny drifters"
+      "tiny current-riders"
     ],
     "semanticArc": [
-      "one ripple opens across reef and surface",
-      "water crosses reef shelter toward coast and seafloor",
-      "the view deepens then repeatedly rises toward air and light",
-      "open current carries the last letters back to the first ripple"
+      "one ripple opens and finds reef life",
+      "shore structures and seafloor movement widen the scene",
+      "deep water rises repeatedly toward light and air",
+      "current carries Y and Z back toward the opening ripple"
     ],
     "forbiddenGenericLanguage": [
       "fun to see",
