@@ -31,6 +31,8 @@ import type {
   ProjectRecord,
   ProjectView,
   ReadinessReport,
+  PreviewRenderJob,
+  PreviewRenderOptions,
 } from "./types.js";
 
 /** The `fetch` signature the client depends on (injectable for tests). */
@@ -235,6 +237,47 @@ export class ApiClient {
    */
   async getConfig(projectId: string): Promise<ProjectConfigJson> {
     return this.requestJson<ProjectConfigJson>("GET", `/projects/${enc(projectId)}/config`);
+  }
+
+  /**
+   * Fetch the authoring-time Remotion composition data. This exists before an
+   * MP4 render so the Web_App can preview the exact timeline/layout contract.
+   */
+  async getPreviewData(projectId: string): Promise<unknown> {
+    return this.requestJson<unknown>("GET", `/projects/${enc(projectId)}/preview-data`);
+  }
+
+  /** Start rendering the authoring-time ABC Remotion composition. */
+  async startPreviewRender(
+    projectId: string,
+    options: PreviewRenderOptions = {},
+  ): Promise<PreviewRenderJob> {
+    return this.requestJson<PreviewRenderJob>(
+      "POST",
+      `/projects/${enc(projectId)}/preview-render`,
+      { body: options },
+    );
+  }
+
+  /** Read the live progress of an ABC preview render. */
+  async getPreviewRender(projectId: string, jobId: string): Promise<PreviewRenderJob> {
+    return this.requestJson<PreviewRenderJob>(
+      "GET",
+      `/projects/${enc(projectId)}/preview-render/${enc(jobId)}`,
+    );
+  }
+
+  /** Ask the Remotion child process to stop and release its render resources. */
+  async cancelPreviewRender(projectId: string, jobId: string): Promise<PreviewRenderJob> {
+    return this.requestJson<PreviewRenderJob>(
+      "POST",
+      `/projects/${enc(projectId)}/preview-render/${enc(jobId)}/cancel`,
+    );
+  }
+
+  /** Build the stream URL for a completed authoring preview MP4. */
+  previewRenderOutputUrl(projectId: string, jobId: string): string {
+    return `${this.baseUrl}/projects/${enc(projectId)}/preview-render/${enc(jobId)}/output`;
   }
 
   // --- Artifacts (Req 11) -------------------------------------------------

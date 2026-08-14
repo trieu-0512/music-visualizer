@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 4,
   "lines": [
     {
       "id": "intro-1",
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X is Xeric Shrub. Woody dry-adapted plant | a different plant strategy than lush meadow grass.",
+      "text": "X is Xenolith. A rock fragment trapped inside another rock | a different stone story within the mountain wall.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "Z ... Z ... Zinnia! Bright garden flower in our alphabet mapping | close color helper, explicitly not evidence that zinnias belong naturally in every alpine meadow.",
+      "text": "Z ... Z ... Zigzag Trail! Switchbacks bend across the slope | a route that makes a steep climb gentler.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Meadow frame X ... Xeric Shrub! Grow one hand upward, then sway.",
+      "text": "Meadow frame X ... Xenolith! Point to the inner rock shape inside the larger stone.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -483,7 +483,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Far-view Z ... Zinnia! Open both hands like a flower.",
+      "text": "Far-view Z ... Zigzag Trail! Trace the land or ice shape in the air.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

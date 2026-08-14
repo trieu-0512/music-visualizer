@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
-    "name": "Garden Plants",
+    "name": "Garden Life & Growing",
     "scope": "guided",
     "mappingAuthority": "project-locked",
     "ageBand": "mixed-2-6",
@@ -75,7 +75,7 @@
       "familiarityTier": "A"
     },
     "Q": {
-      "object": "Quail",
+      "object": "Quince",
       "familiarityTier": "A"
     },
     "R": {
@@ -103,8 +103,13 @@
       "familiarityTier": "B"
     },
     "X": {
-      "object": "Xylophone",
-      "familiarityTier": "A"
+      "object": "Xylem",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
     },
     "Y": {
       "object": "Yarrow",

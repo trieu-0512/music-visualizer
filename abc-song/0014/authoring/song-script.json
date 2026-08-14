@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 2,
   "lines": [
     {
       "id": "intro-1",
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F is Farmer. Morning jobs begin | checking animals, land, and crops as the day opens.",
+      "text": "F is Fence. Morning light catches each post | the field edge becomes a clear line beside the farm.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Remember F ... Farmer! Point to the matching picture, then make one small shape gesture.",
+      "text": "Remember F ... Fence! Hold fingers upright like fence posts.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 4,
   "lines": [
     {
       "id": "intro-1",
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X is Xeric Shrub. A shrub adapted to drier conditions | a reminder that not every forest patch holds the same moisture.",
+      "text": "X is Xylem. Tiny tubes carry water upward through a stem | a hidden plant pathway below the forest leaves.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Next layer, X ... Xeric Shrub! Grow one hand upward, then sway.",
+      "text": "Next layer, X ... Xylem! Trace a line upward from roots to leaves.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

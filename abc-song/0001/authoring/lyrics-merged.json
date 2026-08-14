@@ -1,0 +1,4628 @@
+{
+  "version": 1,
+  "source": "original+transcriber",
+  "lines": [
+    {
+      "start": 0.0,
+      "end": 10.558,
+      "text": "Plip one silver ripple starts to grow",
+      "line1": "Plip one silver ripple starts to grow",
+      "line2": "",
+      "words": [
+        {
+          "text": "Plip",
+          "start": 0.0,
+          "end": 0.271
+        },
+        {
+          "text": "one",
+          "start": 0.287,
+          "end": 0.319
+        },
+        {
+          "text": "silver",
+          "start": 0.359,
+          "end": 0.559
+        },
+        {
+          "text": "ripple",
+          "start": 0.598,
+          "end": 0.957
+        },
+        {
+          "text": "starts",
+          "start": 0.97,
+          "end": 1.037
+        },
+        {
+          "text": "to",
+          "start": 1.117,
+          "end": 1.197
+        },
+        {
+          "text": "grow",
+          "start": 1.303,
+          "end": 10.558
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "intro-1",
+      "objective": "narration"
+    },
+    {
+      "start": 10.585,
+      "end": 16.632,
+      "text": "Reef to shore follow where the blue waves go",
+      "line1": "Reef to shore follow where the blue waves go",
+      "line2": "",
+      "words": [
+        {
+          "text": "Reef",
+          "start": 10.585,
+          "end": 10.771
+        },
+        {
+          "text": "to",
+          "start": 10.891,
+          "end": 11.011
+        },
+        {
+          "text": "shore",
+          "start": 11.106,
+          "end": 11.888
+        },
+        {
+          "text": "follow",
+          "start": 11.968,
+          "end": 12.367
+        },
+        {
+          "text": "where",
+          "start": 12.462,
+          "end": 12.846
+        },
+        {
+          "text": "the",
+          "start": 12.925,
+          "end": 13.085
+        },
+        {
+          "text": "blue",
+          "start": 13.164,
+          "end": 13.404
+        },
+        {
+          "text": "waves",
+          "start": 13.499,
+          "end": 13.883
+        },
+        {
+          "text": "go",
+          "start": 14.002,
+          "end": 16.632
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "intro-2",
+      "objective": "narration"
+    },
+    {
+      "start": 16.651,
+      "end": 22.141,
+      "text": "A is Angelfish fins open wide turning gently with the tide",
+      "line1": "A is Angelfish fins open wide turning gently with the tide",
+      "line2": "",
+      "words": [
+        {
+          "text": "A",
+          "start": 16.651,
+          "end": 16.835
+        },
+        {
+          "text": "is",
+          "start": 16.995,
+          "end": 17.154
+        },
+        {
+          "text": "Angelfish",
+          "start": 17.249,
+          "end": 17.992
+        },
+        {
+          "text": "fins",
+          "start": 18.032,
+          "end": 18.271
+        },
+        {
+          "text": "open",
+          "start": 18.37,
+          "end": 18.67
+        },
+        {
+          "text": "wide",
+          "start": 18.769,
+          "end": 19.716
+        },
+        {
+          "text": "turning",
+          "start": 19.761,
+          "end": 20.027
+        },
+        {
+          "text": "gently",
+          "start": 20.12,
+          "end": 20.665
+        },
+        {
+          "text": "with",
+          "start": 20.744,
+          "end": 20.984
+        },
+        {
+          "text": "the",
+          "start": 21.037,
+          "end": 21.144
+        },
+        {
+          "text": "tide",
+          "start": 21.243,
+          "end": 22.141
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-A",
+      "objective": "lexical-semantic",
+      "targetId": "A",
+      "letter": "A",
+      "object": "Angelfish",
+      "objectRevealAt": 16.651
+    },
+    {
+      "start": 22.181,
+      "end": 27.646,
+      "text": "B is Buoy bobbing on blue anchored while boats pass through",
+      "line1": "B is Buoy bobbing on blue anchored while boats pass through",
+      "line2": "",
+      "words": [
+        {
+          "text": "B",
+          "start": 22.181,
+          "end": 22.181
+        },
+        {
+          "text": "is",
+          "start": 22.3,
+          "end": 22.739
+        },
+        {
+          "text": "Buoy",
+          "start": 22.819,
+          "end": 23.431
+        },
+        {
+          "text": "bobbing",
+          "start": 23.484,
+          "end": 23.777
+        },
+        {
+          "text": "on",
+          "start": 23.896,
+          "end": 24.096
+        },
+        {
+          "text": "blue",
+          "start": 24.195,
+          "end": 24.853
+        },
+        {
+          "text": "anchored",
+          "start": 24.913,
+          "end": 25.452
+        },
+        {
+          "text": "while",
+          "start": 25.547,
+          "end": 25.931
+        },
+        {
+          "text": "boats",
+          "start": 25.971,
+          "end": 26.33
+        },
+        {
+          "text": "pass",
+          "start": 26.429,
+          "end": 26.809
+        },
+        {
+          "text": "through",
+          "start": 26.9,
+          "end": 27.646
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-B",
+      "objective": "lexical-semantic",
+      "targetId": "B",
+      "letter": "B",
+      "object": "Buoy",
+      "objectRevealAt": 22.181
+    },
+    {
+      "start": 27.766,
+      "end": 33.071,
+      "text": "C is Coral animals side by side building reefs where fish hide",
+      "line1": "C is Coral animals side by side building reefs where fish hide",
+      "line2": "",
+      "words": [
+        {
+          "text": "C",
+          "start": 27.766,
+          "end": 27.846
+        },
+        {
+          "text": "is",
+          "start": 27.925,
+          "end": 28.005
+        },
+        {
+          "text": "Coral",
+          "start": 28.085,
+          "end": 28.547
+        },
+        {
+          "text": "animals",
+          "start": 28.611,
+          "end": 29.043
+        },
+        {
+          "text": "side",
+          "start": 29.122,
+          "end": 29.362
+        },
+        {
+          "text": "by",
+          "start": 29.481,
+          "end": 29.681
+        },
+        {
+          "text": "side",
+          "start": 29.78,
+          "end": 30.638
+        },
+        {
+          "text": "building",
+          "start": 30.678,
+          "end": 30.957
+        },
+        {
+          "text": "reefs",
+          "start": 30.997,
+          "end": 31.436
+        },
+        {
+          "text": "where",
+          "start": 31.499,
+          "end": 31.755
+        },
+        {
+          "text": "fish",
+          "start": 31.854,
+          "end": 32.234
+        },
+        {
+          "text": "hide",
+          "start": 32.333,
+          "end": 33.071
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-C",
+      "objective": "lexical-semantic",
+      "targetId": "C",
+      "letter": "C",
+      "object": "Coral",
+      "objectRevealAt": 27.766
+    },
+    {
+      "start": 33.191,
+      "end": 37.033,
+      "text": "D is Dock by the shore boats tie up once more",
+      "line1": "D is Dock by the shore boats tie up once more",
+      "line2": "",
+      "words": [
+        {
+          "text": "D",
+          "start": 33.191,
+          "end": 33.271
+        },
+        {
+          "text": "is",
+          "start": 33.351,
+          "end": 33.431
+        },
+        {
+          "text": "Dock",
+          "start": 33.471,
+          "end": 34.415
+        },
+        {
+          "text": "by",
+          "start": 34.521,
+          "end": 34.628
+        },
+        {
+          "text": "the",
+          "start": 34.681,
+          "end": 34.787
+        },
+        {
+          "text": "shore",
+          "start": 34.882,
+          "end": 35.306
+        },
+        {
+          "text": "boats",
+          "start": 35.326,
+          "end": 35.665
+        },
+        {
+          "text": "tie",
+          "start": 35.771,
+          "end": 36.144
+        },
+        {
+          "text": "up",
+          "start": 36.263,
+          "end": 36.543
+        },
+        {
+          "text": "once",
+          "start": 36.642,
+          "end": 36.941
+        },
+        {
+          "text": "more",
+          "start": 36.961,
+          "end": 37.033
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-D",
+      "objective": "lexical-semantic",
+      "targetId": "D",
+      "letter": "D",
+      "object": "Dock",
+      "objectRevealAt": 33.191
+    },
+    {
+      "start": 37.039,
+      "end": 44.002,
+      "text": "E Eel Long fish no feet bending through a rocky retreat",
+      "line1": "E Eel Long fish no feet bending through a rocky retreat",
+      "line2": "",
+      "words": [
+        {
+          "text": "E",
+          "start": 37.039,
+          "end": 37.165
+        },
+        {
+          "text": "Eel",
+          "start": 37.181,
+          "end": 37.435
+        },
+        {
+          "text": "Long",
+          "start": 37.531,
+          "end": 39.734
+        },
+        {
+          "text": "fish",
+          "start": 39.814,
+          "end": 40.239
+        },
+        {
+          "text": "no",
+          "start": 40.345,
+          "end": 40.452
+        },
+        {
+          "text": "feet",
+          "start": 40.551,
+          "end": 41.276
+        },
+        {
+          "text": "bending",
+          "start": 41.329,
+          "end": 41.888
+        },
+        {
+          "text": "through",
+          "start": 41.922,
+          "end": 42.128
+        },
+        {
+          "text": "a",
+          "start": 42.287,
+          "end": 42.367
+        },
+        {
+          "text": "rocky",
+          "start": 42.446,
+          "end": 43.165
+        },
+        {
+          "text": "retreat",
+          "start": 43.256,
+          "end": 44.002
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-E",
+      "objective": "lexical-semantic",
+      "targetId": "E",
+      "letter": "E",
+      "object": "Eel",
+      "objectRevealAt": 37.039
+    },
+    {
+      "start": 44.122,
+      "end": 49.428,
+      "text": "F is Fish fins steer gills take oxygen from water near",
+      "line1": "F is Fish fins steer gills take oxygen from water near",
+      "line2": "",
+      "words": [
+        {
+          "text": "F",
+          "start": 44.122,
+          "end": 44.362
+        },
+        {
+          "text": "is",
+          "start": 44.481,
+          "end": 44.761
+        },
+        {
+          "text": "Fish",
+          "start": 44.86,
+          "end": 45.279
+        },
+        {
+          "text": "fins",
+          "start": 45.319,
+          "end": 45.798
+        },
+        {
+          "text": "steer",
+          "start": 45.824,
+          "end": 46.329
+        },
+        {
+          "text": "gills",
+          "start": 46.356,
+          "end": 46.915
+        },
+        {
+          "text": "take",
+          "start": 46.994,
+          "end": 47.234
+        },
+        {
+          "text": "oxygen",
+          "start": 47.394,
+          "end": 48.112
+        },
+        {
+          "text": "from",
+          "start": 48.211,
+          "end": 48.511
+        },
+        {
+          "text": "water",
+          "start": 48.606,
+          "end": 48.989
+        },
+        {
+          "text": "near",
+          "start": 49.088,
+          "end": 49.428
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-F",
+      "objective": "lexical-semantic",
+      "targetId": "F",
+      "letter": "F",
+      "object": "Fish",
+      "objectRevealAt": 44.122
+    },
+    {
+      "start": 49.468,
+      "end": 54.853,
+      "text": "G Grouper Waits by a ledge broad mouth hiding near the edge",
+      "line1": "G Grouper Waits by a ledge broad mouth hiding near the edge",
+      "line2": "",
+      "words": [
+        {
+          "text": "G",
+          "start": 49.468,
+          "end": 49.851
+        },
+        {
+          "text": "Grouper",
+          "start": 49.947,
+          "end": 50.728
+        },
+        {
+          "text": "Waits",
+          "start": 50.792,
+          "end": 51.064
+        },
+        {
+          "text": "by",
+          "start": 51.143,
+          "end": 51.223
+        },
+        {
+          "text": "a",
+          "start": 51.383,
+          "end": 51.383
+        },
+        {
+          "text": "ledge",
+          "start": 51.436,
+          "end": 52.053
+        },
+        {
+          "text": "broad",
+          "start": 52.069,
+          "end": 52.34
+        },
+        {
+          "text": "mouth",
+          "start": 52.42,
+          "end": 52.739
+        },
+        {
+          "text": "hiding",
+          "start": 52.818,
+          "end": 53.218
+        },
+        {
+          "text": "near",
+          "start": 53.317,
+          "end": 53.617
+        },
+        {
+          "text": "the",
+          "start": 53.723,
+          "end": 53.936
+        },
+        {
+          "text": "edge",
+          "start": 54.035,
+          "end": 54.853
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-G",
+      "objective": "lexical-semantic",
+      "targetId": "G",
+      "letter": "G",
+      "object": "Grouper",
+      "objectRevealAt": 49.468
+    },
+    {
+      "start": 54.973,
+      "end": 61.675,
+      "text": "H is Harbor sheltered from spray calmer water where boats can stay",
+      "line1": "H is Harbor sheltered from spray calmer water where boats can stay",
+      "line2": "",
+      "words": [
+        {
+          "text": "H",
+          "start": 54.973,
+          "end": 55.053
+        },
+        {
+          "text": "is",
+          "start": 55.173,
+          "end": 55.293
+        },
+        {
+          "text": "Harbor",
+          "start": 55.399,
+          "end": 56.138
+        },
+        {
+          "text": "sheltered",
+          "start": 56.186,
+          "end": 56.489
+        },
+        {
+          "text": "from",
+          "start": 56.569,
+          "end": 56.809
+        },
+        {
+          "text": "spray",
+          "start": 56.904,
+          "end": 57.606
+        },
+        {
+          "text": "calmer",
+          "start": 57.686,
+          "end": 58.165
+        },
+        {
+          "text": "water",
+          "start": 58.244,
+          "end": 58.564
+        },
+        {
+          "text": "where",
+          "start": 58.627,
+          "end": 58.883
+        },
+        {
+          "text": "boats",
+          "start": 58.923,
+          "end": 59.202
+        },
+        {
+          "text": "can",
+          "start": 59.308,
+          "end": 59.521
+        },
+        {
+          "text": "stay",
+          "start": 59.62,
+          "end": 61.675
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-H",
+      "objective": "lexical-semantic",
+      "targetId": "H",
+      "letter": "H",
+      "object": "Harbor",
+      "objectRevealAt": 54.973
+    },
+    {
+      "start": 61.715,
+      "end": 65.465,
+      "text": "Ocean Letter Splash come ride with me",
+      "line1": "Ocean Letter Splash come ride with me",
+      "line2": "",
+      "words": [
+        {
+          "text": "Ocean",
+          "start": 61.715,
+          "end": 62.234
+        },
+        {
+          "text": "Letter",
+          "start": 62.313,
+          "end": 62.793
+        },
+        {
+          "text": "Splash",
+          "start": 62.793,
+          "end": 63.989
+        },
+        {
+          "text": "come",
+          "start": 64.069,
+          "end": 64.309
+        },
+        {
+          "text": "ride",
+          "start": 64.408,
+          "end": 65.027
+        },
+        {
+          "text": "with",
+          "start": 65.086,
+          "end": 65.266
+        },
+        {
+          "text": "me",
+          "start": 65.346,
+          "end": 65.465
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r1-2-1",
+      "objective": "verbatim"
+    },
+    {
+      "start": 65.505,
+      "end": 72.626,
+      "text": "Splash through letters A to Z",
+      "line1": "Splash through letters A to Z",
+      "line2": "",
+      "words": [
+        {
+          "text": "Splash",
+          "start": 65.505,
+          "end": 65.665
+        },
+        {
+          "text": "through",
+          "start": 65.687,
+          "end": 65.824
+        },
+        {
+          "text": "letters",
+          "start": 65.904,
+          "end": 70.013
+        },
+        {
+          "text": "A",
+          "start": 70.133,
+          "end": 70.452
+        },
+        {
+          "text": "to",
+          "start": 70.571,
+          "end": 70.851
+        },
+        {
+          "text": "Z",
+          "start": 71.011,
+          "end": 72.626
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r1-2-2",
+      "objective": "verbatim"
+    },
+    {
+      "start": 72.726,
+      "end": 78.047,
+      "text": "Say the word then feel the flow",
+      "line1": "Say the word then feel the flow",
+      "line2": "",
+      "words": [
+        {
+          "text": "Say",
+          "start": 72.726,
+          "end": 73.165
+        },
+        {
+          "text": "the",
+          "start": 73.271,
+          "end": 73.564
+        },
+        {
+          "text": "word",
+          "start": 73.663,
+          "end": 74.919
+        },
+        {
+          "text": "then",
+          "start": 74.999,
+          "end": 75.239
+        },
+        {
+          "text": "feel",
+          "start": 75.338,
+          "end": 75.878
+        },
+        {
+          "text": "the",
+          "start": 75.984,
+          "end": 76.197
+        },
+        {
+          "text": "flow",
+          "start": 76.296,
+          "end": 78.047
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r1-2-3",
+      "objective": "verbatim"
+    },
+    {
+      "start": 78.143,
+      "end": 84.194,
+      "text": "Wave by wave away we go",
+      "line1": "Wave by wave away we go",
+      "line2": "",
+      "words": [
+        {
+          "text": "Wave",
+          "start": 78.143,
+          "end": 78.67
+        },
+        {
+          "text": "by",
+          "start": 78.79,
+          "end": 79.628
+        },
+        {
+          "text": "wave",
+          "start": 79.727,
+          "end": 80.625
+        },
+        {
+          "text": "away",
+          "start": 80.745,
+          "end": 81.383
+        },
+        {
+          "text": "we",
+          "start": 81.502,
+          "end": 81.702
+        },
+        {
+          "text": "go",
+          "start": 81.821,
+          "end": 84.194
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r1-2-4",
+      "objective": "verbatim"
+    },
+    {
+      "start": 84.243,
+      "end": 90.359,
+      "text": "I Island Land ringed blue water on every side every view",
+      "line1": "I Island Land ringed blue water on every side every view",
+      "line2": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 84.243,
+          "end": 84.825
+        },
+        {
+          "text": "Island",
+          "start": 84.916,
+          "end": 85.547
+        },
+        {
+          "text": "Land",
+          "start": 85.643,
+          "end": 85.931
+        },
+        {
+          "text": "ringed",
+          "start": 85.97,
+          "end": 86.489
+        },
+        {
+          "text": "blue",
+          "start": 86.588,
+          "end": 87.561
+        },
+        {
+          "text": "water",
+          "start": 87.618,
+          "end": 87.846
+        },
+        {
+          "text": "on",
+          "start": 87.965,
+          "end": 88.085
+        },
+        {
+          "text": "every",
+          "start": 88.164,
+          "end": 88.484
+        },
+        {
+          "text": "side",
+          "start": 88.583,
+          "end": 88.976
+        },
+        {
+          "text": "every",
+          "start": 89.069,
+          "end": 89.521
+        },
+        {
+          "text": "view",
+          "start": 89.62,
+          "end": 90.359
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-I",
+      "objective": "lexical-semantic",
+      "targetId": "I",
+      "letter": "I",
+      "object": "Island",
+      "objectRevealAt": 84.243
+    },
+    {
+      "start": 90.479,
+      "end": 95.545,
+      "text": "J is Jetty built from shore guarding coasts or guiding channels",
+      "line1": "J is Jetty built from shore guarding coasts or guiding channels",
+      "line2": "",
+      "words": [
+        {
+          "text": "J",
+          "start": 90.479,
+          "end": 90.559
+        },
+        {
+          "text": "is",
+          "start": 90.678,
+          "end": 90.878
+        },
+        {
+          "text": "Jetty",
+          "start": 90.931,
+          "end": 91.635
+        },
+        {
+          "text": "built",
+          "start": 91.675,
+          "end": 91.835
+        },
+        {
+          "text": "from",
+          "start": 91.934,
+          "end": 92.234
+        },
+        {
+          "text": "shore",
+          "start": 92.329,
+          "end": 92.929
+        },
+        {
+          "text": "guarding",
+          "start": 92.997,
+          "end": 93.59
+        },
+        {
+          "text": "coasts",
+          "start": 93.622,
+          "end": 93.91
+        },
+        {
+          "text": "or",
+          "start": 94.029,
+          "end": 94.309
+        },
+        {
+          "text": "guiding",
+          "start": 94.4,
+          "end": 94.947
+        },
+        {
+          "text": "channels",
+          "start": 94.987,
+          "end": 95.545
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-J",
+      "objective": "lexical-semantic",
+      "targetId": "J",
+      "letter": "J",
+      "object": "Jetty",
+      "objectRevealAt": 90.479
+    },
+    {
+      "start": 95.585,
+      "end": 101.13,
+      "text": "Kayak that s K paddle in hand left then right turn as planned",
+      "line1": "Kayak that s K paddle in hand left then right turn as planned",
+      "line2": "",
+      "words": [
+        {
+          "text": "Kayak",
+          "start": 95.585,
+          "end": 96.01
+        },
+        {
+          "text": "that",
+          "start": 96.024,
+          "end": 96.303
+        },
+        {
+          "text": "s",
+          "start": 96.024,
+          "end": 96.303
+        },
+        {
+          "text": "K",
+          "start": 96.463,
+          "end": 97.061
+        },
+        {
+          "text": "paddle",
+          "start": 97.101,
+          "end": 97.34
+        },
+        {
+          "text": "in",
+          "start": 97.46,
+          "end": 97.66
+        },
+        {
+          "text": "hand",
+          "start": 97.819,
+          "end": 98.484
+        },
+        {
+          "text": "left",
+          "start": 98.537,
+          "end": 98.697
+        },
+        {
+          "text": "then",
+          "start": 98.776,
+          "end": 99.016
+        },
+        {
+          "text": "right",
+          "start": 99.111,
+          "end": 99.845
+        },
+        {
+          "text": "turn",
+          "start": 99.877,
+          "end": 99.973
+        },
+        {
+          "text": "as",
+          "start": 100.093,
+          "end": 100.293
+        },
+        {
+          "text": "planned",
+          "start": 100.384,
+          "end": 101.13
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-K",
+      "objective": "lexical-semantic",
+      "targetId": "K",
+      "letter": "K",
+      "object": "Kayak",
+      "objectRevealAt": 95.585
+    },
+    {
+      "start": 101.25,
+      "end": 106.645,
+      "text": "L Lobster Walks the seafloor long antennae feel what s before",
+      "line1": "L Lobster Walks the seafloor long antennae feel what s before",
+      "line2": "",
+      "words": [
+        {
+          "text": "L",
+          "start": 101.25,
+          "end": 101.702
+        },
+        {
+          "text": "Lobster",
+          "start": 101.715,
+          "end": 102.58
+        },
+        {
+          "text": "Walks",
+          "start": 102.633,
+          "end": 102.846
+        },
+        {
+          "text": "the",
+          "start": 102.925,
+          "end": 103.085
+        },
+        {
+          "text": "seafloor",
+          "start": 103.191,
+          "end": 104.016
+        },
+        {
+          "text": "long",
+          "start": 104.082,
+          "end": 104.282
+        },
+        {
+          "text": "antennae",
+          "start": 104.361,
+          "end": 105.143
+        },
+        {
+          "text": "feel",
+          "start": 105.207,
+          "end": 105.399
+        },
+        {
+          "text": "what",
+          "start": 105.419,
+          "end": 105.878
+        },
+        {
+          "text": "s",
+          "start": 105.419,
+          "end": 105.878
+        },
+        {
+          "text": "before",
+          "start": 105.971,
+          "end": 106.645
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-L",
+      "objective": "lexical-semantic",
+      "targetId": "L",
+      "letter": "L",
+      "object": "Lobster",
+      "objectRevealAt": 101.25
+    },
+    {
+      "start": 106.669,
+      "end": 111.901,
+      "text": "M is Mussel shell halves lock silky threads hold tight to rock",
+      "line1": "M is Mussel shell halves lock silky threads hold tight to rock",
+      "line2": "",
+      "words": [
+        {
+          "text": "M",
+          "start": 106.669,
+          "end": 106.915
+        },
+        {
+          "text": "is",
+          "start": 107.034,
+          "end": 107.234
+        },
+        {
+          "text": "Mussel",
+          "start": 107.313,
+          "end": 108.005
+        },
+        {
+          "text": "shell",
+          "start": 108.058,
+          "end": 108.271
+        },
+        {
+          "text": "halves",
+          "start": 108.297,
+          "end": 108.67
+        },
+        {
+          "text": "lock",
+          "start": 108.769,
+          "end": 109.436
+        },
+        {
+          "text": "silky",
+          "start": 109.5,
+          "end": 110.027
+        },
+        {
+          "text": "threads",
+          "start": 110.072,
+          "end": 110.346
+        },
+        {
+          "text": "hold",
+          "start": 110.425,
+          "end": 110.665
+        },
+        {
+          "text": "tight",
+          "start": 110.728,
+          "end": 110.984
+        },
+        {
+          "text": "to",
+          "start": 111.103,
+          "end": 111.223
+        },
+        {
+          "text": "rock",
+          "start": 111.322,
+          "end": 111.901
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-M",
+      "objective": "lexical-semantic",
+      "targetId": "M",
+      "letter": "M",
+      "object": "Mussel",
+      "objectRevealAt": 106.669
+    },
+    {
+      "start": 112.021,
+      "end": 117.566,
+      "text": "N Narwhal Through Arctic blue spiral tusk one long tooth true",
+      "line1": "N Narwhal Through Arctic blue spiral tusk one long tooth true",
+      "line2": "",
+      "words": [
+        {
+          "text": "N",
+          "start": 112.021,
+          "end": 112.12
+        },
+        {
+          "text": "Narwhal",
+          "start": 112.22,
+          "end": 113.088
+        },
+        {
+          "text": "Through",
+          "start": 113.118,
+          "end": 113.298
+        },
+        {
+          "text": "Arctic",
+          "start": 113.417,
+          "end": 113.936
+        },
+        {
+          "text": "blue",
+          "start": 114.035,
+          "end": 114.953
+        },
+        {
+          "text": "spiral",
+          "start": 115.023,
+          "end": 115.372
+        },
+        {
+          "text": "tusk",
+          "start": 115.452,
+          "end": 116.189
+        },
+        {
+          "text": "one",
+          "start": 116.289,
+          "end": 116.489
+        },
+        {
+          "text": "long",
+          "start": 116.569,
+          "end": 116.809
+        },
+        {
+          "text": "tooth",
+          "start": 116.848,
+          "end": 117.234
+        },
+        {
+          "text": "true",
+          "start": 117.287,
+          "end": 117.566
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-N",
+      "objective": "lexical-semantic",
+      "targetId": "N",
+      "letter": "N",
+      "object": "Narwhal",
+      "objectRevealAt": 112.021
+    },
+    {
+      "start": 117.686,
+      "end": 123.071,
+      "text": "O is Octopus eight arms wide soft body squeezes through to hide",
+      "line1": "O is Octopus eight arms wide soft body squeezes through to hide",
+      "line2": "",
+      "words": [
+        {
+          "text": "O",
+          "start": 117.686,
+          "end": 117.766
+        },
+        {
+          "text": "is",
+          "start": 117.885,
+          "end": 118.005
+        },
+        {
+          "text": "Octopus",
+          "start": 118.111,
+          "end": 118.936
+        },
+        {
+          "text": "eight",
+          "start": 118.989,
+          "end": 119.202
+        },
+        {
+          "text": "arms",
+          "start": 119.281,
+          "end": 119.521
+        },
+        {
+          "text": "wide",
+          "start": 119.62,
+          "end": 120.266
+        },
+        {
+          "text": "soft",
+          "start": 120.319,
+          "end": 120.479
+        },
+        {
+          "text": "body",
+          "start": 120.578,
+          "end": 120.878
+        },
+        {
+          "text": "squeezes",
+          "start": 120.897,
+          "end": 121.436
+        },
+        {
+          "text": "through",
+          "start": 121.481,
+          "end": 121.755
+        },
+        {
+          "text": "to",
+          "start": 121.835,
+          "end": 121.915
+        },
+        {
+          "text": "hide",
+          "start": 122.014,
+          "end": 123.071
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-O",
+      "objective": "lexical-semantic",
+      "targetId": "O",
+      "letter": "O",
+      "object": "Octopus",
+      "objectRevealAt": 117.686
+    },
+    {
+      "start": 123.191,
+      "end": 129.963,
+      "text": "P is Pelican bill dips low pouch catches fish lets water flow",
+      "line1": "P is Pelican bill dips low pouch catches fish lets water flow",
+      "line2": "",
+      "words": [
+        {
+          "text": "P",
+          "start": 123.191,
+          "end": 123.271
+        },
+        {
+          "text": "is",
+          "start": 123.391,
+          "end": 123.59
+        },
+        {
+          "text": "Pelican",
+          "start": 123.696,
+          "end": 124.276
+        },
+        {
+          "text": "bill",
+          "start": 124.324,
+          "end": 124.468
+        },
+        {
+          "text": "dips",
+          "start": 124.574,
+          "end": 124.813
+        },
+        {
+          "text": "low",
+          "start": 124.84,
+          "end": 125.33
+        },
+        {
+          "text": "pouch",
+          "start": 125.362,
+          "end": 125.665
+        },
+        {
+          "text": "catches",
+          "start": 125.744,
+          "end": 126.144
+        },
+        {
+          "text": "fish",
+          "start": 126.243,
+          "end": 126.765
+        },
+        {
+          "text": "lets",
+          "start": 126.829,
+          "end": 127.021
+        },
+        {
+          "text": "water",
+          "start": 127.116,
+          "end": 127.5
+        },
+        {
+          "text": "flow",
+          "start": 127.599,
+          "end": 129.963
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-P",
+      "objective": "lexical-semantic",
+      "targetId": "P",
+      "letter": "P",
+      "object": "Pelican",
+      "objectRevealAt": 123.191
+    },
+    {
+      "start": 129.998,
+      "end": 135.296,
+      "text": "Ocean Letter Splash come ride with me",
+      "line1": "Ocean Letter Splash come ride with me",
+      "line2": "",
+      "words": [
+        {
+          "text": "Ocean",
+          "start": 129.998,
+          "end": 130.452
+        },
+        {
+          "text": "Letter",
+          "start": 130.531,
+          "end": 131.011
+        },
+        {
+          "text": "Splash",
+          "start": 131.011,
+          "end": 132.271
+        },
+        {
+          "text": "come",
+          "start": 132.335,
+          "end": 132.527
+        },
+        {
+          "text": "ride",
+          "start": 132.626,
+          "end": 133.245
+        },
+        {
+          "text": "with",
+          "start": 133.324,
+          "end": 133.564
+        },
+        {
+          "text": "me",
+          "start": 133.683,
+          "end": 135.296
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r1-4-1",
+      "objective": "verbatim"
+    },
+    {
+      "start": 135.353,
+      "end": 140.764,
+      "text": "Splash through letters A to Z",
+      "line1": "Splash through letters A to Z",
+      "line2": "",
+      "words": [
+        {
+          "text": "Splash",
+          "start": 135.353,
+          "end": 135.638
+        },
+        {
+          "text": "through",
+          "start": 135.729,
+          "end": 136.277
+        },
+        {
+          "text": "letters",
+          "start": 136.368,
+          "end": 138.071
+        },
+        {
+          "text": "A",
+          "start": 138.191,
+          "end": 138.67
+        },
+        {
+          "text": "to",
+          "start": 138.79,
+          "end": 138.989
+        },
+        {
+          "text": "Z",
+          "start": 139.149,
+          "end": 140.764
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r1-4-2",
+      "objective": "verbatim"
+    },
+    {
+      "start": 140.864,
+      "end": 146.265,
+      "text": "Say the word then feel the flow",
+      "line1": "Say the word then feel the flow",
+      "line2": "",
+      "words": [
+        {
+          "text": "Say",
+          "start": 140.864,
+          "end": 141.383
+        },
+        {
+          "text": "the",
+          "start": 141.489,
+          "end": 141.702
+        },
+        {
+          "text": "word",
+          "start": 141.801,
+          "end": 143.122
+        },
+        {
+          "text": "then",
+          "start": 143.186,
+          "end": 143.378
+        },
+        {
+          "text": "feel",
+          "start": 143.477,
+          "end": 144.096
+        },
+        {
+          "text": "the",
+          "start": 144.202,
+          "end": 144.415
+        },
+        {
+          "text": "flow",
+          "start": 144.514,
+          "end": 146.265
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r1-4-3",
+      "objective": "verbatim"
+    },
+    {
+      "start": 146.361,
+      "end": 150.171,
+      "text": "Wave by wave away we go",
+      "line1": "Wave by wave away we go",
+      "line2": "",
+      "words": [
+        {
+          "text": "Wave",
+          "start": 146.361,
+          "end": 146.809
+        },
+        {
+          "text": "by",
+          "start": 146.928,
+          "end": 147.766
+        },
+        {
+          "text": "wave",
+          "start": 147.786,
+          "end": 147.965
+        },
+        {
+          "text": "away",
+          "start": 148.085,
+          "end": 149.521
+        },
+        {
+          "text": "we",
+          "start": 149.641,
+          "end": 149.84
+        },
+        {
+          "text": "go",
+          "start": 149.92,
+          "end": 150.171
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r1-4-4",
+      "objective": "verbatim"
+    },
+    {
+      "start": 150.257,
+      "end": 158.497,
+      "text": "Q Quahog Say KOH hog hard clam buried in sand or mud",
+      "line1": "Q Quahog Say KOH hog hard clam buried in sand or mud",
+      "line2": "",
+      "words": [
+        {
+          "text": "Q",
+          "start": 150.257,
+          "end": 152.617
+        },
+        {
+          "text": "Quahog",
+          "start": 152.713,
+          "end": 153.989
+        },
+        {
+          "text": "Say",
+          "start": 154.069,
+          "end": 154.229
+        },
+        {
+          "text": "KOH",
+          "start": 154.309,
+          "end": 154.973
+        },
+        {
+          "text": "hog",
+          "start": 154.309,
+          "end": 154.973
+        },
+        {
+          "text": "hard",
+          "start": 154.987,
+          "end": 155.027
+        },
+        {
+          "text": "clam",
+          "start": 155.146,
+          "end": 156.303
+        },
+        {
+          "text": "buried",
+          "start": 156.369,
+          "end": 156.702
+        },
+        {
+          "text": "in",
+          "start": 156.821,
+          "end": 156.941
+        },
+        {
+          "text": "sand",
+          "start": 157.04,
+          "end": 157.34
+        },
+        {
+          "text": "or",
+          "start": 157.46,
+          "end": 157.66
+        },
+        {
+          "text": "mud",
+          "start": 157.766,
+          "end": 158.497
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-Q",
+      "objective": "lexical-semantic",
+      "targetId": "Q",
+      "letter": "Q",
+      "object": "Quahog",
+      "objectRevealAt": 150.257
+    },
+    {
+      "start": 158.617,
+      "end": 163.683,
+      "text": "R is Ray fins spread wide gliding low where shadows slide",
+      "line1": "R is Ray fins spread wide gliding low where shadows slide",
+      "line2": "",
+      "words": [
+        {
+          "text": "R",
+          "start": 158.617,
+          "end": 158.697
+        },
+        {
+          "text": "is",
+          "start": 158.816,
+          "end": 159.016
+        },
+        {
+          "text": "Ray",
+          "start": 159.122,
+          "end": 159.854
+        },
+        {
+          "text": "fins",
+          "start": 159.894,
+          "end": 160.133
+        },
+        {
+          "text": "spread",
+          "start": 160.186,
+          "end": 160.452
+        },
+        {
+          "text": "wide",
+          "start": 160.551,
+          "end": 161.329
+        },
+        {
+          "text": "gliding",
+          "start": 161.409,
+          "end": 161.809
+        },
+        {
+          "text": "low",
+          "start": 161.915,
+          "end": 162.207
+        },
+        {
+          "text": "where",
+          "start": 162.271,
+          "end": 162.527
+        },
+        {
+          "text": "shadows",
+          "start": 162.595,
+          "end": 163.005
+        },
+        {
+          "text": "slide",
+          "start": 163.1,
+          "end": 163.683
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-R",
+      "objective": "lexical-semantic",
+      "targetId": "R",
+      "letter": "R",
+      "object": "Ray",
+      "objectRevealAt": 158.617
+    },
+    {
+      "start": 163.803,
+      "end": 169.428,
+      "text": "S Seahorse Small and slow curled tail grips seagrass in the flow",
+      "line1": "S Seahorse Small and slow curled tail grips seagrass in the flow",
+      "line2": "",
+      "words": [
+        {
+          "text": "S",
+          "start": 163.803,
+          "end": 163.909
+        },
+        {
+          "text": "Seahorse",
+          "start": 163.936,
+          "end": 165.292
+        },
+        {
+          "text": "Small",
+          "start": 165.345,
+          "end": 165.559
+        },
+        {
+          "text": "and",
+          "start": 165.665,
+          "end": 165.878
+        },
+        {
+          "text": "slow",
+          "start": 165.977,
+          "end": 166.308
+        },
+        {
+          "text": "curled",
+          "start": 166.324,
+          "end": 166.596
+        },
+        {
+          "text": "tail",
+          "start": 166.675,
+          "end": 166.915
+        },
+        {
+          "text": "grips",
+          "start": 166.941,
+          "end": 167.234
+        },
+        {
+          "text": "seagrass",
+          "start": 167.34,
+          "end": 167.952
+        },
+        {
+          "text": "in",
+          "start": 168.071,
+          "end": 168.271
+        },
+        {
+          "text": "the",
+          "start": 168.351,
+          "end": 168.511
+        },
+        {
+          "text": "flow",
+          "start": 168.61,
+          "end": 169.428
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-S",
+      "objective": "lexical-semantic",
+      "targetId": "S",
+      "letter": "S",
+      "object": "Seahorse",
+      "objectRevealAt": 163.803
+    },
+    {
+      "start": 169.548,
+      "end": 174.218,
+      "text": "T is Turtle at sea flippers sweep steady through water deep",
+      "line1": "T is Turtle at sea flippers sweep steady through water deep",
+      "line2": "",
+      "words": [
+        {
+          "text": "T",
+          "start": 169.548,
+          "end": 169.628
+        },
+        {
+          "text": "is",
+          "start": 169.747,
+          "end": 169.947
+        },
+        {
+          "text": "Turtle",
+          "start": 170.026,
+          "end": 170.452
+        },
+        {
+          "text": "at",
+          "start": 170.558,
+          "end": 170.665
+        },
+        {
+          "text": "sea",
+          "start": 170.771,
+          "end": 170.984
+        },
+        {
+          "text": "flippers",
+          "start": 171.024,
+          "end": 171.543
+        },
+        {
+          "text": "sweep",
+          "start": 171.638,
+          "end": 172.12
+        },
+        {
+          "text": "steady",
+          "start": 172.17,
+          "end": 172.42
+        },
+        {
+          "text": "through",
+          "start": 172.465,
+          "end": 172.739
+        },
+        {
+          "text": "water",
+          "start": 172.834,
+          "end": 173.298
+        },
+        {
+          "text": "deep",
+          "start": 173.397,
+          "end": 174.218
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-T",
+      "objective": "lexical-semantic",
+      "targetId": "T",
+      "letter": "T",
+      "object": "Turtle",
+      "objectRevealAt": 169.548
+    },
+    {
+      "start": 174.28,
+      "end": 180.359,
+      "text": "U Undersea Cave dark below seawater enters where sunlight can t go",
+      "line1": "U Undersea Cave dark below seawater enters where sunlight can t go",
+      "line2": "",
+      "words": [
+        {
+          "text": "U",
+          "start": 174.28,
+          "end": 175.0
+        },
+        {
+          "text": "Undersea",
+          "start": 175.026,
+          "end": 175.452
+        },
+        {
+          "text": "Cave",
+          "start": 175.532,
+          "end": 176.185
+        },
+        {
+          "text": "dark",
+          "start": 176.281,
+          "end": 176.649
+        },
+        {
+          "text": "below",
+          "start": 176.744,
+          "end": 177.255
+        },
+        {
+          "text": "seawater",
+          "start": 177.319,
+          "end": 177.846
+        },
+        {
+          "text": "enters",
+          "start": 177.899,
+          "end": 178.245
+        },
+        {
+          "text": "where",
+          "start": 178.34,
+          "end": 178.803
+        },
+        {
+          "text": "sunlight",
+          "start": 178.852,
+          "end": 179.202
+        },
+        {
+          "text": "can",
+          "start": 179.228,
+          "end": 179.521
+        },
+        {
+          "text": "t",
+          "start": 179.228,
+          "end": 179.521
+        },
+        {
+          "text": "go",
+          "start": 179.641,
+          "end": 180.359
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-U",
+      "objective": "lexical-semantic",
+      "targetId": "U",
+      "letter": "U",
+      "object": "Undersea Cave",
+      "objectRevealAt": 174.28
+    },
+    {
+      "start": 180.479,
+      "end": 185.704,
+      "text": "V is Violet Sea Snail afloat hangs beneath its bubble raft",
+      "line1": "V is Violet Sea Snail afloat hangs beneath its bubble raft",
+      "line2": "",
+      "words": [
+        {
+          "text": "V",
+          "start": 180.479,
+          "end": 180.559
+        },
+        {
+          "text": "is",
+          "start": 180.678,
+          "end": 180.878
+        },
+        {
+          "text": "Violet",
+          "start": 180.957,
+          "end": 181.516
+        },
+        {
+          "text": "Sea",
+          "start": 181.622,
+          "end": 182.074
+        },
+        {
+          "text": "Snail",
+          "start": 182.1,
+          "end": 182.659
+        },
+        {
+          "text": "afloat",
+          "start": 182.765,
+          "end": 183.643
+        },
+        {
+          "text": "hangs",
+          "start": 183.67,
+          "end": 184.149
+        },
+        {
+          "text": "beneath",
+          "start": 184.194,
+          "end": 184.468
+        },
+        {
+          "text": "its",
+          "start": 184.574,
+          "end": 184.787
+        },
+        {
+          "text": "bubble",
+          "start": 184.866,
+          "end": 185.266
+        },
+        {
+          "text": "raft",
+          "start": 185.306,
+          "end": 185.704
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-V",
+      "objective": "lexical-semantic",
+      "targetId": "V",
+      "letter": "V",
+      "object": "Violet Sea Snail",
+      "objectRevealAt": 180.479
+    },
+    {
+      "start": 185.824,
+      "end": 191.29,
+      "text": "W is Whale up for air big breath down from there",
+      "line1": "W is Whale up for air big breath down from there",
+      "line2": "",
+      "words": [
+        {
+          "text": "W",
+          "start": 185.824,
+          "end": 185.984
+        },
+        {
+          "text": "is",
+          "start": 186.103,
+          "end": 186.303
+        },
+        {
+          "text": "Whale",
+          "start": 186.343,
+          "end": 186.888
+        },
+        {
+          "text": "up",
+          "start": 186.994,
+          "end": 187.181
+        },
+        {
+          "text": "for",
+          "start": 187.26,
+          "end": 187.42
+        },
+        {
+          "text": "air",
+          "start": 187.473,
+          "end": 187.643
+        },
+        {
+          "text": "big",
+          "start": 187.675,
+          "end": 187.739
+        },
+        {
+          "text": "breath",
+          "start": 187.832,
+          "end": 189.877
+        },
+        {
+          "text": "down",
+          "start": 189.941,
+          "end": 190.133
+        },
+        {
+          "text": "from",
+          "start": 190.212,
+          "end": 190.452
+        },
+        {
+          "text": "there",
+          "start": 190.547,
+          "end": 191.29
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-W",
+      "objective": "lexical-semantic",
+      "targetId": "W",
+      "letter": "W",
+      "object": "Whale",
+      "objectRevealAt": 185.824
+    },
+    {
+      "start": 191.41,
+      "end": 198.719,
+      "text": "X X ray Tetra freshwater not sea translucent sides some bones we see",
+      "line1": "X X ray Tetra freshwater not sea translucent sides some bones we see",
+      "line2": "",
+      "words": [
+        {
+          "text": "X",
+          "start": 191.41,
+          "end": 191.609
+        },
+        {
+          "text": "X",
+          "start": 191.729,
+          "end": 192.128
+        },
+        {
+          "text": "ray",
+          "start": 191.729,
+          "end": 192.128
+        },
+        {
+          "text": "Tetra",
+          "start": 192.207,
+          "end": 192.752
+        },
+        {
+          "text": "freshwater",
+          "start": 192.819,
+          "end": 193.564
+        },
+        {
+          "text": "not",
+          "start": 193.67,
+          "end": 193.883
+        },
+        {
+          "text": "sea",
+          "start": 193.989,
+          "end": 194.322
+        },
+        {
+          "text": "translucent",
+          "start": 194.342,
+          "end": 195.08
+        },
+        {
+          "text": "sides",
+          "start": 195.175,
+          "end": 195.638
+        },
+        {
+          "text": "some",
+          "start": 195.718,
+          "end": 195.957
+        },
+        {
+          "text": "bones",
+          "start": 196.052,
+          "end": 196.516
+        },
+        {
+          "text": "we",
+          "start": 196.635,
+          "end": 196.915
+        },
+        {
+          "text": "see",
+          "start": 197.021,
+          "end": 198.719
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-X",
+      "objective": "lexical-semantic",
+      "targetId": "X",
+      "letter": "X",
+      "object": "X-ray Tetra",
+      "objectRevealAt": 191.41
+    },
+    {
+      "start": 198.743,
+      "end": 204.774,
+      "text": "Y is Yellowfin Tuna finlets flash streamlined body makes an ocean dash",
+      "line1": "Y is Yellowfin Tuna finlets flash streamlined body makes an ocean dash",
+      "line2": "",
+      "words": [
+        {
+          "text": "Y",
+          "start": 198.743,
+          "end": 198.989
+        },
+        {
+          "text": "is",
+          "start": 199.109,
+          "end": 199.309
+        },
+        {
+          "text": "Yellowfin",
+          "start": 199.335,
+          "end": 200.027
+        },
+        {
+          "text": "Tuna",
+          "start": 200.186,
+          "end": 200.584
+        },
+        {
+          "text": "finlets",
+          "start": 200.664,
+          "end": 201.144
+        },
+        {
+          "text": "flash",
+          "start": 201.239,
+          "end": 202.12
+        },
+        {
+          "text": "streamlined",
+          "start": 202.17,
+          "end": 202.739
+        },
+        {
+          "text": "body",
+          "start": 202.819,
+          "end": 203.059
+        },
+        {
+          "text": "makes",
+          "start": 203.106,
+          "end": 203.298
+        },
+        {
+          "text": "an",
+          "start": 203.377,
+          "end": 203.457
+        },
+        {
+          "text": "ocean",
+          "start": 203.552,
+          "end": 204.096
+        },
+        {
+          "text": "dash",
+          "start": 204.195,
+          "end": 204.774
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-Y",
+      "objective": "lexical-semantic",
+      "targetId": "Y",
+      "letter": "Y",
+      "object": "Yellowfin Tuna",
+      "objectRevealAt": 198.743
+    },
+    {
+      "start": 204.814,
+      "end": 211.675,
+      "text": "Z Zooplankton Ride the flow tiny drifters where the currents go",
+      "line1": "Z Zooplankton Ride the flow tiny drifters where the currents go",
+      "line2": "",
+      "words": [
+        {
+          "text": "Z",
+          "start": 204.814,
+          "end": 205.069
+        },
+        {
+          "text": "Zooplankton",
+          "start": 205.133,
+          "end": 206.154
+        },
+        {
+          "text": "Ride",
+          "start": 206.218,
+          "end": 206.41
+        },
+        {
+          "text": "the",
+          "start": 206.489,
+          "end": 206.649
+        },
+        {
+          "text": "flow",
+          "start": 206.748,
+          "end": 207.713
+        },
+        {
+          "text": "tiny",
+          "start": 207.806,
+          "end": 208.165
+        },
+        {
+          "text": "drifters",
+          "start": 208.228,
+          "end": 208.803
+        },
+        {
+          "text": "where",
+          "start": 208.882,
+          "end": 209.202
+        },
+        {
+          "text": "the",
+          "start": 209.255,
+          "end": 209.362
+        },
+        {
+          "text": "currents",
+          "start": 209.396,
+          "end": 209.92
+        },
+        {
+          "text": "go",
+          "start": 210.04,
+          "end": 211.675
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r1-Z",
+      "objective": "lexical-semantic",
+      "targetId": "Z",
+      "letter": "Z",
+      "object": "Zooplankton",
+      "objectRevealAt": 204.814
+    },
+    {
+      "start": 211.715,
+      "end": 215.306,
+      "text": "Ocean Letter Splash come ride with me",
+      "line1": "Ocean Letter Splash come ride with me",
+      "line2": "",
+      "words": [
+        {
+          "text": "Ocean",
+          "start": 211.715,
+          "end": 212.234
+        },
+        {
+          "text": "Letter",
+          "start": 212.313,
+          "end": 212.793
+        },
+        {
+          "text": "Splash",
+          "start": 212.793,
+          "end": 213.989
+        },
+        {
+          "text": "come",
+          "start": 214.069,
+          "end": 214.309
+        },
+        {
+          "text": "ride",
+          "start": 214.408,
+          "end": 214.947
+        },
+        {
+          "text": "with",
+          "start": 215.006,
+          "end": 215.186
+        },
+        {
+          "text": "me",
+          "start": 215.226,
+          "end": 215.306
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r1-7-1",
+      "objective": "verbatim"
+    },
+    {
+      "start": 215.346,
+      "end": 222.626,
+      "text": "Splash through letters A to Z",
+      "line1": "Splash through letters A to Z",
+      "line2": "",
+      "words": [
+        {
+          "text": "Splash",
+          "start": 215.346,
+          "end": 215.665
+        },
+        {
+          "text": "through",
+          "start": 215.676,
+          "end": 215.745
+        },
+        {
+          "text": "letters",
+          "start": 215.836,
+          "end": 220.013
+        },
+        {
+          "text": "A",
+          "start": 220.133,
+          "end": 220.452
+        },
+        {
+          "text": "to",
+          "start": 220.571,
+          "end": 220.851
+        },
+        {
+          "text": "Z",
+          "start": 221.011,
+          "end": 222.626
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r1-7-2",
+      "objective": "verbatim"
+    },
+    {
+      "start": 222.726,
+      "end": 228.047,
+      "text": "Say the word then feel the flow",
+      "line1": "Say the word then feel the flow",
+      "line2": "",
+      "words": [
+        {
+          "text": "Say",
+          "start": 222.726,
+          "end": 223.245
+        },
+        {
+          "text": "the",
+          "start": 223.351,
+          "end": 223.564
+        },
+        {
+          "text": "word",
+          "start": 223.663,
+          "end": 224.983
+        },
+        {
+          "text": "then",
+          "start": 225.047,
+          "end": 225.239
+        },
+        {
+          "text": "feel",
+          "start": 225.338,
+          "end": 225.878
+        },
+        {
+          "text": "the",
+          "start": 225.984,
+          "end": 226.197
+        },
+        {
+          "text": "flow",
+          "start": 226.296,
+          "end": 228.047
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r1-7-3",
+      "objective": "verbatim"
+    },
+    {
+      "start": 228.143,
+      "end": 234.454,
+      "text": "Wave by wave away we go",
+      "line1": "Wave by wave away we go",
+      "line2": "",
+      "words": [
+        {
+          "text": "Wave",
+          "start": 228.143,
+          "end": 228.67
+        },
+        {
+          "text": "by",
+          "start": 228.79,
+          "end": 229.628
+        },
+        {
+          "text": "wave",
+          "start": 229.727,
+          "end": 230.76
+        },
+        {
+          "text": "away",
+          "start": 230.856,
+          "end": 231.383
+        },
+        {
+          "text": "we",
+          "start": 231.502,
+          "end": 231.702
+        },
+        {
+          "text": "go",
+          "start": 231.821,
+          "end": 234.454
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r1-7-4",
+      "objective": "verbatim"
+    },
+    {
+      "start": 234.474,
+      "end": 240.929,
+      "text": "My turn I call the letter You bring the word back",
+      "line1": "My turn I call the letter You bring the word back",
+      "line2": "",
+      "words": [
+        {
+          "text": "My",
+          "start": 234.474,
+          "end": 234.734
+        },
+        {
+          "text": "turn",
+          "start": 234.833,
+          "end": 236.609
+        },
+        {
+          "text": "I",
+          "start": 236.729,
+          "end": 236.809
+        },
+        {
+          "text": "call",
+          "start": 236.888,
+          "end": 237.128
+        },
+        {
+          "text": "the",
+          "start": 237.181,
+          "end": 237.287
+        },
+        {
+          "text": "letter",
+          "start": 237.38,
+          "end": 238.962
+        },
+        {
+          "text": "You",
+          "start": 239.042,
+          "end": 239.202
+        },
+        {
+          "text": "bring",
+          "start": 239.265,
+          "end": 239.521
+        },
+        {
+          "text": "the",
+          "start": 239.601,
+          "end": 239.761
+        },
+        {
+          "text": "word",
+          "start": 239.86,
+          "end": 240.239
+        },
+        {
+          "text": "back",
+          "start": 240.338,
+          "end": 240.929
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "interlude-1",
+      "objective": "narration"
+    },
+    {
+      "start": 240.954,
+      "end": 244.468,
+      "text": "A Angelfish Fan both hands and glide",
+      "line1": "A Angelfish Fan both hands and glide",
+      "line2": "",
+      "words": [
+        {
+          "text": "A",
+          "start": 240.954,
+          "end": 241.764
+        },
+        {
+          "text": "Angelfish",
+          "start": 241.826,
+          "end": 243.031
+        },
+        {
+          "text": "Fan",
+          "start": 243.111,
+          "end": 243.271
+        },
+        {
+          "text": "both",
+          "start": 243.35,
+          "end": 243.59
+        },
+        {
+          "text": "hands",
+          "start": 243.669,
+          "end": 243.989
+        },
+        {
+          "text": "and",
+          "start": 244.069,
+          "end": 244.229
+        },
+        {
+          "text": "glide",
+          "start": 244.26,
+          "end": 244.468
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-A",
+      "objective": "retrieval-action",
+      "targetId": "A",
+      "letter": "A",
+      "object": "Angelfish",
+      "objectRevealAt": 240.954
+    },
+    {
+      "start": 244.548,
+      "end": 251.29,
+      "text": "B Buoy Bob one hand with the tide",
+      "line1": "B Buoy Bob one hand with the tide",
+      "line2": "",
+      "words": [
+        {
+          "text": "B",
+          "start": 244.548,
+          "end": 244.601
+        },
+        {
+          "text": "Buoy",
+          "start": 244.614,
+          "end": 244.893
+        },
+        {
+          "text": "Bob",
+          "start": 244.92,
+          "end": 245.106
+        },
+        {
+          "text": "one",
+          "start": 245.132,
+          "end": 245.186
+        },
+        {
+          "text": "hand",
+          "start": 245.226,
+          "end": 245.346
+        },
+        {
+          "text": "with",
+          "start": 245.366,
+          "end": 245.426
+        },
+        {
+          "text": "the",
+          "start": 245.532,
+          "end": 249.176
+        },
+        {
+          "text": "tide",
+          "start": 249.335,
+          "end": 251.29
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-B",
+      "objective": "retrieval-action",
+      "targetId": "B",
+      "letter": "B",
+      "object": "Buoy",
+      "objectRevealAt": 244.548
+    },
+    {
+      "start": 251.41,
+      "end": 256.715,
+      "text": "C Coral Spread fingers side by side",
+      "line1": "C Coral Spread fingers side by side",
+      "line2": "",
+      "words": [
+        {
+          "text": "C",
+          "start": 251.41,
+          "end": 251.899
+        },
+        {
+          "text": "Coral",
+          "start": 251.922,
+          "end": 252.618
+        },
+        {
+          "text": "Spread",
+          "start": 252.709,
+          "end": 253.165
+        },
+        {
+          "text": "fingers",
+          "start": 253.256,
+          "end": 253.883
+        },
+        {
+          "text": "side",
+          "start": 253.982,
+          "end": 254.601
+        },
+        {
+          "text": "by",
+          "start": 254.72,
+          "end": 255.16
+        },
+        {
+          "text": "side",
+          "start": 255.259,
+          "end": 256.715
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-C",
+      "objective": "retrieval-action",
+      "targetId": "C",
+      "letter": "C",
+      "object": "Coral",
+      "objectRevealAt": 251.41
+    },
+    {
+      "start": 256.834,
+      "end": 261.434,
+      "text": "D Dock Make a platform by your side",
+      "line1": "D Dock Make a platform by your side",
+      "line2": "",
+      "words": [
+        {
+          "text": "D",
+          "start": 256.834,
+          "end": 257.367
+        },
+        {
+          "text": "Dock",
+          "start": 257.38,
+          "end": 258.015
+        },
+        {
+          "text": "Make",
+          "start": 258.079,
+          "end": 258.271
+        },
+        {
+          "text": "a",
+          "start": 258.43,
+          "end": 258.589
+        },
+        {
+          "text": "platform",
+          "start": 258.689,
+          "end": 259.707
+        },
+        {
+          "text": "by",
+          "start": 259.827,
+          "end": 260.027
+        },
+        {
+          "text": "your",
+          "start": 260.086,
+          "end": 260.266
+        },
+        {
+          "text": "side",
+          "start": 260.365,
+          "end": 261.434
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-D",
+      "objective": "retrieval-action",
+      "targetId": "D",
+      "letter": "D",
+      "object": "Dock",
+      "objectRevealAt": 256.834
+    },
+    {
+      "start": 261.459,
+      "end": 267.646,
+      "text": "E Eel Wave one hand side to side",
+      "line1": "E Eel Wave one hand side to side",
+      "line2": "",
+      "words": [
+        {
+          "text": "E",
+          "start": 261.459,
+          "end": 262.084
+        },
+        {
+          "text": "Eel",
+          "start": 262.101,
+          "end": 262.834
+        },
+        {
+          "text": "Wave",
+          "start": 262.93,
+          "end": 263.378
+        },
+        {
+          "text": "one",
+          "start": 263.484,
+          "end": 264.096
+        },
+        {
+          "text": "hand",
+          "start": 264.195,
+          "end": 264.734
+        },
+        {
+          "text": "side",
+          "start": 264.833,
+          "end": 265.452
+        },
+        {
+          "text": "to",
+          "start": 265.571,
+          "end": 266.09
+        },
+        {
+          "text": "side",
+          "start": 266.189,
+          "end": 267.646
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-E",
+      "objective": "retrieval-action",
+      "targetId": "E",
+      "letter": "E",
+      "object": "Eel",
+      "objectRevealAt": 261.459
+    },
+    {
+      "start": 267.766,
+      "end": 271.715,
+      "text": "F Fish Swish one hand and glide",
+      "line1": "F Fish Swish one hand and glide",
+      "line2": "",
+      "words": [
+        {
+          "text": "F",
+          "start": 267.766,
+          "end": 268.484
+        },
+        {
+          "text": "Fish",
+          "start": 268.563,
+          "end": 268.829
+        },
+        {
+          "text": "Swish",
+          "start": 268.856,
+          "end": 269.521
+        },
+        {
+          "text": "one",
+          "start": 269.627,
+          "end": 270.16
+        },
+        {
+          "text": "hand",
+          "start": 270.259,
+          "end": 270.878
+        },
+        {
+          "text": "and",
+          "start": 270.984,
+          "end": 271.436
+        },
+        {
+          "text": "glide",
+          "start": 271.468,
+          "end": 271.715
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-F",
+      "objective": "retrieval-action",
+      "targetId": "F",
+      "letter": "F",
+      "object": "Fish",
+      "objectRevealAt": 267.766
+    },
+    {
+      "start": 271.835,
+      "end": 276.79,
+      "text": "G Grouper Hide low by a ledge",
+      "line1": "G Grouper Hide low by a ledge",
+      "line2": "",
+      "words": [
+        {
+          "text": "G",
+          "start": 271.835,
+          "end": 273.335
+        },
+        {
+          "text": "Grouper",
+          "start": 273.431,
+          "end": 274.324
+        },
+        {
+          "text": "Hide",
+          "start": 274.42,
+          "end": 274.947
+        },
+        {
+          "text": "low",
+          "start": 275.053,
+          "end": 275.665
+        },
+        {
+          "text": "by",
+          "start": 275.784,
+          "end": 276.303
+        },
+        {
+          "text": "a",
+          "start": 276.463,
+          "end": 276.622
+        },
+        {
+          "text": "ledge",
+          "start": 276.648,
+          "end": 276.79
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-G",
+      "objective": "retrieval-action",
+      "targetId": "G",
+      "letter": "G",
+      "object": "Grouper",
+      "objectRevealAt": 271.835
+    },
+    {
+      "start": 276.798,
+      "end": 285.318,
+      "text": "H Harbor Curve both hands into a bay",
+      "line1": "H Harbor Curve both hands into a bay",
+      "line2": "",
+      "words": [
+        {
+          "text": "H",
+          "start": 276.798,
+          "end": 276.838
+        },
+        {
+          "text": "Harbor",
+          "start": 276.846,
+          "end": 277.114
+        },
+        {
+          "text": "Curve",
+          "start": 277.207,
+          "end": 279.335
+        },
+        {
+          "text": "both",
+          "start": 279.434,
+          "end": 279.814
+        },
+        {
+          "text": "hands",
+          "start": 279.909,
+          "end": 280.612
+        },
+        {
+          "text": "into",
+          "start": 280.671,
+          "end": 280.851
+        },
+        {
+          "text": "a",
+          "start": 281.011,
+          "end": 281.17
+        },
+        {
+          "text": "bay",
+          "start": 281.276,
+          "end": 285.318
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-H",
+      "objective": "retrieval-action",
+      "targetId": "H",
+      "letter": "H",
+      "object": "Harbor",
+      "objectRevealAt": 276.798
+    },
+    {
+      "start": 285.358,
+      "end": 290.733,
+      "text": "Ocean Letter Splash come ride with me",
+      "line1": "Ocean Letter Splash come ride with me",
+      "line2": "",
+      "words": [
+        {
+          "text": "Ocean",
+          "start": 285.358,
+          "end": 285.878
+        },
+        {
+          "text": "Letter",
+          "start": 285.957,
+          "end": 286.436
+        },
+        {
+          "text": "Splash",
+          "start": 286.436,
+          "end": 287.696
+        },
+        {
+          "text": "come",
+          "start": 287.76,
+          "end": 287.952
+        },
+        {
+          "text": "ride",
+          "start": 288.051,
+          "end": 288.67
+        },
+        {
+          "text": "with",
+          "start": 288.749,
+          "end": 288.989
+        },
+        {
+          "text": "me",
+          "start": 289.109,
+          "end": 290.733
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r2-2-1",
+      "objective": "verbatim"
+    },
+    {
+      "start": 290.801,
+      "end": 296.189,
+      "text": "Splash through letters A to Z",
+      "line1": "Splash through letters A to Z",
+      "line2": "",
+      "words": [
+        {
+          "text": "Splash",
+          "start": 290.801,
+          "end": 291.144
+        },
+        {
+          "text": "through",
+          "start": 291.223,
+          "end": 291.702
+        },
+        {
+          "text": "letters",
+          "start": 291.793,
+          "end": 293.577
+        },
+        {
+          "text": "A",
+          "start": 293.697,
+          "end": 294.096
+        },
+        {
+          "text": "to",
+          "start": 294.215,
+          "end": 294.415
+        },
+        {
+          "text": "Z",
+          "start": 294.574,
+          "end": 296.189
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r2-2-2",
+      "objective": "verbatim"
+    },
+    {
+      "start": 296.289,
+      "end": 301.691,
+      "text": "Say the word then feel the flow",
+      "line1": "Say the word then feel the flow",
+      "line2": "",
+      "words": [
+        {
+          "text": "Say",
+          "start": 296.289,
+          "end": 296.809
+        },
+        {
+          "text": "the",
+          "start": 296.915,
+          "end": 297.128
+        },
+        {
+          "text": "word",
+          "start": 297.227,
+          "end": 298.563
+        },
+        {
+          "text": "then",
+          "start": 298.643,
+          "end": 298.883
+        },
+        {
+          "text": "feel",
+          "start": 298.982,
+          "end": 299.521
+        },
+        {
+          "text": "the",
+          "start": 299.627,
+          "end": 299.84
+        },
+        {
+          "text": "flow",
+          "start": 299.939,
+          "end": 301.691
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r2-2-3",
+      "objective": "verbatim"
+    },
+    {
+      "start": 301.787,
+      "end": 305.285,
+      "text": "Wave by wave away we go",
+      "line1": "Wave by wave away we go",
+      "line2": "",
+      "words": [
+        {
+          "text": "Wave",
+          "start": 301.787,
+          "end": 302.234
+        },
+        {
+          "text": "by",
+          "start": 302.353,
+          "end": 303.271
+        },
+        {
+          "text": "wave",
+          "start": 303.37,
+          "end": 304.404
+        },
+        {
+          "text": "away",
+          "start": 304.5,
+          "end": 304.947
+        },
+        {
+          "text": "we",
+          "start": 305.066,
+          "end": 305.186
+        },
+        {
+          "text": "go",
+          "start": 305.226,
+          "end": 305.285
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r2-2-4",
+      "objective": "verbatim"
+    },
+    {
+      "start": 305.294,
+      "end": 311.13,
+      "text": "I Island Circle one hand all around",
+      "line1": "I Island Circle one hand all around",
+      "line2": "",
+      "words": [
+        {
+          "text": "I",
+          "start": 305.294,
+          "end": 305.664
+        },
+        {
+          "text": "Island",
+          "start": 305.704,
+          "end": 305.938
+        },
+        {
+          "text": "Circle",
+          "start": 305.972,
+          "end": 306.144
+        },
+        {
+          "text": "one",
+          "start": 306.25,
+          "end": 309.734
+        },
+        {
+          "text": "hand",
+          "start": 309.793,
+          "end": 309.973
+        },
+        {
+          "text": "all",
+          "start": 310.079,
+          "end": 310.452
+        },
+        {
+          "text": "around",
+          "start": 310.545,
+          "end": 311.13
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-I",
+      "objective": "retrieval-action",
+      "targetId": "I",
+      "letter": "I",
+      "object": "Island",
+      "objectRevealAt": 305.294
+    },
+    {
+      "start": 311.17,
+      "end": 314.002,
+      "text": "J Jetty Reach outward from solid ground",
+      "line1": "J Jetty Reach outward from solid ground",
+      "line2": "",
+      "words": [
+        {
+          "text": "J",
+          "start": 311.17,
+          "end": 311.261
+        },
+        {
+          "text": "Jetty",
+          "start": 311.284,
+          "end": 311.609
+        },
+        {
+          "text": "Reach",
+          "start": 311.649,
+          "end": 311.809
+        },
+        {
+          "text": "outward",
+          "start": 311.888,
+          "end": 312.207
+        },
+        {
+          "text": "from",
+          "start": 312.287,
+          "end": 312.527
+        },
+        {
+          "text": "solid",
+          "start": 312.622,
+          "end": 313.085
+        },
+        {
+          "text": "ground",
+          "start": 313.178,
+          "end": 314.002
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-J",
+      "objective": "retrieval-action",
+      "targetId": "J",
+      "letter": "J",
+      "object": "Jetty",
+      "objectRevealAt": 311.17
+    },
+    {
+      "start": 314.122,
+      "end": 317.034,
+      "text": "K Kayak Paddle left then right",
+      "line1": "K Kayak Paddle left then right",
+      "line2": "",
+      "words": [
+        {
+          "text": "K",
+          "start": 314.122,
+          "end": 314.658
+        },
+        {
+          "text": "Kayak",
+          "start": 314.692,
+          "end": 315.299
+        },
+        {
+          "text": "Paddle",
+          "start": 315.359,
+          "end": 315.718
+        },
+        {
+          "text": "left",
+          "start": 315.817,
+          "end": 316.212
+        },
+        {
+          "text": "then",
+          "start": 316.308,
+          "end": 316.596
+        },
+        {
+          "text": "right",
+          "start": 316.659,
+          "end": 317.034
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-K",
+      "objective": "retrieval-action",
+      "targetId": "K",
+      "letter": "K",
+      "object": "Kayak",
+      "objectRevealAt": 314.122
+    },
+    {
+      "start": 317.154,
+      "end": 321.434,
+      "text": "L Lobster Walk two fingers on the floor",
+      "line1": "L Lobster Walk two fingers on the floor",
+      "line2": "",
+      "words": [
+        {
+          "text": "L",
+          "start": 317.154,
+          "end": 317.34
+        },
+        {
+          "text": "Lobster",
+          "start": 317.367,
+          "end": 318.015
+        },
+        {
+          "text": "Walk",
+          "start": 318.079,
+          "end": 318.271
+        },
+        {
+          "text": "two",
+          "start": 318.377,
+          "end": 318.59
+        },
+        {
+          "text": "fingers",
+          "start": 318.658,
+          "end": 319.069
+        },
+        {
+          "text": "on",
+          "start": 319.149,
+          "end": 319.229
+        },
+        {
+          "text": "the",
+          "start": 319.335,
+          "end": 319.548
+        },
+        {
+          "text": "floor",
+          "start": 319.643,
+          "end": 321.434
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-L",
+      "objective": "retrieval-action",
+      "targetId": "L",
+      "letter": "L",
+      "object": "Lobster",
+      "objectRevealAt": 317.154
+    },
+    {
+      "start": 321.459,
+      "end": 324.853,
+      "text": "M Mussel Close two palms like a shell",
+      "line1": "M Mussel Close two palms like a shell",
+      "line2": "",
+      "words": [
+        {
+          "text": "M",
+          "start": 321.459,
+          "end": 322.112
+        },
+        {
+          "text": "Mussel",
+          "start": 322.135,
+          "end": 322.646
+        },
+        {
+          "text": "Close",
+          "start": 322.713,
+          "end": 322.979
+        },
+        {
+          "text": "two",
+          "start": 323.085,
+          "end": 323.298
+        },
+        {
+          "text": "palms",
+          "start": 323.378,
+          "end": 323.617
+        },
+        {
+          "text": "like",
+          "start": 323.676,
+          "end": 323.856
+        },
+        {
+          "text": "a",
+          "start": 324.016,
+          "end": 324.096
+        },
+        {
+          "text": "shell",
+          "start": 324.191,
+          "end": 324.853
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-M",
+      "objective": "retrieval-action",
+      "targetId": "M",
+      "letter": "M",
+      "object": "Mussel",
+      "objectRevealAt": 321.459
+    },
+    {
+      "start": 324.973,
+      "end": 327.566,
+      "text": "N Narwhal Trace one spiral tusk",
+      "line1": "N Narwhal Trace one spiral tusk",
+      "line2": "",
+      "words": [
+        {
+          "text": "N",
+          "start": 324.973,
+          "end": 325.281
+        },
+        {
+          "text": "Narwhal",
+          "start": 325.338,
+          "end": 325.771
+        },
+        {
+          "text": "Trace",
+          "start": 325.834,
+          "end": 326.09
+        },
+        {
+          "text": "one",
+          "start": 326.196,
+          "end": 326.489
+        },
+        {
+          "text": "spiral",
+          "start": 326.568,
+          "end": 326.968
+        },
+        {
+          "text": "tusk",
+          "start": 327.008,
+          "end": 327.566
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-N",
+      "objective": "retrieval-action",
+      "targetId": "N",
+      "letter": "N",
+      "object": "Narwhal",
+      "objectRevealAt": 324.973
+    },
+    {
+      "start": 327.686,
+      "end": 330.678,
+      "text": "O Octopus Wiggle both hands soft and slow",
+      "line1": "O Octopus Wiggle both hands soft and slow",
+      "line2": "",
+      "words": [
+        {
+          "text": "O",
+          "start": 327.686,
+          "end": 327.902
+        },
+        {
+          "text": "Octopus",
+          "start": 327.936,
+          "end": 328.564
+        },
+        {
+          "text": "Wiggle",
+          "start": 328.644,
+          "end": 328.883
+        },
+        {
+          "text": "both",
+          "start": 328.962,
+          "end": 329.202
+        },
+        {
+          "text": "hands",
+          "start": 329.265,
+          "end": 329.584
+        },
+        {
+          "text": "soft",
+          "start": 329.648,
+          "end": 329.84
+        },
+        {
+          "text": "and",
+          "start": 329.946,
+          "end": 330.16
+        },
+        {
+          "text": "slow",
+          "start": 330.259,
+          "end": 330.678
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-O",
+      "objective": "retrieval-action",
+      "targetId": "O",
+      "letter": "O",
+      "object": "Octopus",
+      "objectRevealAt": 327.686
+    },
+    {
+      "start": 330.798,
+      "end": 333.371,
+      "text": "P Pelican Scoop then let the water go",
+      "line1": "P Pelican Scoop then let the water go",
+      "line2": "",
+      "words": [
+        {
+          "text": "P",
+          "start": 330.798,
+          "end": 331.014
+        },
+        {
+          "text": "Pelican",
+          "start": 331.048,
+          "end": 331.596
+        },
+        {
+          "text": "Scoop",
+          "start": 331.636,
+          "end": 331.962
+        },
+        {
+          "text": "then",
+          "start": 332.01,
+          "end": 332.154
+        },
+        {
+          "text": "let",
+          "start": 332.234,
+          "end": 332.394
+        },
+        {
+          "text": "the",
+          "start": 332.473,
+          "end": 332.633
+        },
+        {
+          "text": "water",
+          "start": 332.728,
+          "end": 333.191
+        },
+        {
+          "text": "go",
+          "start": 333.271,
+          "end": 333.371
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-P",
+      "objective": "retrieval-action",
+      "targetId": "P",
+      "letter": "P",
+      "object": "Pelican",
+      "objectRevealAt": 330.798
+    },
+    {
+      "start": 333.381,
+      "end": 342.584,
+      "text": "Ocean Letter Splash come ride with me",
+      "line1": "Ocean Letter Splash come ride with me",
+      "line2": "",
+      "words": [
+        {
+          "text": "Ocean",
+          "start": 333.381,
+          "end": 333.511
+        },
+        {
+          "text": "Letter",
+          "start": 333.59,
+          "end": 333.83
+        },
+        {
+          "text": "Splash",
+          "start": 333.83,
+          "end": 334.324
+        },
+        {
+          "text": "come",
+          "start": 334.42,
+          "end": 339.894
+        },
+        {
+          "text": "ride",
+          "start": 339.993,
+          "end": 340.532
+        },
+        {
+          "text": "with",
+          "start": 340.591,
+          "end": 340.771
+        },
+        {
+          "text": "me",
+          "start": 340.891,
+          "end": 342.584
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r2-4-1",
+      "objective": "verbatim"
+    },
+    {
+      "start": 342.641,
+      "end": 348.051,
+      "text": "Splash through letters A to Z",
+      "line1": "Splash through letters A to Z",
+      "line2": "",
+      "words": [
+        {
+          "text": "Splash",
+          "start": 342.641,
+          "end": 342.926
+        },
+        {
+          "text": "through",
+          "start": 343.005,
+          "end": 343.484
+        },
+        {
+          "text": "letters",
+          "start": 343.575,
+          "end": 345.439
+        },
+        {
+          "text": "A",
+          "start": 345.559,
+          "end": 345.957
+        },
+        {
+          "text": "to",
+          "start": 346.077,
+          "end": 346.277
+        },
+        {
+          "text": "Z",
+          "start": 346.436,
+          "end": 348.051
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r2-4-2",
+      "objective": "verbatim"
+    },
+    {
+      "start": 348.151,
+      "end": 353.473,
+      "text": "Say the word then feel the flow",
+      "line1": "Say the word then feel the flow",
+      "line2": "",
+      "words": [
+        {
+          "text": "Say",
+          "start": 348.151,
+          "end": 348.67
+        },
+        {
+          "text": "the",
+          "start": 348.776,
+          "end": 348.989
+        },
+        {
+          "text": "word",
+          "start": 349.088,
+          "end": 350.409
+        },
+        {
+          "text": "then",
+          "start": 350.473,
+          "end": 350.665
+        },
+        {
+          "text": "feel",
+          "start": 350.764,
+          "end": 351.383
+        },
+        {
+          "text": "the",
+          "start": 351.489,
+          "end": 351.702
+        },
+        {
+          "text": "flow",
+          "start": 351.801,
+          "end": 353.473
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r2-4-3",
+      "objective": "verbatim"
+    },
+    {
+      "start": 353.569,
+      "end": 360.294,
+      "text": "Wave by wave away we go",
+      "line1": "Wave by wave away we go",
+      "line2": "",
+      "words": [
+        {
+          "text": "Wave",
+          "start": 353.569,
+          "end": 354.096
+        },
+        {
+          "text": "by",
+          "start": 354.215,
+          "end": 355.053
+        },
+        {
+          "text": "wave",
+          "start": 355.152,
+          "end": 356.09
+        },
+        {
+          "text": "away",
+          "start": 356.17,
+          "end": 356.809
+        },
+        {
+          "text": "we",
+          "start": 356.928,
+          "end": 357.128
+        },
+        {
+          "text": "go",
+          "start": 357.247,
+          "end": 360.294
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r2-4-4",
+      "objective": "verbatim"
+    },
+    {
+      "start": 360.361,
+      "end": 365.784,
+      "text": "Q Quahog KOH hog close your clam",
+      "line1": "Q Quahog KOH hog close your clam",
+      "line2": "",
+      "words": [
+        {
+          "text": "Q",
+          "start": 360.361,
+          "end": 361.888
+        },
+        {
+          "text": "Quahog",
+          "start": 361.901,
+          "end": 362.912
+        },
+        {
+          "text": "KOH",
+          "start": 362.952,
+          "end": 365.061
+        },
+        {
+          "text": "hog",
+          "start": 362.952,
+          "end": 365.061
+        },
+        {
+          "text": "close",
+          "start": 365.118,
+          "end": 365.346
+        },
+        {
+          "text": "your",
+          "start": 365.405,
+          "end": 365.585
+        },
+        {
+          "text": "clam",
+          "start": 365.625,
+          "end": 365.784
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-Q",
+      "objective": "retrieval-action",
+      "targetId": "Q",
+      "letter": "Q",
+      "object": "Quahog",
+      "objectRevealAt": 360.361
+    },
+    {
+      "start": 365.824,
+      "end": 371.29,
+      "text": "R Ray Glide both hands above the sand",
+      "line1": "R Ray Glide both hands above the sand",
+      "line2": "",
+      "words": [
+        {
+          "text": "R",
+          "start": 365.824,
+          "end": 365.888
+        },
+        {
+          "text": "Ray",
+          "start": 365.904,
+          "end": 366.17
+        },
+        {
+          "text": "Glide",
+          "start": 366.197,
+          "end": 366.303
+        },
+        {
+          "text": "both",
+          "start": 366.343,
+          "end": 366.463
+        },
+        {
+          "text": "hands",
+          "start": 366.558,
+          "end": 369.894
+        },
+        {
+          "text": "above",
+          "start": 369.941,
+          "end": 370.133
+        },
+        {
+          "text": "the",
+          "start": 370.239,
+          "end": 370.452
+        },
+        {
+          "text": "sand",
+          "start": 370.551,
+          "end": 371.29
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-R",
+      "objective": "retrieval-action",
+      "targetId": "R",
+      "letter": "R",
+      "object": "Ray",
+      "objectRevealAt": 365.824
+    },
+    {
+      "start": 371.41,
+      "end": 376.715,
+      "text": "S Seahorse Curl one finger in the flow",
+      "line1": "S Seahorse Curl one finger in the flow",
+      "line2": "",
+      "words": [
+        {
+          "text": "S",
+          "start": 371.41,
+          "end": 371.861
+        },
+        {
+          "text": "Seahorse",
+          "start": 371.874,
+          "end": 372.866
+        },
+        {
+          "text": "Curl",
+          "start": 372.886,
+          "end": 373.245
+        },
+        {
+          "text": "one",
+          "start": 373.351,
+          "end": 373.883
+        },
+        {
+          "text": "finger",
+          "start": 373.976,
+          "end": 374.441
+        },
+        {
+          "text": "in",
+          "start": 374.561,
+          "end": 374.681
+        },
+        {
+          "text": "the",
+          "start": 374.76,
+          "end": 374.92
+        },
+        {
+          "text": "flow",
+          "start": 375.019,
+          "end": 376.715
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-S",
+      "objective": "retrieval-action",
+      "targetId": "S",
+      "letter": "S",
+      "object": "Seahorse",
+      "objectRevealAt": 371.41
+    },
+    {
+      "start": 376.835,
+      "end": 381.446,
+      "text": "T Turtle Sweep both hands as you go",
+      "line1": "T Turtle Sweep both hands as you go",
+      "line2": "",
+      "words": [
+        {
+          "text": "T",
+          "start": 376.835,
+          "end": 377.325
+        },
+        {
+          "text": "Turtle",
+          "start": 377.348,
+          "end": 377.952
+        },
+        {
+          "text": "Sweep",
+          "start": 378.047,
+          "end": 378.511
+        },
+        {
+          "text": "both",
+          "start": 378.61,
+          "end": 378.989
+        },
+        {
+          "text": "hands",
+          "start": 379.084,
+          "end": 379.707
+        },
+        {
+          "text": "as",
+          "start": 379.827,
+          "end": 380.027
+        },
+        {
+          "text": "you",
+          "start": 380.133,
+          "end": 380.346
+        },
+        {
+          "text": "go",
+          "start": 380.465,
+          "end": 381.446
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-T",
+      "objective": "retrieval-action",
+      "targetId": "T",
+      "letter": "T",
+      "object": "Turtle",
+      "objectRevealAt": 376.835
+    },
+    {
+      "start": 381.478,
+      "end": 386.928,
+      "text": "U Undersea Cave Arch both hands below",
+      "line1": "U Undersea Cave Arch both hands below",
+      "line2": "",
+      "words": [
+        {
+          "text": "U",
+          "start": 381.478,
+          "end": 382.287
+        },
+        {
+          "text": "Undersea",
+          "start": 382.313,
+          "end": 382.739
+        },
+        {
+          "text": "Cave",
+          "start": 382.819,
+          "end": 384.031
+        },
+        {
+          "text": "Arch",
+          "start": 384.127,
+          "end": 384.415
+        },
+        {
+          "text": "both",
+          "start": 384.494,
+          "end": 384.734
+        },
+        {
+          "text": "hands",
+          "start": 384.829,
+          "end": 385.771
+        },
+        {
+          "text": "below",
+          "start": 385.866,
+          "end": 386.928
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-U",
+      "objective": "retrieval-action",
+      "targetId": "U",
+      "letter": "U",
+      "object": "Undersea Cave",
+      "objectRevealAt": 381.478
+    },
+    {
+      "start": 387.048,
+      "end": 392.353,
+      "text": "V Violet Sea Snail Bubble raft float slow",
+      "line1": "V Violet Sea Snail Bubble raft float slow",
+      "line2": "",
+      "words": [
+        {
+          "text": "V",
+          "start": 387.048,
+          "end": 387.566
+        },
+        {
+          "text": "Violet",
+          "start": 387.596,
+          "end": 388.005
+        },
+        {
+          "text": "Sea",
+          "start": 388.111,
+          "end": 388.324
+        },
+        {
+          "text": "Snail",
+          "start": 388.35,
+          "end": 388.882
+        },
+        {
+          "text": "Bubble",
+          "start": 388.962,
+          "end": 390.572
+        },
+        {
+          "text": "raft",
+          "start": 388.962,
+          "end": 390.572
+        },
+        {
+          "text": "float",
+          "start": 390.665,
+          "end": 391.197
+        },
+        {
+          "text": "slow",
+          "start": 391.296,
+          "end": 392.353
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-V",
+      "objective": "retrieval-action",
+      "targetId": "V",
+      "letter": "V",
+      "object": "Violet Sea Snail",
+      "objectRevealAt": 387.048
+    },
+    {
+      "start": 392.473,
+      "end": 397.221,
+      "text": "W Whale Rise for air then dive",
+      "line1": "W Whale Rise for air then dive",
+      "line2": "",
+      "words": [
+        {
+          "text": "W",
+          "start": 392.473,
+          "end": 393.643
+        },
+        {
+          "text": "Whale",
+          "start": 393.656,
+          "end": 394.404
+        },
+        {
+          "text": "Rise",
+          "start": 394.5,
+          "end": 394.947
+        },
+        {
+          "text": "for",
+          "start": 395.053,
+          "end": 395.665
+        },
+        {
+          "text": "air",
+          "start": 395.771,
+          "end": 396.398
+        },
+        {
+          "text": "then",
+          "start": 396.494,
+          "end": 396.941
+        },
+        {
+          "text": "dive",
+          "start": 396.981,
+          "end": 397.221
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-W",
+      "objective": "retrieval-action",
+      "targetId": "W",
+      "letter": "W",
+      "object": "Whale",
+      "objectRevealAt": 392.473
+    },
+    {
+      "start": 397.261,
+      "end": 406.001,
+      "text": "X X ray Tetra Freshwater fish glide",
+      "line1": "X X ray Tetra Freshwater fish glide",
+      "line2": "",
+      "words": [
+        {
+          "text": "X",
+          "start": 397.261,
+          "end": 397.388
+        },
+        {
+          "text": "X",
+          "start": 397.42,
+          "end": 397.58
+        },
+        {
+          "text": "ray",
+          "start": 397.42,
+          "end": 397.58
+        },
+        {
+          "text": "Tetra",
+          "start": 397.699,
+          "end": 400.199
+        },
+        {
+          "text": "Freshwater",
+          "start": 400.266,
+          "end": 400.931
+        },
+        {
+          "text": "fish",
+          "start": 401.011,
+          "end": 401.671
+        },
+        {
+          "text": "glide",
+          "start": 401.762,
+          "end": 406.001
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-X",
+      "objective": "retrieval-action",
+      "targetId": "X",
+      "letter": "X",
+      "object": "X-ray Tetra",
+      "objectRevealAt": 397.261
+    },
+    {
+      "start": 406.024,
+      "end": 412.061,
+      "text": "Y Yellowfin Tuna Sweep fast through the flow",
+      "line1": "Y Yellowfin Tuna Sweep fast through the flow",
+      "line2": "",
+      "words": [
+        {
+          "text": "Y",
+          "start": 406.024,
+          "end": 406.643
+        },
+        {
+          "text": "Yellowfin",
+          "start": 406.675,
+          "end": 407.234
+        },
+        {
+          "text": "Tuna",
+          "start": 407.394,
+          "end": 407.846
+        },
+        {
+          "text": "Sweep",
+          "start": 407.899,
+          "end": 408.112
+        },
+        {
+          "text": "fast",
+          "start": 408.211,
+          "end": 408.67
+        },
+        {
+          "text": "through",
+          "start": 408.715,
+          "end": 408.989
+        },
+        {
+          "text": "the",
+          "start": 409.069,
+          "end": 409.229
+        },
+        {
+          "text": "flow",
+          "start": 409.328,
+          "end": 412.061
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-Y",
+      "objective": "retrieval-action",
+      "targetId": "Y",
+      "letter": "Y",
+      "object": "Yellowfin Tuna",
+      "objectRevealAt": 406.024
+    },
+    {
+      "start": 412.101,
+      "end": 418.962,
+      "text": "Z Zooplankton Drift where currents go",
+      "line1": "Z Zooplankton Drift where currents go",
+      "line2": "",
+      "words": [
+        {
+          "text": "Z",
+          "start": 412.101,
+          "end": 412.484
+        },
+        {
+          "text": "Zooplankton",
+          "start": 412.58,
+          "end": 414.8
+        },
+        {
+          "text": "Drift",
+          "start": 414.867,
+          "end": 415.133
+        },
+        {
+          "text": "where",
+          "start": 415.196,
+          "end": 415.452
+        },
+        {
+          "text": "currents",
+          "start": 415.531,
+          "end": 416.17
+        },
+        {
+          "text": "go",
+          "start": 416.29,
+          "end": 418.962
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "r2-Z",
+      "objective": "retrieval-action",
+      "targetId": "Z",
+      "letter": "Z",
+      "object": "Zooplankton",
+      "objectRevealAt": 412.101
+    },
+    {
+      "start": 419.002,
+      "end": 424.297,
+      "text": "Ocean Letter Splash come ride with me",
+      "line1": "Ocean Letter Splash come ride with me",
+      "line2": "",
+      "words": [
+        {
+          "text": "Ocean",
+          "start": 419.002,
+          "end": 419.521
+        },
+        {
+          "text": "Letter",
+          "start": 419.6,
+          "end": 420.08
+        },
+        {
+          "text": "Splash",
+          "start": 420.08,
+          "end": 421.276
+        },
+        {
+          "text": "come",
+          "start": 421.356,
+          "end": 421.596
+        },
+        {
+          "text": "ride",
+          "start": 421.695,
+          "end": 422.234
+        },
+        {
+          "text": "with",
+          "start": 422.293,
+          "end": 422.473
+        },
+        {
+          "text": "me",
+          "start": 422.593,
+          "end": 424.297
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r2-7-1",
+      "objective": "verbatim"
+    },
+    {
+      "start": 424.365,
+      "end": 429.993,
+      "text": "Splash through letters A to Z",
+      "line1": "Splash through letters A to Z",
+      "line2": "",
+      "words": [
+        {
+          "text": "Splash",
+          "start": 424.365,
+          "end": 424.707
+        },
+        {
+          "text": "through",
+          "start": 424.786,
+          "end": 425.266
+        },
+        {
+          "text": "letters",
+          "start": 425.357,
+          "end": 427.141
+        },
+        {
+          "text": "A",
+          "start": 427.261,
+          "end": 427.66
+        },
+        {
+          "text": "to",
+          "start": 427.779,
+          "end": 428.059
+        },
+        {
+          "text": "Z",
+          "start": 428.218,
+          "end": 429.993
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r2-7-2",
+      "objective": "verbatim"
+    },
+    {
+      "start": 430.093,
+      "end": 435.334,
+      "text": "Say the word then feel the flow",
+      "line1": "Say the word then feel the flow",
+      "line2": "",
+      "words": [
+        {
+          "text": "Say",
+          "start": 430.093,
+          "end": 430.532
+        },
+        {
+          "text": "the",
+          "start": 430.638,
+          "end": 430.851
+        },
+        {
+          "text": "word",
+          "start": 430.95,
+          "end": 432.271
+        },
+        {
+          "text": "then",
+          "start": 432.335,
+          "end": 432.527
+        },
+        {
+          "text": "feel",
+          "start": 432.626,
+          "end": 433.165
+        },
+        {
+          "text": "the",
+          "start": 433.271,
+          "end": 433.484
+        },
+        {
+          "text": "flow",
+          "start": 433.583,
+          "end": 435.334
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r2-7-3",
+      "objective": "verbatim"
+    },
+    {
+      "start": 435.43,
+      "end": 442.653,
+      "text": "Wave by wave away we go",
+      "line1": "Wave by wave away we go",
+      "line2": "",
+      "words": [
+        {
+          "text": "Wave",
+          "start": 435.43,
+          "end": 435.957
+        },
+        {
+          "text": "by",
+          "start": 436.077,
+          "end": 436.915
+        },
+        {
+          "text": "wave",
+          "start": 437.014,
+          "end": 438.047
+        },
+        {
+          "text": "away",
+          "start": 438.143,
+          "end": 438.67
+        },
+        {
+          "text": "we",
+          "start": 438.79,
+          "end": 438.989
+        },
+        {
+          "text": "go",
+          "start": 439.109,
+          "end": 442.653
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "chorus-r2-7-4",
+      "objective": "verbatim"
+    },
+    {
+      "start": 442.69,
+      "end": 445.093,
+      "text": "One last ripple reaches shore",
+      "line1": "One last ripple reaches shore",
+      "line2": "",
+      "words": [
+        {
+          "text": "One",
+          "start": 442.69,
+          "end": 443.059
+        },
+        {
+          "text": "last",
+          "start": 443.138,
+          "end": 443.378
+        },
+        {
+          "text": "ripple",
+          "start": 443.417,
+          "end": 444.096
+        },
+        {
+          "text": "reaches",
+          "start": 444.127,
+          "end": 444.734
+        },
+        {
+          "text": "shore",
+          "start": 444.781,
+          "end": 445.093
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "outro-1",
+      "objective": "narration"
+    },
+    {
+      "start": 445.213,
+      "end": 458.856,
+      "text": "A to Z then one wave more",
+      "line1": "A to Z then one wave more",
+      "line2": "",
+      "words": [
+        {
+          "text": "A",
+          "start": 445.213,
+          "end": 449.202
+        },
+        {
+          "text": "to",
+          "start": 449.242,
+          "end": 449.282
+        },
+        {
+          "text": "Z",
+          "start": 449.441,
+          "end": 452.967
+        },
+        {
+          "text": "then",
+          "start": 453.063,
+          "end": 453.75
+        },
+        {
+          "text": "one",
+          "start": 453.856,
+          "end": 456.064
+        },
+        {
+          "text": "wave",
+          "start": 456.163,
+          "end": 458.218
+        },
+        {
+          "text": "more",
+          "start": 458.309,
+          "end": 458.856
+        }
+      ],
+      "alignmentConfidence": 1,
+      "id": "outro-2",
+      "objective": "narration"
+    }
+  ],
+  "alignment": {
+    "mode": "canonical-order",
+    "status": "clean",
+    "canonicalLineCount": 81,
+    "segmentCount": 81,
+    "averageTextSimilarity": 1
+  }
+}

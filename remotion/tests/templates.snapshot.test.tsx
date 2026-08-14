@@ -206,7 +206,7 @@ function renderAt(
 describe("ClassicLandscape snapshot/visual layout (Req 10.1, 10.3, 10.5, 10.7, 10.8)", () => {
   const config = makeConfig("classic-landscape");
 
-  it("renders the blurred background plus a darkening overlay (Req 10.1)", () => {
+  it("renders the static background plus a restrained overlay (Req 10.1)", () => {
     const root = renderAt(ClassicLandscape, config, T_ACTIVE);
 
     const background = root.querySelector('[data-layer="background"]');
@@ -215,8 +215,11 @@ describe("ClassicLandscape snapshot/visual layout (Req 10.1, 10.3, 10.5, 10.7, 1
     const bgImg = background!.querySelector("img");
     expect(bgImg).not.toBeNull();
     expect(bgImg!.getAttribute("src")).toBe("assets/background.jpg");
-    // The blur effect is applied via the image filter (Req 10.1).
-    expect(bgImg!.getAttribute("style")).toContain("blur(");
+    // The background remains static without additional blur; it is not zoomed
+    // or brightness-reactive.
+    expect(bgImg!.getAttribute("style")).toContain("blur(0px)");
+    expect(bgImg!.getAttribute("style")).toContain("scale(1)");
+    expect(bgImg!.getAttribute("style")).toContain("brightness(1)");
 
     const overlay = root.querySelector('[data-layer="background-overlay"]');
     expect(overlay).not.toBeNull();
@@ -269,11 +272,22 @@ describe("ClassicLandscape snapshot/visual layout (Req 10.1, 10.3, 10.5, 10.7, 1
     const words = Array.from(
       root.querySelectorAll('[data-layer="lyric-box"] [data-word]'),
     );
-    // At t=2.0 the first three words (1.0, 1.4, 1.8) are lit; "horse" (2.5) not.
+    // The transcript line is a static block for its time range; it does not
+    // reveal words progressively.
     const litCount = words.filter((w) => w.getAttribute("data-lit") === "true").length;
-    expect(litCount).toBe(3);
+    expect(litCount).toBe(4);
     expect(words[0].getAttribute("data-role")).toBe("letter");
     expect(words[3].getAttribute("data-role")).toBe("object");
+  });
+
+  it("keeps the lyric box dimensions fixed while text changes", () => {
+    const root = renderAt(ClassicLandscape, config, T_ACTIVE);
+    const lyricBox = root.querySelector('[data-layer="lyric-box"]');
+    expect(lyricBox).not.toBeNull();
+    const style = lyricBox!.getAttribute("style") ?? "";
+    expect(style).toContain("width:1740px");
+    expect(style).toContain("height:220px");
+    expect(style).toContain("box-sizing:border-box");
   });
 
   it("renders the top-left info box with song logo and metadata (Req 10.7)", () => {

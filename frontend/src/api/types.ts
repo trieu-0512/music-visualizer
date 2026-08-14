@@ -107,6 +107,39 @@ export interface ArtifactList {
   artifacts: ArtifactName[];
 }
 
+/** Live status returned by the Remotion ABC preview render controller. */
+export type PreviewRenderStatus =
+  | "running"
+  | "cancelling"
+  | "completed"
+  | "failed"
+  | "cancelled";
+
+export interface PreviewRenderOptions {
+  maxDurationSeconds?: number;
+  concurrency?: number;
+  resolution?: "fullhd" | "4k";
+}
+
+export interface PreviewRenderJob {
+  id: string;
+  projectId: string;
+  status: PreviewRenderStatus;
+  progress: number;
+  percent: number;
+  stage: string;
+  renderedFrames: number;
+  encodedFrames: number;
+  totalFrames: number | null;
+  elapsedMs: number;
+  etaMs: number;
+  createdAt: string;
+  updatedAt: string;
+  outputUrl: string;
+  maxDurationSeconds?: number;
+  error?: string;
+}
+
 /** Response of `POST /projects/import-folder`. */
 export interface FolderImportResult {
   project: ProjectRecord;

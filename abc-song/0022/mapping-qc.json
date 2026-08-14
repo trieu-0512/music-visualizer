@@ -6,14 +6,17 @@
   "hardFailures": [],
   "warnings": [
     "Q -> Quartz Rock: guided-theme-fallback-review",
-    "X -> Xeric Shrub: guided-theme-fallback-review",
+    "X -> Xylem: guided-theme-fallback-review, support-required, verify-pronunciation",
     "Z -> Zebra Swallowtail: guided-theme-fallback-review"
   ],
   "tierCounts": {
     "A": 21,
-    "B": 5
+    "B": 4,
+    "C": 1
   },
   "riskCounts": {
-    "guided-theme-fallback-review": 3
+    "guided-theme-fallback-review": 3,
+    "support-required": 1,
+    "verify-pronunciation": 1
   }
 }

@@ -1,13 +1,17 @@
 {
   "songId": "0017",
-  "theme": "Flowers & Bugs",
+  "theme": "Garden Flowers, Bugs & Helpers",
   "macroDomain": "Garden & Plants",
-  "status": "PASS",
+  "status": "PASS_WITH_SUPPORT",
   "hardFailures": [],
-  "warnings": [],
+  "warnings": [
+    "Q -> Queen Butterfly: guided-theme-fallback-review"
+  ],
   "tierCounts": {
-    "A": 24,
-    "B": 2
+    "A": 23,
+    "B": 3
   },
-  "riskCounts": {}
+  "riskCounts": {
+    "guided-theme-fallback-review": 1
+  }
 }

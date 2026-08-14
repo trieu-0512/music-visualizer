@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 4,
   "lines": [
     {
       "id": "intro-1",
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "At the bed edge, Q is Quail. Quick feet pass low | a small ground bird pecks and moves on.",
+      "text": "At the bed edge, Q is Quince. Firm yellow fruit grows on a shrub or small tree.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "By the path, X is Xylophone—our X-word helper | tuned bars rise and fall like a tiny garden scale.",
+      "text": "By the path, X is Xylem—tiny plant tubes carry water upward through the stem.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -404,7 +404,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Garden map Q ... Quail! Make tiny pecking finger taps.",
+      "text": "Garden map Q ... Quince! Pretend to pick it gently, then show the picture.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X ... Xylophone! Tap two fingers in the air like gentle xylophone mallets.",
+      "text": "Find X ... Xylem! Trace a line upward from roots to leaves.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

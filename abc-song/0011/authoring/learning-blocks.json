@@ -556,27 +556,28 @@
   },
   {
     "letter": "X",
-    "word": "Xylophone",
+    "word": "X-ray Vet Image",
     "mode": "letter-name",
-    "familiarity_tier": "A",
+    "familiarity_tier": "C",
     "letter_name_sound_cue": "embedded-final",
     "visual_confusability": "low",
     "phonological_name_confusability": "medium",
     "sequence_dependency_risk": "low",
-    "syllable_count": 3,
-    "stress_pattern": "S-w-w",
-    "pronunciation_note": "Working stress pattern; confirm naturally during L0 read-aloud and L1 audio review.",
-    "prosodic_motif_variant": "farm-porch-3syll",
+    "syllable_count": 5,
+    "stress_pattern": "S-S-S-S-w",
+    "pronunciation_note": "EX-RAY VET IM-age; transparent English compound.",
+    "prosodic_motif_variant": "farm-porch-4syll",
     "round1_objective": "lexical-semantic",
     "round2_objective": "retrieval-action",
     "retrieval_cue": "X",
     "retrieval_gap_plan": "one clear beat after each letter cue",
-    "congruent_action": "Tap two fingers in the air like gentle xylophone mallets.",
+    "congruent_action": "Point to the picture and name its job.",
     "rhyme_family": "near-clear",
     "visual_reveal_rule": "round1=line-start; round2=target-word",
     "contrast_notes": null,
     "risk_flags": [
-      "prosody-review"
+      "guided-theme-fallback-review",
+      "support-required"
     ]
   },
   {

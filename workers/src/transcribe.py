@@ -34,6 +34,7 @@ from pathlib import Path
 from typing import Any, Callable, Optional
 
 from src.align import build_lyrics, load_learning_map, load_original_lyrics, load_song_script
+from src.lrc_align import build_lyrics_from_lrc, parse_lrc
 from src.queue import Job
 from src.srt import lyrics_to_srt
 from src.store import AssetStore
@@ -52,6 +53,7 @@ WhisperxRunner = Callable[[str], dict]
 # Standardized artifact addresses (design: Storage layout). No caller builds paths.
 AUDIO_ROLE = "assets/audio"
 WHISPERX_ARTIFACT = "artifacts/whisperx.json"
+LRC_ARTIFACT = "artifacts/lrc-transcript.json"
 LYRICS_ARTIFACT = "artifacts/lyrics.json"
 SRT_ARTIFACT = "artifacts/lyrics.srt"
 
@@ -79,6 +81,49 @@ def handle_transcribe(
     audio_path = store.read_to_temp(job.project_id, AUDIO_ROLE)  # Req 3.1
     audio_sha256 = hashlib.sha256(Path(audio_path).read_bytes()).hexdigest()
     try:
+        lrc = _load_lrc(store, job.project_id)
+        if lrc is not None:
+            lrc_path, lrc_text = lrc
+            learning_map = load_learning_map(store, job.project_id)
+            song_script = load_song_script(store, job.project_id)
+            if song_script is None:
+                raise RuntimeError(
+                    f"LRC transcript found at {lrc_path}, but authoring/song-script.json is missing; "
+                    "refusing to invent canonical lyric text"
+                )
+            lyrics = build_lyrics_from_lrc(
+                lrc_text,
+                song_script,
+                learning_map,
+            )
+            transcript_sha256 = hashlib.sha256(lrc_text.encode("utf-8")).hexdigest()
+            lyrics["provenance"] = {
+                "audioSha256": audio_sha256,
+                "transcriptSha256": transcript_sha256,
+                "transcriptPath": lrc_path,
+                **(
+                    {"mappingRevision": int(learning_map["revision"])}
+                    if learning_map is not None
+                    else {}
+                ),
+                "songScriptMappingRevision": int(song_script["mappingRevision"]),
+            }
+            validate_lyrics_payload(lyrics)
+            store.write_json(
+                job.project_id,
+                LRC_ARTIFACT,
+                {
+                    "version": 1,
+                    "source": "lrc",
+                    "path": lrc_path,
+                    "sha256": transcript_sha256,
+                    "cueCount": len(parse_lrc(lrc_text)),
+                },
+            )
+            store.write_json(job.project_id, LYRICS_ARTIFACT, lyrics)
+            store.write_text(job.project_id, SRT_ARTIFACT, lyrics_to_srt(lyrics))
+            return [LRC_ARTIFACT, LYRICS_ARTIFACT, SRT_ARTIFACT]
+
         # WhisperX transcribe + align -> segments with optional word timing.
         whisperx_result = runner(audio_path)
         # Req 3.2/3.3/3.4: persist the raw transcription (segments + word timing).
@@ -117,6 +162,20 @@ def handle_transcribe(
         _cleanup_temp(audio_path)
 
     return [WHISPERX_ARTIFACT, LYRICS_ARTIFACT, SRT_ARTIFACT]
+
+
+def _load_lrc(store: AssetStore, project_id: str) -> tuple[str, str] | None:
+    """Return the deterministic first LRC under authoring, if one exists."""
+
+    paths = sorted(
+        path
+        for path in store.list(project_id, "authoring/")
+        if path.lower().endswith(".lrc")
+    )
+    if not paths:
+        return None
+    path = paths[0]
+    return path, store.read_text(project_id, path, encoding="utf-8-sig")
 
 
 def _cleanup_temp(path: str) -> None:

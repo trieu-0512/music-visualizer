@@ -5,45 +5,58 @@
   "range": "0041-0050",
   "songs": 10,
   "schemaAndSemanticFailures": 0,
-  "warnings": 4,
+  "warnings": 5,
   "designReworkSongs": 0,
   "uniqueHooks": 10,
   "uniqueStyles": 10,
   "uniqueSectionForms": 7,
   "uniqueCreativeFingerprints": 10,
-  "maxLyricSimilarity": 0.2288,
+  "maxLyricSimilarity": 0.059,
   "mostSimilarPair": [
-    "0041",
-    "0045"
+    "0048",
+    "0050"
   ],
   "batchWarnings": [],
   "songsDetail": [
     {
       "songId": "0041",
-      "theme": "Mountain Animals",
+      "theme": "Mountain Life",
       "targetLines": 52,
-      "lyricWordCount": 803,
+      "lyricWordCount": 966,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "is-for",
+        "letter-led-sentence",
         "narrative-or-other",
         "question-answer",
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
         "G",
+        "H",
         "I",
+        "J",
+        "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
         "Q",
+        "R",
+        "S",
+        "T",
         "U",
+        "V",
         "W",
-        "Y"
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -57,35 +70,54 @@
         ],
         "hasMidInterlude": true
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xenolith"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:Xenolith"
+      ]
     },
     {
       "songId": "0042",
       "theme": "Peaks & Valleys",
       "targetLines": 52,
-      "lyricWordCount": 807,
+      "lyricWordCount": 914,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
-        "action-first",
+        "direct-letter-object",
         "letter-led-sentence",
-        "narrative-or-other",
-        "object-first",
-        "question-answer"
+        "question-answer",
+        "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
         "G",
+        "H",
+        "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
+        "O",
+        "P",
         "Q",
+        "R",
+        "S",
+        "T",
         "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -98,31 +130,54 @@
         ],
         "hasMidInterlude": false
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xenolith"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:Xenolith"
+      ]
     },
     {
       "songId": "0043",
       "theme": "Alpine Nature",
       "targetLines": 52,
-      "lyricWordCount": 833,
+      "lyricWordCount": 885,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "narrative-or-other",
-        "object-first",
+        "letter-led-sentence",
         "question-answer",
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
+        "C",
+        "D",
         "E",
+        "F",
         "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
         "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
         "U",
-        "Y"
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -135,37 +190,55 @@
         ],
         "hasMidInterlude": false
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xenolith"
+      ],
       "errors": [],
       "warnings": [
-        "Round 1 chunk IJKL has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality",
-        "Round 1 chunk QRST has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+        "pronunciation review required: X:Xenolith"
       ]
     },
     {
       "songId": "0044",
       "theme": "Mountain Explorer",
       "targetLines": 52,
-      "lyricWordCount": 827,
+      "lyricWordCount": 914,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "is-for",
+        "letter-led-sentence",
         "narrative-or-other",
-        "object-first",
-        "question-answer"
+        "question-answer",
+        "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
+        "C",
+        "D",
         "E",
+        "F",
         "G",
+        "H",
         "I",
+        "J",
+        "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
         "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -178,34 +251,55 @@
         ],
         "hasMidInterlude": true
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xenolith"
+      ],
       "errors": [],
       "warnings": [
-        "Round 1 chunk QRST has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+        "pronunciation review required: X:Xenolith"
       ]
     },
     {
       "songId": "0045",
       "theme": "Trails & Glaciers",
       "targetLines": 52,
-      "lyricWordCount": 831,
+      "lyricWordCount": 875,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
-        "action-first",
         "direct-letter-object",
+        "letter-led-sentence",
         "narrative-or-other",
         "question-answer",
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
+        "C",
+        "D",
         "E",
+        "F",
         "G",
+        "H",
         "I",
+        "J",
+        "K",
+        "L",
         "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
         "U",
-        "Y"
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -218,39 +312,55 @@
         ],
         "hasMidInterlude": false
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xenolith"
+      ],
       "errors": [],
       "warnings": [
-        "Round 1 chunk QRST has no explicit rhyme-bearing line; acceptable when melody, cadence, imagery, or repetition carries the musicality"
+        "pronunciation review required: X:Xenolith"
       ]
     },
     {
       "songId": "0046",
       "theme": "Weather Watch",
       "targetLines": 52,
-      "lyricWordCount": 792,
+      "lyricWordCount": 960,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "is-for",
+        "letter-led-sentence",
         "narrative-or-other",
         "question-answer",
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
         "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
+        "Q",
+        "R",
         "S",
+        "T",
         "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -269,29 +379,44 @@
     },
     {
       "songId": "0047",
-      "theme": "Sky & Clouds",
+      "theme": "Sky, Clouds & Weather",
       "targetLines": 52,
-      "lyricWordCount": 801,
+      "lyricWordCount": 944,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
-        "action-first",
+        "direct-letter-object",
         "letter-led-sentence",
-        "narrative-or-other",
-        "object-first",
-        "question-answer"
+        "question-answer",
+        "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
+        "G",
+        "H",
         "I",
+        "J",
+        "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
+        "Q",
+        "R",
         "S",
+        "T",
         "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -310,32 +435,44 @@
     },
     {
       "songId": "0048",
-      "theme": "Weather Gear",
+      "theme": "Weather Gear & Conditions",
       "targetLines": 52,
-      "lyricWordCount": 813,
+      "lyricWordCount": 934,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "narrative-or-other",
-        "object-first",
+        "letter-led-sentence",
         "question-answer",
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
         "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
         "Q",
+        "R",
         "S",
+        "T",
         "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -357,30 +494,42 @@
       "songId": "0049",
       "theme": "Wind Rain & Snow",
       "targetLines": 52,
-      "lyricWordCount": 789,
+      "lyricWordCount": 836,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
         "direct-letter-object",
-        "is-for",
-        "narrative-or-other",
-        "object-first",
-        "question-answer"
+        "letter-led-sentence",
+        "question-answer",
+        "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
         "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
         "Q",
+        "R",
         "S",
+        "T",
         "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -399,31 +548,45 @@
     },
     {
       "songId": "0050",
-      "theme": "Weather Station",
+      "theme": "Weather Station & Sky",
       "targetLines": 52,
-      "lyricWordCount": 785,
+      "lyricWordCount": 880,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
-        "action-first",
         "direct-letter-object",
+        "letter-led-sentence",
         "narrative-or-other",
         "question-answer",
         "repeated-letter"
       ],
       "rhymeBearingRound1": [
         "A",
+        "B",
         "C",
+        "D",
         "E",
+        "F",
+        "G",
+        "H",
         "I",
+        "J",
         "K",
+        "L",
         "M",
+        "N",
         "O",
+        "P",
         "Q",
+        "R",
         "S",
+        "T",
         "U",
+        "V",
         "W",
-        "Y"
+        "X",
+        "Y",
+        "Z"
       ],
       "sectionForm": {
         "round1ChorusAfter": [

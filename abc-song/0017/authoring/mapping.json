@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
-    "name": "Flowers & Bugs",
+    "name": "Garden Flowers, Bugs & Helpers",
     "scope": "guided",
     "mappingAuthority": "project-locked",
     "ageBand": "mixed-2-6",
@@ -11,7 +11,7 @@
   },
   "letters": {
     "A": {
-      "object": "Apron",
+      "object": "Ant",
       "familiarityTier": "A"
     },
     "B": {
@@ -75,8 +75,11 @@
       "familiarityTier": "A"
     },
     "Q": {
-      "object": "Quail",
-      "familiarityTier": "A"
+      "object": "Queen Butterfly",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
     },
     "R": {
       "object": "Radish",

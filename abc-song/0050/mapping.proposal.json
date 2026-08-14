@@ -3,8 +3,8 @@
   "state": "PROPOSED",
   "songId": "0050",
   "theme": {
-    "name": "Weather Station",
-    "semanticFocus": "Weather Station",
+    "name": "Weather Station & Sky",
+    "semanticFocus": "Weather Station & Sky",
     "macroDomain": "Weather & Sky",
     "scope": "guided",
     "ageBand": "mixed-2-6",
@@ -82,7 +82,7 @@
       "object": "Wind"
     },
     "X": {
-      "object": "Xylophone"
+      "object": "X-band Radar"
     },
     "Y": {
       "object": "Yellow Sun"

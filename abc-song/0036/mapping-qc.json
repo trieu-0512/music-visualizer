@@ -1,21 +1,22 @@
 {
   "songId": "0036",
-  "theme": "Polar Animals",
+  "theme": "Polar Life",
   "macroDomain": "Arctic & Polar",
   "status": "PASS_WITH_SUPPORT",
   "hardFailures": [],
   "warnings": [
+    "X -> X-shaped Snowflake: guided-theme-fallback-review, verify-pronunciation",
     "Y -> Yellow-billed Loon: verify-pronunciation",
     "Z -> Zoarcid Fish: guided-theme-fallback-review, support-required, verify-pronunciation"
   ],
   "tierCounts": {
-    "A": 17,
-    "B": 8,
+    "A": 16,
+    "B": 9,
     "C": 1
   },
   "riskCounts": {
-    "verify-pronunciation": 2,
-    "guided-theme-fallback-review": 1,
+    "guided-theme-fallback-review": 2,
+    "verify-pronunciation": 3,
     "support-required": 1
   }
 }

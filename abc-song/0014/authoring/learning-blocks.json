@@ -120,28 +120,26 @@
   },
   {
     "letter": "F",
-    "word": "Farmer",
+    "word": "Fence",
     "mode": "letter-name",
     "familiarity_tier": "A",
     "letter_name_sound_cue": "embedded-final",
     "visual_confusability": "low",
     "phonological_name_confusability": "low",
     "sequence_dependency_risk": "medium",
-    "syllable_count": 2,
-    "stress_pattern": "S-w",
-    "pronunciation_note": "Working stress pattern; confirm naturally during L0 read-aloud and L1 audio review.",
-    "prosodic_motif_variant": "sunrise-sway-2syll",
+    "syllable_count": 1,
+    "stress_pattern": "S",
+    "pronunciation_note": null,
+    "prosodic_motif_variant": "sunrise-sway-1syll",
     "round1_objective": "lexical-semantic",
     "round2_objective": "retrieval-action",
     "retrieval_cue": "F",
     "retrieval_gap_plan": "two supportive beats between cue and answer",
-    "congruent_action": "Point to the matching picture, then make one small shape gesture.",
+    "congruent_action": "Hold fingers upright like fence posts.",
     "rhyme_family": "bright-right",
     "visual_reveal_rule": "round1=line-start; round2=target-word",
     "contrast_notes": null,
-    "risk_flags": [
-      "prosody-review"
-    ]
+    "risk_flags": []
   },
   {
     "letter": "G",

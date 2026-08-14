@@ -47,6 +47,7 @@ from abc_creative_gold_v5_176_180 import GOLD_V5_176_180_SPEC_PATCHES
 from abc_creative_gold_v5_181_185 import GOLD_V5_181_185_SPEC_PATCHES
 from abc_creative_gold_v5_186_190 import GOLD_V5_186_190_SPEC_PATCHES
 from abc_creative_gold_v5_191_195 import GOLD_V5_191_195_SPEC_PATCHES
+from abc_creative_gold_v5_196_200 import GOLD_V5_196_200_SPEC_PATCHES
 from abc_creative_gold_v5_101_200_support import OBJECT_CRAFT_REGISTRY
 from abc_creative_v4_11_50 import (
     object_craft as object_craft_v4_11_50,
@@ -63,6 +64,360 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "abc-song"
 LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 CHUNKS = ("ABCD", "EFGH", "IJKL", "MNOP", "QRST", "UVWX", "YZ")
+VISUAL_PROMPT_CANVAS = "1376x768"
+VISUAL_PROMPT_LETTER_AREA = "x=35..597, y=78..636"
+VISUAL_PROMPT_OBJECT_AREA = "x=642..1320, y=78..636"
+VISUAL_PROMPT_GUTTER = "x=598..641"
+BACKGROUND_COLOR_SEPARATION_RULE = (
+    "COLOR SEPARATION CONTRACT: use a muted environmental palette with low-to-medium saturation. "
+    "The background must not reuse the dominant foreground colors as large regions. Keep the dominant "
+    "background hue, value, and saturation different from the letter and object's colors so the "
+    "foreground subjects remain clearly separated; do not put matching saturated color blocks behind them."
+)
+
+# The letter keeps one rendering language per song, but its assigned color and
+# material deliberately rotate across the alphabet so generation does not
+# collapse every letter to the same blue default.
+LETTER_COLOR_SWATCHES: tuple[tuple[str, str], ...] = (
+    ("coral red", "#E76F61"),
+    ("sunlit yellow", "#F4C95D"),
+    ("leaf green", "#79A95B"),
+    ("apricot orange", "#F29E62"),
+    ("shell pink", "#E8A0A8"),
+    ("plum violet", "#9274B8"),
+    ("warm ivory", "#F1E4C8"),
+    ("berry red", "#C95766"),
+    ("meadow mint", "#72B7A0"),
+    ("earth brown", "#9A6948"),
+)
+
+LETTER_DOMAIN_MATERIALS: dict[str, tuple[str, ...]] = {
+    "ocean": (
+        "smooth coral-clay with rounded beveled edges",
+        "sun-warmed shell ceramic with a satin finish",
+        "matte seaweed-fiber clay with a soft tactile grain",
+        "polished beach-glass resin with restrained inner highlights",
+        "pearlescent shell material with a gentle nacre sheen",
+        "smooth driftwood composite with rounded carved edges",
+        "soft pearl resin with a clean child-friendly bevel",
+        "polished reef-clay with controlled satin highlights",
+        "sea-grass felted clay with a neat tactile surface",
+        "warm sand-colored ceramic with a quiet satin surface",
+    ),
+    "freshwater": (
+        "smooth river-stone clay with rounded beveled edges",
+        "sunlit reed-fiber ceramic with a satin finish",
+        "matte lily-pad clay with a soft tactile grain",
+        "polished water-worn glass resin with restrained highlights",
+        "pearlescent freshwater-shell ceramic with a gentle sheen",
+        "smooth willow-wood composite with rounded carved edges",
+        "soft river-pearl resin with a clean child-friendly bevel",
+        "polished pond-stone clay with controlled satin highlights",
+        "fresh reed-felted clay with a neat tactile surface",
+        "warm riverbank ceramic with a quiet satin surface",
+    ),
+    "farm": (
+        "smooth painted barn-clay with rounded beveled edges",
+        "sun-warmed straw-fiber ceramic with a satin finish",
+        "matte leaf-and-stem clay with a soft tactile grain",
+        "polished harvest-wood resin with restrained highlights",
+        "soft gingham-fabric clay with a gentle woven sheen",
+        "smooth painted wagon-wood composite with rounded edges",
+        "clean milk-glass resin with a child-friendly bevel",
+        "polished apple-crate clay with controlled satin highlights",
+        "fresh hay-felted clay with a neat tactile surface",
+        "warm soil-colored ceramic with a quiet satin surface",
+    ),
+    "garden": (
+        "smooth garden-clay with rounded beveled edges",
+        "sun-warmed seed-ceramic with a satin finish",
+        "matte leaf-fiber clay with a soft tactile grain",
+        "polished terracotta resin with restrained highlights",
+        "soft petal-felted clay with a gentle velvety sheen",
+        "smooth trellis-wood composite with rounded carved edges",
+        "clean greenhouse-glass resin with a child-friendly bevel",
+        "polished berry-clay with controlled satin highlights",
+        "fresh moss-felted clay with a neat tactile surface",
+        "warm potting-soil ceramic with a quiet satin surface",
+    ),
+    "forest": (
+        "smooth bark-clay with rounded beveled edges",
+        "sun-warmed acorn ceramic with a satin finish",
+        "matte fern-fiber clay with a soft tactile grain",
+        "polished pinecone resin with restrained highlights",
+        "soft mushroom-cap clay with a gentle natural sheen",
+        "smooth carved woodland-wood composite with rounded edges",
+        "clean dew-drop resin with a child-friendly bevel",
+        "polished berry-bark clay with controlled satin highlights",
+        "fresh moss-felted clay with a neat tactile surface",
+        "warm forest-floor ceramic with a quiet satin surface",
+    ),
+    "rainforest": (
+        "smooth tropical-leaf clay with rounded beveled edges",
+        "sun-warmed seed-pod ceramic with a satin finish",
+        "matte vine-fiber clay with a soft tactile grain",
+        "polished rain-drop resin with restrained highlights",
+        "soft orchid-petal clay with a gentle natural sheen",
+        "smooth palm-wood composite with rounded carved edges",
+        "clean jungle-fruit resin with a child-friendly bevel",
+        "polished bromeliad-clay with controlled satin highlights",
+        "fresh moss-felted clay with a neat tactile surface",
+        "warm rainforest-soil ceramic with a quiet satin surface",
+    ),
+    "desert": (
+        "smooth sun-baked clay with rounded beveled edges",
+        "warm sandstone ceramic with a satin finish",
+        "matte desert-grass fiber clay with a soft tactile grain",
+        "polished desert-glass resin with restrained highlights",
+        "soft cactus-bloom clay with a gentle natural sheen",
+        "smooth mesquite-wood composite with rounded carved edges",
+        "clean mineral resin with a child-friendly bevel",
+        "polished canyon-clay with controlled satin highlights",
+        "dry dune-felted clay with a neat tactile surface",
+        "warm terracotta ceramic with a quiet satin surface",
+    ),
+    "polar": (
+        "smooth packed-snow clay with rounded beveled edges",
+        "sunlit ice ceramic with a satin finish",
+        "matte winter-grass fiber clay with a soft tactile grain",
+        "polished frost-glass resin with restrained highlights",
+        "soft arctic-wool clay with a gentle natural sheen",
+        "smooth pale driftwood composite with rounded carved edges",
+        "clean snow-pearl resin with a child-friendly bevel",
+        "polished glacier-clay with controlled satin highlights",
+        "fresh lichen-felted clay with a neat tactile surface",
+        "warm cocoa-colored ceramic with a quiet satin surface",
+    ),
+    "mountain": (
+        "smooth alpine-clay with rounded beveled edges",
+        "sun-warmed granite ceramic with a satin finish",
+        "matte mountain-grass fiber clay with a soft tactile grain",
+        "polished clear-crystal resin with restrained highlights",
+        "soft wildflower-petal clay with a gentle natural sheen",
+        "smooth pine-wood composite with rounded carved edges",
+        "clean snowcap resin with a child-friendly bevel",
+        "polished slate-clay with controlled satin highlights",
+        "fresh moss-felted clay with a neat tactile surface",
+        "warm earthstone ceramic with a quiet satin surface",
+    ),
+    "weather": (
+        "smooth cloud-clay with rounded beveled edges",
+        "sun-warmed raincoat ceramic with a satin finish",
+        "matte wind-ribbon fiber clay with a soft tactile grain",
+        "polished raindrop resin with restrained highlights",
+        "soft sunset-sky clay with a gentle natural sheen",
+        "smooth weather-vane wood composite with rounded carved edges",
+        "clean ice-crystal resin with a child-friendly bevel",
+        "polished storm-cloud clay with controlled satin highlights",
+        "fresh meadow-air felted clay with a neat tactile surface",
+        "warm lightning-stone ceramic with a quiet satin surface",
+    ),
+}
+
+# From 0002 onward, letter design follows the mapped object's visible family
+# instead of a fixed alphabet-wide palette. The render language remains stable
+# within a song; only the object-aware color/material assignment changes.
+OBJECT_FIT_LETTER_DESIGNS: dict[str, tuple[tuple[str, str, str], ...]] = {
+    "water": (
+        ("sea-glass teal", "#4BAEA7", "smooth sea-glass ceramic with rounded beveled edges"),
+        ("shell coral", "#E68D7A", "pearlescent shell-clay with a soft satin sheen"),
+        ("river-stone gray", "#87979B", "smooth water-worn stone composite with clean edges"),
+        ("reed gold", "#C7A34A", "sun-dried reed-fiber ceramic with restrained highlights"),
+    ),
+    "plant": (
+        ("leaf green", "#6F9D5B", "matte leaf-fiber clay with subtle tactile grain"),
+        ("terracotta orange", "#C97852", "warm terracotta ceramic with a rounded bevel"),
+        ("stem olive", "#879447", "smooth botanical resin with quiet satin highlights"),
+        ("petal pink", "#D98F9E", "soft petal-clay with a delicate velvety finish"),
+    ),
+    "food": (
+        ("pumpkin orange", "#E58B45", "smooth produce-wax ceramic with a satin finish"),
+        ("berry red", "#C95663", "polished fruit-clay with controlled inner highlights"),
+        ("grain gold", "#D4A64F", "fine grain-fiber ceramic with a warm matte surface"),
+        ("root brown", "#9A6B4A", "earthy root-clay with a clean rounded bevel"),
+    ),
+    "animal": (
+        ("fur chestnut", "#A96D4A", "soft brushed-fur clay with a neat tactile surface"),
+        ("wool cream", "#E9D9B7", "smooth wool-felt composite with rounded edges"),
+        ("hide charcoal", "#59636B", "matte hide-like clay with restrained highlights"),
+        ("sunlit ochre", "#D4A34D", "warm hide-colored ceramic with a soft satin finish"),
+    ),
+    "bird": (
+        ("feather gold", "#D9A441", "smooth feather-fiber ceramic with layered highlights"),
+        ("wing coral", "#D97770", "soft feather-clay with rounded layered edges"),
+        ("plume green", "#629A78", "matte plume-fiber resin with a quiet tactile finish"),
+        ("beak ivory", "#E8D8B7", "smooth beak-toned ceramic with a child-friendly bevel"),
+    ),
+    "insect": (
+        ("amber gold", "#D49A3A", "smooth wing-case ceramic with a satin finish"),
+        ("garden green", "#6F9C59", "matte leaf-clay with tiny tactile grain"),
+        ("honey yellow", "#E9B949", "polished pollen-wax resin with restrained highlights"),
+        ("beetle plum", "#735878", "smooth shell-lacquer clay with a soft rounded bevel"),
+    ),
+    "earth": (
+        ("slate gray", "#68727A", "smooth slate composite with clean beveled edges"),
+        ("granite rose", "#B88778", "fine granite-inspired ceramic with a satin surface"),
+        ("sand ochre", "#C99652", "soft sandstone clay with restrained inner highlights"),
+        ("mineral ivory", "#E5D8BE", "smooth mineral-resin material with a rounded bevel"),
+    ),
+    "weather": (
+        ("cloud ivory", "#EDE2CE", "soft cloud-clay with a rounded matte surface"),
+        ("frost mint", "#A7D3C6", "cool frost-glass resin with restrained inner highlights"),
+        ("sun gold", "#E6B348", "warm sunlight ceramic with a satin finish"),
+        ("storm violet", "#8B789F", "smooth storm-sky clay with controlled soft highlights"),
+    ),
+    "technical": (
+        ("signal amber", "#D9953D", "smooth painted-enamel ceramic with a clean satin surface"),
+        ("diagnostic gray", "#8796A0", "smooth diagnostic-film resin with restrained highlights"),
+        ("instrument red", "#C85D57", "rounded equipment-enamel clay with a soft polished finish"),
+        ("paper ivory", "#E8DDC8", "clean coated-paper composite with a child-friendly bevel"),
+    ),
+    "textile": (
+        ("denim blue", "#54779A", "soft woven-denim composite with visible but clean fiber direction"),
+        ("linen cream", "#E8DCC4", "fine linen-fiber clay with a gentle matte finish"),
+        ("raincoat yellow", "#E4B447", "smooth coated-fabric resin with rounded edges"),
+        ("berry thread", "#B85F72", "soft spun-thread composite with controlled tactile detail"),
+    ),
+    "theme": (
+        ("warm coral", "#D9796D", "smooth child-friendly clay with rounded beveled edges"),
+        ("sunlit ochre", "#D4A34D", "painted ceramic with a soft satin finish"),
+        ("meadow mint", "#72B7A0", "matte botanical resin with restrained tactile highlights"),
+    ),
+}
+
+
+def _visual_object_family(obj: str, domain: str) -> str:
+    """Classify an object by visible real-world family for letter styling."""
+
+    text = obj.casefold()
+    if any(token in text for token in ("x-ray", "radar", "gauge", "meter", "thermometer", "anemometer", "pump", "tool", "tractor", "vane", "voltmeter")):
+        return "technical"
+    if any(token in text for token in ("coat", "boot", "jacket", "mittens", "earmuff", "apron", "yarn", "quilt", "rope", "tent", "fabric", "cloth", "kite", "knot", "nest", "umbrella")):
+        return "textile"
+    if any(token in text for token in ("altocumulus", "cloud", "drizzle", "jet stream", "rain", "wind", "breeze", "gust", "storm", "snow", "frost", "ice", "icicle", "hail", "lightning", "fog", "mist", "dew", "overcast", "puddle", "quiet sky", "rainbow", "sun", "thunder", "vapor", "weather", "zephyr", "updraft", "night sky", "sky")):
+        return "weather"
+    if any(token in text for token in ("anchor", "beluga", "boat", "buoy", "canoe", "cod", "coral", "crab", "dolphin", "danio", "dock", "eel", "estuary", "fish", "flipper", "grouper", "harbor", "icefish", "island", "isopod", "jellyfish", "jetty", "kayak", "kelp", "krill", "lake", "lagoon", "lobster", "manatee", "minnow", "mussel", "nautilus", "narwhal", "ocean", "oasis", "octopus", "orca", "oyster", "perch", "pike", "pond", "quahog", "qajaq", "ray", "reef", "river", "sea", "seal", "shark", "shore", "tadpole", "tang", "tetra", "tide", "trout", "tuna", "urchin", "umiak", "vessel", "wave", "water", "whale", "yellowfin", "zooplankton")):
+        return "water"
+    if any(token in text for token in ("butterfly", "swallowtail", "bee", "ant", "beetle", "bug", "dragonfly", "ladybug", "longwing", "worm", "scorpion", "moth", "insect")):
+        return "insect"
+    if any(token in text for token in ("bird", "auk", "drongo", "eagle", "duck", "eider", "egret", "finch", "fulmar", "goose", "grouse", "gull", "hen", "heron", "hornbill", "jay", "jaeger", "kestrel", "kingfisher", "kittiwake", "loon", "murre", "nutcracker", "owl", "parrot", "pelican", "puffin", "quail", "quetzal", "roadrunner", "rooster", "scoter", "swan", "tern", "toucan", "vulture", "warbler", "wren", "woodpecker", "dovekie", "falcon", "hawk", "macaw", "xenops")):
+        return "bird"
+    if any(token in text for token in ("alligator", "anaconda", "armadillo", "bat", "bear", "beaver", "bighorn", "boa", "camel", "caribou", "chameleon", "chicken", "chipmunk", "cow", "deer", "donkey", "ewe", "ermine", "fennec", "fox", "frog", "gecko", "gila", "goat", "gorilla", "hedgehog", "horned lizard", "husky", "ibex", "iguana", "jaguar", "kangaroo", "kinkajou", "lamb", "leopard", "lemming", "lizard", "lynx", "marmot", "meerkat", "monkey", "mule", "muskrat", "musk ox", "newt", "ocelot", "orca", "oryx", "otter", "ox", "pika", "pig", "rabbit", "rattlesnake", "reindeer", "salamander", "sheep", "sloth", "snake", "squirrel", "tapir", "tortoise", "turtle", "udder", "uakari", "urial", "viper", "vole", "walrus", "wolf", "xerus", "yak", "zebu")):
+        return "animal"
+    if any(token in text for token in ("egg", "fruit", "apple", "bean", "carrot", "grain", "hay", "kernel", "milk", "nectarine", "pea", "yam", "tomato", "quince", "wheat", "zucchini", "onion", "radish", "kale", "vegetable", "crop", "harvest", "melon", "potato")):
+        return "food"
+    if any(token in text for token in ("acorn", "agave", "alder", "aspen", "banana", "birch", "cedar", "cactus", "daisy", "douglas fir", "edelweiss", "evergreen", "euphorbia", "fern", "fir", "flower", "green algae", "grass", "hay", "herb", "hydrilla", "iris", "ivy", "jasmine", "juniper", "lavender", "leaf", "liana", "lily", "log", "maple", "marigold", "mesquite", "moss", "mushroom", "nasturtium", "nopales", "oak", "orchard", "orchid", "palm", "pine", "pinecone", "plant", "quillwort", "reed", "rattan", "rose", "shrub", "sedge", "seed", "spruce", "tree", "tumbleweed", "underbrush", "vallisneria", "vine", "violet", "wheat", "xylem", "yarrow", "yew", "yucca", "xerophyte", "zinnia")):
+        return "plant"
+    if any(token in text for token in ("boulder", "cliff", "compost", "dirt", "dune", "floe", "glacier", "iceberg", "icefall", "ledge", "limestone", "mountain", "mulch", "outcrop", "quartz", "ridge", "rock", "sand", "soil", "stone", "summit", "trail", "tundra", "upland meadow", "valley", "wadi", "xenolith")):
+        return "earth"
+    if any(token in text for token in ("barn", "bucket", "cabin", "cart", "dam", "fence", "garden gate", "gate", "hoe", "hose", "ice chest", "jar", "jug", "kettle", "kneeling pad", "ladder", "oar", "pad", "pitchfork", "pot", "rake", "scarecrow", "sled", "trough", "trowel", "utility cart", "vegetable basket", "vet kit", "wagon")):
+        return "technical"
+    if domain in {"ocean", "freshwater"}:
+        return "water"
+    if domain in {"weather", "polar"}:
+        return "weather"
+    if domain in {"desert", "mountain"}:
+        return "earth"
+    if domain in {"garden", "forest", "rainforest"}:
+        return "plant"
+    return "theme"
+
+
+OBJECT_CARTOONIZATION_MODES: dict[str, str] = {
+    "water": (
+        "Use a friendly educational storybook cutout: preserve the real silhouette, natural color family, "
+        "and key anatomy, but simplify it into rounded soft 3D or clean vector shapes. Give living subjects a "
+        "calm readable pose and gentle expression only when appropriate; no aggression, gore, exposed internal "
+        "parts, sharp teeth, threatening eyes, or scary attack scene."
+    ),
+    "plant": (
+        "Use a cheerful botanical illustration or soft clay-like cutout: keep the real leaf, stem, root, flower, "
+        "or tissue structure recognizable, simplify fine detail into broad clean shapes, and use natural plant "
+        "colors and materials. Do not add a face, fantasy glow, readable labels, or an invented flower form."
+    ),
+    "food": (
+        "Use a friendly preschool produce cutout: keep the real crop or fruit silhouette, skin color, rind, peel, "
+        "root, or seed cues, then soften edges and simplify details for easy recognition. Keep it appetizing but "
+        "not anthropomorphic; no candy recoloring, bite marks, knives, mess, or artificial sparkle."
+    ),
+    "animal": (
+        "Use a gentle natural-history cartoon model: preserve species silhouette, body proportions, fur/skin/feather "
+        "color family, and one or two defining features, while rounding forms and choosing a calm non-threatening "
+        "pose. No chasing, attack, open mouth, gore, oversized claws, menacing eyes, or frightening realism."
+    ),
+    "bird": (
+        "Use a soft educational bird illustration or rounded 3D model: preserve the real beak, feather pattern, "
+        "wing shape, and body proportions, but simplify feather detail and use a calm perched or gentle flying "
+        "pose. No attack, sharp talon emphasis, scary eyes, or exaggerated human behavior."
+    ),
+    "insect": (
+        "Use a clear friendly macro-cartoon cutout: preserve the real body segments, leg count, wing/case pattern, "
+        "and natural color/material cues, but round edges and reduce tiny detail so preschoolers can identify it. "
+        "No venom emphasis, stinger attack, gore, swarming threat, or unnaturally giant horror styling."
+    ),
+    "earth": (
+        "Use a tactile educational specimen illustration: preserve the real rock, mineral, trail, landform, or "
+        "geological relationship, simplify layers into clean readable shapes, and round dangerous edges slightly "
+        "without changing the identity. No explosion, sharp hazard emphasis, fantasy crystal glow, or scenery clutter."
+    ),
+    "weather": (
+        "Use a soft weather-symbol or gentle storybook cutout: preserve the real cloud, ice, snow, wind, light, or "
+        "weather-pattern cues, simplify them into calm rounded vector or clay shapes, and keep the phenomenon "
+        "educational rather than threatening. No disaster drama, lightning attack, dark horror sky, or busy storm scene."
+    ),
+    "technical": (
+        "Use a clean child-safe educational prop or simplified diagram-like object: preserve the real function, "
+        "recognizable parts, material, and proportions, but round corners and remove hazardous realism. Show tools "
+        "and instruments at rest, with no operation by children, heat, electricity, radiation danger, sharp edge, "
+        "clinical body detail, warning text, or scary medical imagery."
+    ),
+    "textile": (
+        "Use a soft material-focused preschool cutout: preserve the real textile, weave, closure, clothing, or "
+        "shelter shape and natural material cues, simplify fibers into clean broad forms, and round hard parts. No "
+        "tangles around a body, unsafe use, sharp hardware emphasis, or fashion-character anthropomorphism."
+    ),
+    "theme": (
+        "Use a friendly preschool storybook or clean vector cutout that preserves the object's real silhouette, "
+        "natural color family, material cues, and defining construction. Simplify fine detail, round edges, and "
+        "choose a calm readable pose; do not turn it into a generic toy, scary realistic scene, fantasy prop, or "
+        "human-like character."
+    ),
+}
+
+
+def _visual_prompt_domain(sid: str) -> str:
+    """Return the stable visual domain used for a song's letter material set."""
+
+    number = int(sid)
+    domains = (
+        "ocean",
+        "freshwater",
+        "farm",
+        "garden",
+        "forest",
+        "rainforest",
+        "desert",
+        "polar",
+        "mountain",
+        "weather",
+    )
+    return domains[min((number - 1) // 5, len(domains) - 1)]
+
+
+def _letter_design_spec(sid: str, letter: str, obj: str = "") -> tuple[str, str, str]:
+    """Return an object-aware letter color/material, preserving the 0001 test fixture."""
+
+    domain = _visual_prompt_domain(sid)
+    if sid == "0001":
+        index = LETTERS.index(letter) % len(LETTER_COLOR_SWATCHES)
+        color, hex_value = LETTER_COLOR_SWATCHES[index]
+        material = LETTER_DOMAIN_MATERIALS[domain][index]
+        return color, hex_value, material
+
+    family = _visual_object_family(obj, domain)
+    options = OBJECT_FIT_LETTER_DESIGNS[family]
+    stable_index = sum(ord(char) for char in f"{sid}:{letter}:{obj}") % len(options)
+    return options[stable_index]
 
 
 @dataclass(frozen=True)
@@ -860,6 +1215,8 @@ def creative_spec(profile: SongProfile) -> CreativeSpec | None:
         payload = {**(payload or {}), **GOLD_V5_186_190_SPEC_PATCHES[profile.song_id]}
     if profile.song_id in GOLD_V5_191_195_SPEC_PATCHES:
         payload = {**(payload or {}), **GOLD_V5_191_195_SPEC_PATCHES[profile.song_id]}
+    if profile.song_id in GOLD_V5_196_200_SPEC_PATCHES:
+        payload = {**(payload or {}), **GOLD_V5_196_200_SPEC_PATCHES[profile.song_id]}
     return CreativeSpec(**payload) if payload is not None else None
 
 
@@ -1123,7 +1480,12 @@ def object_prompt_pack(mapping: dict[str, Any], profile: SongProfile) -> dict[st
             "object": obj,
             "prompt": (
                 f"Preschool source-composite extraction image for letter {letter} and {obj}. "
-                f"{profile.visual_style}. Show one large stylized uppercase {letter} on the left and exactly one clear {obj} on the right, "
+                f"{profile.visual_style}. Show one large stylized uppercase {letter} on the left and exactly one clear {obj} on the right. "
+                f"The {obj} must look like its real-world counterpart: preserve true-to-life colors, physical material, "
+                "recognizable surface texture, proportions, and construction details. Keep the friendly 3D rendering "
+                "but do not recolor or turn the object into an arbitrary toy, candy, plastic, metallic, or abstract prop. "
+                "Use a bold letter color and a contrasting object presentation that remain visibly different from the "
+                "background's dominant colors. "
                 "both fully visible, separated with generous safe margin, no overlap, no extra letters, no words, no duplicate objects, "
                 "simple temporary background with strong foreground contrast, centered composition, clean contours suitable for segmentation into transparent letter and object PNGs."
             ),
@@ -1137,6 +1499,187 @@ def object_prompt_pack(mapping: dict[str, Any], profile: SongProfile) -> dict[st
         "semantic": "source-composite-extraction-pack",
         "letters": items,
     }
+
+
+def _visual_object_description(profile: SongProfile, obj: str) -> str:
+    craft = curated_object_craft(profile, obj)
+    if craft is not None:
+        return craft[0]
+    return f"{obj} is shown as a recognizable real-world subject with its characteristic shape, material, and surface details."
+
+
+def visual_prompt_records(
+    sid: str,
+    mapping: dict[str, Any],
+    profile: SongProfile,
+    *,
+    foreground_mode: str = "white",
+) -> list[dict[str, str]]:
+    """Build the 28-line JSONL pack for white-matte or transparent SVG foregrounds."""
+
+    if foreground_mode not in {"white", "no-background"}:
+        raise ValueError(f"Unsupported foreground prompt mode: {foreground_mode}")
+
+    theme = mapping["theme"]["name"]
+    style = profile.visual_style
+    consistency_rule = (
+        "The 26 prompts in this song must share the same rendering direction, lighting, edge softness, "
+        "surface finish for the letter, compositing quality, and preschool art direction. The song keeps one "
+        "stable camera/framing language, light direction, bevel treatment, and shading discipline; only the "
+        "letter's assigned color/material, object-aware cartoonization mode, and object's natural identity vary. "
+        "Family-specific cartoonization may change the surface treatment while the song-level style stays stable. Each mapped object "
+        "keeps its own real-world color family, physical material, surface texture, proportions, and recognizable "
+        "construction; do not force every object into one artificial palette or material."
+    )
+    if foreground_mode == "white":
+        foreground_open = (
+            "Children's educational foreground cutout asset on a full-canvas solid pure white #FFFFFF matte for "
+            "alpha removal only, not a real scene."
+        )
+        background_contract = (
+            "Every pixel outside the letter, object, and exact object word must be solid pure white #FFFFFF. "
+            "Do not use transparency, checkerboard, or any non-white background area."
+        )
+        output_contract = (
+            "This is a white-matte source image for later alpha extraction; keep the matte flat and clean."
+        )
+    else:
+        foreground_open = (
+            "Children's educational foreground vector cutout asset for SVG generation. Use a real transparent "
+            "background with SVG viewBox=\"0 0 1376 768\"; this is not a scene and must not contain a white matte."
+        )
+        background_contract = (
+            "Outside the letter, object, and exact object word, the SVG must remain fully transparent. Do not "
+            "draw a white rectangle, background color, checkerboard, scene, matte, or canvas fill."
+        )
+        output_contract = (
+            "Deliver clean SVG-compatible vector paths or editable SVG text with closed silhouettes and no raster "
+            "background. Soft shading is allowed only inside the letter and object shapes."
+        )
+
+    foreground_records: list[dict[str, str]] = []
+    for letter in LETTERS:
+        obj = mapping["letters"][letter]["object"]
+        object_description = _visual_object_description(profile, obj)
+        letter_family = _visual_object_family(obj, _visual_prompt_domain(sid))
+        object_cartoonization = OBJECT_CARTOONIZATION_MODES[letter_family]
+        letter_color, letter_hex, letter_material = _letter_design_spec(sid, letter, obj)
+        letter_design_spec = (
+            f"LETTER DESIGN SPEC: color={letter_color}; hex={letter_hex}; material={letter_material}; "
+            f"apply this assignment to the uppercase letter only. OBJECT-FIT LETTER DESIGN: this assignment is "
+            f"chosen to complement the mapped object's real-world {letter_family} family and the song theme; "
+            "keep the object in its own natural colors and material. The assigned letter color and material may "
+            "vary from other letters in this song, but keep the same rendering direction, lighting, bevel, and "
+            "edge treatment across all 26 assets; do not replace the assigned letter color or material with a "
+            "default blue."
+        )
+        prompt = (
+            f"{foreground_open} Canvas {VISUAL_PROMPT_CANVAS}. Theme: {theme}. "
+            f"Song visual direction: {style}. {consistency_rule} {letter_design_spec} "
+            f"OBJECT DESCRIPTION: {object_description} "
+            f"OBJECT CARTOONIZATION MODE ({letter_family}): {object_cartoonization} "
+            f"REAL-WORLD OBJECT FIDELITY: {obj} must look like its real-world counterpart: preserve its true-to-life colors, "
+            "natural or physical material, recognizable surface texture, construction details, proportions, and light "
+            "response. Keep the clean polished 3D preschool rendering and soft edges, but do not recolor, repaint, or "
+            f"turn the {obj} into a generic toy, candy, plastic, metallic, or abstract theme prop. "
+            "FOREGROUND COLOR SEPARATION: use the assigned letter color as a child-friendly complement to the mapped "
+            "object and song theme, but do not force a color or material onto the object. Keep the object's natural colors and make both "
+            "subjects clearly separable from the song background by hue, value, or saturation when composited; their "
+            "colors must be different from the background's dominant colors. "
+            f"LEFT SIDE: uppercase letter {letter} made from the assigned {letter_color} {letter_material}, with "
+            f"gentle bevels and subtle internal highlights. Place it inside an invisible layout area "
+            f"{VISUAL_PROMPT_LETTER_AREA}, centered around x=316, y=357, height about 538px. "
+            "The layout area must not be visible. "
+            f"RIGHT SIDE: {obj}, clear and recognizable for preschool children, rendered with the same clean preschool "
+            f"rendering, lighting, and edge clarity as the letter while preserving its own real-world material and color identity. "
+            "Place the object and its word as one grouped unit inside an invisible layout area "
+            f"{VISUAL_PROMPT_OBJECT_AREA}, centered around x=981, y=357, longest dimension about 538px, no cropping. "
+            f"Below the {obj}, render the exact object word \"{obj}\" in clear child-readable title case, centered "
+            "directly underneath the object and inside the same invisible object area. The exact object word is the "
+            "only permitted text; do not add any other label or caption. "
+            f"Keep {VISUAL_PROMPT_GUTTER} empty as a clean separation gutter. The x/y coordinates and layout areas "
+            "are invisible placement instructions only. Never draw their rectangles, borders, guide lines, measurement "
+            "marks, coordinate text, crop frames, or box outlines. "
+            f"Only the big letter {letter}, the single {obj}, and the exact object word \"{obj}\" are allowed. "
+            "Do not render any other letters, lowercase letters, words, numbers, symbols, labels, captions, logos, "
+            "watermarks, people, characters, extra objects, scenery, frame, border, guide box, visible coordinates, "
+            "outline, halo, sticker edge, background shadow, or processing surface. The object itself must contain no "
+            "text or letter-like markings. "
+            f"{background_contract} {output_contract}"
+        )
+        foreground_records.append({
+            "id": f"{sid}{letter}",
+            "type": "letter_object",
+            "letter": letter,
+            "object": obj,
+            "prompt": prompt,
+        })
+
+    background_prompt = (
+        f"Create a separate 16:9 background image for a children's {profile.title} ABC music video. "
+        f"Canvas {VISUAL_PROMPT_CANVAS}. Theme: {theme}. {style}. Use theme-appropriate scenery, materials, "
+        f"gentle depth, and friendly daylight that fit the song's world. {BACKGROUND_COLOR_SEPARATION_RULE} This is a background-only asset, not a "
+        "foreground letter/object asset. Keep the center stage open, lightly colored, and low-detail so keyed "
+        "foreground letter/object assets can sit clearly on top. Leave clear negative space at top-left for a "
+        "blurred song info box, top-right for a circular channel logo, and bottom for a lyric box. Use soft depth "
+        "and gentle ambient shadows in the scene only. Do not include any big standalone letter, A-Z object pair, "
+        "object label, lyrics, song logo, channel logo, people, characters, watermark, readable text, border, "
+        "frame, guide line, placement box, or cutout processing surface. Do not place important scenery in the "
+        "center stage or bottom lyric area. This is a normal full background image, not a foreground cutout asset."
+    )
+    logo_prompt = (
+        f"Create a separate square song logo asset for the children's ABC song \"{profile.title}\". "
+        f"Canvas 1024x1024. Theme: {theme}. Use the same visual language as the foreground assets: {style}. "
+        "Design one compact, friendly, polished preschool emblem that represents the song's theme, with a strong "
+        "clean silhouette and balanced centered composition. Use a solid pure white #FFFFFF matte for easy alpha "
+        "removal only, not a real scene. The exact song title "
+        f"\"{profile.title}\" may appear as the only readable text, set clearly and legibly inside the emblem. "
+        "Do not include any other words, alphabet grid, A-Z letter/object pair, lyrics, channel name, channel logo, "
+        "people, watermark, border, frame, visible guide box, checkerboard, transparency, or busy background. "
+        "Keep the logo suitable for a small circular or rounded overlay in a children's music video."
+    )
+    return [
+        *foreground_records,
+        {
+            "id": f"{sid}background",
+            "type": "background",
+            "object": f"{profile.title} ABC background",
+            "prompt": background_prompt,
+        },
+        {
+            "id": f"{sid}song_logo",
+            "type": "song_logo",
+            "object": f"{profile.title} song logo",
+            "prompt": logo_prompt,
+        },
+    ]
+
+
+def write_visual_prompt_file(
+    sid: str,
+    mapping: dict[str, Any],
+    profile: SongProfile,
+    *,
+    foreground_mode: str = "white",
+) -> Path:
+    suffix = "_prompt_gen_no_background.txt" if foreground_mode == "no-background" else "_prompt_gen.txt"
+    prompt_path = CATALOG / sid / f"{sid}{suffix}"
+    prompt_path.parent.mkdir(parents=True, exist_ok=True)
+    records = visual_prompt_records(sid, mapping, profile, foreground_mode=foreground_mode)
+    prompt_path.write_text(
+        "\n".join(json.dumps(record, ensure_ascii=False) for record in records) + "\n",
+        encoding="utf-8",
+    )
+    return prompt_path
+
+
+def write_visual_prompt_files(sid: str, mapping: dict[str, Any], profile: SongProfile) -> tuple[Path, Path]:
+    """Write both foreground acquisition modes with one shared background record."""
+
+    return (
+        write_visual_prompt_file(sid, mapping, profile, foreground_mode="white"),
+        write_visual_prompt_file(sid, mapping, profile, foreground_mode="no-background"),
+    )
 
 
 def validate_mapping(mapping: dict[str, Any], sid: str) -> None:
@@ -1156,6 +1699,7 @@ def write_song(sid: str) -> None:
         raise RuntimeError(f"{sid}: missing locked authoring/mapping.json")
     mapping = json.loads(mapping_path.read_text(encoding="utf-8"))
     validate_mapping(mapping, sid)
+    write_visual_prompt_files(sid, mapping, profile)
 
     script, ordered_sections = build_script(mapping, profile)
     blocks = build_learning_blocks(mapping, profile)
@@ -1205,13 +1749,32 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Generate curated ABC authoring files for a 10-song batch.")
     parser.add_argument("--start", type=int, default=1)
     parser.add_argument("--end", type=int, default=10)
+    parser.add_argument(
+        "--prompt-only",
+        action="store_true",
+        help="Only write both 28-line white-matte and no-background visual prompt packs",
+    )
     args = parser.parse_args()
     if args.end < args.start or args.end - args.start + 1 > 10:
         raise SystemExit("Generate at most 10 songs per batch")
     ids = [f"{i:04d}" for i in range(args.start, args.end + 1)]
     for sid in ids:
-        write_song(sid)
-    print(f"Generated authoring package for {ids[0]}-{ids[-1]} ({len(ids)} songs)")
+        profile = PROFILES.get(sid)
+        if profile is None:
+            raise RuntimeError(f"No curated SongProfile for {sid}; add a profile before generating this batch")
+        mapping_path = CATALOG / sid / "authoring" / "mapping.json"
+        if not mapping_path.is_file():
+            raise RuntimeError(f"{sid}: missing locked authoring/mapping.json")
+        mapping = json.loads(mapping_path.read_text(encoding="utf-8"))
+        validate_mapping(mapping, sid)
+        if args.prompt_only:
+            write_visual_prompt_files(sid, mapping, profile)
+        else:
+            write_song(sid)
+    if args.prompt_only:
+        print(f"Generated visual prompt pack for {ids[0]}-{ids[-1]} ({len(ids)} songs)")
+    else:
+        print(f"Generated authoring package for {ids[0]}-{ids[-1]} ({len(ids)} songs)")
 
 
 if __name__ == "__main__":

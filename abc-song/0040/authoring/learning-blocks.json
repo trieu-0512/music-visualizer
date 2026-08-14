@@ -565,27 +565,29 @@
   },
   {
     "letter": "X",
-    "word": "Xylophone",
+    "word": "X-shaped Snowflake",
     "mode": "letter-name",
-    "familiarity_tier": "A",
+    "familiarity_tier": "B",
     "letter_name_sound_cue": "embedded-final",
     "visual_confusability": "low",
     "phonological_name_confusability": "medium",
     "sequence_dependency_risk": "low",
-    "syllable_count": 3,
-    "stress_pattern": "S-w-w",
-    "pronunciation_note": "Working stress pattern; confirm naturally during L0 read-aloud and L1 audio review.",
-    "prosodic_motif_variant": "snow-friend-3syll",
+    "syllable_count": 5,
+    "stress_pattern": "VERIFY",
+    "pronunciation_note": "Verify dictionary pronunciation and lexical stress before final generation approval.",
+    "prosodic_motif_variant": "snow-friend-4syll",
     "round1_objective": "lexical-semantic",
     "round2_objective": "retrieval-action",
     "retrieval_cue": "X",
     "retrieval_gap_plan": "one clear beat before target",
-    "congruent_action": "Tap two fingers in the air like gentle xylophone mallets.",
+    "congruent_action": "Open both hands into a simple branching snowflake.",
     "rhyme_family": "see-me",
     "visual_reveal_rule": "round1=line-start; round2=target-word",
     "contrast_notes": null,
     "risk_flags": [
-      "prosody-review"
+      "VERIFY",
+      "guided-theme-fallback-review",
+      "verify-pronunciation"
     ]
   },
   {

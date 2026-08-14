@@ -5,14 +5,17 @@
   "status": "PASS_WITH_SUPPORT",
   "hardFailures": [],
   "warnings": [
-    "X -> Xeric Shrub: guided-theme-fallback-review",
+    "X -> Xylem: guided-theme-fallback-review, support-required, verify-pronunciation",
     "Z -> Zebra Swallowtail: guided-theme-fallback-review"
   ],
   "tierCounts": {
     "A": 22,
-    "B": 4
+    "B": 3,
+    "C": 1
   },
   "riskCounts": {
-    "guided-theme-fallback-review": 2
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
   }
 }

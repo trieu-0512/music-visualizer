@@ -403,11 +403,52 @@ async function main(): Promise<void> {
   console.log(
     `Rendering ${config.projectId} with Remotion (${args.targetSelectors.length > 0 ? args.targetSelectors.join(", ") : config.videoFormat})...`,
   );
+  const startedAt = Date.now();
+  let lastTarget = "";
+  let lastPercentBucket = -1;
+  let lastEmitAt = 0;
   const produced = await renderProject(config, store, {
     entryPoint,
     targetSelectors: args.targetSelectors,
     renderSettings: args.renderSettings,
     outputTag: args.outputTag,
+    onProgress: (target, progress) => {
+      const now = Date.now();
+      if (target.compositionId !== lastTarget) {
+        lastTarget = target.compositionId;
+        lastPercentBucket = -1;
+        lastEmitAt = 0;
+      }
+      const ratio = Math.max(0, Math.min(1, progress.progress || 0));
+      const percent = Math.round(ratio * 1000) / 10;
+      const percentBucket = Math.floor(percent);
+      if (
+        ratio < 1 &&
+        now - lastEmitAt < 1000 &&
+        percentBucket === lastPercentBucket
+      ) {
+        return;
+      }
+      lastEmitAt = now;
+      lastPercentBucket = percentBucket;
+      const elapsedSeconds = (now - startedAt) / 1000;
+      const etaSeconds =
+        ratio > 0 && ratio < 1
+          ? (elapsedSeconds * (1 - ratio)) / ratio
+          : null;
+      console.log(
+        `RENDER_PROGRESS ${JSON.stringify({
+          target: target.compositionId,
+          stage: progress.stitchStage,
+          percent,
+          renderedFrames: progress.renderedFrames,
+          encodedFrames: progress.encodedFrames,
+          elapsedSeconds: Math.round(elapsedSeconds),
+          etaSeconds: etaSeconds === null ? null : Math.round(etaSeconds),
+          remotionEstimatedTime: progress.renderEstimatedTime,
+        })}`,
+      );
+    },
   });
   for (const artifact of produced) {
     console.log(`Wrote ${join(args.projectDir, artifact)}`);

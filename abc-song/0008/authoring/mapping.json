@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
-    "name": "Freshwater Animals",
+    "name": "Freshwater Life",
     "scope": "guided",
     "mappingAuthority": "project-locked",
     "ageBand": "mixed-2-6",
@@ -78,8 +78,13 @@
       "familiarityTier": "A"
     },
     "Q": {
-      "object": "Quail",
-      "familiarityTier": "A"
+      "object": "Quillwort",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
     },
     "R": {
       "object": "River",
@@ -106,11 +111,10 @@
       "familiarityTier": "B"
     },
     "X": {
-      "object": "Xiphophorus",
-      "familiarityTier": "C",
+      "object": "X-ray Tetra",
+      "familiarityTier": "B",
       "riskFlags": [
         "guided-theme-fallback-review",
-        "support-required",
         "verify-pronunciation"
       ]
     },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 4,
   "lines": [
     {
       "id": "intro-1",
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X is Xeric Shrub. Dry-site leaves and stems mark a different patch | a visual clue in a song built mostly from sound.",
+      "text": "X is Xylem. Tiny tubes carry water through a stem | a quiet plant pathway beneath the forest leaves.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -247,7 +247,7 @@
     {
       "id": "r1-Z",
       "sectionId": "r1-y-z",
-      "text": "At the trailhead garden, Z is Zinnia—our bright Z helper | layered petals close the listening walk without pretending it grew wild in the forest.",
+      "text": "At the forest edge, Z is Zebra Swallowtail. Black-and-white striped wings pass between woodland flowers.",
       "targetId": "Z",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Sound-or-sight X ... Xeric Shrub! Grow one hand upward, then sway.",
+      "text": "Sound-or-sight X ... Xylem! Trace a line upward from roots to leaves.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -476,7 +476,7 @@
     {
       "id": "r2-Z",
       "sectionId": "r2-y-z",
-      "text": "Near-or-far clue Z ... Zinnia! Open both hands like a flower.",
+      "text": "Near-or-far clue Z ... Zebra Swallowtail! Wiggle tiny fingers or make a small flutter.",
       "targetId": "Z",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

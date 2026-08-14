@@ -50,7 +50,8 @@ export interface ClassicLayout {
   /** Bottom lyric box (Req 10.5, 10.6). */
   lyricBox: {
     marginBottom: number;
-    maxWidth: number;
+    width: number;
+    height: number;
     fontSize: number;
     lineGap: number;
     padding: number;
@@ -59,11 +60,11 @@ export interface ClassicLayout {
 
 /** Landscape (1920x1080) placement constants. */
 export const LANDSCAPE_LAYOUT: ClassicLayout = {
-  bgBlur: 10,
+  bgBlur: 0,
   beatWindow: 0.25,
-  letterSize: 410,
-  letterOffsetY: -54,
-  objectWordFontSize: 118,
+  letterSize: 520,
+  letterOffsetY: -36,
+  objectWordFontSize: 126,
   bars: {
     count: 16,
     maxLength: 220,
@@ -84,7 +85,8 @@ export const LANDSCAPE_LAYOUT: ClassicLayout = {
   },
   lyricBox: {
     marginBottom: 56,
-    maxWidth: 1740,
+    width: 1740,
+    height: 220,
     fontSize: 56,
     lineGap: 14,
     padding: 30,
@@ -93,11 +95,11 @@ export const LANDSCAPE_LAYOUT: ClassicLayout = {
 
 /** Portrait (1080x1920) placement constants. */
 export const PORTRAIT_LAYOUT: ClassicLayout = {
-  bgBlur: 10,
+  bgBlur: 0,
   beatWindow: 0.25,
-  letterSize: 430,
-  letterOffsetY: -180,
-  objectWordFontSize: 88,
+  letterSize: 520,
+  letterOffsetY: -150,
+  objectWordFontSize: 96,
   bars: {
     count: 24,
     maxLength: 150,
@@ -118,7 +120,8 @@ export const PORTRAIT_LAYOUT: ClassicLayout = {
   },
   lyricBox: {
     marginBottom: 180,
-    maxWidth: 1000,
+    width: 1000,
+    height: 220,
     fontSize: 50,
     lineGap: 14,
     padding: 28,

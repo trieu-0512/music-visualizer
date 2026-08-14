@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
     "name": "Peaks & Valleys",
@@ -103,15 +103,17 @@
       "familiarityTier": "A"
     },
     "X": {
-      "object": "Xeric Shrub",
-      "familiarityTier": "B",
+      "object": "Xenolith",
+      "familiarityTier": "C",
       "riskFlags": [
-        "guided-theme-fallback-review"
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
       ]
     },
     "Y": {
-      "object": "Yellow Bell",
-      "familiarityTier": "B"
+      "object": "Yarrow",
+      "familiarityTier": "A"
     },
     "Z": {
       "object": "Zigzag Trail",

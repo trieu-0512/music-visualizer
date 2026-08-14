@@ -35,7 +35,10 @@ export const ROLE_RULES: Record<string, RoleRule> = {
     exts: [".png", ".jpg", ".jpeg", ".webp"],
     mimes: ["image/png", "image/jpeg", "image/webp"],
   },
-  songLogo: { exts: [".png", ".svg"], mimes: ["image/png", "image/svg+xml"] },
+  songLogo: {
+    exts: [".png", ".jpg", ".jpeg", ".webp", ".svg"],
+    mimes: ["image/png", "image/jpeg", "image/webp", "image/svg+xml"],
+  },
   channelLogo: { exts: [".png", ".svg"], mimes: ["image/png", "image/svg+xml"] },
   learningMap: { exts: [".json"], mimes: ["application/json"] },
   letter: { exts: [".svg", ".png", ".webp"], mimes: ["image/svg+xml", "image/png", "image/webp"] },

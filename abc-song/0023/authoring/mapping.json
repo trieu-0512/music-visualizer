@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
-    "name": "Forest Birds & Plants",
+    "name": "Forest Life & Plants",
     "scope": "guided",
     "mappingAuthority": "project-locked",
     "ageBand": "mixed-2-6",
@@ -103,10 +103,12 @@
       "familiarityTier": "A"
     },
     "X": {
-      "object": "Xeric Shrub",
-      "familiarityTier": "B",
+      "object": "Xylem",
+      "familiarityTier": "C",
       "riskFlags": [
-        "guided-theme-fallback-review"
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
       ]
     },
     "Y": {
@@ -114,8 +116,11 @@
       "familiarityTier": "A"
     },
     "Z": {
-      "object": "Zinnia",
-      "familiarityTier": "A"
+      "object": "Zebra Swallowtail",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review"
+      ]
     }
   }
 }

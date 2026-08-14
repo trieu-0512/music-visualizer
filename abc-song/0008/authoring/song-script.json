@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 4,
   "lines": [
     {
       "id": "intro-1",
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "Q — Quail! Quick ground steps | small bird walks and pecks.",
+      "text": "Q — Quillwort! Stiff quill-like leaves rise from shallow freshwater.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "Look at X: Xiphophorus. Small freshwater fish group including swordtails and platies.",
+      "text": "Look at X: X-ray Tetra. Silvery body and partly transparent middle move through fresh water.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -397,7 +397,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Q ... Quail! Make tiny pecking finger taps.",
+      "text": "Q ... Quillwort! Spread fingers upward like spiky leaves.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Find X ... Xiphophorus! Make one small fish-swim, slow and clear.",
+      "text": "Find X ... X-ray Tetra! Make a gentle fish-swim with one hand.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

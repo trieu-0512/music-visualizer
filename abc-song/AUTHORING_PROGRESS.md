@@ -7,10 +7,10 @@ All 200 authoring package folders still exist; this tracker distinguishes curren
 
 | Batch | Songs | Status |
 |---:|---|---|
-| 01 | 0001-0010 | PASS |
+| 01 | 0001-0010 | PASS_WITH_REVIEW |
 | 02 | 0011-0020 | PASS_WITH_REVIEW |
-| 03 | 0021-0030 | PASS |
-| 04 | 0031-0040 | PASS |
+| 03 | 0021-0030 | PASS_WITH_REVIEW |
+| 04 | 0031-0040 | PASS_WITH_REVIEW |
 | 05 | 0041-0050 | PASS_WITH_REVIEW |
 | 06 | 0051-0060 | PASS |
 | 07 | 0061-0070 | PASS |

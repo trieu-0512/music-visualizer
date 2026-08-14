@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
     "name": "Weather Watch",
@@ -120,8 +120,12 @@
       "familiarityTier": "A"
     },
     "X": {
-      "object": "Xylophone",
-      "familiarityTier": "A"
+      "object": "X-band Radar",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
     },
     "Y": {
       "object": "Yellow Sun",

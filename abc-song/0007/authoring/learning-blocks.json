@@ -561,28 +561,27 @@
   },
   {
     "letter": "X",
-    "word": "Xiphophorus",
+    "word": "X-ray Tetra",
     "mode": "letter-name",
-    "familiarity_tier": "C",
+    "familiarity_tier": "B",
     "letter_name_sound_cue": "embedded-final",
     "visual_confusability": "low",
     "phonological_name_confusability": "medium",
     "sequence_dependency_risk": "low",
     "syllable_count": 4,
-    "stress_pattern": "w-S-w-w",
-    "pronunciation_note": "Project canonical: zai-FOH-for-us; keep four clear syllables.",
+    "stress_pattern": "S-S-S-w",
+    "pronunciation_note": "EX-RAY TET-ra; tetra has first-syllable stress.",
     "prosodic_motif_variant": "waterway-hop-4syll",
     "round1_objective": "lexical-semantic",
     "round2_objective": "retrieval-action",
     "retrieval_cue": "X",
     "retrieval_gap_plan": "one beat of silence before confirmation",
-    "congruent_action": "Make one small fish-swim, slow and clear.",
+    "congruent_action": "Make a gentle fish-swim with one hand.",
     "rhyme_family": "blue-you",
     "visual_reveal_rule": "round1=line-start; round2=target-word",
     "contrast_notes": null,
     "risk_flags": [
-      "guided-theme-fallback-review",
-      "support-required"
+      "guided-theme-fallback-review"
     ]
   },
   {

@@ -378,6 +378,8 @@ export interface RemotionRenderSettings {
   hardwareAcceleration?: HardwareAccelerationMode | null;
   chromeMode?: ChromeMode | null;
   gl?: OpenGlRenderer | null;
+  /** Output scale relative to the registered composition (2 = 4K from 1080p). */
+  scale?: number;
 }
 
 export const DEFAULT_REMOTION_RENDER_SETTINGS: Required<RemotionRenderSettings> = {
@@ -395,6 +397,7 @@ export const DEFAULT_REMOTION_RENDER_SETTINGS: Required<RemotionRenderSettings> 
   hardwareAcceleration: "if-possible",
   chromeMode: "headless-shell",
   gl: "angle",
+  scale: 1,
 };
 
 export interface RenderProgress {
@@ -572,6 +575,7 @@ export function createRemotionRenderBackend(): RenderBackend {
           (crf === null ? "if-possible" : "disable"),
         chromeMode: options.chromeMode ?? "headless-shell",
         gl: options.gl ?? "angle",
+        scale: options.scale ?? DEFAULT_REMOTION_RENDER_SETTINGS.scale,
       };
       const {
         encoder,
@@ -627,6 +631,8 @@ export interface RenderProjectDeps {
   targetSelectors?: RenderTargetSelector[];
   renderSettings?: RemotionRenderSettings;
   outputTag?: string;
+  /** Receive Remotion frame progress together with the active output target. */
+  onProgress?: (target: RenderTarget, progress: RenderProgress) => void;
   /**
    * Job-scoped video format override (Architecture Upgrade KD-6 / PR-06).
    * When set, expands targets from this value instead of `config.videoFormat`
@@ -861,6 +867,9 @@ export async function renderProject(
           outputLocation,
           inputProps,
           ...settingsForTarget(deps.renderSettings, target),
+          onProgress: deps.onProgress
+            ? (progress) => deps.onProgress?.(target, progress)
+            : undefined,
         });
       } catch (cause) {
         throw new RenderError(

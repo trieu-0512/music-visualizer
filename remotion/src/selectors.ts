@@ -126,26 +126,26 @@ export function beatPulse(beats: number[], t: number, window: number): number {
 }
 
 /**
- * Map RMS volume to background zoom and brightness (Req 10.2).
+ * Legacy RMS mapping retained for callers that still import this selector.
  *
  * Both outputs are monotonically non-decreasing in `rms` and bounded for
  * `rms` in `[0, 1]`: `scale` in `[1, 1.08]`, `brightness` in `[0.7, 1.0]`
  * (Property 11). The input is clamped so the bounds hold for any value.
  */
 export function backgroundDynamics(rms: number): BackgroundDynamics {
-  const v = clamp01(rms);
-  return { scale: 1 + 0.08 * v, brightness: 0.7 + 0.3 * v };
+  void rms;
+  return { scale: 1, brightness: 1 };
 }
 
 /**
- * Centered Letter_Asset scale driven by bass energy and beat pulse (Req 10.4).
+ * Centered Letter_Asset scale driven gently by bass energy and beat pulse.
  *
  * Monotonically non-decreasing in both `bass` and `pulse` and bounded to
- * `[1, 1.4]` for normalized inputs (Property 11). Inputs are clamped so the
+ * `[1, 1.08]` for normalized inputs (Property 11). Inputs are clamped so the
  * bounds hold for any value.
  */
 export function letterScale(bass: number, pulse: number): number {
-  return 1 + 0.25 * clamp01(bass) + 0.15 * clamp01(pulse);
+  return 1 + 0.05 * clamp01(bass) + 0.03 * clamp01(pulse);
 }
 
 /**

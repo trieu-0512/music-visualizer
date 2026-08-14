@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
     "name": "Lakes & Waterways",
@@ -108,11 +108,10 @@
       "familiarityTier": "A"
     },
     "X": {
-      "object": "Xiphophorus",
-      "familiarityTier": "C",
+      "object": "X-ray Tetra",
+      "familiarityTier": "B",
       "riskFlags": [
         "guided-theme-fallback-review",
-        "support-required",
         "verify-pronunciation"
       ]
     },

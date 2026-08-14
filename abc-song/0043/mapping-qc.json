@@ -6,14 +6,18 @@
   "hardFailures": [],
   "warnings": [
     "K -> Kettle Lake: safety-context-only",
-    "X -> Xeric Shrub: guided-theme-fallback-review"
+    "X -> Xenolith: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zigzag Trail: guided-theme-fallback-review"
   ],
   "tierCounts": {
-    "A": 22,
-    "B": 4
+    "A": 21,
+    "B": 4,
+    "C": 1
   },
   "riskCounts": {
     "safety-context-only": 1,
-    "guided-theme-fallback-review": 1
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
   }
 }

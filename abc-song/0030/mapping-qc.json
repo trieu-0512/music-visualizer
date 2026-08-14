@@ -6,16 +6,17 @@
   "hardFailures": [],
   "warnings": [
     "U -> Uakari: support-required, verify-pronunciation",
+    "X -> Xenops: guided-theme-fallback-review, support-required, verify-pronunciation",
     "Z -> Zingiber Plant: guided-theme-fallback-review"
   ],
   "tierCounts": {
-    "A": 20,
+    "A": 19,
     "B": 5,
-    "C": 1
+    "C": 2
   },
   "riskCounts": {
-    "support-required": 1,
-    "verify-pronunciation": 1,
-    "guided-theme-fallback-review": 1
+    "support-required": 2,
+    "verify-pronunciation": 2,
+    "guided-theme-fallback-review": 2
   }
 }

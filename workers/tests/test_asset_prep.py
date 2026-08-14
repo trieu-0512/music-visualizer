@@ -1,8 +1,11 @@
 from __future__ import annotations
 
+from io import BytesIO
 from pathlib import Path
 
-from src.asset_prep import REPORT_PATH, handle_prepare_assets
+from PIL import Image, ImageDraw
+
+from src.asset_prep import REPORT_PATH, SEGMENTER_NAME, handle_prepare_assets
 from src.queue import Job
 from src.store import AssetStore
 
@@ -59,6 +62,8 @@ def test_prepare_assets_segments_raw_images_and_writes_provenance(tmp_path: Path
     assert store.read_bytes("p", "assets/objects/A.png").startswith(PNG)
 
     report = store.read_json("p", REPORT_PATH)
+    assert report["version"] == 2
+    assert report["segmenter"] == SEGMENTER_NAME
     assert report["mappingRevision"] == 1
     assert report["complete"] is True
     assert report["targets"]["A"]["status"] == "generated"
@@ -122,3 +127,26 @@ def test_prepare_assets_rejects_non_png_generated_outputs(tmp_path: Path) -> Non
         raise AssertionError("expected invalid segmentation output to fail")
     except RuntimeError as exc:
         assert "not a non-empty PNG" in str(exc)
+
+
+def test_prepare_assets_uses_builtin_white_matte_adapter_when_unconfigured(tmp_path: Path, monkeypatch) -> None:
+    store = AssetStore(tmp_path / "storage")
+    store.write_json("p", "authoring/mapping.json", _mapping())
+    image = Image.new("RGB", (1376, 768), "white")
+    draw = ImageDraw.Draw(image)
+    draw.rectangle((90, 100, 500, 600), fill=(10, 120, 220))
+    draw.ellipse((800, 180, 1180, 560), fill=(220, 90, 50))
+    with BytesIO() as output:
+        image.save(output, format="PNG")
+        source = output.getvalue()
+    store.write_bytes("p", "assets/source-images/A.png", source)
+    for letter in "BCDEFGHIJKLMNOPQRSTUVWXYZ":
+        store.write_bytes("p", f"assets/letters/{letter}.png", b"letter")
+        store.write_bytes("p", f"assets/objects/{letter}.png", b"object")
+
+    monkeypatch.delenv("ABC_SEGMENTER_COMMAND", raising=False)
+    produced = handle_prepare_assets(_job(target="A", force=True), store)
+
+    assert produced == ["assets/letters/A.png", "assets/objects/A.png", REPORT_PATH]
+    assert store.read_bytes("p", "assets/letters/A.png").startswith(PNG)
+    assert store.read_bytes("p", "assets/objects/A.png").startswith(PNG)

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 4,
   "lines": [
     {
       "id": "intro-1",
@@ -19,7 +19,7 @@
     {
       "id": "r1-A",
       "sectionId": "r1-a-d",
-      "text": "A — Apron! Cloth front, garden smudge | what we wear before following the tiny flight.",
+      "text": "A — Ant! Six tiny legs follow a scent trail between soil and flowers.",
       "targetId": "A",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -161,7 +161,7 @@
     {
       "id": "r1-Q",
       "sectionId": "r1-q-t",
-      "text": "At ground level, Q — Quail. Peck, step, pause | a small bird passes beneath the flower route.",
+      "text": "At ground level, Q — Queen Butterfly. Orange-brown wings with dark veins pass between flowers.",
       "targetId": "Q",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -255,7 +255,7 @@
     {
       "id": "r2-A",
       "sectionId": "r2-a-d",
-      "text": "Flutter to A ... Apron! Trace a little apron shape on your shirt.",
+      "text": "Flutter to A ... Ant! Wiggle two fingers like tiny ant legs.",
       "targetId": "A",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -397,7 +397,7 @@
     {
       "id": "r2-Q",
       "sectionId": "r2-q-t",
-      "text": "Flutter to Q ... Quail! Make tiny pecking finger taps.",
+      "text": "Flutter to Q ... Queen Butterfly! Wiggle tiny fingers or make a small flutter.",
       "targetId": "Q",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

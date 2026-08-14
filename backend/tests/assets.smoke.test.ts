@@ -57,6 +57,17 @@ describe("asset endpoints smoke (Req 2)", () => {
     expect(res.body.path).toBe("assets/letters/A.svg");
   });
 
+  it("accepts a JPEG song logo from generated authoring folders", async () => {
+    const res = await request(app)
+      .post(`/projects/${projectId}/assets/songLogo`)
+      .attach("file", Buffer.from("JPEG fake logo"), {
+        filename: "song-logo.jpg",
+        contentType: "image/jpeg",
+      });
+    expect(res.status).toBe(201);
+    expect(res.body.path).toBe("assets/song-logo.jpg");
+  });
+
   it("validates and stores a theme-first learning map upload", async () => {
     const letters = Object.fromEntries(
       [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].map((letter) => [letter, { object: `Object ${letter}` }]),

@@ -1,10 +1,8 @@
 /**
  * Blurred, audio-reactive background layer (Req 10.1, 10.2).
  *
- * Renders the Background_Asset full-frame with a blur effect, an RMS-driven
- * zoom (`scale`) and brightness, and a contrast overlay on top so the
- * foreground letter and lyrics stay readable. `scale`/`brightness` come from the
- * `backgroundDynamics` selector so this component stays purely presentational.
+ * Renders the Background_Asset full-frame with a light static blur and a
+ * restrained overlay so the foreground letter and lyrics stay readable.
  */
 import { AbsoluteFill, Img } from "remotion";
 import { resolveAssetSrc } from "./assets.js";
@@ -35,7 +33,7 @@ export const Background: React.FC<BackgroundProps> = ({
 }) => {
   const overlayBackground =
     overlayTone === "light"
-      ? "linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.78) 54%, rgba(255,249,244,0.88) 100%)"
+      ? "linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 54%, rgba(255,249,244,0.1) 100%)"
       : "radial-gradient(ellipse at center, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.6) 100%)";
 
   return (
@@ -46,9 +44,7 @@ export const Background: React.FC<BackgroundProps> = ({
           width: "100%",
           height: "100%",
           objectFit: "cover",
-          // Slight base zoom so the blur edges never reveal the canvas as the
-          // RMS scale animates around 1.0.
-          transform: `scale(${1.06 * scale})`,
+          transform: `scale(${scale})`,
           filter: `blur(${blur}px) brightness(${brightness}) saturate(1.08)`,
         }}
       />

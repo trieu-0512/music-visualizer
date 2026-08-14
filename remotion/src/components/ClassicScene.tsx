@@ -10,22 +10,20 @@
  * the pure selectors in `../selectors.ts`, and hands those values to purely
  * presentational layer components. The layers, in z-order:
  *
- *   1. Blurred Background_Asset + overlay, RMS-driven zoom/brightness (Req 10.1, 10.2)
+ *   1. Static lightly blurred Background_Asset + restrained overlay
  *   2. Left & right audio bars from band energy + volume               (Req 10.9)
  *   3. Centered Letter_Asset for the active line, beat/bass scale+glow  (Req 10.3, 10.4)
  *   4. Top-left info box (song logo + names)                           (Req 10.7)
  *   5. Top-right circular channel logo                                 (Req 10.8)
- *   6. Bottom lyric box with karaoke word coloring                     (Req 10.5, 10.6)
+ *   6. Bottom lyric box as one static transcript block                  (Req 10.5)
  *   7. Preview audio                                                   (Req 8.x preview)
  */
 import { AbsoluteFill, Audio, useCurrentFrame, useVideoConfig } from "remotion";
 import type { TemplateProps } from "../templates/types.js";
 import {
   activeLineIndex,
-  backgroundDynamics,
   beatPulse,
   letterScale,
-  litWordCount,
   sampleBands,
   sampleSeries,
 } from "../selectors.js";
@@ -58,9 +56,8 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
   const rms = sampleSeries(analysis.rms, analysis.interval, t);
   const bass = sampleSeries(analysis.bass, analysis.interval, t);
   const pulse = beatPulse(analysis.beats, t, layout.beatWindow);
-  const wobble = Math.sin(frame * 0.18) * (0.7 + 2.8 * pulse);
+  const wobble = Math.sin(frame * 0.06) * (0.12 + 0.38 * pulse);
   const bands = sampleBands(analysis, t);
-  const { scale, brightness } = backgroundDynamics(rms);
 
   // Active lyric line at the current time (Req 8.2, 10.5).
   const lineIdx = activeLineIndex(lyrics, t);
@@ -85,8 +82,8 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
       <Background
         src={config.assets.background}
         blur={layout.bgBlur}
-        scale={scale}
-        brightness={brightness}
+        scale={1}
+        brightness={1}
         overlayTone="light"
         overlay
       />
@@ -127,7 +124,7 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
           size={layout.letterSize}
           objectWordFontSize={layout.objectWordFontSize}
           scale={letterScale(bass, pulse)}
-          glow={pulse}
+          glow={pulse * 0.35}
           wobble={wobble}
           offsetY={layout.letterOffsetY}
         />
@@ -152,18 +149,19 @@ export const ClassicScene: React.FC<ClassicSceneProps> = ({
         size={layout.channelLogo.size}
       />
 
-      {/* 6. Bottom lyric box with karaoke coloring (Req 10.5, 10.6) */}
+      {/* 6. One fixed-size transcript block for the active time range */}
       {line && (
         <LyricBox
           line1={line.line1}
           line2={line.line2}
-          litWords={litWordCount(line, t)}
+          litWords={Number.POSITIVE_INFINITY}
           letter={letterKey}
           objectWord={objectWord}
           objectRevealed={objectRevealed}
           maxLines={config.layout.lyricBox.maxLines}
           marginBottom={layout.lyricBox.marginBottom}
-          maxWidth={layout.lyricBox.maxWidth}
+          width={layout.lyricBox.width}
+          height={layout.lyricBox.height}
           fontSize={layout.lyricBox.fontSize}
           lineGap={layout.lyricBox.lineGap}
           padding={layout.lyricBox.padding}

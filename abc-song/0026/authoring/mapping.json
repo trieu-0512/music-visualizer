@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
-    "name": "Rainforest Animals",
+    "name": "Rainforest Life",
     "scope": "guided",
     "mappingAuthority": "project-locked",
     "ageBand": "mixed-2-6",
@@ -110,8 +110,13 @@
       "familiarityTier": "A"
     },
     "X": {
-      "object": "Xylophone",
-      "familiarityTier": "A"
+      "object": "Xenops",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
     },
     "Y": {
       "object": "Yellow Anaconda",

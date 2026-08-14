@@ -1,19 +1,23 @@
 {
   "songId": "0041",
-  "theme": "Mountain Animals",
+  "theme": "Mountain Life",
   "macroDomain": "Mountains",
   "status": "PASS_WITH_SUPPORT",
   "hardFailures": [],
   "warnings": [
     "K -> Kettle Lake: safety-context-only",
+    "X -> Xenolith: guided-theme-fallback-review, support-required, verify-pronunciation",
     "Z -> Zigzag Trail: guided-theme-fallback-review"
   ],
   "tierCounts": {
     "A": 21,
-    "B": 5
+    "B": 4,
+    "C": 1
   },
   "riskCounts": {
     "safety-context-only": 1,
-    "guided-theme-fallback-review": 1
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
   }
 }

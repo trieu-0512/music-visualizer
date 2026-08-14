@@ -39,7 +39,9 @@ import type {
   ArtifactName,
   LyricsJson,
   ProjectConfigJson,
+  PreviewRenderJob,
 } from "../api/index.js";
+import type { AbcPreviewData } from "@music-visualizer/remotion/AbcPreviewVideo";
 import type { PageContext } from "./types.js";
 
 afterEach(() => {
@@ -121,6 +123,49 @@ const sampleAnalysis: AudioAnalysisJson = {
   beats: [0.5, 1.5],
 };
 
+const sampleAbcPreview: AbcPreviewData = {
+  metadata: { songCode: "0001", title: "Ocean Letter Splash", artist: "ABC Kids Music" },
+  assets: {
+    background: "assets/preview/background.png",
+    songLogo: "assets/preview/song-logo.png",
+    audio: "assets/preview/audio.mp3",
+  },
+  letters: {},
+  lines: [
+    {
+      index: 0,
+      start: 0,
+      end: 5,
+      text: "A for Angelfish",
+      line1: "A for Angelfish",
+      line2: "",
+      letter: "A",
+      object: "angelfish",
+    },
+  ],
+  layout: {
+    canvasWidth: 1920,
+    canvasHeight: 1080,
+    assetHeight: 520,
+    assetY: 520,
+    letterX: 560,
+    objectX: 1320,
+    letterScale: 1,
+    objectScale: 0.92,
+    objectLabelFont: 82,
+    objectLabelGap: 14,
+    bgBlur: 0,
+    lyricBottom: 48,
+    lyricWidth: 1740,
+    lyricHeight: 220,
+    lyricFont: 58,
+    infoTop: 24,
+    infoLeft: 24,
+    logoTop: 22,
+    logoRight: 34,
+  },
+};
+
 /**
  * A blob-like value exposing `text()`. jsdom's `Blob` does not implement
  * `text()`, so the mocked client returns this shape (production browsers return
@@ -200,6 +245,65 @@ describe("PreviewPage", () => {
     );
     // duration derived from analysis (5s * 60fps = 300 frames).
     expect(player).toHaveAttribute("data-duration", "300");
+  });
+
+  it("renders the Remotion ABC composition from preview data before render", async () => {
+    const getPreviewData = vi.fn(async () => sampleAbcPreview);
+    render(<PreviewPage context={makeContext({ getPreviewData }, "p1")} />);
+
+    const player = await screen.findByTestId("mock-player");
+    expect(player).toHaveAttribute("data-width", "1920");
+    expect(player).toHaveAttribute("data-height", "1080");
+    expect(player).toHaveAttribute("data-duration", "360");
+    const previewData = playerSpy.mock.calls.at(-1)![0].inputProps.data;
+    expect(previewData.metadata).toEqual(sampleAbcPreview.metadata);
+    expect(previewData.assets.background).toBe(
+      `${BASE_URL}/projects/p1/assets/preview/background.png`,
+    );
+    expect(previewData.assets.audio).toBe(
+      `${BASE_URL}/projects/p1/assets/preview/audio.mp3`,
+    );
+    expect(screen.getByText("Remotion preview")).toBeInTheDocument();
+  });
+
+  it("resolves the completed MP4 link through the API base URL", async () => {
+    const getPreviewData = vi.fn(async () => sampleAbcPreview);
+    const completedJob: PreviewRenderJob = {
+      id: "render-1",
+      projectId: "p1",
+      status: "completed",
+      progress: 1,
+      percent: 100,
+      stage: "completed",
+      renderedFrames: 480,
+      encodedFrames: 480,
+      totalFrames: 480,
+      elapsedMs: 1_000,
+      etaMs: 0,
+      createdAt: "2026-08-14T00:00:00.000Z",
+      updatedAt: "2026-08-14T00:00:01.000Z",
+      outputUrl: "/projects/p1/preview-render/render-1/output",
+    };
+    const startPreviewRender = vi.fn(async () => completedJob);
+    const previewRenderOutputUrl = vi.fn(
+      (id: string, jobId: string) => `${BASE_URL}/projects/${id}/preview-render/${jobId}/output`,
+    );
+    render(
+      <PreviewPage
+        context={makeContext(
+          { getPreviewData, startPreviewRender, previewRenderOutputUrl },
+          "p1",
+        )}
+      />,
+    );
+
+    const user = userEvent.setup();
+    await user.click(await screen.findByRole("button", { name: "Render" }));
+    const link = await screen.findByRole("link", { name: "Open MP4" });
+    expect(link).toHaveAttribute(
+      "href",
+      `${BASE_URL}/projects/p1/preview-render/render-1/output`,
+    );
   });
 
   it("defaults to landscape and switches dimensions + template via the selector (Req 8.4)", async () => {

@@ -1,28 +1,28 @@
 {
   "auditVersion": 4,
   "auditStandard": "creative-v4",
-  "status": "PASS",
+  "status": "PASS_WITH_REVIEW",
   "range": "0021-0030",
   "songs": 10,
   "schemaAndSemanticFailures": 0,
-  "warnings": 0,
+  "warnings": 5,
   "designReworkSongs": 0,
   "uniqueHooks": 10,
   "uniqueStyles": 10,
   "uniqueSectionForms": 8,
   "uniqueCreativeFingerprints": 10,
-  "maxLyricSimilarity": 0.0662,
+  "maxLyricSimilarity": 0.1076,
   "mostSimilarPair": [
-    "0026",
-    "0030"
+    "0021",
+    "0024"
   ],
   "batchWarnings": [],
   "songsDetail": [
     {
       "songId": "0021",
-      "theme": "Woodland Animals",
+      "theme": "Woodland Life",
       "targetLines": 52,
-      "lyricWordCount": 851,
+      "lyricWordCount": 843,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -56,7 +56,6 @@
         "U",
         "V",
         "W",
-        "X",
         "Y",
         "Z"
       ],
@@ -71,15 +70,19 @@
         ],
         "hasMidInterlude": true
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xylem"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:Xylem"
+      ]
     },
     {
       "songId": "0022",
       "theme": "Trees & Forest Floor",
       "targetLines": 52,
-      "lyricWordCount": 855,
+      "lyricWordCount": 854,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -128,15 +131,19 @@
         ],
         "hasMidInterlude": false
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xylem"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:Xylem"
+      ]
     },
     {
       "songId": "0023",
-      "theme": "Forest Birds & Plants",
+      "theme": "Forest Life & Plants",
       "targetLines": 52,
-      "lyricWordCount": 860,
+      "lyricWordCount": 850,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -171,8 +178,7 @@
         "V",
         "W",
         "X",
-        "Y",
-        "Z"
+        "Y"
       ],
       "sectionForm": {
         "round1ChorusAfter": [
@@ -185,9 +191,13 @@
         ],
         "hasMidInterlude": true
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xylem"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:Xylem"
+      ]
     },
     {
       "songId": "0024",
@@ -242,15 +252,19 @@
         ],
         "hasMidInterlude": true
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xylem"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:Xylem"
+      ]
     },
     {
       "songId": "0025",
       "theme": "Autumn Forest",
       "targetLines": 52,
-      "lyricWordCount": 861,
+      "lyricWordCount": 857,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -284,7 +298,6 @@
         "U",
         "V",
         "W",
-        "X",
         "Y",
         "Z"
       ],
@@ -299,15 +312,19 @@
         ],
         "hasMidInterlude": true
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xylem"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:Xylem"
+      ]
     },
     {
       "songId": "0026",
-      "theme": "Rainforest Animals",
+      "theme": "Rainforest Life",
       "targetLines": 52,
-      "lyricWordCount": 870,
+      "lyricWordCount": 864,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -341,7 +358,6 @@
         "U",
         "V",
         "W",
-        "X",
         "Y",
         "Z"
       ],
@@ -534,7 +550,7 @@
       "songId": "0030",
       "theme": "Canopy & River",
       "targetLines": 52,
-      "lyricWordCount": 876,
+      "lyricWordCount": 870,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -568,7 +584,6 @@
         "U",
         "V",
         "W",
-        "X",
         "Y",
         "Z"
       ],

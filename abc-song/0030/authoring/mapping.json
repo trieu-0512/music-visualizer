@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
     "name": "Canopy & River",
@@ -107,8 +107,13 @@
       "familiarityTier": "B"
     },
     "X": {
-      "object": "Xylophone",
-      "familiarityTier": "A"
+      "object": "Xenops",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
     },
     "Y": {
       "object": "Yellow Anaconda",

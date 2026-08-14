@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
     "name": "Trees & Forest Floor",
@@ -106,10 +106,12 @@
       "familiarityTier": "A"
     },
     "X": {
-      "object": "Xeric Shrub",
-      "familiarityTier": "B",
+      "object": "Xylem",
+      "familiarityTier": "C",
       "riskFlags": [
-        "guided-theme-fallback-review"
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
       ]
     },
     "Y": {

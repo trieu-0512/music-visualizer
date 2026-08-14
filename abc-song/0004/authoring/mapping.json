@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
     "name": "Ocean Nature & Travel",
@@ -110,10 +110,11 @@
       "familiarityTier": "A"
     },
     "X": {
-      "object": "X-ray Fish",
-      "familiarityTier": "B",
+      "object": "Xanthid Crab",
+      "familiarityTier": "C",
       "riskFlags": [
         "guided-theme-fallback-review",
+        "support-required",
         "verify-pronunciation"
       ]
     },

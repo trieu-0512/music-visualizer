@@ -27,7 +27,7 @@ const FONT_LOAD_SAMPLES = [
   "900 58px Fredoka",
 ];
 
-interface AssetMeta {
+export interface AssetMeta {
   src: string;
   file: {
     w: number;
@@ -39,6 +39,19 @@ interface AssetMeta {
     w: number;
     h: number;
   };
+  groupBbox?: {
+    x: number;
+    y: number;
+    w: number;
+    h: number;
+  };
+  wordBbox?: {
+    x: number;
+    y: number;
+    w: number;
+    h: number;
+  };
+  includesObjectWord?: boolean;
 }
 
 interface LetterAssets {
@@ -72,11 +85,14 @@ interface PreviewLayout {
   bgBlur: number;
   lyricBottom: number;
   lyricWidth: number;
+  lyricHeight?: number;
   lyricFont: number;
   infoTop: number;
   infoLeft: number;
   logoTop: number;
   logoRight: number;
+  assetGap?: number;
+  assetHorizontalPadding?: number;
 }
 
 export interface AbcPreviewData {
@@ -124,15 +140,15 @@ export const defaultAbcPreviewProps: AbcPreviewProps = {
     layout: {
       canvasWidth: 1920,
       canvasHeight: 1080,
-      assetHeight: 430,
+      assetHeight: 520,
       assetY: 520,
       letterX: 565,
       objectX: 1325,
-      letterScale: 1,
-      objectScale: 0.79,
-      objectLabelFont: 72,
-      objectLabelGap: 18,
-      bgBlur: 3,
+      letterScale: 1.02,
+      objectScale: 0.92,
+      objectLabelFont: 82,
+      objectLabelGap: 14,
+      bgBlur: 0,
       lyricBottom: 48,
       lyricWidth: 1740,
       lyricFont: 58,
@@ -210,32 +226,151 @@ function findAssetLineAt(lines: PreviewLine[], time: number): number {
   return time < assetHideAt(lines, candidate) ? candidate : -1;
 }
 
-function placedAsset(
-  meta: AssetMeta,
-  centerX: number,
-  centerY: number,
-  targetHeight: number,
-  scaleMul: number,
-): {
+export interface PlacedAsset {
   left: number;
   top: number;
   width: number;
   height: number;
+  visibleLeft: number;
+  visibleTop: number;
+  visibleRight: number;
+  visibleBottom: number;
   visibleW: number;
   visibleH: number;
-} {
-  const scale = (targetHeight * scaleMul) / meta.bbox.h;
+}
+
+/** Place an image from its visible alpha bounds rather than its PNG canvas. */
+export function calculatePlacedAsset(
+  meta: AssetMeta,
+  centerX: number,
+  centerY: number,
+  targetHeight: number,
+): PlacedAsset {
+  // Align the visible alpha bounds, not the transparent PNG canvas. An
+  // embedded object word is part of groupBbox, so both sides share the exact
+  // same visible top and bottom pixels.
+  const visual = meta.groupBbox ?? meta.bbox;
+  const scale = targetHeight / Math.max(1, visual.h);
   const width = meta.file.w * scale;
   const height = meta.file.h * scale;
-  const bboxCenterX = (meta.bbox.x + meta.bbox.w / 2) * scale;
-  const bboxCenterY = (meta.bbox.y + meta.bbox.h / 2) * scale;
+  const bboxCenterX = (visual.x + visual.w / 2) * scale;
+  const bboxCenterY = (visual.y + visual.h / 2) * scale;
+  const left = centerX - bboxCenterX;
+  const top = centerY - bboxCenterY;
+  const visibleW = visual.w * scale;
+  const visibleH = visual.h * scale;
+  const visibleLeft = left + visual.x * scale;
+  const visibleTop = top + visual.y * scale;
   return {
-    left: centerX - bboxCenterX,
-    top: centerY - bboxCenterY,
+    left,
+    top,
     width,
     height,
-    visibleW: meta.bbox.w * scale,
-    visibleH: meta.bbox.h * scale,
+    visibleLeft,
+    visibleTop,
+    visibleRight: visibleLeft + visibleW,
+    visibleBottom: visibleTop + visibleH,
+    visibleW,
+    visibleH,
+  };
+}
+
+export interface ObjectGroupPlacementOptions {
+  canvasHeight: number;
+  assetHeight: number;
+  assetY: number;
+  objectScale: number;
+  lyricBottom: number;
+  lyricHeight: number;
+  groupGap: number;
+}
+
+export function calculateObjectGroupCenterY(
+  meta: AssetMeta,
+  options: ObjectGroupPlacementOptions,
+): number {
+  const preferredCenterY = options.assetY;
+  const visualHeight = (meta.groupBbox ?? meta.bbox).h;
+  const lyricTop = options.canvasHeight - options.lyricBottom - options.lyricHeight;
+  const maximumGroupBottom = lyricTop - options.groupGap;
+  const maximumCenterY = maximumGroupBottom - options.assetHeight / 2;
+  const minimumCenterY = options.assetHeight / 2;
+  // The pair-placement algorithm normalizes visualHeight to assetHeight. Keep
+  // this guard for malformed metadata without changing the normal center.
+  if (visualHeight <= 0) return preferredCenterY;
+  return Math.min(preferredCenterY, Math.max(minimumCenterY, maximumCenterY));
+}
+
+export interface AssetPairPlacementOptions {
+  canvasWidth: number;
+  assetHeight: number;
+  /** Optional vertical cap shared by the letter and the complete object group. */
+  maxAssetHeight?: number;
+  letterScale: number;
+  objectScale: number;
+  assetGap: number;
+  assetHorizontalPadding: number;
+}
+
+export interface AssetPairPlacement {
+  assetHeight: number;
+  letterX: number;
+  objectX: number;
+  visualGap: number;
+  letterWidth: number;
+  objectWidth: number;
+}
+
+function horizontalExtents(
+  meta: AssetMeta,
+  assetHeight: number,
+): { left: number; right: number; width: number } {
+  const visual = meta.groupBbox ?? meta.bbox;
+  const scale = assetHeight / Math.max(1, visual.h);
+  const anchorX = visual.x + visual.w / 2;
+  const left = (anchorX - visual.x) * scale;
+  const right = (visual.x + visual.w - anchorX) * scale;
+  return { left, right, width: left + right };
+}
+
+export function calculateAssetPairPlacement(
+  letter: AssetMeta,
+  object: AssetMeta,
+  options: AssetPairPlacementOptions,
+): AssetPairPlacement {
+  const requestedGap = Math.max(0, options.assetGap);
+  const availableWidth = Math.max(
+    1,
+    options.canvasWidth - options.assetHorizontalPadding * 2,
+  );
+  const letterWidthPerHeight = horizontalExtents(letter, 1).width;
+  const objectWidthPerHeight = horizontalExtents(object, 1).width;
+  const widthPerHeight = letterWidthPerHeight + objectWidthPerHeight;
+  const maximumHeight =
+    widthPerHeight > 0
+      ? Math.max(1, (availableWidth - requestedGap) / widthPerHeight)
+      : options.assetHeight;
+  const requestedHeight = Math.min(
+    options.assetHeight,
+    options.maxAssetHeight ?? Number.POSITIVE_INFINITY,
+  );
+  const assetHeight = Math.min(Math.max(1, requestedHeight), maximumHeight);
+  const letterExtents = horizontalExtents(letter, assetHeight);
+  const objectExtents = horizontalExtents(object, assetHeight);
+  const totalWidth = letterExtents.width + requestedGap + objectExtents.width;
+  const leftEdge = (options.canvasWidth - totalWidth) / 2;
+  const letterX = leftEdge + letterExtents.left;
+  const letterRight = leftEdge + letterExtents.width;
+  const objectLeft = letterRight + requestedGap;
+  const objectX = objectLeft + objectExtents.left;
+
+  return {
+    assetHeight,
+    letterX,
+    objectX,
+    visualGap: objectLeft - letterRight,
+    letterWidth: letterExtents.width,
+    objectWidth: objectExtents.width,
   };
 }
 
@@ -327,29 +462,45 @@ export const AbcPreviewVideo: React.FC<AbcPreviewProps> = ({ data }) => {
   const assetLine = assetIndex >= 0 ? data.lines[assetIndex] : null;
   const activeLetter = assetLine?.letter ?? "";
   const activeAssets = activeLetter ? data.letters[activeLetter] : null;
-  const objectCenterY =
-    layout.assetY - (layout.objectLabelFont + layout.objectLabelGap) / 2;
   const title = data.metadata.title || data.metadata.songCode || "ABC";
   const artist = data.metadata.artist || "";
   const backgroundSrc = data.assets.backgroundRender || data.assets.background;
   const hasPrebakedBackground = Boolean(data.assets.backgroundRender);
 
-  const lyricStart =
-    lyricLine && lyricIndex > 0 ? previewStartForLine(lyricLine) : 0;
-  const lyricProgress = clampFrameProgress(
-    frame,
-    Math.round(lyricStart * fps),
-    Math.round((lyricStart + 0.24) * fps),
-  );
-  const lyricOpacity = lyricLine ? lyricProgress : 0;
-  const lyricTranslate = (1 - lyricProgress) * 10;
-  const logoRotation = (time / 16) * 360;
 
   let letterNode: React.ReactNode = null;
   let objectNode: React.ReactNode = null;
   let objectLabelNode: React.ReactNode = null;
 
   if (activeAssets && assetLine) {
+    const lyricHeight = layout.lyricHeight ?? 220;
+    const lyricTop = layout.canvasHeight - layout.lyricBottom - lyricHeight;
+    const stageTop = Math.max(150, layout.infoTop + 166 + 20);
+    const stageBottom = lyricTop - 24;
+    const verticalHalfHeight = Math.min(
+      layout.assetY - stageTop,
+      stageBottom - layout.assetY,
+    );
+    const maxCommonAssetHeight =
+      verticalHalfHeight > 0 ? verticalHalfHeight * 2 : layout.assetHeight;
+    const pairPlacement = calculateAssetPairPlacement(
+      activeAssets.letter,
+      activeAssets.object,
+      {
+        canvasWidth: layout.canvasWidth,
+        assetHeight: layout.assetHeight,
+        maxAssetHeight: maxCommonAssetHeight,
+        letterScale: layout.letterScale,
+        objectScale: layout.objectScale,
+        assetGap: layout.assetGap ?? 96,
+        assetHorizontalPadding: layout.assetHorizontalPadding ?? 80,
+      },
+    );
+    const defaultObjectCenterY =
+      layout.assetY - (layout.objectLabelFont + layout.objectLabelGap) / 2;
+    const objectCenterY = activeAssets.object.includesObjectWord
+      ? layout.assetY
+      : defaultObjectCenterY;
     const assetStart = previewStartForLine(assetLine);
     const hideAt = assetHideAt(data.lines, assetIndex);
     const enter = clampFrameProgress(
@@ -362,22 +513,20 @@ export const AbcPreviewVideo: React.FC<AbcPreviewProps> = ({ data }) => {
       extrapolateRight: "clamp",
     });
     const opacity = enter * fadeOut;
-    const baseScale = 0.94 + enter * 0.06;
-    const enterOffsetY = (1 - enter) * 20;
-    const idleY = Math.sin(Math.max(0, time - assetStart) * 1.55) * 2.2;
-    const letter = placedAsset(
+    const baseScale = 0.99 + enter * 0.01;
+    const enterOffsetY = (1 - enter) * 8;
+    const idleY = Math.sin(Math.max(0, time - assetStart) * 0.7) * 0.4;
+    const letter = calculatePlacedAsset(
       activeAssets.letter,
-      layout.letterX,
+      pairPlacement.letterX,
       layout.assetY,
-      layout.assetHeight,
-      layout.letterScale,
+      pairPlacement.assetHeight,
     );
-    const object = placedAsset(
+    const object = calculatePlacedAsset(
       activeAssets.object,
-      layout.objectX,
+      pairPlacement.objectX,
       objectCenterY,
-      layout.assetHeight,
-      layout.objectScale,
+      pairPlacement.assetHeight,
     );
     const sharedAssetStyle: CSSProperties = {
       position: "absolute",
@@ -417,7 +566,7 @@ export const AbcPreviewVideo: React.FC<AbcPreviewProps> = ({ data }) => {
     );
 
     const label = titleCaseObject(activeAssets.objectName);
-    if (label) {
+    if (label && !activeAssets.object.includesObjectWord) {
       objectLabelNode = (
         <div
           style={{
@@ -464,21 +613,21 @@ export const AbcPreviewVideo: React.FC<AbcPreviewProps> = ({ data }) => {
           src={resolveAssetSrc(backgroundSrc)}
           style={{
             position: "absolute",
-            inset: hasPrebakedBackground ? 0 : -18,
-            width: hasPrebakedBackground ? "100%" : `calc(100% + 36px)`,
-            height: hasPrebakedBackground ? "100%" : `calc(100% + 36px)`,
+            inset: 0,
+            width: "100%",
+            height: "100%",
             objectFit: "cover",
-            transform: hasPrebakedBackground ? undefined : "scale(1.01)",
+            transform: undefined,
             filter: hasPrebakedBackground
               ? undefined
-              : `blur(${layout.bgBlur}px) brightness(1.06) saturate(1.04)`,
+              : `blur(${Math.min(layout.bgBlur, 3)}px) brightness(1) saturate(1.04)`,
           }}
         />
       ) : null}
       <AbsoluteFill
         style={{
           background:
-            "linear-gradient(180deg, rgba(255,255,255,0.12), rgba(255,248,235,0.22) 58%, rgba(255,180,75,0.08))",
+            "linear-gradient(180deg, rgba(255,255,255,0.12), rgba(255,248,235,0.08) 58%, rgba(255,180,75,0.05))",
           pointerEvents: "none",
         }}
       />
@@ -562,7 +711,7 @@ export const AbcPreviewVideo: React.FC<AbcPreviewProps> = ({ data }) => {
             border: 0,
             boxShadow: "none",
             transformOrigin: "center center",
-            transform: `rotate(${logoRotation}deg)`,
+            transform: undefined,
             zIndex: 18,
           }}
         >
@@ -596,8 +745,10 @@ export const AbcPreviewVideo: React.FC<AbcPreviewProps> = ({ data }) => {
             alignItems: "center",
             gap: 14,
             width: layout.lyricWidth,
-            height: 220,
-            padding: "30px 48px",
+             height: layout.lyricHeight ?? 220,
+             boxSizing: "border-box",
+             overflow: "hidden",
+             padding: "30px 48px",
             borderRadius: 34,
             background: "rgba(255, 237, 226, 0.92)",
             border: "2px solid rgba(235,129,62,0.82)",
@@ -611,7 +762,7 @@ export const AbcPreviewVideo: React.FC<AbcPreviewProps> = ({ data }) => {
             letterSpacing: 0,
             WebkitFontSmoothing: "antialiased",
             zIndex: 32,
-            opacity: lyricOpacity,
+             opacity: 1,
           }}
         >
           <div
@@ -632,7 +783,7 @@ export const AbcPreviewVideo: React.FC<AbcPreviewProps> = ({ data }) => {
               alignItems: "center",
               gap: 14,
               width: "100%",
-              transform: `translateY(${lyricTranslate}px)`,
+               transform: undefined,
               fontSize: layout.lyricFont,
             }}
           >

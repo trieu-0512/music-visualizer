@@ -1,6 +1,6 @@
 {
   "songId": "0050",
-  "theme": "Weather Station",
+  "theme": "Weather Station & Sky",
   "macroDomain": "Weather & Sky",
   "status": "PASS_WITH_SUPPORT",
   "hardFailures": [],
@@ -8,16 +8,18 @@
     "A -> Anemometer: support-required, verify-pronunciation",
     "B -> Breeze: visual-clarity-review",
     "U -> Updraft: visual-clarity-review",
+    "X -> X-band Radar: guided-theme-fallback-review, verify-pronunciation",
     "Z -> Zephyr: visual-clarity-review"
   ],
   "tierCounts": {
     "C": 1,
-    "A": 18,
-    "B": 7
+    "A": 17,
+    "B": 8
   },
   "riskCounts": {
     "support-required": 1,
-    "verify-pronunciation": 1,
-    "visual-clarity-review": 3
+    "verify-pronunciation": 2,
+    "visual-clarity-review": 3,
+    "guided-theme-fallback-review": 1
   }
 }

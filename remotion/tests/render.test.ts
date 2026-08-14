@@ -294,6 +294,61 @@ describe("renderProject", () => {
     }
   });
 
+  it("forwards backend progress with the active render target", async () => {
+    const config = makeConfig("landscape");
+    const store = makeStore(seedFor(config));
+    const progressEvents: Array<{
+      compositionId: string;
+      progress: number;
+      renderedFrames: number;
+      encodedFrames: number;
+    }> = [];
+    const backend: RenderBackend = {
+      async bundle() {
+        return "serve://bundle";
+      },
+      async selectComposition(options) {
+        return { id: options.id };
+      },
+      async renderMedia(options) {
+        options.onProgress?.({
+          renderedFrames: 12,
+          encodedFrames: 10,
+          encodedDoneIn: null,
+          renderedDoneIn: null,
+          renderEstimatedTime: 4.5,
+          progress: 0.5,
+          stitchStage: "encoding",
+        });
+        const { writeFile } = await import("node:fs/promises");
+        await writeFile(options.outputLocation, Buffer.from("video"));
+      },
+    };
+
+    await renderProject(config, store, {
+      backend,
+      entryPoint: "/fake/index.js",
+      targetSelectors: ["landscape-fullhd"],
+      onProgress: (target, progress) => {
+        progressEvents.push({
+          compositionId: target.compositionId,
+          progress: progress.progress,
+          renderedFrames: progress.renderedFrames,
+          encodedFrames: progress.encodedFrames,
+        });
+      },
+    });
+
+    expect(progressEvents).toEqual([
+      {
+        compositionId: "landscape-fullhd",
+        progress: 0.5,
+        renderedFrames: 12,
+        encodedFrames: 10,
+      },
+    ]);
+  });
+
   it("honors videoFormatOverride over config.videoFormat and clears prior finals", async () => {
     const config = makeConfig("both");
     const store = makeStore(seedFor(config));

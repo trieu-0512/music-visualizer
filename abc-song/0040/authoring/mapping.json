@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
     "name": "Snowy Wildlife",
@@ -108,8 +108,12 @@
       "familiarityTier": "A"
     },
     "X": {
-      "object": "Xylophone",
-      "familiarityTier": "A"
+      "object": "X-shaped Snowflake",
+      "familiarityTier": "B",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "verify-pronunciation"
+      ]
     },
     "Y": {
       "object": "Yellow-billed Loon",

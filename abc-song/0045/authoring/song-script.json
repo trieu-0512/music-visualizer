@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 4,
   "lines": [
     {
       "id": "intro-1",
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "At the visitor shelter, X is Xylophone—our X-word helper | one struck note disappears faster than any other clock in the song.",
+      "text": "At the visitor shelter, X is Xenolith | one rock fragment held inside another tells a small geology story.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y — Yellow Bell! A flower can open and fade within a season | short plant time against old valley rock.",
+      "text": "Y — Yarrow! A flower can open and fade within a season | short plant time against old valley rock.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Glacier-side X ... Xylophone! Tap two fingers in the air like gentle xylophone mallets.",
+      "text": "Glacier-side X ... Xenolith! Point to the inner rock shape inside the larger stone.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Time clue Y ... Yellow Bell! Open both hands like a flower.",
+      "text": "Time clue Y ... Yarrow! Open both hands like a flower.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

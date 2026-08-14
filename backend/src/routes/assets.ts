@@ -123,15 +123,66 @@ export function createAssetsRouter(service: ProjectService, store: AssetStore): 
         throw notFound(`Asset not found: ${tail}`, { projectId, path: tail });
       }
 
-      res.status(200).type(assetContentType(relativePath));
-      const stream = await store.createReadStream(ref);
-      stream.pipe(res);
-      await new Promise<void>((resolve, reject) => {
-        stream.on("end", resolve);
-        stream.on("error", reject);
-      });
+      res.type(assetContentType(relativePath));
+      res.setHeader("Accept-Ranges", "bytes");
+
+      const data = await store.read(ref);
+      const rangeHeader = req.header("Range");
+      if (rangeHeader !== undefined) {
+        // Browsers use byte ranges for media seeking. The generic AssetStore
+        // exposes streams but not file sizes, so the bytes are already loaded
+        // here to calculate and validate the requested interval.
+        const range = parseByteRange(rangeHeader, data.length);
+        if (range === null) {
+          res.status(416).setHeader("Content-Range", `bytes */${data.length}`).end();
+          return;
+        }
+
+        const contentLength = range.end - range.start + 1;
+        res
+          .status(206)
+          .setHeader("Content-Range", `bytes ${range.start}-${range.end}/${data.length}`)
+          .setHeader("Content-Length", String(contentLength))
+          .end(data.subarray(range.start, range.end + 1));
+        return;
+      }
+
+      res.status(200).setHeader("Content-Length", String(data.length)).end(data);
     }),
   );
 
   return router;
+}
+
+interface ByteRange {
+  start: number;
+  end: number;
+}
+
+/** Parse one RFC 7233 byte range; multi-range requests are intentionally rejected. */
+function parseByteRange(value: string, size: number): ByteRange | null {
+  if (size <= 0 || !value.startsWith("bytes=") || value.includes(",")) return null;
+  const spec = value.slice("bytes=".length).trim();
+  const separator = spec.indexOf("-");
+  if (separator < 0) return null;
+
+  const startText = spec.slice(0, separator).trim();
+  const endText = spec.slice(separator + 1).trim();
+  let start: number;
+  let end: number;
+
+  if (startText === "") {
+    const suffixLength = Number(endText);
+    if (!Number.isInteger(suffixLength) || suffixLength <= 0) return null;
+    start = Math.max(0, size - suffixLength);
+    end = size - 1;
+  } else {
+    start = Number(startText);
+    if (!Number.isInteger(start) || start < 0 || start >= size) return null;
+    end = endText === "" ? size - 1 : Number(endText);
+    if (!Number.isInteger(end) || end < start) return null;
+    end = Math.min(end, size - 1);
+  }
+
+  return { start, end };
 }

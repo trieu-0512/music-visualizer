@@ -38,7 +38,7 @@ GOLD_V5_46_50_SPEC_PATCHES: dict[str, dict[str, object]] = {
 ("U","U — Updraft! Rising air carries heat and moisture upward | an invisible motion important inside many clouds and storms."),
 ("V","V ... V ... Vapor! Water vapor is invisible water in gas form | visible cloud droplets are a different phase."),
 ("W","W? Windsock! Its orientation shows wind direction and its extension gives a rough sense of wind strength | a station clue we can see."),
-("X","At the classroom table, X is Xylophone—our X helper | tuned bars mark recall, never pretending to measure weather."),
+("X","At the classroom table, X is X-band Radar | short radio waves can help detect rain or moving weather."),
 ("Y","Y — Yellow Sun! The Sun can appear yellow from Earth because the atmosphere filters and scatters light | the star itself is not simply a yellow weather object."),
 ("Z","Z ... Z ... Zephyr! A gentle breeze | one soft wind word to close the daily log."),),
 "style_blueprint":"Crisp diction. Open with dew and mid-level cloud at 86 BPM in light 4/4 with acoustic guitar, soft shaker, marimba and tiny notebook-click percussion. Keep melody narrow and mostly stepwise. Round 1 moves morning to night and clearly separates observation, clothing, and instruments. Chorus uses look-feel-record. Round 2 leaves one recall beat. Duck percussion at targets. Hail/lightning use shelter-safe wording; no thunder SFX over target names. End with sparse night texture and clean cadence."},
@@ -194,8 +194,8 @@ GOLD_V5_46_50_SPEC_PATCHES: dict[str, dict[str, object]] = {
 ("U","U — Updraft! Rising air inside convection | important weather motion our simple ground station infers only indirectly."),
 ("V","V ... V ... Vane! Weather vane indicates wind direction | different job from anemometer speed."),
 ("W","W? Wind! Moving air is the phenomenon | compare vane direction and anemometer speed to describe it."),
-("X","At the station shelf, X is Xylophone—our X helper | tuned bars test memory, not weather."),
+("X","At the station shelf, X is X-band Radar | short radio waves help show rain or moving weather."),
 ("Y","Y — Yellow Sun! Apparent yellowish color can come from atmospheric scattering | visual note, not a sensor output."),
 ("Z","Z ... Z ... Zephyr! Gentle breeze | final wind observation returns us to the anemometer and vane."),),
-"style_blueprint":"Crisp diction. Open with three distinct instrument functions at 88 BPM in precise 4/4 with acoustic guitar, marimba, soft woodblock ticks, bass and light shaker. Melody narrow and repeated-note friendly for technical words. Round 1 follows measure -> compare -> log. Chorus uses measure-compare-log. Round 2 leaves one clean recall beat. Anemometer=speed, vane=direction, thermometer=temperature, pressure gauge=pressure; never blur roles. Hail and low-visibility fog stay safety-aware. Xylophone is shelf context. Duck target onsets and end with notebook-closing cadence."}
+"style_blueprint":"Crisp diction. Open with three distinct instrument functions at 88 BPM in precise 4/4 with acoustic guitar, marimba, soft woodblock ticks, bass and light shaker. Melody narrow and repeated-note friendly for technical words. Round 1 follows measure -> compare -> log. Chorus uses measure-compare-log. Round 2 leaves one clean recall beat. Anemometer=speed, vane=direction, thermometer=temperature, pressure gauge=pressure; never blur roles. Hail and low-visibility fog stay safety-aware. X-band Radar is the station's precipitation-observation tool. Duck target onsets and end with notebook-closing cadence."}
 }

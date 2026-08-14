@@ -1,17 +1,17 @@
 {
   "auditVersion": 4,
   "auditStandard": "creative-v4",
-  "status": "PASS",
+  "status": "PASS_WITH_REVIEW",
   "range": "0031-0040",
   "songs": 10,
   "schemaAndSemanticFailures": 0,
-  "warnings": 0,
+  "warnings": 5,
   "designReworkSongs": 0,
   "uniqueHooks": 10,
   "uniqueStyles": 10,
   "uniqueSectionForms": 8,
   "uniqueCreativeFingerprints": 10,
-  "maxLyricSimilarity": 0.0238,
+  "maxLyricSimilarity": 0.0231,
   "mostSimilarPair": [
     "0036",
     "0039"
@@ -20,7 +20,7 @@
   "songsDetail": [
     {
       "songId": "0031",
-      "theme": "Desert Animals",
+      "theme": "Desert Life",
       "targetLines": 52,
       "lyricWordCount": 927,
       "designStatus": "READY_FOR_GENERATION_TEST",
@@ -132,7 +132,7 @@
     },
     {
       "songId": "0033",
-      "theme": "Desert Plants & Rocks",
+      "theme": "Desert Life, Plants & Rocks",
       "targetLines": 52,
       "lyricWordCount": 858,
       "designStatus": "READY_FOR_GENERATION_TEST",
@@ -301,9 +301,9 @@
     },
     {
       "songId": "0036",
-      "theme": "Polar Animals",
+      "theme": "Polar Life",
       "targetLines": 52,
-      "lyricWordCount": 898,
+      "lyricWordCount": 892,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -337,7 +337,6 @@
         "U",
         "V",
         "W",
-        "X",
         "Y",
         "Z"
       ],
@@ -352,15 +351,19 @@
         ],
         "hasMidInterlude": false
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:X-shaped Snowflake"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:X-shaped Snowflake"
+      ]
     },
     {
       "songId": "0037",
       "theme": "Ice & Tundra",
       "targetLines": 52,
-      "lyricWordCount": 893,
+      "lyricWordCount": 894,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -408,15 +411,19 @@
         ],
         "hasMidInterlude": true
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:X-shaped Snowflake"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:X-shaped Snowflake"
+      ]
     },
     {
       "songId": "0038",
-      "theme": "Frozen Ocean",
+      "theme": "Frozen Ocean & Arctic Shore",
       "targetLines": 52,
-      "lyricWordCount": 898,
+      "lyricWordCount": 897,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -464,9 +471,13 @@
         ],
         "hasMidInterlude": false
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:X-shaped Snowflake"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:X-shaped Snowflake"
+      ]
     },
     {
       "songId": "0039",
@@ -521,15 +532,19 @@
         ],
         "hasMidInterlude": true
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:X-shaped Snowflake"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:X-shaped Snowflake"
+      ]
     },
     {
       "songId": "0040",
       "theme": "Snowy Wildlife",
       "targetLines": 52,
-      "lyricWordCount": 917,
+      "lyricWordCount": 912,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -578,9 +593,13 @@
         ],
         "hasMidInterlude": false
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:X-shaped Snowflake"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:X-shaped Snowflake"
+      ]
     }
   ]
 }

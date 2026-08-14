@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 4,
   "lines": [
     {
       "id": "intro-1",
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X is Xeric Shrub. Woody plant adapted to dry conditions | a low rooted shape on the drier side of our contour.",
+      "text": "X is Xenolith. A rock fragment trapped inside another rock | a small inner shape in the mountain contour.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y — Yellow Bell! Bell-shaped yellow bloom in the alphabet set | a small color mark, not proof of a specific alpine range.",
+      "text": "Y — Yarrow! Flat clusters of tiny flowers rise on a leafy stem | a meadow plant in the mountain scene.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -453,7 +453,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Rise or return X ... Xeric Shrub! Grow one hand upward, then sway.",
+      "text": "Rise or return X ... Xenolith! Point to the inner rock shape inside the larger stone.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -461,7 +461,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Contour clue Y ... Yellow Bell! Open both hands like a flower.",
+      "text": "Contour clue Y ... Yarrow! Open both hands like a flower.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

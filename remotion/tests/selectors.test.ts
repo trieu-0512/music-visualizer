@@ -118,22 +118,22 @@ describe("beatPulse", () => {
 });
 
 describe("backgroundDynamics", () => {
-  it("is bounded and monotonic in rms", () => {
-    expect(backgroundDynamics(0)).toEqual({ scale: 1, brightness: 0.7 });
-    expect(backgroundDynamics(1)).toEqual({ scale: 1.08, brightness: 1.0 });
+  it("is static so audio cannot move or flash the background", () => {
+    expect(backgroundDynamics(0)).toEqual({ scale: 1, brightness: 1 });
+    expect(backgroundDynamics(1)).toEqual({ scale: 1, brightness: 1 });
   });
 
-  it("clamps out-of-range rms", () => {
-    expect(backgroundDynamics(5)).toEqual({ scale: 1.08, brightness: 1.0 });
-    expect(backgroundDynamics(-5)).toEqual({ scale: 1, brightness: 0.7 });
+  it("ignores out-of-range rms", () => {
+    expect(backgroundDynamics(5)).toEqual({ scale: 1, brightness: 1 });
+    expect(backgroundDynamics(-5)).toEqual({ scale: 1, brightness: 1 });
   });
 });
 
 describe("letterScale", () => {
-  it("is bounded to [1, 1.4] and non-decreasing in inputs", () => {
+  it("is bounded to [1, 1.08] and non-decreasing in inputs", () => {
     expect(letterScale(0, 0)).toBe(1);
-    expect(letterScale(1, 1)).toBeCloseTo(1.4);
-    expect(letterScale(5, 5)).toBeCloseTo(1.4);
+    expect(letterScale(1, 1)).toBeCloseTo(1.08);
+    expect(letterScale(5, 5)).toBeCloseTo(1.08);
   });
 });
 

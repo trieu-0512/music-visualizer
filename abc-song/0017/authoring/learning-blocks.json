@@ -1,28 +1,26 @@
 [
   {
     "letter": "A",
-    "word": "Apron",
+    "word": "Ant",
     "mode": "letter-name",
     "familiarity_tier": "A",
     "letter_name_sound_cue": "strong-initial",
     "visual_confusability": "low",
     "phonological_name_confusability": "medium",
     "sequence_dependency_risk": "low",
-    "syllable_count": 2,
-    "stress_pattern": "S-w",
-    "pronunciation_note": "Working stress pattern; confirm naturally during L0 read-aloud and L1 audio review.",
-    "prosodic_motif_variant": "buzz-bloom-2syll",
+    "syllable_count": 1,
+    "stress_pattern": "S",
+    "pronunciation_note": null,
+    "prosodic_motif_variant": "buzz-bloom-1syll",
     "round1_objective": "lexical-semantic",
     "round2_objective": "retrieval-action",
     "retrieval_cue": "A",
     "retrieval_gap_plan": "brief one-beat answer space",
-    "congruent_action": "Trace a little apron shape on your shirt.",
+    "congruent_action": "Wiggle two fingers like tiny ant legs.",
     "rhyme_family": "trail-tell",
     "visual_reveal_rule": "round1=line-start; round2=target-word",
     "contrast_notes": null,
-    "risk_flags": [
-      "prosody-review"
-    ]
+    "risk_flags": []
   },
   {
     "letter": "B",
@@ -391,26 +389,29 @@
   },
   {
     "letter": "Q",
-    "word": "Quail",
+    "word": "Queen Butterfly",
     "mode": "letter-name",
-    "familiarity_tier": "A",
+    "familiarity_tier": "B",
     "letter_name_sound_cue": "weak-or-misleading",
     "visual_confusability": "high",
     "phonological_name_confusability": "medium",
     "sequence_dependency_risk": "medium",
-    "syllable_count": 1,
-    "stress_pattern": "S",
-    "pronunciation_note": null,
-    "prosodic_motif_variant": "buzz-bloom-1syll",
+    "syllable_count": 4,
+    "stress_pattern": "S-w-w-w",
+    "pronunciation_note": "Working stress pattern; confirm naturally during L0 read-aloud and L1 audio review.",
+    "prosodic_motif_variant": "buzz-bloom-4syll",
     "round1_objective": "lexical-semantic",
     "round2_objective": "retrieval-action",
     "retrieval_cue": "Q",
     "retrieval_gap_plan": "brief one-beat answer space",
-    "congruent_action": "Make tiny pecking finger taps.",
+    "congruent_action": "Wiggle tiny fingers or make a small flutter.",
     "rhyme_family": "bright-right",
     "visual_reveal_rule": "round1=line-start; round2=target-word",
     "contrast_notes": "Isolate the capital letter before showing confusable competitors.",
-    "risk_flags": []
+    "risk_flags": [
+      "guided-theme-fallback-review",
+      "prosody-review"
+    ]
   },
   {
     "letter": "R",

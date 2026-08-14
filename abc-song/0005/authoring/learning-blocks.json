@@ -559,27 +559,30 @@
   },
   {
     "letter": "X",
-    "word": "X-ray Tetra",
+    "word": "Xanthid Crab",
     "mode": "letter-name",
-    "familiarity_tier": "B",
+    "familiarity_tier": "C",
     "letter_name_sound_cue": "embedded-final",
     "visual_confusability": "low",
     "phonological_name_confusability": "medium",
     "sequence_dependency_risk": "low",
-    "syllable_count": 4,
-    "stress_pattern": "S-S-S-w",
-    "pronunciation_note": "EX-RAY TET-ra; tetra has first-syllable stress.",
-    "prosodic_motif_variant": "coast-clap-4syll",
+    "syllable_count": 3,
+    "stress_pattern": "VERIFY",
+    "pronunciation_note": "Verify dictionary pronunciation and lexical stress before final generation approval.",
+    "prosodic_motif_variant": "coast-clap-3syll",
     "round1_objective": "lexical-semantic",
     "round2_objective": "retrieval-action",
     "retrieval_cue": "X",
     "retrieval_gap_plan": "short one-beat retrieval gap",
-    "congruent_action": "Make a gentle fish-swim with one hand.",
+    "congruent_action": "Wiggle fingers sideways like a small crab.",
     "rhyme_family": "see-me",
     "visual_reveal_rule": "round1=line-start; round2=target-word",
     "contrast_notes": null,
     "risk_flags": [
-      "guided-theme-fallback-review"
+      "VERIFY",
+      "guided-theme-fallback-review",
+      "support-required",
+      "verify-pronunciation"
     ]
   },
   {

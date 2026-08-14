@@ -19,9 +19,9 @@ import {
  * Validates: Requirements 10.2, 10.4
  *
  * Configured bounds (design `selectors.ts`):
- *   - backgroundDynamics.scale      in [1, 1.08]
- *   - backgroundDynamics.brightness in [0.7, 1.0]
- *   - letterScale                   in [1, 1.4]
+ *   - backgroundDynamics.scale      in [1, 1]
+ *   - backgroundDynamics.brightness in [1.0, 1.0]
+ *   - letterScale                   in [1, 1.08]
  *   - beatPulse                     in [0, 1]
  */
 
@@ -31,11 +31,11 @@ const NUM_RUNS = 100;
 const EPS = 1e-9;
 
 const SCALE_MIN = 1;
-const SCALE_MAX = 1.08;
-const BRIGHTNESS_MIN = 0.7;
+const SCALE_MAX = 1;
+const BRIGHTNESS_MIN = 1;
 const BRIGHTNESS_MAX = 1.0;
 const LETTER_MIN = 1;
-const LETTER_MAX = 1.4;
+const LETTER_MAX = 1.08;
 
 /**
  * Finite doubles spanning well below 0 and well above 1, so each generated

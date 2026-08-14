@@ -571,27 +571,28 @@
   },
   {
     "letter": "X",
-    "word": "Xylophone",
+    "word": "Xenops",
     "mode": "letter-name",
-    "familiarity_tier": "A",
+    "familiarity_tier": "C",
     "letter_name_sound_cue": "embedded-final",
     "visual_confusability": "low",
     "phonological_name_confusability": "medium",
     "sequence_dependency_risk": "low",
-    "syllable_count": 3,
-    "stress_pattern": "S-w-w",
-    "pronunciation_note": "Working stress pattern; confirm naturally during L0 read-aloud and L1 audio review.",
-    "prosodic_motif_variant": "rainforest-beat-3syll",
+    "syllable_count": 2,
+    "stress_pattern": "S-w",
+    "pronunciation_note": "ZEE-nops; English IPA /ˈzinɑps/.",
+    "prosodic_motif_variant": "rainforest-beat-2syll",
     "round1_objective": "lexical-semantic",
     "round2_objective": "retrieval-action",
     "retrieval_cue": "X",
     "retrieval_gap_plan": "one beat of quiet after cue",
-    "congruent_action": "Tap two fingers in the air like gentle xylophone mallets.",
+    "congruent_action": "Wiggle tiny fingers or make a small flutter.",
     "rhyme_family": "see-me",
     "visual_reveal_rule": "round1=line-start; round2=target-word",
     "contrast_notes": null,
     "risk_flags": [
-      "prosody-review"
+      "guided-theme-fallback-review",
+      "support-required"
     ]
   },
   {

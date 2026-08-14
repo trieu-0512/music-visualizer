@@ -10,17 +10,18 @@
     "G -> Gust: visual-clarity-review",
     "Q -> Quiet Sky: guided-theme-fallback-review, visual-clarity-review",
     "U -> Updraft: visual-clarity-review",
+    "X -> X-band Radar: guided-theme-fallback-review, verify-pronunciation",
     "Z -> Zephyr: visual-clarity-review"
   ],
   "tierCounts": {
     "C": 1,
-    "A": 20,
-    "B": 5
+    "A": 19,
+    "B": 6
   },
   "riskCounts": {
     "support-required": 1,
-    "verify-pronunciation": 1,
+    "verify-pronunciation": 2,
     "visual-clarity-review": 5,
-    "guided-theme-fallback-review": 1
+    "guided-theme-fallback-review": 2
   }
 }

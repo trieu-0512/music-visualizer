@@ -12,7 +12,7 @@ CATALOG = ROOT / "abc-song"
 LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 # PROJECT_HEURISTIC support-cost vocabulary. These flags are not research claims.
-RARE_OR_TECHNICAL_TOKENS = {"anemometer","altocumulus","oscilloscope","pipette","quahog","qajaq","quoin","xiphophorus","xerophyte","zoarcid","xenops","xerus","uakari","zener","quadriceps","xiphoid","zygomatic","ultrasonic","voltmeter","hydraulic","quasar","kuiper","krypton","nuthatch","vallisneria","quillwort","xoconostle","ulluco","quandong","xaphoon","yangqin","yidaki","zills","umbrellabird","uromastyx","urutu","xenosaurus","qianzhousaurus","wuerhosaurus","xixiasaurus","zephyrosaurus"}
+RARE_OR_TECHNICAL_TOKENS = {"anemometer","altocumulus","oscilloscope","pipette","quahog","qajaq","quoin","xiphophorus","xerophyte","zoarcid","xenops","xerus","uakari","zener","quadriceps","xiphoid","zygomatic","ultrasonic","voltmeter","hydraulic","quasar","kuiper","krypton","nuthatch","vallisneria","quillwort","xoconostle","ulluco","quandong","xaphoon","yangqin","yidaki","zills","umbrellabird","uromastyx","urutu","xenosaurus","qianzhousaurus","wuerhosaurus","xixiasaurus","zephyrosaurus","xanthid","xylem","xenolith","x-shaped"}
 SAFETY_CONTEXT_TOKENS = {"axe","auger","drill","jackhammer","knife","laser","saw","firework","voltage","battery","fuel","kerosene","blender","kettle","oven","frying","zester","scissors","needle","stapler","hammer","pliers"}
 VISUAL_REVIEW_TOKENS = {"orbit","universe","world","humidity","breeze","gust","updraft","zephyr","vision","voice","affection","delight","optimism","interest","routine","friendship","kindness","gratitude","patience","respect","quantum","zero-gravity","knowledge","quality","quiet"}
 

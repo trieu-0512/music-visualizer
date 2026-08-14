@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 4,
   "lines": [
     {
       "id": "intro-1",
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "What belongs to X? Xiphophorus! A freshwater fish group that includes swordtails and platies.",
+      "text": "What belongs to X? X-ray Tetra! A small freshwater fish with a partly transparent middle.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Quiet clue, X ... Xiphophorus. Make one small fish-swim, slow and clear.",
+      "text": "Quiet clue, X ... X-ray Tetra. Make a gentle fish-swim with one hand.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

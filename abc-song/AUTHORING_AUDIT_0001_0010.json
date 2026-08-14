@@ -1,17 +1,17 @@
 {
   "auditVersion": 4,
   "auditStandard": "creative-v4",
-  "status": "PASS",
+  "status": "PASS_WITH_REVIEW",
   "range": "0001-0010",
   "songs": 10,
   "schemaAndSemanticFailures": 0,
-  "warnings": 0,
+  "warnings": 4,
   "designReworkSongs": 0,
   "uniqueHooks": 10,
   "uniqueStyles": 10,
   "uniqueSectionForms": 7,
   "uniqueCreativeFingerprints": 10,
-  "maxLyricSimilarity": 0.1371,
+  "maxLyricSimilarity": 0.1486,
   "mostSimilarPair": [
     "0006",
     "0009"
@@ -116,15 +116,19 @@
         ],
         "hasMidInterlude": false
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xanthid Crab"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:Xanthid Crab"
+      ]
     },
     {
       "songId": "0003",
       "theme": "Ocean Creatures & Boats",
       "targetLines": 52,
-      "lyricWordCount": 763,
+      "lyricWordCount": 767,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -156,15 +160,19 @@
         ],
         "hasMidInterlude": true
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xanthid Crab"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:Xanthid Crab"
+      ]
     },
     {
       "songId": "0004",
       "theme": "Ocean Nature & Travel",
       "targetLines": 52,
-      "lyricWordCount": 738,
+      "lyricWordCount": 739,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -212,15 +220,19 @@
         ],
         "hasMidInterlude": true
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xanthid Crab"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:Xanthid Crab"
+      ]
     },
     {
       "songId": "0005",
       "theme": "Coast Explorer",
       "targetLines": 52,
-      "lyricWordCount": 752,
+      "lyricWordCount": 754,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -257,9 +269,13 @@
         ],
         "hasMidInterlude": false
       },
-      "pronunciationReviewTargets": [],
+      "pronunciationReviewTargets": [
+        "X:Xanthid Crab"
+      ],
       "errors": [],
-      "warnings": []
+      "warnings": [
+        "pronunciation review required: X:Xanthid Crab"
+      ]
     },
     {
       "songId": "0006",
@@ -316,7 +332,7 @@
       "songId": "0007",
       "theme": "Lakes & Waterways",
       "targetLines": 52,
-      "lyricWordCount": 728,
+      "lyricWordCount": 732,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -359,9 +375,9 @@
     },
     {
       "songId": "0008",
-      "theme": "Freshwater Animals",
+      "theme": "Freshwater Life",
       "targetLines": 52,
-      "lyricWordCount": 731,
+      "lyricWordCount": 735,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [
@@ -381,7 +397,6 @@
         "M",
         "N",
         "O",
-        "Q",
         "R",
         "S",
         "T",
@@ -410,7 +425,7 @@
       "songId": "0009",
       "theme": "Wetland Nature",
       "targetLines": 52,
-      "lyricWordCount": 769,
+      "lyricWordCount": 771,
       "designStatus": "READY_FOR_GENERATION_TEST",
       "creativeReworkReasons": [],
       "targetEntryFamilies": [

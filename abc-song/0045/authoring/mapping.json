@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
     "name": "Trails & Glaciers",
@@ -106,12 +106,17 @@
       "familiarityTier": "A"
     },
     "X": {
-      "object": "Xylophone",
-      "familiarityTier": "A"
+      "object": "Xenolith",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
     },
     "Y": {
-      "object": "Yellow Bell",
-      "familiarityTier": "B"
+      "object": "Yarrow",
+      "familiarityTier": "A"
     },
     "Z": {
       "object": "Zigzag Trail",

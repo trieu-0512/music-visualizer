@@ -150,7 +150,11 @@ export function normalizeFolderPath(
   if (authoringIndex >= 0) {
     const relative = parts.slice(authoringIndex).join("/");
     const fileName = parts.at(-1) ?? "";
-    if (relative === "authoring/mapping.json" || AUTHORING_FILE_NAMES.has(fileName)) {
+    if (
+      relative === "authoring/mapping.json" ||
+      AUTHORING_FILE_NAMES.has(fileName) ||
+      fileName.toLowerCase().endsWith(".lrc")
+    ) {
       return {
         relativePath: relative,
         rootName: authoringIndex > 0 ? parts[authoringIndex - 1]! : null,

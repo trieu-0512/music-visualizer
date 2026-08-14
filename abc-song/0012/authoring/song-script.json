@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 2,
   "lines": [
     {
       "id": "intro-1",
@@ -59,7 +59,7 @@
     {
       "id": "r1-F",
       "sectionId": "r1-e-h",
-      "text": "F is Farmer. Boots cross from barn to field | caring for crops, animals, land, and daily jobs.",
+      "text": "F is Fence. Post after post marks the field edge | a clear boundary beside the barn and path.",
       "targetId": "F",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -295,7 +295,7 @@
     {
       "id": "r2-F",
       "sectionId": "r2-e-h",
-      "text": "Ring for F ... Farmer! Point to the matching picture, then make one small shape gesture.",
+      "text": "Ring for F ... Fence! Hold fingers upright like fence posts.",
       "targetId": "F",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

@@ -1,0 +1,1386 @@
+{
+  "version": 1,
+  "mode": "alpha-connected-components-no-ai-background-removal",
+  "sourceDir": "F:\\MMO\\Nhac\\abc-song\\0001\\authoring\\Task_205634_08142026",
+  "outputDir": "F:\\MMO\\Nhac\\abc-song\\0001\\authoring\\Task_205634_08142026\\processed",
+  "letters": {
+    "J": {
+      "letter": {
+        "src": "letters/J.png",
+        "file": {
+          "w": 1672,
+          "h": 940
+        },
+        "bbox": {
+          "x": 53,
+          "y": 59,
+          "w": 598,
+          "h": 799
+        }
+      },
+      "object": {
+        "src": "object-groups/J.png",
+        "file": {
+          "w": 1672,
+          "h": 940
+        },
+        "bbox": {
+          "x": 816,
+          "y": 70,
+          "w": 826,
+          "h": 660
+        },
+        "groupBbox": {
+          "x": 816,
+          "y": 70,
+          "w": 826,
+          "h": 835
+        },
+        "wordBbox": {
+          "x": 1005,
+          "y": 718,
+          "w": 457,
+          "h": 187
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Jetty",
+      "source": "10_id_0001J_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 940,
+        "componentCount": 4,
+        "retainedComponentCount": 4,
+        "letterComponentArea": 254352,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "K": {
+      "letter": {
+        "src": "letters/K.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 105,
+          "y": 91,
+          "w": 629,
+          "h": 735
+        }
+      },
+      "object": {
+        "src": "object-groups/K.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 783,
+          "y": 91,
+          "w": 836,
+          "h": 573
+        },
+        "groupBbox": {
+          "x": 783,
+          "y": 91,
+          "w": 836,
+          "h": 780
+        },
+        "wordBbox": {
+          "x": 925,
+          "y": 660,
+          "w": 586,
+          "h": 211
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Kayak",
+      "source": "11_id_0001K_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 4,
+        "retainedComponentCount": 4,
+        "letterComponentArea": 330916,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "L": {
+      "letter": {
+        "src": "letters/L.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 73,
+          "y": 82,
+          "w": 605,
+          "h": 774
+        }
+      },
+      "object": {
+        "src": "object-groups/L.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 703,
+          "y": 84,
+          "w": 933,
+          "h": 633
+        },
+        "groupBbox": {
+          "x": 703,
+          "y": 84,
+          "w": 933,
+          "h": 788
+        },
+        "wordBbox": {
+          "x": 867,
+          "y": 724,
+          "w": 638,
+          "h": 148
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Lobster",
+      "source": "12_id_0001L_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 4,
+        "retainedComponentCount": 4,
+        "letterComponentArea": 259865,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "M": {
+      "letter": {
+        "src": "letters/M.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 54,
+          "y": 132,
+          "w": 718,
+          "h": 697
+        }
+      },
+      "object": {
+        "src": "object-groups/M.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 870,
+          "y": 82,
+          "w": 737,
+          "h": 599
+        },
+        "groupBbox": {
+          "x": 870,
+          "y": 82,
+          "w": 737,
+          "h": 774
+        },
+        "wordBbox": {
+          "x": 924,
+          "y": 701,
+          "w": 618,
+          "h": 155
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Mussel",
+      "source": "13_id_0001M_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 17,
+        "retainedComponentCount": 8,
+        "letterComponentArea": 372934,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "N": {
+      "letter": {
+        "src": "letters/N.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 59,
+          "y": 124,
+          "w": 643,
+          "h": 697
+        }
+      },
+      "object": {
+        "src": "object-groups/N.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 539,
+          "y": 18,
+          "w": 1121,
+          "h": 696
+        },
+        "groupBbox": {
+          "x": 539,
+          "y": 18,
+          "w": 1121,
+          "h": 862
+        },
+        "wordBbox": {
+          "x": 866,
+          "y": 733,
+          "w": 710,
+          "h": 147
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Narwhal",
+      "source": "14_id_0001N_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 9,
+        "retainedComponentCount": 9,
+        "letterComponentArea": 366485,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "O": {
+      "letter": {
+        "src": "letters/O.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 55,
+          "y": 75,
+          "w": 705,
+          "h": 779
+        }
+      },
+      "object": {
+        "src": "object-groups/O.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 814,
+          "y": 54,
+          "w": 825,
+          "h": 668
+        },
+        "groupBbox": {
+          "x": 814,
+          "y": 54,
+          "w": 825,
+          "h": 839
+        },
+        "wordBbox": {
+          "x": 897,
+          "y": 716,
+          "w": 647,
+          "h": 177
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Octopus",
+      "source": "15_id_0001O_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 3,
+        "retainedComponentCount": 3,
+        "letterComponentArea": 359351,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "P": {
+      "letter": {
+        "src": "letters/P.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 129,
+          "y": 87,
+          "w": 599,
+          "h": 773
+        }
+      },
+      "object": {
+        "src": "object-groups/P.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 806,
+          "y": 19,
+          "w": 739,
+          "h": 766
+        },
+        "groupBbox": {
+          "x": 806,
+          "y": 19,
+          "w": 739,
+          "h": 903
+        },
+        "wordBbox": {
+          "x": 941,
+          "y": 765,
+          "w": 554,
+          "h": 157
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Pelican",
+      "source": "16_id_0001P_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 20,
+        "retainedComponentCount": 16,
+        "letterComponentArea": 293493,
+        "objectComponentCount": 7,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "Q": {
+      "letter": {
+        "src": "letters/Q.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 61,
+          "y": 67,
+          "w": 693,
+          "h": 792
+        }
+      },
+      "object": {
+        "src": "object-groups/Q.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 849,
+          "y": 138,
+          "w": 768,
+          "h": 559
+        },
+        "groupBbox": {
+          "x": 849,
+          "y": 138,
+          "w": 768,
+          "h": 738
+        },
+        "wordBbox": {
+          "x": 942,
+          "y": 705,
+          "w": 571,
+          "h": 171
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Quahog",
+      "source": "17_id_0001Q_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 5,
+        "retainedComponentCount": 4,
+        "letterComponentArea": 351358,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "R": {
+      "letter": {
+        "src": "letters/R.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 54,
+          "y": 68,
+          "w": 689,
+          "h": 786
+        }
+      },
+      "object": {
+        "src": "object-groups/R.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 724,
+          "y": 72,
+          "w": 931,
+          "h": 599
+        },
+        "groupBbox": {
+          "x": 724,
+          "y": 72,
+          "w": 931,
+          "h": 816
+        },
+        "wordBbox": {
+          "x": 1012,
+          "y": 678,
+          "w": 365,
+          "h": 210
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Ray",
+      "source": "18_id_0001R_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 5,
+        "retainedComponentCount": 5,
+        "letterComponentArea": 385663,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "S": {
+      "letter": {
+        "src": "letters/S.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 146,
+          "y": 73,
+          "w": 591,
+          "h": 799
+        }
+      },
+      "object": {
+        "src": "object-groups/S.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 1006,
+          "y": 26,
+          "w": 418,
+          "h": 744
+        },
+        "groupBbox": {
+          "x": 935,
+          "y": 26,
+          "w": 612,
+          "h": 873
+        },
+        "wordBbox": {
+          "x": 935,
+          "y": 770,
+          "w": 612,
+          "h": 129
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Seahorse",
+      "source": "19_id_0001S_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 3,
+        "retainedComponentCount": 3,
+        "letterComponentArea": 324222,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "A": {
+      "letter": {
+        "src": "letters/A.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 33,
+          "y": 81,
+          "w": 776,
+          "h": 784
+        }
+      },
+      "object": {
+        "src": "object-groups/A.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 878,
+          "y": 38,
+          "w": 745,
+          "h": 695
+        },
+        "groupBbox": {
+          "x": 878,
+          "y": 38,
+          "w": 745,
+          "h": 854
+        },
+        "wordBbox": {
+          "x": 896,
+          "y": 730,
+          "w": 659,
+          "h": 162
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Angelfish",
+      "source": "1_id_0001A_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 10,
+        "retainedComponentCount": 10,
+        "letterComponentArea": 332537,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "T": {
+      "letter": {
+        "src": "letters/T.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 97,
+          "y": 86,
+          "w": 622,
+          "h": 771
+        }
+      },
+      "object": {
+        "src": "object-groups/T.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 705,
+          "y": 116,
+          "w": 929,
+          "h": 595
+        },
+        "groupBbox": {
+          "x": 705,
+          "y": 116,
+          "w": 929,
+          "h": 760
+        },
+        "wordBbox": {
+          "x": 909,
+          "y": 716,
+          "w": 560,
+          "h": 160
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Turtle",
+      "source": "20_id_0001T_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 8,
+        "retainedComponentCount": 8,
+        "letterComponentArea": 254026,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "U": {
+      "letter": {
+        "src": "letters/U.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 38,
+          "y": 96,
+          "w": 703,
+          "h": 772
+        }
+      },
+      "object": {
+        "src": "object-groups/U.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 757,
+          "y": 27,
+          "w": 880,
+          "h": 763
+        },
+        "groupBbox": {
+          "x": 757,
+          "y": 27,
+          "w": 880,
+          "h": 873
+        },
+        "wordBbox": {
+          "x": 792,
+          "y": 789,
+          "w": 807,
+          "h": 111
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Undersea Cave",
+      "source": "21_id_0001U_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 5,
+        "retainedComponentCount": 5,
+        "letterComponentArea": 347470,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "V": {
+      "letter": {
+        "src": "letters/V.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 55,
+          "y": 90,
+          "w": 702,
+          "h": 753
+        }
+      },
+      "object": {
+        "src": "object-groups/V.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 789,
+          "y": 157,
+          "w": 836,
+          "h": 533
+        },
+        "groupBbox": {
+          "x": 782,
+          "y": 157,
+          "w": 843,
+          "h": 681
+        },
+        "wordBbox": {
+          "x": 782,
+          "y": 716,
+          "w": 812,
+          "h": 122
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Violet Sea Snail",
+      "source": "22_id_0001V_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 5,
+        "retainedComponentCount": 5,
+        "letterComponentArea": 270924,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "W": {
+      "letter": {
+        "src": "letters/W.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 50,
+          "y": 109,
+          "w": 751,
+          "h": 715
+        }
+      },
+      "object": {
+        "src": "object-groups/W.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 811,
+          "y": 106,
+          "w": 833,
+          "h": 598
+        },
+        "groupBbox": {
+          "x": 811,
+          "y": 106,
+          "w": 833,
+          "h": 734
+        },
+        "wordBbox": {
+          "x": 948,
+          "y": 684,
+          "w": 509,
+          "h": 156
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Whale",
+      "source": "23_id_0001W_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 6,
+        "retainedComponentCount": 6,
+        "letterComponentArea": 358638,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "X": {
+      "letter": {
+        "src": "letters/X.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 58,
+          "y": 87,
+          "w": 679,
+          "h": 736
+        }
+      },
+      "object": {
+        "src": "object-groups/X.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 782,
+          "y": 114,
+          "w": 844,
+          "h": 528
+        },
+        "groupBbox": {
+          "x": 782,
+          "y": 114,
+          "w": 844,
+          "h": 722
+        },
+        "wordBbox": {
+          "x": 836,
+          "y": 675,
+          "w": 743,
+          "h": 161
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "X-ray Tetra",
+      "source": "24_id_0001X_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 4,
+        "retainedComponentCount": 4,
+        "letterComponentArea": 304738,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "Y": {
+      "letter": {
+        "src": "letters/Y.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 50,
+          "y": 86,
+          "w": 685,
+          "h": 784
+        }
+      },
+      "object": {
+        "src": "object-groups/Y.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 675,
+          "y": 135,
+          "w": 969,
+          "h": 688
+        },
+        "groupBbox": {
+          "x": 675,
+          "y": 135,
+          "w": 969,
+          "h": 690
+        },
+        "wordBbox": {
+          "x": 703,
+          "y": 673,
+          "w": 581,
+          "h": 152
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Yellowfin Tuna",
+      "source": "25_id_0001Y_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 3,
+        "retainedComponentCount": 3,
+        "letterComponentArea": 249243,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "Z": {
+      "letter": {
+        "src": "letters/Z.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 99,
+          "y": 83,
+          "w": 643,
+          "h": 779
+        }
+      },
+      "object": {
+        "src": "object-groups/Z.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 832,
+          "y": 46,
+          "w": 772,
+          "h": 702
+        },
+        "groupBbox": {
+          "x": 830,
+          "y": 46,
+          "w": 776,
+          "h": 856
+        },
+        "wordBbox": {
+          "x": 830,
+          "y": 751,
+          "w": 776,
+          "h": 151
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Zooplankton",
+      "source": "26_id_0001Z_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 19,
+        "retainedComponentCount": 13,
+        "letterComponentArea": 330136,
+        "objectComponentCount": 11,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "B": {
+      "letter": {
+        "src": "letters/B.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 138,
+          "y": 83,
+          "w": 611,
+          "h": 753
+        }
+      },
+      "object": {
+        "src": "object-groups/B.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 830,
+          "y": 15,
+          "w": 743,
+          "h": 748
+        },
+        "groupBbox": {
+          "x": 830,
+          "y": 15,
+          "w": 743,
+          "h": 911
+        },
+        "wordBbox": {
+          "x": 995,
+          "y": 738,
+          "w": 425,
+          "h": 188
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Buoy",
+      "source": "2_id_0001B_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 12,
+        "retainedComponentCount": 12,
+        "letterComponentArea": 352586,
+        "objectComponentCount": 10,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "C": {
+      "letter": {
+        "src": "letters/C.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 113,
+          "y": 93,
+          "w": 622,
+          "h": 733
+        }
+      },
+      "object": {
+        "src": "object-groups/C.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 862,
+          "y": 47,
+          "w": 710,
+          "h": 715
+        },
+        "groupBbox": {
+          "x": 862,
+          "y": 47,
+          "w": 710,
+          "h": 846
+        },
+        "wordBbox": {
+          "x": 989,
+          "y": 756,
+          "w": 443,
+          "h": 137
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Coral",
+      "source": "3_id_0001C_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 10,
+        "retainedComponentCount": 7,
+        "letterComponentArea": 276356,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "D": {
+      "letter": {
+        "src": "letters/D.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 72,
+          "y": 77,
+          "w": 655,
+          "h": 765
+        }
+      },
+      "object": {
+        "src": "object-groups/D.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 769,
+          "y": 165,
+          "w": 846,
+          "h": 529
+        },
+        "groupBbox": {
+          "x": 769,
+          "y": 165,
+          "w": 846,
+          "h": 685
+        },
+        "wordBbox": {
+          "x": 958,
+          "y": 668,
+          "w": 480,
+          "h": 182
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Dock",
+      "source": "4_id_0001D_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 5,
+        "retainedComponentCount": 5,
+        "letterComponentArea": 341631,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "E": {
+      "letter": {
+        "src": "letters/E.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 103,
+          "y": 79,
+          "w": 623,
+          "h": 757
+        }
+      },
+      "object": {
+        "src": "object-groups/E.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 847,
+          "y": 39,
+          "w": 746,
+          "h": 645
+        },
+        "groupBbox": {
+          "x": 847,
+          "y": 39,
+          "w": 746,
+          "h": 847
+        },
+        "wordBbox": {
+          "x": 1052,
+          "y": 722,
+          "w": 290,
+          "h": 164
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Eel",
+      "source": "5_id_0001E_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 5,
+        "retainedComponentCount": 5,
+        "letterComponentArea": 344252,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "F": {
+      "letter": {
+        "src": "letters/F.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 130,
+          "y": 60,
+          "w": 584,
+          "h": 825
+        }
+      },
+      "object": {
+        "src": "object-groups/F.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 795,
+          "y": 72,
+          "w": 840,
+          "h": 605
+        },
+        "groupBbox": {
+          "x": 795,
+          "y": 72,
+          "w": 840,
+          "h": 818
+        },
+        "wordBbox": {
+          "x": 938,
+          "y": 680,
+          "w": 462,
+          "h": 210
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Fish",
+      "source": "6_id_0001F_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 7,
+        "retainedComponentCount": 7,
+        "letterComponentArea": 306388,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "G": {
+      "letter": {
+        "src": "letters/G.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 54,
+          "y": 114,
+          "w": 665,
+          "h": 704
+        }
+      },
+      "object": {
+        "src": "object-groups/G.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 781,
+          "y": 140,
+          "w": 863,
+          "h": 538
+        },
+        "groupBbox": {
+          "x": 781,
+          "y": 140,
+          "w": 863,
+          "h": 704
+        },
+        "wordBbox": {
+          "x": 911,
+          "y": 665,
+          "w": 630,
+          "h": 179
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Grouper",
+      "source": "7_id_0001G_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 5,
+        "retainedComponentCount": 5,
+        "letterComponentArea": 311687,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "H": {
+      "letter": {
+        "src": "letters/H.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 75,
+          "y": 112,
+          "w": 653,
+          "h": 713
+        }
+      },
+      "object": {
+        "src": "object-groups/H.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 738,
+          "y": 95,
+          "w": 912,
+          "h": 646
+        },
+        "groupBbox": {
+          "x": 738,
+          "y": 95,
+          "w": 912,
+          "h": 791
+        },
+        "wordBbox": {
+          "x": 933,
+          "y": 751,
+          "w": 554,
+          "h": 135
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Harbor",
+      "source": "8_id_0001H_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 14,
+        "retainedComponentCount": 8,
+        "letterComponentArea": 330745,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    },
+    "I": {
+      "letter": {
+        "src": "letters/I.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 179,
+          "y": 77,
+          "w": 432,
+          "h": 787
+        }
+      },
+      "object": {
+        "src": "object-groups/I.png",
+        "file": {
+          "w": 1672,
+          "h": 941
+        },
+        "bbox": {
+          "x": 667,
+          "y": 22,
+          "w": 944,
+          "h": 711
+        },
+        "groupBbox": {
+          "x": 667,
+          "y": 22,
+          "w": 944,
+          "h": 895
+        },
+        "wordBbox": {
+          "x": 798,
+          "y": 733,
+          "w": 704,
+          "h": 184
+        },
+        "includesObjectWord": true
+      },
+      "objectName": "Island",
+      "source": "9_id_0001I_type_lette_s1.png",
+      "diagnostics": {
+        "width": 1672,
+        "height": 941,
+        "componentCount": 3,
+        "retainedComponentCount": 2,
+        "letterComponentArea": 227051,
+        "objectComponentCount": 1,
+        "alphaThreshold": 24,
+        "wordBandY": 658
+      }
+    }
+  }
+}

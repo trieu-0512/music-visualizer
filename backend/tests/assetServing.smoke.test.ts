@@ -40,6 +40,7 @@ describe("asset serving endpoint smoke (Req 8.x preview)", () => {
     const res = await request(app).get(`/projects/${projectId}/assets/background.jpg`);
     expect(res.status).toBe(200);
     expect(res.headers["content-type"]).toMatch(/jpeg/);
+    expect(res.headers["content-length"]).toBe("8");
     expect(res.body.toString()).toBe("JPGBYTES");
   });
 
@@ -56,6 +57,18 @@ describe("asset serving endpoint smoke (Req 8.x preview)", () => {
     // supertest buffers non-text content types into res.body (a Buffer), so
     // assert on the buffered bytes rather than res.text (undefined for svg).
     expect(res.body.toString()).toBe("<svg>T</svg>");
+  });
+
+  it("serves byte ranges so browser audio can seek in preview", async () => {
+    await store.write({ projectId, relativePath: "assets/audio.mp3" }, Buffer.from("0123456789"));
+    const res = await request(app)
+      .get(`/projects/${projectId}/assets/audio.mp3`)
+      .set("Range", "bytes=2-5");
+    expect(res.status).toBe(206);
+    expect(res.headers["accept-ranges"]).toBe("bytes");
+    expect(res.headers["content-range"]).toBe("bytes 2-5/10");
+    expect(res.headers["content-length"]).toBe("4");
+    expect(res.body.toString()).toBe("2345");
   });
 
   it("returns NOT_FOUND for a stored asset that is absent", async () => {

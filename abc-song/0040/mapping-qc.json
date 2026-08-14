@@ -6,17 +6,18 @@
   "hardFailures": [],
   "warnings": [
     "Q -> Qajaq: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "X -> X-shaped Snowflake: guided-theme-fallback-review, verify-pronunciation",
     "Y -> Yellow-billed Loon: verify-pronunciation",
     "Z -> Zoarcid Fish: guided-theme-fallback-review, support-required, verify-pronunciation"
   ],
   "tierCounts": {
-    "B": 8,
-    "A": 16,
+    "B": 9,
+    "A": 15,
     "C": 2
   },
   "riskCounts": {
-    "guided-theme-fallback-review": 2,
+    "guided-theme-fallback-review": 3,
     "support-required": 2,
-    "verify-pronunciation": 3
+    "verify-pronunciation": 4
   }
 }

@@ -103,4 +103,29 @@ describe("artifact + config endpoints smoke (Req 11, Req 8)", () => {
     expect(res.status).toBe(404);
     expect(res.body.error.code).toBe("NOT_FOUND");
   });
+
+  it("serves the Remotion preview data before a video render exists", async () => {
+    const preview = {
+      metadata: { songCode: "0001", title: "Ocean Letter Splash" },
+      assets: { background: "assets/preview/background.png" },
+      letters: {},
+      lines: [],
+      layout: { canvasWidth: 1920, canvasHeight: 1080 },
+    };
+    await store.write(
+      { projectId, relativePath: "artifacts/preview-data.json" },
+      Buffer.from(JSON.stringify(preview)),
+    );
+
+    const res = await request(app).get(`/projects/${projectId}/preview-data`);
+    expect(res.status).toBe(200);
+    expect(res.headers["content-type"]).toMatch(/json/);
+    expect(res.body).toEqual(preview);
+  });
+
+  it("signals ARTIFACT_NOT_READY when preview data has not been prepared", async () => {
+    const res = await request(app).get(`/projects/${projectId}/preview-data`);
+    expect(res.status).toBe(409);
+    expect(res.body.error.code).toBe("ARTIFACT_NOT_READY");
+  });
 });

@@ -26,7 +26,8 @@ import type { AbcPreviewData, AbcPreviewProps } from "./AbcPreviewVideo.js";
 
 const COMPOSITION_ID = "abc-preview-landscape";
 const PROGRESS_PREFIX = "ABC_RENDER_PROGRESS ";
-const DEFAULT_ABC_PREVIEW_CONCURRENCY = 10;
+const DEFAULT_ABC_PREVIEW_CONCURRENCY = 4;
+const DEFAULT_ABC_PREVIEW_SCALE = 2;
 const DEFAULT_ABC_PREVIEW_VIDEO_BITRATE: Bitrate = "60M";
 const DEFAULT_ABC_PREVIEW_X264_PRESET: RemotionRenderSettings["x264Preset"] = "slow";
 const REMOTE_ASSET = /^(https?:)?\/\/|^(data|blob):/;
@@ -54,6 +55,7 @@ function usage(): string {
     "  --hardware-acceleration <mode>  disable, if-possible, required",
     "  --offthread-video-threads <n>   OffthreadVideo decode threads",
     "  --encoder <x264|amf>       H.264 encoder",
+    "  --scale <1|2>              Output scale; 2 exports 3840x2160 4K",
     `  --video-bitrate <rate>     Fixed H.264 bitrate (default: ${DEFAULT_ABC_PREVIEW_VIDEO_BITRATE})`,
     "  --maxrate <rate>           FFmpeg maxrate; defaults to --video-bitrate",
     "  --bufsize <rate>           FFmpeg buffer size; defaults to 2x --video-bitrate",
@@ -157,6 +159,14 @@ function parsePositiveInteger(value: string, flag: string): number {
   return parsed;
 }
 
+function parseScale(value: string): number {
+  const scale = Number(value);
+  if (!Number.isInteger(scale) || (scale !== 1 && scale !== 2)) {
+    throw new Error(`Invalid --scale '${value}'. Expected 1 or 2.`);
+  }
+  return scale;
+}
+
 function parseConcurrency(value: string): number | string {
   if (value.endsWith("%")) {
     const percent = Number(value.slice(0, -1));
@@ -186,6 +196,8 @@ function parseArgs(argv: string[]): CliArgs {
     hardwareAcceleration: "disable",
     chromeMode: "headless-shell",
     gl: "angle",
+    scale: DEFAULT_ABC_PREVIEW_SCALE,
+    offthreadVideoThreads: 2,
   };
   let output: string | undefined;
   let maxDurationSeconds: number | undefined;
@@ -216,6 +228,8 @@ function parseArgs(argv: string[]): CliArgs {
       renderSettings.offthreadVideoThreads = parsePositiveInteger(requireValue(rest, ++i, arg), arg);
     } else if (arg === "--encoder") {
       renderSettings.encoder = parseEncoder(requireValue(rest, ++i, arg));
+    } else if (arg === "--scale") {
+      renderSettings.scale = parseScale(requireValue(rest, ++i, arg));
     } else if (arg === "--video-bitrate") {
       const bitrate = parseBitrate(requireValue(rest, ++i, arg), arg);
       renderSettings.videoBitrate = bitrate;
@@ -257,8 +271,8 @@ function parseArgs(argv: string[]): CliArgs {
       join(
         previewDir,
         maxDurationSeconds === undefined
-          ? "abc-preview-landscape.mp4"
-          : `abc-preview-landscape-sample-${String(maxDurationSeconds).replace(".", "_")}s.mp4`,
+          ? "abc-preview-landscape-4k.mp4"
+          : `abc-preview-landscape-sample-${String(maxDurationSeconds).replace(".", "_")}s-1080p.mp4`,
       ),
     renderSettings,
     ...(maxDurationSeconds !== undefined && { maxDurationSeconds }),

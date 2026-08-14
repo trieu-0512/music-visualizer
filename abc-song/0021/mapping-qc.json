@@ -1,18 +1,22 @@
 {
   "songId": "0021",
-  "theme": "Woodland Animals",
+  "theme": "Woodland Life",
   "macroDomain": "Forest & Woodland",
   "status": "PASS_WITH_SUPPORT",
   "hardFailures": [],
   "warnings": [
     "Q -> Quartz Rock: guided-theme-fallback-review",
+    "X -> Xylem: guided-theme-fallback-review, support-required, verify-pronunciation",
     "Z -> Zebra Swallowtail: guided-theme-fallback-review"
   ],
   "tierCounts": {
-    "A": 21,
-    "B": 5
+    "A": 20,
+    "B": 5,
+    "C": 1
   },
   "riskCounts": {
-    "guided-theme-fallback-review": 2
+    "guided-theme-fallback-review": 3,
+    "support-required": 1,
+    "verify-pronunciation": 1
   }
 }

@@ -93,6 +93,20 @@ Optional / authoring:
 - `authoring/mapping.json` — canonical theme-first A-Z semantic mapping.
 - `authoring/generation-lyrics.txt`, `display-lyrics.txt`, `style-prompt.txt`, `object-prompts.json` — agent-authored package derived from a locked mapping.
 - `assets/source-images/A..Z.*` — raw AI-generated combined images for segmentation.
+
+For a song folder that already contains `authoring/song-script.json`,
+`authoring/mapping.json`, one audio file, one `.lrc`, and the 28 generated
+source images, prepare all render inputs with:
+
+```powershell
+python scripts/prepare_abc_song.py abc-song/0001
+```
+
+The command validates the authored lyric against the LRC, extracts letter and
+object PNGs from the pure-white matte, analyzes the audio, and writes a
+landscape project config ready for the 2K renderer. Add `--render` to render
+the full 2K video after preparation. The render CLI emits `RENDER_PROGRESS`
+JSON lines with percent, frames, stage, elapsed time, and ETA.
 - Processed `assets/objects/A..Z.*` for theme-first rendering.
 
 `metadata.json` can contain:

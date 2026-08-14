@@ -1,13 +1,20 @@
 {
   "songId": "0016",
-  "theme": "Garden Plants",
+  "theme": "Garden Life & Growing",
   "macroDomain": "Garden & Plants",
-  "status": "PASS",
+  "status": "PASS_WITH_SUPPORT",
   "hardFailures": [],
-  "warnings": [],
+  "warnings": [
+    "X -> Xylem: guided-theme-fallback-review, support-required, verify-pronunciation"
+  ],
   "tierCounts": {
     "B": 6,
-    "A": 20
+    "A": 19,
+    "C": 1
   },
-  "riskCounts": {}
+  "riskCounts": {
+    "guided-theme-fallback-review": 1,
+    "support-required": 1,
+    "verify-pronunciation": 1
+  }
 }

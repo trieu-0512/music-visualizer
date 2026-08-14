@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 4,
   "lines": [
     {
       "id": "intro-1",
@@ -231,7 +231,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "At the shelter, X is Xylophone—our X-word helper | tuned bars answer after the word, never pretending to be mountain wildlife.",
+      "text": "At the shelter, X is Xenolith. A rock fragment held inside another rock makes a visible mountain clue.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y — Yellow Bell! A bell-shaped yellow flower in our alphabet set | we keep it as a color-and-shape clue, not a claim that every Yellow Bell is alpine native.",
+      "text": "Y — Yarrow! Flat clusters of tiny flowers grow on a leafy stem in open mountain meadows.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -474,7 +474,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Mountain reply X ... Xylophone! Tap two fingers in the air like gentle xylophone mallets.",
+      "text": "Mountain reply X ... Xenolith! Point to the inner rock shape inside the larger stone.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -482,7 +482,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Echo clue Y ... Yellow Bell! Open both hands like a flower.",
+      "text": "Echo clue Y ... Yarrow! Open both hands like a flower.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

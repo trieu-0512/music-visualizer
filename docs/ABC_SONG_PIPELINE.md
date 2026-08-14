@@ -275,7 +275,15 @@ Source image prompt nen:
 - han che letter/object overlap;
 - khong them unrelated text/object;
 - art direction nhat quan voi theme;
-- co background tam de model gen anh, nhung background nay se bi loai.
+- dung matte trang tinh khiet `#FFFFFF` tren canvas `1376x768` de alpha removal;
+  khong dung background scene, checkerboard hay chroma green;
+- dung invisible layout area letter `x=35..597 y=78..636`, object
+  `x=642..1320 y=78..636`, gutter `x=598..641`, va khong ve cac vung nay ra anh.
+- object phai giu mau sac, chat lieu, texture, ty le va chi tiet ket cau giong
+  doi tuong ngoai doi; chi duoc giu 3D preschool o cach render, khong duoc
+  recolor thanh prop truu tuong;
+- mau chu va mau object phai tach ro khoi mau chu dao cua background; background
+  dung palette moi truong muted va khong lap lai mau foreground thanh vung lon.
 
 ### 5.3 Prompt package
 
@@ -284,6 +292,19 @@ authoring/object-prompts.json
 ```
 
 Ten file duoc giu de backward compatibility, nhung semantic V2 la **Source-Composite Prompt Pack**.
+
+Bo prompt visual day du duoc xuat them thanh JSONL:
+
+```text
+<song_id>/<song_id>_prompt_gen.txt
+```
+
+Moi file co dung 28 dong: 26 prompt letter/object, 1 prompt background va 1
+prompt song logo. Cac prompt A-Z phai doc cap object tu `authoring/mapping.json`
+co state `LOCKED`.
+
+Rule canonical cho format, matte, layout, background va logo nam o
+`docs/ABC_VISUAL_PROMPT_RULES.md`.
 
 Moi prompt lay object tu locked mapping, khong tu lyric va khong duoc tu y doi object.
 
@@ -356,7 +377,14 @@ artifacts/asset-prep-report.json
 
 ### 7.1 Adapter seam
 
-Worker khong hard-code vendor/model:
+Voi source composite dung pure-white matte theo prompt, worker co san adapter
+deterministic `white-matte-distance-to-white-v1`: tach alpha theo khoang cach
+pixel-to-white trong ROI letter/object, sau do crop thanh PNG RGBA. Cach nay
+giu dung mau va chat lieu cua asset goc, khong can Whisper hay model AI nang
+de chay lai pipeline.
+
+Worker khong khoa vao mot vendor/model. Neu can SAM/SAM2, YOLO-seg, rembg hoac
+custom model, ghi de adapter bang:
 
 ```text
 ABC_SEGMENTER_COMMAND=<command>
@@ -374,6 +402,10 @@ Contract:
 ```
 
 Co the adapter SAM/SAM2, YOLO-seg, local model, custom script hoac remote bridge.
+
+Neu khong dat `ABC_SEGMENTER_COMMAND`, asset preparation se dung adapter
+white-matte mac dinh. Adapter ngoai phai ghi ra hai PNG non-empty: letter va
+object; report se fail neu output rong, sai dinh dang hoac khong co alpha.
 
 ### 7.2 Idempotency + target rerun
 

@@ -147,9 +147,14 @@ Project theme-first chi render-ready khi du 26 processed letters + 26 processed 
 
 ## Quy tac tao prompt visual
 
-Voi moi bai ABC, tao file `<ma_bai>_prompt_gen.txt` trong thu muc bai hat neu
-can sinh anh bang AI. Moi dong la mot JSON object hop le, bat dau bang `{` va
-ket thuc bang `}`.
+Voi moi bai ABC, tao file `<ma_bai>_prompt_gen.txt` trong thu muc bai hat khi
+sinh anh bang AI. File co dung 28 dong JSONL, moi dong la mot JSON object hop
+le, bat dau bang `{` va ket thuc bang `}`: 26 foreground A-Z, 1 background,
+va 1 song logo. Dung `python scripts/generate_abc_authoring_batch.py --start
+<n> --end <n> --prompt-only` de tao rieng file nay ma khong ghi de cac file
+authoring khac.
+
+Rule day du va canonical: `docs/ABC_VISUAL_PROMPT_RULES.md`.
 
 Quy uoc id:
 
@@ -160,7 +165,11 @@ Quy uoc id:
 Quy tac foreground A-Z:
 
 - Lay cap chu cai/object truc tiep tu `authoring/mapping.json` da `LOCKED`; khong reverse-engineer object tu lyric.
-- Raw foreground generated co the gom target capital letter ben trai va object ben phai de segmentation model tach thanh hai processed assets; khong bake object label vao asset.
+- Raw foreground generated gom dung target capital letter ben trai va dung mapped object ben phai de segmentation model tach thanh hai processed assets; khong bake object label vao asset.
+- Nen raw foreground phai la matte trang tinh khiet `#FFFFFF` tren toan canvas `1376x768`, chi de alpha removal; moi pixel ngoai chu va object deu phai la `#FFFFFF`.
+- Letter va object dung invisible layout area: letter `x=35..597, y=78..636`, tam `x=316, y=357`, cao khoang `538px`; object `x=642..1320, y=78..636`, tam `x=981, y=357`, chieu dai lon nhat khoang `538px`; gutter `x=598..641` phai de trang tinh khiet.
+- Khong duoc ve ra layout area, toa do, guide, khung hoac chu/object nao khac. Trong ca 26 prompt cua mot bai, lighting, edge softness, surface finish va art direction phai dong bo voi theme cua bai; object van phai giu mau sac, chat lieu, texture, ty le va chi tiet ket cau giong doi tuong ngoai doi.
+- Object phai giu true-to-life colors va physical material; khong duoc tu y to lai thanh do choi, keo, plastic, metallic hay prop truu tuong. Chu co the stylize, nhung phai dung mau foreground tuong phan cao; mau chu va mau object phai khac mau chu dao cua background theo hue, value hoac saturation.
 - Object label, lyric, title/artist neu can do Remotion/compositor render tu du lieu da kiem soat.
 - Khong co background, phong hoc, tuong, san, khung, nguoi, watermark hay chu
   phu.
@@ -170,17 +179,21 @@ Quy tac foreground A-Z:
   placement boxes, no rectangle, no border, no outline, no frame, no black guide
   lines, no bounding box, no checkerboard pattern, no classroom scene, no floor,
   no wall, no scenery, no extra text, no watermark.`
-- Neu dung Google Flow voi nen chroma green `#00FF00`, prompt foreground phai
-  noi ngan gon rang mau chu cai va object khac ro mau nen chroma green.
 - Prompt phai khoa layout bang invisible placement area de render video on
-  dinh: canvas `2048x1152`, letter area `x=180..760 y=245..825`, object area
-  `x=1110..1810 y=180..760`, gutter
-  `x=820..1030`. Tranh cac cum nhu `fixed box`, `inside x=...`, hoac
-  `do not exceed the box`.
+  dinh: canvas `1376x768`, letter area `x=35..597 y=78..636`, object area
+  `x=642..1320 y=78..636`, gutter `x=598..641`. Dung cum `invisible layout
+  area`; khong yeu cau model ve ra box hoac guide.
 
 Prompt background la anh nen binh thuong, tach rieng voi foreground. No phai
 hop chu de bai hat va chua khoang trong cho info box, channel logo, foreground
-asset va lyric box. Khong yeu cau SVG tru khi nguoi dung noi ro.
+asset va lyric box. Nen dung palette moi truong muted, low-to-medium
+saturation; khong duoc lap lai cac mau foreground chu dao thanh cac vung lon,
+de chu va object tach ro khoi background. Khong yeu cau SVG tru khi nguoi dung
+noi ro.
+
+Prompt song logo la asset rieng, square, dung cung visual language voi bai hat;
+chi cho phep title bai hat neu can text va khong duoc chen alphabet grid, lyric,
+channel logo hay watermark.
 
 Phong cach visual khong co dinh cho moi bai. Moi bai phai lay material, bang
 mau, mood va cach ve object tu chu de rieng cua bai do. Vi du bai classroom co

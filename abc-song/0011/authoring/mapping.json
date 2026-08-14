@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 4,
   "state": "LOCKED",
   "theme": {
-    "name": "Farm Animals",
+    "name": "Farmyard Life",
     "scope": "guided",
     "mappingAuthority": "project-locked",
     "ageBand": "mixed-2-6",
@@ -103,8 +103,13 @@
       "familiarityTier": "A"
     },
     "X": {
-      "object": "Xylophone",
-      "familiarityTier": "A"
+      "object": "X-ray Vet Image",
+      "familiarityTier": "C",
+      "riskFlags": [
+        "guided-theme-fallback-review",
+        "support-required",
+        "verify-pronunciation"
+      ]
     },
     "Y": {
       "object": "Yam",

@@ -327,3 +327,40 @@ def test_transcribe_copies_mapping_object_into_timed_lyrics(store: AssetStore) -
     line = store.read_json(project_id, "artifacts/lyrics.json")["lines"][0]
     assert line["letter"] == "A"
     assert line["object"] == "Apple"
+
+
+def test_lrc_transcript_bypasses_whisper_and_uses_authored_script(store: AssetStore) -> None:
+    project_id = "proj-lrc"
+    _write_audio(store, project_id)
+    store.write_text(project_id, "authoring/e0c06061.formatted.lrc", "[00:00.00]Hello world\n")
+    store.write_json(
+        project_id,
+        "authoring/song-script.json",
+        {
+            "version": 1,
+            "mappingRevision": 1,
+            "lines": [
+                {
+                    "id": "intro-1",
+                    "sectionId": "intro",
+                    "text": "Hello world",
+                    "objective": "narration",
+                    "objectReveal": "none",
+                }
+            ],
+        },
+    )
+
+    def must_not_run(_path: str) -> dict:
+        raise AssertionError("Whisper must not run when an LRC transcript is present")
+
+    produced = transcribe.handle_transcribe(_job(project_id), store, run_whisperx=must_not_run)
+
+    assert produced == [
+        "artifacts/lrc-transcript.json",
+        "artifacts/lyrics.json",
+        "artifacts/lyrics.srt",
+    ]
+    lyrics = store.read_json(project_id, "artifacts/lyrics.json")
+    assert lyrics["source"] == "original+lrc"
+    assert lyrics["lines"][0]["text"] == "Hello world"

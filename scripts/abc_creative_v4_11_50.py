@@ -236,6 +236,12 @@ SPECIAL_FACTS: dict[str, str] = {
     "Utility Cart": "A utility cart carries tools, feed, or supplies around a farm or garden.",
     "Vet Kit": "A vet kit holds simple tools a veterinarian uses to check animal health.",
     "X-ray Vet Image": "An X-ray vet image lets a veterinarian see bones inside an animal without opening the body.",
+    "Xanthid Crab": "A xanthid crab is a small shore crab with a rounded shell and walking legs that lives among rocks or tide pools.",
+    "X-ray Tetra": "An X-ray tetra is a small freshwater fish with a silvery body and a partly transparent middle that shows its shape.",
+    "Quillwort": "A quillwort is a small freshwater plant with stiff, quill-like leaves growing from the bottom of shallow water.",
+    "X-shaped Snowflake": "An X-shaped snowflake is a branching ice crystal whose arms meet in a simple X-like pattern.",
+    "Xenolith": "A xenolith is a piece of rock trapped inside a different rock, like a pebble held inside stone.",
+    "Xylem": "Xylem is the plant tissue made of tiny tubes that carries water upward from roots through stems.",
     "Zebu": "A zebu is a type of cattle with a noticeable hump over its shoulders.",
     "Compost": "Compost is decayed plant and food material that can enrich garden soil.",
     "Kneeling Pad": "A kneeling pad is a soft cushion that protects knees during low garden work.",
@@ -365,6 +371,7 @@ COMMON_FACTS: dict[str, str] = {
     "Wheat": "Wheat is a tall grain crop whose seed is ground to make flour.",
     "Yarn": "Yarn is a long strand of spun fiber used for knitting, weaving, or tying craft materials.",
     "Xylophone": "A xylophone is our X-word helper: a row of tuned bars makes different notes when struck.",
+    "Ant": "An ant is a small insect with six legs that follows scent trails and works around soil and plants.",
     "Cow": "A cow is a large farm animal that chews grass, walks on split hooves, and may produce milk.",
     "Donkey": "A donkey has long ears, sturdy hooves, and a strong body used for carrying or pulling loads.",
     "Ewe": "A ewe is an adult female sheep with a woolly coat.",
@@ -532,6 +539,13 @@ COMMON_ACTIONS: dict[str, str] = {
     "Overcoat": "Mime wrapping a warm coat around your body.", "Raincoat": "Mime pulling up a raincoat hood.", "Thermometer": "Point to the picture and trace the temperature scale.",
     "Quilt": "Mime pulling a warm quilt up gently.", "Yellow Rain Boots": "Tap two pretend rain-boot steps.", "Zipper Jacket": "Mime one slow zipper motion.",
     "Xylophone": "Tap two fingers in the air like gentle xylophone mallets.",
+    "Ant": "Wiggle two fingers like tiny ant legs.",
+    "Xanthid Crab": "Wiggle fingers sideways like a small crab.",
+    "X-ray Tetra": "Swim two fingers forward like a small fish.",
+    "Quillwort": "Point fingers upward like a little cluster of plant leaves.",
+    "X-shaped Snowflake": "Open both hands into a simple branching snowflake.",
+    "Xenolith": "Point to the inner rock shape inside the larger stone.",
+    "Xylem": "Trace a line upward from roots to leaves.",
 }
 
 BIRDS = {
@@ -550,17 +564,17 @@ SMALL_MAMMALS = {"Chipmunk", "Hedgehog", "Rabbit", "Squirrel", "Kinkajou", "Meer
 PREDATOR_MAMMALS = {"Bear", "Fox", "Lynx", "Wolf", "Arctic Fox", "Polar Bear", "Jaguar", "Leopard", "Ocelot"}
 PRIMATES = {"Gorilla", "Howler Monkey", "Monkey", "Uakari"}
 REPTILES = {"Anaconda", "Boa", "Chameleon", "Emerald Tree Boa", "Gecko", "Iguana", "Snake", "Viper", "Armadillo", "Desert Tortoise", "Gila Monster", "Horned Lizard", "Lizard", "Rattlesnake", "Tortoise", "Yellow Anaconda"}
-INSECTS = {"Bee", "Ladybug", "Earthworm", "Insect", "Dragonfly", "Queen Butterfly", "Yellow Butterfly", "Zebra Longwing", "Zebra Swallowtail", "Beetle", "Scorpion", "Yellow Scorpion", "Xenops"}
-MARINE = {"Beluga", "Cod", "Fur Seal", "Harp Seal", "Icefish", "Jellyfish", "Krill", "Narwhal", "Orca", "Ringed Seal", "Seal", "Walrus", "Whale", "X-ray Fish", "Zoarcid Fish", "Zooplankton"}
+INSECTS = {"Bee", "Ladybug", "Earthworm", "Insect", "Dragonfly", "Queen Butterfly", "Yellow Butterfly", "Zebra Longwing", "Zebra Swallowtail", "Beetle", "Scorpion", "Yellow Scorpion", "Xenops", "Ant"}
+MARINE = {"Beluga", "Cod", "Fur Seal", "Harp Seal", "Icefish", "Jellyfish", "Krill", "Narwhal", "Orca", "Ringed Seal", "Seal", "Walrus", "Whale", "X-ray Fish", "Xanthid Crab", "Zoarcid Fish", "Zooplankton"}
 
 TREES = {"Apple Tree", "Aspen", "Birch", "Cedar", "Douglas Fir", "Evergreen", "Juniper", "Maple", "Oak", "Pine", "Spruce", "Tree", "Yew", "Ceiba Tree", "Kapok Tree", "Palm", "Joshua Tree", "Mesquite"}
 FLOWERS = {"Daisy", "Flower", "Iris", "Jasmine", "Lavender", "Marigold", "Nasturtium", "Orchid", "Rose", "Sunflower", "Violet", "Xeranthemum", "Yarrow", "Zinnia", "Edelweiss", "Yellow Bell"}
 GARDEN_FOOD = {"Apple", "Bean", "Carrot", "Eggplant", "Kale", "Nectarine", "Onion", "Pea", "Quince", "Radish", "Tomato", "Yam", "Zucchini", "Nopales", "Prickly Pear"}
-GREEN_PLANTS = {"Fern", "Grass", "Ivy", "Underbrush", "Upland Fern", "Vine", "Jungle Vine", "Liana", "Rattan", "Umbrella Leaf", "Water Vine", "Zingiber Plant", "Agave", "Cactus", "Euphorbia", "Tumbleweed", "Umbrella Thorn", "Xeric Shrub", "Xerophyte", "Yucca", "Ziziphus Shrub", "Upland Meadow"}
+GREEN_PLANTS = {"Fern", "Grass", "Ivy", "Underbrush", "Upland Fern", "Vine", "Jungle Vine", "Liana", "Rattan", "Umbrella Leaf", "Water Vine", "Zingiber Plant", "Agave", "Cactus", "Euphorbia", "Tumbleweed", "Umbrella Thorn", "Xeric Shrub", "Xerophyte", "Xylem", "Yucca", "Ziziphus Shrub", "Upland Meadow"}
 
-LAND_WATER = {"Dune", "Limestone", "Oasis", "Quartz", "Sand", "Wadi", "Floe", "Glacier", "Iceberg", "Tundra", "Boulder", "Cliff", "Icefall", "Kettle Lake", "Ledge", "Mountain", "Outcrop", "Ridge", "Snow", "Summit", "Trail", "Valley", "Waterfall", "Zigzag Trail", "River"}
+LAND_WATER = {"Dune", "Limestone", "Oasis", "Quartz", "Sand", "Wadi", "Floe", "Glacier", "Iceberg", "Tundra", "Boulder", "Cliff", "Icefall", "Kettle Lake", "Ledge", "Mountain", "Outcrop", "Ridge", "Snow", "Summit", "Trail", "Valley", "Waterfall", "Xenolith", "Zigzag Trail", "River"}
 
-WEATHER = {"Breeze", "Cloud", "Dew", "Drizzle", "Fog", "Frost", "Gust", "Hail", "Ice", "Icicle", "Lightning", "Low Cloud", "Mist", "Night Sky", "Puddle", "Rainbow", "Snowflake", "Sun", "Thunder", "Wind", "Yellow Sun"}
+WEATHER = {"Breeze", "Cloud", "Dew", "Drizzle", "Fog", "Frost", "Gust", "Hail", "Ice", "Icicle", "Lightning", "Low Cloud", "Mist", "Night Sky", "Puddle", "Rainbow", "Snowflake", "Sun", "Thunder", "Wind", "X-shaped Snowflake", "Yellow Sun"}
 
 
 def _article(obj: str) -> str:
@@ -741,6 +755,7 @@ def _action_for(domain: str, obj: str) -> str:
 
 
 SPECIAL_RHYMES: dict[str, str] = {
+    "Ant": "Ant in the ground | six tiny legs move all around",
     "Cow": "Cow says moo | slow farm steps come into view",
     "Donkey": "Ears up high | steady hooves go walking by",
     "Egg": "Egg in the nest | oval shell at rest",
@@ -820,6 +835,12 @@ SPECIAL_RHYMES: dict[str, str] = {
     "Windsock": "Fill and fly | wind direction meets our eye",
     "Yellow Sun": "Picture sun high | bright yellow circle in the sky",
     "Yellow Rain Boots": "Boots in the rain | waterproof steps through puddles again",
+    "Xanthid Crab": "Shore rock, tide pool | little crab moves where the water is cool",
+    "X-ray Tetra": "Silver fish | clear little body flashes as it swims",
+    "Quillwort": "Quill leaves | freshwater plant grows where the water gently weaves",
+    "X-shaped Snowflake": "Branches meet | icy arms make an X so neat",
+    "Xenolith": "Stone inside | one rock fragment held where layers hide",
+    "Xylem": "Water climbs | tiny plant tubes carry it up in lines",
 }
 
 

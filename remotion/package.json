@@ -14,6 +14,10 @@
       "types": "./dist/Video.d.ts",
       "import": "./dist/Video.js"
     },
+    "./AbcPreviewVideo": {
+      "types": "./dist/AbcPreviewVideo.d.ts",
+      "import": "./dist/AbcPreviewVideo.js"
+    },
     "./defaultProps": {
       "types": "./dist/defaultProps.d.ts",
       "import": "./dist/defaultProps.js"

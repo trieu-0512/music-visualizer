@@ -1,17 +1,21 @@
 {
   "songId": "0023",
-  "theme": "Forest Birds & Plants",
+  "theme": "Forest Life & Plants",
   "macroDomain": "Forest & Woodland",
   "status": "PASS_WITH_SUPPORT",
   "hardFailures": [],
   "warnings": [
-    "X -> Xeric Shrub: guided-theme-fallback-review"
+    "X -> Xylem: guided-theme-fallback-review, support-required, verify-pronunciation",
+    "Z -> Zebra Swallowtail: guided-theme-fallback-review"
   ],
   "tierCounts": {
-    "A": 24,
-    "B": 2
+    "A": 23,
+    "B": 2,
+    "C": 1
   },
   "riskCounts": {
-    "guided-theme-fallback-review": 1
+    "guided-theme-fallback-review": 2,
+    "support-required": 1,
+    "verify-pronunciation": 1
   }
 }

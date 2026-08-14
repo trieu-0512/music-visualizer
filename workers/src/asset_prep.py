@@ -22,6 +22,7 @@ from src.validate_artifacts import validate_learning_map_payload
 LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 MAPPING_PATH = "authoring/mapping.json"
 REPORT_PATH = "artifacts/asset-prep-report.json"
+SEGMENTER_NAME = "adaptive-reference-background-v3"
 LETTER_EXTS = (".png", ".webp", ".svg")
 OBJECT_EXTS = (".png", ".webp", ".svg")
 SOURCE_EXTS = (".png", ".jpg", ".jpeg", ".webp")
@@ -58,12 +59,24 @@ def _validate_generated_png(data: bytes, label: str) -> None:
         raise RuntimeError(f"{label}: segmentation output is not a non-empty PNG")
 
 
-def _run_external_segmenter(source_path: str, letter: str, object_name: str) -> tuple[bytes, bytes]:
+def _run_external_segmenter(
+    source_path: str,
+    letter: str,
+    object_name: str,
+    background_path: str | None = None,
+) -> tuple[bytes, bytes]:
     command = os.environ.get("ABC_SEGMENTER_COMMAND", "").strip()
     if not command:
-        raise RuntimeError(
-            "Processed letter/object assets are missing and ABC_SEGMENTER_COMMAND is not configured. "
-            "Copy transparent cuts into assets/letters + assets/objects or configure a segmentation adapter."
+        # Prefer a clean-background reference for scene composites; the
+        # adapter falls back to the deterministic white-matte path when the
+        # source corners are pure white.
+        from src.white_matte_segmenter import segment_source_image
+
+        return segment_source_image(
+            source_path,
+            letter,
+            object_name,
+            background=background_path,
         )
     with tempfile.TemporaryDirectory(prefix="abc-segment-") as temp_dir:
         letter_out = str(Path(temp_dir) / "letter.png")
@@ -101,12 +114,18 @@ def _load_existing_report(store: AssetStore, project_id: str, mapping_revision: 
         report = None
     if (
         isinstance(report, dict)
-        and report.get("version") == 1
+        and report.get("version") == 2
         and report.get("mappingRevision") == mapping_revision
+        and report.get("segmenter") == SEGMENTER_NAME
         and isinstance(report.get("targets"), dict)
     ):
         return report
-    return {"version": 1, "mappingRevision": mapping_revision, "targets": {}}
+    return {
+        "version": 2,
+        "mappingRevision": mapping_revision,
+        "segmenter": SEGMENTER_NAME,
+        "targets": {},
+    }
 
 
 def handle_prepare_assets(
@@ -131,6 +150,7 @@ def handle_prepare_assets(
     mapping_revision = int(mapping["revision"])
     report = _load_existing_report(store, job.project_id, mapping_revision)
     targets = report["targets"]
+    background_rel = _first_existing(store, job.project_id, "assets/background", SOURCE_EXTS)
 
     for letter in selected:
         letter_existing = _first_existing(store, job.project_id, f"assets/letters/{letter}", LETTER_EXTS)
@@ -145,7 +165,20 @@ def handle_prepare_assets(
                     f"{letter}: segmentation requested but no source composite exists under assets/source-images/{letter}.*"
                 )
             source_path = store.resolve_url(job.project_id, source_rel)
-            letter_bytes, object_bytes = runner(source_path, letter, object_name)
+            if run_segmenter is None:
+                background_path = (
+                    store.resolve_url(job.project_id, background_rel)
+                    if background_rel is not None
+                    else None
+                )
+                letter_bytes, object_bytes = _run_external_segmenter(
+                    source_path,
+                    letter,
+                    object_name,
+                    background_path,
+                )
+            else:
+                letter_bytes, object_bytes = runner(source_path, letter, object_name)
             _validate_generated_png(letter_bytes, f"{letter} letter")
             _validate_generated_png(object_bytes, f"{letter} object")
 

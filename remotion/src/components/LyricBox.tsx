@@ -4,8 +4,8 @@
  * Shows one or two display rows (`line1` / `line2`) of the active lyric line.
  * Words are colored by role: normal lyrics share one readable color, the active
  * letter uses a highlight color, and the derived object keyword uses a second
- * highlight color. `litWords` still controls subtle opacity so word timing stays
- * visible without turning every lyric into a rainbow.
+ * highlight color. The full transcript line remains visible for its complete
+ * time range; it is not revealed word-by-word.
  */
 
 /** Props for the {@link LyricBox} layer. */
@@ -14,8 +14,8 @@ export interface LyricBoxProps {
   line1: string;
   /** Display row 2, may be `""` for a single-line lyric (Req 10.5). */
   line2: string;
-  /** Count of lit words from `litWordCount`; may be `Infinity` (Req 10.6). */
-  litWords: number;
+  /** Retained for compatibility; the static block ignores progressive timing. */
+  litWords?: number;
   /** Active A-Z key, used to color the letter keyword. */
   letter?: string;
   /** Derived object keyword, used to color object words. */
@@ -26,8 +26,10 @@ export interface LyricBoxProps {
   maxLines: 1 | 2;
   /** Distance from the bottom canvas edge in px. */
   marginBottom: number;
-  /** Max box width in px. */
-  maxWidth: number;
+  /** Fixed box width in px. */
+  width: number;
+  /** Fixed box height in px. */
+  height: number;
   /** Lyric font size in px. */
   fontSize: number;
   /** Vertical gap between rows in px. */
@@ -69,11 +71,10 @@ function roleColor(role: "letter" | "object" | "normal"): string {
   return NORMAL_COLOR;
 }
 
-/** Render one display row, coloring words lit when their global index < litWords. */
+/** Render one display row with every transcript word visible. */
 function Row({
   words,
   startIndex,
-  litWords,
   letter,
   objectWord,
   objectRevealed,
@@ -81,7 +82,6 @@ function Row({
 }: {
   words: string[];
   startIndex: number;
-  litWords: number;
   letter?: string;
   objectWord?: string;
   objectRevealed: boolean;
@@ -103,7 +103,6 @@ function Row({
     >
       {words.map((word, i) => {
         const globalIndex = startIndex + i;
-        const lit = globalIndex < litWords;
         const role = wordRole(word, letter, objectWord);
         return (
           <span
@@ -111,11 +110,11 @@ function Row({
             // eslint-disable-next-line react/no-array-index-key
             key={i}
             data-word={globalIndex}
-            data-lit={lit}
+            data-lit={true}
             data-role={role}
             style={{
               color: roleColor(role),
-              opacity: lit ? 1 : 0.68,
+              opacity: 1,
               fontWeight: role === "normal" ? 800 : 900,
               transform: role === "normal" ? undefined : "translateY(-1px)",
             }}
@@ -131,13 +130,13 @@ function Row({
 export const LyricBox: React.FC<LyricBoxProps> = ({
   line1,
   line2,
-  litWords,
   letter,
   objectWord,
   objectRevealed = true,
   maxLines,
   marginBottom,
-  maxWidth,
+  width,
+  height,
   fontSize,
   lineGap,
   padding,
@@ -156,7 +155,10 @@ export const LyricBox: React.FC<LyricBoxProps> = ({
         bottom: marginBottom,
         left: "50%",
         transform: "translateX(-50%)",
-        maxWidth,
+        width,
+        height,
+        boxSizing: "border-box",
+        overflow: "hidden",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -187,7 +189,6 @@ export const LyricBox: React.FC<LyricBoxProps> = ({
         <Row
           words={row1}
           startIndex={0}
-          litWords={litWords}
           letter={letter}
           objectWord={objectWord}
           objectRevealed={objectRevealed}
@@ -198,7 +199,6 @@ export const LyricBox: React.FC<LyricBoxProps> = ({
         <Row
           words={row2}
           startIndex={row1.length}
-          litWords={litWords}
           letter={letter}
           objectWord={objectWord}
           objectRevealed={objectRevealed}

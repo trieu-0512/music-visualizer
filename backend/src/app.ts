@@ -6,6 +6,12 @@ import { ProjectService } from "./projects/index.js";
 import { createProjectsRouter } from "./routes/projects.js";
 import { createAssetsRouter } from "./routes/assets.js";
 import { createArtifactsRouter } from "./routes/artifacts.js";
+import { createPreviewRouter } from "./routes/preview.js";
+import { createPreviewRenderRouter } from "./routes/previewRender.js";
+import {
+  AbcPreviewRenderService,
+  type PreviewRenderServiceApi,
+} from "./preview/AbcPreviewRenderService.js";
 import { createConfigRouter } from "./routes/config.js";
 import { createJobsRouter } from "./routes/jobs.js";
 import { createPipelineRouter } from "./routes/pipeline.js";
@@ -28,6 +34,7 @@ export interface AppDependencies {
   projectService?: ProjectService;
   jobQueue?: JobQueue;
   pipelineRunService?: PipelineRunService;
+  previewRenderService?: PreviewRenderServiceApi;
 }
 
 /** Build the configured {@link Express} application ready to listen or test. */
@@ -38,6 +45,8 @@ export function createApp(deps: AppDependencies = {}): Express {
   const jobQueue = deps.jobQueue ?? createJobQueue(config.queue);
   const pipelineRunService =
     deps.pipelineRunService ?? new PipelineRunService(projectService, store, jobQueue);
+  const previewRenderService =
+    deps.previewRenderService ?? new AbcPreviewRenderService(store);
 
   const app = express();
 
@@ -71,6 +80,8 @@ export function createApp(deps: AppDependencies = {}): Express {
   app.use(createProjectsRouter(projectService, store, jobQueue));
   app.use(createAssetsRouter(projectService, store));
   app.use(createArtifactsRouter(projectService, store));
+  app.use(createPreviewRouter(projectService, store));
+  app.use(createPreviewRenderRouter(projectService, store, previewRenderService));
   app.use(createConfigRouter(projectService, store));
   app.use(createJobsRouter(projectService, store, jobQueue));
   app.use(createPipelineRouter(pipelineRunService));

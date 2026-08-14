@@ -33,16 +33,18 @@ export interface LyricLine {
 
 export interface LyricsJson {
   version: 1;
-  source: "transcriber" | "original+transcriber";
+  source: "transcriber" | "original+transcriber" | "original+lrc";
   lines: LyricLine[];
   provenance?: {
     audioSha256: string;
+    transcriptSha256?: string;
+    transcriptPath?: string;
     mappingRevision?: number;
     songScriptMappingRevision?: number;
   };
   /** Alignment diagnostics are explicit so count/text mismatches cannot hide behind schema validity. */
   alignment?: {
-    mode: "asr-only" | "canonical-order";
+    mode: "asr-only" | "canonical-order" | "lrc-canonical";
     status: "clean" | "review-required";
     canonicalLineCount: number;
     segmentCount: number;

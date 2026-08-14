@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "mappingRevision": 1,
+  "mappingRevision": 4,
   "lines": [
     {
       "id": "intro-1",
@@ -217,7 +217,7 @@
     {
       "id": "r1-X",
       "sectionId": "r1-u-x",
-      "text": "X is Xeric Shrub. Dry-adapted woody plant | compare leaf size and form without breaking a stem.",
+      "text": "X is Xenolith. Rock fragment inside another rock | compare the inner shape without breaking the stone.",
       "targetId": "X",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -239,7 +239,7 @@
     {
       "id": "r1-Y",
       "sectionId": "r1-y-z",
-      "text": "Y — Yellow Bell! Yellow bell-shaped bloom in our mapping | color note only; no picking and no native-range assumption.",
+      "text": "Y — Yarrow! Tiny flowers gather in flat clusters | a leafy meadow plant in the mountain mapping.",
       "targetId": "Y",
       "objective": "lexical-semantic",
       "objectReveal": "line-start"
@@ -460,7 +460,7 @@
     {
       "id": "r2-X",
       "sectionId": "r2-u-x",
-      "text": "Leave-it clue X ... Xeric Shrub! Grow one hand upward, then sway.",
+      "text": "Leave-it clue X ... Xenolith! Point to the inner rock shape inside the larger stone.",
       "targetId": "X",
       "objective": "retrieval-action",
       "objectReveal": "target-word"
@@ -468,7 +468,7 @@
     {
       "id": "r2-Y",
       "sectionId": "r2-y-z",
-      "text": "Field note Y ... Yellow Bell! Open both hands like a flower.",
+      "text": "Field note Y ... Yarrow! Open both hands like a flower.",
       "targetId": "Y",
       "objective": "retrieval-action",
       "objectReveal": "target-word"

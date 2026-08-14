@@ -6,14 +6,16 @@
   "hardFailures": [],
   "warnings": [
     "Q -> Queen Angelfish: guided-theme-fallback-review",
-    "X -> X-ray Tetra: guided-theme-fallback-review, verify-pronunciation"
+    "X -> Xanthid Crab: guided-theme-fallback-review, support-required, verify-pronunciation"
   ],
   "tierCounts": {
     "A": 22,
-    "B": 4
+    "B": 3,
+    "C": 1
   },
   "riskCounts": {
     "guided-theme-fallback-review": 2,
+    "support-required": 1,
     "verify-pronunciation": 1
   }
 }

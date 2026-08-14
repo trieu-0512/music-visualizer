@@ -68,43 +68,59 @@ export function App({ client, initialPageId, initialProjectId }: AppProps = {}):
   return (
     <div className="app-shell">
       <header className="app-header">
-        <h1>Music Visualizer</h1>
-        <p className="active-project">
-          {projectId ? (
-            <span>
-              Project: <code>{projectId}</code>
-            </span>
-          ) : (
-            <span>No project yet — load a folder to begin</span>
-          )}
-        </p>
+        <div className="brand-lockup">
+          <span className="brand-mark" aria-hidden="true">MV</span>
+          <div>
+            <span className="brand-eyebrow">LOCAL STUDIO</span>
+            <h1>Music Visualizer</h1>
+          </div>
+        </div>
+        <div className="active-project">
+          <span className={projectId ? "project-status is-ready" : "project-status"}>
+            <i aria-hidden="true" />
+            {projectId ? "Project loaded" : "No project loaded"}
+          </span>
+          {projectId ? <code>{projectId}</code> : <span>Load a folder to begin</span>}
+        </div>
       </header>
 
-      <nav className="app-nav" aria-label="Pages">
-        {pages.map((page) => {
-          const disabled = Boolean(page.requiresProject) && projectId === null;
-          return (
-            <button
-              key={page.id}
-              type="button"
-              className="nav-item"
-              aria-current={page.id === activePageId ? "page" : undefined}
-              disabled={disabled}
-              onClick={() => setActivePageId(page.id)}
-            >
-              {page.label}
-            </button>
-          );
-        })}
-      </nav>
+      <div className="app-body">
+        <aside className="app-sidebar">
+          <nav className="app-nav" aria-label="Pages">
+            <span className="nav-heading">WORKSPACE</span>
+            {pages.map((page) => {
+              const disabled = Boolean(page.requiresProject) && projectId === null;
+              return (
+                <button
+                  key={page.id}
+                  type="button"
+                  className="nav-item"
+                  data-page={page.id}
+                  aria-current={page.id === activePageId ? "page" : undefined}
+                  disabled={disabled}
+                  onClick={() => setActivePageId(page.id)}
+                >
+                  <span className="nav-indicator" aria-hidden="true" />
+                  {page.label}
+                </button>
+              );
+            })}
+          </nav>
+          <div className="sidebar-footer">
+            <span className="sidebar-footer-label">RENDER ENGINE</span>
+            <strong>Remotion 4</strong>
+            <span>Local preview mode</span>
+          </div>
+        </aside>
 
-      <main className="app-main">
-        {ActiveComponent ? (
-          <ActiveComponent context={context} />
-        ) : (
-          <p>No pages are registered.</p>
-        )}
-      </main>
+        <main className="app-main">
+          {ActiveComponent ? (
+            <ActiveComponent context={context} />
+          ) : (
+            <p>No pages are registered.</p>
+          )}
+        </main>
+      </div>
     </div>
   );
 }
